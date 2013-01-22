@@ -1,0 +1,1 @@
+this.Application=this.Application||{},this.Application.Templates=this.Application.Templates||{},this.Application.Templates.home=function(obj){var __p="";with(obj||{})__p+="HOME";return __p};

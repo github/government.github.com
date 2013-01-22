@@ -1,0 +1,4 @@
+server: true
+auto: true
+exclude: ["node_modules", "package.json", "Gruntfile.coffee", "Gemfile", "Gemfile.lock"]
+root: "/"

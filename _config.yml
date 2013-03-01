@@ -1,0 +1,5 @@
+title: Simple Site
+
+#build config
+server: true
+auto: true

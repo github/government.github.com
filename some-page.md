@@ -6,4 +6,4 @@ permalink: /some-page/
 
 Moar awesome content
 
-[home](/)
+[home](../)

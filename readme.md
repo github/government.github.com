@@ -39,3 +39,7 @@ Available tasks:
        default  Alias for "cs", "jst", "stylus", "uglify", "cssmin", "clean"   
                 tasks.        
 ```
+
+## Contributing to the agency list
+
+Simply edit the list in `_config.yml`. Everything else is dynamic.

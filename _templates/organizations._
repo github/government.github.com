@@ -1,0 +1,7 @@
+<h2><%= name %></h2>
+<ul class="organizations"></ul>
+<ul class="meta">
+  <li>Organizations: <span class="count">0</span></li>
+  <li>Public Repositories: <span class="public_repos">0</span></li>
+</ul>
+

@@ -10,7 +10,8 @@ window.Application = {
   Collections: {},
   Views: {},
   Router: {},
-  Templates: {}
+  Templates: {},
+  data: {}
 };
 {% include js/templates.js %}
 {% include js/app.js %}

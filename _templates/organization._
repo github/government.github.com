@@ -1,0 +1,3 @@
+<a href="<%= html_url %>" title="<%= name %>">
+  <img class="avatar" src="<%= avatar_url %>" alt= "<%= name %>" target="_blank"/>
+</a>

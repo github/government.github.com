@@ -58,7 +58,7 @@ module.exports = (grunt) ->
         files:
           "_includes/js/templates.js": "_includes/js/templates.js"
           
-    mincss:
+    cssmin:
       compress:
         files:
           "_includes/css/app.css": "_includes/css/app.css"
@@ -76,7 +76,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-uglify'
   grunt.loadNpmTasks 'grunt-contrib-watch'
-  grunt.loadNpmTasks 'grunt-contrib-mincss'
+  grunt.loadNpmTasks 'grunt-contrib-cssmin'
   grunt.loadNpmTasks 'grunt-contrib-clean'
   grunt.loadNpmTasks 'grunt-coffeelint'
   grunt.loadNpmTasks 'grunt-jekyll'
@@ -86,4 +86,4 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-jst'
 
   grunt.registerTask 'cs', ["coffeelint", "concat", "coffee"]
-  grunt.registerTask 'default', ["cs", "jst", "stylus", "uglify", "mincss", "clean"]
+  grunt.registerTask 'default', ["cs", "jst", "stylus", "uglify", "cssmin", "clean"]

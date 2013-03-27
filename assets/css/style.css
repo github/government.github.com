@@ -2,6 +2,11 @@
 layout: nil
 ---
 
-{% include css/bootstrap.css %}
-{% include css/bootstrap-responsive.css %}
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+{% include css/bootstrap.min.css %}
+{% include css/bootstrap-responsive.min.css %}
 {% include css/app.css %}

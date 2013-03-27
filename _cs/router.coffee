@@ -1,9 +1,9 @@
 class Router extends Backbone.Router
 
   routes:
-    "": "home"
+    "community/": "community"
     
-  home: ->
-    new Application.Views.Home().render()
+  community: ->
+    new Application.Views.Community().render()
     
 Application.router = new Router()

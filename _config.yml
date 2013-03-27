@@ -1,4 +1,79 @@
-server: true
-auto: true
+#list of GitHub organization usernames, grouped by type
+organizations:
+
+  united_states:
+    - adlnet
+    - cfpb
+    - EducationDataInitiative
+    - erdc-cm
+    - fcc
+    - gsa
+    - GSA-OCSIT
+    - hhs
+    - LibraryOfCongress
+    - nasa
+    - nationalparkservice
+    - NCIP
+    - nrel
+    - opengovplatform
+    - presidential-innovation-fellows
+    - usagov
+    - USDepartmentofLabor
+    - USEPA
+    - usgs
+    - usnationalarchives
+    - whitehouse
+
+  argentina:
+    - gcba
+
+  canada:
+    - nsgov
+    - pwgsc
+
+  finland:
+    - avoinministerio
+
+  norway:
+    - difi
+
+  united_kingdom:
+    - alphagov
+    - lichfield-district-council
+
+  state:
+    - nysenate
+#    - wsdot
+
+  county:
+    - sfcta
+    - miamidade
+    - pueblocounty
+
+  city:
+    - chicago
+#    - sfgov
+    - cityofnewyork
+    - octolabs
+    - city-of-bloomington
+    - city-of-bellingham
+    - egovpdx
+
+  civic_hackers:
+    - codeforamerica
+    - sunlightlabs
+    - opengovfoundation
+
+#global settings
+title: "GitHub for Government"
+description: "Making government better, one repo at a time"
+
+#API Keys to avoid rate limiting during development
+client_id: ""
+client_secret: ""
+
+#build settings
 exclude: ["node_modules", "package.json", "Gruntfile.coffee", "Gemfile", "Gemfile.lock"]
 root: "/"
+server: true
+auto: true

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+echo "bundling installin'"
+bundle install
+
+echo "npm installin'"
+npm install
+
+echo
+echo "Sweet! Now script/server and you're all set, G-man."

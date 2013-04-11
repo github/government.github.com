@@ -1,6 +1,6 @@
 # GitHub for Government
 
-*The [gov.github.com](http://gov.github.com) of the future, today.*
+*The [gov.github.com](http://gov.github.com) of the future, here today.*
 
 ## Vision
 
@@ -36,7 +36,7 @@ This could also serve as a vehicle to crowd source a collaborative list of gover
 3. `script/bootstrap`
 4. `script/server`
 5. `open http://localhost:4000`
-6. There is no step 6.
+6. Profit.
 
 ## Roadmap
 

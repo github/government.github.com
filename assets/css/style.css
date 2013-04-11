@@ -9,4 +9,30 @@ body {
 
 {% include css/bootstrap.min.css %}
 {% include css/bootstrap-responsive.min.css %}
-{% include css/app.css %}
+
+.type {
+  clear: both;
+  padding-bottom: 30px;
+}
+.organizations {
+  margin: 0;
+}
+.organization {
+  float: left;
+  padding: 5px 5px 5px 0;
+  list-style: none;
+}
+.avatar {
+  height: 80px;
+  width: 80px;
+}
+.meta {
+  clear: both;
+  list-style: none;
+  margin: 0;
+}
+.meta li {
+  float: left;
+  color: #ccc;
+  padding-right: 25px;
+}

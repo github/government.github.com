@@ -1,25 +1,7 @@
 {
   "name": "gov-on-github",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {
-    "grunt": "latest",
-    "grunt-cli": "latest",
-    "grunt-contrib-jshint": "latest",
-    "coffee-script": "latest",
-    "uglify-js": "latest",
-    "clean-css": "latest",
-    "grunt-contrib-coffee": "latest",
-    "grunt-contrib-concat": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-coffeelint": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-contrib-cssmin": "latest",
-    "grunt-contrib-clean": "latest",
-    "grunt-jekyll": "latest",
-    "grunt-contrib-imagemin": "latest",
-    "grunt-css": "latest",
-    "grunt-contrib-less": "latest",
-    "grunt-contrib-jst": "latest",
-    "grunt-contrib-stylus": "latest"
+    "coffee-script": "latest"
   }
 }

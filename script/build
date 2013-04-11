@@ -4,4 +4,4 @@ set -e
 
 coffee -c _includes/js/community.coffee
 
-bundle exec jekyll
+bundle exec jekyll --no-server --no-auto

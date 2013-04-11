@@ -5,7 +5,7 @@
 ## Requirements
 
 * Jekyll (ruby)
-* Grunt (node, npm)
+* CoffeeScript (node, npm)
 
 ## Setup
 
@@ -16,29 +16,15 @@
 5. `open http://localhost:4000`
 6. There is no step 6.
 
+## How to contribute
+
+1. Create a new feature branch
+2. Push changes
+3. Submit a pull request
+
 ## Compiling
 
-The site uses CoffeeScript, JST, and Stylus pre-processors. To compile, simply run `grunt`. 
-
-Available tasks:
-
-```
-        concat  Concatenate files. *                                           
-        coffee  Compile CoffeeScript files into JavaScript *                   
-        uglify  Minify files with UglifyJS. *                                  
-         watch  Run predefined tasks whenever watched files change.            
-        cssmin  Minify CSS files with clean-css. *                             
-         clean  Clean files and folders. *                                     
-    coffeelint  Validate files with CoffeeLint *                               
-        jekyll  This triggers the `jekyll` command. *                          
-      imagemin  Minify PNG and JPEG images *                                   
-       csslint  Lint CSS files with csslint *                                  
-        stylus  Compile Stylus files into CSS *                                
-           jst  Compile underscore templates to JST file *                     
-            cs  Alias for "coffeelint", "concat", "coffee" tasks.              
-       default  Alias for "cs", "jst", "stylus", "uglify", "cssmin", "clean"   
-                tasks.        
-```
+The site uses CoffeeScript to generate the `/community` page dynamically. To recompile the CoffeeScript, simply `script/build`. *Note:* This will fire automatically before `script/server` as well. 
 
 ## Contributing to the agency list
 

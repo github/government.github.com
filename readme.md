@@ -11,10 +11,10 @@
 
 1. `Git clone [URL to Repo]`
 2. `cd [path to repo]`
-3. `bundle install`
-4. `npm install`
-5. `jekyll`
-6. `open http://localhost:4000`
+3. `script/bootstrap`
+4. `script/server`
+5. `open http://localhost:4000`
+6. There is no step 6.
 
 ## Compiling
 

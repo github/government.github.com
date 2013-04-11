@@ -23,6 +23,7 @@ organizations:
     - usgs
     - usnationalarchives
     - whitehouse
+    - usasearch
 
   argentina:
     - gcba

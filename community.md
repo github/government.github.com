@@ -6,6 +6,8 @@ permalink: /community/
 
 # {{ page.title }}
 
+Government agencies at the national, state, and local level use GitHub to share and collaborate. Don't see your organization's name on this list? [Get started today](/getting-started/).
+
 <div class="community">
 Loading...
 </div>

@@ -4,9 +4,11 @@ layout: default
 permalink: /best-practices/
 ---
 
-**Note: This copy is adapted from [Open Source For Government](http://ben.balter.com/open-source-for-government), and is intended to be heavily adapted before use.**
+<div class="page-header">
+  <h1>{{ page.title }}</h1>
+</div>
 
-# {{ page.title }}
+<div class="alert">Note: This copy is adapted from <a href="http://ben.balter.com/open-source-for-government">Open Source For Government</a>, and is intended to be heavily adapted before use.</div>
 
 ### Contents
 

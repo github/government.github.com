@@ -4,9 +4,11 @@ layout: default
 permalink: /community/
 ---
 
-# {{ page.title }}
+<div class="page-header">
+  <h1>{{ page.title }}</h1>
+</div>
 
-Government agencies at the national, state, and local level use GitHub to share and collaborate. Don't see your organization's name on this list? [Get started today](/getting-started/).
+<p class="lead">Government agencies at the national, state, and local level use GitHub to share and collaborate. Don't see your organization's name on this list? <a href="/getting-started/">Get started today</a>.</p>
 
 <div class="community">
 Loading...

@@ -31,8 +31,8 @@ This could also serve as a vehicle to crowd source a collaborative list of gover
 
 ## Setup
 
-1. `Git clone [URL to Repo]`
-2. `cd [path to repo]`
+1. `Git clone https://github.com/github/gov.github.com.git`
+2. `cd gov.github.com`
 3. `script/bootstrap`
 4. `script/server`
 5. `open http://localhost:4000`

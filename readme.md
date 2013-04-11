@@ -1,6 +1,28 @@
 # GitHub for Government
 
-*A proof of concept microsite showcasing how GitHub can make government more awesomer*
+*The [gov.github.com](http://gov.github.com) of the future, today.*
+
+## Vision
+
+A microsite that lives at [gov.github.com](http://gov.github.com).
+
+**High-level ideas:**
+
+* Excite and encourage government adoption of open source
+* Educate public servants about the open source ethos and its benefits
+* Showcase successful use cases to give the agencies some love (and excite the developer community)
+* FAQ / Best Practices (ideally collaborative) to lower barrier to getting started
+
+**Prior art:**
+
+* https://github.com/github/government
+* http://www.google.com/enterprise/apps/government/
+* http://aws.amazon.com/federal/
+* http://ben.balter.com/open-source-for-government
+
+See [github/gov/#2](https://github.com/github/gov/issues/2) for more background. The goal is the site to be entirely static (Jekyll/GitHub Pages) and open source so governmenty types can contribute.
+
+This could also serve as a vehicle to crowd source a collaborative list of government organizations on GitHub while we figure out a better way to collect that info on our end.
 
 ## Requirements
 
@@ -15,6 +37,10 @@
 4. `script/server`
 5. `open http://localhost:4000`
 6. There is no step 6.
+
+## Roadmap
+
+Check out the [current issues](https://github.com/github/gov-microsite/issues) to see what's in the pipeline.
 
 ## How to contribute
 

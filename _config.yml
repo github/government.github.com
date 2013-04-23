@@ -24,7 +24,6 @@ organizations:
     - usnationalarchives
     - whitehouse
     - usasearch
-    - nys-its
     
   argentina:
     - gcba
@@ -46,6 +45,7 @@ organizations:
   state:
     - nysenate
 #    - wsdot
+    - nys-its
 
   county:
     - sfcta

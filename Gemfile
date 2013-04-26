@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem "rack-contrib"
-gem "puma"
+gem "sinatra"
+gem "sinatra-index"
 gem "rake"
+gem "sinatra_auth_github"

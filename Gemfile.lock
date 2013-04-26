@@ -25,6 +25,7 @@ GEM
     rack (1.5.2)
     rack-contrib (1.1.0)
       rack (>= 0.9.1)
+    rake (10.0.4)
     syntax (1.0.0)
     yajl-ruby (1.1.0)
 
@@ -35,3 +36,4 @@ DEPENDENCIES
   jekyll
   puma
   rack-contrib
+  rake

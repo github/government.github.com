@@ -21,7 +21,7 @@ But what if you only want to share that site with a select number of people? Bef
 2. Give Heroku you app's Oauth Credentials, and the name of your org
 3. Profit
 
-## How it works (under the hood)
+## How it really works
 
 Every time you push to Heroku, we take advantage of the fact that Heroku automatically runs the `rake assets:precompile` command (normally used for Rails sites) to build our Jekyll site and store it statically, just like GitHub pages would.
 

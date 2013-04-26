@@ -1,6 +1,12 @@
 # Jekyll Auth
 
-*A simple way to use Github Oauth to serve a protected jekyll site to your organization*
+*A simple way to use Github Oauth to serve a protected jekyll site to your GitHub organization*
+
+## The problem
+
+[Jekyll](http://github.com/mojombo/jekyll) and [GitHub Pages](http://pages.github.com) are awesome, right? Static site, lighting fast, everything versioned in Git. What else could you ask for?
+
+But what if you only want to share that site with a select number of people? Before, you were SOL. Now, simply host the site on a free, [Heroku](http://heroku.com) Dymo, and whenever someone tries to access it, it will oauth them against GitHub, and make sure they're a member of your Organization. Pretty cool, huh?
 
 ## Requirements
 
@@ -12,18 +18,18 @@
 ## How it works
 
 1. Set up your Jekyll site (see below)
-2. Give Heroku you apps Oauth Credentials, and the name of your org
+2. Give Heroku you app's Oauth Credentials, and the name of your org
 3. Profit
 
 ## Setup
 
-To setup your site to work with Heroku, simply copy the contents of this repository (sans `readme.md` over to your existing (or new) Jekyll site.
+To setup your site to work with Heroku, simply copy the contents of this repository (sans `readme.md`) over to your existing (or new) Jekyll site. If you've got an existing `_config.yml` file, you'll want to merge this repository's `exclude` values with your own to avoid any conficts.
 
-*Note:* This repo contains a single-file test site to get you started and make sure it works. If you don't need that, just go ahead and delete the `index.md` file before you copy things over.
+*Note:* This repo contains a single-file test site to get you started and make sure it works. If you don't need that, just go ahead and delete the `index.md` file before you copy things over. 
 
 ## Configuring Heroku 
 
-You'll need to tell heroku a bit about your setup. You can find these on [your application page](https://github.com/settings/applications). First:
+You'll need to tell heroku a bit about yourself. You can find these on [your application page](https://github.com/settings/applications). First:
 
 `heroku config:set GITHUB_CLIENT_ID=[your github app client id]`
 
@@ -35,12 +41,14 @@ finally:
 
 `heroku config:set GITHUB_ORG_ID=[org id]`
 
-(where orgid is the *name* of your organization)
+(where `[org id]` is the *name* of your organization, just like in the URL)
 
 ## Running locally
+
+Want to run it locally? `./script/` is here to help!
 
 1. `script/bootsrap`
 2. Configure as above, except use `EXPORT` rather than `heroku config:set`
 3. `script/server` (or `bundle exec jekyll --server` for unauthenticated site)
 
-*note:* You may need to have two apps, one with a local callback, and one for production
+*note:* For sanity sake, you may want to have two apps, one with a local oauth callback, and one for production.

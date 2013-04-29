@@ -55,7 +55,7 @@ finally:
 
 Want to run it locally? `./script/` is here to help!
 
-1. `script/bootsrap`
+1. `script/bootstrap`
 2. Configure as above, except use `EXPORT` rather than `heroku config:set`
 3. `script/server` (or `bundle exec jekyll --server` for unauthenticated site)
 

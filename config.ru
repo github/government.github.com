@@ -8,7 +8,7 @@ class JekyllSite < Sinatra::Base
   #init github_ouath
   enable :sessions
   set :github_options, {
-    :scopes    => "user",
+    :scopes    => "",
     :secret    => ENV['GITHUB_CLIENT_SECRET'],
     :client_id => ENV['GITHUB_CLIENT_ID'],
   }

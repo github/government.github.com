@@ -57,6 +57,6 @@ Want to run it locally? `./script/` is here to help!
 
 1. `script/bootstrap`
 2. Configure as above, except use `EXPORT` rather than `heroku config:set`
-3. `script/server` (or `bundle exec jekyll --server` for unauthenticated site)
+3. `script/server --auth` for an authenticated site, or just `script/server` for plain-Jane Jekyll
 
-*note:* For sanity sake, you may want to have two apps, one with a local oauth callback, and one for production.
+*note:* For sanity sake, and to avoid problems with your callback URL you may want to have two apps, one with a local oauth callback, and one for production if you're going to be testing auth locally.

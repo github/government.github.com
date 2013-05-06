@@ -16,7 +16,12 @@ class JekyllSite < Sinatra::Base
 
   #auth
   before do
-    pass if github_organization_authenticate!(ENV['GITHUB_ORG_ID'])
+    if ENV.include?('GITHUB_ORG_ID')
+      pass if github_organization_authenticate!(ENV['GITHUB_ORG_ID'])
+    end
+    if ENV.include?('GITHUB_TEAM_ID')
+      pass if github_team_authenticate!(ENV['GITHUB_TEAM_ID'])
+    end
   end
 
   #static site servin'

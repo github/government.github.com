@@ -33,9 +33,9 @@ If they're in the org, they get the page. Otherwise, all they ever get is [the b
 
 To setup your site to work with Heroku, simply copy the contents of this repository (sans `readme.md`) over to your existing (or new) Jekyll site. If you've got an existing `_config.yml` file, you'll want to merge this repository's `exclude` values with your own to avoid any conficts.
 
-*Note:* This repo contains a single-file test site to get you started and make sure it works. If you don't need that, just go ahead and delete the `index.md` file before you copy things over. 
+*Note:* This repo contains a single-file test site to get you started and make sure it works. If you don't need that, just go ahead and delete the `index.md` file before you copy things over.
 
-## Configuring Heroku 
+## Configuring Heroku
 
 You'll need to tell heroku a bit about yourself. You can find these on [your application page](https://github.com/settings/applications). First:
 
@@ -45,11 +45,12 @@ then:
 
 `heroku config:set GITHUB_CLIENT_SECRET=[your github app client secret]`
 
-finally:
+finally do one (or both) of these 2 options:
 
-`heroku config:set GITHUB_ORG_ID=[org id]`
+* `heroku config:set GITHUB_ORG_ID=[org id]`
+* `heroku config:set GITHUB_TEAM_ID=[team id]`
 
-(where `[org id]` is the *name* of your organization, just like in the URL)
+Where `[org id]` is the *name* of your organization, just like in the URL and `[team id]` is an integer (found in the URL when looking at the team)
 
 ## Running locally
 

@@ -9,8 +9,7 @@ gem 'rdiscount',  '=1.6.8'
 gem 'RedCloth',   '=4.2.9'
 
 #jekyll-auth
-gem "sinatra"
-gem "sinatra-index"
+gem "rack"
 gem "rake"
-gem "sinatra_auth_github"
+gem "warden-github"
 gem "foreman"

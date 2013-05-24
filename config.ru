@@ -1,34 +1,65 @@
 require 'rubygems'
-require 'sinatra/base'
-require 'sinatra/auth/github'
-require 'sinatra-index'
+require 'rack'
+require 'warden'
+require 'warden/github'
 
-class JekyllSite < Sinatra::Base
+#inspired by https://github.com/raul/rack-static-boilerplate/blob/master/config.ru
+module Rack
+  class JekyllSite
 
-  #init github_ouath
-  enable :sessions
-  set :github_options, {
-    :scopes    => "user",
-    :secret    => ENV['GITHUB_CLIENT_SECRET'],
-    :client_id => ENV['GITHUB_CLIENT_ID'],
-  }
-  register Sinatra::Auth::Github
-
-  #auth
-  before do
-    if ENV.include?('GITHUB_ORG_ID')
-      pass if github_organization_authenticate!(ENV['GITHUB_ORG_ID'])
+    def initialize(app, options)
+      @app = app
+      @try = ['', *options.delete(:try)]
+      @static = ::Rack::Static.new(lambda { [404, {}, []] }, options)
     end
-    if ENV.include?('GITHUB_TEAM_ID')
-      pass if github_team_authenticate!(ENV['GITHUB_TEAM_ID'])
+
+    def call(env)
+
+      auth!(env)
+
+      orig_path = env['PATH_INFO']
+      found = nil
+      @try.each do |path|
+        resp = @static.call(env.merge!({'PATH_INFO' => orig_path + path}))
+        break if 404 != resp[0] && found = resp
+      end
+      found or @app.call(env.merge!('PATH_INFO' => orig_path))
     end
+
+    def auth!(env)
+      env['warden'].authenticate!  
+      user = env['warden'].user
+      if ENV.include?('GITHUB_ORG_ID')
+        puts "ORG AUTH"
+        Rack::JekyllSite::bounce! unless user.organization_member? ENV['GITHUB_ORG_ID']
+      end
+      if ENV.include?('GITHUB_TEAM_ID')
+        puts "TEAM AUTH"
+        Rack::JekyllSite::bounce! unless user.team_member? ENV['GITHUB_TEAM_ID']
+      end
+    end
+
+    def self.bounce!
+      puts "BOUNCE"
+    end
+
   end
-
-  #static site servin'
-  register Sinatra::Index
-  use_static_index 'index.html'
-  set :public_folder, '_site'
-
 end
 
-run JekyllSite.new
+GITHUB_CONFIG = {
+  :client_id     => ENV['GITHUB_CLIENT_ID'],
+  :client_secret => ENV['GITHUB_CLIENT_SECRET'],
+  :scope         => 'user'
+}
+
+use Rack::Session::Cookie, :secret => ENV['GITHUB_CLIENT_SECRET']
+
+use Warden::Manager do |config|
+  config.failure_app = lambda { |env| [ 401, { 'Content-Type'  => 'text/html' }, ['401 - Unauthorized'] ] }
+  config.default_strategies :github
+  config.scope_defaults :default, :config => GITHUB_CONFIG
+end
+
+use Rack::JekyllSite, :root => "_site", :urls => %w[/], :try => [ 'index.html', '/index.html']
+
+run lambda{ |env| [ 404, { 'Content-Type'  => 'text/html' }, ['404 - page not found'] ] }

@@ -2,6 +2,11 @@
 
 set -e
 
+echo "compiling cofeescript"
 coffee -c _includes/js/community.coffee
 
-bundle exec jekyll
+echo "Starting server."
+bundle exec jekyll serve -w
+
+echo "Cleaning up..."
+rm -Rf _site

@@ -2,6 +2,8 @@
 
 *The [gov.github.com](http://gov.github.com) of the future, here today.*
 
+![screen shot](https://f.cloud.github.com/assets/282759/562427/c2f78630-c4a9-11e2-9812-bb2351929f9b.png)
+
 ## Vision
 
 A microsite that lives at [gov.github.com](http://gov.github.com).
@@ -24,12 +26,22 @@ See [github/gov/#2](https://github.com/github/gov/issues/2) for more background.
 
 This could also serve as a vehicle to crowd source a collaborative list of government organizations on GitHub while we figure out a better way to collect that info on our end.
 
+## Viewing
+
+Temporary internal staging server: http://gov.githubapp.com
+
+## Deploying 
+
+`/deploy gov` (for now)
+
+(eventually will be GitHub pages)
+
 ## Requirements
 
 * Jekyll (ruby)
 * CoffeeScript (node, npm)
 
-## Setup
+## Setup Locally
 
 1. `Git clone https://github.com/github/gov.github.com.git`
 2. `cd gov.github.com`

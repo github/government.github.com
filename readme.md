@@ -55,3 +55,7 @@ The site uses CoffeeScript to generate the `/community` page dynamically. To rec
 ## Contributing to the agency list
 
 Simply edit the list in `_config.yml`. Everything else is dynamic.
+
+## Jekyll Auth
+
+For information on authentication, see the [Jekll-auth readme](https://github.com/benbalter/jekyll-auth)

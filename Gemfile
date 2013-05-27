@@ -8,8 +8,5 @@ gem 'maruku',     '=0.6.1'
 gem 'rdiscount',  '=1.6.8'
 gem 'RedCloth',   '=4.2.9'
 
-#jekyll-auth
-gem "rack"
-gem "rake"
-gem "warden-github"
-gem "foreman"
+gem 'sinatra-index'
+gem 'sinatra_auth_github'

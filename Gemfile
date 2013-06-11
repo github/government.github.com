@@ -10,3 +10,5 @@ gem 'RedCloth',   '=4.2.9'
 
 gem 'sinatra-index'
 gem 'sinatra_auth_github'
+gem 'rake'
+gem 'foreman'

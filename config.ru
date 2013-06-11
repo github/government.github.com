@@ -1,34 +1,40 @@
 require 'rubygems'
-require 'sinatra/base'
-require 'sinatra/auth/github'
+require 'bundler/setup'
 require 'sinatra-index'
+require 'sinatra_auth_github'
 
-class JekyllSite < Sinatra::Base
-
-  #init github_ouath
-  enable :sessions
+class AuthSite < Sinatra::Base
   set :github_options, {
-    :scopes    => "user",
-    :secret    => ENV['GITHUB_CLIENT_SECRET'],
-    :client_id => ENV['GITHUB_CLIENT_ID'],
+    :client_id     => ENV['GITHUB_CLIENT_ID'],
+    :client_secret => ENV['GITHUB_CLIENT_SECRET'],
+    :scope         => 'user'
   }
+
   register Sinatra::Auth::Github
 
-  #auth
   before do
-    if ENV.include?('GITHUB_ORG_ID')
-      pass if github_organization_authenticate!(ENV['GITHUB_ORG_ID'])
-    end
-    if ENV.include?('GITHUB_TEAM_ID')
-      pass if github_team_authenticate!(ENV['GITHUB_TEAM_ID'])
+    if ENV['GITHUB_TEAM_ID']
+      github_team_authenticate!(ENV['GITHUB_TEAM_ID'])
+    elsif ENV['GITHUB_ORG_ID']
+      github_organization_authenticate!(ENV['GITHUB_ORG_ID'])
+    else
+      [ 401, { 'Content-Type'  => 'text/html' }, ['401 - Unauthorized'] ]
     end
   end
-
-  #static site servin'
-  register Sinatra::Index
-  use_static_index 'index.html'
-  set :public_folder, '_site'
-
+  use Rack::Static, :root => "_site", :urls => %w[/index.html]
 end
 
-run JekyllSite.new
+class JekyllSite < Sinatra::Base
+  register Sinatra::Index
+  set :public_folder, '_site'
+  use_static_index 'index.html'
+end
+
+app = Rack::Builder.new do
+  use Rack::Static, :root => "_site"
+  use Rack::Session::Cookie, :secret => ENV['SESSION_SECRET'] || SecureRandom.hex
+  use AuthSite
+  run JekyllSite
+end
+
+run app

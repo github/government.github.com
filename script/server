@@ -2,10 +2,6 @@
 
 set -e
 
-#kill _site folder
-echo "cleaning up..."
-rm -Rf _site
-
 #build the site
 echo "buildin' the site..."
 bundle exec rake assets:precompile
@@ -16,7 +12,7 @@ if [ $* -a $1 == "--auth" ]; then
   #check for env vars
   if [ -z $GITHUB_CLIENT_ID ]; then
     echo "Whoops. Looks like you forgot to tell the server about your app"
-    echo "Be sure to run export GITHUB_CLIENT_ID=[client id], export GITHUB_CLIENT_SECRET=[client secret], and export GITHUB_ORG_ID=[org id]"
+    echo "Be sure to run export GITHUB_CLIENT_ID=[client id], export GITHUB_CLIENT_SECRET=[client secret], and export GITHUB_ORG_ID=[org id] (or GITHUB_TEAM_ID)"
     echo "See the readme for more information on where to find these"
     exit
   fi
@@ -31,6 +27,10 @@ else
   #server sans auth
   echo "Spinning up the server sans authentication..."
   echo "If you want authentication, just add --auth to the script/server command"
-  bundle exec jekyll --server --auto
+  bundle exec jekyll serve -w
 
 fi
+
+#kill _site folder
+echo "cleaning up..."
+rm -Rf _site

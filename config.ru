@@ -32,7 +32,7 @@ class JekyllSite < Sinatra::Base
 end
 
 app = Rack::Builder.new do
-  use Rack::Static, :urls => ["/assets", "/images"], :root => "_site"
+  use Rack::Static, :root => "_site"
   use Rack::Session::Cookie, :secret => ENV['SESSION_SECRET'] || SecureRandom.hex
   use AuthSite
   run JekyllSite

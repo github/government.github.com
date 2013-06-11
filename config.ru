@@ -14,9 +14,9 @@ class AuthSite < Sinatra::Base
 
   before do
     authenticate!
-    if ENV['GITHUB_ORG_ID']
-      github_team_authenticate!(ENV['GITHUB_TEAMID'])
-    elsif ENV['GITHUB_TEAM_ID']
+    if ENV['GITHUB_TEAM_ID']
+      github_team_authenticate!(ENV['GITHUB_TEAM_ID'])
+    elsif ENV['GITHUB_ORG_ID']
       github_organization_authenticate!(ENV['GITHUB_ORG_ID'])
     else
       [ 401, { 'Content-Type'  => 'text/html' }, ['401 - Unauthorized'] ]

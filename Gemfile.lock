@@ -34,7 +34,7 @@ GEM
     liquid (2.5.0)
     maruku (0.6.1)
       syntax (>= 1.0.0)
-    multi_json (1.7.3)
+    multi_json (1.7.4)
     multipart-post (1.2.0)
     netrc (0.7.7)
     octokit (1.24.0)
@@ -86,6 +86,5 @@ DEPENDENCIES
   rake
   rdiscount (= 1.6.8)
   redcarpet (= 2.2.2)
-  sinatra
   sinatra-index
   sinatra_auth_github

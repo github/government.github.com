@@ -7,7 +7,7 @@ class AuthSite < Sinatra::Base
   set :github_options, {
     :client_id     => ENV['GITHUB_CLIENT_ID'],
     :client_secret => ENV['GITHUB_CLIENT_SECRET'],
-    :scope         => 'user'
+    :scopes        => 'user'
   }
 
   register Sinatra::Auth::Github

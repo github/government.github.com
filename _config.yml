@@ -70,7 +70,8 @@ organizations:
     - codeforamerica
     - sunlightlabs
     - opengovfoundation
-
+    - open-city
+    
 #global settings
 title: "Join the Revolution"
 description: "Stories of open data, open source, and open collaboration"

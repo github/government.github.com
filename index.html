@@ -1,58 +1,51 @@
 ---
-layout: default
-title: "GitHub for Government"
-description: "Making government better, one repo at a time"
+layout: home
 permalink: /
 ---
 
-<div class="hero-unit">
-  <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}</p>
+<div class="stories">
+
+  {% for post in site.posts %}
+
+    <article>
+      <div class="category">{{ post.category }}</div>
+      <img src="{{ post.image }}" alt="{{ post.title }}" /> 
+      <div class="meta">Published {{ post.date | date: "%B %d, %Y"}}</div>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="description">{{ post.description }}</div>
+    </article>
+
+  {% endfor %}
+
 </div>
 
-<h2>The GitHub Way&trade;</h2>
-<div class="row">
-    <div class="span4">
-      <img src="http://dummyimage.com/200" />
-      <h3>The world&rsquo;s largest open source community.</h3>
-      <p>Open source is all about community. GitHub connects you with millions of passionate users and gives you the tools you need to grow your own. <a href="https://github.com/features/community">Read more &rarr;</a></p>
-    </div>
-    <div class="span4">
-      <img src="http://dummyimage.com/200" />
-      <h3>In your datacenter, or in the cloud.</h3>
-      <p>Create public and private repositories, hosted on GitHub.com, or install GitHub in your own datacenter for even more control. It's up to you. <a href="https://enterprise.github.com/">Read more &rarr;</a></p>
-    </div> 
-    <div class="span4">
-      <img src="http://dummyimage.com/200" />
-      <h3>Great collaboration starts with communication.</h3>
-      <p>Whether collaborating with the public, or just with your team, having the right tools are critical. At GitHub, we've got communications covered. <a href="https://github.com/features/">Read More &rarr;</a></p>
-    </div>
-</div>
-
-<h2>Notable Projects</h2>
-<div class="row">
-  <div class="span4">
-    <img src="http://github.com/sunlightlabs.png" />
-    <h3>Open Source</h3>
-    <p>The SunLight Foundation used GitHub to... <a href="case-studies/sunlight/">Read more &rarr;</a></p>
-  </div>
-  <div class="span4">
-    <img src="http://github.com/chicago.png" />
-    <h3>Open Data</h3>
-    <p>The City of Chicago used GitHub to publish the city's open street city data... <a href="case-studies/chicago/">Read more &rarr;</a></p>
-  </div>
-  <div class="span4">
-    <img src="http://github.com/whitehouse.png" />
-    <h3>Open Government</h3>
-    <p>The White House used GitHub to publish ____ and create an collaborative commons around official government policy... <a href="case-studies/white-house/">Read more &rarr;</a></p>
+<div class="row organizations">
+  <div class="span12">
+    some orgs here...<br />
+    <a href="/community">See the complete list &rarr;</a>
   </div>
 </div>
 
-<div class="row">
-  <div class="span6 offset3">
-    <div class="well text-center">
-      <h4>See <a href="{{ site.base }}community/">everyone who's using GitHub</a>, or</h4>
-      <a href="/getting-started/" class="btn btn-primary btn-large">Get started today</a></h4>
-    </div>
+<div class="row call-to-action">
+  <div class="span4">
+    <a href="/getting-started" class="btn">Join the Revolution</a>
+  </div>
+  <div class="span8">
+    <p>Every day countless governments, non-profits, and civic hackers are using GitHub to make relationships and yada yada better. Become one of their stories.</p>
+  </div>
+</div>
+
+<div class="row links">
+  <div class="span4">
+    <h3><a href="/faq">FAQ</a></h3>
+    <p>Blah</p>
+  </div>
+  <div class="span4">
+    <h3><a href="/getting-started">Getting Started</a></h3>
+    <p>Blah</p>
+  </div>
+  <div class="span4">
+    <h3><a href="/glossary">Glossary of Jargon</a></h3>
+    <p>Blah</p>
   </div>
 </div>

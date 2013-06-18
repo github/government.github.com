@@ -2,9 +2,6 @@
 
 set -e
 
-echo "compiling cofeescript"
-coffee -c _includes/js/community.coffee
-
 #build the site
 echo "buildin' the site..."
 bundle exec rake assets:precompile

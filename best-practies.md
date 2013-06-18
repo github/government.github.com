@@ -1,12 +1,8 @@
 ---
 title: Best Practices
-layout: default
+layout: page
 permalink: /best-practices/
 ---
-
-<div class="page-header">
-  <h1>{{ page.title }}</h1>
-</div>
 
 <div class="alert">Note: This copy is adapted from <a href="http://ben.balter.com/open-source-for-government">Open Source For Government</a>, and is intended to be heavily adapted before use.</div>
 

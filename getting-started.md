@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-layout: default
+layout: page
 permalink: /getting-started/
 ---
 

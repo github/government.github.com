@@ -1,0 +1,14 @@
+{% include header.html %}
+  
+  <div class="category">{{ page.category }}</div>
+  <img src="{{ page.image }}" alt="{{ page.title }}" /> 
+  <div class="meta">Published {{ page.date | date: "%B %d, %Y"}}</div>
+  <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+
+  <div id="content">
+
+{{ content }}
+
+  </div><!-- /content -->
+
+{% include footer.html %}

@@ -72,12 +72,8 @@ organizations:
     - opengovfoundation
 
 #global settings
-title: "GitHub for Government"
-description: "Making government better, one repo at a time"
-
-#API Keys to avoid rate limiting during development
-client_id: ""
-client_secret: ""
+title: "Government and GitHub"
+description: "Stories of open data, open source, and open collaboration"
 
 #build settings
 exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md"]

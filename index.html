@@ -4,19 +4,32 @@ permalink: /
 ---
 
 <div class="stories">
-
-  {% for post in site.posts %}
-
-    <article>
-      <div class="category">{{ post.category }}</div>
-      <img src="{{ post.image }}" alt="{{ post.title }}" /> 
-      <div class="meta">Published {{ post.date | date: "%B %d, %Y"}}</div>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="description">{{ post.description }}</div>
-    </article>
-
-  {% endfor %}
-
+  <div class="row">
+    <div class="span8">
+      {% assign post=site.posts[0] %}
+      {% include post-single.html %}
+    </div>
+    <div class="span4">
+      {% assign post=site.posts[1] %}
+      {% include post-single.html %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="span4">
+      {% assign post=site.posts[2] %}
+      {% include post-single.html %}
+    </div>
+    <div class="span4">
+      {% assign post=site.posts[3] %}
+      {% include post-single.html %}
+    </div>
+    <div class="span4">
+      <h2>More</h2>
+      {% for post in site.posts limit:5 offset:4 %}
+        <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      {% endfor %}
+    </div>   
 </div>
 
 <div class="row organizations">

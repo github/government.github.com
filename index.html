@@ -1,6 +1,18 @@
 ---
 layout: home
 permalink: /
+featured_orgs:
+  - whitehouse
+  - alphagov
+  - fcc
+  - gsa
+  - nasa
+  - USDepartmentofLabor
+  - codeforamerica
+  - sunlightlabs
+  - chicago
+  - nys-its
+
 ---
 
 <div class="stories">
@@ -34,8 +46,18 @@ permalink: /
 
 <div class="row organizations">
   <div class="span12">
-    some orgs here...<br />
-    <a href="/community">See the complete list &rarr;</a>
+    <ul>
+      {% for org in page.featured_orgs %}
+        <li class="organization">
+          <a href="http://github.com/{{ org }}" title="{{ org }}">
+          <img class="avatar" src="https://github.com/{{ org }}.png" alt= "{{ org }}" target="_blank"/>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <div style="clear: both">
+      <a href="/community">See the complete list &rarr;</a>
+    </div>
   </div>
 </div>
 

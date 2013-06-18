@@ -1,3 +1,8 @@
+{% comment %}
+This partial is included on the main page and displays a single post. 
+Assign a post to the variable `post` to use.
+{% endcomment %}
+
 <article>
   <div class="category">{{ post.category }}</div>
   <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}" /></a>

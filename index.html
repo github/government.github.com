@@ -10,41 +10,71 @@ featured_orgs:
   - USDepartmentofLabor
   - codeforamerica
   - sunlightlabs
+  - nasa
+  - USDepartmentofLabor
+  - codeforamerica
+  - sunlightlabs
+  - chicago
+  - alphagov
+  - fcc
+  - gsa
+  - nasa
+  - USDepartmentofLabor
+  - codeforamerica
+  - sunlightlabs
   - chicago
   - nys-its
+  - sunlightlabs
+  - nasa
+  - USDepartmentofLabor
+  - codeforamerica
+  - sunlightlabs
+  - chicago
+  - alphagov
+  - fcc
+  - gsa
+  - nasa
+  - USDepartmentofLabor
+  - codeforamerica
+  - sunlightlabs
+  - whitehouse
+  - alphagov
+  - fcc
+  - gsa
+  - sunlightlabs
 
 ---
 
 <div class="stories">
   <div class="row">
-    <div class="span8">
+    <div class="story-unit span8">
       {% assign post=site.posts[0] %}
       {% include post-single.html %}
     </div>
-    <div class="span4">
+    <div class="story-unit span4">
       {% assign post=site.posts[1] %}
       {% include post-single.html %}
     </div>
   </div>
   <div class="row">
-    <div class="span4">
+    <div class="story-unit span4">
       {% assign post=site.posts[2] %}
       {% include post-single.html %}
     </div>
-    <div class="span4">
+    <div class="story-unit span4">
       {% assign post=site.posts[3] %}
       {% include post-single.html %}
     </div>
-    <div class="span4">
+    <div class="story-unit span4">
       <h2>More</h2>
       {% for post in site.posts limit:5 offset:4 %}
         <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <h6 class="more-story"><a href="{{ post.url }}">{{ post.title }}</a></h6>
       {% endfor %}
     </div>   
 </div>
 
-<div class="row organizations">
+<div id="organizations" class="row">
   <div class="span12">
     <ul>
       {% for org in page.featured_orgs %}
@@ -56,17 +86,17 @@ featured_orgs:
       {% endfor %}
     </ul>
     <div style="clear: both">
-      <a href="/community">See the complete list &rarr;</a>
+      <small class="add-pad"><a href="/community">See the complete list &rarr;</a></small>
     </div>
   </div>
 </div>
 
-<div class="row call-to-action">
+<div id="call-to-action" class="row">
   <div class="span4">
-    <a href="/getting-started" class="btn">Join the Revolution</a>
+    <h3 class="join-button"><a href="/getting-started">Join the Revolution</a></h3>
   </div>
   <div class="span8">
-    <p>Every day countless governments, non-profits, and civic hackers are using GitHub to make relationships and yada yada better. Become one of their stories.</p>
+    <h4>Every day countless governments, non-profits, and civic hackers are using GitHub to make relationships and yada yada better. Become one of their stories.</h4>
   </div>
 </div>
 

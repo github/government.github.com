@@ -41,4 +41,55 @@ body {
   margin-bottom: 100px;
 }
 
-h3 { line-height: 25px;}
+h3 {line-height: 25px;}
+
+/* overriding */
+
+body {font-weight: lighter;}
+
+h1 {font-size: 50px; margin: 28px 0px 20px 0px;}
+h3 {font-size: 26px; font-weight: normal;}
+h6 {font-size: 17px; font-weight: normal;}
+
+a {text-decoration: none; color: #333;}
+a:hover {text-decoration: none; color: red;}
+
+header {padding-bottom: 24px;}
+
+.category {
+  padding: 4px 8px; 
+  margin: 0px 0px 4px 0px;
+  background: red; 
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: normal;
+  float: left; /* meeeh */
+}
+.story-unit {
+  background: salmon;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+.story-unit h2 {margin: 0px 0px 4px 0px;}
+.meta {font-family: Merriweather; margin: 8px 0px 0px 0px; font-size: 10px;}
+.more-story {border-left: 4px solid #333; padding-left: 16px;}
+.more-story a {}
+
+#organizations, #call-to-action {
+  padding: 50px 0px;
+}
+#organizations .span12 {
+  margin-left: 0px;
+}
+.add-marg {
+  margin-left: 20px;
+}
+.join-button {
+  background: pink;
+  width: 100%;
+  padding: 18px 0px;
+  text-align: center;
+}
+.join-button:hover {
+  background: red;
+}

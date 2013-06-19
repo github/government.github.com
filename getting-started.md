@@ -4,10 +4,6 @@ layout: page
 permalink: /getting-started/
 ---
 
-<div class="page-header">
-  <h1>{{ page.title }}</h1>
-</div>
-
 <p class="lead">Getting Started with GitHub is as easy as...</p>
 
 <div class="row">

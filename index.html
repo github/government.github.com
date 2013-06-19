@@ -69,7 +69,7 @@ featured_orgs:
       <h2>More</h2>
       {% for post in site.posts limit:5 offset:4 %}
         <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>
-        <h6 class="more-story {{ post.category }}"><a href="{{ post.url }}">{{ post.title }}</a></h6>
+        <h6 class="border-left {{ post.category }}"><a href="{{ post.url }}">{{ post.title }}</a></h6>
       {% endfor %}
     </div>   
 </div>
@@ -91,26 +91,29 @@ featured_orgs:
   </div>
 </div>
 
-<div id="call-to-action" class="row">
+<div id="join-the-revolution"> 
+<div class="row">
   <div class="span4">
     <h3 class="join-button"><a href="/getting-started">Join the Revolution</a></h3>
   </div>
   <div class="span8">
-    <h4>Every day countless governments, non-profits, and civic hackers are using GitHub to make relationships and yada yada better. Become one of their stories.</h4>
+    <h3>Every day countless governments, non-profits, and civic hackers are using GitHub to make relationships and yada yada better. Become one of their stories.</h3>
   </div>
 </div>
 
-<div class="row links">
-  <div class="span4">
-    <h3><a href="/faq">FAQ</a></h3>
-    <p>Blah</p>
-  </div>
-  <div class="span4">
-    <h3><a href="/getting-started">Getting Started</a></h3>
-    <p>Blah</p>
-  </div>
-  <div class="span4">
-    <h3><a href="/glossary">Glossary of Jargon</a></h3>
-    <p>Blah</p>
-  </div>
+   <div class="row links">
+    <div class="span4">
+      <h2 class="border-left"><a href="/faq">FAQ</a></h2>
+      <p>Common questions about what GitHub is and how it is being used in Government. If your question isn’t covered here give us <a href="mailto:gov@github.com">a shout</a>.</p>
+    </div>
+    <div class="span4">
+      <h2 class="border-left"><a href="/getting-started">Getting Started</a></h2>
+      <p>We’ll walk you through creating an account and going through the GitHub flow by adding your name to the <a href="/community">Who's on GitHub page</a>.</p>
+    </div>
+    <div class="span4">
+      <h2 class="border-left"><a href="/glossary">Guide</a></h2>
+      <p>With “open-this”, “open-that” and the language of Git (fork what?) - the terminolgy can be confusing at first but we’ve got you covered with a glossary and guide to best practices.</p>
+    </div>
+  </div> 
 </div>
+

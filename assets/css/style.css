@@ -52,11 +52,18 @@ h3 {font-size: 26px; font-weight: normal;}
 h6 {font-size: 17px; font-weight: normal;}
 
 a {text-decoration: none; color: #333;}
-a:hover {text-decoration: none; color: red;}
+a:hover {text-decoration: none; color: #00C3F8;}
 
-#top-nav {margin: 0px auto; padding: 10px 0px; position: fixed; top: 0px; right: 0px; left: 0px; background: salmon; }
-#top-nav ul {list-style: none;}
+p a {border-bottom: 1px solid #efefef;}
+p a:hover {border-bottom: 1px solid red;}
+
+small {text-transform: uppercase; letter-spacing: .1em; font-size: 10px; color: #acacac;}
+
+#top-nav {margin: 0px auto; padding: 10px 0px; position: fixed; top: 0px; right: 0px; left: 0px; background: #fff; border-bottom: 1px solid #F5FCFF; -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1); }
+#top-nav ul {list-style: none; margin: 0px; padding: 0px;}
 #top-nav li {display: inline; text-transform: uppercase; font-size: 10px; padding-right: 20px; letter-spacing: .1em;}
+#top-nav a {color: #acacac;}
+#top-nav a:hover {color: #333;}
 
 .description {font-family: Merriweather;}
 
@@ -74,7 +81,7 @@ header {padding-bottom: 42px;}
   float: left; /* meeeh */
 }
 .category:hover {
-  background: pink;
+  background: #00C3F8;
 }
 
 .category.Open.Source { background: #15A2F9; }
@@ -88,15 +95,16 @@ header {padding-bottom: 42px;}
 .story-unit h2 { margin: 0px 0px 8px 0px; }
 .meta { font-family: Merriweather; margin: 8px 0px 0px 0px; font-size: 10px; }
 h6.more-story  {margin: 5px 0px 16px 0px;}
-.more-story { border-left: 4px solid #333; padding-left: 10px; }
-.more-story.Open.Source { border-color: #15A2F9; }
-.more-story.Open.Data { border-color: #B4D300; }
-.more-story.Open.Government { border-color: salmon; }
-.more-story:hover { border-color: red; }
+.border-left { border-left: 4px solid #333; padding-left: 10px; }
+.border-left.Open.Source { border-color: #15A2F9; }
+.border-left.Open.Data { border-color: #B4D300; }
+.border-left.Open.Government { border-color: salmon; }
+.border-left:hover, .border-left a:hover  { border-color: red; }
 
-#organizations, #call-to-action {
+#organizations, #call-to-action, #join-the-revolution {
   padding: 50px 0px;
 }
+#organizations {/* haven't decided yet */}
 #organizations .span12 {
   margin-left: 0px;
 }
@@ -104,15 +112,21 @@ h6.more-story  {margin: 5px 0px 16px 0px;}
   margin-left: 20px;
 }
 .join-button {
-  background: pink;
+  background: #FFC336;
   width: 100%;
-  padding: 18px 0px;
+  padding: 28px 0px;
   text-align: center;
 }
 .join-button:hover {
-  background: red;
+  background: #DFB835;
 }
+#join-the-revolution h3 {line-height: 30px;}
 /* temporary while i'm developing offline */
 .story-unit.span8 img {width: 770px; height: 300px; background: #333;}
 .story-unit.span4 img {width: 370px; height: 300px; background: #333;}
 img.avatar {width: 80px; height: 80px; background: #333;}
+
+.links {padding: 50px 0px;}
+.links .border-left {border-width: 8px; border-color: #FFC336; padding: 8px 0px 8px 20px; margin-bottom: 14px;}
+
+footer {border-top: 3px solid #efefef; padding: 30px 0px;}

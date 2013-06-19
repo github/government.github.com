@@ -54,26 +54,45 @@ h6 {font-size: 17px; font-weight: normal;}
 a {text-decoration: none; color: #333;}
 a:hover {text-decoration: none; color: red;}
 
-header {padding-bottom: 24px;}
+#top-nav {margin: 0px auto; padding: 10px 0px; position: fixed; top: 0px; right: 0px; left: 0px; background: salmon; }
+#top-nav ul {list-style: none;}
+#top-nav li {display: inline; text-transform: uppercase; font-size: 10px; padding-right: 20px; letter-spacing: .1em;}
+
+.description {font-family: Merriweather;}
+
+header {padding-bottom: 42px;}
 
 .category {
-  padding: 4px 8px; 
-  margin: 0px 0px 4px 0px;
+  padding: 4px 9px; 
+  margin: 0px 0px 8px 0px;
   background: red; 
   color: #fff;
   text-transform: uppercase;
-  font-weight: normal;
+  font-weight: lighter;
+  font-size: 11px;
+  letter-spacing: .1em;
   float: left; /* meeeh */
 }
+.category:hover {
+  background: pink;
+}
+
+.category.Open.Source { background: #15A2F9; }
+.category.Open.Data { background: #B4D300; }
+.category.Open.Government { background: salmon; }
+
 .story-unit {
-  background: salmon;
   margin-bottom: 30px;
   padding: 0px;
 }
-.story-unit h2 {margin: 0px 0px 4px 0px;}
-.meta {font-family: Merriweather; margin: 8px 0px 0px 0px; font-size: 10px;}
-.more-story {border-left: 4px solid #333; padding-left: 16px;}
-.more-story a {}
+.story-unit h2 { margin: 0px 0px 8px 0px; }
+.meta { font-family: Merriweather; margin: 8px 0px 0px 0px; font-size: 10px; }
+h6.more-story  {margin: 5px 0px 16px 0px;}
+.more-story { border-left: 4px solid #333; padding-left: 10px; }
+.more-story.Open.Source { border-color: #15A2F9; }
+.more-story.Open.Data { border-color: #B4D300; }
+.more-story.Open.Government { border-color: salmon; }
+.more-story:hover { border-color: red; }
 
 #organizations, #call-to-action {
   padding: 50px 0px;
@@ -93,3 +112,7 @@ header {padding-bottom: 24px;}
 .join-button:hover {
   background: red;
 }
+/* temporary while i'm developing offline */
+.story-unit.span8 img {width: 770px; height: 300px; background: #333;}
+.story-unit.span4 img {width: 370px; height: 300px; background: #333;}
+img.avatar {width: 80px; height: 80px; background: #333;}

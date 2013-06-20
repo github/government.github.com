@@ -35,10 +35,11 @@ permalink: /getting-started/
   </div>
 </div>
 
-<div class="row">
-  <div class="span6 offset3">
-    <div class="well text-center">
-      <h4>Having Trouble? We're here to help.</h4><a href="mailto:gov@github.com" class="btn btn-primary btn-large">Contact a human</a>
-    </div>
+<div class="row contact-us">
+  <div class="span4">
+    <h3 class="lrg-button"><a href="/getting-started">Contact a Human</a></h3>
+  </div>
+  <div class="span8">
+    <h3>Having Trouble?</h3><h3>We're here to help.</h3>
   </div>
 </div>

@@ -55,7 +55,7 @@ a {text-decoration: none; color: #333;}
 a:hover {text-decoration: none; color: #00C3F8;}
 
 p a {border-bottom: 1px solid #efefef;}
-p a:hover {border-bottom: 1px solid red;}
+p a:hover {border-bottom: 1px solid #00C3F8;}
 
 small {text-transform: uppercase; letter-spacing: .1em; font-size: 10px; color: #acacac;}
 
@@ -65,7 +65,7 @@ small {text-transform: uppercase; letter-spacing: .1em; font-size: 10px; color: 
 #top-nav a {color: #acacac;}
 #top-nav a:hover {color: #333;}
 
-.description {font-family: Merriweather;}
+.description {font-family: Merriweather, Baskerville, serif;}
 
 header {padding-bottom: 42px;}
 
@@ -93,13 +93,13 @@ header {padding-bottom: 42px;}
   padding: 0px;
 }
 .story-unit h2 { margin: 0px 0px 8px 0px; }
-.meta { font-family: Merriweather; margin: 8px 0px 0px 0px; font-size: 10px; }
-h6.more-story  {margin: 5px 0px 16px 0px;}
+.meta { font-family: Merriweather, Baskerville, serif; margin: 8px 0px 0px 0px; font-size: 10px; }
+h6.more-story  { margin: 5px 0px 16px 0px; }
 .border-left { border-left: 4px solid #333; padding-left: 10px; }
 .border-left.Open.Source { border-color: #15A2F9; }
 .border-left.Open.Data { border-color: #B4D300; }
 .border-left.Open.Government { border-color: salmon; }
-.border-left:hover, .border-left a:hover  { border-color: red; }
+.border-left:hover  { border-color: #00C3F8; }
 
 #organizations, #call-to-action, #join-the-revolution {
   padding: 50px 0px;
@@ -111,14 +111,14 @@ h6.more-story  {margin: 5px 0px 16px 0px;}
 .add-marg {
   margin-left: 20px;
 }
-.join-button {
-  background: #FFC336;
+.lrg-button {
+  background: #12CC66;
   width: 100%;
   padding: 28px 0px;
   text-align: center;
 }
-.join-button:hover {
-  background: #DFB835;
+.lrg-button:hover {
+  background: #15A2F9;
 }
 #join-the-revolution h3 {line-height: 30px;}
 /* temporary while i'm developing offline */
@@ -127,6 +127,11 @@ h6.more-story  {margin: 5px 0px 16px 0px;}
 img.avatar {width: 80px; height: 80px; background: #333;}
 
 .links {padding: 50px 0px;}
-.links .border-left {border-width: 8px; border-color: #FFC336; padding: 8px 0px 8px 20px; margin-bottom: 14px;}
+.links .border-left {border-width: 8px; border-color: #12CC66; padding: 8px 0px 8px 20px; margin-bottom: 14px;}
+.links .border-left:hover  { border-color: #00C3F8; color: #00C3F8; }
 
-footer {border-top: 3px solid #efefef; padding: 30px 0px;}
+footer {border-top: 3px solid #efefef; padding: 30px 0px; color: #acacac;}
+
+/* getting started */
+
+.contact-us {margin-top: 30px; padding-bottom: 30px; /* this is acting weird, thus the margin & padding */}

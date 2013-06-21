@@ -4,7 +4,6 @@ layout: nil
 
 body {
   padding-top: 60px;
-  padding-bottom: 40px;
 }
 
 {% include css/bootstrap.min.css %}
@@ -69,6 +68,8 @@ small {text-transform: uppercase; letter-spacing: .1em; font-size: 10px; color: 
 
 header {padding-bottom: 42px;}
 
+#content {margin-bottom: 40px;}
+
 .category {
   padding: 4px 9px; 
   margin: 0px 0px 8px 0px;
@@ -122,16 +123,30 @@ h6.more-story  { margin: 5px 0px 16px 0px; }
 }
 #join-the-revolution h3 {line-height: 30px;}
 /* temporary while i'm developing offline */
-.story-unit.span8 img {width: 770px; height: 300px; background: #333;}
-.story-unit.span4 img {width: 370px; height: 300px; background: #333;}
-img.avatar {width: 80px; height: 80px; background: #333;}
+.story-unit.span8 img {width: 770px; height: 300px; background: #C2C2C2;}
+.story-unit.span4 img {width: 370px; height: 300px; background: #C2C2C2;}
+img.avatar {width: 80px; height: 80px; background: #C2C2C2;}
 
-.links {padding: 50px 0px;}
+.links {padding-top: 50px;}
 .links .border-left {border-width: 8px; border-color: #12CC66; padding: 8px 0px 8px 20px; margin-bottom: 14px;}
 .links .border-left:hover  { border-color: #00C3F8; color: #00C3F8; }
 
-footer {border-top: 3px solid #efefef; padding: 30px 0px; color: #acacac;}
+#about { padding: 30px 0px; color: #acacac; background: #f4f4f4; }
+footer { padding: 40px 0px; background: #eee; }
 
 /* getting started */
 
 .contact-us {margin-top: 30px; padding-bottom: 30px; /* this is acting weird, thus the margin & padding */}
+.contact-us .span8 {padding: 10px 0px;}
+
+/* story page */ 
+
+.story-page p {font-size: 18px; line-height: 30px; font-family: Merriweather, Baskerville, serfif; font-weight: 500;}
+.story-img {width: 770px; height: 300px; background: #C2C2C2;}
+
+@media (max-width: 767px) {
+  body { padding-top: 50px; }
+  .container { padding: 0px 20px; }
+  .story-unit.span4 img {width: 100%;}
+}
+

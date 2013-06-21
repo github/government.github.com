@@ -144,6 +144,11 @@ footer { padding: 40px 0px; background: #eee; }
 .story-page p {font-size: 18px; line-height: 30px; font-family: Merriweather, Baskerville, serfif; font-weight: 500;}
 .story-img {width: 770px; height: 300px; background: #C2C2C2;}
 
+/* archive page */
+
+.category {margin-right: 8px;}
+h6 a {line-height: 28px;}
+
 @media (max-width: 767px) {
   body { padding-top: 50px; }
   .container { padding: 0px 20px; }

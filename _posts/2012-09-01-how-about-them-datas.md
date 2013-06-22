@@ -1,9 +1,9 @@
 ---
 layout: story
-title: Sample Story
+title: How about them datas
 description: "Artisan hashtag flexitarian, keytar ethical chillwave umami synth Truffaut meggings +1 messenger bag. 90's roof party scenester flannel, asymmetrical forage jean shorts cliche banh mi quinoa letterpress four loko."
 image: http://placekitten.com/g/620/300
-category: Open Source
+category: Open Data
 ---
 
 Artisan hashtag flexitarian, keytar ethical chillwave umami synth Truffaut meggings +1 messenger bag. 90's roof party scenester flannel, asymmetrical forage jean shorts cliche banh mi quinoa letterpress four loko. Tote bag 8-bit kale chips Williamsburg, before they sold out street art mustache wolf actually direct trade fashion axe flexitarian Wes Anderson Echo Park scenester. Pug shoreditch Cosby sweater dreamcatcher. Yr freegan twee, shabby chic DIY tousled single-origin coffee. Pour-over sartorial pitchfork, cred pickled DIY shoreditch asymmetrical meggings dreamcatcher wolf High Life organic. Wes Anderson Vice chambray, roof party wayfarers Pinterest american apparel flexitarian iPhone McSweeney's keytar pour-over Odd Future.

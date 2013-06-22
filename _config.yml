@@ -74,7 +74,7 @@ organizations:
     - open-city
     
 #global settings
-title: "Join the Revolution"
+title: "Government and GitHub"
 description: "Stories of open data, open source, and open collaboration"
 permalink: "/stories/:title"
 

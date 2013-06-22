@@ -1,6 +1,6 @@
 ---
 layout: story
-title: Sample Story
+title: This is a Story
 description: "Artisan hashtag flexitarian, keytar ethical chillwave umami synth Truffaut meggings +1 messenger bag. 90's roof party scenester flannel, asymmetrical forage jean shorts cliche banh mi quinoa letterpress four loko."
 image: http://placekitten.com/g/620/300
 category: Open Source

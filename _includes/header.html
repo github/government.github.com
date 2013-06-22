@@ -11,6 +11,7 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="{{ site.root }}assets/css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,300' rel='stylesheet' type='text/css'>
         
         <script src="{{ site.root }}assets/js/modernizr.js"></script>
         
@@ -20,7 +21,7 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
+<!--         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -28,7 +29,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">{{ site.title }}</a>
+                    <a class="brand" href="/">{{ site.title }}</a>
                     <div class="nav-collapse">
                         <ul class="nav" role="menu">
                             <li id="home" {% if page.permalink == "/" %}class="active"{% endif %}>
@@ -46,6 +47,28 @@
                         </ul>
                     </div>
                 </div>
+            </div>
+        </div> -->
+
+        <div id="top-nav">
+            <div class="container">
+                <ul>
+                    <li><a href="/"><strong>Home</strong></a></li>
+                    <li><a href="/#join-the-revolution">Join the Revolution</a></li>
+                    <li id="community" {% if page.permalink == "/community" %}class="active"{% endif %}>
+                        <a href="{{ site.root }}community" rel="author">Who's Using GitHub</a>
+                    </li>
+                    <li id="faq" {% if page.permalink == "/faq/" %}class="active"{% endif %}>
+                        <a href="{{ site.root }}faq">FAQ</a>
+                    </li>
+                    <li id="getting-started" {% if page.permalink == "/getting-started/" %}class="active"{% endif %}>
+                        <a href="{{ site.root }}getting-started">Getting Started</a>
+                    </li>
+                    <li id="best-practices" {% if page.permalink == "/best-practices/" %}class="active"{% endif %}>
+                        <a href="{{ site.root }}best-practices">Guide</a>
+                    </li>
+                    <li><a href="/#about">About this Site</a></li>
+                </ul>
             </div>
         </div>
 

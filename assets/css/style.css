@@ -64,16 +64,21 @@ small {text-transform: uppercase; letter-spacing: .1em; font-size: 10px; color: 
 #top-nav a {color: #acacac;}
 #top-nav a:hover {color: #333;}
 
-.description {font-family: Merriweather, Baskerville, serif;}
+.description {font-family: Arial;}
 
 header {padding-bottom: 42px;}
+
+.logo {
+  font-family: Apex;
+  font-weight: Bold;
+}
 
 #content {margin-bottom: 40px;}
 
 .category {
-  padding: 4px 9px; 
+  padding: 4px 9px;
   margin: 0px 0px 8px 0px;
-  background: red; 
+  background: red;
   color: #fff;
   text-transform: uppercase;
   font-weight: lighter;
@@ -93,11 +98,11 @@ header {padding-bottom: 42px;}
   margin-bottom: 30px;
   padding: 0px;
 }
-.story-unit h2 { margin: 0px 0px 8px 0px; }
-.meta { 
-  font-family: Merriweather, Baskerville, serif; 
-  margin: 8px 0px 0px 0px; 
-  font-size: 10px; 
+.story-unit h2 { margin: 8px 0px; }
+.meta {
+  font-family: Merriweather, Baskerville, serif;
+  margin: 8px 0px;
+  font-size: 10px;
 }
 h6.more-story  { margin: 5px 0px 16px 0px; }
 .border-left { border-left: 4px solid #333; padding-left: 10px; }
@@ -106,7 +111,7 @@ h6.more-story  { margin: 5px 0px 16px 0px; }
 .border-left.Open.Government { border-color: salmon; }
 .border-left:hover  { border-color: #00C3F8; }
 
-#archive-link {display: none;}
+#archive-link { display: none; }
 
 #organizations, #call-to-action, #join-the-revolution {
   padding: 50px 0px;
@@ -127,56 +132,66 @@ h6.more-story  { margin: 5px 0px 16px 0px; }
 .lrg-button:hover {
   background: #15A2F9;
 }
-#join-the-revolution h3 { line-height: 1.1em;}
+#join-the-revolution h3 { line-height: 1.1em; }
 
 /* temporary while i'm developing offline */
 .story-unit.span8 img {
-  width: 770px; 
-  height: 300px; 
+  width: 770px;
+  height: 300px;
   background: #C2C2C2;
 }
 .story-unit.span4 img {
-  width: 370px; 
-  height: 300px; 
+  width: 370px;
+  height: 300px;
   background: #C2C2C2;
 }
 img.avatar {
-  width: 80px; 
-  height: 80px; 
+  width: 80px;
+  height: 80px;
   background: #C2C2C2;
 }
 
 .links { padding-top: 50px; }
 .links .border-left {
-  border-width: 8px; 
-  border-color: #12CC66; 
-  padding: 8px 0px 8px 20px; 
+  border-width: 8px;
+  border-color: #12CC66;
+  padding: 8px 0px 8px 20px;
   margin-bottom: 14px;
 }
-.links .border-left:hover  { 
-  border-color: #00C3F8; 
-  color: #00C3F8; 
+.links .border-left:hover  {
+  border-color: #00C3F8;
+  color: #00C3F8;
 }
 
-#about { padding: 30px 0px; 
-  color: #acacac; 
-  background: #f4f4f4; 
+#about { padding: 30px 0px;
+  color: #acacac;
+  background: #f4f4f4;
 }
-footer { 
-  padding: 40px 0px; 
-  background: #eee; 
+footer {
+  padding: 40px 0px;
+  background: #eee;
 }
 
 /* getting started */
 
-.contact-us { 
-margin-top: 30px; padding-bottom: 30px; /* this is acting weird, thus the margin & padding */}
+.contact-us {
+  margin-top: 30px;
+  padding-bottom: 30px; /* this is acting weird, thus the margin & padding */
+}
 .contact-us .span8 {padding: 10px 0px;}
 
-/* story page */ 
+/* story page */
 
-.story-page p {font-size: 18px; line-height: 2em; font-family: Merriweather, Baskerville, serfif; font-weight: 500;}
-.story-img {width: 770px; height: 300px; background: #C2C2C2;}
+.story-page p {
+  font-size: 18px;
+  line-height: 1.2em;
+  font-family: Arial;
+}
+.story-img {
+  width: 770px;
+  height: 300px;
+  background: #C2C2C2;
+}
 
 /* archive page */
 
@@ -191,4 +206,3 @@ h6 a {line-height: 1.75em;}
   #more-stories { display: none ; }
   #archive-link { display: inherit; }
 }
-

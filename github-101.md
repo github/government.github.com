@@ -1,7 +1,7 @@
 ---
-title: Best Practices
+title: GitHub 101
 layout: page
-permalink: /best-practices/
+permalink: /github-101/
 ---
 
 <div class="alert">Note: This copy is adapted from <a href="http://ben.balter.com/open-source-for-government">Open Source For Government</a>, and is intended to be heavily adapted before use.</div>

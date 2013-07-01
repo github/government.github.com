@@ -1,6 +1,24 @@
           </div><!--where is this opened? -->
-          </div><!-- end content -->
-        </div><!-- end container -->
+          
+
+<!-- <div id="organizations-layer">
+<div id="organizations" class="row">
+  <div class="span12">
+    <ul>
+      {% for org in page.featured_orgs %}
+        <li class="organization">
+          <a href="http://github.com/{{ org }}" title="{{ org }}">
+          <img class="avatar" src="https://github.com/{{ org }}.png" alt= "{{ org }}" target="_blank"/>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <div style="clear: both">
+      <small class="add-pad"><a href="/community">See the complete list &rarr;</a></small>
+    </div>
+  </div>
+</div>
+</div><!-- end orgs layer -->
 
         <div id="about">
           <div class="container">
@@ -20,11 +38,33 @@
           </div>
         </div>
 
-        <footer>
-          <div class="container">
-            <p>Bring in GitHub footer?</p>
+        <footer class="container">
+          <div class="site-footer">
+            <ul class="site-footer-links right">
+              <li><a href="https://status.github.com/">Status</a></li>
+              <li><a href="http://developer.github.com">Developer</a></li>
+              <li><a href="http://training.github.com">Training</a></li>
+              <li><a href="http://shop.github.com">Shop</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/about">About</a></li>
+            </ul>
+
+            <a href="/">
+              <span class="mega-octicon octicon-mark-github"></span>
+            </a>
+
+            <ul class="site-footer-links">
+              <li>© 2013 <span title="0.26036s from fe13.rs.github.com">GitHub</span>, Inc.</li>
+                <li><a href="/site/terms">Terms</a></li>
+                <li><a href="/site/privacy">Privacy</a></li>
+                <li><a href="/security">Security</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
           </div>
         </footer>
+
+        </div><!-- end content -->
+        </div><!-- end container -->
 
 
       

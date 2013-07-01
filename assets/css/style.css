@@ -53,34 +53,55 @@ h6 {font-size: 17px; font-weight: normal;}
 a {text-decoration: none; color: #333;}
 a:hover {text-decoration: none; color: #00C3F8;}
 
+p {font-family: Merriweather, Arial, sans-serif;}
 p a {border-bottom: 1px solid #efefef;}
 p a:hover {border-bottom: 1px solid #00C3F8;}
 
 small {text-transform: uppercase; letter-spacing: .1em; font-size: 10px; color: #acacac;}
 
 #top-nav {margin: 0px auto; padding: 10px 0px; position: fixed; top: 0px; right: 0px; left: 0px; background: #fff; border-bottom: 1px solid #F5FCFF; -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1); }
-#top-nav ul {list-style: none; margin: 0px; padding: 0px;}
-#top-nav li {display: inline; text-transform: uppercase; font-size: 10px; padding-right: 20px; letter-spacing: .1em;}
+#top-nav ul {list-style: none; margin: 0px; padding: 0px; line-height: 1.9em;}
+#top-nav li {display: inline; text-transform: none; font-size: 12px; padding-right: 20px; letter-spacing: .1em;}
 #top-nav a {color: #acacac;}
 #top-nav a:hover {color: #333;}
+#top-nav .octicon-mark-github {
+  float: left;
+  width: 24px;
+  height: 25px;
+  font-size: 25px;
+  padding-right: 20px;
+}
+#top-nav .logo-invertocat:hover {
+  color: #4183c4;
+  text-decoration: none;
+}
 
-.description {font-family: Arial;}
+.description {font-family: Merriweather;}
 
 header {padding-bottom: 42px;}
 
-.logo {
-  font-family: Apex;
-  font-weight: Bold;
+
+
+#logo{
+  display: block;
+  background: url('/assets/img/gov-on-gh.png') no-repeat; 
+  background-size: 503px 40px; 
+  height: 40px;
+  width: 503px;
+  text-indent: -999px;
 }
 
-#content {margin-bottom: 40px;}
+#content {
+  margin-bottom: 40px;
+  z-index: 1099;
+}
 
 .category {
   padding: 4px 9px;
   margin: 0px 0px 8px 0px;
   background: red;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: lighter;
   font-size: 11px;
   letter-spacing: .1em;
@@ -113,6 +134,13 @@ h6.more-story  { margin: 5px 0px 16px 0px; }
 
 #archive-link { display: none; }
 
+#organizations-layer {
+  position: relative;
+  top: -400px;
+  background: #ff00ff;
+  z-index: 0;
+}
+
 #organizations, #call-to-action, #join-the-revolution {
   padding: 50px 0px;
 }
@@ -137,12 +165,12 @@ h6.more-story  { margin: 5px 0px 16px 0px; }
 /* temporary while i'm developing offline */
 .story-unit.span8 img {
   width: 770px;
-  height: 300px;
+  height: 200px;
   background: #C2C2C2;
 }
 .story-unit.span4 img {
   width: 370px;
-  height: 300px;
+  height: 200px;
   background: #C2C2C2;
 }
 img.avatar {
@@ -163,13 +191,11 @@ img.avatar {
   color: #00C3F8;
 }
 
-#about { padding: 30px 0px;
+#about { 
+  padding: 30px 0px;
   color: #acacac;
-  background: #f4f4f4;
-}
-footer {
-  padding: 40px 0px;
-  background: #eee;
+  /*background: #f4f4f4;*/
+  border-top: 1px solid #eee;
 }
 
 /* getting started */
@@ -198,6 +224,75 @@ footer {
 .category {margin-right: 8px;}
 h6 a {line-height: 1.75em;}
 
+
+
+/* footer */
+
+footer a {
+  color: #4183c4;
+  text-decoration: none;
+}
+footer a:focus, footer a:active {
+  color: #4183c4;
+  text-decoration: underline;
+}
+footer a:active, footer a:hover {
+  outline: 0;
+  color: #4183c4;
+  text-decoration: underline;
+}
+.site-footer {
+  position: relative;
+  margin-top: 40px;
+  /*padding: 40px 65px;*/  
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /*font-size: 12px;*/
+  line-height: 1.5;
+  color: #777;
+  font: 12px Helvetica, arial, freesans, clean, sans-serif;
+  border-top: 1px solid #eee; 
+}
+.site-footer:before, .site-footer:after {
+  content: " ";
+  display: table; 
+}
+.site-footer:after {
+  clear: both; 
+  }
+
+footer .site-footer .octicon-mark-github {
+  position: absolute;
+  top: 38px;
+  left: 50%;
+  height: 24px;
+  width: 24px;
+  margin-left: -12px;
+  font-size: 24px;
+  color: #ccc; 
+}
+footer .site-footer .octicon-mark-github:hover {
+  color: #bbb; 
+}
+.site-footer-links {
+  float: left;
+  margin: 0;
+  list-style: none; 
+}
+.site-footer-links.right {
+  float: right; 
+}
+.site-footer-links li {
+  display: inline-block;
+  line-height: 16px; 
+}
+.site-footer-links li + li {
+  margin-left: 10px; 
+}
+.site-footer-links img {
+  display: block; 
+}
+
 @media (max-width: 767px) {
   body { padding-top: 50px; }
   .container { padding: 0px 20px; }
@@ -205,4 +300,6 @@ h6 a {line-height: 1.75em;}
   /* swap More Stories for Archive link */
   #more-stories { display: none ; }
   #archive-link { display: inherit; }
+  .site-footer-links, .site-footer-links.right {float: left; padding-left: 30px; padding-bottom: 8px;}
+  .site-footer .octicon-mark-github {float: left; left: 0px; top: 46px;}
 }

@@ -47,17 +47,17 @@ organizations:
     - alphagov
     - lichfield-district-council
 
-  US State:
+  U.S. States:
     - nysenate
 #    - wsdot
     - nys-its
 
-  US County:
+  U.S. County:
     - sfcta
     - miamidade
     - pueblocounty
 
-  US City:
+  U.S. City:
     - chicago
 #    - sfgov
     - cityofnewyork

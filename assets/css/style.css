@@ -73,7 +73,7 @@ a:hover {text-decoration: none; color: #00C3F8;}
 
 p {font-family: Merriweather, Arial, sans-serif;}
 p a {border-bottom: 1px solid #333;}
-p a:hover {border-bottom: 1px solid #00C3F8;}
+p a:hover, #about a:hover {border-bottom: 1px solid #00C3F8; color: #00C3F8;}
 
 small {text-transform: uppercase; letter-spacing: .1em; font-size: 10px; color: #acacac;}
 
@@ -219,6 +219,7 @@ img.avatar {
    color: #acacac;
    border-color: #acacac;
 }
+
 
 /* getting started */
 

@@ -19,6 +19,7 @@ body {
 .organization {
   float: left;
   padding: 5px 5px 5px 0;
+  width: 80px;
   list-style: none;
 }
 .avatar {
@@ -37,7 +38,24 @@ body {
 }
 
 .community {
-  margin-bottom: 100px;
+  margin: 50px 0px;
+  float: left;
+}
+
+.type-block {
+  float: left;
+  width: 80px;
+  height: 80px;
+  background: #0990d3;
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center; 
+  margin: 5px 5px 5px 0;
+  color: #fff;
+}
+
+.type-block p {
+  padding: 20px 0px;
 }
 
 h3 {line-height: 2em;}
@@ -54,7 +72,7 @@ a {text-decoration: none; color: #333;}
 a:hover {text-decoration: none; color: #00C3F8;}
 
 p {font-family: Merriweather, Arial, sans-serif;}
-p a {border-bottom: 1px solid #efefef;}
+p a {border-bottom: 1px solid #333;}
 p a:hover {border-bottom: 1px solid #00C3F8;}
 
 small {text-transform: uppercase; letter-spacing: .1em; font-size: 10px; color: #acacac;}
@@ -97,7 +115,7 @@ header {padding-bottom: 42px;}
 }
 
 .category {
-  padding: 4px 9px;
+  padding: 2px 7px;
   margin: 0px 0px 8px 0px;
   background: red;
   color: #fff;
@@ -111,9 +129,9 @@ header {padding-bottom: 42px;}
   background: #00C3F8;
 }
 
-.category.Open.Source { background: #15A2F9; }
-.category.Open.Data { background: #B4D300; }
-.category.Open.Government { background: salmon; }
+.category.Open.Source { background: #f43bd2; }
+.category.Open.Data { background: #0990d3; }
+.category.Open.Government { background: #1ae80a; }
 
 .story-unit {
   margin-bottom: 30px;
@@ -127,12 +145,12 @@ header {padding-bottom: 42px;}
 }
 h6.more-story  { margin: 5px 0px 16px 0px; }
 .border-left { border-left: 4px solid #333; padding-left: 10px; }
-.border-left.Open.Source { border-color: #15A2F9; }
-.border-left.Open.Data { border-color: #B4D300; }
-.border-left.Open.Government { border-color: salmon; }
+.border-left.Open.Source { border-color: #f43bd2; }
+.border-left.Open.Data { border-color: #0990d3; }
+.border-left.Open.Government { border-color: #1ae80a; }
 .border-left:hover  { border-color: #00C3F8; }
 
-#archive-link { display: none; }
+#mobile-archive { display: none;}
 
 #organizations-layer {
   position: relative;
@@ -197,6 +215,10 @@ img.avatar {
   /*background: #f4f4f4;*/
   border-top: 1px solid #eee;
 }
+#about a {
+   color: #acacac;
+   border-color: #acacac;
+}
 
 /* getting started */
 
@@ -209,9 +231,9 @@ img.avatar {
 /* story page */
 
 .story-page p {
-  font-size: 18px;
-  line-height: 1.2em;
-  font-family: Arial;
+  font-size: 15px;
+  line-height: 1.5em;
+  font-family: Merriweather;
 }
 .story-img {
   width: 770px;
@@ -222,7 +244,7 @@ img.avatar {
 /* archive page */
 
 .category {margin-right: 8px;}
-h6 a {line-height: 1.75em;}
+h6 a {line-height: 1.5em;}
 
 
 

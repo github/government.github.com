@@ -47,17 +47,17 @@ organizations:
     - alphagov
     - lichfield-district-council
 
-  State:
+  US State:
     - nysenate
 #    - wsdot
     - nys-its
 
-  County:
+  US County:
     - sfcta
     - miamidade
     - pueblocounty
 
-  City:
+  US City:
     - chicago
 #    - sfgov
     - cityofnewyork
@@ -72,6 +72,13 @@ organizations:
     - sunlightlabs
     - opengovfoundation
     - open-city
+    - gitmachines
+    - dobtco
+    - openplans
+    - okfde
+    - okfn
+    - civicindustries
+    - localdata
     
 #global settings
 title: "Government and GitHub"

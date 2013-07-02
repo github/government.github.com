@@ -11,10 +11,13 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="{{ site.root }}assets/css/style.css">
+        <link rel="stylesheet" href="{{ site.root }}assets/css/icons.css">
         <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,300' rel='stylesheet' type='text/css'>
-        
+
         <script src="{{ site.root }}assets/js/modernizr.js"></script>
-        
+
+        <link rel="shortcut icon" href="{{ site.root }}assets/img/favicon.ico" type="image/x-icon">
+
     </head>
     <body class="{{ page.layout }}">
         <!--[if lt IE 7]>
@@ -52,22 +55,18 @@
 
         <div id="top-nav">
             <div class="container">
+                <a class="logo-invertocat" href="https://github.com/">
+                    <span class="mega-octicon octicon-mark-github"></span>
+                </a>
                 <ul>
                     <li><a href="/"><strong>Home</strong></a></li>
                     <li><a href="/#join-the-revolution">Join the Revolution</a></li>
                     <li id="community" {% if page.permalink == "/community" %}class="active"{% endif %}>
                         <a href="{{ site.root }}community" rel="author">Who's Using GitHub</a>
                     </li>
-                    <li id="faq" {% if page.permalink == "/faq/" %}class="active"{% endif %}>
-                        <a href="{{ site.root }}faq">FAQ</a>
+                    <li id="github-101" {% if page.permalink == "/github-101/" %}class="active"{% endif %}>
+                        <a href="{{ site.root }}github-101">GitHub 101</a>
                     </li>
-                    <li id="getting-started" {% if page.permalink == "/getting-started/" %}class="active"{% endif %}>
-                        <a href="{{ site.root }}getting-started">Getting Started</a>
-                    </li>
-                    <li id="best-practices" {% if page.permalink == "/best-practices/" %}class="active"{% endif %}>
-                        <a href="{{ site.root }}best-practices">Guide</a>
-                    </li>
-                    <li><a href="/#about">About this Site</a></li>
                 </ul>
             </div>
         </div>

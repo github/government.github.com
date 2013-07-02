@@ -19,6 +19,7 @@ body {
 .organization {
   float: left;
   padding: 5px 5px 5px 0;
+  width: 80px;
   list-style: none;
 }
 .avatar {
@@ -37,7 +38,24 @@ body {
 }
 
 .community {
-  margin-bottom: 100px;
+  margin: 50px 0px;
+  float: left;
+}
+
+.type-block {
+  float: left;
+  width: 80px;
+  height: 80px;
+  background: #0990d3;
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center; 
+  margin: 5px 5px 5px 0;
+  color: #fff;
+}
+
+.type-block p {
+  padding: 20px 0px;
 }
 
 h3 {line-height: 2em;}
@@ -53,29 +71,55 @@ h6 {font-size: 17px; font-weight: normal;}
 a {text-decoration: none; color: #333;}
 a:hover {text-decoration: none; color: #00C3F8;}
 
-p a {border-bottom: 1px solid #efefef;}
-p a:hover {border-bottom: 1px solid #00C3F8;}
+p {font-family: Merriweather, Arial, sans-serif;}
+p a {border-bottom: 1px solid #333;}
+p a:hover, #about a:hover {border-bottom: 1px solid #00C3F8; color: #00C3F8;}
 
 small {text-transform: uppercase; letter-spacing: .1em; font-size: 10px; color: #acacac;}
 
 #top-nav {margin: 0px auto; padding: 10px 0px; position: fixed; top: 0px; right: 0px; left: 0px; background: #fff; border-bottom: 1px solid #F5FCFF; -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1); }
-#top-nav ul {list-style: none; margin: 0px; padding: 0px;}
-#top-nav li {display: inline; text-transform: uppercase; font-size: 10px; padding-right: 20px; letter-spacing: .1em;}
+#top-nav ul {list-style: none; margin: 0px; padding: 0px; line-height: 1.9em;}
+#top-nav li {display: inline; text-transform: none; font-size: 12px; padding-right: 20px; letter-spacing: .1em;}
 #top-nav a {color: #acacac;}
 #top-nav a:hover {color: #333;}
+#top-nav .octicon-mark-github {
+  float: left;
+  width: 24px;
+  height: 25px;
+  font-size: 25px;
+  padding-right: 20px;
+}
+#top-nav .logo-invertocat:hover {
+  color: #4183c4;
+  text-decoration: none;
+}
 
-.description {font-family: Merriweather, Baskerville, serif;}
+.description {font-family: Merriweather;}
 
 header {padding-bottom: 42px;}
 
-#content {margin-bottom: 40px;}
+
+
+#logo{
+  display: block;
+  background: url('/assets/img/gov-on-gh.png') no-repeat; 
+  background-size: 503px 40px; 
+  height: 40px;
+  width: 503px;
+  text-indent: -999px;
+}
+
+#content {
+  margin-bottom: 40px;
+  z-index: 1099;
+}
 
 .category {
-  padding: 4px 9px; 
+  padding: 2px 7px;
   margin: 0px 0px 8px 0px;
-  background: red; 
+  background: red;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: lighter;
   font-size: 11px;
   letter-spacing: .1em;
@@ -85,28 +129,35 @@ header {padding-bottom: 42px;}
   background: #00C3F8;
 }
 
-.category.Open.Source { background: #15A2F9; }
-.category.Open.Data { background: #B4D300; }
-.category.Open.Government { background: salmon; }
+.category.Open.Source { background: #f43bd2; }
+.category.Open.Data { background: #0990d3; }
+.category.Open.Government { background: #1ae80a; }
 
 .story-unit {
   margin-bottom: 30px;
   padding: 0px;
 }
-.story-unit h2 { margin: 0px 0px 8px 0px; }
-.meta { 
-  font-family: Merriweather, Baskerville, serif; 
-  margin: 8px 0px 0px 0px; 
-  font-size: 10px; 
+.story-unit h2 { margin: 8px 0px; }
+.meta {
+  font-family: Merriweather, Baskerville, serif;
+  margin: 8px 0px;
+  font-size: 10px;
 }
 h6.more-story  { margin: 5px 0px 16px 0px; }
 .border-left { border-left: 4px solid #333; padding-left: 10px; }
-.border-left.Open.Source { border-color: #15A2F9; }
-.border-left.Open.Data { border-color: #B4D300; }
-.border-left.Open.Government { border-color: salmon; }
+.border-left.Open.Source { border-color: #f43bd2; }
+.border-left.Open.Data { border-color: #0990d3; }
+.border-left.Open.Government { border-color: #1ae80a; }
 .border-left:hover  { border-color: #00C3F8; }
 
-#archive-link {display: none;}
+#mobile-archive { display: none;}
+
+#organizations-layer {
+  position: relative;
+  top: -400px;
+  background: #ff00ff;
+  z-index: 0;
+}
 
 #organizations, #call-to-action, #join-the-revolution {
   padding: 50px 0px;
@@ -127,61 +178,143 @@ h6.more-story  { margin: 5px 0px 16px 0px; }
 .lrg-button:hover {
   background: #15A2F9;
 }
-#join-the-revolution h3 { line-height: 1.1em;}
+#join-the-revolution h3 { line-height: 1.1em; }
 
 /* temporary while i'm developing offline */
 .story-unit.span8 img {
-  width: 770px; 
-  height: 300px; 
+  width: 770px;
+  height: 200px;
   background: #C2C2C2;
 }
 .story-unit.span4 img {
-  width: 370px; 
-  height: 300px; 
+  width: 370px;
+  height: 200px;
   background: #C2C2C2;
 }
 img.avatar {
-  width: 80px; 
-  height: 80px; 
+  width: 80px;
+  height: 80px;
   background: #C2C2C2;
 }
 
 .links { padding-top: 50px; }
 .links .border-left {
-  border-width: 8px; 
-  border-color: #12CC66; 
-  padding: 8px 0px 8px 20px; 
+  border-width: 8px;
+  border-color: #12CC66;
+  padding: 8px 0px 8px 20px;
   margin-bottom: 14px;
 }
-.links .border-left:hover  { 
-  border-color: #00C3F8; 
-  color: #00C3F8; 
+.links .border-left:hover  {
+  border-color: #00C3F8;
+  color: #00C3F8;
 }
 
-#about { padding: 30px 0px; 
-  color: #acacac; 
-  background: #f4f4f4; 
+#about { 
+  padding: 30px 0px;
+  color: #acacac;
+  /*background: #f4f4f4;*/
+  border-top: 1px solid #eee;
 }
-footer { 
-  padding: 40px 0px; 
-  background: #eee; 
+#about a {
+   color: #acacac;
+   border-color: #acacac;
 }
+
 
 /* getting started */
 
-.contact-us { 
-margin-top: 30px; padding-bottom: 30px; /* this is acting weird, thus the margin & padding */}
+.contact-us {
+  margin-top: 30px;
+  padding-bottom: 30px; /* this is acting weird, thus the margin & padding */
+}
 .contact-us .span8 {padding: 10px 0px;}
 
-/* story page */ 
+/* story page */
 
-.story-page p {font-size: 18px; line-height: 2em; font-family: Merriweather, Baskerville, serfif; font-weight: 500;}
-.story-img {width: 770px; height: 300px; background: #C2C2C2;}
+.story-page p {
+  font-size: 15px;
+  line-height: 1.5em;
+  font-family: Merriweather;
+}
+.story-img {
+  width: 770px;
+  height: 300px;
+  background: #C2C2C2;
+}
 
 /* archive page */
 
 .category {margin-right: 8px;}
-h6 a {line-height: 1.75em;}
+h6 a {line-height: 1.5em;}
+
+
+
+/* footer */
+
+footer a {
+  color: #4183c4;
+  text-decoration: none;
+}
+footer a:focus, footer a:active {
+  color: #4183c4;
+  text-decoration: underline;
+}
+footer a:active, footer a:hover {
+  outline: 0;
+  color: #4183c4;
+  text-decoration: underline;
+}
+.site-footer {
+  position: relative;
+  margin-top: 40px;
+  /*padding: 40px 65px;*/  
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /*font-size: 12px;*/
+  line-height: 1.5;
+  color: #777;
+  font: 12px Helvetica, arial, freesans, clean, sans-serif;
+  border-top: 1px solid #eee; 
+}
+.site-footer:before, .site-footer:after {
+  content: " ";
+  display: table; 
+}
+.site-footer:after {
+  clear: both; 
+  }
+
+footer .site-footer .octicon-mark-github {
+  position: absolute;
+  top: 38px;
+  left: 50%;
+  height: 24px;
+  width: 24px;
+  margin-left: -12px;
+  font-size: 24px;
+  color: #ccc; 
+}
+footer .site-footer .octicon-mark-github:hover {
+  color: #bbb; 
+}
+.site-footer-links {
+  float: left;
+  margin: 0;
+  list-style: none; 
+}
+.site-footer-links.right {
+  float: right; 
+}
+.site-footer-links li {
+  display: inline-block;
+  line-height: 16px; 
+}
+.site-footer-links li + li {
+  margin-left: 10px; 
+}
+.site-footer-links img {
+  display: block; 
+}
 
 @media (max-width: 767px) {
   body { padding-top: 50px; }
@@ -190,5 +323,6 @@ h6 a {line-height: 1.75em;}
   /* swap More Stories for Archive link */
   #more-stories { display: none ; }
   #archive-link { display: inherit; }
+  .site-footer-links, .site-footer-links.right {float: left; padding-left: 30px; padding-bottom: 8px;}
+  .site-footer .octicon-mark-github {float: left; left: 0px; top: 46px;}
 }
-

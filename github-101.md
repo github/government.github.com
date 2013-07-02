@@ -2,6 +2,7 @@
 title: GitHub 101
 layout: page
 permalink: /github-101/
+
 ---
 
 <div class="alert">Note: This copy is adapted from <a href="http://ben.balter.com/open-source-for-government">Open Source For Government</a>, and needs a heavy rewrite.</div>
@@ -159,4 +160,8 @@ Federal employees and members of the public are encouraged to contribute to this
 
 1. Producing Open Source Software – Karl Fogel (Practical)
 2. The Cathedral and the Bazar – Eric S. Raymond (Theoretical)
+<<<<<<< HEAD
 3. Understanding Open Source and Free Software Licensing – Andrew M St. Laurent (O'Reilly)
+=======
+3. Understanding Open Source and Free Software Licensing – Andrew M St. Laurent (O'Reilly)
+>>>>>>> master

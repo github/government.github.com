@@ -89,3 +89,4 @@ permalink: "/stories/:title"
 #build settings
 exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md"]
 root: "/"
+paginate: 10

@@ -44,6 +44,9 @@ featured_orgs:
   - sunlightlabs
 
 ---
+
+{% if paginator.page == 1 %}
+
 <div class="stories">
   <div class="row">
     <div class="story-unit span8">
@@ -70,11 +73,17 @@ featured_orgs:
         <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>
         <h6 class="border-left {{ post.category }}"><a href="{{ post.url }}">{{ post.title }}</a></h6>
       {% endfor %}
-      <div id="desktop-archive"><small><a href="/archive/">Complete Archive</a></small></div>
+      <div id="desktop-archive"><small><a href="/page2/">Complete Archive</a></small></div>
     </div>  
     
-    <div id="mobile-archive" class="border-left"><h4><a href="/archive/">Story Archive</a></h4></div>
+    <div id="mobile-archive" class="border-left"><h4><a href="/page2/">Story Archive</a></h4></div>
 </div>
+
+{% else %}
+
+{% include archive.html %}
+
+{% endif %}
 
 <div id="join-the-revolution"> 
 <div class="row">

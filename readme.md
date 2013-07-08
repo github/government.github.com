@@ -21,6 +21,7 @@ A microsite that lives at [gov.github.com](http://gov.github.com).
 * http://www.google.com/enterprise/apps/government/
 * http://aws.amazon.com/federal/
 * http://ben.balter.com/open-source-for-government
+* http://vip.wordpress.com/spotlight/government/
 
 See [github/gov/#2](https://github.com/github/gov/issues/2) for more background. The goal is the site to be entirely static (Jekyll/GitHub Pages) and open source so governmenty types can contribute.
 

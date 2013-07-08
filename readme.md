@@ -2,7 +2,7 @@
 
 *The [gov.github.com](http://gov.github.com) of the future, here today.*
 
-![screen shot](https://f.cloud.github.com/assets/282759/562427/c2f78630-c4a9-11e2-9812-bb2351929f9b.png)
+![screen shot](https://f.cloud.github.com/assets/282759/763520/5aac2382-e7ff-11e2-9f22-69755fedd5c8.png)
 
 ## Vision
 
@@ -21,6 +21,7 @@ A microsite that lives at [gov.github.com](http://gov.github.com).
 * http://www.google.com/enterprise/apps/government/
 * http://aws.amazon.com/federal/
 * http://ben.balter.com/open-source-for-government
+* http://vip.wordpress.com/spotlight/government/
 
 See [github/gov/#2](https://github.com/github/gov/issues/2) for more background. The goal is the site to be entirely static (Jekyll/GitHub Pages) and open source so governmenty types can contribute.
 

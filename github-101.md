@@ -11,7 +11,7 @@ permalink: /github-101/
 
 ### What's GitHub?
 
-GitHub is the best place to share code with friends, co-workers, classmates, and complete strangers. Over three million people use GitHub to build amazing things together. With the collaborative features of GitHub.com, our desktop and mobile apps, and GitHub Enterprise, it has never been easier for individuals and teams to write better code, faster.
+GitHub is the best place to build software together. Over 4 million people use GitHub to share code and build amazing things with friends, co-workers, classmates, and complete strangers. With the collaborative features of GitHub.com, our desktop and mobile apps, and GitHub Enterprise, it has never been easier for individuals and teams to write better code, faster. Originally founded by Tom Preston-Werner, Chris Wanstrath, and PJ Hyett to simplify sharing code, GitHub has grown into the largest code host in the world.
 
 GitHub is based on, and extends the social functionality, of an open-source [distributed version control system](http://en.wikipedia.org/wiki/Revision_control) known as [Git](http://en.wikipedia.org/wiki/Git_(software)). In essence, Git keeps a running log of all changes to a software project. Each time you make a change, you describe that change (a commit message) and then push that change to GitHub. GitHub also allows members of the public to "[fork](#forks)" existing projects, improve upon them, and then submit their changes back upstream as a "[pull request](#pull_requests)."
 

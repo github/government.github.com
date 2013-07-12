@@ -1,0 +1,29 @@
+<div id="story-archive">
+  <div id="story-key">
+    <div class="category Open Government">Open Government</div>
+    <div class="category Open Data">Open Data</div>
+    <div class="category Open Source">Open Source</div>
+  </div>
+{% for post in paginator.posts %}
+  <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>
+  <h6>
+      <div class="category {{ post.category}}">{{ post.category }}</div>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+  </h6>
+{% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+
+  {% if paginator.page ==2 %}
+    <a href="/" class="previous">Home</a>
+  {% else %}
+    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+  {% endif %}
+
+</div>

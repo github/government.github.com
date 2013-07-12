@@ -47,6 +47,9 @@ organizations:
   United Kingdom:
     - alphagov
     - lichfield-district-council
+    
+  Estonia:
+    - vvk-ehk
 
   U.S. States:
     - nysenate

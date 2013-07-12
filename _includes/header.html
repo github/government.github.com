@@ -12,7 +12,9 @@
 
         <link rel="stylesheet" href="{{ site.root }}assets/css/style.css">
         <link rel="stylesheet" href="{{ site.root }}assets/css/icons.css">
-        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,300' rel='stylesheet' type='text/css'>
+        <!-- <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,300' rel='stylesheet' type='text/css'> -->
+        <!-- Testing fonts yaya -->
+        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,700,400italic,700italic,900,900italic|Crimson+Text:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 
         <script src="{{ site.root }}assets/js/modernizr.js"></script>
 
@@ -24,51 +26,19 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-<!--         <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <a class="brand" href="/">{{ site.title }}</a>
-                    <div class="nav-collapse">
-                        <ul class="nav" role="menu">
-                            <li id="home" {% if page.permalink == "/" %}class="active"{% endif %}>
-                                <a href="{{ site.root }}">Home</a>
-                            </li>
-                            <li id="community" {% if page.permalink == "/community/" %}class="active"{% endif %}>
-                                <a href="{{ site.root }}community" rel="author">Who's Using GitHub</a>
-                            </li>
-                            <li id="getting-started" {% if page.permalink == "/getting-started/" %}class="active"{% endif %}>
-                                <a href="{{ site.root }}getting-started">Getting Started</a>
-                            </li>
-                            <li id="best-practices" {% if page.permalink == "/best-practices/" %}class="active"{% endif %}>
-                                <a href="{{ site.root }}best-practices">Best Practices</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
         <div id="top-nav">
             <div class="container">
-                <a class="logo-invertocat" href="https://github.com/">
+                <a class="logo-invertocat" href="/">
                     <span class="mega-octicon octicon-mark-github"></span>
                 </a>
                 <ul>
-                    <li><a href="/"><strong>Home</strong></a></li>
+                    <li><a href="/"><img src="{{ site.root }}assets/img/open-gov.png" style="height: 20px;"></li>
                     <li><a href="/#join-the-revolution">Join the Revolution</a></li>
                     <li id="community" {% if page.permalink == "/community" %}class="active"{% endif %}>
-                        <a href="{{ site.root }}community" rel="author">Who's Using GitHub</a>
-                    </li>
+                        <a href="{{ site.root }}community" rel="author">Who's Using GitHub</a></li>
                     <li id="github-101" {% if page.permalink == "/github-101/" %}class="active"{% endif %}>
                         <a href="{{ site.root }}github-101">GitHub 101</a>
                     </li>
                 </ul>
             </div>
         </div>
-
-        <div class="container">

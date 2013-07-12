@@ -110,7 +110,6 @@ header {padding-bottom: 42px;}
 }
 
 #content {
-  margin-bottom: 40px;
   z-index: 1099;
 }
 
@@ -159,7 +158,7 @@ h6.more-story  { margin: 5px 0px 16px 0px; }
   z-index: 0;
 }
 
-#organizations, #call-to-action, #join-the-revolution {
+#organizations, #call-to-action {
   padding: 50px 0px;
 }
 #organizations {/* haven't decided yet */}
@@ -178,9 +177,19 @@ h6.more-story  { margin: 5px 0px 16px 0px; }
 .lrg-button:hover {
   background: #15A2F9;
 }
+#join-the-revolution {background: #dddd00; padding: 100px 0px; color: #fff;
+/*  background-color: #333;
+  background-image: url("{{ site.root }}assets/img/gh-enterprise-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;*/
+
+}
 #join-the-revolution h3 { line-height: 1.1em; }
 
 /* temporary while i'm developing offline */
+.stories.container { padding-bottom: 40px;}
+
 .story-unit.span8 img {
   width: 770px;
   height: 200px;
@@ -250,6 +259,8 @@ h6 a {line-height: 1.5em;}
 
 
 /* footer */
+
+.home-footer {background: #dddd00;}
 
 footer a {
   color: #4183c4;

@@ -4,38 +4,38 @@ organizations:
   United States:
     - adlnet
     - cfpb
+    - CMSgov
+    - commercegov
+    - EducationDataInitiative
     - erdc-cm
     - fcc
     - gsa
     - GSA-OCSIT
     - hhs
+    - HistoryAtState
+    - IMLS
     - LibraryOfCongress
+    - mcc-gov
     - nasa
     - nationalparkservice
+    - NCBITools
     - NCIP
+    - nhlbi
     - nrel
     - opengovplatform
+    - ozoneplatform
     - presidential-innovation-fellows
+    - RedhawkSDR
     - usagov
+    - USAID
+    - usaid
+    - usasearch
+    - usda
     - USDepartmentofLabor
     - USEPA
     - usgs
     - usnationalarchives
     - whitehouse
-    - usasearch
-    - commercegov
-    - usda
-    - CMSgov
-    - IMLS
-    - USAID
-    - EducationDataInitiative
-    - HistoryAtState
-    - mcc-gov
-    - NCBITools
-    - nhlbi
-    - ozoneplatform
-    - RedhawkSDR
-    - usaid
 #   - EducationDataInitiative
 #   - USDA-ERS
 #   - usinterior
@@ -94,7 +94,7 @@ organizations:
     - okfn
     - civicindustries
     - localdata
-    
+
 #global settings
 title: "Government and GitHub"
 description: "Stories of open data, open source, and open collaboration"

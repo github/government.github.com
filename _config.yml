@@ -4,7 +4,6 @@ organizations:
   United States:
     - adlnet
     - cfpb
- #   - EducationDataInitiative
     - erdc-cm
     - fcc
     - gsa
@@ -26,12 +25,13 @@ organizations:
     - usasearch
     - commercegov
     - usda
- #   - USDA-ERS
- #   - usinterior
     - CMSgov
     - IMLS
     - USAID
-    
+#   - EducationDataInitiative
+#   - USDA-ERS
+#   - usinterior
+
   Argentina:
     - gcba
 

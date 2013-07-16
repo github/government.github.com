@@ -13,7 +13,7 @@ orgs = JSON.parse open('http://registry.usa.gov/accounts?service_id=GitHub&forma
 orgs = orgs["accounts"].collect { |data| data["account"] }
 
 orgs.each do |org|
-  config["organizations"]["United States"].push org unless config["organizations"]["United States"].include? org
+  config["organizations"]["United States"].push org.downcase unless config["organizations"]["United States"].include? org.downcase
 end
 
 output = { "United States" => config["organizations"]["United States"].sort do |a,b| a.upcase <=> b.upcase end }

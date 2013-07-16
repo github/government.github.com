@@ -4,35 +4,34 @@ organizations:
   United States:
     - adlnet
     - cfpb
-    - CMSgov
+    - cmsgov
     - commercegov
-    - EducationDataInitiative
+    - educationdatainitiative
     - erdc-cm
     - fcc
     - gsa
-    - GSA-OCSIT
+    - gsa-ocsit
     - hhs
-    - HistoryAtState
-    - IMLS
-    - LibraryOfCongress
+    - historyatstate
+    - imls
+    - libraryofcongress
     - mcc-gov
     - nasa
     - nationalparkservice
-    - NCBITools
-    - NCIP
+    - ncbitools
+    - ncip
     - nhlbi
     - nrel
     - opengovplatform
     - ozoneplatform
     - presidential-innovation-fellows
-    - RedhawkSDR
+    - redhawksdr
     - usagov
-    - USAID
     - usaid
     - usasearch
     - usda
-    - USDepartmentofLabor
-    - USEPA
+    - usdepartmentoflabor
+    - usepa
     - usgs
     - usnationalarchives
     - whitehouse

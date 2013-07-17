@@ -32,11 +32,11 @@
                     <span class="mega-octicon octicon-mark-github"></span>
                 </a>
                 <ul>
-                    <li><a href="/"><img src="{{ site.root }}assets/img/open-gov.png" style="height: 20px;"></li>
-                    <li><a href="/#join-the-revolution">Join the Revolution</a></li>
-                    <li id="community" {% if page.permalink == "/community" %}class="active"{% endif %}>
+                    
+                    <li {% if page.permalink == "/community" %}class="active"{% endif %}>
                         <a href="{{ site.root }}community" rel="author">Who's Using GitHub</a></li>
-                    <li id="github-101" {% if page.permalink == "/github-101/" %}class="active"{% endif %}>
+                    <li><a href="/getting-started">Join the Revolution</a></li>
+                    <li {% if page.permalink == "/github-101/" %}class="active"{% endif %}>
                         <a href="{{ site.root }}github-101">GitHub 101</a>
                     </li>
                 </ul>

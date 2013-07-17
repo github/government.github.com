@@ -1,23 +1,27 @@
 {% include header.html %}
 
-<header>
+<header class="container">
   <h1>{{ page.title }}</h1>
+  <h4>Published {{ page.date | date: "%B %d, %Y"}}</h4>
 </header>
 
+<div class="container">
   <div class="row">
     <div class="span8">
-      <div class="category {{ post.category }} ">{{ page.category }}</div>
+      <!-- <div class="category {{ post.category }} ">{{ page.category }}</div> -->
       <img class="story-img" src="{{ page.image }}" alt="{{ page.title }}" /> 
-      <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+      <!-- <h2><a href="{{ page.url }}">{{ page.title }}</a></h2> -->
       <div class="meta">Published {{ page.date | date: "%B %d, %Y"}}</div>
     </div>
   </div>
 
   <div id="content" class="row story-page">
 
-    <div class="span8">
+    <div class="span8 mini-section">
       {{ content }}
     </div>
 
   </div>
+</div>
+
 {% include footer.html %}

@@ -30,7 +30,7 @@ permalink: /the-github-way/
     <div class="icon">
       <span class="mega-octicon octicon-person-team"></span>
     </div>
-    <h3>Beyond comments</h3>
+    <h3>Beyond emailing comments</h3>
     <p>Whether public, within your organization, or just with your team, GitHub's powerful Pull Request model of proposed changes empowers communities to grow around shared challenges.</p>
   </div>
   <div class="span3">

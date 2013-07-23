@@ -326,3 +326,9 @@ footer .site-footer .octicon-mark-github:hover {
   .site-footer-links, .site-footer-links.right {float: left; padding-left: 30px; padding-bottom: 8px;}
   .site-footer .octicon-mark-github {float: left; left: 0px; top: 46px;}
 }
+
+.feature-header { text-align: center; }
+.feature-header h3 { color: #999; }
+.features h3 { font-weight: bold; line-height: 1em; text-align: center;}
+.features .icon { text-align: center; border: 1px solid #999; border-radius: 50px; width: 100px; margin-left: auto; margin-right: auto; height: 100px; color: #4183c4;}
+.features .mega-octicon {display: block; font-size: 50px !important; margin-top: 25px;}

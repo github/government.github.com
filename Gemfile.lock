@@ -31,7 +31,7 @@ GEM
       pygments.rb (~> 0.5.0)
       safe_yaml (~> 0.7.0)
     kramdown (1.0.2)
-    liquid (2.5.0)
+    liquid (2.5.1)
     maruku (0.6.1)
       syntax (>= 1.0.0)
     multi_json (1.7.4)
@@ -81,7 +81,7 @@ DEPENDENCIES
   RedCloth (= 4.2.9)
   foreman
   jekyll (= 1.0.3)
-  liquid (= 2.5.0)
+  liquid (= 2.5.1)
   maruku (= 0.6.1)
   rake
   rdiscount (= 1.6.8)

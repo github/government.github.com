@@ -1,0 +1,41 @@
+---
+title: "Who's using GitHub?"
+layout: page
+description: Opening Data, Standing up Open Source Projects
+permalink: /community/
+---
+<div class="container">
+<div class="row">
+  <div class="span8">
+    <h3>Government agencies at the national, state, and local level use GitHub to share and collaborate. If you're using GitHub in government, <a class="inline-link" href="/getting-started/">add your organization</a>.</h3>
+  </div>
+</div>
+
+<div class="row section">
+  <div class="span12">
+{% for type_hash in site.organizations %}
+  <div class="type-block"><p>{{type_hash[0]}}</p></div>
+    {% for org in type_hash[1] %}
+      <div class="organization">
+        <a href="http://github.com/{{ org }}" title="{{ org }}">
+          <img class="avatar" src="https://github.com/{{ org }}.png" alt= "{{ org }}" target="_blank"/>
+        </a>
+      </div>
+    {% endfor %}
+{% endfor %}
+</div>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <h2>Add An Organization to the List</h2>
+    <p>Artisan hashtag flexitarian, keytar ethical chillwave umami synth Truffaut meggings +1 messenger bag. 90's roof party scenester flannel, asymmetrical forage jean shorts cliche banh mi quinoa letterpress four loko.</p>
+    <ol>
+      <li>Log in to GitHub</li>
+      <li>Go to this repo and fork it.</li>
+      <li>Click the _config.yml file</li>
+      <li>Add yada yada</li>
+    </ol>
+  </div>
+</div>
+</div>

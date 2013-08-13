@@ -1,6 +1,7 @@
 ---
 layout: home
 permalink: /
+title: Stories of open source, open data and collaboration.
 featured_orgs:
   - whitehouse
   - alphagov
@@ -47,7 +48,7 @@ featured_orgs:
 
 {% if paginator.page == 1 %}
 
-<div class="stories">
+<div class="stories container">
   <div class="row">
     <div class="story-unit span8">
       {% assign post=site.posts[0] %}
@@ -58,6 +59,7 @@ featured_orgs:
       {% include post-single.html %}
     </div>
   </div>
+
   <div class="row">
     <div class="story-unit span4">
       {% assign post=site.posts[2] %}
@@ -67,17 +69,39 @@ featured_orgs:
       {% assign post=site.posts[3] %}
       {% include post-single.html %}
     </div>
-    <div id="more-stories" class="story-unit span4">
-      <h2>More</h2>
+    <article id="more-stories" class="story-unit span4">
+      <h2 style="margin: 0px; line-height: inherit; padding-bottom: 10px;">More</h2>
       {% for post in site.posts limit:5 offset:4 %}
+      <div class="one-story">
         <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>
-        <h6 class="border-left {{ post.category }}"><a href="{{ post.url }}">{{ post.title }}</a></h6>
+        <h6 class="border-left {{ post.category }}"><a class="title-link" href="{{ post.url }}">{{ post.title }}</a></h6>
+      </div>
       {% endfor %}
       <div id="desktop-archive"><small><a href="/page2/">Complete Archive</a></small></div>
     </div>  
     
     <div id="mobile-archive" class="border-left"><h4><a href="/page2/">Story Archive</a></h4></div>
+</div><!-- end stories container -->
+
+<div id="orgs">
+  <div id="community">
+  {% for type_hash in site.organizations %}
+    <div class="type-block"><p>{{type_hash[0]}}</p></div>
+      {% for org in type_hash[1] %}
+        <div class="organization">
+          <a href="http://github.com/{{ org }}" title="{{ org }}">
+            <img class="avatar" src="https://github.com/{{ org }}.png" alt= "{{ org }}" target="_blank"/>
+          </a>
+        </div>
+      {% endfor %}
+  {% endfor %}
+  </div>
+  <div id="white-fade-top"></div>
+  <div id="white-fade-bottom"></div>
 </div>
+<!-- </div> -->
+
+<div id="join-the-revolution" class="container"> 
 
 {% else %}
 
@@ -109,4 +133,8 @@ featured_orgs:
     </div>
   </div> 
 </div>
+
+
+
+
 

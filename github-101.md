@@ -1,6 +1,7 @@
 ---
 title: GitHub 101
 layout: page
+description: Jargon and Best Practices
 permalink: /github-101/
 
 ---
@@ -161,3 +162,4 @@ Federal employees and members of the public are encouraged to contribute to this
 1. Producing Open Source Software – Karl Fogel (Practical)
 2. The Cathedral and the Bazar – Eric S. Raymond (Theoretical)
 3. Understanding Open Source and Free Software Licensing – Andrew M St. Laurent (O'Reilly)
+

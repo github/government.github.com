@@ -4,9 +4,10 @@ Assign a post to the variable `post` to use.
 {% endcomment %}
 
 <article>
-  <div class="category {{ post.category }}">{{ post.category }}</div>
-  <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}" /></a>
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <!-- <div class="category {{ post.category }}">{{ post.category }}</div> -->
+  <a href="{{ post.url }}"><div class="post-image" style="background: url('{{ post.image }}') center 10%"></div></a>
+  <!-- <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}" /></a> -->
+  <h2><a class="title-link" href="{{ post.url }}">{{ post.title }}</a></h2>
   <div class="meta">Published {{ post.date | date: "%B %d, %Y"}}</div>
   <div class="description">{{ post.description }}</div>
 </article>  

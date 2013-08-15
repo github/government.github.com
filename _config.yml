@@ -83,7 +83,8 @@ organizations:
     - NYCComptroller
     - CityOfPhiladelphia
     - cambridgegis
-
+    - cocdata
+   
   Civic Hackers:
     - codeforamerica
     - sunlightlabs

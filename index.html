@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: Stories of open source, open data and collaboration.
+title:
 featured_orgs:
   - whitehouse
   - alphagov
@@ -49,39 +49,80 @@ featured_orgs:
 {% if paginator.page == 1 %}
 
 <div class="stories container">
-  <div class="row">
-    <div class="story-unit span8">
-      {% assign post=site.posts[0] %}
-      {% include post-single.html %}
+  <div class="left-side" style="width: 770px; float: left;">
+    <div class="row">
+      <div class="story-unit span8">
+        {% assign post=site.posts[0] %}
+        {% include post-single.html %}
+      </div>
     </div>
-    <div class="story-unit span4">
-      {% assign post=site.posts[1] %}
-      {% include post-single.html %}
+
+    <div class="row">
+      <div class="story-unit span4">
+        {% assign post=site.posts[2] %}
+        {% include post-single.html %}
+      </div>
+      <div class="story-unit span4">
+        {% assign post=site.posts[3] %}
+        {% include post-single.html %}
+      </div>
+    </div>
+  </div>  
+
+  <div class="right-side" style="float: right;">
+    <div class="row">
+      <div class="span4">
+        <article id="more-stories" class="story-unit">
+          <h2 style="margin: 0px; line-height: inherit; padding-bottom: 10px;">More</h2>
+          {% for post in site.posts limit:5 offset:4 %}
+          <div class="one-story">
+            <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>
+            <h6 class="border-left {{ post.category }}"><a class="title-link" href="{{ post.url }}">{{ post.title }}</a></h6>
+          </div>
+          {% endfor %}
+          <div id="desktop-archive"><small><a href="/page2/">Complete Archive</a></small></div>
+          <div id="mobile-archive" class="border-left"><h4><a href="/page2/">Story Archive</a></h4></div>
+        </article>
+      </div>
     </div>
   </div>
-
-  <div class="row">
-    <div class="story-unit span4">
-      {% assign post=site.posts[2] %}
-      {% include post-single.html %}
-    </div>
-    <div class="story-unit span4">
-      {% assign post=site.posts[3] %}
-      {% include post-single.html %}
-    </div>
-    <article id="more-stories" class="story-unit span4">
-      <h2 style="margin: 0px; line-height: inherit; padding-bottom: 10px;">More</h2>
-      {% for post in site.posts limit:5 offset:4 %}
-      <div class="one-story">
-        <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>
-        <h6 class="border-left {{ post.category }}"><a class="title-link" href="{{ post.url }}">{{ post.title }}</a></h6>
-      </div>
-      {% endfor %}
-      <div id="desktop-archive"><small><a href="/page2/">Complete Archive</a></small></div>
-    </div>  
-    
-    <div id="mobile-archive" class="border-left"><h4><a href="/page2/">Story Archive</a></h4></div>
 </div><!-- end stories container -->
+
+<div id="join-the-revolution" class="container"> 
+
+{% else %}
+
+{% include archive.html %}
+
+{% endif %}
+
+<div id="join-the-revolution"> 
+<div class="row">
+  <div class="span8">
+    <h1 class="lrg-button">Join the Revolution</h1>
+    <h3>Join the White House, city and state governments, and millions of communities around the world who share and collaborate on code, data, policy, and more.</h3>
+  </div>
+</div>
+  <div class="row links">
+    <div class="span4">
+      <h2 class="border-left">Sign Up</h2>
+      <ol>
+        <li>New to GitHub? <a href="https://github.com/signup/free" target="_blank">Signup</a> for an account. Already have an account, skip to step two.</li>
+        <li><a href="https://github.com/settings/organizations" targt="_blank">Create an Organization</a> account.</li>
+        <li>Invite your team members!</li>
+      </ol>
+    </div>
+    <div class="span4">
+      <h2 class="border-left">Learn More</h2>
+      <ul>
+        <li>The <a href="/features/">features</a> that make GitHub so great.</li>
+        <li>What GitHub is all <a href="/about/">about</a></li>
+        <li><a href="">Project ideas</a> to get started with</li>
+
+      </ul>
+    </div>
+  </div> 
+</div>
 
 <div id="orgs">
   <div id="community">
@@ -99,41 +140,7 @@ featured_orgs:
   <div id="white-fade-top"></div>
   <div id="white-fade-bottom"></div>
 </div>
-<!-- </div> -->
-
-<div id="join-the-revolution" class="container"> 
-
-{% else %}
-
-{% include archive.html %}
-
-{% endif %}
-
-<div id="join-the-revolution"> 
-<div class="row">
-  <div class="span4">
-    <h3 class="lrg-button"><a href="/getting-started">Join the Revolution</a></h3>
-  </div>
-  <div class="span8">
-    <h3>Join the White House, city and state governments, and millions of communities around the world who share and collaborate on code, data, policy, and more.</h3>
-  </div>
-</div>
-  <div class="row links">
-    <div class="span4">
-      <h2 class="border-left"><a href="/community">Who's using GitHub</a></h2>
-      <p>GitHub is being used to make government more collaborative at the city, state, local, and municiple level. See <a href="/community">who's using GitHub</a>.</p>
-    </div>
-    <div class="span4">
-      <h2 class="border-left"><a href="/github-101">GitHub 101</a></h2>
-      <p>New to GitHub? Think a fork is something you use at lunch? We've got you covered with a  collaboratively edited list of <a href="/github-101">FAQs and best practices.</a></p>
-    </div>
-    <div class="span4">
-      <h2 class="border-left"><a href="/getting-started">Getting Started</a></h2>
-      <p>Ready to join the revolution? We’ll walk you through creating an account and <a href="/getting-started">getting started</a>. You'll be submitting pull requests in no time flat.</p>
-    </div>
-  </div> 
-</div>
-
+  <h2>See the community making history on GitHub</h2>
 
 
 

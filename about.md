@@ -1,7 +1,7 @@
 ---
 title: About
 layout: page
-description: Jargon and Best Practices
+description: About GitHub
 permalink: /about/
 ---
 

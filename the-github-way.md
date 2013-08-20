@@ -17,14 +17,14 @@ permalink: /the-github-way/
       <span class="mega-octicon octicon-cloud-upload"></span>
     </div>
     <h3>In your datacenter<br/>or in the cloud</h3>
-    <p>Run a private instane of <a href="http://enterprise.github.com">GitHub Enterprise</a> in your datacenter or private cloud, or publish your projects to <a href="http://github.com">GitHub.com</a>. Both public and private repositories, the choice is yours.</p>
+    <p>Run a private instance of <a href="http://enterprise.github.com">GitHub Enterprise</a> in your datacenter or private cloud, or publish your projects to <a href="http://github.com">GitHub.com</a>. Both public and private repositories, the choice is yours.</p>
   </div>
   <div class="span3">
     <div class="icon">
       <span class="mega-octicon octicon-git-commit"></span>
     </div>
     <h3>Who made what change when</h3>
-    <p>Whether your collaborating on source code, data, or text, GitHub automatically tracks who made what change when, and keeps a copy of each revsion along the way.</p>
+    <p>Whether your collaborating on source code, data, or text, GitHub automatically tracks who made what change when, and keeps a copy of each revision along the way.</p>
   </div>
   <div class="span3">
     <div class="icon">

@@ -2,6 +2,8 @@
 
 set -e
 
+script/bootstrap
+
 #build the site
 echo "buildin' the site..."
 bundle exec rake assets:precompile

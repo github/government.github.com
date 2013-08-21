@@ -33,7 +33,7 @@ To setup your site to work with Heroku, simply copy the contents of this reposit
 
 #### The Git Way
 
-Potentially more complicated (if there are conflicts), but a heckofalot easier, the fastest way to add Jekyll Auth to your site is to run the following command from your project directory (assuming it's already in Git):
+The fastest way to add Jekyll Auth to your site is to run the following command from your project directory (assuming it's already in Git):
 
 ```
 git remote add jekyll-auth https://github.com/benbalter/jekyll-auth && git pull -s ours jekyll-auth master

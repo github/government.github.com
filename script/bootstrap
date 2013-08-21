@@ -2,8 +2,8 @@
 
 set -e
 
-echo "bundling installin'"
-bundle install
+script/branding
 
-echo
-echo "Sweet! Now script/server and you're all set, G-man."
+echo "Let's get set up here..."
+bundle install
+echo "Boom."

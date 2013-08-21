@@ -1,0 +1,62 @@
+#!/bin/sh
+
+set -e
+
+script/bootstrap
+
+echo " "
+echo "Looks like we're setting up Heroku for Jekyll Auth. Let's do this."
+echo " "
+
+if `git remote | grep -q "heroku"`; then
+  echo "It seems you've already got a Heroku app set up. We'll jump right into things."
+else
+
+  echo "If you already created an app, enter it's name"
+  echo "otherwise, hit enter, and we'll get you set up with one."
+  read -p "Heroku App Name? " app
+
+  if [ -z $app ]; then
+    echo "Not a problem, let's create that heroku app for you."
+    heroku create
+  else
+    echo "Great. Let's tell Heroku to use our existing app."
+    heroku git:remote -a $app
+  fi
+
+fi
+
+
+echo " "
+echo "Awesome. Now let's teach Heroku about our GitHub app."
+
+echo " "
+read -p "What's your GitHub Client ID? " client_id
+
+heroku config:set GITHUB_CLIENT_ID=$client_id
+
+echo " "
+read -p "What's your GitHub Client Secret? " client_secret
+
+heroku config:set GITHUB_CLIENT_SECRET=$client_secret
+
+echo " "
+read -p "What's your GitHub Team ID? (you can skip this in favor of an org if you prefer) " team_id
+
+heroku config:set GITHUB_TEAM_ID=$team_id
+
+if [ -z $team_id ]; then
+  read -p "What's your GitHub Org ID? " $org_id
+  heroku config:set GITHUB_ORG_ID=$org_id
+fi
+
+echo " "
+echo "We're all set. Time to deploy our code to Heroku"
+git push heroku master --force
+
+echo " "
+echo "Time to see if it worked!"
+heroku open
+
+echo "------"
+echo "Fin."

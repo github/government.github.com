@@ -2,7 +2,7 @@
 title: Getting Started
 layout: page
 description: Project Ideas
-permalink: /about/
+permalink: /getting-started/
 ---
 
 Subnav

@@ -13,6 +13,7 @@ class AuthSite < Sinatra::Base
   register Sinatra::Auth::Github
 
   before do
+    authenticate!
     if ENV['GITHUB_TEAM_ID']
       github_team_authenticate!(ENV['GITHUB_TEAM_ID'])
     elsif ENV['GITHUB_ORG_ID']
@@ -31,7 +32,6 @@ class JekyllSite < Sinatra::Base
 end
 
 app = Rack::Builder.new do
-  use Rack::Static, :root => "_site"
   use Rack::Session::Cookie, :secret => ENV['SESSION_SECRET'] || SecureRandom.hex
   use AuthSite
   run JekyllSite

@@ -13,13 +13,14 @@ class AuthSite < Sinatra::Base
   register Sinatra::Auth::Github
 
   before do
-    authenticate!
     if ENV['GITHUB_TEAM_ID']
       github_team_authenticate!(ENV['GITHUB_TEAM_ID'])
     elsif ENV['GITHUB_ORG_ID']
       github_organization_authenticate!(ENV['GITHUB_ORG_ID'])
     else
-      [ 401, { 'Content-Type'  => 'text/html' }, ['401 - Unauthorized'] ]
+      puts "ERROR: Jekyll Auth is refusing to serve yoru site."
+      puts "Looks like your oauth credentials are not properly configured. RTFM."
+      halt 401
     end
   end
   use Rack::Static, :root => "_site", :urls => %w[/index.html]

@@ -304,6 +304,15 @@ footer .site-footer .octicon-mark-github:hover {
   height: 300px;
 }
 
+.the-text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding-top: 40px;
+  z-index: 10;
+  width: 500px;
+}
+
 .community-text h2 {
   z-index: 10;
 }
@@ -315,7 +324,7 @@ footer .site-footer .octicon-mark-github:hover {
   height: 0;
   border-top: 441px solid #fff;
   border-right: 249px solid transparent;
-  left: 417px;
+  left: 371px;
   top: 0px;
   z-index: 9;
 }

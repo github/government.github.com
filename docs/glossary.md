@@ -1,15 +1,11 @@
 ---
 title: Glossary
-layout: page
+layout: support-page
 description: Glossary of Jargon
 permalink: /glossary/
 ---
 
-Subnav
-- About
-- FAQ
-
-No doubt all this GitHub and openness comes with a lot of new vocabulary. Most of the time the word is new but the concept is not; we've got them defined for you here.
+#### No doubt all this GitHub and openness comes with a lot of new vocabulary. Most of the time the word is new but the concept is not; we've got them defined for you here.
 
 * **Users** - These are personal GitHub accounts. Each user has a personal profile, and can own multiple repositories, public or private. They can create or be invited to join organizations.
 * **Organizations** - Organizations group two or more users together. They are administered by users, and can contain both repositories and teams.

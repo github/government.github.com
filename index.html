@@ -115,9 +115,9 @@ featured_orgs:
     <div class="span4">
       <h2 class="border-left">Learn More</h2>
       <ul>
-        <li>The <a href="/features/">features</a> that make GitHub so great.</li>
-        <li>What GitHub is all <a href="/about/">about</a></li>
-        <li><a href="">Project ideas</a> to get started with</li>
+        <li>The <a href="docs/features/">features</a> that make GitHub so great.</li>
+        <li>What GitHub is all <a href="docs/about/">about</a></li>
+        <li><a href="/docs/getting-started/">Project ideas</a> to get started with</li>
 
       </ul>
     </div>
@@ -125,6 +125,7 @@ featured_orgs:
 </div>
 
 <div id="orgs">
+  <span class="community-text"><h2>See the community making history on GitHub</h2></span>
   <div id="community">
   {% for type_hash in site.organizations %}
     <div class="type-block"><p>{{type_hash[0]}}</p></div>
@@ -137,10 +138,9 @@ featured_orgs:
       {% endfor %}
   {% endfor %}
   </div>
-  <div id="white-fade-top"></div>
-  <div id="white-fade-bottom"></div>
+
 </div>
-  <h2>See the community making history on GitHub</h2>
+  
 
 
 

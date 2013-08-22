@@ -1,17 +1,11 @@
 ---
 title: Features
-layout: page
+layout: support-page
 description: GitHub Features
 permalink: /features/
 ---
 
-Subnav
-- Glossay
-- FAQ
-
-_trying to rebuild this page after I lost it :(_
-
-GitHub was built with code in mind so that developers could work together, no matter where they were. Because code, data and words are all simply text, GitHub's collaboration features go way beyond just benefiting developers.
+#### GitHub was built with code in mind so that developers could work together, no matter where they were. Because code, data and words are all simply text, GitHub's collaboration features go way beyond just benefiting developers.
 
 ## Collaborate
 - Whether your collaborating on source code, data, or text, GitHub automatically tracks who made what change when, and keeps a copy of each revsion along the way.

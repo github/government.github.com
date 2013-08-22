@@ -99,32 +99,6 @@ small { letter-spacing: .1em; font-size: 10px; color: #acacac;}
  
 header {padding-bottom: 42px;}
 
-/*
-.category {
-  padding: 2px 7px;
-  margin: 0px 0px 8px 0px;
-  background: red;
-  color: #fff;
-  text-transform: none;
-  font-weight: lighter;
-  font-size: 11px;
-  letter-spacing: .1em;
-  float: left; /* meeeh */ /*
-} */
-/*
-.category:hover {
-  background: #00C3F8;
-}*/
-
-/*.category.Open.Source, .category.Open.Data, .category.Open.Government { background: #1ae80a; border-bottom: 2px solid #eee;}*/
-
-/*.category.Open.Source { background: #15a2f9; border-bottom: 2px solid #0990d3;}
-.category.Open.Data { background: #15a2f9; border-bottom: 2px solid #0990d3;}
-.category.Open.Government { background: #15a2f9; border-bottom: 2px solid #0990d3;}*/
-
-/* stories */
-/* ----------------------------------------------------------------------------------- */
-
 .stories .row {
   padding-bottom: 50px;
 }
@@ -307,17 +281,46 @@ footer .site-footer .octicon-mark-github:hover {
 /* ----------------------------------------------------------------------------------- */
 
 #orgs {
-  height: 250px;
+  position: relative;
+  height: 300px;
   overflow-y: hidden;
   margin: 50px 0px;
 }
 #community {
-  position: relative;
-  margin-top: -5px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
   float: left;
   z-index: 0;
 }
-#white-fade-top, #white-fade-bottom {
+.community-text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding-top: 40px;
+  z-index: 10;
+  background: #fff;
+  width: 500px;
+  height: 300px;
+}
+
+.community-text h2 {
+  z-index: 10;
+}
+
+.community-text::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 441px solid #fff;
+  border-right: 249px solid transparent;
+  left: 417px;
+  top: 0px;
+  z-index: 9;
+}
+
+/*#white-fade-top, #white-fade-bottom {
   position: relative;
   background-repeat: repeat-x;
   height: 125px;
@@ -330,7 +333,7 @@ footer .site-footer .octicon-mark-github:hover {
 #white-fade-bottom {
   bottom: 0px;
   background: url('/assets/img/white-fade-bott.png');
-}
+}*/
 img.avatar {
   width: 80px;
   height: 80px;

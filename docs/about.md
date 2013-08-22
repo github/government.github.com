@@ -1,16 +1,11 @@
 ---
 title: About
-layout: page
+layout: support-page
 description: About GitHub
 permalink: /about/
 ---
 
-Subnav
-- Glossay
-- FAQ
-- Project Ideas
-
-GitHub is a company and GitHub.com, GitHub Enterprise, GitHub for Mac and more are things we built to make working together easier. 
+#### GitHub is a company and GitHub.com, GitHub Enterprise, GitHub for Mac and more are things we built to make working together easier. 
 
 ### GitHub, Inc
 

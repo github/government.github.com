@@ -102,6 +102,7 @@ organizations:
 title: "Government and GitHub"
 description: "Stories of open data, open source, and open collaboration"
 permalink: "/stories/:title"
+relative_permalinks: true
 
 #build settings
 exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md"]

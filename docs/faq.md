@@ -1,19 +1,11 @@
 ---
 title: FAQ
-layout: page
+layout: support-page
 description: Frequently Asked Questions
 permalink: /faq/
 ---
 
-Subnav
-- About
-- Glossary
-- Project Ideas
-
-Jump to:
-- Open Source
-- Community
-- More
+#### Here we answer the most common questions about [open source](#open-source), [open source communities](#) and [GitHub](#) in general. You can help edit this page with a [pull request](#).
 
 ## Open Source
 

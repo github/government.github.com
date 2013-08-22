@@ -28,16 +28,16 @@
 
         <div id="top-nav">
             <div class="container">
-                <a class="logo-invertocat" href="/">
+           <!--      <a class="logo-invertocat" href="/">
                     <span class="mega-octicon octicon-mark-github"></span>
-                </a>
+                </a> -->
                 <ul>
                     <li><a href="/"><strong>Join the Revolution</strong></a></li>
-                    <li id="features" {% if page.permalink == "/features/" %}class="active"{% endif %}>
-                        <a href="{{ site.root }}features">Features</a>
-                    </li>
                     <li id="about" {% if page.permalink == "/about/" %}class="active"{% endif %}>
-                        <a href="{{ site.root }}about">About</a>
+                        <a href="{{ site.root }}docs/about">About</a>
+                    </li>
+                    <li id="features" {% if page.permalink == "/features/" %}class="active"{% endif %}>
+                        <a href="{{ site.root }}docs/features">Features</a>
                     </li>
                     <li id="comm" {% if page.permalink == "/Community/" %}class="active"{% endif %}>
                         <a href="{{ site.root }}community">Community</a>

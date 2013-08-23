@@ -77,7 +77,7 @@ featured_orgs:
           {% for post in site.posts limit:5 offset:4 %}
           <div class="one-story">
             <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>
-            <h6 class="border-left {{ post.category }}"><a class="title-link" href="{{ post.url }}">{{ post.title }}</a></h6>
+            <h6 class="border-left {{ post.category }}"><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h6>
           </div>
           {% endfor %}
           <div id="desktop-archive"><small><a href="/page2/">Complete Archive</a></small></div>
@@ -125,9 +125,9 @@ featured_orgs:
 </div>
 
 <div id="orgs">
-  <span class="community-text"></span>
-  <h2 class="the-text">See the community making history on GitHub</h2>
-  <div id="community">
+  <span class="orgs-cutout"></span>
+  <h2 class="orgs-text">See the community making history on GitHub</h2>
+  <div id="the-orgs">
   {% for type_hash in site.organizations %}
     <div class="type-block"><p>{{type_hash[0]}}</p></div>
       {% for org in type_hash[1] %}

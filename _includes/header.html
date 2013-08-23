@@ -31,8 +31,11 @@
            <!--      <a class="logo-invertocat" href="/">
                     <span class="mega-octicon octicon-mark-github"></span>
                 </a> -->
+                <ul class="fleft">
+                  <li><a href="/"><strong>Join the Revolution</strong></a></li>
+                </ul>
+                <div style="text-align: center;">
                 <ul>
-                    <li><a href="/"><strong>Join the Revolution</strong></a></li>
                     <li id="about" {% if page.permalink == "/about/" %}class="active"{% endif %}>
                         <a href="{{ site.root }}docs/about">About</a>
                     </li>
@@ -42,9 +45,12 @@
                     <li id="comm" {% if page.permalink == "/Community/" %}class="active"{% endif %}>
                         <a href="{{ site.root }}community">Community</a>
                     </li>
+                </ul>
+                <ul class="fright">
                     <li id="getting-started" {% if page.permalink == "/" %}class="active"{% endif %}>
-                        <a href="{{ site.root }}#join-the-revolution"><strong>Get Started!</strong></a>
+                      <a href="{{ site.root }}#join-the-revolution"><strong>Get Started!</strong></a>
                     </li>
                 </ul>
+                </div>
             </div>
         </div>

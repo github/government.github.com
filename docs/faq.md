@@ -11,7 +11,7 @@ permalink: /faq/
 
 ### Why should I use open source software?
 
-There are [lots of arguments](http://www.dwheeler.com/oss_fs_why.html) in favor of adopting an existing open source project over its proprietary counterparts. A few of the biggest ones:
+There are [lots of arguments](http://www.dwheeler.com/oss_fs_why.html) in favor of adopting an existing <a href="#" class="glossary">open source</a> project over its proprietary counterparts. A few of the biggest ones:
 
 * Lower cost - No costly licensing, no vendor lock in
 * Nimble - Often better at remaining responsive to emerging trends
@@ -19,7 +19,7 @@ There are [lots of arguments](http://www.dwheeler.com/oss_fs_why.html) in favor 
 * Fast fixes - The distributed model enables rapid detection and patching of bugs
 * Customizable - You own the code. Make it do what you want
 
-#### What are the advantages of producing open source software?
+### What are the advantages of producing open source software?
 
 In addition to the efficiencies inherent with a collaborative model (independent code review, communal feature development), empirically, [open source produces better, more reliable software](http://www.coverity.com/library/pdf/coverity-scan-2011-open-source-integrity-report.pdf). Think about it logically. When you (or your organization) is the only person that's ever going to see something, you're a lot more likely to "just make it work." After all, who would ever know?
 

@@ -80,7 +80,7 @@ featured_orgs:
             <h6 class="border-left {{ post.category }}"><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h6>
           </div>
           {% endfor %}
-          <div id="desktop-archive"><small><a href="/page2/">Complete Archive</a></small></div>
+          <div id="desktop-archive"><small><a href="/archive/">Complete Archive</a></small></div>
           <div id="mobile-archive" class="border-left"><h4><a href="/page2/">Story Archive</a></h4></div>
         </article>
       </div>
@@ -96,16 +96,16 @@ featured_orgs:
 
 {% endif %}
 
-<div id="join-the-revolution"> 
+<div id="join-the-revolution" class="section"> 
 <div class="row">
-  <div class="span8">
-    <h1 class="lrg-button">Join the Revolution</h1>
-    <h3>Join the White House, city and state governments, and millions of communities around the world who share and collaborate on code, data, policy, and more.</h3>
+  <div class="span8 the-revolution">
+    <h1 class="lrg-button">The Revolution</h1>
+    <h4>Join the White House, city and state governments, and millions of communities around the world who share and collaborate on code, data, policy, and more.</h4>
   </div>
 </div>
   <div class="row links">
     <div class="span4">
-      <h2 class="border-left">Sign Up</h2>
+      <h3 class="border-left">Sign Up</h3>
       <ol>
         <li>New to GitHub? <a href="https://github.com/signup/free" target="_blank">Signup</a> for an account. Already have an account, skip to step two.</li>
         <li><a href="https://github.com/settings/organizations" targt="_blank">Create an Organization</a> account.</li>
@@ -113,7 +113,7 @@ featured_orgs:
       </ol>
     </div>
     <div class="span4">
-      <h2 class="border-left">Learn More</h2>
+      <h3 class="border-left">Learn More</h3>
       <ul>
         <li>The <a href="docs/features/">features</a> that make GitHub so great.</li>
         <li>What GitHub is all <a href="docs/about/">about</a></li>
@@ -124,9 +124,9 @@ featured_orgs:
   </div> 
 </div>
 
-<div id="orgs">
+<div id="orgs" class="section">
   <span class="orgs-cutout"></span>
-  <h2 class="orgs-text">See the community making history on GitHub</h2>
+  <h1 class="orgs-text">See the <a href="/community/" class="inline-link open government">community</a> making history on GitHub.</h1>
   <div id="the-orgs">
   {% for type_hash in site.organizations %}
     <div class="type-block"><p>{{type_hash[0]}}</p></div>

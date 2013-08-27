@@ -19,12 +19,11 @@ Get feedback from your local development community by creating a specific reposi
 	- Click Edit
 	- Introduce yourself, describe why you've joined GitHub, what you're hoping to do and what you'd like to learn from the development community. Encourage them to leave feadback through issues on the repository.
 
-		# City of Gotham Feedback
-
-		We've just joined GitHub and want to know what data would be interesting to our develoment community?
-
-		Leave us comments via issues!
-
+```markdown
+	# City of Gotham Feedback
+	We've just joined GitHub and want to know what data would be interesting to our develoment community?
+	Leave us comments via issues!
+```
 
 ## Open a Dataset
 

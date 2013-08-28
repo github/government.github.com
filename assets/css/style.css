@@ -77,7 +77,7 @@ a.title-link {text-decoration: none; color: #333;}
 a.title-link:hover {text-decoration: none; color: #00C3F8;}
 
 p {font-family: Helvetica, Arial, sans-serif;}
-p a {font-weight: 500; color: #00C3F8; text-decoration: none; border-bottom: 1px solid #00C3F8;}
+p a {font-weight: 500; color: #00C3F8; text-decoration: none;}
 p a:hover, #about a:hover {opacity: .75; text-decoration: none;}
 
 a.glossary {border-bottom: 1px dotted #acacac; color: #333; font-weight: 300;}
@@ -306,6 +306,10 @@ a.Open.Source:hover {color: #00acef;}
   margin: 24px 0px;
   display: block;
 }
+
+/*#Features p {
+  padding: 10px 0px;
+}*/
 
 /* archive page */
 /* ----------------------------------------------------------------------------------- */

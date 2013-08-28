@@ -1,11 +1,9 @@
 ---
 title: Projects
 layout: support-page
-description: Project Ideas
+description: Ready to get started on GitHub? Here are some ideas that are easy to get your feet wet with.
 permalink: /projects/
 ---
-
-#### Ready to get started on GitHub? Here are some ideas that are easy to get your feet wet with.
 
 ## Feedback Repository
 
@@ -19,11 +17,13 @@ Get feedback from your local development community by creating a specific reposi
 	- Click Edit
 	- Introduce yourself, describe why you've joined GitHub, what you're hoping to do and what you'd like to learn from the development community. Encourage them to leave feadback through issues on the repository.
 
-```markdown
+Sample text for your readme.md:
+
 	# City of Gotham Feedback
 	We've just joined GitHub and want to know what data would be interesting to our develoment community?
 	Leave us comments via issues!
-```
+
+---
 
 ## Open a Dataset
 
@@ -31,9 +31,13 @@ Opening a dataset can be as simple as uploading a .csv or Excel file to GitHub a
 
 Some examples of datasets opened on GitHub:
 
+---
+
 ## Fork this Repo
 
 The code for this website is open source! If you see something that needs improving, you can fork the repo, make a change and then submit a pull request. We'd love the feedback and it's a great way to learn the tools of GitHub.
+
+---
 
 ## Standup an App
 

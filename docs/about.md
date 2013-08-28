@@ -1,11 +1,9 @@
 ---
 title: About
 layout: support-page
-description: About GitHub
+description: GitHub is a company and GitHub.com, GitHub Enterprise, GitHub for Mac and more are things we build to make working together easier. 
 permalink: /about/
 ---
-
-#### GitHub is a company and GitHub.com, GitHub Enterprise, GitHub for Mac and more are things we built to make working together easier. 
 
 ### GitHub, Inc
 
@@ -13,7 +11,7 @@ GitHub is the best place to build software together. Over 4 million people use G
 
 ##### GitHub.com
 
-GitHub is based on, and extends the social functionality, of an open-source [distributed version control system](http://en.wikipedia.org/wiki/Revision_control) known as [Git](http://en.wikipedia.org/wiki/Git_(software)). In essence, Git keeps a running log of all changes to a software project. Each time you make a change, you describe that change (a commit message) and then push that change to GitHub. GitHub also allows members of the public to "[fork](/glossary/#fork)" existing projects, improve upon them, and then submit their changes back upstream as a "[pull request](/glossary/#pull_request)."
+GitHub is based on, and extends the social functionality, of an open-source [distributed version control system](http://en.wikipedia.org/wiki/Revision_control) known as [Git](http://en.wikipedia.org/wiki/Git_(software)). In essence, Git keeps a running log of all changes to a software project. Each time you make a change, you describe that change (a commit message) and then push that change to GitHub. GitHub also allows members of the public to [fork](/glossary/#fork) existing projects, improve upon them, and then submit their changes back upstream as a "[pull request](/glossary/#pull_request)."
 
 GitHub offers free public repositories for open source projects as well as subscription-based private repositories for closed projects. Agencies should create an organization account with GitHub, which can include an unlimited number of individual developer accounts. See [Records](#Records) below for more information.
 
@@ -23,4 +21,4 @@ The vast majority of GitHub's users use GitHub.com. This means the code is hoste
 
 ##### Gov Team
 
-We have a gov team and we'd love to here from you. You can reach us at gov@github.com.
+We have a gov team and we'd love to here from you. You can reach us at [gov@github.com](mailto:gov.github.com).

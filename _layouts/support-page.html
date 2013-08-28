@@ -1,18 +1,32 @@
 {% include header.html %}
 
-  <div id="content" class="container">
-  	<h1>{{ page.title }}</h1>
+  <div id="{{ page.title }}" class="container">
   	<div class="row">
-	  	<div class="span8">
-				{{ content }}
+  		<div class="span8">
+  			<h1>{{ page.title }}</h1>
+  		</div>
+  	</div>
+
+		<div class="row">
+			<div class="span8">
+				<div class="description"><h4>{{ page.description }}</h4></div>
 			</div>
-			<div class="span4">
+
+		  <div class="span4">
 				<ul class="subnav">
 					<li><a href="/docs/faq/">FAQ</a></li>
 					<li><a href="/docs/glossary/">Glossary</a></li>
 					<li><a href="/docs/projects/">Project Ideas</a></li>
 				</ul>
 			</div>
+
+  	</div>
+
+  	<div class="row">
+	  	<div class="span8">
+				{{ content }}
+			</div>
+
 		</div>
 	</div><!-- /content -->
 

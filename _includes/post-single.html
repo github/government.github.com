@@ -8,6 +8,6 @@ Assign a post to the variable `post` to use.
   	<div class="homepage-image post-image {{ post.category }}" style="background: url('{{ post.image }}') center 10%"></div>
   </a>
   <h3><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h3>
-  <div class="meta">Published {{ post.date | date: "%B %d, %Y"}}</div>
+  <div class="meta">{{ post.date | date: "%B %d, %Y"}} in {{ post.category }}</div>
   <div class="description">{{ post.description }}</div>
 </article>  

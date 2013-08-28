@@ -5,8 +5,9 @@ description: Here we answer the most common questions about open source, open so
 permalink: /faq/
 ---
 
-_Jump to categories: Open Source, Open Source Community Building, Accounts, More_
+<span class='jump-menu'> Categories: <a href="#open_source">Open Source</a>, <a href="#open_source_community_building">Open Source Community Building</a>, <a href="#accounts">Accounts</a>, <a href="#more">More</a>, <a href="#edit_this_page">Edit this page</a></span>
 
+---
 ## Open Source
 ---
 #### Why should I use open source software?
@@ -52,7 +53,6 @@ More broadly, publicly funded code, is well, the public's code. It'd be like bui
 A lot. See the full list of [who's using GitHub](/community/).
 
 ---
-
 
 ## Open Source Community Building
 ---
@@ -158,7 +158,7 @@ Yes. Including a software license communicates to users what they can and can't 
 
 ---
 
-## Moar
+## More
 ---
 #### What if I have a suggestion on how to improve this page?
 
@@ -171,4 +171,9 @@ Federal employees and members of the public are encouraged to contribute to this
 1. Producing Open Source Software – Karl Fogel (Practical)
 2. The Cathedral and the Bazar – Eric S. Raymond (Theoretical)
 3. Understanding Open Source and Free Software Licensing – Andrew M St. Laurent (O'Reilly)
+
+
+## Edit this Page
+
+This is how you do the edits pizza so pancake.
 

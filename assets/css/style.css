@@ -57,11 +57,11 @@ body {
 
 body {font-weight: lighter;}
 
-h1 {font-size: 50px; margin: 28px 0px 20px 0px; line-height: 56px;}
+h1 {font-size: 49px; margin: 28px 0px 20px 0px; line-height: 62px;}
 h3 {font-size: 26px; font-weight: bold; line-height: 30px; }
 h4 {font-size: 26px; font-weight: normal; line-height: 30px;}
 h6 {font-size: 17px; font-weight: normal; margin: 0px; line-height: 20px;}
-h1, h3, h6 {font-family: Aleo;}
+h1, h3, h6 {font-family: Roboto Slab;}
 
 footer a {text-decoration: none; color: #15a2f9; }
 footer a:hover {text-decoration: none; color: #00C3F8;}

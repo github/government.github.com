@@ -67,18 +67,19 @@ footer a {text-decoration: none; color: #15a2f9; }
 footer a:hover {text-decoration: none; color: #00C3F8;}
 
 a {color: #00C3F8; /*border-bottom: 1px solid #00C3F8;*/ }
-a:hover {text-decoration: none; blend-mode: multiply; color: #00C3F8;}
+a:hover {text-decoration: none; blend-mode: multiply; color: #00C3F8; border-bottom: 1px solid #00C3F8;}
 a img {border: 0 none;}
 
 a.inline-link {text-decoration: none; color: #00C3F8; border-bottom: 1px solid #00C3F8;}
-a.inline-link:hover {text-decoration: none; blend-mode: multiply; border-bottom: 1px solid #00C3F8;}
+a.inline-link:hover {text-decoration: none; opacity: .75;}
+h1 a.inline-link {border-bottom: 2px solid #00C3F8;}
 
 a.title-link {text-decoration: none; color: #333;}
 a.title-link:hover {text-decoration: none; color: #00C3F8;}
 
 p {font-family: Helvetica, Arial, sans-serif;}
 p a {font-weight: 500; color: #00C3F8; text-decoration: none;}
-p a:hover, #about a:hover {opacity: .75; text-decoration: none;}
+p a:hover, #about a:hover {opacity: .75; text-decoration: none; border-bottom: 1px solid #00c3f8;}
 
 a.glossary {border-bottom: 1px dotted #acacac; color: #333; font-weight: 300;}
 a.glossary::after {content: "˘";}
@@ -285,7 +286,7 @@ a.Open.Source:hover {color: #00acef;}
 .description {
   padding: 0px 0px 40px 0px;
 }
-#Glossary ul li {
+#Glossary .span8 ul li, #community .span8 ol li {
   padding: 4px 0px;
 }
 #Glossary .span8 ul { 
@@ -297,7 +298,7 @@ a.Open.Source:hover {color: #00acef;}
 #FAQ hr {
   margin: 36px 0px;
 }
-#FAQ h2:not(:first-of-type) { /* to handle jumping to anchors */
+#FAQ h2:not(:first-of-type), #Projects h2:not(:first-of-type) { /* to handle jumping to anchors */
   padding-top: 75px;
 }
 #FAQ h4 {
@@ -308,6 +309,9 @@ a.Open.Source:hover {color: #00acef;}
   font-weight: bold;
   margin: 24px 0px;
   display: block;
+}
+#Projects h6 {
+  padding: 18px 0px 10px 0px;
 }
 
 /*#Features p {

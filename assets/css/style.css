@@ -58,24 +58,28 @@ body {
 body {font-weight: lighter;}
 
 h1 {font-size: 49px; margin: 28px 0px 20px 0px; line-height: 62px;}
+h1 {font-size: 400%; font-weight: normal;}
+h2 {font-weight: 300;}
 h3 {font-size: 26px; font-weight: bold; line-height: 30px; }
 h4 {font-size: 26px; font-weight: normal; line-height: 30px;}
-h6 {font-size: 17px; font-weight: normal; margin: 0px; line-height: 20px;}
-h1, h3, h6 {font-family: Roboto Slab;}
+h6 {font-size: 17px; font-weight: normal; margin: 0 0 8px 0; line-height: 20px;}
+/*h1, h3, h6 {font-family: Roboto Slab;}*/
 
 footer a {text-decoration: none; color: #15a2f9; }
 footer a:hover {text-decoration: none; color: #00C3F8;}
 
 a {color: #00C3F8; /*border-bottom: 1px solid #00C3F8;*/ }
-a:hover {text-decoration: none; blend-mode: multiply; color: #00C3F8; border-bottom: 1px solid #00C3F8;}
+a:hover {text-decoration: none; blend-mode: multiply; color: #00C3F8;}
 a img {border: 0 none;}
 
 a.inline-link {text-decoration: none; color: #00C3F8; border-bottom: 1px solid #00C3F8;}
-a.inline-link:hover {text-decoration: none; opacity: .75;}
-h1 a.inline-link {border-bottom: 2px solid #00C3F8;}
+ul li a:hover, ol li a:hover, a.inline-link:hover {text-decoration: none; opacity: .75; border-bottom: 1px solid #00C3F8;}
+h1 a.inline-link {/*border-bottom: 2px solid #00C3F8;*/}
+
 
 a.title-link {text-decoration: none; color: #333;}
-a.title-link:hover {text-decoration: none; color: #00C3F8;}
+a.title-link:hover {text-decoration: none; color: #00C3F8; border-bottom: 1px solid #00C3F8;}
+h1 a.title-link:hover {border-bottom: 2px solid #00C3F8;}
 
 p {font-family: Helvetica, Arial, sans-serif;}
 p a {font-weight: 500; color: #00C3F8; text-decoration: none;}
@@ -108,7 +112,7 @@ ul.subnav {list-style: none; background: #eee; display: inline-block; padding: 1
 #top-nav { 
   z-index: 12; 
   margin: 0px auto; 
-  padding: 10px 0px; 
+  padding: 22px 0px; 
   position: fixed; 
   top: 0px; 
   right: 0px; 
@@ -122,20 +126,20 @@ ul.subnav {list-style: none; background: #eee; display: inline-block; padding: 1
   list-style: none; 
   margin: 0px; 
   padding: 0px; 
-  line-height: 1.9em; 
+  line-height: 1.9em;
   display: inline-block;
 }
 #top-nav li { 
   display: inline; 
   text-transform: none; 
-  font-size: 12px; 
+  font-size: 14px; 
   padding-right: 20px; 
   letter-spacing: .1em;
 }
 #top-nav a { 
   color: #333; 
   text-decoration: none;
-  padding: 2px 4px;
+  /*padding: 2px 4px;*/
   /*border-top: 1px solid #333;*/
 }
 /*#top-nav a::before {
@@ -156,18 +160,48 @@ ul.subnav {list-style: none; background: #eee; display: inline-block; padding: 1
   width: 24px;
   height: 25px;
   font-size: 25px;
-  padding-right: 20px;
 }
 #top-nav .logo-invertocat:hover {
   color: #4183c4;
   text-decoration: none;
 }
  
-header {padding-bottom: 42px;}
+header {
+  padding: 80px 0px 100px 0px;
+  color: #333;
+  margin: 0px 0px 30px 0px;
+}
+
+#home-header-nav {
+  list-style: none; padding: 50px 0px;
+}
+#home-header-nav li {
+  padding: 10px 12px;
+  margin: 6px 0px;
+  background: #eee;
+  font-size: 22px;
+  font-weight: 500;
+
+
+}
+
+.full-width {
+  width: 100%;
+  /*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333), to(#494949));*/
+  background: #eee;);
+}
+
+
+
+
+
+.stories {
+  margin-top: 20px;
+}
 
 .stories .row {
-  padding-bottom: 50px;
-}
+/*  padding-bottom: 50px;
+*/}
 .story-unit {
   margin-bottom: 30px;
   padding: 0px;
@@ -176,7 +210,7 @@ header {padding-bottom: 42px;}
 
 .meta {
   /*font-family: Merriweather, Baskerville, serif;*/
-  margin: 6px 0px;
+  /*margin: 6px 0px;*/
   font-size: 12px;
 }
 
@@ -237,7 +271,7 @@ a.Open.Government:hover {color: #f42f71;}
 a.Open.Source:hover {color: #00acef;}
 
 #mobile-archive { display: none; }
-#desktop-archive { padding-top: 20px; }
+/*#desktop-archive { padding-top: 20px; }*/
 
 #join-the-revolution { 
   color: #333; 

@@ -27,16 +27,17 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
+<div class="full-width">
         <div id="top-nav">
             <div class="container">
-          <!--       <a class="logo-invertocat" href="/">
-                    <span class="mega-octicon octicon-mark-github"></span>
-                </a> -->
+                
                 <ul class="fleft">
-                  <li><a href="/"><strong>GitHub and Government</strong></a></li>
-                </ul>
-                <div style="text-align: center;">
-                <ul class="middle-nav">
+                  <li>
+                    <a class="logo-invertocat" href="/">
+                        <span class="mega-octicon octicon-mark-github"></span>
+                    </a>
+                  </li>
+                  <li><a href="/"><!-- <img src="../assets/img/gh-logo.png" width="50"><strong>   -->GitHub and Government</strong></a></li>
                     <li id="about" {% if page.permalink == "/about/" %}class="active"{% endif %}>
                         <a href="{{ site.root }}docs/about">About</a>
                     </li>
@@ -46,12 +47,11 @@
                     <li id="comm" {% if page.permalink == "/Community/" %}class="active"{% endif %}>
                         <a href="{{ site.root }}community">Community</a>
                     </li>
-                </ul>
-                <ul class="fright">
                     <li id="getting-started" {% if page.permalink == "/" %}class="active"{% endif %}>
-                      <a href="{{ site.root }}#join-the-revolution"><strong>Get Started!</strong></a>
+                      <a href="{{ site.root }}#join-the-revolution">Get Started!</a>
                     </li>
                 </ul>
                 </div>
             </div>
         </div>
+      </div>

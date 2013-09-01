@@ -1,8 +1,8 @@
 ---
 layout: story
-title: Story time
-description: "Artisan hashtag flexitarian, keytar ethical chillwave umami synth Truffaut meggings +1 messenger bag. 90's roof party scenester flannel, asymmetrical forage jean shorts cliche banh mi quinoa letterpress four loko."
-image: http://placekitten.com/800/400
+title: Code for America Fellows
+description: "Code for America fellows are releasing data all over the place. Most recently, the Kansas City team has put every bit of the city's data online."
+image: http://ww3.hdnux.com/photos/16/62/67/3878366/5/628x471.jpg
 category: Open Data
 ---
 

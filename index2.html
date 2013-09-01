@@ -1,6 +1,6 @@
 ---
 layout: home
-permalink: /
+permalink: /index2.html/
 title:
 featured_orgs:
   - whitehouse
@@ -46,18 +46,14 @@ featured_orgs:
 
 ---
 
-{% if paginator.page == 1 %}
 
 <div class="stories container">
-  <div class="left-side" style="width: 770px; float: left;">
+  <h2 style="padding-bottom: 28px;">Stories of <a href="#" class="title-link open data" title="Data made easily accessible and fee to the public.">open data</a>, <a href="#" class="title-link open source" title="Code or creation materials made easily accessible and free to the public.">open source</a> and  <a href="#" class="title-link open government" title="An acessible, transparent and forthcoming with data government agency.">open government</a>.</h2>
     <div class="row">
-      <div class="story-unit span8">
+      <div class="story-unit span4">
         {% assign post=site.posts[0] %}
         {% include post-single.html %}
       </div>
-    </div>
-
-    <div class="row">
       <div class="story-unit span4">
         {% assign post=site.posts[1] %}
         {% include post-single.html %}
@@ -67,9 +63,32 @@ featured_orgs:
         {% include post-single.html %}
       </div>
     </div>
-  </div>  
 
-  <div class="right-side" style="float: right;">
+    <div class="row">
+      <div class="story-unit span4">
+        {% assign post=site.posts[3] %}
+        {% include post-single.html %}
+      </div>
+      <div class="story-unit span4">
+        {% assign post=site.posts[4] %}
+        {% include post-single.html %}
+      </div>
+      <div class="span4">
+        <article id="more-stories" class="story-unit">
+          <h2 style="margin: 0px; line-height: inherit; padding-bottom: 20px;">More Stories</h2>
+          {% for post in site.posts limit:10 offset:4 %}
+          <div class="one-story">
+            <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>
+            <h6><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h6>
+          </div>
+          {% endfor %}
+          <div id="desktop-archive"><small><a href="/archive/">Complete Archive</a></small></div>
+          <div id="mobile-archive"><h4><a href="/page2/">Story Archive</a></h4></div>
+        </article>
+      </div>
+    </div>
+
+<!--   <div class="right-side" style="float: right;">
     <div class="row">
       <div class="span4">
         <article id="more-stories" class="story-unit">
@@ -85,16 +104,12 @@ featured_orgs:
         </article>
       </div>
     </div>
-  </div>
+  </div> -->
 </div><!-- end stories container -->
 
 <div id="join-the-revolution" class="container"> 
 
-{% else %}
 
-{% include archive.html %}
-
-{% endif %}
 
 <div id="join-the-revolution"> 
 <div class="row">
@@ -139,7 +154,6 @@ featured_orgs:
       {% endfor %}
   {% endfor %}
   </div>
-
 </div>
   
 

@@ -1,8 +1,8 @@
 ---
 layout: story
-title: Another Story
+title: The GSA Hosts Website on GitHub Pages
 description: "Artisan hashtag flexitarian, keytar ethical chillwave umami synth Truffaut meggings +1 messenger bag. 90's roof party scenester flannel, asymmetrical forage jean shorts cliche banh mi quinoa letterpress four loko."
-image: http://placekitten.com/770/350
+image: http://www.edacsystems.com/images/gsa-logo2.jpg
 category: Open Data
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: story
-title: July 4th
-description: "Artisan hashtag flexitarian, keytar ethical chillwave umami synth Truffaut meggings +1 messenger bag. 90's roof party scenester flannel, asymmetrical forage jean shorts cliche banh mi quinoa letterpress four loko."
-image: http://placekitten.com/g/780/200
+title: White House Open Data
+description: "The White House is using GitHub for releasing data and connecting with the developer community. They've just released data.gov using an open source project, CKAN."
+image: http://www.svpseattle.org/blog/white-house/image
 category: Open Data
 ---
 

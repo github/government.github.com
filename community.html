@@ -1,24 +1,24 @@
 ---
-title: "Who's using GitHub?"
-layout: page
-description: Opening Data, Standing up Open Source Projects
+title: Who's using GitHub?
+layout: support-page
+description: Government agencies at the national, state, and local level use GitHub to share and collaborate. If you don't see your organization on this list, follow the instructions below to add it!
 permalink: /community/
 ---
-<div class="container">
-<div class="row">
+<div id="community" class="container">
+<!-- <div class="row">
   <div class="span8">
-    <h3>Government agencies at the national, state, and local level use GitHub to share and collaborate. If you're using GitHub in government, <a class="inline-link" href="/getting-started/">add your organization</a>.</h3>
+    <h4>Government agencies at the national, state, and local level use GitHub to share and collaborate. If you're using GitHub in government, <a class="inline-link" href="/getting-started/">add your organization</a>.</h4>
   </div>
-</div>
+</div> -->
 
-<div class="row section">
-  <div class="span12">
+<div class="row mini-section">
+  <div class="span8">
 {% for type_hash in site.organizations %}
   <div class="type-block"><p>{{type_hash[0]}}</p></div>
     {% for org in type_hash[1] %}
       <div class="organization">
         <a href="http://github.com/{{ org }}" title="{{ org }}">
-          <img class="avatar" src="https://github.com/{{ org }}.png" alt= "{{ org }}" target="_blank"/>
+          <img class="avatar" src="https://github.com/{{ org }}.png" width="300" alt= "{{ org }}" target="_blank"/>
         </a>
       </div>
     {% endfor %}
@@ -26,15 +26,18 @@ permalink: /community/
 </div>
 </div>
 
-<div class="row">
+<div class="row section">
   <div class="span8">
     <h2>Add An Organization to the List</h2>
-    <p>Artisan hashtag flexitarian, keytar ethical chillwave umami synth Truffaut meggings +1 messenger bag. 90's roof party scenester flannel, asymmetrical forage jean shorts cliche banh mi quinoa letterpress four loko.</p>
+    <p>This source for this website is <a href="http://www.github.com/government">open source</a>, therefore anyone in the community submit edits through pull requests. If your agency isn't on this list but should be; please add it and submit a pull request.</p>
     <ol>
-      <li>Log in to GitHub</li>
-      <li>Go to this repo and fork it.</li>
-      <li>Click the _config.yml file</li>
-      <li>Add yada yada</li>
+      <li>Log in to <a href="http://www.github.com" target="_blank">GitHub</a></li>
+      <li>Go to this <a href="#">repository</a> and fork it (button to the top right of the page).</li>
+      <li>In your forked version, click on the <code>_config.yml</code> file.</li>
+      <li>At the top of the file is a list of the organizations populating this page. Click edit, near the top right, and then add your organization's account name just like the others: <code>- myagencysname</code>.</li>
+      <li>Click Commit at the bottom of the page.</li>
+      <li>Visit the <a href="#">original repository</a> and select Pull Request.</li>
+      <li>Fill out the form and submit!</li>
     </ol>
   </div>
 </div>

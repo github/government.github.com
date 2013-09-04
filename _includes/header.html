@@ -13,8 +13,9 @@
         <link rel="stylesheet" href="{{ site.root }}assets/css/style.css">
         <link rel="stylesheet" href="{{ site.root }}assets/css/icons.css">
         <!-- <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,300' rel='stylesheet' type='text/css'> -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
         <!-- Testing fonts yaya -->
-        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,700,400italic,700italic,900,900italic|Crimson+Text:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 
         <script src="{{ site.root }}assets/js/modernizr.js"></script>
 
@@ -26,25 +27,31 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
+<div class="full-width">
         <div id="top-nav">
             <div class="container">
-                <a class="logo-invertocat" href="/">
-                    <span class="mega-octicon octicon-mark-github"></span>
-                </a>
-                <ul>
-                    <li><a href="/"><strong>Home</strong></a></li>
-                    <li id="the-github-way" {% if page.permalink == "/the-github-way/" %}class="active"{% endif %}>
-                        <a href="{{ site.root }}the-github-way">The GitHub Way&trade;</a>
+                
+                <ul class="fleft">
+                  <li>
+                    <a class="logo-invertocat" href="/">
+                        <span class="mega-octicon octicon-mark-github"></span>
+                    </a>
+                  </li>
+                  <li><a href="/"><!-- <img src="../assets/img/gh-logo.png" width="50"><strong>   -->GitHub and Government</strong></a></li>
+                    <li id="about" {% if page.permalink == "/about/" %}class="active"{% endif %}>
+                        <a href="{{ site.root }}docs/about">About</a>
                     </li>
-                    <li id="whos-using" {% if page.permalink == "/community/" %}class="active"{% endif %}>
-                        <a href="{{ site.root }}community">Who's Using GitHub</a>
+                    <li id="features" {% if page.permalink == "/features/" %}class="active"{% endif %}>
+                        <a href="{{ site.root }}features">Features</a>
                     </li>
-                    <li id="getting-started" {% if page.permalink == "/getting-started/" %}class="active"{% endif %}>
-                        <a href="{{ site.root }}getting-started">Getting Started</a>
+                    <li id="comm" {% if page.permalink == "/Community/" %}class="active"{% endif %}>
+                        <a href="{{ site.root }}community">Community</a>
                     </li>
-                    <li id="github-101" {% if page.permalink == "/github-101/" %}class="active"{% endif %}>
-                        <a href="{{ site.root }}github-101">GitHub 101</a>
+                    <li id="getting-started" {% if page.permalink == "/" %}class="active"{% endif %}>
+                      <a href="{{ site.root }}#join-the-revolution">Get Started!</a>
                     </li>
                 </ul>
+                </div>
             </div>
         </div>
+      </div>

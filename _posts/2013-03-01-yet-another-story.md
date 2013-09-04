@@ -1,8 +1,8 @@
 ---
 layout: story
-title: Yet another story
+title: Chicago Releases Open Data
 description: "Artisan hashtag flexitarian, keytar ethical chillwave umami synth Truffaut meggings +1 messenger bag. 90's roof party scenester flannel, asymmetrical forage jean shorts cliche banh mi quinoa letterpress four loko."
-image: http://placekitten.com/800/300
+image: http://www.city-data.com/forum/members/dannyy-840241-albums-new-projects-pic65308-chicago.jpg
 category: Open Government
 ---
 

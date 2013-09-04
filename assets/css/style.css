@@ -104,6 +104,10 @@ ul.subnav {list-style: none; background: #eee; display: inline-block; padding: 1
 .inline-link.open.government, a.open.government {border-color: #f42f71; color: #f42f71;}
 .inline-link.open.source, a.open.source {border-color: #00acef; color: #00acef;}
 
+.title-link.open.data, a.open.data {border-color: #05d8af; color: #05d8af;}
+.title-link.open.government, a.open.government {border-color: #f42f71; color: #f42f71;}
+.title-link.open.source, a.open.source {border-color: #00acef; color: #00acef;}
+
 .mini-section { margin-top: 18px; margin-bottom: 18px; padding: 0px;}
 .section { margin-top: 60px; margin-bottom: 60px; padding: 0px;}
 .mega-section {margin-top: 140px; margin-bottom: 140px;}
@@ -181,8 +185,6 @@ header {
   background: #eee;
   font-size: 22px;
   font-weight: 500;
-
-
 }
 
 .full-width {
@@ -190,10 +192,6 @@ header {
   /*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333), to(#494949));*/
   background: #eee;);
 }
-
-
-
-
 
 .stories {
   margin-top: 20px;
@@ -458,7 +456,7 @@ footer .site-footer .octicon-mark-github:hover {
   left: 0px;
   padding-top: 40px;
   z-index: 10;
-  width: 500px;
+  width: 520px;
 }
 .orgs-text h2 {
   z-index: 10;

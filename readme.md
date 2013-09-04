@@ -2,7 +2,7 @@
 
 *The [gov.github.com](http://gov.githubapp.com) of the future, here today.*
 
-![screenshot](https://f.cloud.github.com/assets/282759/763520/5aac2382-e7ff-11e2-9f22-69755fedd5c8.png)
+[![screenshot](screenshot.png)](full-screenshot.png)
 
 ## Vision
 

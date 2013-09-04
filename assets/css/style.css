@@ -63,7 +63,7 @@ h2 {font-weight: 300;}
 h3 {font-size: 26px; font-weight: bold; line-height: 30px; }
 h4 {font-size: 26px; font-weight: normal; line-height: 30px;}
 h6 {font-size: 17px; font-weight: normal; margin: 0 0 8px 0; line-height: 20px;}
-/*h1, h3, h6 {font-family: Roboto Slab;}*/
+h1, h3, h6 {font-family: Roboto Slab;}
 
 footer a {text-decoration: none; color: #15a2f9; }
 footer a:hover {text-decoration: none; color: #00C3F8;}
@@ -448,7 +448,7 @@ footer .site-footer .octicon-mark-github:hover {
   padding-top: 40px;
   z-index: 10;
   background: #fff;
-  width: 384px;
+  width: 410px;
   height: 458px;
 }
 
@@ -470,7 +470,7 @@ footer .site-footer .octicon-mark-github:hover {
   height: 0;
   border-top: 441px solid #fff;
   border-right: 249px solid transparent;
-  left: 371px;
+  left: 410px;
   top: 0px;
   z-index: 9;
 }

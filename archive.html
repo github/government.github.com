@@ -1,18 +1,19 @@
 ---
-layout: page
+layout: support-page
+description: "All of the stories."
 permalink: /archive/
 title: Archive
 ---
 
-    <div class="row">
-      <div class="span8">
-        <article id="more-stories" class="story-unit">
-          {% for post in site.posts offset:0 %}
-          <div class="one-story">
-            <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>
-            <h6 class="border-left {{ post.category }}"><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h6>
-          </div>
-          {% endfor %}
-        </article>
+<div class="row">
+  <div class="span8">
+    <article id="more-stories" class="story-unit">
+      {% for post in site.posts offset:0 %}
+      <div class="one-story">
+        <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>
+        <h6 class="border-left {{ post.category }}"><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h6>
       </div>
-    </div>
+      {% endfor %}
+    </article>
+  </div>
+</div>

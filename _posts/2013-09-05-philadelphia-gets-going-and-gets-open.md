@@ -1,14 +1,14 @@
 ---
 layout: story
 title: Philadelphia Gets Going and Gets Open
-description: "After Mark Headd was named the Cheif Data Office for the City of Philadelphia he hit the ground running using GitHub to help "support some of our core objectives - specifically, collaboration and engagement to provide improved delivery of government services and information." It's a great story for how they went from step one to awesome."
-image: http://cl.ly/image/2d37293Z3v17/philly-farmers-markets.png
+description: "After Mark Headd was named the Cheif Data Office for the City of Philadelphia he hit the ground running using GitHub to help -support some of our core objectives - specifically, collaboration and engagement to provide improved delivery of government services and information-. It's a great story for how they went from step one to awesome."
+image: http://f.cl.ly/items/331w1I3u26441W2H1y3e/philly-farmers-markets.png
 category: Open Government
 ---
 
 A little over a year ago Mark Headd was named the Cheif Data Office for the City of Philadelphia and he hit the ground running using GitHub to help "support some of our core objectives - specifically, collaboration and engagement to provide improved delivery of government services and information." It's a great story for how they went from step one to awesome.
 
-On the very first day he created a new [GitHub account](https://github.com/PhillyCDO "Philadelphia's Data Officer GitHub Account) for the City's Data Officer and posted the city's open data policy as a [Gist](#).
+On the very first day he created a new [GitHub account](https://github.com/PhillyCDO "Philadelphia's Data Officer GitHub Account") for the City's Data Officer and posted the city's open data policy as a [Gist](https://gist.github.com/PhillyCDO/3623582).
 
 Next they created a [GitHub Organization](https://github.com/cityofphiladelphia) for the City of Philadelphia. Here the city staff are members of the organization and they put all their public facing code here to share with others and accept pull requests.
 

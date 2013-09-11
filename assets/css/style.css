@@ -41,7 +41,7 @@ body {
   float: left;
   width: 80px;
   height: 80px;
-  background: #0990d3;
+  background: #00C3F8;
   display: table-cell; 
   vertical-align: middle; 
   text-align: center; 
@@ -50,19 +50,19 @@ body {
 }
 
 .type-block p {
-  padding: 20px 0px;
+  margin: 14px 7px;
 }
 
-/* overriding */
+/* begin overriding */
 
-body {font-weight: 300; font-family: Helvetica, Arial, sans-serif;}
+body {font-weight: 300; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 /* headings */
 
 h1 {
-  font-size: 49px; 
-  margin: 28px 0px 20px 0px; 
-  line-height: 62px;
+  font-size: 200%; 
+  margin: 20px 0px; 
+  line-height: 66px;
 }
 
 h1 {
@@ -73,7 +73,7 @@ h1 {
 h2 {font-weight: 300;}
 
 h3 {
-  font-size: 26px; 
+  font-size: 26px;
   font-weight: bold; 
   line-height: 30px; 
 }
@@ -101,7 +101,8 @@ footer a {
 }
 
 footer a:hover {
-  text-decoration: none; 
+  text-decoration: none;
+  border: none; 
   color: #00C3F8;
 }
 
@@ -110,6 +111,7 @@ a {color: #00C3F8;}
 a:hover {
   text-decoration: none; 
   color: #00C3F8;
+  border: none;
 }
 
 a img {
@@ -119,16 +121,20 @@ a img {
 a.inline-link {
   text-decoration: none; 
   color: #00C3F8; 
+}
+
+a.inline-link:hover {
   border-bottom: 1px solid #00C3F8;
+}
+
+h1 a.inline-link:hover {
+  border-bottom: 2px solid #00C3F8;
 }
 
 ul li a:hover, ol li a:hover, a.inline-link:hover {
   text-decoration: none; 
-  opacity: .75; 
   border-bottom: 1px solid #00C3F8;
 }
-
-h1 a.inline-link {/*border-bottom: 2px solid #00C3F8;*/}
 
 a.title-link {
   text-decoration: none; 
@@ -138,13 +144,11 @@ a.title-link {
 a.title-link:hover {
   text-decoration: none; 
   color: #00C3F8; 
-  border-bottom: 1px solid #00C3F8;
 }
 
 h1 a.title-link:hover {border-bottom: 2px solid #00C3F8;}
 
 p a {
-  font-weight: 500; 
   color: #00C3F8; 
   text-decoration: none;
 }
@@ -173,11 +177,24 @@ a.glossary::after {content: "˘";}
 
 /* other text styles */
 
+p, ul, ol {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
 small {
   letter-spacing: .1em; 
   font-size: 10px; 
   color: #acacac;
 }
+
+.Open.Data:not(.more-stories, .title-link) {color: #05d8af;}
+.Open.Government:not(.more-stories, .title-link) {color: #f42f71;}
+.Open.Source:not(.more-stories, .title-link) {color: #00acef;}
+
+.Data {color: #05d8af;}
+.Government {color: #f42f71;}
+.Source {color: #00acef;}
 
 .fleft {float: left;}
 .fright {float: right;}
@@ -221,7 +238,7 @@ ul.subnav {list-style: none; background: #eee; display: inline-block; padding: 1
   z-index: 12; 
   margin: 0px auto; 
   padding: 22px 0px; 
-  position: fixed; 
+  position: absolute; 
   top: 0px; 
   right: 0px; 
   left: 0px; 
@@ -238,29 +255,38 @@ ul.subnav {list-style: none; background: #eee; display: inline-block; padding: 1
 
 #top-nav li { 
   display: inline; 
-  text-transform: none; 
-  font-size: 14px; 
-  padding-right: 20px; 
-  letter-spacing: .1em;
 }
 
-#top-nav a { 
-  color: #333; 
-  text-decoration: none;
+#top-nav a {
+padding: 5px;
+font-size: 13px;
+font-weight: bold;
+color: #333333;
+transition: all 0.1s ease-in;
+-webkit-transition: all 0.1s ease-in 0;
+border: none;
+text-shadow: 0 1px 0 #fff;
 }
-/*#top-nav a::before {
-  position: relative;
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 20px solid red;
-  border-right: 20px solid transparent;
-  top: 0px; left: 0px;
-}*/
 
 #top-nav a:hover {
   color: #00C3F8; 
   text-decoration: none;
+}
+
+.octicon-mark-github:before {
+  content: '\f00a';
+  }
+
+.mega-octicon {
+font: normal normal 32px octicons;
+line-height: 1;
+display: inline-block;
+text-decoration: none;
+-webkit-font-smoothing: antialiased;
+}
+
+.logo-invertocat:hover {
+  color: blue;
 }
 
 #top-nav .octicon-mark-github {
@@ -269,14 +295,9 @@ ul.subnav {list-style: none; background: #eee; display: inline-block; padding: 1
   height: 25px;
   font-size: 25px;
 }
-
-#top-nav .logo-invertocat:hover {
-  color: #4183c4;
-  text-decoration: none;
-}
  
 header {
-  padding: 80px 0px 100px 0px;
+  padding: 70px 0px;
   color: #333;
   margin: 0px 0px 30px 0px;
 }
@@ -305,6 +326,10 @@ header {
 }
 
 .story-unit h2 { margin: 8px 0px; }
+.meta:not(.more-stories) { 
+  padding-bottom: 8px;
+  font-weight: 500;
+}
 
 .meta {
   font-size: 12px;
@@ -381,8 +406,8 @@ a.Open.Source:hover {color: #00acef; border-color: #00acef;}
 /* ----------------------------------------------------------------------------------- */
 
 .story-page p {
-  font-size: 15px;
-  line-height: 1.5em;
+  font-size: 16px;
+  line-height: 1.6em;
   font-family: Helvetica;
 }
 
@@ -395,6 +420,7 @@ a.Open.Source:hover {color: #00acef; border-color: #00acef;}
 
 .description {
   padding: 0px 0px 40px 0px;
+  line-height: 1.6em;
 }
 
 #Glossary .span8 ul li, #community .span8 ol li {
@@ -415,10 +441,6 @@ a.Open.Source:hover {color: #00acef; border-color: #00acef;}
 #FAQ h2:not(:first-of-type), #Projects h2:not(:first-of-type) { 
   /* to handle jumping to anchors */
   padding-top: 75px;
-}
-
-#FAQ h4 {
-  padding: 30px 0px 10px 0px;
 }
 
 .jump-menu {
@@ -461,12 +483,12 @@ footer a:active, footer a:hover {
   /*padding: 40px 65px;*/  
   padding-top: 40px;
   padding-bottom: 40px;
-  /*font-size: 12px;*/
-  line-height: 1.5;
+
   color: #777;
   font: 12px Helvetica, arial, freesans, clean, sans-serif;
   border-top: 1px solid #eee; 
 }
+
 .site-footer:before, .site-footer:after {
   content: " ";
   display: table; 
@@ -497,7 +519,8 @@ footer .site-footer .octicon-mark-github:hover {
 }
 .site-footer-links li {
   display: inline-block;
-  line-height: 16px; 
+  font-size: 12px;
+  line-height: 1.5;
 }
 .site-footer-links li + li {
   margin-left: 10px; 
@@ -563,18 +586,13 @@ img.avatar {
 /* ----------------------------------------------------------------------------------- */
 
 @media (max-width: 767px) {
-  body { padding-top: 50px; }
+  body { padding-top: 50px;}
+  #top-nav {padding-left: 20px; padding-right: 20px;}
   /*.container { padding: 0px 20px; }*/
   .story-unit.span4 img {width: 100%;}
+  .full-width {background: #fff;}
   /* swap More Stories for Archive link */
-  #more-stories { display: none ; }
+  #more-stories, .orgs-cutout, #the-orgs, .site-footer-links { display: none; }
+  .orgs-text {width: 100%}
   #mobile-archive {display: inherit;}
-  .site-footer-links, .site-footer-links.right {float: left; padding-left: 30px; padding-bottom: 8px;}
-  .site-footer .octicon-mark-github {float: left; left: 0px; top: 46px;}
 }
-
-.feature-header { text-align: center; }
-.feature-header h3 { color: #999; }
-.features h3 { font-weight: bold; line-height: 1em; text-align: center;}
-.features .icon { text-align: center; border: 1px solid #999; border-radius: 50px; width: 100px; margin-left: auto; margin-right: auto; height: 100px; color: #4183c4;}
-.features .mega-octicon {display: block; font-size: 50px !important; margin-top: 25px;}

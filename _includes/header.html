@@ -12,10 +12,8 @@
 
         <link rel="stylesheet" href="{{ site.root }}assets/css/style.css">
         <link rel="stylesheet" href="{{ site.root }}assets/css/icons.css">
-        <!-- <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,300' rel='stylesheet' type='text/css'> -->
         <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-        <!-- Testing fonts yaya -->
 
         <script src="{{ site.root }}assets/js/modernizr.js"></script>
 
@@ -33,23 +31,24 @@
                 
                 <ul class="fleft">
                   <li>
-                    <a class="logo-invertocat" href="/">
-                        <span class="mega-octicon octicon-mark-github"></span>
-                    </a>
+                    <a class="logo-invertocat" href="http://www.github.com" title="Visit GitHub.com">
+                      <span class="mega-octicon octicon-mark-github"></span></a>
                   </li>
-                  <li><a href="/"><img src="../assets/img/gh-logo.png" width="50"></a></li>
-                    <li id="about" {% if page.permalink == "/about/" %}class="active"{% endif %}>
-                        <a href="{{ site.root }}docs/about">About</a>
-                    </li>
-                    <li id="features" {% if page.permalink == "/features/" %}class="active"{% endif %}>
-                        <a href="{{ site.root }}features">Features</a>
-                    </li>
-                    <li id="comm" {% if page.permalink == "/Community/" %}class="active"{% endif %}>
-                        <a href="{{ site.root }}community">Community</a>
-                    </li>
-                    <li id="getting-started" {% if page.permalink == "/" %}class="active"{% endif %}>
-                      <a href="{{ site.root }}#join-the-revolution">Get Started!</a>
-                    </li>
+                  <li><a href="/">GitHub and Government</a></li>
+                </ul>
+                <ul class="fright">
+                  <li {% if page.permalink == "/about/" %}class="active"{% endif %}>
+                      <a href="{{ site.root }}docs/about">About</a>
+                  </li>
+                  <li {% if page.permalink == "/features/" %}class="active"{% endif %}>
+                      <a href="{{ site.root }}features">Features</a>
+                  </li>
+                  <li {% if page.permalink == "/Community/" %}class="active"{% endif %}>
+                      <a href="{{ site.root }}community">Community</a>
+                  </li>
+                  <li {% if page.permalink == "/" %}{% endif %}>
+                      <a href="{{ site.root }}#join-the-revolution">Get Started</a>
+                  </li>
                 </ul>
                 </div>
             </div>

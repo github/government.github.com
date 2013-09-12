@@ -13,24 +13,29 @@ body {
   clear: both;
   padding-bottom: 30px;
 }
+
 .organizations {
   margin: 0;
 }
+
 .organization {
   float: left;
   padding: 5px 5px 5px 0;
   width: 80px;
   list-style: none;
 }
+
 .avatar {
   height: 80px;
   width: 80px;
 }
+
 .meta {
   clear: both;
   list-style: none;
   margin: 0;
 }
+
 .meta li {
   float: left;
   color: #ccc;
@@ -55,7 +60,10 @@ body {
 
 /* begin overriding */
 
-body {font-weight: 300; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+body { 
+  font-weight: 300; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 /* headings */
 
@@ -70,7 +78,7 @@ h1 {
   font-weight: normal;
 }
 
-h2 {font-weight: 300;}
+h2 { font-weight: 300; }
 
 h3 {
   font-size: 26px;
@@ -95,23 +103,15 @@ h1, h3, h6 {font-family: Roboto Slab;}
 
 /* link styles */
 
-footer a {
-  text-decoration: none; 
-  color: #15a2f9; 
-}
-
-footer a:hover {
+a {
   text-decoration: none;
-  border: none; 
   color: #00C3F8;
 }
-
-a {color: #00C3F8;}
 
 a:hover {
-  text-decoration: none; 
+  text-decoration: none;
   color: #00C3F8;
-  border: none;
+  border-bottom: 1px solid #00C3F8;
 }
 
 a img {
@@ -121,51 +121,28 @@ a img {
 a.inline-link {
   text-decoration: none; 
   color: #00C3F8; 
-}
-
-a.inline-link:hover {
-  border-bottom: 1px solid #00C3F8;
+  border: none;
 }
 
 h1 a.inline-link:hover {
   border-bottom: 2px solid #00C3F8;
 }
 
-ul li a:hover, ol li a:hover, a.inline-link:hover {
-  text-decoration: none; 
-  border-bottom: 1px solid #00C3F8;
-}
+a.title-link { color: #333; }
+a.title-link:hover { color: #00C3F8; }
 
-a.title-link {
-  text-decoration: none; 
-  color: #333;
-}
+h1 a.title-link:hover { border-bottom: 2px solid #00C3F8; }
 
-a.title-link:hover {
-  text-decoration: none; 
-  color: #00C3F8; 
-}
-
-h1 a.title-link:hover {border-bottom: 2px solid #00C3F8;}
-
-p a {
-  color: #00C3F8; 
-  text-decoration: none;
-}
-
-p a:hover, #about a:hover {
-  opacity: .75; 
-  text-decoration: none; 
-  border-bottom: 1px solid #00c3f8;
-}
+p a { color: #00C3F8; }
 
 a.glossary {
   border-bottom: 1px dotted #acacac; 
   color: #333; 
-  font-weight: 300;
 }
 
-a.glossary::after {content: "˘";}
+a.glossary:hover {
+  color: #acacac;
+}
 
 .inline-link.open.data, a.open.data {border-color: #05d8af; color: #05d8af;}
 .inline-link.open.government, a.open.government {border-color: #f42f71; color: #f42f71;}
@@ -183,30 +160,41 @@ p, ul, ol {
 }
 
 small {
-  letter-spacing: .1em; 
-  font-size: 10px; 
+  font-size: 11px; 
   color: #acacac;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
 }
 
 .Open.Data:not(.more-stories, .title-link) {color: #05d8af;}
 .Open.Government:not(.more-stories, .title-link) {color: #f42f71;}
 .Open.Source:not(.more-stories, .title-link) {color: #00acef;}
 
-.Data {color: #05d8af;}
-.Government {color: #f42f71;}
-.Source {color: #00acef;}
+.Data { color: #05d8af; }
+.Government { color: #f42f71; }
+.Source { color: #00acef; }
 
-.fleft {float: left;}
-.fright {float: right;}
-.aleft {position: absolute; left: 135px;}
-.aright {position: absolute; right: 100px;}
+.fleft { float: left; }
+.fright { float: right; }
 
-ul.subnav {list-style: none; background: #eee; display: inline-block; padding: 14px;}
+ul.subnav {
+  list-style: none; 
+  background: #eee; 
+  display: inline-block; 
+  padding: 14px;
+}
 
 /* sections */
 
-#join-the-revolution ol, #join-the-revolution ul {line-height: 25px;}
-#join-the-revolution ol li, #join-the-revolution ul li {padding: 4px; font-size: 16px;}
+#join-the-revolution ol, #join-the-revolution ul { line-height: 25px; }
+#join-the-revolution ol li, #join-the-revolution ul li { padding: 4px; }
 
 .mini-section { 
   margin-top: 18px; 
@@ -227,17 +215,15 @@ ul.subnav {list-style: none; background: #eee; display: inline-block; padding: 1
 
 .full-width {
   width: 100%;
-  background: #eee;);
+  background: #eee;
 }
-
-/*.section:first-child { margin: 0px 0px 50px 0px; padding: 0px; }*/
 
 /* Navigation */
 
 #top-nav { 
   z-index: 12; 
   margin: 0px auto; 
-  padding: 22px 0px; 
+  padding: 18px 0px; 
   position: absolute; 
   top: 0px; 
   right: 0px; 
@@ -247,46 +233,61 @@ ul.subnav {list-style: none; background: #eee; display: inline-block; padding: 1
 
 #top-nav ul { 
   list-style: none; 
-  margin: 0px; 
+  margin-top: 7px;
+  margin-left: 0px;
   padding: 0px; 
-  line-height: 1.9em;
   display: inline-block;
+}
+
+#top-nav ul:first-of-type {
+  padding-left: 8px;
 }
 
 #top-nav li { 
   display: inline; 
 }
 
-#top-nav a {
-padding: 5px;
-font-size: 13px;
-font-weight: bold;
-color: #333333;
-transition: all 0.1s ease-in;
--webkit-transition: all 0.1s ease-in 0;
-border: none;
-text-shadow: 0 1px 0 #fff;
+#top-nav li a {
+  padding: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #333333;
+  transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in 0;
+  border: none;
+  text-shadow: 0 1px 0 #fff;
 }
 
-#top-nav a:hover {
-  color: #00C3F8; 
+#top-nav li a:hover {
+  color: #00C3F8;
   text-decoration: none;
 }
 
 .octicon-mark-github:before {
   content: '\f00a';
-  }
+}
 
 .mega-octicon {
-font: normal normal 32px octicons;
-line-height: 1;
-display: inline-block;
-text-decoration: none;
--webkit-font-smoothing: antialiased;
+  font: normal normal 32px octicons;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.logo-invertocat {
+  float: left;
+  padding: 8px 10px 7px;
+  margin-left: -10px;
+  margin-right: -10px;
+  color: #333333;
+  transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in 0;
+  white-space: nowrap;
 }
 
 .logo-invertocat:hover {
-  color: blue;
+  border: none;
 }
 
 #top-nav .octicon-mark-github {
@@ -295,23 +296,11 @@ text-decoration: none;
   height: 25px;
   font-size: 25px;
 }
- 
+
 header {
   padding: 70px 0px;
   color: #333;
   margin: 0px 0px 30px 0px;
-}
-
-#home-header-nav {
-  list-style: none; padding: 50px 0px;
-}
-
-#home-header-nav li {
-  padding: 10px 12px;
-  margin: 6px 0px;
-  background: #eee;
-  font-size: 22px;
-  font-weight: 500;
 }
 
 /* Stories Section */
@@ -326,6 +315,7 @@ header {
 }
 
 .story-unit h2 { margin: 8px 0px; }
+
 .meta:not(.more-stories) { 
   padding-bottom: 8px;
   font-weight: 500;
@@ -335,9 +325,9 @@ header {
   font-size: 12px;
 }
 
-.meta a.Open.Data { color: #05d8af; font-weight: bold; }
-.meta a.Open.Government { color: #f42f71; font-weight: bold;}
-.meta a.Open.Source { color: #00acef; font-weight: bold;}
+.meta a.Open.Data { color: #05d8af; font-weight: 500; }
+.meta a.Open.Government { color: #f42f71; font-weight: 500;}
+.meta a.Open.Source { color: #00acef; font-weight: 500;}
 
 .one-story {
   padding-bottom: 6px;
@@ -358,27 +348,20 @@ header {
   content: "";
   width: 0;
   height: 0;
-  border-top: 50px solid red;
+  border-top: 50px solid #05d8af;
   border-right: 50px solid transparent;
   top: 49px;
 }
 
-.post-image.Open.Data:before {border-top-color: #05d8af;}
-.post-image.Open.Government:before {border-top-color: #f42f71;}
-.post-image.Open.Source:before {border-top-color: #00acef;}
+.post-image.Open.Data:before { border-top-color: #05d8af; }
+.post-image.Open.Government:before { border-top-color: #f42f71; }
+.post-image.Open.Source:before { border-top-color: #00acef; }
 
-/*
-#more-stories a.Open.Data:hover {color: #05d8af;}
-#more-stories a.Open.Government:hover {color: #f42f71;}
-#more-stories a.Open.Source:hover {color: #00acef;}
-*/
-
-a.Open.Data:hover {color: #05d8af; border-color: #05d8af;}
-a.Open.Government:hover {color: #f42f71; border-color: #f42f71;}
-a.Open.Source:hover {color: #00acef; border-color: #00acef;}
+a.Open.Data:hover { color: #05d8af; border-color: #05d8af; }
+a.Open.Government:hover { color: #f42f71; border-color: #f42f71; }
+a.Open.Source:hover { color: #00acef; border-color: #00acef; }
 
 #mobile-archive { display: none; }
-/*#desktop-archive { padding-top: 20px; }*/
 
 #join-the-revolution { 
   color: #333; 
@@ -398,94 +381,16 @@ a.Open.Source:hover {color: #00acef; border-color: #00acef;}
   padding: 18px 0px;
 }
 
-/* Getting Started  Page */
-/* ----------------------------------------------------------------------------------- */
-
-
-/* Single Story Page */
-/* ----------------------------------------------------------------------------------- */
-
-.story-page p {
-  font-size: 16px;
-  line-height: 1.6em;
-  font-family: Helvetica;
-}
-
-.storypage-image {
-  width: 100%;
-}
-
-/* supporting page */
-/* ----------------------------------------------------------------------------------- */
-
-.description {
-  padding: 0px 0px 40px 0px;
-  line-height: 1.6em;
-}
-
-#Glossary .span8 ul li, #community .span8 ol li {
-  padding: 4px 0px;
-}
-
-#Glossary .span8 ul { 
-  list-style: none; 
-  text-indent: 0px; 
-  padding-left: 0px; 
-  margin-left: 0px;
-}
-
-#FAQ hr {
-  margin: 36px 0px;
-}
-
-#FAQ h2:not(:first-of-type), #Projects h2:not(:first-of-type) { 
-  /* to handle jumping to anchors */
-  padding-top: 75px;
-}
-
-.jump-menu {
-  font-size: 14px;
-  font-weight: bold;
-  margin: 24px 0px;
-  display: block;
-}
-
-#Projects h6 {
-  padding: 18px 0px 10px 0px;
-}
-
-/* archive page */
-/* ----------------------------------------------------------------------------------- */
-
-.category {margin-right: 8px;}
-
 /* footer */
 /* ----------------------------------------------------------------------------------- */
 
-
-
-/*footer a {
-  color: #4183c4;
-  text-decoration: none;
-}
-footer a:focus, footer a:active {
-  color: #4183c4;
-  text-decoration: underline;
-}
-footer a:active, footer a:hover {
-  outline: 0;
-  color: #4183c4;
-  text-decoration: underline;
-}*/
 .site-footer {
   position: relative;
   margin-top: 40px;
-  /*padding: 40px 65px;*/  
   padding-top: 40px;
   padding-bottom: 40px;
-
   color: #777;
-  font: 12px Helvetica, arial, freesans, clean, sans-serif;
+  font: 12px;
   border-top: 1px solid #eee; 
 }
 
@@ -493,9 +398,11 @@ footer a:active, footer a:hover {
   content: " ";
   display: table; 
 }
+
 .site-footer:after {
   clear: both; 
 }
+
 footer .site-footer .octicon-mark-github {
   position: absolute;
   top: 38px;
@@ -506,31 +413,36 @@ footer .site-footer .octicon-mark-github {
   font-size: 24px;
   color: #ccc; 
 }
+
 footer .site-footer .octicon-mark-github:hover {
   color: #bbb; 
 }
+
 .site-footer-links {
   float: left;
   margin: 0;
   list-style: none; 
 }
+
 .site-footer-links.right {
   float: right; 
 }
+
 .site-footer-links li {
   display: inline-block;
   font-size: 12px;
   line-height: 1.5;
 }
+
 .site-footer-links li + li {
   margin-left: 10px; 
 }
+
 .site-footer-links img {
   display: block; 
 }
 
 /* Oraganizations Section */ 
-/* ----------------------------------------------------------------------------------- */
 
 #orgs {
   position: relative;
@@ -563,9 +475,11 @@ footer .site-footer .octicon-mark-github:hover {
   z-index: 10;
   width: 520px;
 }
+
 .orgs-text h2 {
   z-index: 10;
 }
+
 .orgs-cutout::after {
   position: absolute;
   content: "";
@@ -577,9 +491,60 @@ footer .site-footer .octicon-mark-github:hover {
   top: 0px;
   z-index: 9;
 }
+
 img.avatar {
   width: 80px;
   height: 80px;
+}
+
+/* Single Story Page */
+/* ----------------------------------------------------------------------------------- */
+
+.storypage-image {
+  width: 100%;
+}
+
+/* Supporting page */
+/* ----------------------------------------------------------------------------------- */
+
+.description {
+  padding: 0px 0px 40px 0px;
+}
+
+#Glossary .span8 ul li, #community .span8 ol li {
+  padding: 4px 0px;
+}
+
+#Glossary .span8 ul { 
+  list-style: none; 
+  text-indent: 0px; 
+  padding-left: 0px; 
+  margin-left: 0px;
+}
+
+#FAQ h2:not(:first-of-type), #Projects h2:not(:first-of-type) { 
+  padding-top: 75px;
+}
+
+.jump-menu {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  display: block;
+}
+
+#Projects h6 {
+  padding: 18px 0px 10px 0px;
+}
+
+/* archive page */
+/* ----------------------------------------------------------------------------------- */
+
+.category {margin-right: 8px;}
+
+#Archive .meta {
+  padding-bottom: 0px;
+  font-weight: 300;
 }
 
 /* Media Queries */ 

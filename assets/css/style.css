@@ -392,6 +392,7 @@ a.Open.Source:hover { color: #00acef; border-color: #00acef; }
   color: #777;
   font: 12px;
   border-top: 1px solid #eee; 
+  font: 13px Helvetica, arial, freesans, clean, sans-serif;
 }
 
 .site-footer:before, .site-footer:after {
@@ -431,7 +432,7 @@ footer .site-footer .octicon-mark-github:hover {
 .site-footer-links li {
   display: inline-block;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 16px;
 }
 
 .site-footer-links li + li {

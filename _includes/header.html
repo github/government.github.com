@@ -3,54 +3,50 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="description" content="{{ page.description }}">
-        <meta name="viewport" content="width=device-width">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+  <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="{{ site.root }}assets/css/style.css">
-        <link rel="stylesheet" href="{{ site.root }}assets/css/icons.css">
-        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ site.root }}assets/css/style.css">
+  <link rel="stylesheet" href="{{ site.root }}assets/css/icons.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
-        <script src="{{ site.root }}assets/js/modernizr.js"></script>
+  <script src="{{ site.root }}assets/js/modernizr.js"></script>
 
-        <link rel="shortcut icon" href="{{ site.root }}assets/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ site.root }}assets/img/favicon.ico" type="image/x-icon">
+</head>
 
-    </head>
-    <body class="{{ page.layout }}">
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+<body class="{{ page.layout }}">
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
 
-<div class="full-width">
-        <div id="top-nav">
-            <div class="container">
-                
-                <ul class="fleft">
-                  <li>
-                    <a class="logo-invertocat" href="http://www.github.com" title="Visit GitHub.com">
-                      <span class="mega-octicon octicon-mark-github"></span></a>
-                  </li>
-                  <li><a href="/">GitHub and Government</a></li>
-                </ul>
-                <ul class="fright">
-                  <li {% if page.permalink == "/about/" %}class="active"{% endif %}>
-                      <a href="{{ site.root }}docs/about">About</a>
-                  </li>
-                  <li {% if page.permalink == "/features/" %}class="active"{% endif %}>
-                      <a href="{{ site.root }}features">Features</a>
-                  </li>
-                  <li {% if page.permalink == "/Community/" %}class="active"{% endif %}>
-                      <a href="{{ site.root }}community">Community</a>
-                  </li>
-                  <li {% if page.permalink == "/" %}{% endif %}>
-                      <a href="{{ site.root }}#join-the-revolution">Get Started</a>
-                  </li>
-                </ul>
-                </div>
-            </div>
-        </div>
-      </div>
+  <div id="top-nav">
+    <div class="container clearfix">
+      <a class="logo-invertocat" href="http://www.github.com" title="Visit GitHub.com">
+        <span class="mega-octicon octicon-mark-github"></span>
+      </a>
+      <ul class="fleft">
+        <li><a href="/" title="Home">GitHub and Government</a></li>
+      </ul>
+      <ul class="fright">
+        <li {% if page.permalink == "/about/" %}class="active"{% endif %}>
+            <a href="{{ site.root }}docs/about" title="About GitHub">About</a>
+        </li>
+        <li {% if page.permalink == "/features/" %}class="active"{% endif %}>
+            <a href="{{ site.root }}features" title="GitHub Features">Features</a>
+        </li>
+        <li {% if page.permalink == "/Community/" %}class="active"{% endif %}>
+            <a href="{{ site.root }}community" title="The Government on GitHub Community">Community</a>
+        </li>
+        <li {% if page.permalink == "/" %}{% endif %}>
+            <a href="{{ site.root }}#join-the-revolution" title="Get started on GitHub">Get Started</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+

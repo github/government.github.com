@@ -4,19 +4,14 @@ permalink: /
 ---
 
 <div class="stories container">
-  <!-- <h2 style="padding-bottom: 28px;">Stories of <a href="#" class="title-link open data" title="Data made easily accessible and fee to the public.">open data</a>, <a href="#" class="title-link open source" title="Code or creation materials made easily accessible and free to the public.">open source</a> and  <a href="#" class="title-link open government" title="An acessible, transparent and forthcoming with data government agency.">open government</a>.</h2> -->
-    <h2 style="padding-bottom: 28px;">The Latest Stories</h2>
+    <h2 style="padding-bottom: 28px;">The Stories</h2>
     <div class="row">
-      <div class="story-unit span4">
+      <div class="story-unit span8">
         {% assign post=site.posts[0] %}
         {% include post-single.html %}
       </div>
       <div class="story-unit span4">
         {% assign post=site.posts[1] %}
-        {% include post-single.html %}
-      </div>
-      <div class="story-unit span4">
-        {% assign post=site.posts[2] %}
         {% include post-single.html %}
       </div>
     </div>
@@ -26,35 +21,22 @@ permalink: /
         {% assign post=site.posts[3] %}
         {% include post-single.html %}
       </div>
-      <div class="story-unit span4">
+      <div class="story-unit span8">
         {% assign post=site.posts[4] %}
         {% include post-single.html %}
-      </div>
-      <div class="span4">
-        <article id="more-stories">
-          <h2 style="margin: 0px; line-height: inherit; padding-bottom: 20px;">More Stories</h2>
-          {% for post in site.posts limit:6 offset:4 %}
-          <div class="one-story">
-            <div class="meta more-stories">{{ post.date | date: "%B %d, %Y"}}</div>
-            <h6><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h6>
-          </div>
-          {% endfor %}
-          <div id="desktop-archive"><small><a href="/archive/">Complete Archive</a></small></div>
-        </article>
-        <div id="mobile-archive"><h4><small><a href="/archive/">Complete Archive</a></small></div>
       </div>
     </div>
 </div><!-- end stories container -->
 
-<div id="join-the-revolution" class="container section">
-<div id="join-the-revolution">
-<div class="row">
-  <div class="span8 the-revolution">
-    <h1 class="lrg-button">Join the Revolution</h1>
-    <h4>The White House, city and state governments, and millions of communities around the world who share and collaborate on code, data, policy, and more.</h4>
+<div id="join-the-revolution" class="container section"> 
+  <div class="row">
+    <div class="span8 the-revolution">
+      <h1 class="lrg-button">Join the Revolution</h1>
+      <h4>The White House, city and state governments, and millions of communities around the world who share and collaborate on code, data, policy, and more.</h4>
+    </div>
   </div>
-</div>
-  <div class="row links">
+
+  <div class="row">
     <div class="span4">
       <h3>Sign Up</h3>
       <ol>
@@ -69,18 +51,20 @@ permalink: /
         <li>The <a href="docs/features/">features</a> that make GitHub so great.</li>
         <li>What GitHub is all <a href="docs/about/">about</a></li>
         <li><a href="/docs/getting-started/">Project ideas</a> to get started with</li>
-
       </ul>
     </div>
   </div>
 </div>
 
-<div id="orgs" class="mega-section">
+<div id="orgs" class="container mega-section">
   <span class="orgs-cutout"></span>
   <h1 class="orgs-text">See the <a href="/community/" class="inline-link">community</a> making history on GitHub.</h1>
-  <div id="the-orgs">
+
+  <div class="the-orgs">
   {% for type_hash in site.organizations %}
-    <div class="type-block"><p>{{type_hash[0]}}</p></div>
+    <div class="type-block">
+      <p>{{type_hash[0]}}</p>
+    </div>
       {% for org in type_hash[1] %}
         <div class="organization">
           <a href="http://github.com/{{ org }}" title="{{ org }}">
@@ -90,4 +74,6 @@ permalink: /
       {% endfor %}
   {% endfor %}
   </div>
+</div>
+
 </div>

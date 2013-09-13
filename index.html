@@ -71,7 +71,6 @@ featured_orgs:
 </div><!-- end stories container -->
 
 <div id="join-the-revolution" class="container section"> 
-
   <div class="row">
     <div class="span8 the-revolution">
       <h1 class="lrg-button">Join the Revolution</h1>
@@ -97,15 +96,18 @@ featured_orgs:
       </ul>
     </div>
   </div> 
-
 </div>
 
-<div id="orgs" class="mega-section">
+<div id="orgs" class="container mega-section">
+
   <span class="orgs-cutout"></span>
   <h1 class="orgs-text">See the <a href="/community/" class="inline-link">community</a> making history on GitHub.</h1>
-  <div id="the-orgs">
+
+  <div class="the-orgs">
   {% for type_hash in site.organizations %}
-    <div class="type-block"><p>{{type_hash[0]}}</p></div>
+    <div class="type-block">
+      <p>{{type_hash[0]}}</p>
+    </div>
       {% for org in type_hash[1] %}
         <div class="organization">
           <a href="http://github.com/{{ org }}" title="{{ org }}">
@@ -115,4 +117,6 @@ featured_orgs:
       {% endfor %}
   {% endfor %}
   </div>
+</div>
+
 </div>

@@ -159,6 +159,10 @@ p, ul, ol {
   line-height: 1.6em;
 }
 
+ul li, ol li {
+  padding: 4px 0px;
+}
+
 small {
   font-size: 11px; 
   color: #acacac;
@@ -188,13 +192,10 @@ ul.subnav {
   list-style: none; 
   background: #eee; 
   display: inline-block; 
-  padding: 14px;
+  padding: 7px 14px;
 }
 
 /* sections */
-
-#join-the-revolution ol, #join-the-revolution ul { line-height: 25px; }
-#join-the-revolution ol li, #join-the-revolution ul li { padding: 4px; }
 
 .mini-section { 
   margin-top: 18px; 
@@ -450,7 +451,7 @@ footer .site-footer .octicon-mark-github:hover {
   height: 414px;
   overflow-y: hidden;
 }
-#the-orgs {
+.the-orgs {
   position: absolute;
   top: -20px;
   left: 0px;
@@ -510,10 +511,6 @@ img.avatar {
 
 .description {
   padding: 0px 0px 40px 0px;
-}
-
-#Glossary .span8 ul li, #community .span8 ol li {
-  padding: 4px 0px;
 }
 
 #Glossary .span8 ul { 

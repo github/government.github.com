@@ -1,7 +1,7 @@
 ---
 title: FAQ
 layout: support-page
-description: Here we answer the most common questions about open source, open source communities and GitHub in general. You can help edit this page with a pull request.
+description: Open source can be confusing, but it doesn't have to be. You've got questions, we've got answers.
 permalink: /faq/
 ---
 

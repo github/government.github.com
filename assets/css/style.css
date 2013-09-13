@@ -201,6 +201,7 @@ ul.subnav {
   margin-top: 18px; 
   margin-bottom: 18px; 
   padding: 0px;
+  border: 1px solid #eee;
 }
 
 .section { 
@@ -308,11 +309,6 @@ header {
 
 .stories {
   margin-top: 20px;
-}
-
-.story-unit {
-  margin-bottom: 30px;
-  padding: 0px;
 }
 
 .story-unit h2 { margin: 8px 0px; }
@@ -551,10 +547,8 @@ img.avatar {
 @media (max-width: 767px) {
   body { padding-top: 50px;}
   #top-nav {padding-left: 20px; padding-right: 20px;}
-  /*.container { padding: 0px 20px; }*/
   .story-unit.span4 img {width: 100%;}
   .full-width {background: #fff;}
-  /* swap More Stories for Archive link */
   #more-stories, .orgs-cutout, #the-orgs, .site-footer-links { display: none; }
   .orgs-text {width: 100%}
   #mobile-archive {display: inherit;}

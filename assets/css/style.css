@@ -519,6 +519,10 @@ img.avatar {
   padding-top: 75px;
 }
 
+#FAQ h4 {
+  padding: 30px 0px 10px 0px;
+}
+
 .jump-menu {
   font-size: 14px;
   font-weight: 700;

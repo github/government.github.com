@@ -5,9 +5,12 @@ description: Open source can be confusing, but it doesn't have to be. You've got
 permalink: /faq/
 ---
 
+{:toc}
+
 <span class='jump-menu'> Categories: <a href="#open_source">Open Source</a>, <a href="#open_source_community_building">Open Source Community Building</a>, <a href="#accounts">Accounts</a>, <a href="#more">More</a>, <a href="#edit_this_page">Edit this page</a></span>
 
 ## Open Source
+
 #### Why should I use open source software?
 
 There are [lots of arguments](http://www.dwheeler.com/oss_fs_why.html) in favor of adopting an existing <a href="#" class="glossary" title="Code or creation materials made easily accessible and free to the public.">open source</a> project over its proprietary counterparts. A few of the biggest ones:

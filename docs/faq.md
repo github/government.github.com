@@ -5,9 +5,9 @@ description: Open source can be confusing, but it doesn't have to be. You've got
 permalink: /faq/
 ---
 
-{:toc}
+<span class='jump-menu'> Categories: <a href="#open_source">Open Source</a>, <a href="#open_source_community_building">Open Source Community Building</a>, <a href="#accounts">Accounts</a>, <a href="#more">More</a>, <a href="#edit_this_page">Edit this Page</a></span>
 
-<span class='jump-menu'> Categories: <a href="#open_source">Open Source</a>, <a href="#open_source_community_building">Open Source Community Building</a>, <a href="#accounts">Accounts</a>, <a href="#more">More</a>, <a href="#edit_this_page">Edit this page</a></span>
+{:toc}
 
 ## Open Source
 
@@ -43,7 +43,7 @@ Last, in that same example, let's say as that startup is adopting Agency X's cod
 
 More broadly, publicly funded code, is well, the public's code. It'd be like building a highway, but saying only firetrucks and police cars can use it, even though that's only a fraction of its potential. We see this most analogously with research grants in the scientific, academic, and medical communities, and the requirement to publish scholarly works and research findings that result from public funding.
 
-#### What Agencies Participate in Open Source?
+#### What agencies participate in open source?
 
 A lot. See the full list of [who's using GitHub](/community/).
 
@@ -125,9 +125,6 @@ Yes. Including a software license communicates to users what they can and can't 
 #### Do we need to secure an agreement with contributors before accepting their code?
 
 ## More
-#### What if I have a suggestion on how to improve this page?
-
-Federal employees and members of the public are encouraged to contribute to this document...
 
 #### Are there any additional resources you would recommend?
 
@@ -137,5 +134,14 @@ Federal employees and members of the public are encouraged to contribute to this
 
 ## Edit this Page
 
-This is how you do the edits pizza so pancake.
+The code for this site is open source, that means you can contribute to making this FAQ even better. To add a question and answer or edit an answer you'll need to:
+
+1. Go to this page's repository on GitHub, [here](http://www.github.com/government.github.com).
+2. Click the **fork** button near the top right. This copies a version to your account.
+3. In your fork, click the link to the **docs** folder, then click the **faq.md** file. That's the [markdown](https://help.github.com/articles/github-flavored-markdown) file with the content for this page.
+4. Click **Edit** and make your changes. When you're finished, click **Commit** at the bottom. 
+5. Return to [this page's repository](http://www.github.com/government.github.com) and click **Pull Request** and then **New Pull Request**. Fill out the form to explain the changes you've made.
+6. Click submit! 
+
+_Learn more abut these terms in the [Glossary](/docs/glossary/)._
 

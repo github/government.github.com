@@ -519,7 +519,7 @@ img.avatar {
   padding-top: 75px;
 }
 
-#FAQ h4 {
+#FAQ h4:not(.description) {
   padding: 30px 0px 10px 0px;
 }
 

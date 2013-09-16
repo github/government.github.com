@@ -1,12 +1,12 @@
 # GitHub for Government
 
-*The [gov.github.com](http://gov.githubapp.com) of the future, here today.*
+*The [government.github.com](http://gov.githubapp.com) of the future, here today.*
 
 [![screenshot](screenshot.png)](full-screenshot.png)
 
 ## Vision
 
-A government-centric GitHub microsite that lives at [gov.github.com](http://gov.github.com) and serves to educate and inspire government employees and civic hackers as to the awesomeness that we all know as The GitHub Way&trade;.
+A government-centric GitHub microsite that lives at [government.github.com](http://gov.github.com) and serves to educate and inspire government employees and civic hackers as to the awesomeness that we all know as The GitHub Way&trade;.
 
 ### High-level ideas:
 

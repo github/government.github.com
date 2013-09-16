@@ -4,6 +4,7 @@ title: Forking your City
 author: Tom Schenk, City of Chicago
 image: /images/chicago.png
 description: "Chicago has begun releasing select datasets on GitHub in a GeoJSON format and inviting pull requests. So far, Chicago has released the files for bike routes, bike racks, pedway routes, street locations, and building footprints."
+category: Open Data
 ---
 
 Providing accurate, up-to-date data on a frequent basis is always a challenge for large organizations. It takes a combination of [executive leadership](http://www.cityofchicago.org/city/en/depts/mayor/press_room/press_releases/2012/december_2012/mayor_emanuel_expandsopendataoncityportalwithexecutiveorder.html), technical infrastructure, and hard work, which are all on display in the City of Chicago’s [Open Data Portal](http://data.cityofchicago.org/). Each day, bike routes are widened, roads are made, and buildings are erected. As the city’s shape changes, so does the data. Sometimes, changes in Chicago are recognized by residents before city-updated records.

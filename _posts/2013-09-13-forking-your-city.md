@@ -17,4 +17,4 @@ Since the release, a community of open source developers and enthusiasts have ad
 
 GitHub’s recent venture into displaying [GeoJSON maps](https://github.com/Chicago/osd-pedway-routes) and [CSV files](https://help.github.com/articles/rendering-csv-and-tsv-data) makes it easier to interact with this data—a map of Chicago’s pedway routes can be found in this [fork](https://github.com/fgregg/osd-pedway-routes/blob/42fbbfe21a07e8b799739ba441f93b65ad38da8f/data/Pedway_Routes.geojson).
 
-While releasing data will continue to be challenging work, tools like Github help City Hall support and interact with its enthusiastic open government community to make the city better for everyone.
+While releasing data will continue to be challenging work, tools like GitHub help City Hall support and interact with its enthusiastic open government community to make the city better for everyone.

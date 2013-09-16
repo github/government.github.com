@@ -52,12 +52,11 @@ Temporary internal staging server: http://gov.githubapp.com
 ## Requirements
 
 * Jekyll (ruby)
-* CoffeeScript (node, npm)
 
 ## Setup Locally
 
-1. `Git clone https://github.com/github/gov.github.com.git`
-2. `cd gov.github.com`
+1. `Git clone https://github.com/github/government.github.com.git`
+2. `cd government.github.com`
 3. `script/bootstrap`
 4. `script/server`
 5. `open http://localhost:4000`
@@ -75,7 +74,7 @@ Check out the [current issues](https://github.com/github/gov.github.com/issues) 
 
 ## Compiling
 
-The site uses CoffeeScript to generate the `/community` page dynamically. To recompile the CoffeeScript, simply `script/build`. *Note:* This will fire automatically before `script/server` as well.
+To recompile the site, simply `script/build`. *Note:* This will fire automatically during `script/server` as well.
 
 ## Contributing to the agency list
 

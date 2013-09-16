@@ -106,7 +106,7 @@ url: http://gov.github.com
 relative_permalinks: true
 
 #build settings
-exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md"]
+exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "node_modules"]
 root: "/"
 paginate: 4
 markdown: kramdown

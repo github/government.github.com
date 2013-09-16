@@ -10,15 +10,15 @@ permalink: /
 
     {% for post in paginator.posts %}
 
-      {% assign mod = forloop.index | modulo: 4 %}
+      {% assign mod = forloop.index0 | modulo: 4 %}
 
-      {% if mod == 1 or mod == 4 %}
+      {% if mod == 0 or mod == 3 %}
         {% assign span = 8 %}
       {% else %}
         {% assign span = 4 %}
       {% endif %}
 
-      {% if mod == 1 or mod == 3 %}
+      {% if mod == 0 or mod == 2 %}
         <div class="row">
       {% endif %}
 
@@ -33,7 +33,7 @@ permalink: /
             </article>
           </div>
 
-      {% if mod == 2 or mod == 4 %}
+      {% if mod == 1 or mod == 3 %}
         </div>
       {% endif %}
 

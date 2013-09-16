@@ -4,12 +4,12 @@ set -e
 
 script/bootstrap
 
-#build the site
-echo "buildin' the site..."
-bundle exec rake assets:precompile
-
 #check for auth flag
 if [ $* -a $1 == "--auth" ]; then
+
+  #build the site
+  echo "buildin' the site..."
+  bundle exec rake assets:precompile
 
   #check for env vars
   if [ -z $GITHUB_CLIENT_ID ]; then

@@ -5,8 +5,6 @@ description: Open source can be confusing, but it doesn't have to be. You've got
 permalink: /faq/
 ---
 
-<span class='jump-menu'> Categories: <a href="#open_source">Open Source</a>, <a href="#open_source_community_building">Open Source Community Building</a>, <a href="#accounts">Accounts</a>, <a href="#more">More</a>, <a href="#edit_this_page">Edit this Page</a></span>
-
 * Table of Contents
 {:toc}
 

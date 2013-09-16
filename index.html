@@ -3,8 +3,6 @@ layout: home
 permalink: /
 ---
 
-{% if paginator.page == 1 %}
-
 <div class="stories container">
     <h2 style="padding-bottom: 28px;">The Stories</h2>
 
@@ -41,17 +39,11 @@ permalink: /
 
     {% if paginator.next_page %}
       <div>
-        <small><a href="/page2">Complete Archive</a></small>
+        <small><a href="/archive">Complete Archive</a></small>
       </div>
     {% endif %}
 
 </div><!-- end stories container -->
-
-{% else %}
-
-{% include archive.html %}
-
-{% endif %}
 
 <div id="join-the-revolution" class="container section">
   <div class="row">

@@ -8,7 +8,7 @@ permalink: /
 <div class="stories container">
     <h2 style="padding-bottom: 28px;">The Stories</h2>
 
-    {% for post in paginator.posts | limit: 4 %}
+    {% for post in paginator.posts %}
 
       {% assign mod = forloop.index | modulo: 4 %}
 

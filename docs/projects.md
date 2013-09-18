@@ -7,46 +7,43 @@ permalink: /projects/
 
 ## Feedback Repository
 
-Get feedback from your local development community by creating a specific repository for them to contribute ideas and suggetions for types of data or other information they'd like to see opened.
+GitHub's about connecting with developers. Whether you're an API publishing pro, or just getting started, creating a "feedback" repository can go a long way to connect your organization with the community. Get feedback from current and potential data consumers by creating a specific repository for them to contribute ideas and suggestions for types of data or other information they'd like to see opened. Here's how:
 
-1. Create a new repository
-	- Name it Feedback or similar
-	- Select to initiate with a README.md
+1. Create a new repository within your organization
+	- Name the repository "feedback" or similar
+	- Click the checkbox to automatically create a `README.md` file
 2. Set up your Readme
-	- Click readme.md
-	- Click Edit
-	- Introduce yourself, describe why you've joined GitHub, what you're hoping to do and what you'd like to learn from the development community. Encourage them to leave feadback through issues on the repository.
+	- Click `readme.md` within your newly created repository
+	- Click `Edit`
+	- Introduce yourself, describe why you've joined GitHub, what you're hoping to do and what you'd like to learn from the development community. Encourage them to leave feedback through issues on the repository.
 
-Sample text for your readme.md:
+Sample text for your `readme.md`:
 
-	# City of Gotham Feedback
-	We've just joined GitHub and want to know what data would be interesting to our develoment community?
-	Leave us comments via issues!
+> 	# City of Gotham Feedback
+>
+> 	We've just joined GitHub and want to know what data would be interesting to our development community?
+> 	Leave us comments via issues!
 
-_add photo_	
-Here is an example from <a href="#">San Francisco's Mayor's Office of Civic Innovation</a>.
+## Open source a Dataset
 
-## Open a Dataset
+Open sourcing a dataset can be as simple as uploading a `.csv` to GitHub and letting people know about it. Rather than publishing data as a zip file on your website or an FTP server, either through the GitHub.com web interface, or via the GitHub for Windows or GitHub for Mac native clients, simply create a new repository and add your datasets, in many cases, it's as easy as drag, drop, sync.
 
-Opening a dataset can be as simple as uploading a .csv or Excel file to GitHub and letting people know about it. GitHub can host any file type and will actually render a few of them, too. For instance, if you get a .geoJSON file from your GIS department and put it on GitHub, it will be rendered as a map. 
+GitHub can host any file type (although open, non-binary files like `.csv`s tend to work best). Plus, GitHub supports rendering certain open data formats interactively such as the popular geospacial`.geojson` format. Once uploaded, citizens can view the files, and can even open issues or submit pull requests with proposed fixes.
 
-_add photo_	
-##### Here is an example from the <a href="#">City of Cambridge, Massachusetts.</a>.
+## Grab some code
 
-## Fork this Repo
+There are [many open source applications](http://gsa.github.io/federal-open-source-repos) freely available on GitHub that were built just for government. Download one, and see if it fits a need. Here are some examples:
 
-The code for this website is open source! If you see something that needs improving, you can fork the repo, make a change and then submit a pull request. We'd love the feedback and it's a great way to learn the tools of GitHub.
+* **Adopt-a** - This [open source web app](#) was created for the City of Boston in 2011 by [Code for America](http://www.codeforamerica.org) fellows. It allows residents to "adopt" a hydrant and make sure it's clear of snow in the winter so that emergency crews can locate them when needed. It has since been adopted in **Chicago** (for sidewalks), **Seattle** (for storm drains), **Honolulu** (for tsunami sirens).
 
-_add photo_	
-##### Here is a pull request we received and merged from the <a href="#">City of Yahats, Oregon.</a>.
+* **StreetMix** -
 
+* **We The People** - [We The People](https://github.com/whitehouse/petitions), the White House's petitions application hosted at [petitions.whitehouse.gov](http://petitions.whitehouse.gov] is a Drupal module to allow citizens to submit and digitally sign petitions.
 
-## Standup an App
+## Open source something small
 
-There are many open source apps on GitHub that were built specifically for government. To "standup" an app is to get it running in your locale. The Civic Common's website is a great resource for examples. Here are a few:
+Chances are you've got something small you can open source. Check in with your web or new media team, and see if they've got something they've been dying to share or blog about, no matter how small. It can be snippet of analytics code, or maybe a small script used internally. It doesn't even have to be code. Post your website's privacy policy, comment moderation policy, or terms of service and let the community weigh in before your next edit. No matter how small it is, getting your first open source project going is a great first step.
 
-###### Adopt-a
-This open source web app ([its GitHub repository](#))was created for the City of Boston in 2011 by [Code for America](http://www.codeforamerica.org) fellows. It allows residents to "adopt" a hydrant and make sure it's clear of snow in the winter so that emergency crews can locate them when needed. It has since been adopted in **Chicago** (for sidewalks), **Seattle**(for storm drains), **Honolulu** (for tsunami sirens).
+## Improve an existing project
 
-###### StreetMix
-This open source web app ([its GitHub repository](#))was created for the City of Boston in 2011 by [Code for America](http://www.codeforamerica.org) fellows. It allows residents to "adopt" a hydrant and make sure it's clear of snow in the winter so that emergency crews can locate them when needed. It has since been adopted in **Chicago** (for sidewalks), **Seattle**(for storm drains), **Honolulu** (for tsunami sirens).
+Does you agency use an existing open source project to conduct its own business? Open an issue on the project's repository with a feature request or a bug you spot. Better yet, fork the project, and submit your improvements. Even if it's one or two lines of code, such examples are great to blog about to showcase your efforts.

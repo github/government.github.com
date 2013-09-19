@@ -9,24 +9,27 @@ permalink: /projects/
 
 GitHub's about connecting with developers. Whether you're an API publishing pro, or just getting started, creating a "feedback" repository can go a long way to connect your organization with the community. Get feedback from current and potential data consumers by creating a specific repository for them to contribute ideas and suggestions for types of data or other information they'd like to see opened. Here's how:
 
-1. Create a new repository within your organization
+1. [Create a new repository](https://github.com/new)
+  - Choose your organization as the Owner
 	- Name the repository "feedback" or similar
 	- Click the checkbox to automatically create a `README.md` file
 2. Set up your Readme
-	- Click `readme.md` within your newly created repository
+	- Click `README.md` within your newly created repository
 	- Click `Edit`
 	- Introduce yourself, describe why you've joined GitHub, what you're hoping to do and what you'd like to learn from the development community. Encourage them to leave feedback through issues on the repository.
 
-Sample text for your `readme.md`:
+Sample text for your `README.md`:
 
-> 	# City of Gotham Feedback
->
-> 	We've just joined GitHub and want to know what data would be interesting to our development community?
-> 	Leave us comments via issues!
+```markdown
+# City of Gotham Feedback
+
+We've just joined GitHub and want to know what data would be interesting to our development community?
+Leave us comments via issues!
+```
 
 ## Open source a Dataset
 
-Open sourcing a dataset can be as simple as uploading a `.csv` to GitHub and letting people know about it. Rather than publishing data as a zip file on your website or an FTP server, either through the GitHub.com web interface, or via the GitHub for Windows or GitHub for Mac native clients, simply create a new repository and add your datasets, in many cases, it's as easy as drag, drop, sync.
+Open sourcing a dataset can be as simple as uploading a `.csv` to GitHub and letting people know about it. Rather than publishing data as a zip file on your website or an FTP server, you can add the files through the GitHub.com web interface, or via the GitHub for Windows or GitHub for Mac native clients.  Create a new repository to store your datasets - in many cases, it's as easy as drag, drop, sync.
 
 GitHub can host any file type (although open, non-binary files like `.csv`s tend to work best). Plus, GitHub supports rendering certain open data formats interactively such as the popular geospacial`.geojson` format. Once uploaded, citizens can view the files, and can even open issues or submit pull requests with proposed fixes.
 
@@ -34,7 +37,7 @@ GitHub can host any file type (although open, non-binary files like `.csv`s tend
 
 There are [many open source applications](http://gsa.github.io/federal-open-source-repos) freely available on GitHub that were built just for government. Download one, and see if it fits a need. Here are some examples:
 
-* **Adopt-a** - This [open source web app](#) was created for the City of Boston in 2011 by [Code for America](http://www.codeforamerica.org) fellows. It allows residents to "adopt" a hydrant and make sure it's clear of snow in the winter so that emergency crews can locate them when needed. It has since been adopted in **Chicago** (for sidewalks), **Seattle** (for storm drains), **Honolulu** (for tsunami sirens).
+* **Adopt-a** - This [open source web app](https://github.com/codeforamerica/adopt-a-hydrant) was created for the City of Boston in 2011 by [Code for America](http://www.codeforamerica.org) fellows. It allows residents to "adopt" a hydrant and make sure it's clear of snow in the winter so that emergency crews can locate them when needed. It has since been adopted in [**Chicago**](https://github.com/Chicago/adopt-a-sidewalk) (for sidewalks), **Seattle** (for storm drains), and [**Honolulu**](https://github.com/codeforamerica/adopt-a-siren) (for tsunami sirens).
 
 * **StreetMix** -
 

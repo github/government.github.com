@@ -113,15 +113,9 @@ It is arguably GitHub's secret sauce (making coding social as their slogan goes)
 
 Simply register for a new GitHub account using your .gov e-mail address. Follow the normal instructions to set up Git, setting your Git e-mail address as your .gov address so that all commits are associated with your official account.
 
-#### How does my agency sign up? Do we need to get our general counsel's office involved?
-
-#### Should my agency be a user or an organization?
-
 #### Should we include an open source license with our project?
 
 Yes. Including a software license communicates to users what they can and can't do with the software, and more importantly, informs contributors as to what rights, if any, the waive by contributing.
-
-#### Do we need to secure an agreement with contributors before accepting their code?
 
 ## More
 

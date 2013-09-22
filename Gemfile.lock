@@ -1,16 +1,3 @@
-GIT
-  remote: https://github.com/benbalter/jekyll-auth
-  revision: 279a46cf76a3f02b1f4042eb0957e7c57d6a3774
-  branch: gem
-  specs:
-    jekyll-auth (0.1.0)
-      commander
-      git
-      github-pages
-      heroku
-      sinatra-index
-      sinatra_auth_github
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -54,6 +41,13 @@ GEM
       pygments.rb (~> 0.5.0)
       redcarpet (~> 2.3.0)
       safe_yaml (~> 0.7.0)
+    jekyll-auth (0.1.0)
+      commander
+      git
+      github-pages
+      heroku
+      sinatra-index
+      sinatra_auth_github
     kramdown (1.0.2)
     launchy (2.3.0)
       addressable (~> 2.3)
@@ -104,5 +98,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
-  jekyll-auth!
+  jekyll-auth

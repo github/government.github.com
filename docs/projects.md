@@ -33,7 +33,7 @@ Open sourcing a dataset can be as simple as uploading a `.csv` to GitHub and let
 
 GitHub can host any file type (although open, non-binary files like `.csv`s tend to work best). Plus, GitHub supports rendering certain open data formats interactively such as the popular geospacial`.geojson` format. Once uploaded, citizens can view the files, and can even open issues or submit pull requests with proposed fixes.
 
-## Grab some code
+## Explore Open Source Civic Apps
 
 There are [many open source applications](http://gsa.github.io/federal-open-source-repos) freely available on GitHub that were built just for government. Download one, and see if it fits a need. Here are some examples:
 

@@ -11,7 +11,7 @@ title: Archive
       {% for post in site.posts offset:0 %}
       <div class="one-story">
         <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>
-        <h6 class="border-left {{ post.category }}"><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h6>
+        <h5 class="{{ post.category }}"><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h5>
       </div>
       {% endfor %}
     </article>

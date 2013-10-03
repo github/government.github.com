@@ -83,6 +83,10 @@ body {
 
 /* headings */
 
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+}
+
 h1 {
   font-size: 200%; 
   margin: 20px 0px; 
@@ -569,6 +573,13 @@ img.avatar {
 /* Supporting page */
 /* ----------------------------------------------------------------------------------- */
 
+
+.support-page h1, .support-page h2, .support-page h3, 
+.support-page h4, .support-page h5, .support-page h6,
+.support-page li {
+  margin-top: 0px;
+  padding-top: 0px;
+}
 .description {
   padding: 0px 0px 40px 0px;
 }
@@ -612,7 +623,9 @@ img.avatar {
   padding-bottom: 0px;
   font-weight: 300;
 }
-
+#Archive h5 {
+  margin: 3px 0px 10px 0px;
+}
 /* Media Queries */ 
 /* ----------------------------------------------------------------------------------- */
 

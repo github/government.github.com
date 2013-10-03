@@ -19,7 +19,7 @@ permalink: /
               <a href="{{ post.url }}">
                 <div class="homepage-image post-image {{ post.category }}" style="background: url('{{ post.image }}') center 80%; border-bottom: 3px solid;"></div>
               </a>
-              <div class="meta {{ post.category }}" style="padding: 4px 0px;">{{ post.category }}</div>
+              <div class="meta {{ post.category }}" style="padding: 4px 0px;"><a class="{{ post.category }}" href="category/{{ post.category }}">{{ post.category }}</a></div>
               <h3><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h3>
               <!-- <div class="meta">Posted in {{ post.category }}</div> -->
               <div class="description">{{ post.content | truncatewords: 36 }} <span><a href="{{ post.url }}">read more</a></div>
@@ -34,8 +34,8 @@ permalink: /
 
     {% if paginator.next_page %}
       <div class="row">
-        <div class="span4">
-          <small><a href="/archive">Complete Archive</a></small>
+        <div class="span8">
+          <h4>View the <a href="/archive">complete archive</a> or <a href="#">add your story</a>.</h4>
         </div>
       </div>
     {% endif %}

@@ -1,20 +1,28 @@
 {% include header.html %}
+
 <div class="container">
   <div class="row">
     <div class="span8">
       <img class="storypage-image post-image {{ page.category }}" src="{{ page.image }}" alt="{{ page.title }}" />
+      <div class="meta {{ page.category }}" style="padding: 4px 0px;">{{ page.category }}</div>
       <h1>{{ page.title }}</h1>
-      <div class="meta">Published {{ page.date | date: "%B %d, %Y"}} in {{ page.category }}</div>
+      <div class="meta">Published on {{ page.date | date: "%B %d, %Y"}} by {{ page.author }}</div>
     </div>
   </div>
 
   <div id="content" class="row story-page">
-
     <div class="span8 mini-section">
       {{ content }}
     </div>
-
   </div>
+
+<div class="row">
+  <div class="span4 contribute">
+    <h3>Contribute</h3>
+    <h4>See an error or have a story of your own to tell? This page is open source, so <a href="#">submit a pull request</a>!</h4>
+  </div>
+</div>
+
 </div>
 
 {% include footer.html %}

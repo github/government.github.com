@@ -20,33 +20,19 @@
   <link rel="shortcut icon" href="{{ site.root }}assets/img/favicon.ico" type="image/x-icon">
 </head>
 
-<body class="{{ page.layout }}">
+<body id="{{ page.title }}" class="{{ page.layout }}">
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
 
-  <div id="top-nav">
-    <div class="container clearfix">
-      <a class="logo-invertocat" href="http://www.github.com" title="Visit GitHub.com">
-        <span class="mega-octicon octicon-mark-github"></span>
-      </a>
-      <ul class="fleft">
-        <li><a href="/" title="Home">GitHub and Government</a></li>
-      </ul>
-      <ul class="fright">
-        <li {% if page.permalink == "/about/" %}class="active"{% endif %}>
-            <a href="{{ site.root }}docs/about" title="About GitHub">About</a>
-        </li>
-        <li {% if page.permalink == "/features/" %}class="active"{% endif %}>
-            <a href="{{ site.root }}features" title="GitHub Features">Features</a>
-        </li>
-        <li {% if page.permalink == "/Community/" %}class="active"{% endif %}>
-            <a href="{{ site.root }}community" title="The Government on GitHub Community">Community</a>
-        </li>
-        <li {% if page.permalink == "/" %}{% endif %}>
-            <a href="{{ site.root }}#join-the-revolution" title="Get started on GitHub">Get Started</a>
-        </li>
-      </ul>
-    </div>
+<header>
+  <div class="container">
+    <a href="/"><span class="logo">GitHub and Government</span></a>
+    <nav>
+      <a href="/community">The Community</a>
+      <a href="/about">Learn More</a>
+      <a href="mailto:government@github.com">Contact Us</a>
+    </nav>
   </div>
+</header>
 

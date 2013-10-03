@@ -3,7 +3,8 @@ layout: nil
 ---
 
 body {
-  padding-top: 60px;
+  /* padding-top: 60px; */
+  box-sizing: border-box;
 }
 
 {% include css/bootstrap.min.css %}
@@ -65,6 +66,21 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.container {
+  max-width: 980px;
+}
+
+.span4 {
+  width: 30%;
+  text-align: left;
+}
+
+.span8 {
+  width: 60%;
+  /* should be 64? */
+}
+
+
 /* headings */
 
 h1 {
@@ -75,31 +91,26 @@ h1 {
 
 h1 {
   font-size: 400%; 
-  font-weight: normal;
 }
 
-h2 { font-weight: 300; }
+h2 { font-size: 26px; }
 
 h3 {
-  font-size: 26px;
-  font-weight: bold; 
+  font-size: 20px;
+  font-weight: normal; 
   line-height: 30px; 
 }
 
 h4 {
-  font-size: 26px; 
-  font-weight: normal; 
-  line-height: 30px;
+  font-size: 13px; 
 }
 
 h6 {
-  font-size: 17px; 
-  font-weight: normal; 
-  margin: 0 0 8px 0; 
-  line-height: 20px;
+  font-size: 13px; 
+  font-weight: normal;
 }
 
-h1, h3, h6 {font-family: Roboto Slab;}
+/*h1, h3, h6 {font-family: Roboto Slab;}*/
 
 /* link styles */
 
@@ -109,9 +120,9 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
+  /*text-decoration: none;*/
   color: #00C3F8;
-  border-bottom: 1px solid #00C3F8;
+  /*border-bottom: 1px solid #00C3F8;*/
 }
 
 a img {
@@ -133,7 +144,7 @@ a.title-link:hover { color: #00C3F8; }
 
 h1 a.title-link:hover { border-bottom: 2px solid #00C3F8; }
 
-p a { color: #00C3F8; }
+p a { color: /*#00C3F8*/ #333; font-weight: 500; }
 
 a.glossary {
   border-bottom: 1px dotted #acacac; 
@@ -155,8 +166,9 @@ a.glossary:hover {
 /* other text styles */
 
 p, ul, ol {
-  font-size: 16px;
-  line-height: 1.6em;
+/*  font-size: 16px;
+  line-height: 1.6em;*/
+  font-weight: normal;
 }
 
 ul li, ol li {
@@ -188,11 +200,14 @@ small {
 .fleft { float: left; }
 .fright { float: right; }
 
-ul.subnav {
+.subnav h5 {
+  margin-top: 0px;
+}
+
+.subnav ul {
   list-style: none; 
-  background: #eee; 
   display: inline-block; 
-  padding: 7px 14px;
+  margin: 0px; padding: 0px;
 }
 
 /* sections */
@@ -216,7 +231,9 @@ ul.subnav {
 
 .full-width {
   width: 100%;
-  background: #eee;
+  background: rgb(249, 249, 249);
+  border-bottom: 1px solid rgb(238, 238, 238);
+  border-top: 1px solid rgb(238, 238, 238);
 }
 
 /* Navigation */
@@ -299,15 +316,54 @@ ul.subnav {
 }
 
 header {
-  padding: 70px 0px;
-  color: #333;
-  margin: 0px 0px 30px 0px;
+  text-align: right;
+}
+
+  header:before, header:after {
+    content: " ";
+    display: table; }
+  header:after {
+    clear: both; }
+
+header .logo {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  height: 24px;
+  width: 537px;
+  /*margin: 7px 30px 0 0;*/
+  float: left;
+  background-image: url(../img/github-gov-black.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+header .container {
+  /*padding-top: 15px;
+  padding-bottom: 15px;*/
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+header nav a{
+  color: #333333;
+  font-weight: bold;
+  margin-left: 25px;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+.splash {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 /* Stories Section */
 
 .stories {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .story-unit h2 { margin: 8px 0px; }
@@ -331,7 +387,7 @@ header {
 
 .homepage-image {
   max-width: 770px;
-  height: 300px;
+  height: 150px;
   background-color: #eee;
 }
 
@@ -339,7 +395,7 @@ header {
   font-weight: bold;
 }
 
-.post-image::before {
+/*.post-image::before {
   position: relative;
   content: "";
   width: 0;
@@ -347,7 +403,7 @@ header {
   border-top: 50px solid #05d8af;
   border-right: 50px solid transparent;
   top: 49px;
-}
+}*/
 
 .post-image.Open.Data:before { border-top-color: #05d8af; }
 .post-image.Open.Government:before { border-top-color: #f42f71; }
@@ -364,13 +420,13 @@ a.Open.Source:hover { color: #00acef; border-color: #00acef; }
 }
 
 .story-unit.span8 img {
-  width: 770px;
-  height: 300px;
+  /*width: 770px;*/
+  height: 200px;
 }
 
 .story-unit.span4 img {
-  width: 370px;
-  height: 300px;
+  /*width: 370px;*/
+  height: 200px;
 }
 
 .the-revolution {
@@ -443,7 +499,7 @@ footer .site-footer .octicon-mark-github:hover {
 
 #orgs {
   position: relative;
-  height: 414px;
+  height: 314px;
   overflow-y: hidden;
 }
 .the-orgs {
@@ -494,11 +550,20 @@ img.avatar {
   height: 80px;
 }
 
+.contribute {
+  background: #FAFAFA;
+  border: 1px solid #EEE;
+  border-radius: 4px;
+  padding: 14px;
+  box-sizing: border-box;
+}
+
 /* Single Story Page */
 /* ----------------------------------------------------------------------------------- */
 
 .storypage-image {
   width: 100%;
+  border-bottom: 4px solid;
 }
 
 /* Supporting page */
@@ -521,6 +586,10 @@ img.avatar {
 
 #FAQ h4:not(.description) {
   padding: 30px 0px 10px 0px;
+}
+
+#markdown-toc {
+  padding-bottom: 30px;
 }
 
 .jump-menu {

@@ -1,10 +1,10 @@
 ---
 layout: story
 title: Philadelphia Gets Going and Gets Open
-description: >
-  After Mark Headd was named the Chief Data Office for the City of Philadelphia he hit the ground running using GitHub to help "support some of our core objectives - specifically, collaboration and engagement to provide improved delivery of government services and information". It's a great story for how they went from step one to awesome.
+description: The Chief Data Office for the City of Philadelphia hit the ground running using GitHub to help "support some of our core objectives - specifically, collaboration and engagement to provide improved delivery of government services and information".
 image: /images/philadelphia.png
 category: Open Government
+author: Jessica Lord
 ---
 
 A little over a year ago Mark Headd was named the Chief Data Office for the City of Philadelphia and he hit the ground running using GitHub to help "support some of our core objectives - specifically, collaboration and engagement to provide improved delivery of government services and information." Theirs is a great story for a city went from step one to awesome.

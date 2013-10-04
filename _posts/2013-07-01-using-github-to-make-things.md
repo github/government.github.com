@@ -4,7 +4,7 @@ title: Using GitHub to Make Things
 author: Tom Schenk, City of Chicago
 image: /images/chicago.png
 description: "Chicago has begun releasing select datasets on GitHub in a GeoJSON format and inviting pull requests. So far, Chicago has released the files for bike routes, bike racks, pedway routes, street locations, and building footprints."
-category: Open Government
+category: open government
 ---
 
 Chicago has begun releasing select datasets on GitHub in a [GeoJSON format](http://en.wikipedia.org/wiki/GeoJSON) and inviting pull requests. So far, Chicago has released the files for [bike routes](https://github.com/Chicago/osd-bike-routes), [bike racks](https://github.com/Chicago/osd-bike-racks), [pedway routes](https://github.com/Chicago/osd-pedway-routes), [street locations](https://github.com/Chicago/osd-street-center-line), and [building footprints](https://github.com/Chicago/osd-building-footprints). Like any other repository, users can fork, customize, and submit a pull request.

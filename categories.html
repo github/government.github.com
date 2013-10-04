@@ -1,0 +1,22 @@
+---
+layout: support-page
+description: "All of the stories."
+permalink: /category/
+title: Category Archive
+---
+
+<div class="row">
+  <div class="span8">
+    {% for category in site.categories %}
+    <h2 id="{{ category[0] }}" style="text-transform: capitalize;">{{ category[0] }}</h2>
+    <article class="story-unit">
+      {% for post in category[1] %}
+      <div class="one-story">
+        <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>
+        <h5 class="{{ post.category }}"><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h5>
+      </div>
+      {% endfor %}
+    </article>
+    {% endfor %}
+  </div>
+</div>

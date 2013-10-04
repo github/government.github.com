@@ -1,7 +1,7 @@
 ---
 permalink: /submit/
 title: Submit your story
-layout: page
+layout: support-page
 
 ---
 

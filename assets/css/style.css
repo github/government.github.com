@@ -51,10 +51,6 @@ li img {
   max-width: 660px;
 }
 
-.type-block {
-  display: none;;
-}
-
 .support-page .type-block {
   float: left;
   width: 80px;
@@ -188,6 +184,12 @@ p, ul, ol {
 
 ul li, ol li {
   padding: 4px 0px;
+}
+
+.no-style-list {
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
 }
 
 small {
@@ -516,51 +518,17 @@ footer .site-footer .octicon-mark-github:hover {
 
 #orgs {
   position: relative;
-  height: 314px;
-  overflow-y: hidden;
-  text-align: center;
+  height: 365px;
+  overflow: hidden;
+  margin-bottom: 18px;
 }
 .the-orgs {
   position: absolute;
-  top: -20px;
-  left: 0px;
-  float: left;
+  top: -30px;
+  left: -60px;
+  display: inline;
+  width: 120%;
   z-index: 0;
-}
-.orgs-cutout{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  padding-top: 40px;
-  z-index: 10;
-  background: #fff;
-  width: 410px;
-  height: 458px;
-}
-
-.orgs-text {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  padding-top: 40px;
-  z-index: 10;
-  width: 520px;
-}
-
-.orgs-text h2 {
-  z-index: 10;
-}
-
-.orgs-cutout::after {
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 441px solid #fff;
-  border-right: 249px solid transparent;
-  left: 410px;
-  top: 0px;
-  z-index: 9;
 }
 
 img.avatar {
@@ -647,11 +615,11 @@ img.avatar {
 /* ----------------------------------------------------------------------------------- */
 
 @media (max-width: 767px) {
-  body { padding-top: 50px;}
+/*  body { padding-top: 50px;}
   #top-nav {padding-left: 20px; padding-right: 20px;}
   .story-unit.span4 img {width: 100%;}
   .full-width {background: #fff;}
   #more-stories, .orgs-cutout, #the-orgs, .site-footer-links { display: none; }
   .orgs-text {width: 100%}
-  #mobile-archive {display: inherit;}
+  #mobile-archive {display: inherit;}*/
 }

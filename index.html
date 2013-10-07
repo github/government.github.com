@@ -47,11 +47,9 @@ permalink: /
   </div>
 
   <div class="container">
-    <div id="orgs" class="the-orgs">
+    <div id="orgs">
+      <div class="the-orgs">
     {% for type_hash in site.organizations %}
-      <div class="type-block">
-        <p>{{type_hash[0]}}</p>
-      </div>
         {% for org in type_hash[1] %}
           <div class="organization">
             <a href="http://github.com/{{ org }}" title="{{ org }}">
@@ -60,8 +58,9 @@ permalink: /
           </div>
         {% endfor %}
     {% endfor %}
+  </div>
     </div>
-    <h5>See the rest of the government community <a href="/community">here.</a></h5>
+    <h5>See the rest of the GitHub <a href="/community">government community</a>.</h5>
 
 
     <div class="row section">
@@ -78,14 +77,16 @@ permalink: /
         <h2>Learn More</h2>
         <ul>
           <li>The <a href="docs/features/">features</a> that make GitHub so great.</li>
-          <li>What GitHub is all <a href="docs/about/">about</a></li>
-          <li><a href="/docs/getting-started/">Project ideas</a> to get started with</li>
+          <li>What GitHub is all <a href="docs/about/">about</a>.</li>
+          <li><a href="/docs/getting-started/">Project ideas</a> to get started with.</li>
         </ul>
       </div>
 
       <div class="span4">
         <h2>Connect</h2>
-        <h6>We've started a Government organization on GitHub so that users can connect, share best practices and learn from each other. Click <a href="">here</a> and sign up with your .gov email address.</h6>
+        <ul class="no-style-list">
+          <li class="no-style-list">We've started a Government organization on GitHub so that users can connect, share best practices and learn from each other. Click <a href="">here</a> and sign up with your .gov email address.</li>
+        </ul>
       </div>
     </div>
   </div>

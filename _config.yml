@@ -104,7 +104,7 @@ title: "Government is on GitHub"
 description: "Stories of open data, open source, and open collaboration"
 permalink: "/stories/:title"
 url: http://government.github.com
-relative_permalinks: true
+relative_permalinks: false
 prose_server: "http://edit.benbalter.com"
 tagline: 'They <a href="category/#open data" class="open data" title="Data made easily accessible and fee to the public.">open data</a>, find <a href="category/#open source"class="open source" title="Code or creation materials made easily accessible and free to the public.">open source</a> projects and be a more <a href="category/#open government" class="open government" title="An acessible, transparent and forthcoming with data government agency.">open government</a>.'
 

@@ -1,7 +1,9 @@
-#!/bin/sh
+#!/usr/bin/env ruby
 
-set -e
+require 'html/proofer'
+require 'find'
 
-script/bootstrap
+system 'bundle exec jekyll build'
 
-bundle exec jekyll build
+tester = HTML::Proofer.new "./_site"
+tester.run

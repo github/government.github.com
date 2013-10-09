@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/benbalter/html-proofer
+  revision: 0ec251fdb6ccdbee92fd301b5393e525bb2e1990
+  branch: jekyll-compatability
+  specs:
+    html-proofer (0.0.14)
+      colored (~> 1.2)
+      nokogiri (= 1.6.0)
+      typhoeus (~> 0.6.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -6,23 +16,29 @@ GEM
     classifier (1.3.3)
       fast-stemmer (>= 1.0.0)
     colorator (0.1)
+    colored (1.2)
     commander (4.1.5)
       highline (~> 1.6.11)
     directory_watcher (1.4.1)
+    dotenv (0.9.0)
+    ethon (0.6.1)
+      ffi (>= 1.3.0)
+      mime-types (~> 1.18)
     excon (0.25.3)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
     fast-stemmer (1.0.2)
+    ffi (1.9.0)
     git (1.2.6)
-    github-pages (6)
+    github-pages (8)
       RedCloth (= 4.2.9)
-      jekyll (= 1.2.1)
+      jekyll (= 1.2.0)
       kramdown (= 1.0.2)
-      liquid (= 2.5.2)
+      liquid (= 2.5.1)
       maruku (= 0.6.1)
       rdiscount (= 1.6.8)
-      redcarpet (= 2.3.0)
-    heroku (2.41.0)
+      redcarpet (= 2.2.2)
+    heroku (3.0.0)
       heroku-api (~> 0.3.7)
       launchy (>= 0.3.2)
       netrc (~> 0.7.7)
@@ -31,34 +47,39 @@ GEM
     heroku-api (0.3.15)
       excon (~> 0.25.1)
     highline (1.6.19)
-    jekyll (1.2.1)
+    jekyll (1.2.0)
       classifier (~> 1.3)
       colorator (~> 0.1)
       commander (~> 4.1.3)
       directory_watcher (~> 1.4.1)
-      liquid (~> 2.5.2)
+      liquid (~> 2.5.1)
       maruku (~> 0.5)
       pygments.rb (~> 0.5.0)
-      redcarpet (~> 2.3.0)
+      redcarpet (~> 2.2.2)
       safe_yaml (~> 0.7.0)
-    jekyll-auth (0.1.0)
+    jekyll-auth (0.1.2)
       commander
+      dotenv
       git
       github-pages
       heroku
+      rake
       sinatra-index
       sinatra_auth_github
     kramdown (1.0.2)
     launchy (2.3.0)
       addressable (~> 2.3)
-    liquid (2.5.2)
+    liquid (2.5.1)
     maruku (0.6.1)
       syntax (>= 1.0.0)
     mime-types (1.25)
+    mini_portile (0.5.1)
     multipart-post (1.2.0)
     netrc (0.7.7)
-    octokit (2.1.1)
-      sawyer (~> 0.3.0)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
+    octokit (2.4.0)
+      sawyer (~> 0.5.1)
     posix-spawn (0.3.6)
     pygments.rb (0.5.2)
       posix-spawn (~> 0.3.6)
@@ -66,15 +87,16 @@ GEM
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
+    rake (10.1.0)
     rdiscount (1.6.8)
-    redcarpet (2.3.0)
+    redcarpet (2.2.2)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rubyzip (1.0.0)
     safe_yaml (0.7.1)
-    sawyer (0.3.0)
+    sawyer (0.5.1)
+      addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
-      uri_template (~> 0.5.0)
     sinatra (1.4.3)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -86,7 +108,8 @@ GEM
       warden-github (~> 1.0)
     syntax (1.0.0)
     tilt (1.4.1)
-    uri_template (0.5.3)
+    typhoeus (0.6.5)
+      ethon (~> 0.6.1)
     warden (1.2.3)
       rack (>= 1.0)
     warden-github (1.0.0)
@@ -98,4 +121,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  html-proofer!
   jekyll-auth

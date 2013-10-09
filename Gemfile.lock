@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:benbalter/html-proofer.git
+  remote: https://github.com/benbalter/html-proofer
   revision: 49bba6e0af15334531357a9d9931750a698ac0d4
   branch: jekyll-compatability
   specs:

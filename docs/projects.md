@@ -29,7 +29,7 @@ Leave us comments via issues!
 
 ## Open source a Dataset
 
-Open sourcing a dataset can be as simple as uploading a `.csv` to GitHub and letting people know about it. Rather than publishing data as a zip file on your website or an FTP server, you can add the files through the GitHub.com web interface, or via the [GitHub for Windows](windows.github.com) or [GitHub for Mac](mac.github.com) native clients.  Create a new repository to store your datasets - in many cases, it's as easy as drag, drop, sync.
+Open sourcing a dataset can be as simple as uploading a `.csv` to GitHub and letting people know about it. Rather than publishing data as a zip file on your website or an FTP server, you can add the files through the GitHub.com web interface, or via the [GitHub for Windows](http://windows.github.com) or [GitHub for Mac](http://mac.github.com) native clients.  Create a new repository to store your datasets - in many cases, it's as easy as drag, drop, sync.
 
 GitHub can host any file type (although open, non-binary files like `.csv`s tend to work best). Plus, GitHub supports rendering certain open data formats interactively such as the popular geospacial `.geojson` format. Once uploaded, citizens can view the files, and can even open issues or submit pull requests with proposed fixes.
 

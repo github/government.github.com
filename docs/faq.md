@@ -12,7 +12,7 @@ permalink: /faq/
 
 #### Why should I use open source software?
 
-There are [lots of arguments](http://www.dwheeler.com/oss_fs_why.html) in favor of adopting an existing <a href="#" class="glossary" title="Code or creation materials made easily accessible and free to the public.">open source</a> project over its proprietary counterparts. A few of the biggest ones:
+There are [lots of arguments](http://www.dwheeler.com/oss_fs_why.html) in favor of adopting an existing <a href="https://help.github.com/articles/github-glossary#open-source" class="glossary" title="Code or creation materials made easily accessible and free to the public.">open source</a> project over its proprietary counterparts. A few of the biggest ones:
 
 * Lower cost - No costly licensing, no vendor lock in
 * Nimble - Often better at remaining responsive to emerging trends
@@ -66,7 +66,7 @@ No matter how trivial the issue, make the discussion open. Even if issues are ha
 Agencies should empower a team of trusted developers with decision-making authority to:
 
 1. Individually respond to any issues opened by users
-2. Accept or reject [pull requests](#pull_requests) on behalf of the project, and
+2. Accept or reject [pull requests](https://help.github.com/articles/github-glossary#pull-request) on behalf of the project, and
 3. Coordinate future releases
 
 Avoid a traditional governance structure. Decentralization is the cornerstone of open source and collaborative development and is the key to its agility. Code commits should be early, often, and public.
@@ -105,7 +105,7 @@ Put simply, the culture on this social network is not to criticize but to create
 
 #### Does each developer need an account?
 
-Contractors and employees should use their individual accounts to commit code (rather than say an agency account), respond to support forums, etc., just as they would on any other project, or on any other social network, however to ensure records retention and that the commits come from an official source (e.g., to delineate commits in one's official capacity versus commits in one personal capacity), the account should be associated with a .gov e-mail address as [described above](#records).
+Contractors and employees should use their individual accounts to commit code (rather than say an agency account), respond to support forums, etc., just as they would on any other project, or on any other social network, however to ensure records retention and that the commits come from an official source (e.g., to delineate commits in one's official capacity versus commits in one personal capacity), the account should be associated with a .gov e-mail address.
 
 It is arguably GitHub's secret sauce (making coding social as their slogan goes), provides a level of transparency and accountability, and is a long-standing norm in the open-source software community, not to mention, the fundamental software underlying the website. Almost without exception, all government agencies that have released open-source software, both on GitHub and otherwise have followed this model.
 

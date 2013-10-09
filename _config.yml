@@ -71,7 +71,6 @@ organizations:
   U.S. County:
     - sfcta
     - miamidade
-    - pueblocounty
 
   U.S. City:
     - chicago
@@ -106,7 +105,7 @@ permalink: "/stories/:title"
 url: http://government.github.com
 relative_permalinks: false
 prose_server: "http://edit.benbalter.com"
-tagline: 'They <a href="category/#open data" class="open data" title="Data made easily accessible and fee to the public.">open data</a>, find <a href="category/#open source"class="open source" title="Code or creation materials made easily accessible and free to the public.">open source</a> projects and be a more <a href="category/#open government" class="open government" title="An acessible, transparent and forthcoming with data government agency.">open government</a>.'
+tagline: 'They <a href="/categories/#open-data" class="open data" title="Data made easily accessible and fee to the public.">open data</a>, find <a href="/categories/#open-source"class="open source" title="Code or creation materials made easily accessible and free to the public.">open source</a> projects and be a more <a href="/categories/#open-government" class="open government" title="An acessible, transparent and forthcoming with data government agency.">open government</a>.'
 
 #build settings
 exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "node_modules"]

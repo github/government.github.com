@@ -1,14 +1,14 @@
 ---
 layout: support-page
 description: "All of the stories."
-permalink: /category/
+permalink: /categories/
 title: Category Archive
 ---
 
 <div class="row">
   <div class="span8">
     {% for category in site.categories %}
-    <h2 id="{{ category[0] }}" style="text-transform: capitalize;">{{ category[0] }}</h2>
+    <h2 id="{{ category[0] | replace: " ","-" }}" style="text-transform: capitalize;">{{ category[0] }}</h2>
     <article class="story-unit">
       {% for post in category[1] %}
       <div class="one-story">

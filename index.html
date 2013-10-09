@@ -19,7 +19,7 @@ layout: home
             </a>
             <div class="meta {{ post.category }}" style="padding: 4px 0px;"><a class="{{ post.category }}" href="/categories/#{{ post.category | replace: " ","-" }}">{{ post.category }}</a></div>
             <h3><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h3>
-            <div class="description">{{ post.content | truncatewords: 36 }} <span><a href="{{ post.url }}">read more</a></div>
+            <div class="description">{{ post.content | truncatewords: 36 }} <span><a class="read-more" href="{{ post.url }}">read more</a></div>
           </article>
         </div>
 

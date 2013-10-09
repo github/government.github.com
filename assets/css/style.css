@@ -155,8 +155,6 @@ a.title-link:hover { color: #00C3F8; }
 
 h1 a.title-link:hover { border-bottom: 2px solid #00C3F8; }
 
-p a { color: /*#00C3F8*/ #333; font-weight: 500; }
-
 a.glossary {
   border-bottom: 1px dotted #acacac;
   color: #333;
@@ -561,6 +559,23 @@ img.avatar {
 
 .description {
   padding: 0px 0px 40px 0px;
+}
+
+.description a:not(.read-more) {color: #333;}
+
+#Glossary .span8 ul {
+  list-style: none;
+  text-indent: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+#FAQ h2:not(:first-of-type), #Projects h2:not(:first-of-type) {
+  padding-top: 75px;
+}
+
+#FAQ h4:not(.description) {
+  padding: 30px 0px 10px 0px;
 }
 
 #markdown-toc {

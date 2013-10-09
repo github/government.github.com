@@ -2,4 +2,6 @@
 
 set -e
 
+export RUBY_VERSION=1.9.3
+
 bundle exec rake test

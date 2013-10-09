@@ -1,9 +1,9 @@
 ---
 layout: home
-permalink: /
 ---
 
 <div class="stories container">
+
   {% for post in paginator.posts %}
 
     {% assign mod = forloop.index0 | modulo: 6 %}

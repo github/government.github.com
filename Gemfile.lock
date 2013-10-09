@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/benbalter/html-proofer
-  revision: 4dfb963740f9c78434546663b0fee18349ada48c
+  revision: a435e229c4a002b3a902286bc8985212dd0cb4c2
+  branch: jekyll-compatability
   specs:
     html-proofer (0.0.14)
       colored (~> 1.2)

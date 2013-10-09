@@ -2,8 +2,17 @@
 # Feel free to add additional Rake tasks so long as
 # `rake assets:precompile` continues to generate the jekyll site
 
+require 'html/proofer'
+require 'find'
+
 namespace :assets do
   task :precompile do
-    sh "bundle exec jekyll build"
+    sh "bundle exec jekyll-auth build"
   end
+end
+
+task :test do
+  Rake::Task["assets:precompile"].execute
+  tester = HTML::Proofer.new "./_site"
+  tester.run
 end

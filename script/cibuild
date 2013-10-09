@@ -2,6 +2,6 @@
 
 set -e
 
-export RUBY_VERSION=1.9.3
+export PATH=/usr/share/rbenv/shims:$PATH RBENV_VERSION=$(cat .ruby-version)
 
 bundle exec rake test

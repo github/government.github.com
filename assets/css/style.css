@@ -553,13 +553,10 @@ img.avatar {
 /* Supporting page */
 /* ----------------------------------------------------------------------------------- */
 
-
-.support-page h1, .support-page h2, .support-page h3,
-.support-page h4, .support-page h5, .support-page h6,
-.support-page li {
-  margin-top: 0px;
-  padding-top: 0px;
+.support-page h2:not(:first-of-type) {
+  margin: 28px 0px 10px;
 }
+
 .description {
   padding: 0px 0px 40px 0px;
 }
@@ -590,10 +587,6 @@ img.avatar {
   font-weight: 700;
   margin-bottom: 24px;
   display: block;
-}
-
-#Projects h6 {
-  padding: 18px 0px 10px 0px;
 }
 
 /* archive page */

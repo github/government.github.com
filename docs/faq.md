@@ -136,4 +136,4 @@ The code for this site is open source, that means you can contribute to making t
 5. Return to [this page's repository](http://www.github.com/government.github.com) and click **Pull Request** and then **New Pull Request**. Fill out the form to explain the changes you've made.
 6. Click submit!
 
-_Learn more abut these terms in the [Glossary](/docs/glossary/)._
+_Learn more abut these terms in the [Glossary](https://help.github.com/articles/github-glossary){: target="_blank"}._

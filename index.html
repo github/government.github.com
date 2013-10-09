@@ -17,7 +17,7 @@ layout: home
             <a href="{{ post.url }}">
               <div class="homepage-image post-image {{ post.category }}" style="background: url('{{ post.image }}') center 80%; border-bottom: 3px solid;"></div>
             </a>
-            <div class="meta {{ post.category }}" style="padding: 4px 0px;"><a class="{{ post.category }}" href="category/#{{ post.category }}">{{ post.category }}</a></div>
+            <div class="meta {{ post.category }}" style="padding: 4px 0px;"><a class="{{ post.category }}" href="/categories/#{{ post.category | replace: " ","-" }}">{{ post.category }}</a></div>
             <h3><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h3>
             <div class="description">{{ post.content | truncatewords: 36 }} <span><a href="{{ post.url }}">read more</a></div>
           </article>
@@ -32,7 +32,7 @@ layout: home
   {% if paginator.next_page %}
     <div class="row">
       <div class="span8">
-        <h5>View the <a href="/archive">complete archive</a> or <a href="/docs/submit">tell your story</a>.</h5>
+        <h5>View the <a href="/archive">complete archive</a> or <a href="/submit">tell your story</a>.</h5>
       </div>
     </div>
   {% endif %}
@@ -42,7 +42,7 @@ layout: home
 
 <div class="mini-section">
   <div class="container splash">
-    <h1>Join the Revolution</h1>
+    <h1 id="join-the-revolution">Join the Revolution</h1>
     <h3>The White House, nations, city and state governments, and millions of communities around the world who share and collaborate on code, data, policy, and more.</h3>
   </div>
 
@@ -76,9 +76,9 @@ layout: home
       <div class="span4">
         <h2>Learn More</h2>
         <ul>
-          <li>The <a href="docs/features/">features</a> that make GitHub so great.</li>
-          <li>What GitHub is all <a href="docs/about/">about</a>.</li>
-          <li><a href="/docs/getting-started/">Project ideas</a> to get started with.</li>
+          <li>The <a href="/features">features</a> that make GitHub so great.</li>
+          <li>What GitHub is all <a href="/about">about</a>.</li>
+          <li><a href="/projects">Project ideas</a> to get started with.</li>
         </ul>
       </div>
 

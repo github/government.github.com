@@ -18,4 +18,4 @@ The team has developed in the open since day one and have received quite a bit o
 
 Next they're working on turning designs in Streetmix into data city officials can use to inform their decisions; such as "75% of sections created at the public meeting included a bike lane on Main St."
 
-Stay up to date on the project by following the [repository](http://www.github.com/Streetmix).
+Stay up to date on the project by following the [repository](https://github.com/codeforamerica/streetmix).

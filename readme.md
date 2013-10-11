@@ -4,7 +4,7 @@
 
 A government-centric GitHub microsite that lives at [government.github.com](http://government.github.com) and serves educate, connect and inspire those using GitHub in open government.
 
-The site is open source (here's all the code!) and is meant to be a tool for and _by_ the community.
+**The site is open source (here's all the code!) and is meant to be a tool for and _by_ the community.**
 
 Submit [issues](https://github.com/github/government.github.com/issues/new) and [pull requests](https://github.com/github/government.github.com/compare/) for stories, site ideas or copy edits.
 
@@ -23,15 +23,15 @@ This site is made with [Jekyll](http://jekyllrb.com), an open source static site
 
 If what you're thinking about isn't found below, just create an [issue](https://github.com/github/government.github.com/issues/new). 
 
-### Fix/Edit Content
+#### Fix/Edit Content
 
 If you see an error or a place where content should be updated or improved, just fork this repsository to your account, make the change you'd like and then submit a pull request. If you're not able to make the the change, file an [issue](https://github.com/github/government.github.com/issues/new). 
 
-### Add a Story
+#### Add a Story
 
 Have an open governement story to share? Instructions for contributing a story are in [docs/submit.md](https://github.com/github/government.github.com/blob/master/docs/submit.md).
 
-### Add Organization
+#### Add Organization
 
 If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community](http://government.github.com/community) page: fork this repository, open the `_config.yml` file and add it to the appropate section of the list in the format being used. Commit your change and submit a pull request to us!
 

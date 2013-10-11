@@ -253,47 +253,8 @@ small {
 
 /* Navigation */
 
-#top-nav {
-  z-index: 12;
-  margin: 0px auto;
-  padding: 18px 0px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  left: 0px;
-  background: #fff;
-}
-
-#top-nav ul {
-  list-style: none;
-  margin-top: 7px;
-  margin-left: 0px;
-  padding: 0px;
-  display: inline-block;
-}
-
-#top-nav ul:first-of-type {
-  padding-left: 8px;
-}
-
-#top-nav li {
-  display: inline;
-}
-
-#top-nav li a {
-  padding: 5px;
-  font-size: 13px;
-  font-weight: bold;
-  color: #333333;
-  transition: all 0.1s ease-in;
-  -webkit-transition: all 0.1s ease-in 0;
-  border: none;
-  text-shadow: 0 1px 0 #fff;
-}
-
-#top-nav li a:hover {
-  color: #00C3F8;
-  text-decoration: none;
+nav {
+  float: right;
 }
 
 .octicon-mark-github:before {
@@ -346,7 +307,7 @@ header .logo {
   overflow: hidden;
   display: block;
   height: 24px;
-  width: 537px;
+  width: 300px;
   /*margin: 7px 30px 0 0;*/
   float: left;
   background-image: url(../img/github-gov-black.png);
@@ -407,24 +368,6 @@ header nav a{
   height: 150px;
   background-color: #eee;
 }
-
-.middle-nav {
-  font-weight: bold;
-}
-
-/*.post-image::before {
-  position: relative;
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 50px solid #05d8af;
-  border-right: 50px solid transparent;
-  top: 49px;
-}*/
-
-/*.post-image.open.data:before { border-top-color: #05d8af; }
-.post-image.open.government:before { border-top-color: #f42f71; }
-.post-image.open.source:before { border-top-color: #00acef; }*/
 
 a.open.data:hover { color: #05d8af; border-color: #05d8af; }
 a.open.government:hover { color: #f42f71; border-color: #f42f71; }
@@ -608,11 +551,10 @@ img.avatar {
 /* ----------------------------------------------------------------------------------- */
 
 @media (max-width: 767px) {
-/*  body { padding-top: 50px;}
-  #top-nav {padding-left: 20px; padding-right: 20px;}
-  .story-unit.span4 img {width: 100%;}
-  .full-width {background: #fff;}
-  #more-stories, .orgs-cutout, #the-orgs, .site-footer-links { display: none; }
-  .orgs-text {width: 100%}
-  #mobile-archive {display: inherit;}*/
+.span4, .span8, .span10, .span12 { width: 100%; }
+li.no-mobile { display: none; }
+nav { float: left; padding-top: 20px; }
+header nav a:first-of-type { margin-left: 0px;}
+iframe { width: 100%;}
+img { width: 100%; }
 }

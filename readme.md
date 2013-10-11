@@ -34,7 +34,7 @@ Instructions for contributing a story are in [docs/submit.md](https://github.com
 
 ### Add Organization
 
-If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community] page: fork this repository, open the `_config.yml` file and add it to the appropate section of the list in the format being used. Commit your change and submit a pull request to us!
+If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community](http://government.github.com/community) page: fork this repository, open the `_config.yml` file and add it to the appropate section of the list in the format being used. Commit your change and submit a pull request to us!
 
 ---
 
@@ -44,9 +44,11 @@ You can take all the files of this site and run them just on your computer as if
 
 ### Requirements
 
-* [Jekyll](http://jekyllrb.com/), [Ruby](https://www.ruby-lang.org/en/)
+* [Jekyll](http://jekyllrb.com/), 
+* [Ruby](https://www.ruby-lang.org/en/)
 * [Git](http://git-scm.com/)
- * _If you use [GitHub for Windows](http://windows.github.com) or [GitHub for Mac](http://mac.github.com), Git will install automatically._
+
+ _If you use [GitHub for Windows](http://windows.github.com) or [GitHub for Mac](http://mac.github.com), Git will install automatically._
 
 At your computer's command line type: 
 

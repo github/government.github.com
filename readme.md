@@ -4,7 +4,7 @@
 
 A government-centric GitHub microsite that lives at [government.github.com](http://government.github.com) and serves educate, connect and inspire those using GitHub in open government.
 
-**The site is open source (here's all the code!) and is meant to be a tool for and _by_ the community.**
+The site is open source (here's all the code!) and is a tool for and _by_ the community.
 
 Submit [issues](https://github.com/github/government.github.com/issues/new) and [pull requests](https://github.com/github/government.github.com/compare/) for stories, site ideas or copy edits.
 
@@ -41,9 +41,9 @@ If you know of an organization that should be added to the organization list tha
 
 You can take all the files of this site and run them just on your computer as if it were live online, only it's just on your machine. 
 
-### Requirements
+#### Requirements
 
-* [Jekyll](http://jekyllrb.com/), 
+* [Jekyll](http://jekyllrb.com/) 
 * [Ruby](https://www.ruby-lang.org/en/)
 * [Git](http://git-scm.com/)
 

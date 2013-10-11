@@ -46,8 +46,10 @@ If you've got your own servers and want to run GitHub just within your agency, [
 ## The Largest Open Source Network
 
 ![Five Million](/assets/img/fivemillion.png)
+
 GitHub is the word's largest open source network. With over 5 million users to learn from or get contributions from.
 {: .mini-section}
 
 </div>
 </div>
+<div style="clear: both;"></div>

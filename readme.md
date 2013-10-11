@@ -2,35 +2,34 @@
 
 [![screenshot](screenshot.png)](full-screenshot.png)
 
-## About the Site
+A government-centric GitHub microsite that lives at [government.github.com](http://government.github.com) and serves educate, connect and inspire those using GitHub in open government.
 
-GitHub helps developers around the world work better together. The same tools that enable developers are also enabling governments to work better together, too. 
+The site is open source (here's all the code!) and is meant to be a tool for and _by_ the community.
 
-This gets us really excited.
+Submit [issues](https://github.com/github/government.github.com/issues/new) and [pull requests](https://github.com/github/government.github.com/compare/) for stories, site ideas or copy edits.
 
-That's why we've built [government.github.com](http://government.github.com), a site dedicated to all things open government and GitHub. We believe highlighting the community, working together, and sharing processes helps everyone. 
+### Goals
 
-On the site you'll find stories of how government organizations have used GitHub for awesome things like opening data (and hurdles they overcame, too) or finding open source civic apps to use, and for what is at GitHub's core: collaboration.
-
-This repository is all of the code that makes [government.github.com](http://government.github.com); it's open source! If you see something that can be improved or you have a story to share, submit a pull request! 
-
-If you have any more questions, feel free to reach out to the government team at [government@github.com](mailto:government@github.com).
+- Share stories of real world experiences using GitHub in open Government
+- Make terms like _open source_, _open data_ and _open government_ less ambigous
+- Expose the open government community on GitHub to foster connections and sharing
+- Make getting started easier with FAQ, Best Practices, and Project Ideas
 
 ### About the Site, Technically
 
 This site is made with [Jekyll](http://jekyllrb.com), an open source static site generator. This means the Jekyll program takes the content we want to be on the site and turns them into HTML files ready to be hosted somewhere. Awesomely, GitHub provides free web hosting for repositories, called [GitHub Pages](http://pages.github.com/), and that's how this site is hosted. The content for the site is on a branch named [gh-pages](https://github.com/github/government.github.com/tree/gh-pages).  
 
-## To Contribute
+## Contributing
 
-We hope you'll join in making this resource!
+If what you're thinking about isn't found below, just create an [issue](https://github.com/github/government.github.com/issues/new). 
 
 ### Fix/Edit Content
 
-If you see an error or a place where content should be updated, just fork this repsository to your account, make the change you'd like and then submit a pull request.
+If you see an error or a place where content should be updated or improved, just fork this repsository to your account, make the change you'd like and then submit a pull request. If you're not able to make the the change, file an [issue](https://github.com/github/government.github.com/issues/new). 
 
 ### Add a Story
 
-Instructions for contributing a story are in [docs/submit.md](https://github.com/github/government.github.com/blob/master/docs/submit.md).
+Have an open governement story to share? Instructions for contributing a story are in [docs/submit.md](https://github.com/github/government.github.com/blob/master/docs/submit.md).
 
 ### Add Organization
 

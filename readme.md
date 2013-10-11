@@ -1,84 +1,61 @@
-# GitHub for Government
-
-*The [government.github.com](http://gov.githubapp.com) of the future, here today.*
+# GitHub and Government
 
 [![screenshot](screenshot.png)](full-screenshot.png)
 
-## Vision
+## About the Site
 
-A government-centric GitHub microsite that lives at [government.github.com](http://gov.github.com) and serves to educate and inspire government employees and civic hackers as to the awesomeness that we all know as The GitHub Way&trade;.
+GitHub helps developers around the world work better together. The same tools that enable developers are also enabling governments to work better together, too. 
 
-### High-level ideas:
+This gets us really excited. 
 
-* Excite and encourage government adoption of The GitHub Way&trade;
-* Educate public servants about the open source ethos and its benefits
-* High-level disambiguation about what GitHub is and what it does
-* Showcase use cases to give successful agencies some love (and excite the developer community)
-* FAQ / Best Practices (ideally collaborative) to lower barrier to getting started
+That's why we've built [government.github.com](http://government.github.com). It's a site dedicated to all things open government and GitHub. On the site you'll find stories of how government organizations have used GitHub for awesome things like opening data (and hurdles they overcame, too) or using open source civic apps and for what is at GitHub's core: collaboration.
 
-### Huh? What's this GitHub Way thing?
+This is all of the code that makes [government.github.com](http://government.github.com); it's open source! If you see something that can be improved or you have a story to share, submit a pull request! 
 
-The GitHub Way is an opinionated workflow. It's the best way for communities large and small to work together to tackle shared challenges. It stems from the belief that open is better than closed, and shared is better than owned. That erecting technical and administrative constraints to hinder the free flow of information simply serves to introduce friction and decrease the overall efficiency of the system. The GitHub Way may trace its routes back to open source, but that doesn't necessarily mean that projects must be public. Many companies (including GitHub) rely on this model of open collaboration every day. The GitHub way simply acknowledges the reality that creating stuff is a team sport. For more background see:
+Finally, if you have any more questions, feel free to reach out to the government team at [government@github.com](mailto:government@github.com).
 
-* http://tomayko.com/writings/adopt-an-open-source-process-constraints
-* http://tomayko.com/writings/management-style
+### About the Site, Technically
 
-### Are you selling GitHub.com? GitHub Enterprise? What gives?
+This site is made with [Jekyll](http://jekyllrb.com), an open source static site generator. This means the Jekyll program takes the content we want to be on the site and turns them into HTML files ready for hosting. GitHub provides free web hosting for repositories, called [GitHub Pages](http://pages.github.com/), and that's how this site is hosted, too. The content for the site is on a branch named gh-pages.  
 
-The site should serve to introduce government employees and civic hackers to the concepts and workflows that embody The GitHub Way, not a particular product, paid or otherwise. It should, at a very high level, help the reader to distinguish between what GitHub.com and GitHub Enterprise offers, and, most fundamentally answer the question "what is GitHub"?
+## To Contribute
 
-**Prior art:**
+### Fix/Edit Content
 
-* https://github.com/github/government
-* http://www.google.com/enterprise/apps/government/
-* http://aws.amazon.com/federal/
-* http://ben.balter.com/open-source-for-government
-* http://vip.wordpress.com/spotlight/government/
+If you see an error or a place where content should be updated, just fork this repsository to your account, make the change you'd like and then submit a pull request.
 
-See [github/gov/#2](https://github.com/github/gov/issues/2) for more background. The goal is the site to be entirely static (Jekyll/GitHub Pages) and open source so governmenty types can contribute.
+### Add a Story
 
-This could also serve as a vehicle to crowd source a collaborative list of government organizations on GitHub.
+Instructions for contributing a story are in [docs/submit.md](https://github.com/github/government.github.com/blob/master/docs/submit.md).
 
-## Viewing
+### Add Organization
 
-Temporary internal staging server: http://gov.githubapp.com
+If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community] page: fork this repository, open the `_config.yml` file and add it to the appropate section of the list in the format being used. Commit your change and submit a pull request to us!
 
-## Deploying
+---
 
-`/deploy gov` (for now)
+## To Set up Locally
 
-(eventually will be GitHub pages)
+You can take all the files of this site and run them just on your computer as if it were live and hosted, only it's just on your machine. 
 
-## Requirements
+### Requirements
 
-* Jekyll (ruby)
+* [Jekyll](http://jekyllrb.com/), [Ruby](https://www.ruby-lang.org/en/)
+* [Git](http://git-scm.com/)
+ * _If you use GitHub for Windows or GitHub for Mac, Git will install automatically._
 
-## Setup Locally
+At your computer's command line type: 
 
 1. `Git clone https://github.com/github/government.github.com.git`
+ - This copies all of the repository's files onto your computer.
 2. `cd government.github.com`
+ - This navigates you inside of the repository's folder on your computer.
 3. `script/bootstrap`
+ - Intalls styles
 4. `script/server`
+ - Launches a local server for hosting the site
 5. `open http://localhost:4000`
-6. Profit.
-
-## Roadmap
-
-Check out the [current issues](https://github.com/github/gov.github.com/issues) to see what's in the pipeline.
-
-## How to contribute
-
-1. Create a new feature branch
-2. Push changes
-3. Submit a pull request
-
-## Compiling
-
-To recompile the site, simply `script/build`. *Note:* This will fire automatically during `script/server` as well.
-
-## Contributing to the agency list
-
-Simply edit the list in `_config.yml`. Everything else is dynamic.
+ - Opens the site at the server address, in your browser
 
 ## Jekyll Auth
 

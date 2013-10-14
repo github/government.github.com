@@ -12,7 +12,7 @@ permalink: /faq/
 
 #### Why should I use open source software?
 
-There are [lots of arguments](http://www.dwheeler.com/oss_fs_why.html) in favor of adopting an existing <a href="#" class="glossary" title="Code or creation materials made easily accessible and free to the public.">open source</a> project over its proprietary counterparts. A few of the biggest ones:
+There are [lots of arguments](http://www.dwheeler.com/oss_fs_why.html) in favor of adopting an existing <a href="https://help.github.com/articles/github-glossary#open-source" class="glossary" title="Code or creation materials made easily accessible and free to the public.">open source</a> project over its proprietary counterparts. A few of the biggest ones:
 
 * Lower cost - No costly licensing, no vendor lock in
 * Nimble - Often better at remaining responsive to emerging trends
@@ -66,7 +66,7 @@ No matter how trivial the issue, make the discussion open. Even if issues are ha
 Agencies should empower a team of trusted developers with decision-making authority to:
 
 1. Individually respond to any issues opened by users
-2. Accept or reject [pull requests](#pull_requests) on behalf of the project, and
+2. Accept or reject [pull requests](https://help.github.com/articles/github-glossary#pull-request) on behalf of the project, and
 3. Coordinate future releases
 
 Avoid a traditional governance structure. Decentralization is the cornerstone of open source and collaborative development and is the key to its agility. Code commits should be early, often, and public.
@@ -105,7 +105,7 @@ Put simply, the culture on this social network is not to criticize but to create
 
 #### Does each developer need an account?
 
-Contractors and employees should use their individual accounts to commit code (rather than say an agency account), respond to support forums, etc., just as they would on any other project, or on any other social network, however to ensure records retention and that the commits come from an official source (e.g., to delineate commits in one's official capacity versus commits in one personal capacity), the account should be associated with a .gov e-mail address as [described above](#records).
+Contractors and employees should use their individual accounts to commit code (rather than say an agency account), respond to support forums, etc., just as they would on any other project, or on any other social network, however to ensure records retention and that the commits come from an official source (e.g., to delineate commits in one's official capacity versus commits in one personal capacity), the account should be associated with a .gov e-mail address.
 
 It is arguably GitHub's secret sauce (making coding social as their slogan goes), provides a level of transparency and accountability, and is a long-standing norm in the open-source software community, not to mention, the fundamental software underlying the website. Almost without exception, all government agencies that have released open-source software, both on GitHub and otherwise have followed this model.
 
@@ -113,15 +113,9 @@ It is arguably GitHub's secret sauce (making coding social as their slogan goes)
 
 Simply register for a new GitHub account using your .gov e-mail address. Follow the normal instructions to set up Git, setting your Git e-mail address as your .gov address so that all commits are associated with your official account.
 
-#### How does my agency sign up? Do we need to get our general counsel's office involved?
-
-#### Should my agency be a user or an organization?
-
 #### Should we include an open source license with our project?
 
 Yes. Including a software license communicates to users what they can and can't do with the software, and more importantly, informs contributors as to what rights, if any, the waive by contributing.
-
-#### Do we need to secure an agreement with contributors before accepting their code?
 
 ## More
 
@@ -135,11 +129,11 @@ Yes. Including a software license communicates to users what they can and can't 
 
 The code for this site is open source, that means you can contribute to making this FAQ even better. To add a question and answer or edit an answer you'll need to:
 
-1. Go to this page's repository on GitHub, [here](http://www.github.com/government.github.com).
+1. Go to this page's repository on GitHub, at [github.com/government.github.com](https://github.com/github/government.github.com).
 2. Click the **fork** button near the top right. This copies a version to your account.
 3. In your fork, click the link to the **docs** folder, then click the **faq.md** file. That's the [markdown](https://help.github.com/articles/github-flavored-markdown) file with the content for this page.
 4. Click **Edit** and make your changes. When you're finished, click **Commit** at the bottom.
 5. Return to [this page's repository](http://www.github.com/government.github.com) and click **Pull Request** and then **New Pull Request**. Fill out the form to explain the changes you've made.
 6. Click submit!
 
-_Learn more abut these terms in the [Glossary](/docs/glossary/)._
+_Learn more abut these terms in the [Glossary](https://help.github.com/articles/github-glossary){: target="_blank"}._

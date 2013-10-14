@@ -2,8 +2,8 @@
 layout: story
 title: Project Open Data Opens More than Data
 description: To offset the risk of becoming outdated, the White House Open Data Policy was published as a living, collaborative document.
-image: /images/project-open-data.png
-category: Open Government
+image: /images/whitehouse.png
+category: open government
 
 ---
 

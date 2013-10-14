@@ -1,17 +1,19 @@
 {% include header.html %}
+
 <div class="full-width">
-	<header class="container">
+	<div class="splash container">
   	<div class="row">
-    	<div class="span8">
-    		<h1>Governments are using GitHub to <span class="Data" title="Data made easily accessible and fee to the public.">open data</span>, find <span class="Source" title="Code or creation materials made easily accessible and free to the public.">open source</span> projects and be a more <span class="Government" title="An acessible, transparent and forthcoming with data government agency.">open government</span>.</h1>
+    	<div class="span10">
+    		<h1>{{ site.title }}</h1>
+        <h3>{{ site.tagline }}</h3>
     	</div>
     </div>
-  </header>
+  </div>
 </div>
 <div id="content">
 
 {{ content }}
-  
+
 </div>
 
 {% include footer.html %}

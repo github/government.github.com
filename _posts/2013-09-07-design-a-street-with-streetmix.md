@@ -3,7 +3,7 @@ layout: story
 title: Design Street Sections with Streetmix
 description: "Streetmix is an open source civic web application with its code on GitHub. It was created by a handful of 2013 Code for America fellows, each on different teams, who came together to solve a problem."
 image: /images/streetmix.png
-category: Open Source
+category: open government
 ---
 
 Streetmix is an open source civic web application (that means no install; it's all online) with its code on GitHub ([here's the repository](http://www.github.com/codeforamerica/streetmix)). It was created by a handful of 2013 [Code for America](http://www.codeforamerica.org) fellows each on different teams, who came together to solve a problem.
@@ -18,4 +18,4 @@ The team has developed in the open since day one and have received quite a bit o
 
 Next they're working on turning designs in Streetmix into data city officials can use to inform their decisions; such as "75% of sections created at the public meeting included a bike lane on Main St."
 
-Stay up to date on the project by following the [repository](http://www.github.com/Streetmix).
+Stay up to date on the project by following the [repository](https://github.com/codeforamerica/streetmix).

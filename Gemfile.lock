@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/benbalter/html-proofer
-  revision: 506e40ee2876c16a7653c9bbc7ca88fc6f8a8aab
-  branch: proper-resolves
+  revision: f5f9035448c70c20ebc9a2a8186cd0a4e56c21e1
+  branch: refactor
   specs:
-    html-proofer (0.0.16)
+    html-proofer (0.0.16bb)
       colored (~> 1.2)
       nokogiri (= 1.6.0)
       typhoeus (~> 0.6.3)
@@ -57,7 +57,7 @@ GEM
       pygments.rb (~> 0.5.0)
       redcarpet (~> 2.2.2)
       safe_yaml (~> 0.7.0)
-    jekyll-auth (0.1.2)
+    jekyll-auth (0.1.3)
       commander
       dotenv
       git

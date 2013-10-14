@@ -21,7 +21,7 @@ Want to run GitHub with your own datacenter? Then GitHub Enterprise is for you. 
 
 ### About the site
 
-This site is an [open source](http://github.com/github/government.github.com) effort to showcase best practices of open sourcing government. See something that you think could be better? Want to submit your own story? Simply [fork the project and submit a pull request](/submit).
+This site is an [open source](https://github.com/github/government.github.com) effort to showcase best practices of open sourcing government. See something that you think could be better? Want to submit your own story? Simply [fork the project and submit a pull request](/submit).
 
 ### Get in touch
 

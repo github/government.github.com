@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/benbalter/html-proofer
-  revision: f5f9035448c70c20ebc9a2a8186cd0a4e56c21e1
+  revision: f0e56f5ca1a1da1102ae589871e7e021d199fad6
   branch: refactor
   specs:
-    html-proofer (0.0.16bb)
+    html-proofer (0.0.16)
       colored (~> 1.2)
       nokogiri (= 1.6.0)
       typhoeus (~> 0.6.3)

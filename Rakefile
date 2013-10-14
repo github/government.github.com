@@ -13,6 +13,6 @@ end
 
 task :test do
   Rake::Task["assets:precompile"].execute
-  tester = HTML::Proofer.new "./_site"
+  tester = HTML::Proofer.new "./_site/", :href_ignore => ["https://github.com/github/government.github.com"]
   tester.run
 end

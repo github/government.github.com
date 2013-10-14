@@ -13,6 +13,16 @@ end
 
 task :test do
   Rake::Task["assets:precompile"].execute
-  tester = HTML::Proofer.new "./_site"
+  tester = HTML::Proofer.new "./_site/", :href_ignore => [
+    "https://github.com/github/government.github.com",
+    "http://edit.benbalter.com#github/government.github.com/new/master/_posts",
+    "http://edit.benbalter.com#/github/government.github/com/blob/gh-pages/_posts/2013-07-01-using-github-to-make-things.md",
+    "http://edit.benbalter.com#/github/government.github/com/blob/gh-pages/_posts/2013-08-28-sunlight.md",
+    "http://edit.benbalter.com#/github/government.github/com/blob/gh-pages/_posts/2013-08-28-project-open-data.md",
+    "http://edit.benbalter.com#/github/government.github/com/blob/gh-pages/_posts/2013-09-05-philadelphia-gets-going-and-gets-open.md",
+    "http://edit.benbalter.com#/github/government.github/com/blob/gh-pages/_posts/2013-09-13-forking-your-city.md",
+    "http://edit.benbalter.com#/github/government.github/com/blob/gh-pages/_posts/2013-09-07-design-a-street-with-streetmix.md",
+    "http://edit.benbalter.com#/github/government.github/com/blob/gh-pages/_posts/2013-07-02-cities-on-github.md"
+  ]
   tester.run
 end

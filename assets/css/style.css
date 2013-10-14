@@ -83,7 +83,7 @@ body {
 }
 
 .span12 {
-  width: 980px;
+  width: 95%;
 }
 
 
@@ -198,7 +198,7 @@ small {
 }
 
 .open .data:not(.more-stories, .title-link) { color: #05d8af; }
-.open .government:not(.more-stories, .title-link) { color: #f42f71;} 
+.open .government:not(.more-stories, .title-link) { color: #f42f71; }
 .open .source:not(.more-stories, .title-link) { color: #00acef; }
 
 .data { color: #05d8af; }
@@ -290,11 +290,11 @@ header {
 
 header:before, header:after {
   content: " ";
-  display: table; 
+  display: table;
 }
 
 header:after {
-  clear: both; 
+  clear: both;
 }
 
 header .logo {
@@ -526,7 +526,6 @@ img.avatar {
 /* ----------------------------------------------------------------------------------- */
 
 @media (max-width: 768px) {
-  .span12 { width: 95%; }
   li.no-mobile { display: none; }
 }
 

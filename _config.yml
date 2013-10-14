@@ -99,7 +99,7 @@ organizations:
     - localdata
 
 #global settings
-title: "Make government better together"
+title: "Make government better, together"
 description: "Stories of open data, open source, and open collaboration"
 permalink: "/stories/:title"
 url: http://government.github.com

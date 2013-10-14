@@ -4,8 +4,9 @@ layout: support-page
 description: GitHub was built with code in mind so that developers could work together, no matter where they were. Code, data and words are all simply text, so GitHub's collaboration features go way beyond just benefiting developers.
 permalink: /features/
 ---
-
+<div class="videoWrapper">
 <iframe width="606" height="349" src="//www.youtube.com/embed/l_T3XEgXl14?list=PL0lo9MOBetEEvPMhIBbegwsXuIih8FP8h" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <div class="section" markdown="1">
 

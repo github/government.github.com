@@ -46,53 +46,6 @@ More broadly, publicly funded code, is well, the public's code. It'd be like bui
 
 A lot. See the full list of [who's using GitHub](/community/).
 
-## Open Source Community Building
-
-#### How can I encouraging more community involvement?
-
-Open source developers want to get behind a cause. Think of it as analogous to volunteering for a political campaign. They want to know what the project stands for, and where it is going. If they contribute, what will their code be used for in a six months or a year?  As a result, open source project documentation (the "readme") commonly includes four primary pieces of information:
-
-1. A project mission statement, philosophy, or goal,
-2. A features and requirements list, or long-term project roadmap
-3. The status of the project (active development, beta, etc.)
-4. How to submit an issue/feature request or contribute a fix/enhancement
-
-#### What are the best practices for project management and communication?
-
-No matter how trivial the issue, make the discussion open. Even if issues are hashed out in-person, memorialize the conversation on the project's official communications channels. This does a few things: First, it creates a record of the decision, so that down the road, you (or more likely other contributors) can understand your reasoning. Second, it helps break down the us/them mentality, by showing the community respect and broadening the decision-making process. Last, and most helpful, engaging the community has the potential to generate more discourse, and thus more ideas and better decision.
-
-#### What type of upkeep is required of an open source project?
-
-Agencies should empower a team of trusted developers with decision-making authority to:
-
-1. Individually respond to any issues opened by users
-2. Accept or reject [pull requests](https://help.github.com/articles/github-glossary#pull-request) on behalf of the project, and
-3. Coordinate future releases
-
-Avoid a traditional governance structure. Decentralization is the cornerstone of open source and collaborative development and is the key to its agility. Code commits should be early, often, and public.
-
-#### What decision-making authority should we delegate to the community?
-
-Most government projects are governed by a model known by its tongue-and-cheek name "benevolent dictatorship". This is not a bad thing. Almost all projects begin this way, and many major projects (including popular projects like Drupal and WordPress) remain this way today. The term simply means that ultimate decision-making authority rests in a single individual or groups of individuals, rather than by vote of the community as a whole. To be successful, this model will require significant management and delegation of development efforts around:
-
-1. Patching,
-2. Translations,
-3. Documentation and FAQs,
-4. Issue tracking, and
-5. Support
-
-#### Should we allow the community to commit to our repository?
-
-In the long term, individual contributors will emerge as key project stakeholders based on the quality and quantity of code contributions and involvement in day-to-day discussions. It is common to grant such contributors committer status (the ability to commit code to the project, accept pull requests, etc.). This is arguably a necessary step for the project's continued evolution.
-
-#### When in the project life cycle should I make my code public?
-
-The expectation is that those that produce the software would release the underlying code early and often in its raw form. Bugs and unpolished work are not only accepted, it's the norm.
-
-Think about it this way: putting out a press release with a typo (or even an unfinished press release) is embarrassing because the point of the network is to disseminate information from agency to press and erroneous or missing content hinder that end. The point of open source on the other hand is to collaborate in the creation of software. Allowing early adopters to discover bugs, review early project road maps, and suggest ways to improve the software *furthers* that end. As a result, openness, transparency and contributions and valued much more highly than refined code and polished documentation.
-
-Put simply, the culture on this social network is not to criticize but to create.
-
 ## Accounts
 
 #### I already have a GitHub account, do I need to create a new one for my agency?

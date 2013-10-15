@@ -95,6 +95,7 @@ organizations:
   U.S. County:
     - sfcta
     - miamidade
+    - slugis
 
   U.S. City:
     - chicago

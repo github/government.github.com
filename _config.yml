@@ -5,7 +5,6 @@ organizations:
     - adlnet
     - cfpb
     - chaos
-    - cleveland-metroparks
     - cmsgov
     - commercegov
     - department-of-veterans-affairs
@@ -78,6 +77,9 @@ organizations:
   U.S. County:
     - sfcta
     - miamidade
+  
+  U.S. Special District:
+    - cleveland-metroparks
 
   U.S. City:
     - chicago

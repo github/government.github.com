@@ -23,7 +23,7 @@ This site is made with [Jekyll](http://jekyllrb.com), an open source static site
 
 #### Fix/Edit Content
 
-If you see an error or a place where content should be updated or improved, just fork this repsository to your account, make the change you'd like and then submit a pull request. If you're not able to make the the change, file an [issue](https://github.com/github/government.github.com/issues/new). 
+If you see an error or a place where content should be updated or improved, just fork this repsository to your account, make the change you'd like and then submit a pull request. If you're not able to make the the change, file an [issue](https://github.com/github/government.github.com/issues/new).
 
 #### Add a Story
 
@@ -37,27 +37,23 @@ If you know of an organization that should be added to the organization list tha
 
 ## To Set up Locally
 
-You can take all the files of this site and run them just on your computer as if it were live online, only it's just on your machine. 
+You can take all the files of this site and run them just on your computer as if it were live online, only it's just on your machine.
 
 #### Requirements
 
-* [Jekyll](http://jekyllrb.com/) 
+* [Jekyll](http://jekyllrb.com/)
 * [Ruby](https://www.ruby-lang.org/en/)
 * [Git](http://git-scm.com/)
 
  _If you use [GitHub for Windows](http://windows.github.com) or [GitHub for Mac](http://mac.github.com), Git will install automatically._
 
-To copy the repository's files from here onto your computer and to view and serve those files locally, at your computer's command line type: 
+To copy the repository's files from here onto your computer and to view and serve those files locally, at your computer's command line type:
 
 1. `git clone https://github.com/github/government.github.com.git`
 2. `cd government.github.com`
 3. `script/bootstrap`
 4. `script/server`
 5. `open http://localhost:4000`
-
-## Jekyll Auth
-
-For information on authentication, see the [Jekll-auth readme](https://github.com/benbalter/jekyll-auth)
 
 ----
 

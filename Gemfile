@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-#github
-gem "jekyll-auth"
+gem "github-pages"
 gem 'html-proofer'
 gem 'rake'

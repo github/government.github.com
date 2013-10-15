@@ -15,14 +15,11 @@ task :test do
   Rake::Task["assets:precompile"].execute
   tester = HTML::Proofer.new "./_site/", :href_ignore => [
     "https://github.com/github/government.github.com",
-    "http://prose.io#github/government.github.com/new/master/_posts",
-    "http://prose.io#/github/government.github/com/blob/gh-pages/_posts/2013-08-28-sunlight.md",
-    "http://prose.io#/github/government.github/com/blob/gh-pages/_posts/2013-08-28-project-open-data.md",
-    "http://prose.io#/github/government.github/com/blob/gh-pages/_posts/2013-09-05-philadelphia-gets-going-and-gets-open.md",
-    "http://prose.io#/github/government.github/com/blob/gh-pages/_posts/2013-09-13-forking-your-city.md",
-    "http://prose.io#/github/government.github/com/blob/gh-pages/_posts/2013-09-07-design-a-street-with-streetmix.md",
-    "http://prose.io#/github/government.github/com/blob/gh-pages/_posts/2013-07-02-cities-on-github.md",
-    "http://prose.io#/github/government.github/com/blob/gh-pages/_posts/2013-10-14-canadian-web-experience-toolkit.md"
+    "http://prose.io#/github/government.github/com/blob/gh-pages/_posts/2013-09-17-design-a-street-with-streetmix.md",
+    "http://prose.io#/github/government.github/com/blob/gh-pages/_posts/2013-10-6-forking-your-city.md",
+    "http://prose.io#/github/government.github/com/blob/gh-pages/_posts/2013-09-26-philadelphia-gets-going-and-gets-open.md",
+    "http://prose.io#/github/government.github/com/blob/gh-pages/_posts/2013-09-03-project-open-data.md",
+    "http://prose.io#/github/government.github/com/blob/gh-pages/_posts/2013-10-1-sunlight.md"
   ]
   tester.run
 end

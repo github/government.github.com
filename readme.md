@@ -1,6 +1,6 @@
 # GitHub and Government
 
-[![screenshot](screenshot.png)](full-screenshot.png)
+![screenshot](https://f.cloud.github.com/assets/282759/1335911/28b3ec66-35c0-11e3-8ee6-66272b9f4186.png)
 
 Gather, curate, and feature stories of people using GitHub as part of their open government innovations.
 

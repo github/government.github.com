@@ -1,5 +1,6 @@
 ---
 layout: story
+author: Ben Balter, GitHub
 title: Project Open Data Opens More than Data
 description: To offset the risk of becoming outdated, the White House Open Data Policy was published as a living, collaborative document.
 image: /images/whitehouse.png

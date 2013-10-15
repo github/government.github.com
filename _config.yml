@@ -47,7 +47,7 @@ organizations:
 
   Argentina:
     - gcba
-  
+
   Brazil:
     - interlegis
     - plonegovbr
@@ -57,7 +57,7 @@ organizations:
     - nsgov
     - pwgsc
 
-  European Union
+  European Union:
     - europeana
 
   Finland:
@@ -69,13 +69,13 @@ organizations:
 
   Norway:
     - difi
-    
+
   Sweden:
     - libris
     - rinfo
     - edelegationen
     - The-Municipality-of-Staffanstorp
-  
+
   Puerto Rico:
     - commonwealth-of-puerto-rico
 

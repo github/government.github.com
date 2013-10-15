@@ -9,7 +9,7 @@ This guide is intended to be given to government rock stars, to help us better t
 
 ## Background
 
-Gov.github.com is going to be a government-centric blog dedicated to showcasing and amplifying best practices and first-of-their-kind efforts within government around open source, open data, and open government. In addition to a series of short, informal blog posts written by civicly-minded Hubbers or by the public via pull request ("stories"), the completely open source microsite will also curate government-specific collaboratively edited documentation such as FAQs, or links to the public-facing GitHub profiles of government agencies.
+Government.github.com is going to be a government-centric blog dedicated to showcasing and amplifying best practices and first-of-their-kind efforts within government around open source, open data, and open government. In addition to a series of short, informal blog posts written by civicly-minded Hubbers or by the public via pull request ("stories"), the completely open source microsite will also curate government-specific collaboratively edited documentation such as FAQs, or links to the public-facing GitHub profiles of government agencies.
 
 ## Voice
 

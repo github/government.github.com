@@ -14,7 +14,7 @@ permalink: /features/
 
 ![Collaborate](/assets/img/collaborating.png)
 
-GitHub Issues lets you create discussion around text, proposed changes or just ideas. You can imbed images (**A**), ping other users or teams (**B**) and write in Markdown.
+GitHub Issues lets you create discussion around text, proposed changes or just ideas. You can embed images (**A**), ping other users or teams (**B**) and write in Markdown.
 {: .mini-section }
 
 ## View

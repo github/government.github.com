@@ -67,9 +67,6 @@ organizations:
   France:
     - etalab
 
-  Germany:
-    - bundestag
-
   Norway:
     - difi
 
@@ -132,6 +129,7 @@ organizations:
     - statedecoded
     - openva
     - localwiki
+    - bundestag
 
 #global settings
 title: "Make government better, together."

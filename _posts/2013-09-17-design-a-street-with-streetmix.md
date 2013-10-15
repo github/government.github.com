@@ -9,7 +9,7 @@ category: open source
 
 Streetmix is an open source civic web application (that means no install; it's all online) with its code on GitHub ([here's the repository](http://www.github.com/codeforamerica/streetmix)). It was created by a handful of 2013 [Code for America](http://www.codeforamerica.org) fellows each on different teams, who came together to solve a problem.
 
-This problem was something fellow and urban designer Lou Hang had often seen in community meetings. City planning departments are required to engage the public in their decision making, but often it's hard for residents to find time to attend, the city lacks the tools to properly illustrate complex urban systems and residents aren't always able to learn enough about the systems to make informed suggestions.
+This problem was something fellow and urban designer Lou Huang had often seen in community meetings. City planning departments are required to engage the public in their decision making, but often it's hard for residents to find time to attend, the city lacks the tools to properly illustrate complex urban systems and residents aren't always able to learn enough about the systems to make informed suggestions.
 
 Enter Streetmix - a rapid (and beautiful) prototyping tool for creating urban street sections that also teaches users about parts of a street. For the techies: the frontend is written in JavaScript, the backend is in [Node.js](http://www.npmjs.org), [MongoDB](http://wwww.mongodb.com) serves up the data and the site is hosted on [Heroku](http://www.heorku.com).
 

@@ -48,7 +48,7 @@ If you've got your own servers and want to run GitHub just within your agency, [
 
 ![Five Million](/assets/img/fourmillion.png)
 
-GitHub is the world's largest open source network, with over 5 million users to learn or get contributions from.
+GitHub is the world's largest open source network, with over 4 million users to learn or get contributions from.
 {: .mini-section}
 
 </div>

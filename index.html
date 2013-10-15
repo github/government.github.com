@@ -15,7 +15,7 @@ layout: home
         <div class="story-unit span4">
           <article>
             <a href="{{ post.url }}">
-              <div class="homepage-image post-image {{ post.category }}" style="background: url('{{ post.image }}') center 80%; border-bottom: 3px solid;"></div>
+              <div class="homepage-image post-image {{ post.category }}" style="background: url('{{ post.image }}') center center; border-bottom: 3px solid;"></div>
             </a>
             <div class="meta {{ post.category }}" style="padding: 4px 0px;"><a class="{{ post.category }}" href="/categories/#{{ post.category | replace: " ","-" }}">{{ post.category }}</a></div>
             <h3><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h3>

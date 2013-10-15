@@ -126,6 +126,8 @@ organizations:
     - openoakland
     - localdata
     - unitedstates
+    - statedecoded
+    - openva
 
 #global settings
 title: "Make government better, together."

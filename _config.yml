@@ -26,7 +26,6 @@ organizations:
     - nhlbi
     - nrel
     - opengovplatform
-    - openlexington
     - ozoneplatform
     - presidential-innovation-fellows
     - redhawksdr
@@ -92,6 +91,7 @@ organizations:
     - cambridgegis
     - cocdata
     - CityOfBoston
+    - openlexington
 
   Civic Hackers:
     - codeforamerica

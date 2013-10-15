@@ -51,9 +51,15 @@ organizations:
     - nsgov
     - pwgsc
 
+  European Union
+    - europeana
+
   Finland:
     - avoinministerio
     - City-of-Helsinki
+
+  France:
+    - etalab
 
   Norway:
     - difi

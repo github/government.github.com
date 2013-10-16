@@ -1,3 +1,12 @@
+----
+-layout: story
+-title: Canadian web experience toolkit
+-description: ""
+-image: /images/wet.png
+-category: open source
+-author: Ben Balter, GitHub
+----
+
 Government websites often share many of the same basic requirements such as usability, accessibility, and interoperability. Rather than reinvent the wheel each time, the Treasury Board Secretariat of Canada developed the [Web Experience Toolkit](http://github.com/wet-boew/wet-boew) to create a set of shared templates for all government websites.
 
 After extensive user testing, this mobile-first, multilingual framework can be completely customized for any government use case. As project lead Paul Jackson remarked during [a recent webinar](http://www.howto.gov/training/classes/canada-web-experience-toolkit), "It actually became much easier for everyone to meet their requirements and a lot less costly by everyone pooling their resources into a common solution that everyone could repurpose." Even [the documentation itself](http://wet-boew.github.io/wet-boew/index-en.html) is open source and collaborative using GitHub Pages.

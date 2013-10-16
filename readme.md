@@ -27,7 +27,7 @@ If you see an error or a place where content should be updated or improved, just
 
 #### Add a Story
 
-Have an open government story to share? Instructions for contributing a story are in [docs/submit.md](https://github.com/github/government.github.com/blob/master/docs/submit.md).
+Have an open government story to share? Instructions for contributing a story are in [docs/submit.md](https://github.com/github/government.github.com/blob/gh-pages/docs/submit.md).
 
 #### Add Organization
 

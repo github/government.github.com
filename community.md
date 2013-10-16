@@ -25,7 +25,7 @@ permalink: /community/
 
 ## Add An Organization to the List
 
-This source for this website is [open source](https://github.com/github/government.github.com), therefore anyone in the community submit edits through pull requests. If your agency isn't on this list but should be; please add it and submit a pull request.
+The source for this website is [open source](https://github.com/github/government.github.com), therefore anyone in the community can submit edits through pull requests. If your agency isn't on this list, but should be, please add it and submit a pull request.
 
 * Log in to [GitHub](https://github.com){: target=blank}
 * Go to [this repository](https://github.com/github/government.github.com) and fork it (button to the top right of the page).

@@ -52,7 +52,6 @@ organizations:
   Brazil:
     - interlegis
     - plonegovbr
-    - okfn-brasil
 
   Canada:
     - cityofgreatersudbury
@@ -141,6 +140,7 @@ organizations:
     - teampopong
     - mysociety
     - openaustralia
+    - okfn-brasil
 
 #global settings
 title: "Make government better, together."

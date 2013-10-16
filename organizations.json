@@ -2,7 +2,7 @@
 layout: none
 ---
 { {% for type_hash in site.organizations %}
-"{{ type_hash[0] }}": [ 
-  {% for org in type_hash[1] %}"{{ org }}"{% if forloop.rindex0 > 0 %}, {% endif %}{% endfor %} 
+"{{ type_hash[0] }}": [
+  {% for org in type_hash[1] %}"{{ org }}"{% if forloop.rindex0 > 0 %}, {% endif %}{% endfor %}
   ]{% if forloop.rindex0 > 0 %}, {% endif %}
 {% endfor %}}

@@ -8,7 +8,7 @@ category: open data
 
 ---
 
-Traditionally, consuming open government data required building and curating many custom tools and wrappers to convert the data from the form it's exposed in to something more immediately consumable by civic hackers, watchdog groups, and the general public. Developers haphazardly wrote small scripts as one-off efforts and threw them away, or left their solutions buried inside larger infrastructure, reinventing the wheel with each new transparency initiative. 
+Traditionally, consuming open government data required building and curating many custom tools and wrappers to convert the data from the form it's exposed in to something more immediately consumable by civic hackers, watchdog groups, and the general public. Developers haphazardly wrote small scripts as one-off efforts and threw them away, or left their solutions buried inside larger infrastructure, reinventing the wheel with each new transparency initiative.
 
 Developers from the [Sunlight Foundation](http://sunlightfoundation.com/), [GovTrack](http://www.govtrack.us/), and the New York Times, however, decided to join forces and break from tradition when they reached out to other civic-minded developers and "decided to stop each building the same basic tools over and over, and start building a foundation [they] could share."
 

@@ -5,16 +5,13 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description }}">
-  <meta name="viewport" content="width=device-width">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ site.root }}assets/css/style.css">
   <link rel="stylesheet" href="{{ site.root }}assets/css/icons.css">
-
   <script src="{{ site.root }}assets/js/modernizr.js"></script>
-
   <link rel="shortcut icon" href="{{ site.root }}assets/img/favicon.ico" type="image/x-icon">
 
   {% include analytics.html %}
@@ -23,7 +20,7 @@
 
 <body id="{{ page.id }}" class="{{ page.layout }}">
     <!--[if lt IE 7]>
-        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
 <header>

@@ -73,11 +73,11 @@ organizations:
     - difi
 
   Sweden:
-    - libris
-    - rinfo
     - edelegationen
-    - The-Municipality-of-Staffanstorp
+    - libris
     - malmostad
+    - rinfo
+    - The-Municipality-of-Staffanstorp
 
   Puerto Rico:
     - commonwealth-of-puerto-rico

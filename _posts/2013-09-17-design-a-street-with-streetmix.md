@@ -7,7 +7,7 @@ image: /images/streetmix.png
 category: open source
 ---
 
-Streetmix is an open source civic web application (that means no install; it's all online) with its code on GitHub ([here's the repository](http://www.github.com/codeforamerica/streetmix)). It was created by a handful of 2013 [Code for America](http://www.codeforamerica.org) fellows each on different teams, who came together to solve a problem.
+Streetmix is an open source civic web application (that means no install; it's all online) with its code on GitHub ([here's the repository](https://github.com/codeforamerica/streetmix)). It was created by a handful of 2013 [Code for America](http://www.codeforamerica.org) fellows each on different teams, who came together to solve a problem.
 
 This problem was something fellow and urban designer Lou Huang had often seen in community meetings. City planning departments are required to engage the public in their decision making, but often it's hard for residents to find time to attend, the city lacks the tools to properly illustrate complex urban systems and residents aren't always able to learn enough about the systems to make informed suggestions.
 

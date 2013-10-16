@@ -52,7 +52,6 @@ organizations:
   Brazil:
     - interlegis
     - plonegovbr
-    - dataviz
 
   Canada:
     - cityofgreatersudbury
@@ -141,6 +140,7 @@ organizations:
     - teampopong
     - mysociety
     - openaustralia
+    - dataviz
 
 #global settings
 title: "Make government better, together."

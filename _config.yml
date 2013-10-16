@@ -104,6 +104,9 @@ organizations:
     - miamidade
     - slugis
 
+  U.S. Special District:
+    - cleveland-metroparks
+
   U.S. City:
     - chicago
 #    - sfgov

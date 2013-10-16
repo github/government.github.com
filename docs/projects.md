@@ -20,12 +20,12 @@ GitHub's about connecting with developers. Whether you're an API publishing pro,
 
 Sample text for your `README.md`:
 
-```markdown
+~~~markdown
 # City of Gotham Feedback
 
 We've just joined GitHub and want to know what data would be interesting to our development community?
 Leave us comments via issues!
-```
+~~~
 
 ## Open source a Dataset
 

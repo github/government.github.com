@@ -1,11 +1,11 @@
-----
+---
 layout: story
 title: Canadian web experience toolkit
 description: ""
 image: /images/wet.png
 category: open source
 author: Ben Balter, GitHub
-----
+---
 
 Government websites often share many of the same basic requirements such as usability, accessibility, and interoperability. Rather than reinvent the wheel each time, the Treasury Board Secretariat of Canada developed the [Web Experience Toolkit](http://github.com/wet-boew/wet-boew) to create a set of shared templates for all government websites.
 

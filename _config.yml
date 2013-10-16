@@ -131,6 +131,8 @@ organizations:
     - localwiki
     - civio
     - bundestag
+    - mysociety
+    - openaustralia
 
 #global settings
 title: "Make government better, together."

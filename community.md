@@ -12,7 +12,7 @@ permalink: /community/
       {% for org in type_hash[1] %}
         <div class="organization">
           <a href="http://github.com/{{ org }}" title="{{ org }}">
-            <img class="avatar" src="https://github.com/{{ org }}.png" width="300" alt= "{{ org }}"/>
+            <img class="avatar" src="https://github.com/{{ org }}.png" width="300" alt="{{ org }}"/>
           </a>
         </div>
       {% endfor %}

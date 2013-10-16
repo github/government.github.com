@@ -17,7 +17,7 @@ GitHub offers free public repositories for open source projects as well as subsc
 
 #### GitHub Enterprise
 
-Want to run GitHub with your own datacenter? Then GitHub Enterprise is for you. Ideal for collaborating on sensitive projects or projects bound by export restorations, GitHub Enterprise is the same GitHub.com experience, but it is packaged as a virtual appliance that you can host yourself. Many organizations that run GitHub Enterprise internally for sensitive projects also have a GitHub.com account for the projects they wish to open source to the public. [Request a free trial of GitHub Enterprise](http://enterprise.github.com) to see it for yourself.
+Want to run GitHub with your own datacenter? Then GitHub Enterprise is for you. Ideal for collaborating on sensitive projects or projects bound by export restrictions, GitHub Enterprise is the same GitHub.com experience, but it is packaged as a virtual appliance that you can host yourself. Many organizations that run GitHub Enterprise internally for sensitive projects also have a GitHub.com account for the projects they wish to open source to the public. [Request a free trial of GitHub Enterprise](http://enterprise.github.com) to see it for yourself.
 
 ### About the site
 

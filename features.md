@@ -37,7 +37,7 @@ GitHub makes it easy to share by generating urls for files, even for specific li
 
 ![Cloud](/assets/img/cloud.png)
 
-If you've got your own servers and want to run GitHub just within your agency, [GitHub Enterprise](http://enterprise.github.com){: target="_blank"} has got you covered. If you don't want to worry about servers, we'll handle that for you and [GitHub.com](http://www.github.com){: target="_blank"} is your choice.
+If you've got your own servers and want to run GitHub just within your agency, [GitHub Enterprise](https://enterprise.github.com){:target="_blank"} has got you covered. If you don't want to worry about servers, we'll handle that for you and [GitHub.com](https://github.com){:target="_blank"} is your choice.
 {: .mini-section }
 
 </div>

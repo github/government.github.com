@@ -18,7 +18,7 @@ title: GitHub and Government
             <a href="{{ post.url }}">
               <div class="homepage-image post-image {{ post.category }}" style="background-image: url('{{ post.image }}'); border-bottom: 3px solid;"></div>
             </a>
-            <div class="meta {{ post.category }}" style="padding: 4px 0px;"><a class="{{ post.category }}" href="/categories/#{{ post.category | replace: " ","-" }}">{{ post.category }}</a></div>
+            <div class="meta {{ post.category }}"><a class="{{ post.category }}" href="/categories/#{{ post.category | replace: " ","-" }}">{{ post.category }}</a></div>
             <h3><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h3>
             <div class="description">{{ post.content | truncatewords: 36 }} <span><a class="read-more" href="{{ post.url }}">read more</a></div>
           </article>

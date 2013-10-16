@@ -4,7 +4,7 @@
   <div class="row">
     <div class="span8">
       <img class="storypage-image post-image {{ page.category }}" src="{{ page.image }}" alt="{{ page.title }}" />
-      <div class="meta {{ page.category }}" style="padding: 4px 0px;"><a class="{{ page.category }}" href="/categories/#{{ page.category | replace: " ","-" }}">{{ page.category }}</a></div>
+      <div class="meta {{ page.category }}"><a class="{{ page.category }}" href="/categories/#{{ page.category | replace: " ","-" }}">{{ page.category }}</a></div>
       <h1>{{ page.title }}</h1>
       <div class="meta">Published {{ page.date | date: "%B %d, %Y"}} {% if page.author %} by {{ page.author }}{% endif %}</div>
     </div>

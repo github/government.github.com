@@ -27,7 +27,7 @@ If you see an error or a place where content should be updated or improved, just
 
 #### Add a Story
 
-Have an open governement story to share? Instructions for contributing a story are in [docs/submit.md](https://github.com/github/government.github.com/blob/master/docs/submit.md).
+Have an open government story to share? Instructions for contributing a story are in [docs/submit.md](https://github.com/github/government.github.com/blob/master/docs/submit.md).
 
 #### Add Organization
 
@@ -45,7 +45,7 @@ You can take all the files of this site and run them just on your computer as if
 * [Ruby](https://www.ruby-lang.org/en/)
 * [Git](http://git-scm.com/)
 
- _If you use [GitHub for Windows](http://windows.github.com) or [GitHub for Mac](http://mac.github.com), Git will install automatically._
+ _If you have installed [GitHub for Windows](http://windows.github.com) or [GitHub for Mac](http://mac.github.com), Git was also installed automatically._
 
 To copy the repository's files from here onto your computer and to view and serve those files locally, at your computer's command line type:
 

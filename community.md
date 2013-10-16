@@ -35,6 +35,13 @@ This website is [open source](https://github.com/github/government.github.com), 
 * Visit the [original repository](https://github.com/github/government.github.com) and select Pull Request.
 * Fill out the form and submit!
 
+### Guidelines
+
+While there are many many interesting government-related projects, we are limiting the list above to [GitHub organizations](https://help.github.com/articles/user-organization-and-project-pages) with projects on GitHub, who are:
+
+* Official government institutions
+* Non-profits or groups focused on government, listed under "Civic Hackers"
+
 </div>
 </div>
 

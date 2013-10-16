@@ -1,6 +1,6 @@
 # GitHub and Government [![Build Status](https://travis-ci.org/github/government.github.com.png?branch=gh-pages)](https://travis-ci.org/github/government.github.com)
 
-![screenshot](https://f.cloud.github.com/assets/282759/1335911/28b3ec66-35c0-11e3-8ee6-66272b9f4186.png)
+![screenshot](/screenshot.png)
 
 Gather, curate, and feature stories of people using GitHub as part of their open government innovations.
 

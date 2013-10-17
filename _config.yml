@@ -124,6 +124,7 @@ organizations:
     - CORaleigh
 
   Civic Hackers:
+    - infoculture
     - codeforamerica
     - sunlightlabs
     - opengovfoundation
@@ -150,7 +151,7 @@ organizations:
     - thacker
     - opennorth
     - hasadna
-    - infoculture
+
 
 #global settings
 title: "Make government better, together."

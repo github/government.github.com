@@ -3,7 +3,7 @@
   * [The Advanced Photon Source](http://www.aps.anl.gov)
   * [The National Synchrotron Light Source](http://www.bnl.gov/ps)
   * [The Stanford Synchrotron Radiation Lightsource](http://ssrl.slac.stanford.edu/)
-  * [The Advance Light Source](http://www-als.lbl.gov/)
+  * [The Advanced Light Source](http://www-als.lbl.gov/)
   
 XAS is a way of probing the electronic and atomic structure of matter using X-rays.  With XAS a researcher can understand the properties of materials by understanding how the atoms in the material stack together.  XAS plays a central role in a broad field of scientific activities and is essential to researchers working in such disparate areas as batteries, fuel cells, catalytic materials, materials for electronics, photovoltaic materials, the fate and trasport of contaminant metals in natural systems, and the role of metals in proteins and other organic materials.
 

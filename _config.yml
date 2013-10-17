@@ -69,9 +69,6 @@ organizations:
 
   France:
     - etalab
-    
-  Mexico:
-    - CodeandoMexico
 
   Norway:
     - difi
@@ -150,6 +147,7 @@ organizations:
     - okfn-brasil
     - dataviz
     - OpenTwinCities
+    - CodeandoMexico
 
 #global settings
 title: "Make government better, together."

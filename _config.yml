@@ -165,7 +165,6 @@ description: "Stories of open data, open source, and open collaboration"
 permalink: "/stories/:title"
 url: http://government.github.com
 relative_permalinks: false
-prose_server: "http://prose.io"
 tagline: 'Stories of <a href="/categories/#open-source"class="open source" title="Code or creation materials made easily accessible and free to the public.">open source</a>, <a href="/categories/#open-data" class="open data" title="Data made easily accessible and fee to the public.">open data</a>, and <a href="/categories/#open-government" class="open government" title="An acessible, transparent and forthcoming with data government agency.">open government</a>.'
 analytics_account: "UA-3769691-28"
 
@@ -174,3 +173,49 @@ exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile"
 root: "/"
 paginate: 6
 markdown: kramdown
+
+#prose settings
+prose_server: "http://prose.io"
+prose:
+  media: "images"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "story"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: ""
+          type: "text"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+          type: "text"
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Description"
+          value: ""
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          placeholder: "/images/YOUR_IMAGE.png"
+          value: ""
+          type: "text"
+      - name: "category"
+        field:
+          element: "select"
+          label: "Category"
+          options:
+            - name: "Open Government"
+              value: "open government"
+            - name: "Open Data"
+              value: "open data"
+            - name: "Open Source"
+              value: "open source"

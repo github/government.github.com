@@ -5,7 +5,7 @@ description: GitHub was built with code in mind so that developers could work to
 permalink: /features/
 ---
 <div class="videoWrapper">
-<iframe width="606" height="349" src="//www.youtube.com/embed/l_T3XEgXl14?list=PL0lo9MOBetEEvPMhIBbegwsXuIih8FP8h" frameborder="0" allowfullscreen></iframe>
+<iframe width="606" height="349" src="//www.youtube.com/embed/l_T3XEgXl14?list=PL0lo9MOBetEEvPMhIBbegwsXuIih8FP8h" allowfullscreen></iframe>
 </div>
 
 <div class="section" markdown="1">

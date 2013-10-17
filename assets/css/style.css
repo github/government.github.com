@@ -465,6 +465,7 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
   height: 0;
 }
 .videoWrapper iframe {
+  border-width: 0;
   position: absolute;
   top: 0;
   left: 0;

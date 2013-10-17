@@ -20,7 +20,7 @@ title: GitHub and Government
             </a>
             <div class="meta {{ post.category }}"><a class="{{ post.category }}" href="/categories/#{{ post.category | replace: " ","-" }}">{{ post.category }}</a></div>
             <h3><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h3>
-            <div class="description">{{ post.content | truncatewords: 36 }} <span><a class="read-more" href="{{ post.url }}">read more</a></div>
+            <div class="description">{{ post.content | truncatewords: 36 }} <span><a class="read-more" href="{{ post.url }}">read more</a></span></div>
           </article>
         </div>
 
@@ -54,7 +54,7 @@ title: GitHub and Government
         {% for org in type_hash[1] %}
           <div class="organization">
             <a href="http://github.com/{{ org }}" title="{{ org }}">
-              <img class="avatar" src="https://github.com/{{ org }}.png" alt= "{{ org }}" target="_blank"/>
+              <img class="avatar" src="https://github.com/{{ org }}.png" alt= "{{ org }}"/>
             </a>
           </div>
         {% endfor %}
@@ -69,7 +69,7 @@ title: GitHub and Government
         <h2>Sign Up</h2>
         <ol>
           <li>New to GitHub? <a href="https://github.com/signup/free" target="_blank">Sign up</a> for an account. Already have an account? Skip to step two.</li>
-          <li><a href="https://github.com/settings/organizations" targt="_blank">Create an Organization</a> account.</li>
+          <li><a href="https://github.com/settings/organizations" target="_blank">Create an Organization</a> account.</li>
           <li>Invite your team members!</li>
         </ol>
       </div>

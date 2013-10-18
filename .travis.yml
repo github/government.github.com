@@ -1,2 +1,6 @@
 language: ruby
 script: "./script/cibuild"
+branches:
+  only:
+    - gh-pages
+    - /*/

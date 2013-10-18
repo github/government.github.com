@@ -9,7 +9,7 @@ task :test do
     "http://prose.io#/github/government.github.com/edit/gh-pages/_posts/2013-09-03-project-open-data.md",
     "http://prose.io#/github/government.github.com/edit/gh-pages/_posts/2013-10-01-modern-approach-to-open-data.md",
     "http://prose.io#/github/government.github.com/edit/gh-pages/_posts/2013-10-14-canadian-web-experience-toolkit.md",
-    "http://prose.io#github/government.github.com/new/master/_posts"
+    "http://prose.io#github/government.github.com/new/gh-pages/_posts"
   ]
   tester.run
 end

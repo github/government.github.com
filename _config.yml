@@ -162,6 +162,7 @@ organizations:
     - okfn-brasil
     - dataviz
     - OpenTwinCities
+<<<<<<< HEAD
     - thacker
     - opennorth
     - hasadna
@@ -169,6 +170,7 @@ organizations:
     - opennewzealand
     - theodi
     - yourmapper
+    - CodeandoMexico
 
 #global settings
 title: "Make government better, together."

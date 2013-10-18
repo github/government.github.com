@@ -80,9 +80,10 @@ organizations:
     - difi
 
   Sweden:
-    - libris
-    - rinfo
     - edelegationen
+    - libris
+    - malmostad
+    - rinfo
     - The-Municipality-of-Staffanstorp
 
   Puerto Rico:

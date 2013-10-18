@@ -39,7 +39,7 @@ This website is [open source](https://github.com/github/government.github.com), 
 
 While there are many many interesting government-related projects, we are limiting the list above to [GitHub organizations](https://help.github.com/articles/user-organization-and-project-pages) with projects on GitHub, who are:
 
-* Official government institutions
+* Official government institutions, listed under their country or level of government
 * Non-profits or groups focused on government, listed under "Civic Hackers"
 
 </div>

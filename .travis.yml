@@ -3,4 +3,4 @@ script: "./script/cibuild"
 branches:
   only:
     - gh-pages
-    - /*/
+    - /.*/

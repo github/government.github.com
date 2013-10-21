@@ -1,9 +1,9 @@
-----
+---
 -title: Projects
 -layout: support-page
 -description: Ready to get started on GitHub? Here are some ideas that are easy to get your feet wet with.
 -permalink: /projects/
-----
+---
 
 ## Feedback Repository
 

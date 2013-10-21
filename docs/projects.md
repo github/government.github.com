@@ -1,3 +1,10 @@
+----
+-title: Projects
+-layout: support-page
+-description: Ready to get started on GitHub? Here are some ideas that are easy to get your feet wet with.
+-permalink: /projects/
+----
+
 ## Feedback Repository
 
 GitHub's about connecting with developers. Whether you're an API publishing pro, or just getting started, creating a "feedback" repository can go a long way to connect your organization with the community. Get feedback from current and potential data consumers by creating a specific repository for them to contribute ideas and suggestions for types of data or other information they'd like to see opened. Here's how:

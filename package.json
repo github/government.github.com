@@ -1,17 +1,8 @@
 {
   "name": "government.github.com",
   "version": "0.0.2",
-  "devDependencies": {
-    "coffee-script": "latest"
-  },
-  "readmeFilename": "readme.md",
-  "gitHead": "9d267504e75e3104107acc0c49885cc1a3d9f1c9",
   "description": "*The [government.github.com](http://government.github.com) of the future, here today.*",
   "main": "script/server",
-  "dependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/github/government.github.com.git"

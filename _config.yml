@@ -1,6 +1,71 @@
 #list of GitHub organization usernames, grouped by type
 organizations:
 
+  Australia:
+    - actgov
+
+  Argentina:
+    - gcba
+
+  Belgium:
+    - onroerenderfgoed
+
+  Brazil:
+    - interlegis
+    - gabinetedigital
+    - plonegovbr
+    - dadosgovbr
+
+  Canada:
+    - cityofgreatersudbury
+    - cityofottawa
+    - nsgov
+    - pwgsc
+    - wet-boew
+
+  Estonia:
+    - vvk-ehk
+
+  Finland:
+    - avoinministerio
+    - City-of-Helsinki
+    - Lounaispaikka
+    - HSLdevcom
+
+  France:
+    - erasme
+    - etalab
+    - VilleDeMontpellier
+
+  Germany:
+    - gbv
+    - lobid
+
+  New Zealand:
+    - linz
+
+  Norway:
+    - difi
+
+  Puerto Rico:
+    - commonwealth-of-puerto-rico
+
+  Sweden:
+    - edelegationen
+    - libris
+    - malmostad
+    - rinfo
+    - The-Municipality-of-Staffanstorp
+
+  United Kingdom:
+    - alphagov
+    - ministryofjustice
+    - lichfield-district-council
+    - east-sussex-county-council
+    - datagovuk
+    - EnvironmentAgency
+    - CarersBeta
+
   United States:
     - adlnet
     - cfpb
@@ -45,73 +110,8 @@ organizations:
 #   - USDA-ERS
 #   - usinterior
 
-  Australia:
-    - actgov
-
-  Argentina:
-    - gcba
-
-  Belgium:
-    - onroerenderfgoed
-
-  Brazil:
-    - interlegis
-    - gabinetedigital
-    - plonegovbr
-    - dadosgovbr
-
-  Canada:
-    - cityofgreatersudbury
-    - cityofottawa
-    - nsgov
-    - pwgsc
-    - wet-boew
-
   European Union:
     - europeana
-
-  Finland:
-    - avoinministerio
-    - City-of-Helsinki
-    - Lounaispaikka
-    - HSLdevcom
-
-  France:
-    - erasme
-    - etalab
-    - VilleDeMontpellier
-
-  New Zealand:
-    - linz
-
-  Germany:
-    - gbv
-    - lobid
-
-  Norway:
-    - difi
-
-  Sweden:
-    - edelegationen
-    - libris
-    - malmostad
-    - rinfo
-    - The-Municipality-of-Staffanstorp
-
-  Puerto Rico:
-    - commonwealth-of-puerto-rico
-
-  United Kingdom:
-    - alphagov
-    - ministryofjustice
-    - lichfield-district-council
-    - east-sussex-county-council
-    - datagovuk
-    - EnvironmentAgency
-    - CarersBeta
-
-  Estonia:
-    - vvk-ehk
 
   International:
     - ogpl

@@ -1,6 +1,9 @@
 #list of GitHub organization usernames, grouped by type
 organizations:
 
+  Ireland:
+    - okfirl
+
   United States:
     - adlnet
     - cfpb

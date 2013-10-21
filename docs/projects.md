@@ -1,10 +1,3 @@
----
-title: Projects
-layout: support-page
-description: Ready to get started on GitHub? Here are some ideas that are easy to get your feet wet with.
-permalink: /projects/
----
-
 ## Feedback Repository
 
 GitHub's about connecting with developers. Whether you're an API publishing pro, or just getting started, creating a "feedback" repository can go a long way to connect your organization with the community. Get feedback from current and potential data consumers by creating a specific repository for them to contribute ideas and suggestions for types of data or other information they'd like to see opened. Here's how:
@@ -39,7 +32,7 @@ There are [many open source applications](http://gsa.github.io/federal-open-sour
 
 * **Adopt-a** - This [open source web app](https://github.com/codeforamerica/adopt-a-hydrant) was created for the City of Boston in 2011 by [Code for America](http://www.codeforamerica.org) fellows. It allows residents to "adopt" a hydrant and make sure it's clear of snow in the winter so that emergency crews can locate them when needed. It has since been adopted in [**Chicago**](https://github.com/Chicago/adopt-a-sidewalk) (for sidewalks), **Seattle** (for storm drains), and [**Honolulu**](https://github.com/codeforamerica/adopt-a-siren) (for tsunami sirens).
 
-* **StreetMix** - Another creation of Code for America fellows (2013) this website, [www.streetmix.net](http://www.streetmix.net), allows anyone to create street sections in a way that is not only beautiful but educational, too. No downloading, no installing, no paying - make and save your creations right at the website. Great for internal or public community planning meetings.
+* **Streetmix** - Another creation of Code for America fellows (2013) this website, [www.streetmix.net](http://www.streetmix.net), allows anyone to create street sections in a way that is not only beautiful but educational, too. No downloading, no installing, no paying - make and save your creations right at the website. Great for internal or public community planning meetings.
 
 * **We The People** - [We The People](https://github.com/whitehouse/petitions), the White House's petitions application hosted at [petitions.whitehouse.gov](http://petitions.whitehouse.gov) is a Drupal module to allow citizens to submit and digitally sign petitions.
 

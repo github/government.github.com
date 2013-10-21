@@ -61,7 +61,6 @@ organizations:
     - wet-boew
 
   European Union:
-    - codeforeurope
     - europeana
 
   Finland:
@@ -151,6 +150,7 @@ organizations:
     - thacker
     - opennorth
     - hasadna
+    - codeforeurope
 
 #global settings
 title: "Make government better, together."

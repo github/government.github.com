@@ -189,6 +189,7 @@ organizations:
     - npp
     - odhk
     - codefortomorrow
+    - KoelnAPI
 
 #global settings
 title: "Make government better, together."

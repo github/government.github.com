@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
 }
 
+{% include css/normalize.min.css %}
 {% include css/bootstrap.min.css %}
 
 .type {

@@ -1,8 +1,7 @@
 #list of GitHub organization usernames, grouped by type
 organizations:
 
-  Ireland:
-    - okfirl
+ 
 
   United States:
     - adlnet
@@ -175,7 +174,8 @@ organizations:
     - theodi
     - yourmapper
     - CodeandoMexico
-
+    - okfirl
+    
 #global settings
 title: "Make government better, together."
 description: "Stories of open data, open source, and open collaboration"

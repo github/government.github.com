@@ -298,3 +298,49 @@ prose:
               value: "open data"
             - name: "Open Source"
               value: "open source"
+
+    _orgs:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "org"
+      - name: "github"
+        field:
+          element: "text"
+          label: "GitHub org"
+          value: ""
+          type: "text"
+      - name: "fullname"
+        field:
+          element: "text"
+          label: "Full Name"
+          value: ""
+          type: "text"
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Description"
+          value: ""
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Org Type"
+          placeholder: "Create or choose"
+          options:
+            - name: "Federal Government"
+              value: "fed"
+            - name: "Civic Hacker"
+              value: "civic"
+            - name: "City"
+              value: "city"
+      - name: "country"
+        field:
+          element: "multiselect"
+          label: "Country"
+          placeholder: "Create or choose"
+          options:
+            - name: "United States"
+              value: "fed"
+            - name: "Canada"
+              value: "canada"
+          alterable: true

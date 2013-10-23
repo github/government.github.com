@@ -1,6 +1,51 @@
 #list of GitHub organization usernames, grouped by type
 organizations:
 
+  United States:
+    - adlnet
+    - cfpb
+    - chaos
+    - cmsgov
+    - commercegov
+    - department-of-veterans-affairs
+    - educationdatainitiative
+    - erdc-cm
+    - fcc
+    - gsa
+    - gsa-ocsit
+    - hhs
+    - historyatstate
+    - hpc
+    - imls
+    - informaticslab
+    - libraryofcongress
+    - losalamos
+    - mcc-gov
+    - nasa
+    - nationalparkservice
+    - ncbitools
+    - ncip
+    - nhlbi
+    - nrel
+    - opengovplatform
+    - ozoneplatform
+    - peacecorps
+    - presidential-innovation-fellows
+    - redhawksdr
+    - usagov
+    - usaid
+    - usasearch
+    - usda
+    - usdepartmentoflabor
+    - usepa
+    - usgs
+    - usnationalarchives
+    - virtual-world-framework
+    - whitehouse
+#   - USDA-ERS
+#   - usinterior
+
+>>>>>>> c3ae76b20b788ce9f129713bdcb955a069d077c0
   Australia:
     - actgov
 
@@ -191,6 +236,7 @@ organizations:
     - odhk
     - codefortomorrow
     - KoelnAPI
+    - okfirl
 
 #global settings
 title: "Make government better, together."

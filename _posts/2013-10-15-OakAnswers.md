@@ -3,7 +3,7 @@ layout: story
 author: Spike, OpenOakland
 title: Public-Private Collaborations
 description: " Oakland Answers is a collaborative web site that allows residents easy access to common questions without the usual pain of navigating a city website."
-image: /images/answers.png
+image: /images/answers.jpg
 category: open source
 ---
 [Oakland Answers](http://answers.oaklandnet.com) is an opensource public private collaboration between OpenOakland, the City of Oakland and the broader community. 

@@ -310,9 +310,14 @@ header nav a {
   padding: 0 0 40px 0;
 }
 
+.story-header {
+  text-transform: capitalize;
+}
+
 .description a:not(.read-more) { color: #333; }
 
 .homepage-image {
+  border-bottom: 3px solid;
   max-width: 770px;
   height: 150px;
   background-position: center;

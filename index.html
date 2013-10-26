@@ -16,7 +16,7 @@ title: GitHub and Government
         <div class="story-unit span4">
           <article>
             <a href="{{ post.url }}">
-              <div class="homepage-image post-image {{ post.category }}" style="background-image: url('{{ post.image }}'); border-bottom: 3px solid;"></div>
+              <div class="homepage-image {{ post.category }}" style="background-image: url('{{ post.image }}');"></div>
             </a>
             <div class="meta {{ post.category }}"><a class="{{ post.category }}" href="/categories/#{{ post.category | replace: " ","-" }}">{{ post.category }}</a></div>
             <h3><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h3>

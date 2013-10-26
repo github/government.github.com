@@ -3,7 +3,7 @@ layout: story
 title: Forking your City
 author: Tom Schenk, City of Chicago
 image: /images/chicago.png
-description: "Chicago has begun releasing select datasets on GitHub in a GeoJSON format and inviting pull requests. So far, Chicago has released the files for bike routes, bike racks, pedway routes, street locations, and building footprints."
+description: Chicago has begun releasing select datasets on GitHub in a GeoJSON format and inviting pull requests. So far, Chicago has released the files for bike routes, bike racks, pedway routes, street locations, and building footprints.
 category: open data
 ---
 

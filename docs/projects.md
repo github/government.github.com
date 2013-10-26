@@ -11,12 +11,12 @@ GitHub's about connecting with developers. Whether you're an API publishing pro,
 
 1. Create a [new repository](https://github.com/new)
   - Choose your organization as the Owner
-	- Name the repository "feedback" or similar
-	- Click the checkbox to automatically create a `README.md` file
+  - Name the repository "feedback" or similar
+  - Click the checkbox to automatically create a `README.md` file
 2. Set up your Readme
-	- Click `README.md` within your newly created repository
-	- Click `Edit`
-	- Introduce yourself, describe why you've joined GitHub, what you're hoping to do and what you'd like to learn from the development community. Encourage them to leave feedback through issues on the repository.
+  - Click `README.md` within your newly created repository
+  - Click `Edit`
+  - Introduce yourself, describe why you've joined GitHub, what you're hoping to do and what you'd like to learn from the development community. Encourage them to leave feedback through issues on the repository.
 
 Sample text for your `README.md`:
 

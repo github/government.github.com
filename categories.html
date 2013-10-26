@@ -8,7 +8,7 @@ title: Category Archive
 <div class="row">
   <div class="span8">
     {% for category in site.categories %}
-    <h2 class="story-header" id="{{ category[0] | replace: " ","-" }}">{{ category[0] }}</h2>
+    <h2 class="story-header" id="{{ category[0] | replace: ' ','-' }}">{{ category[0] }}</h2>
     <article class="story-unit">
       {% for post in category[1] %}
       <div class="one-story">

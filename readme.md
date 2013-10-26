@@ -31,7 +31,7 @@ Have an open government story to share? Instructions for contributing a story ar
 
 #### Add Organization
 
-If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community](http://government.github.com/community) page: fork this repository, open the `_config.yml` file and add it to the appropate section of the list in the format being used. Commit your change and submit a pull request to us!
+If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community](http://government.github.com/community) page: fork this repository, open the `_config.yml` file and add it to the appropriate section of the list in the format being used. Commit your change and submit a pull request to us!
 
 ---
 
@@ -49,12 +49,13 @@ _If you have installed [GitHub for Windows](http://windows.github.com) or [GitHu
 
 To copy the repository's files from here onto your computer and to view and serve those files locally, at your computer's command line type:
 
-1. `git clone https://github.com/github/government.github.com.git`
-2. `cd government.github.com`
-3. `script/bootstrap`
-4. `script/server`
-5. `open http://localhost:4000`
-
+```bash
+git clone https://github.com/github/government.github.com.git
+cd government.github.com
+script/bootstrap
+script/server
+open http://localhost:4000
+```
 ----
 
 Don't see what you're looking for? Create an [issue](https://github.com/github/government.github.com/issues/new), we'll do our best to help you out.

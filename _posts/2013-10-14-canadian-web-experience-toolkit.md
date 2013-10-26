@@ -1,7 +1,7 @@
 ---
 layout: story
 title: Canadian web experience toolkit
-description: ""
+description: "The Web Experience Toolkit (Boîte à outils de l’expérience Web) is an open source code library for building innovative websites that are accessible, usable, interoperable, mobile-friendly and multilingual. This collaborative open source project is led by the Government of Canada."
 image: /images/wet.png
 category: open source
 author: Ben Balter, GitHub

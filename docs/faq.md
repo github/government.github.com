@@ -68,7 +68,7 @@ Simply register for a new GitHub account using your .gov e-mail address. Follow 
 
 #### Should we include an open source license with our project?
 
-Yes. Including a software license communicates to users what they can and can't do with the software, and more importantly, informs contributors as to what rights, if any, the waive by contributing.
+Yes. Including a software license communicates to users what they can and can't do with the software, and more importantly, informs contributors as to what rights, if any, they waive by contributing.
 
 ## More
 

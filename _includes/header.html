@@ -21,12 +21,12 @@
 
 </head>
 
-<body id="{{ page.id }}" class="{{ page.layout }}">
+<body{% if page.id %} id="{{ page.id }}"{% endif %} class="{{ page.layout }}">
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-<header>
+<header class="clearfix">
   <div class="container">
     <a href="/"><span class="logo">GitHub and Government</span></a>
     <nav>

@@ -18,9 +18,9 @@ title: GitHub and Government
             <a href="{{ post.url }}">
               <div class="homepage-image post-image {{ post.category }}" style="background-image: url('{{ post.image }}'); border-bottom: 3px solid;"></div>
             </a>
-            <div class="meta {{ post.category }}" style="padding: 4px 0px;"><a class="{{ post.category }}" href="/categories/#{{ post.category | replace: " ","-" }}">{{ post.category }}</a></div>
+            <div class="meta {{ post.category }}"><a class="{{ post.category }}" href="/categories/#{{ post.category | replace: " ","-" }}">{{ post.category }}</a></div>
             <h3><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h3>
-            <div class="description">{{ post.content | truncatewords: 36 }} <span><a class="read-more" href="{{ post.url }}">read more</a></div>
+            <div class="description">{{ post.content | truncatewords: 36 }} <span><a class="read-more" href="{{ post.url }}">read more</a></span></div>
           </article>
         </div>
 
@@ -53,8 +53,8 @@ title: GitHub and Government
     {% for type_hash in site.organizations %}
         {% for org in type_hash[1] %}
           <div class="organization">
-            <a href="http://github.com/{{ org }}" title="{{ org }}">
-              <img class="avatar" src="https://github.com/{{ org }}.png" alt= "{{ org }}" target="_blank"/>
+            <a href="https://github.com/{{ org }}" title="{{ org }}">
+              <img class="avatar" src="https://github.com/{{ org }}.png" width="80" height="80" alt="{{ org }}"/>
             </a>
           </div>
         {% endfor %}
@@ -69,7 +69,7 @@ title: GitHub and Government
         <h2>Sign Up</h2>
         <ol>
           <li>New to GitHub? <a href="https://github.com/signup/free" target="_blank">Sign up</a> for an account. Already have an account? Skip to step two.</li>
-          <li><a href="https://github.com/settings/organizations" targt="_blank">Create an Organization</a> account.</li>
+          <li><a href="https://github.com/settings/organizations" target="_blank">Create an Organization</a> account.</li>
           <li>Invite your team members!</li>
         </ol>
       </div>
@@ -86,7 +86,7 @@ title: GitHub and Government
       <div class="span4">
         <h2>Connect</h2>
         <ul class="no-style-list">
-          <li class="no-style-list">We've started a Government organization on GitHub so that users can connect, share best practices and learn from each other. To join, simply ensure your government email address is verified and associated with your account, and you should <a href="https://government-community.githubapp.com/">automatically be granted access</a>.</li>
+          <li>We've started a Government organization on GitHub so that users can connect, share best practices and learn from each other. To join, simply ensure your government email address is verified and associated with your account, and you should <a href="https://government-community.githubapp.com/">automatically be granted access</a>.</li>
         </ul>
       </div>
     </div>

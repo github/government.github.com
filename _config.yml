@@ -243,7 +243,7 @@ description: "Stories of open data, open source, and open collaboration"
 permalink: "/stories/:title"
 url: http://government.github.com
 relative_permalinks: false
-tagline: 'Stories of <a href="/categories/#open-source"class="open source" title="Code or creation materials made easily accessible and free to the public.">open source</a>, <a href="/categories/#open-data" class="open data" title="Data made easily accessible and free to the public.">open data</a>, and <a href="/categories/#open-government" class="open government" title="An acessible, transparent and forthcoming with data government agency.">open government</a>.'
+tagline: 'Stories of <a href="/categories/#open-source" class="open source" title="Code or creation materials made easily accessible and free to the public.">open source</a>, <a href="/categories/#open-data" class="open data" title="Data made easily accessible and free to the public.">open data</a>, and <a href="/categories/#open-government" class="open government" title="An acessible, transparent and forthcoming with data government agency.">open government</a>.'
 analytics_account: "UA-3769691-28"
 
 # build settings

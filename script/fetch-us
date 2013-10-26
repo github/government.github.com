@@ -7,7 +7,7 @@ require 'open-uri'
 require 'json'
 require 'yaml'
 
-config = YAML.load_file './_config.yml' 
+config = YAML.load_file './_config.yml'
 
 orgs = JSON.parse open('http://registry.usa.gov/accounts?service_id=GitHub&format=json').read
 orgs = orgs["accounts"].collect { |data| data["account"] }

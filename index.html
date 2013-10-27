@@ -50,13 +50,18 @@ title: GitHub and Government
   <div class="container">
     <div id="orgs">
       <div class="the-orgs">
+    {% assign count = "0" %}
     {% for type_hash in site.organizations %}
       {% for org in type_hash[1] %}
+        {% capture diff %}{{ count | minus:60 }}{% endcapture %}
+        {% if diff contains '-' %}
         <div class="organization">
           <a href="https://github.com/{{ org }}" title="{{ org }}">
             <img class="avatar" src="https://github.com/{{ org }}.png" width="80" height="80" alt="{{ org }}"/>
           </a>
         </div>
+        {% endif %}
+        {% capture count %}{{ count | plus:1 }}{% endcapture %}
       {% endfor %}
     {% endfor %}
       </div> <!-- class="the-orgs" -->

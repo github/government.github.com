@@ -1,7 +1,7 @@
 {% include header.html %}
 
 
-  <div id="{{ page.title }}" class="container">
+  <div id="{{ page.title | replace: ' ','-' }}" class="container">
       <div class="row">
         <div class="span12">
           <h1>{{ page.title }}</h1>
@@ -10,7 +10,7 @@
 
       <div class="row">
         <div class="span8">
-          <h3 class="description">{{ page.description }}</h3>
+          <h3 class="description">{{ page.description | replace: '<','&lt;' | replace: '>','&gt;' }}</h3>
         </div>
       </div>
     </div>
@@ -23,7 +23,7 @@
 
       <div class="span4 subnav contribute">
         <h5>More Resources</h5>
-        <ul>
+        <ul class="no-style-list">
           <li><a href="/about/">About GitHub</a></li>
           <li><a href="/features/">GitHub Features</a></li>
           <li><a href="/faq/">Frequently Asked Questions</a></li>

@@ -82,11 +82,11 @@ Yes. Including a software license communicates to users what they can and can't 
 
 The code for this site is open source, that means you can contribute to making this FAQ even better. To add a question and answer or edit an answer you'll need to:
 
-1. Go to this page's repository on GitHub, at [github.com/github/government.github.com](https://github.com/github/government.github.com).
+1. Go to this page's repository on GitHub, at [https://github.com/github/government.github.com](https://github.com/github/government.github.com).
 2. Click the **fork** button near the top right. This copies a version to your account.
 3. In your fork, click the link to the **docs** folder, then click the **faq.md** file. That's the [markdown](https://help.github.com/articles/github-flavored-markdown) file with the content for this page.
 4. Click **Edit** and make your changes. When you're finished, click **Commit** at the bottom.
-5. Return to [this page's repository](http://www.github.com/github/government.github.com) and click **Pull Request** and then **New Pull Request**. Fill out the form to explain the changes you've made.
+5. Return to [this page's repository](https://github.com/github/government.github.com) and click **Pull Request** and then **New Pull Request**. Fill out the form to explain the changes you've made.
 6. Click submit!
 
 _Learn more abut these terms in the [Glossary](https://help.github.com/articles/github-glossary){: target="_blank"}._

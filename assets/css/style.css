@@ -90,6 +90,11 @@ a img {
   border: none;
 }
 
+.thumbnail {
+  border: none;
+  box-shadow: none;
+}
+
 a.inline-link {
   text-decoration: none;
   color: #00c3f8;

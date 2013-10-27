@@ -12,6 +12,7 @@ permalink: /features/
 
 ## Collaborate
 
+{: .thumbnail }
 ![Collaborate](/assets/img/collaborating.png)
 
 GitHub Issues lets you create discussion around text, proposed changes or just ideas. You can ping other users or teams (**A**), embed images (**B**) and write in Markdown.
@@ -19,6 +20,7 @@ GitHub Issues lets you create discussion around text, proposed changes or just i
 
 ## View
 
+{: .thumbnail }
 ![View](/assets/img/view.png)
 
 Visualizing data or text is lovely here. GitHub automatically creates maps (**A**) from .geoJSON files, tables (<strong>B</strong>) from .CSV, renders .markdown, shows the differences between saves of text (**C**) <em>and</em> images.
@@ -26,6 +28,7 @@ Visualizing data or text is lovely here. GitHub automatically creates maps (**A*
 
 ## Share
 
+{: .thumbnail }
 ![Share](/assets/img/share.png)
 
 GitHub makes it easy to share by generating urls for files, even for specific lines of text in a file (**A**). Forget emails and attachments, just ping another user and copy and paste a link -- we call that, the GitHub flow.
@@ -35,6 +38,7 @@ GitHub makes it easy to share by generating urls for files, even for specific li
 
 ## In your Datacenter or the Cloud
 
+{: .thumbnail }
 ![Cloud](/assets/img/cloud.png)
 
 If you've got your own servers and want to run GitHub just within your agency, [GitHub Enterprise](https://enterprise.github.com){:target="_blank"} has got you covered. If you don't want to worry about servers, we'll handle that for you and [GitHub.com](https://github.com){:target="_blank"} is your choice.
@@ -46,6 +50,7 @@ If you've got your own servers and want to run GitHub just within your agency, [
 
 ## The Largest Open Source Network
 
+{: .thumbnail }
 ![Five Million](/assets/img/fourmillion.png)
 
 GitHub is the world's largest open source network, with over 4 million users to learn or get contributions from.

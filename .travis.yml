@@ -1,7 +1,7 @@
 language: ruby
 script: "./script/cibuild"
 notifications:
-  email: ben.balter@github.com
+  email: false
 branches:
   only:
     - gh-pages

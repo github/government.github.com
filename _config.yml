@@ -104,14 +104,15 @@ organizations:
 
   United Kingdom:
     - alphagov
-    - ministryofjustice
-    - lichfield-district-council
-    - east-sussex-county-council
-    - datagovuk
-    - EnvironmentAgency
     - CarersBeta
-    - hmrc
+    - datagovuk
+    - east-sussex-county-council
+    - edinburghcouncil
+    - EnvironmentAgency
     - gds-operations
+    - hmrc
+    - lichfield-district-council
+    - ministryofjustice
 
   United States:
     - adlnet

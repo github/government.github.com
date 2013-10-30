@@ -27,7 +27,7 @@ Cristian Douce and I designed the initial structure for the application and deci
  
 After we got the communication tools for our party up and running, we started on the first prototype. We designed it so that users could upload suggestions grouped by problem type, and then vote on them.
  
-[screenshot-app-1]
+![DemocracyOS Screenshot](https://i.cloudup.com/wTTj1VdFmj.png)
  
 When we tested the tools internally in the party the main issue we found was with how difficult it was to communicate the difference between a problem and a proposal. So we decided to KISS, simplifying the application in order to reflect the current functioning of the House of Representatives in the city legislature. 
  

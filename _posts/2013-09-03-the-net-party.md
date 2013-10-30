@@ -19,23 +19,24 @@ The idea of the Net Party (or "Partido de la Red," in Spanish) is influenced by 
  
 I began my work with this organization by putting up a Wiki page in order to make the Party's manifesto and ideology visible to the world. Later on we had the idea to configure a blog with Wordpress and thus publish news as well as the personal experiences of our members.
  
-[image site] [image blog] [image wiki]
- 
 Cristian Douce and I designed the initial structure for the application and decided to develop it in the Node.js language; along with Express.js as a framework and MongoDB to store information. The decision to use Node.JS came from the idea that interactions between human beings occur in real time, and that this technology will bring many advantages when it comes to implementing debates over ideas. This project is developed under the name of DemocracyOS.
  
 #### Prototype #1
+
+![Prototype 1](https://i.cloudup.com/kJCt5blEFJ.png)
  
 After we got the communication tools for our party up and running, we started on the first prototype. We designed it so that users could upload suggestions grouped by problem type, and then vote on them.
  
-![DemocracyOS Screenshot](https://i.cloudup.com/wTTj1VdFmj.png)
- 
 When we tested the tools internally in the party the main issue we found was with how difficult it was to communicate the difference between a problem and a proposal. So we decided to KISS, simplifying the application in order to reflect the current functioning of the House of Representatives in the city legislature. 
- 
+
+
 #### Prototype #2 (Current Version)
  
 In an earlier version, only legislative projects were voted upon just as legislators would do in session. To do this, we had to import the bills coming up for a vote from the page of the Buenos Aires legislation, as well as define a blueprint for future imports.
  
 The current version offers the possibility to vote and delegate the vote to other people by topic (Health, Environment, Transportation, Justice, etc.).
+
+![DemocracyOS Screenshot](https://i.cloudup.com/wTTj1VdFmj.png)
  
 As we develop the web application DemocracyOS, we're also building an authentication system for users based on Symfony and OAuth. This would allow for verification that the people voting are real as well as registered in the corresponding district. This side project is called NetID and someday soon it will hopefully be a service provider for other organizations in Argentina who need to validate users.
  

@@ -19,7 +19,7 @@ The idea of the Net Party (or "Partido de la Red," in Spanish) is influenced by 
  
 I began my work with this organization by putting up a Wiki page in order to make the Party's manifesto and ideology visible to the world. Later on we had the idea to configure a blog with Wordpress and thus publish news as well as the personal experiences of our members.
  
-[Cristian Douce](http://twitter.com/cristiandouce) and I designed the initial structure for the application and decided to develop it in the Node.js language; along with [Express.js](https://github.com/visionmedia/express) as a framework and MongoDB to store information. The decision to use Node.JS came from the idea that interactions between human beings occur in real time, and that this technology will bring many advantages when it comes to implementing debates over ideas. This project is developed under the name of DemocracyOS.
+[Cristian Douce](http://twitter.com/cristiandouce) and [I](http://twitter.com/gravityonmars) designed the initial structure for the application and decided to develop it in the Node.js language; along with [Express.js](https://github.com/visionmedia/express) as a framework and MongoDB to store information. The decision to use Node.JS came from the idea that interactions between human beings occur in real time, and that this technology will bring many advantages when it comes to implementing debates over ideas. This project is developed under the name of DemocracyOS.
  
 #### Prototype #1
 
@@ -36,7 +36,7 @@ In an earlier version, only legislative projects were voted upon just as legisla
  
 The current version offers the possibility to vote and delegate the vote to other people by topic (Health, Environment, Transportation, Justice, etc.).
 
-[See the app running](![DemocracyOS Screenshot](https://i.cloudup.com/wTTj1VdFmj.png))
+[![DemocracyOS Screenshot](https://i.cloudup.com/wTTj1VdFmj.png)](http://democraciaenred.org)
 
 [See the app running](http://democraciaenred.org)
  

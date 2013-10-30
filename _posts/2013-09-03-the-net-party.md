@@ -36,7 +36,7 @@ In an earlier version, only legislative projects were voted upon just as legisla
  
 The current version offers the possibility to vote and delegate the vote to other people by topic (Health, Environment, Transportation, Justice, etc.).
 
-![DemocracyOS Screenshot](https://i.cloudup.com/wTTj1VdFmj.png)
+[See the app running](![DemocracyOS Screenshot](https://i.cloudup.com/wTTj1VdFmj.png))
 
 [See the app running](http://democraciaenred.org)
  

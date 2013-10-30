@@ -1,6 +1,6 @@
 ---
 layout: story
-author: Ricardo Rauch, Partido De La Red
+author: Ricardo Rauch (@gravityonmars), Partido De La Red
 title: The Net Party
 description: We want to democratize democracy
 image: /images/net-party.jpg

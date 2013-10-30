@@ -43,9 +43,9 @@ As we develop the web application [DemocracyOS](http://github.com/democracyos/ap
 ### Promotion of the Party
  
 Our publicity is divided into three parts:
-*Facebook and Twitter: We create short video ads or images to be virally distributed by people interested in the project.
-*Informational Talks: Every week we invite people to get to know the party in our offices in downtown Buenos Aires.
-*Traditional Media: In recent months we've received attention from the main media outlets of Argentina. We have near daily presence on radio stations, television programs and in the newspapers.
+* Facebook and Twitter: We create short video ads or images to be virally distributed by people interested in the project.
+* Informational Talks: Every week we invite people to get to know the party in our offices in downtown Buenos Aires.
+* Traditional Media: In recent months we've received attention from the main media outlets of Argentina. We have near daily presence on radio stations, television programs and in the newspapers.
  
 ### On a Personal Note
  

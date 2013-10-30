@@ -3,7 +3,7 @@ layout: story
 author: Ricardo Rauch, Partido De La Red
 title: The Net Party
 description: We want to democratize democracy
-image: /images/net-party.png
+image: /images/net-party.jpg
 category: open government
 ---
 

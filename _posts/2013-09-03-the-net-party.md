@@ -37,6 +37,8 @@ In an earlier version, only legislative projects were voted upon just as legisla
 The current version offers the possibility to vote and delegate the vote to other people by topic (Health, Environment, Transportation, Justice, etc.).
 
 ![DemocracyOS Screenshot](https://i.cloudup.com/wTTj1VdFmj.png)
+
+[See the app running](http://democraciaenred.org)
  
 As we develop the web application [DemocracyOS](http://github.com/democracyos/app), we're also building an authentication system for users based on Symfony and OAuth. This would allow for verification that the people voting are real as well as registered in the corresponding district. This side project is called [NetID](http://github.com/democracyos/netid) and someday soon it will hopefully be a service provider for other organizations in Argentina who need to validate users.
  
@@ -55,6 +57,7 @@ What I like most about this project is that it's only based on building somethin
  
 On October 27, 2013, we won 21,368 votes in the races for city legislators. In just three months, we organized a political campaign, and with an extremely small budget wound up being the second most-voted local party.
 
+If you have questions or you are interested on contributing reach me at [@gravityonmars](http://twitter.com/gravityonmars)
  
 ### Links
 * [Twitter](http://twitter.com/partidodelared)

@@ -2,12 +2,12 @@
 layout: story
 author: Ricardo Rauch, Partido De La Red
 title: The Net Party
-description: 
+description: We want to democratize democracy
 image: /images/net-party.png
 category: open government
 ---
 
-A year ago I received an email from Santiago Siri, telling me that he and a group of people in my city, Buenos Aires, wanted to make some innovations in an area no one else was, bringing their experience with the world of the Internet to the world of politics.
+A year ago I received an email from [Santiago Siri](http://twitter.com/santisiri), telling me that he and a group of people in my city, Buenos Aires, wanted to make some innovations in an area no one else was, bringing their experience with the world of the Internet to the world of politics.
  
 We decided that our party’s objective would be to allow everyone living in the city of Buenos Aires to have an opinion within the House of Representatives. To this end, we are developing a web application that would allow exactly that, including the option to delegate one’s vote to another person if that person doesn't feel sufficiently prepared to vote herself. This concept is known as "liquid democracy."
  
@@ -19,7 +19,7 @@ The idea of the Net Party (or "Partido de la Red," in Spanish) is influenced by 
  
 I began my work with this organization by putting up a Wiki page in order to make the Party's manifesto and ideology visible to the world. Later on we had the idea to configure a blog with Wordpress and thus publish news as well as the personal experiences of our members.
  
-Cristian Douce and I designed the initial structure for the application and decided to develop it in the Node.js language; along with Express.js as a framework and MongoDB to store information. The decision to use Node.JS came from the idea that interactions between human beings occur in real time, and that this technology will bring many advantages when it comes to implementing debates over ideas. This project is developed under the name of DemocracyOS.
+[Cristian Douce](http://twitter.com/cristiandouce) and I designed the initial structure for the application and decided to develop it in the Node.js language; along with [Express.js](https://github.com/visionmedia/express) as a framework and MongoDB to store information. The decision to use Node.JS came from the idea that interactions between human beings occur in real time, and that this technology will bring many advantages when it comes to implementing debates over ideas. This project is developed under the name of DemocracyOS.
  
 #### Prototype #1
 
@@ -38,7 +38,7 @@ The current version offers the possibility to vote and delegate the vote to othe
 
 ![DemocracyOS Screenshot](https://i.cloudup.com/wTTj1VdFmj.png)
  
-As we develop the web application DemocracyOS, we're also building an authentication system for users based on Symfony and OAuth. This would allow for verification that the people voting are real as well as registered in the corresponding district. This side project is called NetID and someday soon it will hopefully be a service provider for other organizations in Argentina who need to validate users.
+As we develop the web application [DemocracyOS](http://github.com/democracyos/app), we're also building an authentication system for users based on Symfony and OAuth. This would allow for verification that the people voting are real as well as registered in the corresponding district. This side project is called [NetID](http://github.com/democracyos/netid) and someday soon it will hopefully be a service provider for other organizations in Argentina who need to validate users.
  
 ### Promotion of the Party
  
@@ -57,9 +57,9 @@ On October 27, 2013, we won 21,368 votes in the races for city legislators. In j
 
  
 ### Links
-· Web Site
-· Twitter
-· Facebook
-· Wiki
+* [Twitter](http://twitter.com/partidodelared)
+* [Facebook](http://facebook.com/partidodelared)
+* [DemocracyOS on Github](http://github.com/democracyos)
+* [Partido De La Red on Github](http://github.com/partidodelared)
 
 

@@ -49,9 +49,7 @@ organizations:
     - actgov
 
   Argentina:
-    - democracyos
     - gcba
-    - partidodelared
     
   Belgium:
     - onroerenderfgoed
@@ -203,6 +201,8 @@ organizations:
     - lfucg
 
   Civic Hackers:
+    - partidodelared
+    - democracyos
     - infoculture
     - codeforamerica
     - sunlightlabs

@@ -262,7 +262,7 @@ markdown: kramdown
 # prose settings
 prose_server: "http://prose.io"
 prose:
-  siteurl: 'http://government.github.com'
+  siteurl: "http://government.github.com"
   media: "images"
   metadata:
     _posts:

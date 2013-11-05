@@ -2,12 +2,12 @@
 permalink: /submit/
 title: Submit your Story
 layout: support-page
-description: Have a story you'd like to tell? We'd love to hear it. Submitting a story is easy. If you run into any trouble, simply shoot <government@github.com> an email. We're here to help.
+description: Have a story you'd like to tell? We'd love to hear it. Submitting a story is easy. If you run into any trouble, <a href="https://github.com/github/government.github.com/issues/new" data-proofer-ignore="true">we're here to help</a>.
 ---
 
 ## Before you begin
 
-We're looking forward to helping you tell your story. Before you begin writing, be sure to check out [the story style guide](style-guide/) which has some basic guidelines about things like style, format, and length. Not sure if you're story is right? Have a question? [We're here to help](https://github.com/github/government.github.com/issues/new){: data-proofer-ignore="true"}.
+We're looking forward to helping you tell your story. Before you begin writing, be sure to check out [the story style guide](style-guide/) which has some basic guidelines about things like style, format, and length.
 
 ## How to submit a story
 

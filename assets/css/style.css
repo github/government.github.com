@@ -454,6 +454,10 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
   margin: 14px 7px;
 }
 
+.organization > a > img {
+  vertical-align: middle;
+}
+
 /* Single Story Page */
 /* ----------------------------------------------------------------------------------- */
 

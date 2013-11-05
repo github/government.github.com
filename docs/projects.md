@@ -9,7 +9,7 @@ permalink: /projects/
 
 GitHub's about connecting with developers. Whether you're an API publishing pro, or just getting started, creating a "feedback" repository can go a long way to connect your organization with the community. Get feedback from current and potential data consumers by creating a specific repository for them to contribute ideas and suggestions for types of data or other information they'd like to see opened. Here's how:
 
-1. Create a [new repository](https://github.com/new)
+1. Create a [new repository](https://github.com/new){: data-proofer-ignore="true"}
   - Choose your organization as the Owner
   - Name the repository "feedback" or similar
   - Click the checkbox to automatically create a `README.md` file

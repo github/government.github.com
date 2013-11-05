@@ -9,7 +9,7 @@ category: open source
 [Oakland Answers](http://answers.oaklandnet.com) is an opensource public private collaboration between [OpenOakland](http://openoakland.org/), the City of Oakland and the broader community.
 It is a very simple, searchable tool to find answers to common questions- it works like google, it works on your phone and it's beautiful.
 
-To build this, 70 people gathered from across Oakland to build a resource for the entire city as part of the National Day of Civic Hacking.  
+To build this, 70 people gathered from across Oakland to build a resource for the entire city as part of the National Day of Civic Hacking.
 
 The site was built on raw code originally developed for Honolulu by [Code for America](http://www.codeforamerica.org), and forked on GitHub. From there it was implemented with help from city staff to create this new platform.
 

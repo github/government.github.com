@@ -5,11 +5,13 @@ title: Style Guide
 
 ---
 
-This guide is intended to be given to government rock stars, to help us better tell their story about their awesome open source, open data, and open government efforts.
+This guide is intended to help government employees and civic hackers to better tell their story about their awesome open source, open data, and open government efforts. For more background, include project goals and scope, see [the project readme](https://github.com/github/government.github.com/blob/gh-pages/readme.md).
+
+Note: Do not feel that you need to adhere so strictly to these guidelines as to stifle your own writing, but some baseline level uniformity between stories is desired for the readers' sake.
 
 ## Background
 
-Government.github.com is going to be a government-centric blog dedicated to showcasing and amplifying best practices and first-of-their-kind efforts within government around open source, open data, and open government. In addition to a series of short, informal blog posts written by civicly-minded Hubbers or by the public via pull request ("stories"), the completely open source microsite will also curate government-specific collaboratively edited documentation such as FAQs, or links to the public-facing GitHub profiles of government agencies.
+Government.github.com is a government-centric microsite dedicated to showcasing and amplifying best practices and first-of-their-kind efforts within government around open source, open data, and open government. In addition to a series of short, informal blog posts written by the public via pull request ("stories"), the completely open source microsite will also curate government-specific collaboratively edited documentation such as FAQs, or links to the public-facing GitHub profiles of government agencies.
 
 ## Voice
 
@@ -29,7 +31,7 @@ Stories do not have to strictly follow the five-paragraph template, but can use 
 4. Approach taken
 5. Outcome / Results (A+ for numbers)
 
-## High level questions
+## High level questions (choose which apply)
 
 * In a sentence or two, what's your department's mission/role? Introduce yourself to the world.
 * What services or "products" is your department typically charged with delivering to customers, both internally and to citizens? How do you normally do it?

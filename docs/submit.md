@@ -2,7 +2,7 @@
 permalink: /submit/
 title: Submit your Story
 layout: support-page
-description: Have a story you'd like to tell? We'd love to hear it. Submitting a story is easy. If you run into any trouble, <a href='https://github.com/github/government.github.com/issues/new' data-proofer-ignore='true'>we're here to help</a>.
+description: Have a story you'd like to tell? We'd love to hear it. Submitting a story is easy. If you run into any trouble, <a href='https://github.com/github/government.github.com/issues/new' data-proofer-ignore='true' class='read-more'>we're here to help</a>.
 ---
 
 ## Before you begin

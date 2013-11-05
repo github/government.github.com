@@ -1,6 +1,7 @@
 ---
 layout: home
 title: GitHub and Government
+org_count: 60
 ---
 
 <div class="stories container">
@@ -50,13 +51,17 @@ title: GitHub and Government
   <div class="container">
     <div id="orgs">
       <div class="the-orgs">
+    {% assign count = 0 %}
     {% for type_hash in site.organizations %}
       {% for org in type_hash[1] %}
-        <div class="organization">
-          <a href="https://github.com/{{ org }}" title="{{ org }}">
-            <img class="avatar" src="https://github.com/{{ org }}.png" width="80" height="80" alt="{{ org }}"/>
-          </a>
-        </div>
+        {% if count < page.org_count %}
+          <div class="organization">
+            <a href="https://github.com/{{ org }}" title="{{ org }}">
+              <img class="avatar" src="https://github.com/{{ org }}.png" width="80" height="80" alt="{{ org }}"/>
+            </a>
+          </div>
+        {% endif %}
+        {% assign count = count | plus: 1 %}
       {% endfor %}
     {% endfor %}
       </div> <!-- class="the-orgs" -->

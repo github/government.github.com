@@ -2,7 +2,7 @@
 layout: story
 author: Ben Balter, GitHub
 title: A Modern Approach to Open Data
-description: "Developers from the Sunlight Foundation, GovTrack, and the New York Times decided to stop each building the same basic tools over and over, and start building an open data platform they could share."
+description: Developers from the Sunlight Foundation, GovTrack, and the New York Times decided to stop each building the same basic tools over and over, and start building an open data platform they could share.
 image: /images/unitedstates.png
 category: open data
 

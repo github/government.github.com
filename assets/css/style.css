@@ -394,21 +394,6 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 
 /* Organizations Section */
 
-#orgs {
-  position: relative;
-  height: 365px;
-  overflow: hidden;
-  margin-bottom: 18px;
-}
-
-.the-orgs {
-  position: absolute;
-  top: -30px;
-  left: -60px;
-  display: inline;
-  z-index: 0;
-}
-
 .contribute {
   background-color: #fafafa;
   border: 1px solid #eee;
@@ -527,5 +512,4 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
   .splash { padding-top: 20px; }
   header nav a { font-size: 11px; }
   h1 { font-size: 300%; line-height: 1.2em; }
-  .the-orgs { left: 0; }
 }

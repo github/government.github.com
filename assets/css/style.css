@@ -496,7 +496,7 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 
 .category { margin-right: 8px; }
 
-#Archive .meta, #CategoryArchive .meta {
+#Archive .meta, #Category-Archive .meta {
   padding-bottom: 0;
   font-weight: 300;
 }

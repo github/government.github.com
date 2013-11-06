@@ -50,7 +50,7 @@ title: GitHub and Government
   <div class="container">
     <div id="orgs">
       <div class="the-orgs">
-    {% for type_hash in site.organizations %}
+    {% for type_hash in site.data.organizations %}
       {% for org in type_hash[1] %}
         <div class="organization">
           <a href="https://github.com/{{ org }}" title="{{ org }}">

@@ -449,18 +449,18 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 /* Media Queries */
 /* ----------------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 979px)  {
+@media (max-width: 979px) {
   .no-mobile { display: none !important; }
 }
 
-@media only screen and (min-width: 650px) and (max-width: 767px) {
+@media (min-width: 650px) and (max-width: 767px) {
   .span4, .span8, .span10, .span12 { width: 100%; }
   nav { float: left; padding-top: 20px; width: 428px; text-align: left; }
-  header nav a:first-of-type { margin-left: 0;}
+  header nav a:first-of-type { margin-left: 0; }
   img { width: 100%; }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 649px) {
+@media (min-width: 320px) and (max-width: 649px) {
   .span4, .span8, .span10, .span12 { width: 100%; }
   a { word-wrap: break-word;}
   nav { float: left; padding-top: 20px; }

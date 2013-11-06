@@ -267,7 +267,6 @@ header nav a {
   height: 150px;
   background-position: center;
   background-color: #eee;
-  background-size: 250%;
 }
 
 a.open.data:hover { color: #05d8af; border-color: #05d8af; }

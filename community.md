@@ -31,9 +31,11 @@ This website is [open source](https://github.com/github/government.github.com), 
 * Go to [this repository](https://github.com/github/government.github.com) and fork it (button to the top right of the page).
 * In your forked version, click on the `_config.yml` file.
 * At the top of the file is a list of the organizations populating this page. Click edit, near the top right, and then add your organization's GitHub account name just like the others: `- myagencysname`.
-* Click Commit at the bottom of the page.
-* Visit the [original repository](https://github.com/github/government.github.com) and select Pull Request.
-* Fill out the form and submit!
+* Click the green "Commit Changes" button at the bottom of the page.
+* Click on the little Pull Requests icon in the menu on the right.
+* Click the green "New pull request" button in the top right.
+* Click on the blue link: "Click to create a pull request for this comparison."
+* Click the green "Send pull request" button.
 
 </div>
 </div>

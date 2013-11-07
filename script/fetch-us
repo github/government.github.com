@@ -16,6 +16,10 @@ orgs.each do |org|
   config["organizations"]["United States"].push org.downcase unless config["organizations"]["United States"].include? org.downcase
 end
 
-output = { "United States" => config["organizations"]["United States"].sort do |a,b| a.upcase <=> b.upcase end }
+output = {
+  "United States" => config["organizations"]["United States"].uniq.sort do
+      |a,b| a.upcase <=> b.upcase
+  end
+}
 puts "To be pasted into _config.yml"
 puts output.to_yaml

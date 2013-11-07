@@ -1,52 +1,6 @@
 # list of GitHub organization usernames, grouped by type
 organizations:
 
-  United States:
-    - adlnet
-    - cfpb
-    - chaos
-    - cmsgov
-    - commercegov
-    - department-of-veterans-affairs
-    - educationdatainitiative
-    - erdc-cm
-    - fcc
-    - federal-aviation-administration
-    - gsa
-    - gsa-ocsit
-    - hhs
-    - historyatstate
-    - hpc
-    - imls
-    - info-sharing-environment
-    - informaticslab
-    - libraryofcongress
-    - losalamos
-    - mcc-gov
-    - nasa
-    - nationalparkservice
-    - ncbitools
-    - ncip
-    - nhlbi
-    - nrel
-    - opengovplatform
-    - ozoneplatform
-    - peacecorps
-    - presidential-innovation-fellows
-    - redhawksdr
-    - usagov
-    - usaid
-    - usasearch
-    - usda
-    - usdepartmentoflabor
-    - usepa
-    - usgs
-    - usnationalarchives
-    - virtual-world-framework
-    - whitehouse
-#   - USDA-ERS
-#   - usinterior
-
   Australia:
     - actgov
 
@@ -98,7 +52,7 @@ organizations:
 
   Puerto Rico:
     - commonwealth-of-puerto-rico
-    
+
   Spain:
     - ctt-gob-es
 
@@ -130,13 +84,16 @@ organizations:
     - department-of-veterans-affairs
     - educationdatainitiative
     - erdc-cm
+    - eregs
     - fcc
+    - foreignassistance
     - gsa
     - gsa-ocsit
     - hhs
     - historyatstate
     - hpc
     - imls
+    - info-sharing-environment
     - informaticslab
     - libraryofcongress
     - losalamos
@@ -152,18 +109,19 @@ organizations:
     - peacecorps
     - presidential-innovation-fellows
     - redhawksdr
+    - state-hiu
     - usagov
     - usaid
     - usasearch
     - usda
+    - USDA-ERS
     - usdepartmentoflabor
     - usepa
     - usgs
+    - usinterior
     - usnationalarchives
     - virtual-world-framework
     - whitehouse
-#   - USDA-ERS
-#   - usinterior
 
   European Union:
     - europeana

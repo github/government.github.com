@@ -144,9 +144,9 @@ small {
   color: #acacac;
 }
 
-.open .data:not(.more-stories, .title-link) { color: #05d8af; }
-.open .government:not(.more-stories, .title-link) { color: #f42f71; }
-.open .source:not(.more-stories, .title-link) { color: #00acef; }
+.open .data:not(.more-stories):not(.title-link) { color: #05d8af; }
+.open .government:not(.more-stories):not(.title-link) { color: #f42f71; }
+.open .source:not(.more-stories):not(.title-link) { color: #00acef; }
 
 .data { color: #05d8af; }
 .government { color: #f42f71; }

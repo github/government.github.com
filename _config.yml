@@ -76,52 +76,52 @@ organizations:
     - ministryofjustice
 
   United States:
-    - adlnet
-    - cfpb
-    - chaos
-    - cmsgov
-    - commercegov
-    - department-of-veterans-affairs
-    - educationdatainitiative
-    - erdc-cm
-    - eregs
-    - fcc
-    - foreignassistance
-    - gsa
-    - gsa-ocsit
-    - hhs
-    - historyatstate
-    - hpc
-    - imls
-    - info-sharing-environment
-    - informaticslab
-    - libraryofcongress
-    - losalamos
-    - mcc-gov
-    - nasa
-    - nationalparkservice
-    - ncbitools
-    - ncip
-    - nhlbi
-    - nrel
-    - opengovplatform
-    - ozoneplatform
-    - peacecorps
-    - presidential-innovation-fellows
-    - redhawksdr
-    - state-hiu
-    - usagov
-    - usaid
-    - usasearch
-    - usda
-    - USDA-ERS
-    - usdepartmentoflabor
-    - usepa
-    - usgs
-    - usinterior
-    - usnationalarchives
-    - virtual-world-framework
-    - whitehouse
+  - adlnet
+  - cfpb
+  - chaos
+  - cmsgov
+  - commercegov
+  - department-of-veterans-affairs
+  - educationdatainitiative
+  - erdc-cm
+  - eregs
+  - fcc
+  - foreignassistance
+  - gsa
+  - gsa-ocsit
+  - hhs
+  - historyatstate
+  - hpc
+  - imls
+  - info-sharing-environment
+  - informaticslab
+  - libraryofcongress
+  - losalamos
+  - mcc-gov
+  - nasa
+  - nationalparkservice
+  - ncbitools
+  - ncip
+  - nhlbi
+  - nrel
+  - opengovplatform
+  - ozoneplatform
+  - peacecorps
+  - presidential-innovation-fellows
+  - redhawksdr
+  - state-hiu
+  - usagov
+  - usaid
+  - usasearch
+  - usda
+  - USDA-ERS
+  - usdepartmentoflabor
+  - usepa
+  - usgs
+  - usinterior
+  - usnationalarchives
+  - virtual-world-framework
+  - whitehouse
 
   European Union:
     - europeana
@@ -133,7 +133,7 @@ organizations:
   U.S. States:
     - agrc
     - nysenate
-#    - wsdot
+    - wsdot
     - nys-its
 
   U.S. County:
@@ -147,7 +147,7 @@ organizations:
 
   U.S. City:
     - chicago
-#    - sfgov
+    - sfgov
     - cityofnewyork
     - octolabs
     - city-of-bloomington

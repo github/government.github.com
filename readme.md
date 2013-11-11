@@ -31,7 +31,7 @@ Have an open government story to share? Instructions for contributing a story ar
 
 #### Add Organization
 
-If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community](http://government.github.com/community) page: fork this repository, open the `_config.yml` file and add it to the appropriate section of the list in the format being used. Commit your change and submit a pull request to us!
+If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community](http://government.github.com/community) page: fork this repository, open the `_data/organizations.yml` file and add it to the appropriate section of the list in the format being used. Commit your change and submit a pull request to us!
 
 ---
 

@@ -7,19 +7,19 @@ require "open-uri"
 require "json"
 require "yaml"
 
-config = YAML.load_file "./_config.yml"
+org_file = YAML.load_file "./_data/organizations.yml"
 
 orgs = JSON.parse open("http://registry.usa.gov/accounts?service_id=GitHub&format=json").read
 orgs = orgs["accounts"].collect { |data| data["account"] }
 
 orgs.each do |org|
-  config["organizations"]["United States"].push org.downcase unless config["organizations"]["United States"].include? org.downcase
+  org_file["United States"].push(org.downcase) unless org_file["United States"].include?(org.downcase)
 end
 
 output = {
-  "United States" => config["organizations"]["United States"].uniq.sort do
+  "United States" => org_file["United States"].uniq.sort do
       |a,b| a.upcase <=> b.upcase
   end
 }
-puts "To be pasted into _config.yml"
+puts "To be pasted into _data/organizations.yml"
 puts output.to_yaml

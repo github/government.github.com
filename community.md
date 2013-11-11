@@ -7,7 +7,7 @@ permalink: /community/
 <div id="community" class="container">
   <div class="row">
     <div class="span8">
-    {% for type_hash in site.organizations %}
+    {% for type_hash in site.data.organizations %}
     <div class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}"><p>{{ type_hash[0] }}</p></div>
       {% for org in type_hash[1] %}
         <div class="organization">

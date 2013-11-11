@@ -1,4 +1,4 @@
 ---
 layout: none
 ---
-{{ site.organizations | jsonify }}
+{{ site.data.organizations | jsonify }}

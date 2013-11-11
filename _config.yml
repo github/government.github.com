@@ -133,7 +133,7 @@ organizations:
   U.S. States:
     - agrc
     - nysenate
-#    - wsdot
+    - wsdot
     - nys-its
 
   U.S. County:
@@ -147,7 +147,7 @@ organizations:
 
   U.S. City:
     - chicago
-#    - sfgov
+    - sfgov
     - cityofnewyork
     - octolabs
     - city-of-bloomington

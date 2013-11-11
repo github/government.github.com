@@ -6,7 +6,7 @@ organizations:
 
   Argentina:
     - gcba
-
+    
   Belgium:
     - onroerenderfgoed
 
@@ -166,6 +166,8 @@ organizations:
     - CityofSantaMonica
 
   Civic Hackers:
+    - partidodelared
+    - democracyos
     - infoculture
     - codeforamerica
     - sunlightlabs

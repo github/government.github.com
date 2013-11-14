@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'github-octicons';
   src: url("/assets/img/octicons/github-octicons.eot");
-  src: url("/assets/img/octicons/github-octicons.eot#iefix") format("embedded-opentype"), url("/assets/img/octicons/github-octicons.woff") format("woff"), url("/assets/img/octicons/github-octicons.ttf") format("truetype"), url("/assets/img/octicons/github-octicons.svg#github-octicons") format("svg");
+  src: url("/assets/img/octicons/github-octicons.eot?#iefix") format("embedded-opentype"), url("/assets/img/octicons/github-octicons.woff") format("woff"), url("/assets/img/octicons/github-octicons.ttf") format("truetype"), url("/assets/img/octicons/github-octicons.svg#github-octicons") format("svg");
   font-weight: normal;
   font-style: normal; }
 

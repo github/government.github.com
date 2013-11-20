@@ -460,6 +460,8 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 .storypage-image {
   width: 100%;
   border-bottom: 4px solid;
+  height: 300px;
+  background-position: center;
 }
 
 /* Supporting page */

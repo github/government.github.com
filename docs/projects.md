@@ -53,4 +53,4 @@ Post your website's privacy policy, comment moderation policy, or terms of servi
 
 Does your agency use an existing open source project to conduct its own business? Open an issue on the project's repository with a feature request or a bug you spot. Better yet, fork the project, and submit your improvements. Even if it's one or two lines of code, such examples are great to blog about to showcase your efforts.
 
-Don't forget, this site is an open source project, too. Making an needed edit is another great way to get started.
+Don't forget, this site is an open source project, too. Making a needed edit is another great way to get started.

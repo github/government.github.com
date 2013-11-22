@@ -4,7 +4,7 @@ Summary:
   - criterion: "Section 1194.21 Software Applications and Operating Systems"
     support:
     comments:
-  - criterion: "Section 1194.22 Web-based Internet Information and Applications"
+  - criterion: "Section 1194.22 Web-based Intranet and Internet Information and Applications"
     support:
     comments:
   - criterion: "Section 1194.23 Telecommunications Products"
@@ -64,7 +64,7 @@ Summary:
     support:
     comments:
 
-"Section 1194.22 Web-based Intranet and Internet information and Applications":
+"Section 1194.22 Web-based Intranet and Internet Information and Applications":
   - criterion: "(a) A text equivalent for every non-text element shall be provided (e.g., via 'alt', 'longdesc', or in element content)."
     support:  Supports
     comments:

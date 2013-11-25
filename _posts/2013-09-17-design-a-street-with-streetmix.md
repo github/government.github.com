@@ -5,7 +5,7 @@
  description: Streetmix is an open source civic web application with its code on GitHub. It was created by a handful of 2013 Code for America fellows, each on different teams, who came together to solve a problem.
  image: /images/streetmix.png
  category: open source
- ---
+---
 
 Streetmix is an open source civic web application (that means no install; it's all online) with its code on GitHub ([here's the repository](https://github.com/codeforamerica/streetmix)). It was created by a handful of 2013 [Code for America](http://www.codeforamerica.org) fellows each on different teams, who came together to solve a problem.
 

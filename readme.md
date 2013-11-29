@@ -27,7 +27,7 @@ If you see an error or a place where content should be updated or improved, just
 
 #### Add a Story
 
-Have an open government story to share? Instructions for contributing a story are in [docs/submit.md](https://github.com/github/government.github.com/blob/gh-pages/docs/submit.md).
+Have an open government story to share? Instructions for contributing a story are in [docs/submit.md](docs/submit.md).
 
 #### Add Organization
 
@@ -54,8 +54,9 @@ git clone https://github.com/github/government.github.com.git
 cd government.github.com
 script/bootstrap
 script/server
-open http://localhost:4000
 ```
+Open `http://localhost:4000` in your browser
+
 ----
 
 Don't see what you're looking for? Create an [issue](https://github.com/github/government.github.com/issues/new), we'll do our best to help you out.

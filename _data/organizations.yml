@@ -125,6 +125,7 @@ European Union:
   - europeana
 
 International:
+  - IATI
   - ogpl
   - rOpenGov
 
@@ -138,6 +139,7 @@ U.S. County:
   - sfcta
   - miamidade
   - slugis
+  - baltimorecounty
 
 U.S. Special District:
   - cleveland-metroparks
@@ -206,3 +208,5 @@ Civic Hackers:
   - KoelnAPI
   - okfirl
   - openstate
+  - codeforafrica
+  - otvorenesudy

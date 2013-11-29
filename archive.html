@@ -1,13 +1,13 @@
 ---
 layout: support-page
-description: "All of the stories."
+description: All of the stories.
 permalink: /archive/
 title: Archive
 ---
 
 <div class="row">
   <div class="span8">
-    <article id="more-stories" class="story-unit">
+    <article class="story-unit">
       {% for post in site.posts offset:0 %}
       <div class="one-story">
         <div class="meta">{{ post.date | date: "%B %d, %Y"}}</div>

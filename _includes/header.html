@@ -7,18 +7,16 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.description }}">
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ site.root }}assets/css/style.css">
-  <link rel="stylesheet" href="{{ site.root }}assets/css/icons.css">
-  <script src="{{ site.root }}assets/js/modernizr.js"></script>
+  <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/icons.css">
+  <script src="/assets/js/modernizr.js"></script>
   <!--[if lt IE 9]>
-    <script src="{{ site.root }}assets/js/respond.min.js"></script>
+    <script src="/assets/js/respond.min.js"></script>
   <![endif]-->
-  <link rel="shortcut icon" href="{{ site.root }}assets/img/favicon.ico" type="image/x-icon">
-
   {% include analytics.html %}
-
 </head>
 
 <body{% if page.id %} id="{{ page.id }}"{% endif %} class="{{ page.layout }}">

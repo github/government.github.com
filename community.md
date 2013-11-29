@@ -29,7 +29,7 @@ This website is [open source](https://github.com/github/government.github.com), 
 
 * Log in to [GitHub](https://github.com){:target="_blank"}.
 * Go to [this repository](https://github.com/github/government.github.com) and fork it (button to the top right of the page).
-* In your forked version, click the branch dropdown and in the "Fnid or create a branch..." field, create a new branch (for example, "adding myagencyname").
+* In your forked version, click the branch dropdown and in the "Find or create a branch..." field, create a new branch (for example, "adding myagencyname").
 * Still in your forked version, click on the `_data/organizations.yml` file.
 * At the top of the file is a list of the organizations populating this page. Click edit, near the top right, and then add your organization's GitHub account name just like the others: `- myagencysname`.
 * Click Commit Changes at the bottom of the page.

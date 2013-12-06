@@ -37,11 +37,13 @@ collaborators, including [Feff](http://www.feffproject.org/),
 [Ifeffit](https://github.com/newville/ifeffit), and
 [Larch](https://github.com/xraypy/xraylarch).
 
-[Demeter](https://github.com/bruceravel/demeter) is a system for
-linking the capabilities of the backend scientific tool to useful and
-expressive user interfaces which allow scientists to use data measured
-at synchrotron facilities to the fullest extent.  The programs built
-using Demeter -- Athena (for XAS data processing), Artemis (for
-quantittive XAS data analysis), and Hephaestus (a souped-up periodic
-table for the XAS practitioner) -- are in use by many hundreds of
-scientists around the country and around the world.
+As a system for linking the capabilities of the backend scientific
+tool to useful and expressive user interfaces,
+[Demeter](https://github.com/bruceravel/demeter) allows scientists to
+use data measured at synchrotron facilities to the fullest extent,
+enabling significant advances in many of the scientific areas most
+important to society.  The programs built using Demeter -- Athena
+(for XAS data processing), Artemis (for quantittive XAS data
+analysis), and Hephaestus (a souped-up periodic table for the XAS
+practitioner) -- are in use by many hundreds of scientists around the
+country and around the world.

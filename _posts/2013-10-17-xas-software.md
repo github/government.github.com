@@ -38,7 +38,7 @@ collaborators, including [Feff](http://www.feffproject.org/),
 [Larch](https://github.com/xraypy/xraylarch).
 
 As a system for linking the capabilities of the backend scientific
-tool to useful and expressive user interfaces,
+tools to useful and expressive user interfaces,
 [Demeter](https://github.com/bruceravel/demeter) allows scientists to
 use data measured at synchrotron facilities to the fullest extent,
 enabling significant advances in many of the scientific areas most

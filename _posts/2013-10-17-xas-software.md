@@ -7,7 +7,7 @@ facilities
   * [The Advanced Photon Source](http://www.aps.anl.gov)
   * [The National Synchrotron Light Source](http://www.bnl.gov/ps)
   * [The Stanford Synchrotron Radiation Lightsource](http://ssrl.slac.stanford.edu/)
-  * [The Advance Light Source](http://www-als.lbl.gov/)
+  * [The Advanced Light Source](http://www-als.lbl.gov/)
   
 XAS is a way of probing the electronic and atomic structure of matter
 using X-rays.  With XAS, a researcher can understand the properties of

@@ -1,8 +1,9 @@
-[Demeter](https://github.com/bruceravel/demeter) is scientific
-software for the processing and analysis of a measurement technique
-called X-ray Absorption Spectroscopy (XAS).  This is a technique
-familiar to users of synchrotron radiation research facilities around
-the world, including those in the United States operated by the
+[Demeter](https://github.com/bruceravel/demeter) scientific software
+for the processing and analysis of data from a measurement technique
+called
+[X-ray Absorption Spectroscopy (XAS)](http://en.wikipedia.org/wiki/EXAFS).
+XAS is familiar to users of synchrotron radiation research facilities
+around the world, including those in the United States operated by the
 Department of Energy:
 
   * [The Advanced Photon Source](http://www.aps.anl.gov)
@@ -48,5 +49,5 @@ enabling significant advances in many of the scientific areas most
 important to society.  The programs built using Demeter -- Athena (for
 XAS data processing), Artemis (for quantittive XAS data analysis), and
 Hephaestus (a souped-up periodic table for the XAS practitioner) --
-enable many many hundreds of scientists from around the country and
-around the world to make scientific progress using XAS.
+enable many hundreds of scientists from around the country and around
+the world to make scientific progress using XAS.

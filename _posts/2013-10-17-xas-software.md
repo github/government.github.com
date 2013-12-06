@@ -1,8 +1,9 @@
 [Demeter](https://github.com/bruceravel/demeter) is scientific
 software for the processing and analysis of a measurement technique
 called X-ray Absorption Spectroscopy (XAS).  This is a technique
-familiar to users of the Department of Energy's synchrotron radiation
-facilities
+familiar to users of synchrotron radiation research facilities around
+the world, including those in the United States operated by the
+Department of Energy:
 
   * [The Advanced Photon Source](http://www.aps.anl.gov)
   * [The National Synchrotron Light Source](http://www.bnl.gov/ps)
@@ -10,14 +11,16 @@ facilities
   * [The Advanced Light Source](http://www-als.lbl.gov/)
   
 XAS is a way of probing the electronic and atomic structure of matter
-using X-rays.  With XAS, a researcher can understand the properties of
-materials by understanding how the atoms in the material stack
-together.  XAS plays a central role in a broad field of scientific
-activities and is essential to researchers working in such disparate
-areas as batteries, fuel cells, catalytic materials, materials for
-electronics, photovoltaic materials, the fate and trasport of
+using X-rays.  With XAS, a researcher can understand the properties
+and behavior of materials by understanding how the atoms in the
+material stack together.  XAS plays a central role in a wide variety
+of scientific activities.  It is essential to researchers working in
+energy science (including batteries, fuel cells, catalytic materials,
+photovoltaic materials), materials for computers and electronics,
+environmental science topics such as the fate and trasport of
 contaminant metals in natural systems, and the role of metals in
-proteins and other organic materials.
+proteins and tissues.  In short, XAS has an impact on all the areas of
+scientific activity that have the greatest impact on life and society.
 
 Scientists from the
 [Synchrotron Methods Group](http://www.nist.gov/mml/mmsd/synchrotron_methods/index.cfm)
@@ -37,13 +40,13 @@ collaborators, including [Feff](http://www.feffproject.org/),
 [Ifeffit](https://github.com/newville/ifeffit), and
 [Larch](https://github.com/xraypy/xraylarch).
 
-As a system for linking the capabilities of the backend scientific
-tools to useful and expressive user interfaces,
+As a system for linking the advanced capabilities of the backend
+scientific tools to useful and expressive user interfaces,
 [Demeter](https://github.com/bruceravel/demeter) allows scientists to
 use data measured at synchrotron facilities to the fullest extent,
 enabling significant advances in many of the scientific areas most
-important to society.  The programs built using Demeter -- Athena
-(for XAS data processing), Artemis (for quantittive XAS data
-analysis), and Hephaestus (a souped-up periodic table for the XAS
-practitioner) -- are in use by many hundreds of scientists around the
-country and around the world.
+important to society.  The programs built using Demeter -- Athena (for
+XAS data processing), Artemis (for quantittive XAS data analysis), and
+Hephaestus (a souped-up periodic table for the XAS practitioner) --
+enable many many hundreds of scientists from around the country and
+around the world to make scientific progress using XAS.

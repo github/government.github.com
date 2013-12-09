@@ -20,7 +20,7 @@ energy science (including batteries, fuel cells, catalytic materials,
 photovoltaic materials), materials for computers and electronics,
 environmental science topics such as the fate and trasport of
 contaminant metals in natural systems, and the role of metals in
-proteins and tissues.  In short, XAS has an impact on all the areas of
+proteins and tissues.  In short, XAS has an impact on many of the areas of
 scientific activity that have the greatest impact on life and society.
 
 Scientists from the

@@ -1,4 +1,4 @@
-[Demeter](https://github.com/bruceravel/demeter) scientific software
+[Demeter](https://github.com/bruceravel/demeter) is scientific software
 for the processing and analysis of data from a measurement technique
 called
 [X-ray Absorption Spectroscopy (XAS)](http://en.wikipedia.org/wiki/EXAFS).

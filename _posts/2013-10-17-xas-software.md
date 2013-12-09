@@ -29,15 +29,6 @@ use data measured at synchrotron facilities to the fullest extent,
 enabling significant advances in many of the scientific areas most
 important to society.  
 
-XAS is familiar to users of synchrotron radiation research facilities
-around the world, including those in the United States operated by the
-Department of Energy:
-
-  * [The Advanced Photon Source](http://www.aps.anl.gov)
-  * [The National Synchrotron Light Source](http://www.bnl.gov/ps)
-  * [The Stanford Synchrotron Radiation Lightsource](http://ssrl.slac.stanford.edu/)
-  * [The Advanced Light Source](http://www-als.lbl.gov/)
-  
 XAS is a way of probing the electronic and atomic structure of matter
 using X-rays.  With XAS, a researcher can understand the properties
 and behavior of materials by understanding how the atoms in the

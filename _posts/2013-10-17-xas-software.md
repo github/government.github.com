@@ -15,13 +15,6 @@ operated by the Department of Energy and one of
 The instrumentation and methodology develop at a rapid pace, requiring
 novel software tools to make effective use of the data measured.
 
-As a system for linking the advanced capabilities of the backend
-scientific tools to useful and expressive user interfaces,
-[Demeter](https://github.com/bruceravel/demeter) allows scientists to
-use data measured at synchrotron facilities from around the world to
-the fullest extent, enabling significant advances in many of the
-scientific areas most important to society.
-
 XAS is a way of probing the electronic and atomic structure of matter
 using X-rays.  With XAS, a researcher can understand the properties
 and behavior of materials by understanding how the atoms in the
@@ -53,6 +46,13 @@ the scientific software efforts of various academic collaborators,
 including [Feff](http://www.feffproject.org/),
 [Ifeffit](https://github.com/newville/ifeffit), and
 [Larch](https://github.com/xraypy/xraylarch).
+
+As a system for linking the advanced capabilities of the backend
+scientific tools to useful and expressive user interfaces,
+[Demeter](https://github.com/bruceravel/demeter) allows scientists to
+use data measured at synchrotron facilities from around the world to
+the fullest extent, enabling significant advances in many of the
+scientific areas most important to society.
 
 The programs built using Demeter -- Athena (for XAS data processing),
 Artemis (for quantitative XAS data analysis), and Hephaestus (a

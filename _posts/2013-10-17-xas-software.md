@@ -1,4 +1,3 @@
-
 Scientists from the
 [Synchrotron Methods Group](http://www.nist.gov/mml/mmsd/synchrotron_methods/index.cfm)
 at the
@@ -10,8 +9,8 @@ measurement facilities at
 [synchrotron](http://en.wikipedia.org/wiki/Synchrotron) is a
 large-scale scientific facilities dedicated to producing intense beams
 of X-rays for research applications.  The NSLS is one of
-[four such facilties](http://science.energy.gov/user-facilities/basic-energy-sciences/)
-in the United States operated by the Department of Energy and one of
+[four such facilties in the United States](http://science.energy.gov/user-facilities/basic-energy-sciences/)
+operated by the Department of Energy and one of
 [about fifty worldwide](http://www.lightsources.org/light-source-facility-information).
 The instrumentation and methodology develop at a rapid pace, requiring
 novel software tools to make effective use of the data measured.

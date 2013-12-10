@@ -7,11 +7,13 @@ develop state of-the-art synchrotron X-ray measurement technology,
 including instrumentation, methods, and analytical tools, for X-ray
 measurement facilities at
 [The National Synchrotron Light Source](http://www.bnl.gov/ps).  A
-synchrotron is a large-scale scientific facilities dedicated to
-producing intense beams of X-rays for research applications.  The NSLS
-is one of four such facilties in the United States operated by the
-Department of Energy and one of about fifty worldwide.  The
-instrumentation and methodology develop at a rapid pace, requiring
+[synchrotron](http://en.wikipedia.org/wiki/Synchrotron) is a
+large-scale scientific facilities dedicated to producing intense beams
+of X-rays for research applications.  The NSLS is one of
+[four such facilties](http://science.energy.gov/user-facilities/basic-energy-sciences/)
+in the United States operated by the Department of Energy and one of
+[about fifty worldwide](http://www.lightsources.org/light-source-facility-information).
+The instrumentation and methodology develop at a rapid pace, requiring
 novel software tools to make effective use of the data measured.
 
 As a system for linking the advanced capabilities of the backend

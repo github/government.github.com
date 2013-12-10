@@ -1,3 +1,12 @@
+---
+layout: story
+author: Bruce Ravel, National institute of Standards and Technology
+title: NIST opens up atoms with open source
+description: Scientists from the Synchrotron Methods Group at the National Institute of Standards and Technology develop state of-the-art synchrotron X-ray measurement technology, including instrumentation, methods, and analytical tools, for X-ray measurement facilities at The National Synchrotron Light Source.
+image: /images/xas.png
+category: open source
+---
+
 Scientists from the
 [Synchrotron Methods Group](http://www.nist.gov/mml/mmsd/synchrotron_methods/index.cfm)
 at the
@@ -9,7 +18,7 @@ measurement facilities at
 [synchrotron](http://en.wikipedia.org/wiki/Synchrotron) is a
 large-scale particle accelerator dedicated to producing intense beams
 of X-rays for research applications.  The NSLS is one of
-[four such facilties in the United States](http://science.energy.gov/user-facilities/basic-energy-sciences/)
+[four such facilities in the United States](http://science.energy.gov/user-facilities/basic-energy-sciences/)
 operated by the Department of Energy and one of
 [about fifty worldwide](http://www.lightsources.org/light-source-facility-information).
 The instrumentation and methodology develop at a rapid pace, requiring

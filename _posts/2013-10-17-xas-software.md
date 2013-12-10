@@ -51,8 +51,8 @@ scientific tools to useful and expressive user interfaces,
 use data measured at synchrotron facilities from around the world to
 the fullest extent.
 
-The programs built using Demeter -- Athena (for XAS data processing),
+The programs built using Demeter &ndash; Athena (for XAS data processing),
 Artemis (for quantitative XAS data analysis), and Hephaestus (a
-souped-up periodic table for the XAS practitioner) -- enable thousands
+souped-up periodic table for the XAS practitioner) &ndash; enable thousands
 of scientists from around the country and the world to make scientific
 progress using XAS.

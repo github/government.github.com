@@ -2,7 +2,7 @@
 layout: story
 author: Bruce Ravel, National institute of Standards and Technology
 title: NIST opens up atoms with open source
-description: Scientists from the Synchrotron Methods Group at the National Institute of Standards and Technology develop state of-the-art synchrotron X-ray measurement technology, including instrumentation, methods, and analytical tools, for X-ray measurement facilities at The National Synchrotron Light Source.
+description: Scientists from the Synchrotron Methods Group at the National Institute of Standards and Technology develop state-of-the-art synchrotron X-ray measurement technology, including instrumentation, methods, and analytical tools, for X-ray measurement facilities at The National Synchrotron Light Source.
 image: /images/xas.png
 category: open source
 ---
@@ -11,7 +11,7 @@ Scientists from the
 [Synchrotron Methods Group](http://www.nist.gov/mml/mmsd/synchrotron_methods/index.cfm)
 at the
 [National Institute of Standards and Technology](http://www.nist.gov)
-develop state of-the-art synchrotron X-ray measurement technology,
+develop state-of-the-art synchrotron X-ray measurement technology,
 including instrumentation, methods, and analytical tools, for X-ray
 measurement facilities at
 [The National Synchrotron Light Source](http://www.bnl.gov/ps).  A

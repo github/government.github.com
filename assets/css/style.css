@@ -243,14 +243,9 @@ header {
 
 header .logo {
   background: url("../img/github-gov-black.png") no-repeat;
-  background-size: contain;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  display: block;
-  height: 24px;
-  width: 300px;
   float: left;
+  width: 269px;
+  height: 23px;
 }
 
 header .container {

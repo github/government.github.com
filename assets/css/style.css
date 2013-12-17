@@ -26,20 +26,6 @@ body {
   max-width: 980px;
 }
 
-.span4 {
-  width: 30%;
-  text-align: left;
-}
-
-.span8 {
-  width: 60%;
-}
-
-.span12 {
-  width: 95%;
-}
-
-
 /* headings */
 
 h1, h2, h3, h4, h5, h6 {
@@ -329,13 +315,6 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
   color: #333;
 }
 
-.story-unit.span8 img {
-  height: 200px;
-}
-
-.story-unit.span4 img {
-  height: 200px;
-}
 
 /* footer */
 /* ----------------------------------------------------------------------------------- */
@@ -507,14 +486,12 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 }
 
 @media only screen and (min-width: 650px) and (max-width: 767px) {
-  .span4, .span8, .span10, .span12 { width: 100%; }
   nav { float: left; padding-top: 20px; width: 428px; text-align: left; }
   header nav a:first-of-type { margin-left: 0;}
   img { width: 100%; }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 649px) {
-  .span4, .span8, .span10, .span12 { width: 100%; }
   a { word-wrap: break-word;}
   nav { float: left; padding-top: 20px; }
   header nav a:first-of-type { margin-left: 0; }

@@ -228,7 +228,6 @@ header {
 }
 
 header .logo {
-  background: url("../img/github-gov-black.png") no-repeat;
   float: left;
   width: 269px;
   height: 23px;
@@ -495,7 +494,6 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
   a { word-wrap: break-word;}
   nav { float: left; padding-top: 20px; }
   header nav a:first-of-type { margin-left: 0; }
-  header .logo { width: 100%; }
   .full-width { background: none; }
   .splash { padding-top: 20px; }
   header nav a { font-size: 11px; }

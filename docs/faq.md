@@ -8,7 +8,7 @@ permalink: /faq/
 * Table of Contents
 {:toc}
 
-## Open Source
+## Open Sourced
 
 #### Why should I use open source software?
 

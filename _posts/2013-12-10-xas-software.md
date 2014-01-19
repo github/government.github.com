@@ -24,7 +24,7 @@ operated by the Department of Energy and one of
 The instrumentation and methodology develop at a rapid pace, requiring
 novel software tools to make effective use of the data measured.
 
-[X-ray Absorption Spectroscopy (XAS)](http://en.wikipedia.org/wiki/EXAFS)
+[X-ray Absorption Spectroscopy](http://en.wikipedia.org/wiki/EXAFS)
 (XAS) is a way of probing the electronic and atomic structure of
 matter using X-rays.  With XAS, a researcher can understand the
 properties and behavior of materials by investigating how the atoms in

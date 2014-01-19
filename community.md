@@ -6,7 +6,8 @@ permalink: /community/
 ---
 <div class="container">
   <div class="row">
-    <div class="span8">
+    <div class="span8" id="org-avatars">
+    <div><a href="#" id="view-list">View List</a></div>
     {% for type_hash in site.data.organizations %}
     <div class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}"><p>{{ type_hash[0] }}</p></div>
       {% for org in type_hash[1] %}
@@ -18,6 +19,29 @@ permalink: /community/
       {% endfor %}
     {% endfor %}
     </div>
+    <div class="span8" id="org-list" style="display: none;">
+    <div><a href="#" id="view-avatar">View Avatars</a></div>
+    {% for type_hash in site.data.organizations %}
+      <div id="{{ type_hash[0] | downcase | replace:" ","_" }}">
+        <h2>
+          {{ type_hash[0] }}
+       </h2>
+      </div>
+      <ul>
+      {% for org in type_hash[1] %}
+        <li>
+          <a href="http://github.com/{{ org }}" title="{{ org }}">
+            <img class="avatar img-polaroid" src="https://github.com/{{ org }}.png" alt= "{{ org }}" target="_blank"/>
+          </a>
+          <h3>
+            <a href="http://github.com/{{ org }}" title="{{ org }}">{{ org }}</a>
+          </h3>
+        </li>
+      {% endfor %}
+     </ul>
+    {% endfor %}
+    </div>
+
   </div>
 
   <div class="row section">
@@ -54,3 +78,20 @@ Neither the inclusion of a logo or seal above nor the fact that a particular gov
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+  var viewListLnk = document.getElementById("view-list");
+  var viewAvatarLnk = document.getElementById("view-avatar"); 
+  var orgList = document.getElementById("org-list");
+  var orgAvatar = document.getElementById("org-avatars");
+ 
+  viewListLnk.onclick = function() {
+    orgAvatar.style.display = 'none'; 
+    orgList.style.display = 'block'; 
+  }
+
+  viewAvatarLnk.onclick = function() {
+    orgAvatar.style.display = 'block';
+    orgList.style.display = 'none';
+  }
+</script>

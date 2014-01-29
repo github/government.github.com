@@ -430,6 +430,18 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
   width: 80px;
 }
 
+#org-list ul {
+  list-style: none;
+}
+
+#org-list h2 {
+  border-bottom: 1px solid #999;
+}
+
+#org-list h3 {
+  border-bottom: 1px solid #EEE;
+}
+
 .avatar {
   height: 80px;
   width: 80px;

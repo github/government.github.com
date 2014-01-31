@@ -5,7 +5,7 @@ description: Government agencies at the national, state, and local level use Git
 permalink: /community/
 ---
 <div class="container">
-  <div class="row">
+  <div class="row-fluid">
     <div class="span8">
     {% for type_hash in site.data.organizations %}
     <div class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}"><p>{{ type_hash[0] }}</p></div>
@@ -20,7 +20,7 @@ permalink: /community/
     </div>
   </div>
 
-  <div class="row section">
+  <div class="row-fluid section">
     <div class="span6" markdown="1">
 
 ## Add An Organization to the List
@@ -46,7 +46,7 @@ While there are many many interesting government-related projects, we are limiti
 </div>
 </div>
 
-  <div class="row section">
+  <div class="row-fluid section">
     <div class="span6 fine-print">
       <small markdown="1">
 Neither the inclusion of a logo or seal above nor the fact that a particular government entity may have a presence on GitHub.com should be construed to imply that GitHub's products or services are endorsed, sponsored or recommended by the government entity, nor that they are considered by that entity to be superior to any other products or services. If you have any questions, or if would like your agency's logo removed from the list above, please [let us know](https://github.com/github/government.github.com/issues/new){: data-proofer-ignore="true"}.

@@ -2,8 +2,8 @@
 layout: nil
 ---
 
-{% include css/normalize.min.css %}
-{% include css/bootstrap.min.css %}
+{% include vendor/normalize-css/normalize.css %}
+{% include vendor/bootstrap/docs/assets/css/bootstrap.css %}
 
 li img {
   margin: 10px 0;
@@ -17,28 +17,11 @@ li img {
 
 body {
   font: 300 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 .container {
   max-width: 980px;
 }
-
-.span4 {
-  width: 30%;
-  text-align: left;
-}
-
-.span8 {
-  width: 60%;
-}
-
-.span12 {
-  width: 95%;
-}
-
 
 /* headings */
 
@@ -200,71 +183,31 @@ small {
 }
 
 /* Navigation */
-
-nav {
-  float: right;
+.logo {
+  width: 269px;
+  height: 23px;
 }
 
-.mega-octicon {
-  font: normal normal 32px octicons;
-  line-height: 1;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-font-smoothing: antialiased;
+.navbar {
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.logo-invertocat {
-  float: left;
-  padding: 8px 10px 7px;
-  margin-left: -10px;
-  margin-right: -10px;
-  color: #333;
-  -webkit-transition: all 0.1s ease-in 0;
-  -moz-transition: all 0.1s ease-in 0;
-  -o-transition: all 0.1s ease-in 0;
-  transition: all 0.1s ease-in;
-  white-space: nowrap;
-}
-
-.logo-invertocat:hover {
-  border: none;
-}
-
-#top-nav .octicon-mark-github {
-  float: left;
-  width: 24px;
-  height: 25px;
-  font-size: 25px;
-}
-
-header {
-  text-align: right;
-}
-
-header .logo {
-  background: url("../img/github-gov-black.png") no-repeat;
-  background-size: contain;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  display: block;
-  height: 24px;
-  width: 300px;
-  float: left;
-}
-
-header .container {
-  padding-top: 23px;
-  padding-bottom: 23px;
-}
-
-header nav a {
+.navbar .nav > li > a {
   color: #333;
   font-size: 13px;
   font-weight: bold;
-  margin-left: 25px;
-  vertical-align: middle;
 }
+
+.navbar-inner {
+  background: none;
+  border: none;
+}
+
+.navbar-static-top .navbar-inner {
+  box-shadow: none;
+}
+
 
 .splash {
   padding-top: 50px;
@@ -334,13 +277,6 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
   color: #333;
 }
 
-.story-unit.span8 img {
-  height: 200px;
-}
-
-.story-unit.span4 img {
-  height: 200px;
-}
 
 /* footer */
 /* ----------------------------------------------------------------------------------- */
@@ -507,26 +443,24 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 /* Media Queries */
 /* ----------------------------------------------------------------------------------- */
 
+@media only screen and (min-width: 980px)  {
+  .navbar .nav > li > a { text-decoration: none; margin-left: 25px; }
+  .navbar .nav > li > a:focus { text-decoration: underline; }
+  .navbar .nav > li > a:hover { color: #00c3f8; text-decoration: underline; }
+}
+
 @media only screen and (max-width: 979px)  {
   .no-mobile { display: none !important; }
 }
 
 @media only screen and (min-width: 650px) and (max-width: 767px) {
-  .span4, .span8, .span10, .span12 { width: 100%; }
-  nav { float: left; padding-top: 20px; width: 428px; text-align: left; }
-  header nav a:first-of-type { margin-left: 0;}
   img { width: 100%; }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 649px) {
-  .span4, .span8, .span10, .span12 { width: 100%; }
   a { word-wrap: break-word;}
-  nav { float: left; padding-top: 20px; }
-  header nav a:first-of-type { margin-left: 0; }
-  header .logo { width: 100%; }
   .full-width { background: none; }
   .splash { padding-top: 20px; }
-  header nav a { font-size: 11px; }
   h1 { font-size: 300%; line-height: 1.2em; }
   .the-orgs { left: 0; }
 }

@@ -2,8 +2,8 @@
 layout: nil
 ---
 
-{% include vendor/normalize-css/normalize.css %}
 {% include vendor/bootstrap/docs/assets/css/bootstrap.css %}
+{% include vendor/bootstrap/docs/assets/css/bootstrap-responsive.css %}
 
 li img {
   margin: 10px 0;

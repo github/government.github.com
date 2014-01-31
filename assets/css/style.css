@@ -74,29 +74,10 @@ a:hover {
   box-shadow: none;
 }
 
-a.inline-link {
-  text-decoration: none;
-  color: #00c3f8;
-  border: none;
-}
-
-h1 a.inline-link:hover {
-  border-bottom: 2px solid #00c3f8;
-}
-
 a.title-link { color: #333; }
 a.title-link:hover { color: #00c3f8; }
 
 h1 a.title-link:hover { border-bottom: 2px solid #00c3f8; }
-
-a.glossary {
-  border-bottom: 1px dotted #acacac;
-  color: #333;
-}
-
-a.glossary:hover {
-  color: #acacac;
-}
 
 .inline-link.open .data, a.open .data { border-color: #05d8af; color: #05d8af; }
 .inline-link.open .government, a.open .government { border-color: #f42f71; color: #f42f71; }
@@ -168,11 +149,6 @@ small {
   margin-top: 60px;
   margin-bottom: 60px;
   padding: 0;
-}
-
-.mega-section {
-  margin-top: 140px;
-  margin-bottom: 140px;
 }
 
 .full-width {
@@ -322,10 +298,6 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 
 .site-footer-links li + li {
   margin-left: 10px;
-}
-
-.site-footer-links img {
-  display: block;
 }
 
 /* Organizations Section */

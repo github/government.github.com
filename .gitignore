@@ -10,7 +10,6 @@ _includes/vendor/bootstrap/docs/*.html
 _includes/vendor/bootstrap/js
 _includes/vendor/bootstrap/less
 _includes/vendor/bootstrap/img
-_includes/vendor/jquery
 _includes/vendor/modernizr/feature-detects
 _includes/vendor/modernizr/media
 _includes/vendor/modernizr/test

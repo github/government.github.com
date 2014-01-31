@@ -1,17 +1,2 @@
 .DS_Store
 /_site
-_includes/vendor/bootstrap/docs/build
-_includes/vendor/bootstrap/docs/examples
-_includes/vendor/bootstrap/docs/templates
-_includes/vendor/bootstrap/docs/assets/ico/
-_includes/vendor/bootstrap/docs/assets/img/
-_includes/vendor/bootstrap/docs/assets/js/
-_includes/vendor/bootstrap/docs/*.html
-_includes/vendor/bootstrap/js
-_includes/vendor/bootstrap/less
-_includes/vendor/bootstrap/img
-_includes/vendor/modernizr/feature-detects
-_includes/vendor/modernizr/media
-_includes/vendor/modernizr/test
-_includes/vendor/respond/src
-_includes/vendor/respond/cross-domain

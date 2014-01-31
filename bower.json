@@ -12,7 +12,6 @@
     "bootstrap": "~2.3.2",
     "jquery": "~1.11.0",
     "modernizr": "~2.7.1",
-    "normalize-css": "~3.0.0",
     "respond": "~1.4.2"
   }
 }

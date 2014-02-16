@@ -1,6 +1,7 @@
 ---
 layout: home
 title: GitHub and Government
+description: Make government better, together. Stories of open source, open data, and open government.
 org_count: 60
 ---
 
@@ -11,7 +12,7 @@ org_count: 60
     {% assign mod = forloop.index0 | modulo: 6 %}
 
     {% if mod == 0 or mod == 3 %}
-      <div class="row">
+      <div class="row-fluid">
     {% endif %}
 
         <div class="story-unit span4">
@@ -32,7 +33,7 @@ org_count: 60
   {% endfor %}
 
   {% if paginator.next_page %}
-    <div class="row">
+    <div class="row-fluid">
       <div class="span8">
         <h5>View the <a href="/archive">complete archive</a> or <a href="/submit">tell your story</a>.</h5>
       </div>
@@ -57,7 +58,7 @@ org_count: 60
         {% if count < page.org_count %}
           <div class="organization">
             <a href="https://github.com/{{ org }}" title="{{ org }}">
-              <img class="avatar" src="https://github.com/{{ org }}.png" width="80" height="80" alt="{{ org }}"/>
+              <img class="avatar" src="https://github.com/{{ org }}.png" width="80" height="80" alt="{{ org }}">
             </a>
           </div>
         {% endif %}
@@ -69,7 +70,7 @@ org_count: 60
     <h5>See the rest of the GitHub <a href="/community">government community</a>.</h5>
 
 
-    <div class="row section">
+    <div class="row-fluid section">
       <div class="span4">
         <h2>Sign Up</h2>
         <ol>
@@ -94,6 +95,6 @@ org_count: 60
           <li>We've started a Government organization on GitHub so that users can connect, share best practices and learn from each other. To join, simply ensure your government email address is verified and associated with your account, and you should <a href="https://government-community.githubapp.com/">automatically be granted access</a>.</li>
         </ul>
       </div>
-    </div> <!-- class="row section" -->
+    </div> <!-- class="row-fluid section" -->
   </div>
 </div>

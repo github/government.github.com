@@ -2,8 +2,8 @@
 layout: nil
 ---
 
-{% include css/normalize.min.css %}
-{% include css/bootstrap.min.css %}
+{% include vendor/bootstrap/docs/assets/css/bootstrap.css %}
+{% include vendor/bootstrap/docs/assets/css/bootstrap-responsive.css %}
 
 li img {
   margin: 10px 0;
@@ -17,28 +17,11 @@ li img {
 
 body {
   font: 300 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 .container {
   max-width: 980px;
 }
-
-.span4 {
-  width: 30%;
-  text-align: left;
-}
-
-.span8 {
-  width: 60%;
-}
-
-.span12 {
-  width: 95%;
-}
-
 
 /* headings */
 
@@ -91,29 +74,10 @@ a:hover {
   box-shadow: none;
 }
 
-a.inline-link {
-  text-decoration: none;
-  color: #00c3f8;
-  border: none;
-}
-
-h1 a.inline-link:hover {
-  border-bottom: 2px solid #00c3f8;
-}
-
 a.title-link { color: #333; }
 a.title-link:hover { color: #00c3f8; }
 
 h1 a.title-link:hover { border-bottom: 2px solid #00c3f8; }
-
-a.glossary {
-  border-bottom: 1px dotted #acacac;
-  color: #333;
-}
-
-a.glossary:hover {
-  color: #acacac;
-}
 
 .inline-link.open .data, a.open .data { border-color: #05d8af; color: #05d8af; }
 .inline-link.open .government, a.open .government { border-color: #f42f71; color: #f42f71; }
@@ -144,9 +108,9 @@ small {
   color: #acacac;
 }
 
-.open .data:not(.more-stories, .title-link) { color: #05d8af; }
-.open .government:not(.more-stories, .title-link) { color: #f42f71; }
-.open .source:not(.more-stories, .title-link) { color: #00acef; }
+.open .data:not(.more-stories):not(.title-link) { color: #05d8af; }
+.open .government:not(.more-stories):not(.title-link) { color: #f42f71; }
+.open .source:not(.more-stories):not(.title-link) { color: #00acef; }
 
 .data { color: #05d8af; }
 .government { color: #f42f71; }
@@ -187,11 +151,6 @@ small {
   padding: 0;
 }
 
-.mega-section {
-  margin-top: 140px;
-  margin-bottom: 140px;
-}
-
 .full-width {
   width: 100%;
   background-color: #f9f9f9;
@@ -200,71 +159,31 @@ small {
 }
 
 /* Navigation */
-
-nav {
-  float: right;
+.logo {
+  width: 269px;
+  height: 23px;
 }
 
-.mega-octicon {
-  font: normal normal 32px octicons;
-  line-height: 1;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-font-smoothing: antialiased;
+.navbar {
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.logo-invertocat {
-  float: left;
-  padding: 8px 10px 7px;
-  margin-left: -10px;
-  margin-right: -10px;
-  color: #333;
-  -webkit-transition: all 0.1s ease-in 0;
-  -moz-transition: all 0.1s ease-in 0;
-  -o-transition: all 0.1s ease-in 0;
-  transition: all 0.1s ease-in;
-  white-space: nowrap;
-}
-
-.logo-invertocat:hover {
-  border: none;
-}
-
-#top-nav .octicon-mark-github {
-  float: left;
-  width: 24px;
-  height: 25px;
-  font-size: 25px;
-}
-
-header {
-  text-align: right;
-}
-
-header .logo {
-  background: url("../img/github-gov-black.png") no-repeat;
-  background-size: contain;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  display: block;
-  height: 24px;
-  width: 300px;
-  float: left;
-}
-
-header .container {
-  padding-top: 23px;
-  padding-bottom: 23px;
-}
-
-header nav a {
+.navbar .nav > li > a {
   color: #333;
   font-size: 13px;
   font-weight: bold;
-  margin-left: 25px;
-  vertical-align: middle;
 }
+
+.navbar-inner {
+  background: none;
+  border: none;
+}
+
+.navbar-static-top .navbar-inner {
+  box-shadow: none;
+}
+
 
 .splash {
   padding-top: 50px;
@@ -334,13 +253,6 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
   color: #333;
 }
 
-.story-unit.span8 img {
-  height: 200px;
-}
-
-.story-unit.span4 img {
-  height: 200px;
-}
 
 /* footer */
 /* ----------------------------------------------------------------------------------- */
@@ -386,10 +298,6 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 
 .site-footer-links li + li {
   margin-left: 10px;
-}
-
-.site-footer-links img {
-  display: block;
 }
 
 /* Organizations Section */
@@ -460,6 +368,8 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 .storypage-image {
   width: 100%;
   border-bottom: 4px solid;
+  height: 300px;
+  background-position: center;
 }
 
 /* Supporting page */
@@ -493,7 +403,7 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 
 .category { margin-right: 8px; }
 
-#Archive .meta, #CategoryArchive .meta {
+#Archive .meta, #Category-Archive .meta {
   padding-bottom: 0;
   font-weight: 300;
 }
@@ -505,37 +415,24 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 /* Media Queries */
 /* ----------------------------------------------------------------------------------- */
 
-@media only screen and (min-width: 768px) and (max-width: 959px)  {
-  li.no-mobile { display: none; }
+@media only screen and (min-width: 980px)  {
+  .navbar .nav > li > a { text-decoration: none; margin-left: 25px; }
+  .navbar .nav > li > a:focus { text-decoration: underline; }
+  .navbar .nav > li > a:hover { color: #00c3f8; text-decoration: underline; }
+}
+
+@media only screen and (max-width: 979px)  {
+  .no-mobile { display: none !important; }
 }
 
 @media only screen and (min-width: 650px) and (max-width: 767px) {
-  .span4, .span8, .span10, .span12 { width: 100%; }
-  li.no-mobile { display: none; }
-  nav { float: left; padding-top: 20px; width: 428px; text-align: left; }
-  header nav a:first-of-type { margin-left: 0;}
   img { width: 100%; }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 649px) {
-  .span4, .span8, .span10, .span12 { width: 100%; }
   a { word-wrap: break-word;}
-  nav { float: left; padding-top: 20px; }
-  header nav a:first-of-type { margin-left: 0; }
-  header .logo { width: 100%; }
   .full-width { background: none; }
   .splash { padding-top: 20px; }
-  header nav a { font-size: 11px; }
   h1 { font-size: 300%; line-height: 1.2em; }
   .the-orgs { left: 0; }
 }
-
-/* VPAT */
-/* ----------------------------------------------------------------------------------- */
-
-table#accessibility tr th { text-align: center; vertical-align: middle; }
-table#accessibility tr td.criterion {width: 60%; font-size: 13px;}
-table#accessibility tr td.support { font-weight: bold; width: 15%; vertical-align: middle; text-align: center;}
-table#accessibility tr td.supports { color: green;  }
-table#accessibility tr td.not-applicable { color: #aaa;  }
-table#accessibility tr td.comments { width: 25%; vertical-align: middle; }

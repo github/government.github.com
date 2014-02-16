@@ -7,16 +7,19 @@ Argentina:
 
 Belgium:
   - onroerenderfgoed
+  - belgianpolice
 
 Brazil:
   - interlegis
   - gabinetedigital
   - plonegovbr
   - dadosgovbr
+  - PROCERGS
 
 Canada:
   - cityofgreatersudbury
   - cityofottawa
+  - electionsquebec
   - nsgov
   - pwgsc
   - wet-boew
@@ -61,6 +64,9 @@ Sweden:
   - rinfo
   - The-Municipality-of-Staffanstorp
 
+Switzerland:
+  - ogdch
+
 United Kingdom:
   - alphagov
   - CarersBeta
@@ -72,6 +78,9 @@ United Kingdom:
   - hmrc
   - lichfield-district-council
   - ministryofjustice
+  - dfid
+  - west-berkshire-council
+  - LocalGovDigital
 
 United States:
   - adlnet
@@ -84,9 +93,9 @@ United States:
   - erdc-cm
   - eregs
   - fcc
+  - fda
   - foreignassistance
   - gsa
-  - gsa-ocsit
   - hhs
   - historyatstate
   - hpc
@@ -114,6 +123,7 @@ United States:
   - usda
   - USDA-ERS
   - usdepartmentoflabor
+  - usstatedept
   - usepa
   - usgs
   - usinterior
@@ -125,6 +135,7 @@ European Union:
   - europeana
 
 International:
+  - IATI
   - ogpl
   - rOpenGov
 
@@ -138,6 +149,7 @@ U.S. County:
   - sfcta
   - miamidade
   - slugis
+  - baltimorecounty
 
 U.S. Special District:
   - cleveland-metroparks
@@ -162,6 +174,7 @@ U.S. City:
   - cityofasheville
   - lfucg
   - CityofSantaMonica
+  - cityofchattanooga
 
 Civic Hackers:
   - infoculture
@@ -206,3 +219,9 @@ Civic Hackers:
   - KoelnAPI
   - okfirl
   - openstate
+  - codeforafrica
+  - otvorenesudy
+  - dxw
+  - votinginfoproject
+  - postcode
+  - datauy

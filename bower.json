@@ -1,0 +1,17 @@
+{
+  "name": "government.github.com",
+  "version": "0.0.1",
+  "homepage": "http://government.github.com",
+  "authors": [
+    "GitHub, Inc."
+  ],
+  "description": "Gather, curate, and feature stories of public servants and civic hackers using GitHub as part of their open government innovations",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~2.3.2",
+    "jquery": "~1.11.0",
+    "html5shiv": "~3.7.0",
+    "respond": "~1.4.2"
+  }
+}

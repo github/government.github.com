@@ -6,8 +6,8 @@ description: Oakland Answers is a collaborative web site that allows residents e
 image: /images/answers.jpg
 category: open source
 ---
-[Oakland Answers](http://answers.oaklandnet.com) is an opensource public private collaboration between [OpenOakland](http://openoakland.org/), the City of Oakland and the broader community.
-It is a very simple, searchable tool to find answers to common questions- it works like google, it works on your phone and it's beautiful.
+[Oakland Answers](http://answers.oaklandnet.com) is an open source public private collaboration between [OpenOakland](http://openoakland.org/), the City of Oakland and the broader community.
+It is a very simple, searchable tool to find answers to common questions- it works like Google, it works on your phone and it's beautiful.
 
 To build this, 70 people gathered from across Oakland to build a resource for the entire city as part of the National Day of Civic Hacking.
 

@@ -1,7 +1,7 @@
 ---
 layout: story
 author: James Stewart, UK Government Digital Service
-title: How GDS uses Git and Github
+title: Open collaboration at the UK's Government Digital Service
 description: There's more to managing the code for a system that simply creating a repository. This is how GDS has considered collaboration patterns and risk management.
 image: /images/answers.jpg
 category: open source

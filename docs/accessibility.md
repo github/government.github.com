@@ -1,7 +1,5 @@
 ---
-# DRAFT DRAFT DRAFT DRAFT
-
-title: §508 Accessibility
+title: Accessibility
 layout: support-page
 permalink: /accessibility/
 description: ""
@@ -9,16 +7,16 @@ data:
   Summary:
     - criterion: "Section 1194.21 Software Applications and Operating Systems"
       support:
-      comments:
+      comments: GitHub for Windows and GitHub for Mac
     - criterion: "Section 1194.22 Web-based Intranet and Internet Information and Applications"
       support:
-      comments:
+      comments: GitHub.com and GitHub Enterprise
     - criterion: "Section 1194.23 Telecommunications Products"
       support: Not applicable
       comments:
     - criterion: "Section 1194.24 Video and Multi-media Products"
       support: Supports
-      comments: "All video content available via YouTube at [youtube.com/github](http://youtube.com/github) and [youtube.com/githubguides](http://youtube.com/githubguides)"
+      comments: "All video content available via [youtube.com/github](http://youtube.com/github)"
     - criterion: "Section 1194.25 Self-Contained, Closed Products"
       support: Not applicable
       comments:
@@ -34,41 +32,41 @@ data:
 
   "Section 1194.21 Software Applications and Operating Systems":
     - criterion: "(a) When software is designed to run on a system that has a keyboard, product functions shall be executable from a keyboard where the function itself or the result of performing a function can be discerned textually."
-      support:
-      comments:
+      support: Supports with exceptions
+      comments: Primary functionality of both GitHub for Mac and GitHub for Windows is discernable textually and executable via keyboard. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
     - criterion: "(b) Applications shall not disrupt or disable activated features of other products that are identified as accessibility features, where those features are developed and documented according to industry standards. Applications also shall not disrupt or disable activated features of any operating system that are identified as accessibility features where the application programming interface for those accessibility features has been documented by the manufacturer of the operating system and is available to the product developer."
       support:  Supports
-      comments:
+      comments: GitHub for Windows and GitHub for Mac
     - criterion: "(c) A well-defined on-screen indication of the current focus shall be provided that moves among interactive interface elements as the input focus changes. The focus shall be programmatically exposed so that Assistive Technology can track focus and focus changes."
-      support:  Supports
-      comments:
+      support:  Supports with exceptions
+      comments: Focus programmatically exposed for all primary functionality of both GitHub for Mac and GitHub for Windows. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
     - criterion: "(d) Sufficient information about a user interface element including the identity, operation and state of the element shall be available to Assistive Technology. When an image represents a program element, the information conveyed by the image must also be available in text."
-      support:
-      comments:
+      support: Supports with exceptions
+      comments: Information about user interface elements exposed for all primary functionality of both GitHub for Mac and GitHub for Windows. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
     - criterion: "(e) When bitmap images are used to identify controls, status indicators, or other programmatic elements, the meaning assigned to those images shall be consistent throughout an application's performance."
       support: Supports
       comments: "All iconography are rendered via the [Octicons](https://github.com/styleguide/css/7.0) library."
     - criterion: "(f) Textual information shall be provided through operating system functions for displaying text. The minimum information that shall be made available is text content, text input caret location, and text attributes."
-      support:
+      support: Supports
       comments:
     - criterion: "(g) Applications shall not override user selected contrast and color selections and other individual display attributes."
       support:  Supports
       comments:
     - criterion: "(h) When animation is displayed, the information shall be displayable in at least one non-animated presentation mode at the option of the user."
-      support:
+      support: Not applicable
       comments:
     - criterion: "(i) Color coding shall not be used as the only means of conveying information, indicating an action, prompting a response, or distinguishing a visual element."
       support: Supports
-      comments:
+      comments: Visual line diffs are annotated with standard "+" and "-" notation to indicated additions and removals
     - criterion: "(j) When a product permits a user to adjust color and contrast settings, a variety of color selections capable of producing a range of contrast levels shall be provided."
       support: Not applicable
       comments:
     - criterion: "(k) Software shall not use flashing or blinking text, objects, or other elements having a flash or blink frequency greater than 2 Hz and lower than 55 Hz."
       support: Supports
-      comments:
+      comments: Applications have no flashing or blinking elements
     - criterion: "(l) When electronic forms are used, the form shall allow people using Assistive Technology to access the information, field elements, and functionality required for completion and submission of the form, including all directions and cues."
-      support:
-      comments:
+      support: Supports with exceptions
+      comments: User can interact with and fill all form elements using assistive technology, however, directions and queues may not be accessable.
 
   "Section 1194.22 Web-based Intranet and Internet Information and Applications":
     - criterion: "(a) A text equivalent for every non-text element shall be provided (e.g., via 'alt', 'longdesc', or in element content)."
@@ -266,7 +264,7 @@ data:
       comments: "Support provided via [web](http://help.github.com) and [email](http://github.com/contactus)"
 ---
 
-## **DRAFT DRAFT DRAFT DRAFT**
+*Below is the completed Voluntary Product Accessibility Template (VPAT) for [GitHub.com](https://github.com), [GitHub Enterprise](https://enterprise.github.com), [GitHub for Mac](https://mac.github.com), and [GitHub for Windows](https://windows.github.com). For more information, please contact <government@github.com>.*
 
 {% for section in page.data %}
 ### {{ section[0] }}
@@ -299,5 +297,3 @@ data:
     </tbody>
   </table>
 {% endfor %}
-
-## **DRAFT DRAFT DRAFT DRAFT**

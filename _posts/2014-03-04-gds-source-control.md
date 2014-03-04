@@ -9,11 +9,11 @@ category: open source
 ---
 
 For development teams in the [UK Government Digital Service](https://gds.blog.gov.uk), it's always been obvious that
-[we needed to use version control](https://www.gov.uk/service-manual/making-software/version-control) and git was a
+[we needed to use version control](https://www.gov.uk/service-manual/making-software/version-control) and Git was a
 natural choice for a variety of reasons: the distributed model and cheap branching fit the way we want to work.
 There's a lot more to consider than just the underlying tool, though.
 
-Making sure we've got the right tools for collaboration is really important for us--which is where github comes
+Making sure we've got the right tools for collaboration is really important for us--which is where GitHub comes
 in--but there are also a range of other risk-based decisions to be made. How important is it that we're able to
 deploy an urgent fix even if github.com were down? Can we trust our most sensitive configuration details to a
 multi-tenant system? Even whether there's a need to keep the identities of contributors confidential. The answers

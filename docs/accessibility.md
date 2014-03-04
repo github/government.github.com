@@ -9,7 +9,7 @@ data:
       support:
       comments: GitHub for Windows and GitHub for Mac
     - criterion: "Section 1194.22 Web-based Intranet and Internet Information and Applications"
-      support:
+      support: Supports with exceptions
       comments: GitHub.com and GitHub Enterprise
     - criterion: "Section 1194.23 Telecommunications Products"
       support: Not applicable
@@ -24,10 +24,10 @@ data:
       support: Not applicable
       comments:
     - criterion: "Section 1194.31 Functional Performance criterion"
-      support:
+      support: Supports
       comments:
     - criterion: "Section 1194.41 Information, Documentation and Support"
-      support:
+      support: Supports
       comments:
 
   "Section 1194.21 Software Applications and Operating Systems":

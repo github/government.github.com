@@ -6,7 +6,7 @@ description: ""
 data:
   Summary:
     - criterion: "Section 1194.21 Software Applications and Operating Systems"
-      support:
+      support: Supports
       comments: GitHub for Windows and GitHub for Mac
     - criterion: "Section 1194.22 Web-based Intranet and Internet Information and Applications"
       support: Supports with exceptions

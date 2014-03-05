@@ -2,7 +2,7 @@
 title: Accessibility
 layout: support-page
 permalink: /accessibility/
-description: ""
+description: "Voluntary Product Accessibility Template (VPAT) outlining §508 accessibility information for GitHub.com, GitHub Enterprise, GitHub for Mac, and GitHub for Windows."
 data:
   Summary:
     product:
@@ -284,7 +284,7 @@ data:
         comments: "Support provided via [web](http://help.github.com) and [email](http://github.com/contactus)"
 ---
 
-Below is the completed Voluntary Product Accessibility Template (VPAT) for GitHub.com, GitHub Enterprise, GitHub for Mac, and GitHub for Windows. Please note, when using GitHub.com or GitHub Enterprise, there are four alternate ways to interact with stored content:
+Please note, when using GitHub.com or GitHub Enterprise, there are four alternate ways to interact with stored content:
 
 1. Via the [GitHub.com](https://github.com) or [GitHub Enterprise](https://enterprise.github.com) web interface through a modern browser
 2. Via the [GitHub for Mac](https://mac.github.com) or [GitHub for Windows](https://windows.github.com) desktop applications

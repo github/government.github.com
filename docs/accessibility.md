@@ -181,13 +181,13 @@ data:
         comments:
       - criterion: "(c) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain speech or other audio information necessary for the comprehension of the content, shall be open or closed captioned."
         support: Supports
-        comments: "All video content available via YouTube at [youtube.com/github](http://youtube.com/github) and [youtube.com/githubguides](http://youtube.com/githubguides)"
+        comments: "All video content available at [youtube.com/github](http://youtube.com/github). <Br /><br />For more information on YouTube's accessability see [support.google.com/youtube/answer/189278](https://support.google.com/youtube/answer/189278?hl=en)"
       - criterion: "(d) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain visual information necessary for the comprehension of the content, shall be audio described."
         support: Supports
         comments:
       - criterion: "(e) Display or presentation of alternate text presentation or audio descriptions shall be user-selectable unless permanent."
         support: Supports
-        comments:
+        comments: Viewers may toggle closed captioning using YouTube's native closed-captioning functionality.
 
   "Section 1194.25 Self-Contained, Closed Products":
     product:

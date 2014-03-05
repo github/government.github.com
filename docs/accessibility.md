@@ -77,10 +77,10 @@ data:
     criteria:
       - criterion: "(a) A text equivalent for every non-text element shall be provided (e.g., via 'alt', 'longdesc', or in element content)."
         support:  Supports with exceptions
-        comments: All non-text navigation and functional elements are accompanied by text descriptions. Some non-navigation, non-functional visual elements, such as a user's contributions graph may not be accessible to assistive technology.
+        comments: GitHub uses modern, text-bassed, semantic web development practices, and does not rely on non-HTML plugins or applets such as Java, ActiveX, or Flash except where otherwise noted for non-essential functionality.<br /><br />When a users submits non-text content (e.g., an image in a issue comment), Markdown's syntax requires alternative text be provided.<br /><br />All non-text navigation and functional elements are accompanied by text descriptions. Some non-navigation, non-functional visual elements, such as a user's contributions graph may not be accessible to assistive technology.
       - criterion: "(b) Equivalent alternatives for any multimedia presentation shall be synchronized with the presentation."
         support:  Not applicable
-        comments:
+        comments: No multimedia presentations (other than the occasional animated GIF) are used.
       - criterion: "(c) Web pages shall be designed so that all information conveyed with color is also available without color, for example from context or markup."
         support: Supports
         comments: Visual line diffs are annotated with standard "+" and "-" notation to indicated additions and removals.

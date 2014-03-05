@@ -278,7 +278,7 @@ data:
         comments: "Please contact <support@github.com> with any such requests."
       - criterion: "(b) End-users shall have access to a description of the accessibility and compatibility features of products in alternate formats or alternate methods upon request, at no additional charge.  "
         support: Supports
-        comments: "Documentation available at [government.github.com/accessability](http://government.github.com/accessability)"
+        comments: "Documentation available at [government.github.com/accessibility](http://government.github.com/accessibility)"
       - criterion: "(c) Support services for products shall accommodate the communication needs of end-users with disabilities."
         support: Supports
         comments: "Support provided via [web](http://help.github.com) and [email](http://github.com/contactus)"

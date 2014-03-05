@@ -441,10 +441,10 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 /* ----------------------------------------------------------------------------------- */
 
 table#accessibility tr th { text-align: center; vertical-align: middle; }
-table#accessibility tr td.criterion {width: 60%; font-size: 13px;}
+table#accessibility tr td.criterion {width: 40%; font-size: 13px;}
 table#accessibility tr td.support { font-weight: bold; width: 15%; vertical-align: middle; text-align: center;}
 table#accessibility tr td.supports { color: #6CC644;  }
 table#accessibility tr td.not-applicable { color: #999; }
 table#accessibility tr td.supports-with-exceptions { color: #f93; }
 table#accessibility tr td.does-not-support { color: #BD2C00; }
-table#accessibility tr td.comments { width: 25%; vertical-align: middle; font-size: 13px; }
+table#accessibility tr td.comments { width: 45%; vertical-align: middle; font-size: 13px; }

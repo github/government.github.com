@@ -18,7 +18,7 @@ data:
         comments:
       - criterion: "Section 1194.24 Video and Multi-media Products"
         support: Supports
-        comments: "Training materials available via [youtube.com/github](http://youtube.com/github)"
+        comments: "Training materials available via [youtube.com/github](http://youtube.com/github) and [youtube.com/githubguides](http://youtube.com/githubguides)"
       - criterion: "Section 1194.25 Self-Contained, Closed Products"
         support: Not applicable
         comments:
@@ -181,7 +181,7 @@ data:
         comments:
       - criterion: "(c) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain speech or other audio information necessary for the comprehension of the content, shall be open or closed captioned."
         support: Supports
-        comments: "Training materials available at [youtube.com/github](http://youtube.com/github). <Br /><br />For more information on YouTube's accessability see [support.google.com/youtube/answer/189278](https://support.google.com/youtube/answer/189278?hl=en)"
+        comments: "Training materials available at [youtube.com/github](http://youtube.com/github) and [youtube.com/githubguides](http://youtube.com/githubguides). <Br /><br />For more information on YouTube's accessibility see [support.google.com/youtube/answer/189278](https://support.google.com/youtube/answer/189278?hl=en)"
       - criterion: "(d) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain visual information necessary for the comprehension of the content, shall be audio described."
         support: Supports
         comments:
@@ -198,7 +198,7 @@ data:
       - criterion: "(b) When a timed response is required, the user shall be alerted and given sufficient time to indicate more time is required."
         support: Not applicable
         comments:
-      - criterion: "(c) Where a product utilizes touchscreens or contact-sensitive controls, an input method shall be provided that complies with 1194.23 (k) (1) through (4)."
+      - criterion: "(c) Where a product utilizes touch screens or contact-sensitive controls, an input method shall be provided that complies with 1194.23 (k) (1) through (4)."
         support: Not applicable
         comments:
       - criterion: "(d) When biometric forms of user identification or control are used, an alternative form of identification or activation, which does not require the user to possess particular biological characteristics, shall also be provided."

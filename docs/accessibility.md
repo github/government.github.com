@@ -266,16 +266,16 @@ data:
       comments: "Support provided via [web](http://help.github.com) and [email](http://github.com/contactus)"
 ---
 
-*Below is the completed Voluntary Product Accessibility Template (VPAT) for [GitHub.com](https://github.com), [GitHub Enterprise](https://enterprise.github.com), [GitHub for Mac](https://mac.github.com), and [GitHub for Windows](https://windows.github.com). For more information, please contact <government@github.com>.*
-
-Please note, there are four ways to interact with content stored within GitHub products:
+Below is the completed Voluntary Product Accessibility Template (VPAT) for GitHub.com, GitHub Enterprise, GitHub for Mac, and GitHub for Windows. Please note, when using GitHub.com or GitHub Enterprise, there are four alternate ways to interact with stored content:
 
 1. Via the [GitHub.com](https://github.com) or [GitHub Enterprise](https://enterprise.github.com) web interface through a modern browser
 2. Via the [GitHub for Mac](https://mac.github.com) or [GitHub for Windows](https://windows.github.com) desktop applications
-3. Via the open source [Git](http://git-scm.com/) command line (interactive, entirely text-bassed) interface
-4. Via the GitHub's open [application programming interface](http://developer.github.com/v3/) (API) which provides information in a machine-readable format
+3. Via the GitHub's open [application programming interface](http://developer.github.com/v3/) (API) which provides information in a machine-readable format for integration with other applications
+4. Via the open source [Git](http://git-scm.com/) command line (interactive, entirely text-bassed) interface
 
-Where support is indicated below as "supports with exception", such a qualification applies to the particular product being evaluated, however, such interactions may be accomplished through alternate means such as via the Git command-line interface.
+Where support below is indicated below as "supports with exception", such a qualification applies to the particular product being evaluated, however, interactions may be accomplished through alternate means such as via the Git command-line interface.
+
+*For more information, please contact <government@github.com>.*
 
 {% for section in page.data %}
 ### {{ section[0] }}

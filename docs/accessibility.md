@@ -291,7 +291,7 @@ Please note, when using GitHub.com or GitHub Enterprise, there are four alternat
 3. Via the GitHub's open [application programming interface](http://developer.github.com/v3/) (API) which provides information in a machine-readable format for integration with other applications
 4. Via the open source [Git](http://git-scm.com/) command line (interactive, entirely text-bassed) interface
 
-Where support below is indicated below as "supports with exception", such a qualification applies to the particular product being evaluated, however, interactions may be accomplished through alternate means such as via the Git command-line interface.
+Where support below is indicated below as "Supports with exceptions", such a qualification applies to the particular product being evaluated, however, interactions may be accomplished through alternate means such as via the Git command-line interface.
 
 *For more information, please contact <government@github.com>.*
 

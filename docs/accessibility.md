@@ -66,27 +66,27 @@ data:
       comments: Applications have no flashing or blinking elements
     - criterion: "(l) When electronic forms are used, the form shall allow people using Assistive Technology to access the information, field elements, and functionality required for completion and submission of the form, including all directions and cues."
       support: Supports with exceptions
-      comments: User can interact with and fill all form elements using assistive technology, however, directions and queues may not be accessable.
+      comments: User can interact with and fill all form elements using assistive technology, however, directions and queues may not be accessible. All form interactions can be accomplished through the Git command line interface.
 
   "Section 1194.22 Web-based Intranet and Internet Information and Applications":
     - criterion: "(a) A text equivalent for every non-text element shall be provided (e.g., via 'alt', 'longdesc', or in element content)."
-      support:  Supports
-      comments:
+      support:  Supports with exceptions
+      comments: All non-text navigation and functional elements are accompanied by text descriptions. Some non-navigation, non-functional visual elements, such as a user's contributions graph may not be accessible to assistive technology.
     - criterion: "(b) Equivalent alternatives for any multimedia presentation shall be synchronized with the presentation."
       support:  Not applicable
       comments:
     - criterion: "(c) Web pages shall be designed so that all information conveyed with color is also available without color, for example from context or markup."
       support: Supports
-      comments:
+      comments: Visual line diffs are annotated with standard "+" and "-" notation to indicated additions and removals.
     - criterion: "(d) Documents shall be organized so they are readable without requiring an associated style sheet."
       support: Supports
       comments:
     - criterion: "(e) Redundant text links shall be provided for each active region of a server-side image map."
       support:  Not applicable
-      comments:
+      comments: No server-side image maps are used.
     - criterion: "(f) Client-side image maps shall be provided instead of server-side image maps except where the regions cannot be defined with an available geometric shape."
       support:  Not applicable
-      comments:
+      comments: No client-side image maps are used.
     - criterion: "(g) Row and column headers shall be identified for data tables."
       support:  Supports
       comments:
@@ -95,19 +95,19 @@ data:
       comments:
     - criterion: "(i) Frames shall be titled with text that facilitates frame identification and navigation"
       support:  Not applicable
-      comments:
+      comments: No frames are used for navigation. An iframe is used to render visual representations of some user content such as maps.
     - criterion: "(j) Pages shall be designed to avoid causing the screen to flicker with a frequency greater than 2 Hz and lower than 55 Hz."
-      support:  Not applicable
+      support:  Supports
       comments:
     - criterion: "(k) A text-only page, with equivalent information or functionality, shall be provided to make a web site comply with the provisions of this part, when compliance cannot be accomplished in any other way. The content of the text-only page shall be updated whenever the primary page changes."
       support:  Not applicable
-      comments:
+      comments: Where an interaction is not possible through the web interface, it may be accomplished through text-only means through the Git command-line desktop software.
     - criterion: "(l) When pages utilize scripting languages to display content, or to create interface elements, the information provided by the script shall be identified with functional text that can be read by Assistive Technology."
       support:  Supports
       comments:
     - criterion: "(m) When a web page requires that an applet, plug-in or other application be present on the client system to interpret page content, the page must provide a link to a plug-in or applet that complies with 1194.21(a) through (l)."
       support:  Not applicable
-      comments:
+      comments: The only plugin used is a flash-bassed tool for simplifying the task of copying text visible on the page (such as a commit's unique id) to the user's clipboard. The task may be accomplished through the operating system's standard copy and paste functionality.
     - criterion: "(n) When electronic forms are designed to be completed on-line, the form shall allow people using Assistive Technology to access the information, field elements, and functionality required for completion and submission of the form, including all directions and cues."
       support:  Supports
       comments:
@@ -116,7 +116,7 @@ data:
       comments:
     - criterion: "(p) When a timed response is required, the user shall be alerted and given sufficient time to indicate more time is required."
       support:  Not applicable
-      comments:
+      comments: No timed responses are required.
 
   "Section 1194.23 Telecommunications Products":
     - criterion: "(a) Telecommunications products or systems which provide a function allowing voice communication and which do not themselves provide a TTY functionality shall provide a standard non-acoustic connection point for TTYs. Microphones shall be capable of being turned on and off to allow the user to intermix speech with TTY use."

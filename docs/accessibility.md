@@ -253,22 +253,22 @@ data:
     criteria:
       - criterion: "(a) At least one mode of operation and information retrieval that does not require user vision shall be provided, or support for Assistive Technology used by people who are blind or visually impaired shall be provided."
         support: Supports
-        comments:
+        comments: All Git-bassed file operations can be performed via the text-only Git command line interface using assistive technology, and all account management and social interactions (e.g., commenting on an issue) can be performed via GitHub.com or GitHub enterprise with assistive technology.
       - criterion: "(b) At least one mode of operation and information retrieval that does not require visual acuity greater than 20/70 shall be provided in audio and enlarged print output working together or independently, or support for Assistive Technology used by people who are visually impaired shall be provided."
         support: Supports
-        comments:
+        comments: All GitHub product support the use of assistive technology and provide the ability, through the user's web browser or operating system to increase the font size.
       - criterion: "(c) At least one mode of operation and information retrieval that does not require user hearing shall be provided, or support for Assistive Technology used by people who are deaf or hard of hearing shall be provided"
         support: Supports
-        comments:
+        comments: Products do not use auditory feedback.
       - criterion: "(d) Where audio information is important for the use of a product, at least one mode of operation and information retrieval shall be provided in an enhanced auditory fashion, or support for assistive hearing devices shall be provided."
         support: Not Applicable
-        comments:
+        comments: Products do not use auditory feedback.
       - criterion: "(e) At least one mode of operation and information retrieval that does not require user speech shall be provided, or support for Assistive Technology used by people with disabilities shall be provided."
         support: Supports
-        comments:
+        comments: Products do not support speech input.
       - criterion: "(f) At least one mode of operation and information retrieval that does not require fine motor control or simultaneous actions and that is operable with limited reach and strength shall be provided."
         support: Supports
-        comments:
+        comments: No interactions require simultaneous user actions or depend solely on fine motor controls.
 
   "Section 1194.41 Information, Documentation and Support":
     product:

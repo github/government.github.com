@@ -37,7 +37,7 @@ data:
     criteria:
       - criterion: "(a) When software is designed to run on a system that has a keyboard, product functions shall be executable from a keyboard where the function itself or the result of performing a function can be discerned textually."
         support: Supports with exceptions
-        comments: Primary functionality of both GitHub for Mac and GitHub for Windows is discernable textually and executable via keyboard. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
+        comments: GitHub desktop applications are built using platform-specific standards and best practices where possible. Primary functionality of both GitHub for Mac and GitHub for Windows is discernable textually and executable via keyboard. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
       - criterion: "(b) Applications shall not disrupt or disable activated features of other products that are identified as accessibility features, where those features are developed and documented according to industry standards. Applications also shall not disrupt or disable activated features of any operating system that are identified as accessibility features where the application programming interface for those accessibility features has been documented by the manufacturer of the operating system and is available to the product developer."
         support:  Supports
         comments: GitHub for Windows and GitHub for Mac

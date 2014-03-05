@@ -446,4 +446,5 @@ table#accessibility tr td.support { font-weight: bold; width: 15%; vertical-alig
 table#accessibility tr td.supports { color: #6CC644;  }
 table#accessibility tr td.not-applicable { color: #999; }
 table#accessibility tr td.supports-with-exceptions { color: #f93; }
+table#accessibility tr td.does-not-support { color: #BD2C00; }
 table#accessibility tr td.comments { width: 25%; vertical-align: middle; font-size: 13px; }

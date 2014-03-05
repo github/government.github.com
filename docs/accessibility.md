@@ -18,7 +18,7 @@ data:
         comments:
       - criterion: "Section 1194.24 Video and Multi-media Products"
         support: Supports
-        comments: "All video content available via [youtube.com/github](http://youtube.com/github)"
+        comments: "Training materials available via [youtube.com/github](http://youtube.com/github)"
       - criterion: "Section 1194.25 Self-Contained, Closed Products"
         support: Not applicable
         comments:
@@ -181,7 +181,7 @@ data:
         comments:
       - criterion: "(c) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain speech or other audio information necessary for the comprehension of the content, shall be open or closed captioned."
         support: Supports
-        comments: "All video content available at [youtube.com/github](http://youtube.com/github). <Br /><br />For more information on YouTube's accessability see [support.google.com/youtube/answer/189278](https://support.google.com/youtube/answer/189278?hl=en)"
+        comments: "Training materials available at [youtube.com/github](http://youtube.com/github). <Br /><br />For more information on YouTube's accessability see [support.google.com/youtube/answer/189278](https://support.google.com/youtube/answer/189278?hl=en)"
       - criterion: "(d) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain visual information necessary for the comprehension of the content, shall be audio described."
         support: Supports
         comments:

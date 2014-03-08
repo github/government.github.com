@@ -118,7 +118,7 @@ data:
         support:  Supports
         comments:
       - criterion: "(o) A method shall be provided that permits users to skip repetitive navigation links."
-        support:  Does not support
+        support:  Supports
         comments:
       - criterion: "(p) When a timed response is required, the user shall be alerted and given sufficient time to indicate more time is required."
         support:  Not applicable

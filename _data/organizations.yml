@@ -84,6 +84,7 @@ United Kingdom:
   - LocalGovDigital
 
 United States:
+  - "18f"
   - adlnet
   - cfpb
   - chaos
@@ -108,6 +109,7 @@ United States:
   - mcc-gov
   - nasa
   - nationalparkservice
+  - ncbi
   - ncbitools
   - ncip
   - nhlbi
@@ -123,12 +125,13 @@ United States:
   - usasearch
   - usda
   - USDA-ERS
+  - usda-ers
   - usdepartmentoflabor
-  - usstatedept
   - usepa
   - usgs
   - usinterior
   - usnationalarchives
+  - usstatedept
   - virtual-world-framework
   - whitehouse
 

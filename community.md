@@ -7,16 +7,29 @@ permalink: /community/
 <div class="container">
   <div class="row-fluid">
     <div class="span8">
-    {% for type_hash in site.data.organizations %}
-    <div class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}"><p>{{ type_hash[0] }}</p></div>
-      {% for org in type_hash[1] %}
-        <div class="organization">
-          <a href="https://github.com/{{ org }}" title="{{ org }}">
-            <img class="avatar" src="https://github.com/{{ org }}.png" width="80" height="80" alt="{{ org }}">
-          </a>
-        </div>
+      <h2>Governments</h2>
+      {% for type_hash in site.data.governments %}
+      <div class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}"><p>{{ type_hash[0] }}</p></div>
+        {% for org in type_hash[1] %}
+          <div class="organization">
+            <a href="https://github.com/{{ org }}" title="{{ org }}">
+              <img class="avatar" src="https://github.com/{{ org }}.png" width="80" height="80" alt="{{ org }}">
+            </a>
+          </div>
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
+    </div>
+    <div class="span8">
+      <h2>Civic Hackers</h2>
+      {% for type_hash in site.data.civic_hackers %}
+        {% for org in type_hash[1] %}
+          <div class="organization">
+            <a href="https://github.com/{{ org }}" title="{{ org }}">
+              <img class="avatar" src="https://github.com/{{ org }}.png" width="80" height="80" alt="{{ org }}">
+            </a>
+          </div>
+        {% endfor %}
+      {% endfor %}
     </div>
   </div>
 
@@ -30,8 +43,8 @@ This website is [open source](https://github.com/github/government.github.com), 
 * Log in to [GitHub](https://github.com){:target="_blank"}.
 * Go to [this repository](https://github.com/github/government.github.com) and fork it (button to the top right of the page).
 * In your forked version, click the branch dropdown and in the "Find or create a branch..." field, create a new branch (for example, "adding myagencyname").
-* Still in your forked version, click on the `_data/organizations.yml` file.
-* At the top of the file is a list of the organizations populating this page. Click edit, near the top right, and then add your organization's GitHub account name just like the others: `- myagencysname`.
+* Still in your forked version, click on the `_data/governments.yml` file or `_data/civic_hackers.yml` depending on where your organization fits.
+* At the top of the file is a list of the organizations populating this page. Click edit, near the top right, and then add your organization's GitHub account name just like the others: `- GroupGithubOrg`.
 * Click Commit Changes at the bottom of the page.
 * Visit the [original repository](https://github.com/github/government.github.com) and select Compare & pull request.
 * Fill out the form and click Send pull request!

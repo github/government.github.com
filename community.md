@@ -7,16 +7,20 @@ permalink: /community/
 <div class="container">
   <div class="row-fluid">
     <div class="span8">
-    {% for type_hash in site.data.organizations %}
-    <div class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}"><p>{{ type_hash[0] }}</p></div>
-      {% for org in type_hash[1] %}
-        <div class="organization">
-          <a href="https://github.com/{{ org }}" title="{{ org }}">
-            <img class="avatar" src="https://github.com/{{ org }}.png" width="80" height="80" alt="{{ org }}">
-          </a>
-        </div>
-      {% endfor %}
-    {% endfor %}
+      <table class="table table-bordered">
+        <tr><th>Avatar</th><th>Account</th><th>Country / Group</th></tr>
+          {% for type_hash in site.data.organizations %}
+            {% for org in type_hash[1] %}
+            <tr>
+              <td class="community-avatar">
+                <img src="http://www.github.com/{{org}}.png" width="40px">
+              </td>
+              <td><a href="https://github.com/{{ org }}" title="{{ org }}">{{ org }}</a>
+              </td><td>{{ type_hash[0] }}</td>
+            </tr>
+           {% endfor %}
+          {% endfor %}
+        </table>
     </div>
   </div>
 

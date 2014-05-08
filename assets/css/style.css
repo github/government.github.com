@@ -302,6 +302,12 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 
 /* Organizations Section */
 
+.table td {vertical-align: middle;}
+
+.community-avatar {
+  width: 45px;
+}
+
 #orgs {
   position: relative;
   height: 365px;

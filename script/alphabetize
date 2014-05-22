@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+
+# Alphabetizes the content of all YAML files in the _data directory
+
+require "open-uri"
+require "json"
+require "yaml"
+
+files = Dir[File.expand_path("../_data/", File.dirname(__FILE__)) + "/*.yml"]
+
+files.each do |file|
+  contents = File.open(file).read
+  comment = contents.lines.first
+
+  data = YAML.load(contents)
+  data = data.sort_by { |k,v| k.upcase }
+
+  output = {}
+  data.each do |key, value|
+    value = value.uniq.sort { |a,b| a.upcase <=> b.upcase }
+    output[key] = value
+  end
+
+  # Add extra line break between groups, indent arrays, and strip header
+  formatted_output = comment + output.to_yaml.gsub(/^(.+?):$/, "\n" + '\1:').gsub(/^- /, "  - ").gsub(/\A---\n/m, "")
+
+  File.open(file, 'w') { |file| file.write(formatted_output) }
+end

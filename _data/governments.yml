@@ -1,21 +1,22 @@
 # Official government institutions, listed under their country or level of government
-Australia:
-  - actgov
 
 Argentina:
   - gcba
 
+Australia:
+  - actgov
+
 Belgium:
-  - onroerenderfgoed
   - belgianpolice
+  - onroerenderfgoed
 
 Brazil:
-  - interlegis
-  - gabinetedigital
-  - plonegovbr
   - dadosgovbr
-  - PROCERGS
+  - gabinetedigital
+  - interlegis
+  - plonegovbr
   - prefeiturasp
+  - PROCERGS
 
 Canada:
   - cityofgreatersudbury
@@ -28,25 +29,33 @@ Canada:
 Estonia:
   - vvk-ehk
 
+European Union:
+  - europeana
+
 Finland:
   - avoinministerio
   - City-of-Helsinki
-  - Lounaispaikka
   - HSLdevcom
+  - Lounaispaikka
 
 France:
+  - ANSSI-FR
   - erasme
   - etalab
   - VilleDeMontpellier
-  - ANSSI-FR
 
 Germany:
   - gbv
   - lobid
 
+International:
+  - IATI
+  - ogpl
+  - rOpenGov
+
 New Zealand:
-  - linz
   - CanterburyRegionalCouncil
+  - linz
 
 Norway:
   - difi
@@ -69,13 +78,52 @@ Sweden:
   - The-Municipality-of-Staffanstorp
 
 Switzerland:
-  - ogdch
   - alv-ch
+  - ogdch
+
+U.S. City:
+  - cambridgegis
+  - chicago
+  - city-of-bellingham
+  - city-of-bloomington
+  - cityofasheville
+  - CityOfBoston
+  - cityofchattanooga
+  - cityofnewyork
+  - CityOfPhiladelphia
+  - CityofSantaMonica
+  - cocdata
+  - CORaleigh
+  - egovpdx
+  - Honolulu
+  - lfucg
+  - NYCComptroller
+  - octolabs
+  - openlexington
+  - sfgov
+
+U.S. County:
+  - baltimorecounty
+  - miamidade
+  - sfcta
+  - slugis
+
+U.S. Special District:
+  - atlregional
+  - cleveland-metroparks
+  - CMAP-REPOS
+
+U.S. States:
+  - agrc
+  - nys-its
+  - nysenate
+  - wsdot
 
 United Kingdom:
   - alphagov
   - CarersBeta
   - datagovuk
+  - dfid
   - east-sussex-county-council
   - edinburghcouncil
   - EnvironmentAgency
@@ -83,13 +131,12 @@ United Kingdom:
   - hmrc
   - lgss
   - lichfield-district-council
-  - ministryofjustice
-  - dfid
-  - west-berkshire-council
   - LocalGovDigital
+  - ministryofjustice
+  - west-berkshire-council
 
 United States:
-  - "18f"
+  - 18f
   - adlnet
   - cfpb
   - chaos
@@ -134,8 +181,8 @@ United States:
   - usaid
   - usasearch
   - usda
-  - USDA-ERS
   - usda-ers
+  - USDA-ERS
   - usdepartmentoflabor
   - usepa
   - usgs
@@ -144,49 +191,3 @@ United States:
   - usstatedept
   - virtual-world-framework
   - whitehouse
-
-European Union:
-  - europeana
-
-International:
-  - IATI
-  - ogpl
-  - rOpenGov
-
-U.S. States:
-  - agrc
-  - nysenate
-  - wsdot
-  - nys-its
-
-U.S. County:
-  - sfcta
-  - miamidade
-  - slugis
-  - baltimorecounty
-
-U.S. Special District:
-  - cleveland-metroparks
-  - CMAP-REPOS
-  - atlregional
-
-U.S. City:
-  - chicago
-  - sfgov
-  - cityofnewyork
-  - octolabs
-  - city-of-bloomington
-  - city-of-bellingham
-  - egovpdx
-  - NYCComptroller
-  - CityOfPhiladelphia
-  - cambridgegis
-  - cocdata
-  - CityOfBoston
-  - openlexington
-  - CORaleigh
-  - Honolulu
-  - cityofasheville
-  - lfucg
-  - CityofSantaMonica
-  - cityofchattanooga

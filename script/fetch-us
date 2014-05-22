@@ -7,7 +7,7 @@ require "open-uri"
 require "json"
 require "yaml"
 
-org_file = YAML.load_file "./_data/organizations.yml"
+org_file = YAML.load_file "./_data/governments.yml"
 
 orgs = JSON.parse open("http://registry.usa.gov/accounts?service_id=GitHub&format=json").read
 orgs = orgs["accounts"].collect { |data| data["account"] }
@@ -21,5 +21,5 @@ output = {
       |a,b| a.upcase <=> b.upcase
   end
 }
-puts "To be pasted into _data/organizations.yml"
+puts "To be pasted into _data/governments.yml"
 puts output.to_yaml

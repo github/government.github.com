@@ -19,6 +19,8 @@ permalink: /community/
         {% endfor %}
       {% endfor %}
     </div>
+  </div>
+  <div class="row-fluid">
     <div class="span8">
       <h2>Civic Hackers</h2>
       {% for type_hash in site.data.civic_hackers %}

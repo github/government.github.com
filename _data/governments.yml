@@ -5,6 +5,10 @@ Argentina:
 
 Australia:
   - actgov
+  - ga-m3dv
+  - nla
+  - nmalabs
+  - srnsw
 
 Belgium:
   - belgianpolice
@@ -17,6 +21,7 @@ Brazil:
   - plonegovbr
   - prefeiturasp
   - PROCERGS
+  - secom-tocantins
 
 Canada:
   - cityofgreatersudbury
@@ -97,12 +102,15 @@ U.S. City:
   - egovpdx
   - Honolulu
   - lfucg
+  - monum
   - NYCComptroller
   - octolabs
   - openlexington
+  - SantaClarita
   - sfgov
 
 U.S. County:
+  - ArlingtonCounty
   - baltimorecounty
   - miamidade
   - sfcta
@@ -112,23 +120,30 @@ U.S. Special District:
   - atlregional
   - cleveland-metroparks
   - CMAP-REPOS
+  - psrc
 
 U.S. States:
   - agrc
+  - azgs
+  - ccap
   - nys-its
   - nysenate
+  - twdb
   - wsdot
+  - WSDOT-GIS
 
 United Kingdom:
   - alphagov
   - CarersBeta
   - datagovuk
   - dfid
+  - digital-preservation
   - east-sussex-county-council
   - edinburghcouncil
   - EnvironmentAgency
   - gds-operations
   - hmrc
+  - LambethCouncil
   - lgss
   - lichfield-district-council
   - LocalGovDigital
@@ -138,9 +153,14 @@ United Kingdom:
 United States:
   - 18f
   - adlnet
+  - arcticlcc
+  - BBGInnovate
+  - blue-button
+  - CASL
   - cfpb
   - chaos
   - cmsgov
+  - cocomans
   - commercegov
   - department-of-veterans-affairs
   - educationdatainitiative
@@ -156,16 +176,24 @@ United States:
   - imls
   - info-sharing-environment
   - informaticslab
+  - JBEI
+  - JGI-Bioinformatics
+  - kbase
   - libraryofcongress
   - losalamos
   - mcc-gov
   - nasa
   - nationalparkservice
+  - ncats
   - ncbi
   - ncbitools
   - ncip
+  - NCPP
+  - NeoGeographyToolkit
+  - NERSC
   - ngageoint
   - nhlbi
+  - NMML
   - nrel
   - opengovplatform
   - ozoneplatform
@@ -177,17 +205,19 @@ United States:
   - redhawksdr
   - shareandprotect
   - state-hiu
+  - sunpy
   - usagov
   - usaid
   - usasearch
   - usda
-  - usda-ers
   - USDA-ERS
   - usdepartmentoflabor
   - usepa
   - usgs
+  - USGS-CIDA
   - usinterior
   - usnationalarchives
   - usstatedept
   - virtual-world-framework
+  - visionworkbench
   - whitehouse

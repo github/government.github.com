@@ -8,7 +8,7 @@ category: open source
 ---
 
 Scientists from the
-[Synchrotron Methods Group](http://www.nist.gov/mml/mmsd/synchrotron_methods/index.cfm)
+[Synchrotron Methods Group](http://www.nist.gov/mml/mmsd/synchrotron-science/index.cfm)
 at the
 [National Institute of Standards and Technology](http://www.nist.gov)
 develop state-of-the-art synchrotron X-ray measurement technology,

@@ -53,7 +53,7 @@ org_count: 60
     <div id="orgs">
       <div class="the-orgs">
     {% assign count = 0 %}
-    {% for type_hash in site.data.organizations %}
+    {% for type_hash in site.data.governments %}
       {% for org in type_hash[1] %}
         {% if count < page.org_count %}
           <div class="organization">

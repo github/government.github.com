@@ -1,0 +1,32 @@
+#!/usr/bin/env ruby
+
+#fetches list of CFA brigades from the CFA API, and outputs merged list to command line
+
+require "open-uri"
+require "json"
+require "yaml"
+
+org_file = YAML.load_file "./_data/civic_hackers.yml"
+data = JSON.parse open("http://codeforamerica.org/api/organizations").read
+
+orgs = []
+data["objects"].each do |org|
+  org["current_projects"].each do |project|
+    orgs.push project["github_details"]["owner"]["login"]
+  end
+end
+
+orgs.uniq!
+
+orgs.each do |org|
+  org_file["Code For America"].push(org.downcase) unless org_file["Code For America"].include?(org.downcase)
+end
+
+output = {
+  "Code For America" => org_file["Code For America"].uniq.sort do
+      |a,b| a.upcase <=> b.upcase
+  end
+}
+
+puts "To be pasted into _data/civic_hackers.yml"
+puts output.to_yaml

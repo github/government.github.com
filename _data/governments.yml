@@ -180,11 +180,14 @@ U.S. County:
 U.S. Research Labs:
   - ACME-Climate
   - BrookhavenNationalLaboratory
+  - CASL
   - CBIIT
   - exmatex
   - globus
   - idaholab
+  - JGI-Bioinformatics
   - lbl-anp
+  - losalamos
   - materialsproject
   - mdhim
   - NASA-Tensegrity-Robotics-Toolkit
@@ -274,7 +277,6 @@ United States:
   - BBGInnovate
   - blue-button
   - CA-CST-SII
-  - CASL
   - cfpb
   - chaos
   - cmsgov
@@ -297,17 +299,14 @@ United States:
   - HHSIDEAlab
   - historyatstate
   - hpc
-  - imls
   - info-sharing-environment
   - informaticslab
   - Innovation-Toolkit
   - ioos
   - IRSgov
   - JBEI
-  - JGI-Bioinformatics
   - kbase
   - libraryofcongress
-  - losalamos
   - mcc-gov
   - nasa
   - nasa-gibs

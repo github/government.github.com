@@ -5,17 +5,17 @@ Argentina:
 
 Australia:
   - actgov
-  - ga-m3dv
-  - nla
-  - nmalabs
-  - srnsw
-  - Healthway
-  - GeoscienceAustralia
   - datagovau
   - dpaw2
+  - ga-m3dv
+  - GeoscienceAustralia
+  - Healthway
   - Landgate
-  - wamuseum
+  - nla
+  - nmalabs
   - qld-gov-au
+  - srnsw
+  - wamuseum
 
 Belgium:
   - belgianpolice
@@ -25,31 +25,34 @@ Bolivia:
   - geobolivia
 
 Brazil:
+  - cislgov
   - dadosgovbr
   - gabinetedigital
   - interlegis
+  - lexml
   - plonegovbr
   - prefeiturasp
   - PROCERGS
   - secom-tocantins
-  - lexml
-  - cislgov
 
 Canada:
+  - AAFC-MBB
+  - ca-canada
+  - CIHR
   - cityofgreatersudbury
   - cityofottawa
   - electionsquebec
-  - nsgov
-  - pwgsc
-  - wet-boew
-  - open-data
-  - nrc-cnrc
-  - ca-canada
-  - AAFC-MBB
-  - CIHR
-  - RAMP-RACP
   - MetropolitanTransportationCommission
+  - nrc-cnrc
+  - nsgov
+  - open-data
+  - pwgsc
+  - RAMP-RACP
   - ServiceCanada
+  - wet-boew
+
+Chile:
+  - e-gob
 
 Colombia:
   - idu-bogota
@@ -67,12 +70,12 @@ Finland:
   - Lounaispaikka
 
 France:
+  - afimb
   - ANSSI-FR
+  - communaute-cimi
   - erasme
   - etalab
   - VilleDeMontpellier
-  - afimb
-  - communaute-cimi
 
 Germany:
   - gbv
@@ -83,20 +86,33 @@ International:
   - ogpl
   - rOpenGov
 
+Isle of Man:
+  - Isle-Of-Man-Government
+
+Mexico:
+  - CSB-IG
+  - DDT-INMEGEN
+
 New Zealand:
   - CanterburyRegionalCouncil
   - linz
 
 Norway:
   - difi
-  - kartverket
   - dss-web
+  - kartverket
+
+Peru:
+  - imarpe
 
 Philippines:
   - govph
 
 Puerto Rico:
   - commonwealth-of-puerto-rico
+
+Saudi Arabia:
+  - SAS-NCDC
 
 Spain:
   - ctt-gob-es
@@ -112,51 +128,82 @@ Switzerland:
   - alv-ch
   - ogdch
 
+Tasmania:
+  - gccgisteam
+
 U.S. City:
+  - Baltimore-City-EGIS
+  - berkeleypubliclibrary
   - cambridgegis
   - chicago
   - city-of-bellingham
   - city-of-bloomington
+  - City-of-Raleigh-Public-Utilities
   - cityofasheville
   - CityOfBoston
+  - cityofboulder
   - cityofchattanooga
+  - cityoffortworth
   - cityofnewyork
   - CityOfPhiladelphia
+  - CityofReno
   - CityofSantaMonica
+  - CityOfVirginiaBeach
+  - CityofYakima
   - cocdata
   - CORaleigh
+  - CUMTD
+  - DCCouncil
+  - DenverDev
   - egovpdx
   - Honolulu
   - lfucg
+  - mnhrc
   - monum
   - NYCComptroller
   - octolabs
+  - OpenGovDC
   - openlexington
   - SantaClarita
-  - sfgov
-  - CUMTD
-  - CityOfVirginiaBeach
-  - DCCouncil
   - sfbart
-  - cityofboulder
-  - DenverDev
-  - berkeleypubliclibrary
-  - mnhrc
+  - sfgov
   - tucsonaz
-  - CityofReno
-  - OpenGovDC
-  - cityoffortworth
-  - CityofYakima
-  - Baltimore-City-EGIS
-  - City-of-Raleigh-Public-Utilities
 
 U.S. County:
   - ArlingtonCounty
   - baltimorecounty
   - miamidade
   - sfcta
-  - slugis
   - SJCGIS
+  - slugis
+
+U.S. Research Labs:
+  - ACME-Climate
+  - BrookhavenNationalLaboratory
+  - CBIIT
+  - exmatex
+  - globus
+  - idaholab
+  - lbl-anp
+  - materialsproject
+  - mdhim
+  - NASA-Tensegrity-Robotics-Toolkit
+  - nimh-nif
+  - nist-ionstorage
+  - NSLS-II
+  - NSLS-II-CSX
+  - olcf
+  - ORNL
+  - ORNL-CEES
+  - ornl-sava
+  - ORNL-TechInt
+  - ornlcda
+  - PCMDI
+  - PNNL-Comp-Mass-Spec
+  - sandialabs
+  - scalability-llnl
+  - TinyTitan
+  - zfsonlinux
 
 U.S. Special District:
   - atlregional
@@ -168,63 +215,65 @@ U.S. States:
   - agrc
   - azgs
   - ccap
-  - nys-its
-  - nysenate
-  - twdb
-  - wsdot
-  - WSDOT-GIS
-  - TxDOT
-  - State-of-Arizona
-  - ORMetro
-  - TNRIS
-  - Virginia-House-of-Delegates
+  - CTOpenData
   - idahofishgame
   - InDEM
-  - tndcs
   - NJOGIS
-  - CTOpenData
+  - nys-its
+  - nysenate
+  - ORMetro
+  - State-of-Arizona
+  - tndcs
+  - TNRIS
+  - twdb
+  - TxDOT
   - UtahForestryFireStateLands
+  - Virginia-House-of-Delegates
+  - wsdot
+  - WSDOT-GIS
 
 United Kingdom:
   - alphagov
+  - BarnsleyCouncil
+  - BristolCityCouncil
+  - cabinetoffice
   - CarersBeta
+  - companieshouse
   - datagovuk
+  - DevonCountyCouncil
   - dfid
   - digital-preservation
   - east-sussex-county-council
   - edinburghcouncil
   - EnvironmentAgency
+  - gds-attic
   - gds-operations
   - hmrc
+  - JNCC-UK
   - LambethCouncil
+  - LandRegistry
   - lgss
   - lichfield-district-council
   - LocalGovDigital
-  - ministryofjustice
-  - west-berkshire-council
-  - metomi
-  - UKHomeOffice
-  - JNCC-UK
-  - TraffordCouncil
-  - warwickshire
-  - companieshouse
-  - gds-attic
-  - cabinetoffice
-  - UKLocation
   - LutonCouncil
-  - BarnsleyCouncil
-  - BristolCityCouncil
-  - ONSdigital
-  - LandRegistry
   - MetOffice
-  - DevonCountyCouncil
+  - metomi
+  - ministryofjustice
+  - ONSdigital
+  - TraffordCouncil
+  - UKHomeOffice
+  - UKLocation
+  - warwickshire
+  - west-berkshire-council
 
 United States:
   - 18f
   - adlnet
   - arcticlcc
+  - ARM-DOE
   - BBGInnovate
   - blue-button
+  - CA-CST-SII
   - CASL
   - cfpb
   - chaos
@@ -233,19 +282,27 @@ United States:
   - commercegov
   - department-of-veterans-affairs
   - educationdatainitiative
+  - EEOC
+  - energyapps
   - erdc-cm
   - eregs
   - fcc
   - fccdata
   - fda
+  - Federal-Aviation-Administration
   - foreignassistance
+  - government-services
   - gsa
   - hhs
+  - HHSIDEAlab
   - historyatstate
   - hpc
   - imls
   - info-sharing-environment
   - informaticslab
+  - Innovation-Toolkit
+  - ioos
+  - IRSgov
   - JBEI
   - JGI-Bioinformatics
   - kbase
@@ -253,17 +310,24 @@ United States:
   - losalamos
   - mcc-gov
   - nasa
+  - nasa-gibs
+  - nasajpl
+  - NationalGuard
   - nationalparkservice
   - ncats
   - ncbi
   - ncbitools
   - ncip
   - NCPP
+  - NCRN
   - NeoGeographyToolkit
   - NERSC
   - ngageoint
   - nhlbi
+  - NIST-BWS
+  - NIST-ICS-SEC-TB
   - NMML
+  - NOAA-ORR-ERD
   - nrel
   - opengovplatform
   - ozoneplatform
@@ -274,6 +338,7 @@ United States:
   - project-open-data
   - redhawksdr
   - shareandprotect
+  - Smithsonian
   - state-hiu
   - sunpy
   - usagov
@@ -282,84 +347,19 @@ United States:
   - usda
   - USDA-ERS
   - usdepartmentoflabor
+  - USDeptVeteransAffairs
   - usepa
+  - USGCRP
   - usgs
   - USGS-CIDA
+  - USGS-OWI
+  - USGS-R
   - usinterior
   - usnationalarchives
+  - usnistgov
+  - USPS
   - usstatedept
   - virtual-world-framework
   - visionworkbench
-  - whitehouse
-  - ARM-DOE
-  - USGS-R
-  - Smithsonian
-  - NIST-BWS
-  - NOAA-ORR-ERD
-  - Innovation-Toolkit
-  - NationalGuard
-  - energyapps
-  - nasajpl
-  - ioos
-  - usnistgov
-  - HHSIDEAlab
-  - government-services
-  - Federal-Aviation-Administration
-  - nasa-gibs
-  - EEOC
   - WFMRDA
-  - IRSgov
-  - NIST-ICS-SEC-TB
-  - USDeptVeteransAffairs
-  - NCRN
-  - USPS
-  - CA-CST-SII
-  - USGS-OWI
-  - USGCRP
-
-Tasmania:
-  - gccgisteam
-
-U.S. Research Labs:
-  - idaholab
-  - olcf
-  - mdhim
-  - BrookhavenNationalLaboratory
-  - ornl-sava
-  - sandialabs
-  - ORNL
-  - scalability-llnl
-  - PCMDI
-  - globus
-  - PNNL-Comp-Mass-Spec
-  - NSLS-II-CSX
-  - CBIIT
-  - ORNL-CEES
-  - NSLS-II
-  - nimh-nif
-  - TinyTitan
-  - ACME-Climate
-  - ornlcda
-  - nist-ionstorage
-  - NASA-Tensegrity-Robotics-Toolkit
-  - ORNL-TechInt
-  - materialsproject
-  - zfsonlinux
-  - exmatex
-  - lbl-anp
-  
-Peru:
-  - imarpe
-
-Mexico:
-  - CSB-IG
-  - DDT-INMEGEN
-
-Saudi Arabia:
-  - SAS-NCDC
-
-Isle of Man:
-  - Isle-Of-Man-Government
-
-Chile:
-  - e-gob
+  - whitehouse

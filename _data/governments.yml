@@ -10,10 +10,13 @@ Australia:
   - ga-m3dv
   - GeoscienceAustralia
   - Healthway
+  - innovationgovau
   - Landgate
+  - museumvictoria
   - nla
   - nmalabs
   - qld-gov-au
+  - srep
   - srnsw
   - wamuseum
 
@@ -31,6 +34,7 @@ Brazil:
   - interlegis
   - lexml
   - plonegovbr
+  - pr-snas
   - prefeiturasp
   - PROCERGS
   - secom-tocantins
@@ -42,8 +46,10 @@ Canada:
   - cityofgreatersudbury
   - cityofottawa
   - electionsquebec
+  - GeoCanViz
   - MetropolitanTransportationCommission
   - nrc-cnrc
+  - NRCan
   - nsgov
   - open-data
   - pwgsc
@@ -140,6 +146,7 @@ U.S. City:
   - city-of-bloomington
   - City-of-Raleigh-Public-Utilities
   - cityofasheville
+  - CityOfAuburnAL
   - CityOfBoston
   - cityofboulder
   - cityofchattanooga
@@ -179,33 +186,53 @@ U.S. County:
 
 U.S. Research Labs:
   - ACME-Climate
+  - ARM-DOE
   - BrookhavenNationalLaboratory
   - CASL
   - CBIIT
+  - EMSL-MSC
+  - epicsdeb
   - exmatex
   - globus
+  - HipGISAXS
+  - hpde
   - idaholab
   - JGI-Bioinformatics
+  - LANL-Bioinformatics
   - lbl-anp
+  - lblpbd
+  - libmesh
   - losalamos
   - materialsproject
   - mdhim
+  - MG-RAST
   - NASA-Tensegrity-Robotics-Toolkit
+  - NIAID-RTB
+  - NIFA
+  - nih-fmrif
   - nimh-nif
   - nist-ionstorage
   - NSLS-II
   - NSLS-II-CSX
   - olcf
+  - OpsLabJPL
   - ORNL
+  - ORNL-BTRIC
   - ORNL-CEES
   - ornl-sava
   - ORNL-TechInt
   - ornlcda
   - PCMDI
+  - plfs
   - PNNL-Comp-Mass-Spec
+  - pyepics
+  - reflectometry
   - sandialabs
   - scalability-llnl
+  - scattering
+  - simx
   - TinyTitan
+  - UV-CDAT
   - zfsonlinux
 
 U.S. Special District:
@@ -225,6 +252,7 @@ U.S. States:
   - nys-its
   - nysenate
   - ORMetro
+  - SLNC-DIMP
   - State-of-Arizona
   - tndcs
   - TNRIS
@@ -262,6 +290,7 @@ United Kingdom:
   - MetOffice
   - metomi
   - ministryofjustice
+  - naouk
   - ONSdigital
   - TraffordCouncil
   - UKHomeOffice
@@ -273,7 +302,6 @@ United States:
   - 18f
   - adlnet
   - arcticlcc
-  - ARM-DOE
   - BBGInnovate
   - blue-button
   - CA-CST-SII
@@ -282,6 +310,7 @@ United States:
   - cmsgov
   - cocomans
   - commercegov
+  - cooperhewitt
   - department-of-veterans-affairs
   - educationdatainitiative
   - EEOC
@@ -293,6 +322,8 @@ United States:
   - fda
   - Federal-Aviation-Administration
   - foreignassistance
+  - globegit
+  - gopleader
   - government-services
   - gsa
   - hhs
@@ -322,12 +353,15 @@ United States:
   - NeoGeographyToolkit
   - NERSC
   - ngageoint
+  - ngds
   - nhlbi
   - NIST-BWS
   - NIST-ICS-SEC-TB
+  - NISTDeepZoom
   - NMML
   - NOAA-ORR-ERD
   - nrel
+  - NREL-cookbooks
   - opengovplatform
   - ozoneplatform
   - peacecorps
@@ -349,6 +383,7 @@ United States:
   - USDeptVeteransAffairs
   - usepa
   - USGCRP
+  - usgin-models
   - usgs
   - USGS-CIDA
   - USGS-OWI
@@ -358,6 +393,7 @@ United States:
   - usnistgov
   - USPS
   - usstatedept
+  - VHAINNOVATIONS
   - virtual-world-framework
   - visionworkbench
   - WFMRDA

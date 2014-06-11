@@ -24,6 +24,9 @@ permalink: /community/
     <div class="span8">
       <h2>Civic Hackers</h2>
       {% for type_hash in site.data.civic_hackers %}
+        {% unless type_hash[0] == "Civic Hackers" %}
+        <div class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}"><p>{{ type_hash[0] }}</p></div>
+        {% endunless %}
         {% for org in type_hash[1] %}
           <div class="organization">
             <a href="https://github.com/{{ org }}" title="{{ org }}">

@@ -7,10 +7,11 @@ permalink: /community/
 <div class="container">
   <div class="row-fluid">
     <div class="span8">
-    <h5>Jump to <a href="#civichackers">Civic Hackers</a> list</h5>
+    <input id="filter" type="text" class="form-control" placeholder="Search for...">
+    <h5>Search all organizations or jump to <a href="#civichackers">Civic Hackers</a> list.</h5>
       <h2 id="governments">Governments</h2>
-
         <table class="table">
+          <tbody class="searchable">
           <tr><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
           {% for type_hash in site.data.governments %}
           {% for org in type_hash[1] %}
@@ -28,15 +29,17 @@ permalink: /community/
             </tr>
           {% endfor %}
           {% endfor %}
+        </tbody>
       </table>
     </div>
   </div>
 
   <div class="row-fluid">
     <div class="span8">
-      <h5>Jump to <a href="#civichackers">Governments</a> list</h5>
+      <h5>Jump to <a href="#governments">Governments</a> list.</h5>
       <h2 id="civichackers">Civic Hackers</h2>
       <table class="table">
+        <tbody class="searchable">
         <tr><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
         {% for type_hash in site.data.civic_hackers %}
         {% unless type_hash[0] == "Civic Hackers" %}
@@ -56,7 +59,8 @@ permalink: /community/
             </td>
           </tr>
         {% endfor %}
-      {% endfor %}
+        {% endfor %}
+        </tbody>
       </table>
     </div>
   </div>

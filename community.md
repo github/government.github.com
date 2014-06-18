@@ -4,13 +4,14 @@ layout: support-page
 description: Government agencies at the national, state, and local level use GitHub to share and collaborate. If you don't see your organization on this list, follow the instructions below to add it!
 permalink: /community/
 ---
-<div class="container">
+<div id="to-top" class="container">
   <div class="row-fluid">
     <div class="span8">
     <div class="search-section">
     <h5><input id="filter" type="text" class="form-control" placeholder="Type to search..."> or jump to <a href="#civichackers">Civic Hackers</a> list.</h5></div>
       <h2 id="governments">Governments</h2>
-        <table class="table">
+      <h6 class="govtable no-matches" style="display: none;">No matches.</h6>
+        <table class="govtable table">
           <tbody class="searchable">
           <tr><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
           {% for type_hash in site.data.governments %}
@@ -36,9 +37,10 @@ permalink: /community/
 
   <div class="row-fluid">
     <div class="span8">
-      <h5>Jump to <a href="#governments">Governments</a> list.</h5>
-      <h2 id="civichackers">Civic Hackers</h2>
-      <table class="table">
+      <h5 id="civichackers" class="search-section">Jump to <a href="#to-top">top</a> or <a href="#governments">Governments</a> list.</h5>
+      <h2>Civic Hackers</h2>
+      <h6 class="civictable no-matches" style="display: none;">No matches.</h6>
+      <table class="civictable table">
         <tbody class="searchable">
         <tr><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
         {% for type_hash in site.data.civic_hackers %}

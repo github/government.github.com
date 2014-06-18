@@ -74,6 +74,10 @@ a:hover {
   box-shadow: none;
 }
 
+.table td, .table th {
+  vertical-align: middle;
+}
+
 a.title-link { color: #333; }
 a.title-link:hover { color: #00c3f8; }
 

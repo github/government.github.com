@@ -8,33 +8,56 @@ permalink: /community/
   <div class="row-fluid">
     <div class="span8">
       <h2>Governments</h2>
+
+        <table class="table">
+        <tr><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
       {% for type_hash in site.data.governments %}
-      <div class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}"><p>{{ type_hash[0] }}</p></div>
-        {% for org in type_hash[1] %}
-          <div class="organization">
-            <a href="https://github.com/{{ org }}" title="{{ org }}">
-              <img class="avatar" src="https://github.com/{{ org }}.png" width="80" height="80" alt="{{ org }}">
-            </a>
-          </div>
-        {% endfor %}
+
+            {% for org in type_hash[1] %}
+            <tr>
+              <td>
+                <a href="https://github.com/{{ org }}" title="{{ org }}">
+                <img src="https://github.com/{{ org }}.png" width="40" height="40" alt="{{ org }}"></a>
+              </td>
+              <td>
+                <p>{{ org }}</p>
+              </td>
+              <td>
+                <p>{{ type_hash[0] }}</p>
+              </td>
+            </tr>
+            {% endfor %}
+
+
       {% endfor %}
+      </table>
     </div>
   </div>
   <div class="row-fluid">
     <div class="span8">
       <h2>Civic Hackers</h2>
+      <table class="table">
+      <tr><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
       {% for type_hash in site.data.civic_hackers %}
         {% unless type_hash[0] == "Civic Hackers" %}
-        <div class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}"><p>{{ type_hash[0] }}</p></div>
+
         {% endunless %}
         {% for org in type_hash[1] %}
-          <div class="organization">
-            <a href="https://github.com/{{ org }}" title="{{ org }}">
-              <img class="avatar" src="https://github.com/{{ org }}.png" width="80" height="80" alt="{{ org }}">
-            </a>
-          </div>
+          <tr>
+            <td>
+              <a href="https://github.com/{{ org }}" title="{{ org }}">
+              <img src="https://github.com/{{ org }}.png" width="40" height="40" alt="{{ org }}"></a>
+            </td>
+            <td>
+              <p>{{ org }}</p>
+            </td>
+            <td>
+              <p>{{ type_hash[0] }}</p>
+            </td>
+          </tr>
         {% endfor %}
       {% endfor %}
+      </table>
     </div>
   </div>
 

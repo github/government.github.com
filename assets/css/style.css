@@ -78,6 +78,16 @@ a:hover {
   vertical-align: middle;
 }
 
+#filter {
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #00c3f8;
+  box-shadow: none;
+  padding-left: 0;
+}
+
+.search-section { padding-bottom: 20px; }
+
 a.title-link { color: #333; }
 a.title-link:hover { color: #00c3f8; }
 

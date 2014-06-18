@@ -7,8 +7,8 @@ permalink: /community/
 <div class="container">
   <div class="row-fluid">
     <div class="span8">
-    <input id="filter" type="text" class="form-control" placeholder="Search for...">
-    <h5>Search all organizations or jump to <a href="#civichackers">Civic Hackers</a> list.</h5>
+    <div class="search-section">
+    <h5><input id="filter" type="text" class="form-control" placeholder="Type to search..."> or jump to <a href="#civichackers">Civic Hackers</a> list.</h5></div>
       <h2 id="governments">Governments</h2>
         <table class="table">
           <tbody class="searchable">

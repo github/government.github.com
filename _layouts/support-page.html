@@ -42,21 +42,20 @@
             var rex = new RegExp($(this).val(), 'i');
             $('.searchable tr').hide();
             $('.searchable tr').filter(function () {
-                // console.log($('.searchable tr:visible').length)
                 return rex.test($(this).text());
             }).show();
 
             if ($('.govtable tr:visible').length === 0) {
-              $('.govtable.no-matches').show()
+              $('.govtable.no-matches').show();
             } else {
-              $('.govtable.no-matches').hide()
-            }
+              $('.govtable.no-matches').hide();
+            };
 
             if ($('.civictable tr:visible').length === 0) {
-              $('.civictable.no-matches').show()
+              $('.civictable.no-matches').show();
             } else {
-              $('.civictable.no-matches').hide()
-            }
+              $('.civictable.no-matches').hide();
+            };
         })
     }(jQuery));
 });

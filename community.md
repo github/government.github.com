@@ -7,13 +7,13 @@ permalink: /community/
 <div class="container">
   <div class="row-fluid">
     <div class="span8">
-      <h2>Governments</h2>
+    <h5>Jump to <a href="#civichackers">Civic Hackers</a> list</h5>
+      <h2 id="governments">Governments</h2>
 
         <table class="table">
-        <tr><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
-      {% for type_hash in site.data.governments %}
-
-            {% for org in type_hash[1] %}
+          <tr><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
+          {% for type_hash in site.data.governments %}
+          {% for org in type_hash[1] %}
             <tr>
               <td>
                 <a href="https://github.com/{{ org }}" title="{{ org }}">
@@ -26,19 +26,19 @@ permalink: /community/
                 <p>{{ type_hash[0] }}</p>
               </td>
             </tr>
-            {% endfor %}
-
-
-      {% endfor %}
+          {% endfor %}
+          {% endfor %}
       </table>
     </div>
   </div>
+
   <div class="row-fluid">
     <div class="span8">
-      <h2>Civic Hackers</h2>
+      <h5>Jump to <a href="#civichackers">Governments</a> list</h5>
+      <h2 id="civichackers">Civic Hackers</h2>
       <table class="table">
-      <tr><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
-      {% for type_hash in site.data.civic_hackers %}
+        <tr><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
+        {% for type_hash in site.data.civic_hackers %}
         {% unless type_hash[0] == "Civic Hackers" %}
 
         {% endunless %}

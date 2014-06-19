@@ -13,12 +13,12 @@ permalink: /community/
       <h6 class="govtable no-matches" style="display: none;">No matches.</h6>
         <table class="govtable table">
           <tbody class="searchable">
-          <tr class="table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
-          {% for type_hash in site.data.governments %}
-          <tr class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}">
-            <td><h3>{{ type_hash[0] }}</h3></td><td></td><td></td>
-          </tr>
-          {% for org in type_hash[1] %}
+            <tr class="table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
+            {% for type_hash in site.data.governments %}
+            <tr class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}">
+              <td><h3>{{ type_hash[0] }}</h3></td><td></td><td></td>
+            </tr>
+            {% for org in type_hash[1] %}
             <tr>
               <td>
                 <a href="https://github.com/{{ org }}" title="{{ org }}">
@@ -45,27 +45,28 @@ permalink: /community/
       <h6 class="civictable no-matches" style="display: none;">No matches.</h6>
       <table class="civictable table">
         <tbody class="searchable">
-        <tr><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
-        {% for type_hash in site.data.civic_hackers %}
-        {% unless type_hash[0] == "Civic Hackers" %}
-
-        {% endunless %}
-        {% for org in type_hash[1] %}
-
-          <tr>
-            <td>
-              <a href="https://github.com/{{ org }}" title="{{ org }}">
-              <img src="https://github.com/{{ org }}.png" width="40" height="40" alt="{{ org }}"></a>
-            </td>
-            <td>
-              <p>{{ org }}</p>
-            </td>
-            <td>
-              <p>{{ type_hash[0] }}</p>
-            </td>
-          </tr>
-        {% endfor %}
-        {% endfor %}
+          <tr class="table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
+          {% for type_hash in site.data.civic_hackers %}
+          {% unless type_hash[0] == "Civic Hackers" %}
+          {% endunless %}
+          <tr class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}">
+            <td><h3>{{ type_hash[0] }}</h3></td><td></td><td></td>
+            </tr>
+            {% for org in type_hash[1] %}
+            <tr>
+              <td>
+                <a href="https://github.com/{{ org }}" title="{{ org }}">
+                <img src="https://github.com/{{ org }}.png" width="40" height="40" alt="{{ org }}"></a>
+              </td>
+              <td>
+                <p>{{ org }}</p>
+              </td>
+              <td>
+                <p class="dim-affiliation">{{ type_hash[0] }}</p>
+              </td>
+            </tr>
+            {% endfor %}
+          {% endfor %}
         </tbody>
       </table>
     </div>

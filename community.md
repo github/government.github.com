@@ -13,11 +13,10 @@ permalink: /community/
       <h6 class="govtable no-matches" style="display: none;">No matches.</h6>
         <table class="govtable table">
           <tbody class="searchable">
-          <tr><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
+          <tr class="table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
           {% for type_hash in site.data.governments %}
           <tr class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}">
-            <!-- <td><h3>{{ type_hash[0] }}</h3></td><td></td><td></td> -->
-            <td></td><td></td><td></td>
+            <td><h3>{{ type_hash[0] }}</h3></td><td></td><td></td>
           </tr>
           {% for org in type_hash[1] %}
             <tr>
@@ -29,8 +28,7 @@ permalink: /community/
                 <p>{{ org }}</p>
               </td>
               <td>
-                <!-- <p style="color: #ccc; font-weight: 200;">{{ type_hash[0] }}</p> -->
-                <p>{{ type_hash[0] }}</p>
+                <p class="dim-affiliation">{{ type_hash[0] }}</p>
               </td>
             </tr>
           {% endfor %}

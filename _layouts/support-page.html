@@ -38,27 +38,27 @@
 <script>
   $(document).ready(function () {
     (function ($) {
-        $('#filter').keyup(function () {
-            var rex = new RegExp($(this).val(), 'i');
-            $('.searchable tr').hide();
-            $('.searchable tr').filter(function () {
-                return rex.test($(this).text());
-            }).show();
+      $('#filter').keyup(function () {
+        var rex = new RegExp($(this).val(), 'i');
+        $('.searchable tr').hide();
+        $('.searchable tr').filter(function () {
+            return rex.test($(this).text());
+        }).show();
 
-            if ($('.govtable tr:visible').length === 0) {
-              $('.govtable.no-matches').show();
-            } else {
-              $('.govtable.no-matches').hide();
-            };
+        if ($('.govtable tr:visible').length === 0) {
+          $('.govtable.no-matches').show();
+        } else {
+          $('.govtable.no-matches').hide();
+        };
 
-            if ($('.civictable tr:visible').length === 0) {
-              $('.civictable.no-matches').show();
-            } else {
-              $('.civictable.no-matches').hide();
-            };
-        })
+        if ($('.civictable tr:visible').length === 0) {
+          $('.civictable.no-matches').show();
+        } else {
+          $('.civictable.no-matches').hide();
+        };
+      })
     }(jQuery));
-});
+  });
 </script>
 
 {% include footer.html %}

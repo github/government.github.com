@@ -357,7 +357,7 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
   width: 80px;
 }
 
-.type-block {
+/*.type-block {
   float: left;
   width: 80px;
   height: 80px;
@@ -366,11 +366,25 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
   text-align: center;
   margin: 5px 5px 5px 0;
   color: #fff;
+}*/
+
+.table td {
+
 }
 
-.type-block p {
-  margin: 14px 7px;
+.type-block + tr td {
+  border-color: #fff;
 }
+
+.type-block td {
+  /*border-bottom: 1px solid #eee;*/
+  background-color: #fafafa;
+  border-color: #fff;
+}
+
+/*.type-block p {
+  margin: 14px 7px;
+}*/
 
 .organization > a > img {
   vertical-align: middle;

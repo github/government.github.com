@@ -15,6 +15,10 @@ permalink: /community/
           <tbody class="searchable">
           <tr><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
           {% for type_hash in site.data.governments %}
+          <tr class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}">
+            <!-- <td><h3>{{ type_hash[0] }}</h3></td><td></td><td></td> -->
+            <td></td><td></td><td></td>
+          </tr>
           {% for org in type_hash[1] %}
             <tr>
               <td>
@@ -25,6 +29,7 @@ permalink: /community/
                 <p>{{ org }}</p>
               </td>
               <td>
+                <!-- <p style="color: #ccc; font-weight: 200;">{{ type_hash[0] }}</p> -->
                 <p>{{ type_hash[0] }}</p>
               </td>
             </tr>
@@ -48,6 +53,7 @@ permalink: /community/
 
         {% endunless %}
         {% for org in type_hash[1] %}
+
           <tr>
             <td>
               <a href="https://github.com/{{ org }}" title="{{ org }}">

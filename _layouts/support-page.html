@@ -44,8 +44,6 @@
         $('.searchable tr').filter(function () {
             return rex.test($(this).text());
         }).show();
-        console.log("gov", $('.govtable tr:visible').length)
-        console.log("civ", $('.civictable tr:visible').length)
 
         if ($('.govtable tr:visible').length === 0) {
           $('.govtable.no-matches').show();

@@ -4,37 +4,71 @@ layout: support-page
 description: Government agencies at the national, state, and local level use GitHub to share and collaborate. If you don't see your organization on this list, follow the instructions below to add it!
 permalink: /community/
 ---
-<div class="container">
+<div id="to-top" class="container">
   <div class="row-fluid">
     <div class="span8">
-      <h2>Governments</h2>
-      {% for type_hash in site.data.governments %}
-      <div class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}"><p>{{ type_hash[0] }}</p></div>
-        {% for org in type_hash[1] %}
-          <div class="organization">
-            <a href="https://github.com/{{ org }}" title="{{ org }}">
-              <img class="avatar" src="https://github.com/{{ org }}.png" width="80" height="80" alt="{{ org }}">
-            </a>
-          </div>
-        {% endfor %}
-      {% endfor %}
+    <div class="search-section">
+    <h5><input id="filter" type="text" class="form-control" placeholder="Type to search..."> or jump to <a href="#civichackers">Civic Hackers</a> list.</h5></div>
+      <h2 id="governments">Governments</h2>
+      <h6 class="govtable no-matches" style="display: none;">No matches.</h6>
+        <table class="govtable table">
+          <tbody class="searchable">
+            <tr class="govtable table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
+            {% for type_hash in site.data.governments %}
+            <tr class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}">
+              <td><h3>{{ type_hash[0] }}</h3></td><td></td><td></td>
+            </tr>
+            {% for org in type_hash[1] %}
+            <tr>
+              <td>
+                <a href="https://github.com/{{ org }}" title="{{ org }}">
+                <img src="https://github.com/{{ org }}.png" width="40" height="40" alt="{{ org }}"></a>
+              </td>
+              <td>
+                <p><a href="https://github.com/{{ org }}" title="{{ org }}">{{ org }}</a></p>
+              </td>
+              <td>
+                <p class="dim-affiliation">{{ type_hash[0] }}</p>
+              </td>
+            </tr>
+          {% endfor %}
+          {% endfor %}
+        </tbody>
+      </table>
     </div>
   </div>
+
   <div class="row-fluid">
     <div class="span8">
+      <h5 id="civichackers" class="search-section">Jump to <a href="#to-top">top</a> or <a href="#governments">Governments</a> list.</h5>
       <h2>Civic Hackers</h2>
-      {% for type_hash in site.data.civic_hackers %}
-        {% unless type_hash[0] == "Civic Hackers" %}
-        <div class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}"><p>{{ type_hash[0] }}</p></div>
-        {% endunless %}
-        {% for org in type_hash[1] %}
-          <div class="organization">
-            <a href="https://github.com/{{ org }}" title="{{ org }}">
-              <img class="avatar" src="https://github.com/{{ org }}.png" width="80" height="80" alt="{{ org }}">
-            </a>
-          </div>
-        {% endfor %}
-      {% endfor %}
+      <h6 class="civictable no-matches" style="display: none;">No matches.</h6>
+      <table class="civictable table">
+        <tbody class="searchable">
+          <tr class="civictable table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
+          {% for type_hash in site.data.civic_hackers %}
+          {% unless type_hash[0] == "Civic Hackers" %}
+          {% endunless %}
+          <tr class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}">
+            <td><h3>{{ type_hash[0] }}</h3></td><td></td><td></td>
+            </tr>
+            {% for org in type_hash[1] %}
+            <tr>
+              <td>
+                <a href="https://github.com/{{ org }}" title="{{ org }}">
+                <img src="https://github.com/{{ org }}.png" width="40" height="40" alt="{{ org }}"></a>
+              </td>
+              <td>
+                <p><a href="https://github.com/{{ org }}" title="{{ org }}">{{ org }}</a></p>
+              </td>
+              <td>
+                <p class="dim-affiliation">{{ type_hash[0] }}</p>
+              </td>
+            </tr>
+            {% endfor %}
+          {% endfor %}
+        </tbody>
+      </table>
     </div>
   </div>
 

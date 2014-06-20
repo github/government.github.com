@@ -13,7 +13,7 @@ permalink: /community/
       <h6 class="govtable no-matches" style="display: none;">No matches.</h6>
         <table class="govtable table">
           <tbody class="searchable">
-            <tr class="table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
+            <tr class="govtable table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
             {% for type_hash in site.data.governments %}
             <tr class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}">
               <td><h3>{{ type_hash[0] }}</h3></td><td></td><td></td>
@@ -25,7 +25,7 @@ permalink: /community/
                 <img src="https://github.com/{{ org }}.png" width="40" height="40" alt="{{ org }}"></a>
               </td>
               <td>
-                <p>{{ org }}</p>
+                <p><a href="https://github.com/{{ org }}" title="{{ org }}">{{ org }}</a></p>
               </td>
               <td>
                 <p class="dim-affiliation">{{ type_hash[0] }}</p>
@@ -45,7 +45,7 @@ permalink: /community/
       <h6 class="civictable no-matches" style="display: none;">No matches.</h6>
       <table class="civictable table">
         <tbody class="searchable">
-          <tr class="table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
+          <tr class="civictable table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
           {% for type_hash in site.data.civic_hackers %}
           {% unless type_hash[0] == "Civic Hackers" %}
           {% endunless %}
@@ -59,7 +59,7 @@ permalink: /community/
                 <img src="https://github.com/{{ org }}.png" width="40" height="40" alt="{{ org }}"></a>
               </td>
               <td>
-                <p>{{ org }}</p>
+                <p><a href="https://github.com/{{ org }}" title="{{ org }}">{{ org }}</a></p>
               </td>
               <td>
                 <p class="dim-affiliation">{{ type_hash[0] }}</p>

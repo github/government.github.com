@@ -44,17 +44,21 @@
         $('.searchable tr').filter(function () {
             return rex.test($(this).text());
         }).show();
+        console.log("gov", $('.govtable tr:visible').length)
+        console.log("civ", $('.civictable tr:visible').length)
 
         if ($('.govtable tr:visible').length === 0) {
           $('.govtable.no-matches').show();
         } else {
           $('.govtable.no-matches').hide();
+          $('.govtable.table-header').show();
         };
 
         if ($('.civictable tr:visible').length === 0) {
           $('.civictable.no-matches').show();
         } else {
           $('.civictable.no-matches').hide();
+          $('.civictable.table-header').show();
         };
       })
     }(jQuery));

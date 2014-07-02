@@ -8,6 +8,7 @@ Australia:
   - datagovau
   - dpaw2
   - ga-m3dv
+  - gccgisteam
   - GeoscienceAustralia
   - Healthway
   - innovationgovau
@@ -19,6 +20,7 @@ Australia:
   - srep
   - srnsw
   - wamuseum
+
 
 Belgium:
   - belgianpolice
@@ -132,9 +134,6 @@ Sweden:
 Switzerland:
   - alv-ch
   - ogdch
-
-Tasmania:
-  - gccgisteam
 
 U.S. City:
   - Baltimore-City-EGIS

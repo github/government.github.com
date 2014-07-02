@@ -47,7 +47,6 @@ Canada:
   - cityofottawa
   - electionsquebec
   - GeoCanViz
-  - MetropolitanTransportationCommission
   - nrc-cnrc
   - NRCan
   - nsgov
@@ -240,6 +239,7 @@ U.S. Special District:
   - atlregional
   - cleveland-metroparks
   - CMAP-REPOS
+  - MetropolitanTransportationCommission
   - psrc
 
 U.S. States:

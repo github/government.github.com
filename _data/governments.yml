@@ -4,7 +4,9 @@ Argentina:
   - gcba
 
 Australia:
+  - actesa
   - actgov
+  - agnsw
   - datagovau
   - dpaw2
   - ga-m3dv
@@ -16,13 +18,11 @@ Australia:
   - museumvictoria
   - nla
   - nmalabs
+  - NSWPlanning
   - qld-gov-au
   - srep
   - srnsw
   - wamuseum
-  - NSWPlanning
-  - actesa
-  - agnsw
 
 Belgium:
   - belgianpolice
@@ -35,16 +35,16 @@ Brazil:
   - cislgov
   - dadosgovbr
   - gabinetedigital
+  - InstitutoBenjaminConstant
   - interlegis
   - lexml
   - plonegovbr
   - pr-snas
+  - PrefeituraParnaiba
   - prefeiturasp
   - PROCERGS
   - secom-tocantins
-  - InstitutoBenjaminConstant
   - wpgovbr
-  - PrefeituraParnaiba
 
 Canada:
   - AAFC-MBB
@@ -93,6 +93,9 @@ Germany:
   - gbv
   - lobid
 
+India:
+  - itschool
+
 International:
   - IATI
   - ogpl
@@ -115,6 +118,9 @@ Norway:
   - kartverket
   - KRD-KOMM-VL
 
+Paraguay:
+  - SENATICS
+
 Peru:
   - imarpe
 
@@ -126,6 +132,9 @@ Puerto Rico:
 
 Saudi Arabia:
   - SAS-NCDC
+
+South Africa:
+  - eddZA
 
 Spain:
   - ctt-gob-es
@@ -139,9 +148,9 @@ Sweden:
 
 Switzerland:
   - alv-ch
+  - FNSKtZH
   - ogdch
   - sitn
-  - FNSKtZH
 
 U.S. City:
   - Baltimore-City-EGIS
@@ -171,29 +180,29 @@ U.S. City:
   - egovpdx
   - Honolulu
   - lfucg
+  - MetropolitanCouncil
   - mnhrc
   - monum
   - NYCComptroller
   - octolabs
   - OpenGovDC
   - openlexington
+  - ProBonoDC
   - SantaClarita
   - sfbart
   - sfgov
   - tucsonaz
-  - MetropolitanCouncil
-  - ProBonoDC
 
 U.S. County:
   - ArlingtonCounty
   - baltimorecounty
+  - CarverCounty
+  - fpdcc
+  - HarrisCountyFOA
   - miamidade
   - sfcta
   - SJCGIS
   - slugis
-  - HarrisCountyFOA
-  - CarverCounty
-  - fpdcc
 
 U.S. Research Labs:
   - ACME-Climate
@@ -201,6 +210,7 @@ U.S. Research Labs:
   - BrookhavenNationalLaboratory
   - CASL
   - CBIIT
+  - EarthSystemCoG
   - EMSL-MSC
   - epicsdeb
   - exmatex
@@ -216,9 +226,11 @@ U.S. Research Labs:
   - libmesh
   - losalamos
   - materialsproject
+  - MCSclimate
   - mdhim
   - MG-RAST
   - NASA-Tensegrity-Robotics-Toolkit
+  - ncgmp09
   - NIAID-RTB
   - NIFA
   - nih-fmrif
@@ -246,9 +258,6 @@ U.S. Research Labs:
   - TinyTitan
   - UV-CDAT
   - zfsonlinux
-  - MCSclimate
-  - EarthSystemCoG
-  - ncgmp09
 
 U.S. Special District:
   - atlregional
@@ -262,8 +271,11 @@ U.S. States:
   - azgs
   - ccap
   - CTOpenData
+  - FGS-FloridaGeologicalSurvey
   - idahofishgame
   - InDEM
+  - LibraryofVA
+  - MFWP-GIS
   - NJOGIS
   - nys-its
   - nysenate
@@ -276,22 +288,21 @@ U.S. States:
   - TxDOT
   - UtahForestryFireStateLands
   - Virginia-House-of-Delegates
+  - WA-OCIO
   - wsdot
   - WSDOT-GIS
-  - LibraryofVA
-  - WA-OCIO
-  - FGS-FloridaGeologicalSurvey
-  - MFWP-GIS
 
 United Kingdom:
   - alphagov
   - BarnsleyCouncil
+  - brighton-hove-gov-uk
   - BristolCityCouncil
   - cabinetoffice
   - CarersBeta
   - companieshouse
   - datagovuk
   - decc
+  - Department-for-Work-and-Pensions
   - DevonCountyCouncil
   - dfid
   - digital-preservation
@@ -302,6 +313,7 @@ United Kingdom:
   - gds-operations
   - GuildfordBC
   - hmrc
+  - intellectual-property-office
   - JNCC-UK
   - LambethCouncil
   - LandRegistry
@@ -319,13 +331,11 @@ United Kingdom:
   - UKLocation
   - warwickshire
   - west-berkshire-council
-  - brighton-hove-gov-uk
-  - intellectual-property-office
-  - Department-for-Work-and-Pensions
 
 United States:
   - 18f
   - adlnet
+  - applicationsmall
   - arcticlcc
   - BBGInnovate
   - blue-button
@@ -350,11 +360,13 @@ United States:
   - globegit
   - gopleader
   - government-services
+  - GreatSmokyMountainsNationalPark
   - gsa
   - hhs
   - HHSIDEAlab
   - historyatstate
   - hpc
+  - IMDProjects
   - info-sharing-environment
   - informaticslab
   - Innovation-Toolkit
@@ -363,9 +375,11 @@ United States:
   - JBEI
   - kbase
   - libraryofcongress
+  - M-O-S-E-S
   - mcc-gov
   - nasa
   - nasa-gibs
+  - NASA-rdt
   - nasajpl
   - NationalGuard
   - nationalparkservice
@@ -379,6 +393,7 @@ United States:
   - NERSC
   - ngageoint
   - ngds
+  - nhanes
   - nhlbi
   - NIST-BWS
   - NIST-ICS-SEC-TB
@@ -388,8 +403,10 @@ United States:
   - nrel
   - NREL-cookbooks
   - opengovplatform
+  - ozone-development
   - ozoneplatform
   - peacecorps
+  - PM-Master
   - portofsandiego
   - presidential-innovation-fellows
   - project-interoperability
@@ -402,6 +419,7 @@ United States:
   - usagov
   - usaid
   - usasearch
+  - usbr
   - usda
   - USDA-ERS
   - usdepartmentoflabor
@@ -413,6 +431,7 @@ United States:
   - USGS-CIDA
   - USGS-OWI
   - USGS-R
+  - usindianaffairs
   - usinterior
   - usnationalarchives
   - usnistgov
@@ -423,22 +442,3 @@ United States:
   - visionworkbench
   - WFMRDA
   - whitehouse
-  - applicationsmall
-  - usindianaffairs
-  - PM-Master
-  - ozone-development
-  - GreatSmokyMountainsNationalPark
-  - NASA-rdt
-  - M-O-S-E-S
-  - IMDProjects
-  - nhanes
-  - usbr
-
-India:
-  - itschool
-
-South Africa:
-  - eddZA
-
-Paraguay:
-  - SENATICS

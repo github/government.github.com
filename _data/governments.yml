@@ -44,6 +44,7 @@ Brazil:
   - prefeiturasp
   - PROCERGS
   - secom-tocantins
+  - tisorocaba
   - wpgovbr
 
 Canada:
@@ -54,11 +55,13 @@ Canada:
   - cityofottawa
   - electionsquebec
   - GeoCanViz
+  - mce-scarto
   - nrc-cnrc
   - NRCan
   - nsgov
   - open-data
   - pwgsc
+  - RAMP-PCAR
   - ServiceCanada
   - wet-boew
 
@@ -154,6 +157,7 @@ Switzerland:
 U.S. City:
   - Baltimore-City-EGIS
   - berkeleypubliclibrary
+  - BostonRedevelop
   - cambridgegis
   - chicago
   - city-of-bellingham
@@ -306,8 +310,10 @@ United Kingdom:
   - DevonCountyCouncil
   - dfid
   - digital-preservation
+  - dvla
   - east-sussex-county-council
   - edinburghcouncil
+  - EnvHack2
   - EnvironmentAgency
   - gds-attic
   - gds-operations

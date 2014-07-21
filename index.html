@@ -5,48 +5,99 @@ description: Make government better, together. Stories of open source, open data
 org_count: 60
 ---
 
-<div class="stories container">
+<div class="section splash container">
+  <div class="row-fluid">
+    <div class="span4">
+      <span class="mega-octicon octicon-terminal"></span>
+      <h3>Upgrade your agency's IT workflow</h3>
+      <p>Git is an open-source version control system that tracks who made what change when across software projects.</p>
+    </div>
+    <div class="span4">
+      <span class="mega-octicon octicon-organization"></span>
+      <h3>Public engagement, private collaboration</h3>
+      <p>Publish open source software on GitHub.com or collaborate privately and securely behind your agency's firewall.</p>
+    </div>
+    <div class="span4">
+      <span class="mega-octicon octicon-git-pull-request"></span>
+      <h3>Communicate more, manage less</h3>
+      <p>Pull requests allow collaborators to submit and visualize proposed changes for discussion and review.</p>
+    </div>
+  </div>
 
-  {% for post in paginator.posts %}
+  <div class="row-fluid">
+    <div class="span4">
+      <span class="mega-octicon octicon-lock"></span>
+      <h3>Enterprise controls, startup speed</h3>
+      <p>Collaborate openly while still limiting access to a team, to stakeholder, or to an entire organization.</p>
+    </div>
+    <div class="span4">
+      <span class="mega-octicon octicon-issue-closed"></span>
+      <h3>Hold your next standup sitting down</h3>
+      <p>GitHub's issue tracking tools give you day-to-day visibility into your project's success, without the need for lengthy meetings.</p>
+    </div>
+    <div class="span4">
+      <span class="mega-octicon octicon-package"></span>
+      <h3>Your one stop shop for software collaboration</h3>
+      <p>Code hosting and review, issue tracking, project management, and documentation publishing all with one click.</p>
+    </div>
+  </div>
 
-    {% assign mod = forloop.index0 | modulo: 6 %}
+  <div class="row-fluid">
+    <div class="span4">
+      <span class="mega-octicon octicon-server"></span>
+      <h3>In your datacenter or in the cloud</h3>
+      <p>Run GitHub in your data center as a secure virtual appliance, or let us host the code for you on GitHub.com.</p>
+    </div>
+    <div class="span4">
+      <span class="mega-octicon octicon-tools"></span>
+      <h3>BYOW (bring your own workflow)</h3>
+      <p>Waterfall? Agile? Magic eight ball? Already have a favorite tool? GitHub integrates with hundreds of project management tools.</p>
+    </div>
+    <div class="span4">
+      <span class="mega-octicon octicon-podium"></span>
+      <h3>Government IT without the government paperwork</h3>
+      <p>GitHub.com's terms of service are approved for government use by the GSA, and most plans fall below the micro-purchase threshold.</p>
+    </div>
+  </div>
+  <p><a href="https://github.com/features">Learn more about GitHub &rarr;</a></p>
+</div>
 
-    {% if mod == 0 or mod == 3 %}
-      <div class="row-fluid">
-    {% endif %}
+<div class="mini-section">
+  <div class="container splash">
+    <h1 id="join-the-revolution">More than just code</h1>
+    <p>Agencies use GitHub to engage developers and collaborate with the public on open source, open data and open government efforts.<br /GitHub even renders common formats like text, CSVs, and geospatial data.</p>
 
-        <div class="story-unit span4">
-          <article>
-            <a href="{{ post.url }}">
-              <div class="homepage-image {{ post.category }}" style="background-image: url('{{ post.image }}');"></div>
-            </a>
-            <div class="meta {{ post.category }}"><a class="{{ post.category }}" href="/categories/#{{ post.category | replace: ' ','-' }}">{{ post.category }}</a></div>
-            <h3><a class="title-link {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h3>
-            <div class="description">{% if post.description %}{{ post.description }}{% else %}{{ post.content | truncatewords: 36 }}{% endif %} <span><a class="read-more" href="{{ post.url }}">read more</a></span></div>
-          </article>
-        </div>
-
-    {% if mod == 2 or mod == 5 %}
+    <div class="row-fluid section source-data-code">
+      <div class="span4">
+        <h2>Open Source</h2>
+        <p><img src="/images/open-source.png" alt="Pull request launching gov.uk"/></p>
       </div>
-    {% endif %}
 
-  {% endfor %}
+      <div class="span4">
+        <h2>Open Data</h2>
+        <p><img src="/images/open-data.png" alt="GeoJSON diff of Illinois 4th Congressional Districtt"/></p>
+      </div>
 
-  {% if paginator.next_page %}
-    <div class="row-fluid">
-      <div class="span8">
-        <h5>View the <a href="/archive">complete archive</a> or <a href="/submit">tell your story</a>.</h5>
+      <div class="span4">
+        <h2>Open Government</h2>
+        <p><img src="/images/open-gov.png" alt="Project Open Data"/></p>
       </div>
     </div>
-  {% endif %}
 
-</div> <!-- class="stories container" -->
+  </div>
+</div>
 
 
 <div class="mini-section">
   <div class="container splash">
     <h1 id="join-the-revolution">Join the Revolution</h1>
-    <h3>The White House, nations, city and state governments, and millions of communities around the world who share and collaborate on code, data, policy, and more.</h3>
+    {% assign count = 0 %}
+    {% for group in site.data.governments %}
+      {% for org in group[1] %}
+        {% assign count = count | plus:1 %}
+      {% endfor %}
+    {% endfor %}
+    <h3>Join the {{ count }}+ government organizations around the world who collaborate on code, data, policy, and more.</h3>
   </div>
 
   <div class="container">
@@ -68,33 +119,38 @@ org_count: 60
       </div> <!-- class="the-orgs" -->
     </div> <!-- id="orgs" -->
     <h5>See the rest of the GitHub <a href="/community">government community</a>.</h5>
+  </div>
+</div>
+
+<div class="mini-section">
+  <div class="container splash">
+    <h1 id="join-the-revolution">Get started today</h1>
+
+<div class="row-fluid section">
+  <div class="span4">
+    <h2>Signup</h2>
+    <p>If you don't alrady have one, <a href="https://github.com/signup/free" target="_blank">sign up for an individual GitHub account</a> that's specific to you.</p>
+    <p>If you've already got a personal GitHub account, simply <a href="">add and confirm your government email address</a>.</p>
+  </div>
+
+  <div class="span4">
+    <h2>Dive into best practices</h2>
+    <p>There's a growing, semi-private <a href="https://government-community.githubapp.com/">community of government employees</a> sharing best practices for software collaboration within government.</p>
+    <p>If government email address is associated with your account and verified, you should <a href="https://government-community.githubapp.com/">have access</a>.
+  </div>
+
+  <div class="span4">
+    <h2>Create an organization</h2>
+    <p>An organization is your official presence on GitHub. Once logged in, <a href="https://github.com/organizations/new">create a free organization</a>. You can always upgrade later.</p>
+    <p>Prefer to host your own GitHub instance? <a href="http://enterprise.github.com">request a free trial</a> to get started.
+  </div>
+</div>
 
 
-    <div class="row-fluid section">
-      <div class="span4">
-        <h2>Sign Up</h2>
-        <ol>
-          <li>New to GitHub? <a href="https://github.com/signup/free" target="_blank">Sign up</a> for an account. Already have an account? Skip to step two.</li>
-          <li><a href="https://github.com/settings/organizations" target="_blank">Create an Organization</a> account.</li>
-          <li>Invite your team members!</li>
-        </ol>
-      </div>
-
-      <div class="span4">
-        <h2>Learn More</h2>
-        <ul>
-          <li>The <a href="/features">features</a> that make GitHub so great.</li>
-          <li>What GitHub is all <a href="/about">about</a>.</li>
-          <li><a href="/projects">Project ideas</a> to get started with.</li>
-        </ul>
-      </div>
-
-      <div class="span4">
-        <h2>Connect</h2>
-        <ul class="no-style-list">
-          <li>We've started a Government organization on GitHub so that users can connect, share best practices and learn from each other. To join, simply ensure your government email address is verified and associated with your account, and you should <a href="https://government-community.githubapp.com/">automatically be granted access</a>. If you don't have a government email address, but are interested please <a href="mailto:government@github.com">contact us</a>.</li>
-        </ul>
-      </div>
-    </div> <!-- class="row-fluid section" -->
+<div class="row">
+  <div class="span8 offset1 boxed">
+    <span class="mega-octicon octicon-person"></span>
+    <h3>Talk to a human</h3>
+    <p>Questions? <a href="https://government-community.githubapp.com/best-practices/issues/new">Post a question in the government commmunity</a> to get feedback directly from other GitHub users, or email <a href="mailto:government@github.com">government@github.com</a> to talk to GitHub's government team directly.</p>
   </div>
 </div>

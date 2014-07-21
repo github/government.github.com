@@ -414,6 +414,10 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 
 .search-section { padding-bottom: 20px; }
 
+.boxed { border: 1px solid #ccc; padding: 15px; }
+
+.source-data-code img {border: 1px solid #ccc; padding: 5px; }
+
 
 /* archive page */
 /* ----------------------------------------------------------------------------------- */

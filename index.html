@@ -88,7 +88,7 @@ org_count: 60
 
 <div class="mini-section">
   <div class="container">
-    <h1 id="join-the-revolution">Join the Revolution</h1>
+    <h1 id="join-the-revolution">Join the Revolution.</h1>
     {% assign count = 0 %}
     {% for group in site.data.governments %}
       {% for org in group[1] %}
@@ -98,13 +98,16 @@ org_count: 60
     <h3>Join the <strong>{{ count }}+</strong> government organizations around the world who collaborate on code, data, policy, and more. See the rest of the GitHub <a href="/community">government community</a>.</h3>
   </div>
 
-<div id="wall" class="full-screen">
+<div class="full-screen featured-orgs">
+  {% for org in site.data.featured %}
+  <a href="http://www.github.com/{{ org }}"><img src="assets/img/featured-orgs/{{ org }}.png" width="80"></a>
+  {% endfor %}
 </div>
 </div>
 
 <div class="mini-section">
   <div class="container">
-    <h1 id="get-started">Get started today</h1>
+    <h1 id="get-started">Get started today.</h1>
     <h3>Create a free account and check out the resources for getting started with GitHub.</h3>
 
 <div class="row-fluid section">

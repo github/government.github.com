@@ -16,4 +16,27 @@
 
 </div>
 
+<script>
+  $(function() {
+
+    $animateIn = $(".animate-in");
+    var animateInOffset = 100;
+
+
+    $animateIn.addClass("pre-animate");
+
+    $(window).scroll(function(e) {
+      var windowHeight = $(window).height(),
+        windowScrollPosition = $(window).scrollTop(),
+        bottomScrollPosition = windowHeight + windowScrollPosition;
+
+      $animateIn.each(function(i, element) {
+        if ($(element).offset().top + animateInOffset < bottomScrollPosition) {
+          $(element).removeClass('pre-animate');
+        };
+      });
+    });
+  });
+</script>
+
 {% include footer.html %}

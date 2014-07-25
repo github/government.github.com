@@ -57,7 +57,7 @@ org_count: 60
     <h3>Agencies use GitHub to engage developers and collaborate with the public on open source, open data and open government efforts. GitHub even renders common formats like <a href="https://help.github.com/articles/github-flavored-markdown" target="_blank">text</a>, <a href="https://github.com/blog/1601-see-your-csvs" target="_blank">CSV</a>, and <a href="https://github.com/blog/1541-geojson-rendering-improvements" target="_blank">geospatial data</a>.</h3>
 
     <div class="row-fluid section source-data-code">
-      <div class="span4">
+      <div class="span4 animate-out">
         <h2>Open Source</h2>
         <p><a href="https://github.com/alphagov/static/pull/94" target="_blank">
           <img src="/images/open-source.png" alt="Pull request launching gov.uk"/></a>
@@ -65,7 +65,7 @@ org_count: 60
         <small>The UK Government launches its new site with a pull request.</small>
       </div>
 
-      <div class="span4">
+      <div class="span4 animate-out">
         <h2>Open Data</h2>
         <p><a href="https://github.com/benbalter/congressional-districts/commit/2233c76ca5bb059582d796f053775d8859198ec5?short_path=85d2c1b#diff-85d2c1b78193e963475250414e57940b" target="_blank">
           <img src="/images/open-data.png" alt="GeoJSON diff of Illinois 4th Congressional District"/></a>
@@ -73,7 +73,7 @@ org_count: 60
         <small>The City of Chicago release geographic city data.</small>
       </div>
 
-      <div class="span4">
+      <div class="span4 animate-out">
         <h2>Open Government</h2>
         <p><a href="http://project-open-data.github.io/" target="_blank">
           <img src="/images/open-gov.png" alt="Project Open Data"/></a>
@@ -86,7 +86,7 @@ org_count: 60
 </div>
 
 
-<div class="mini-section">
+<div class="mini-section" style="overflow: hidden;">
   <div class="container">
     <h1 id="join-the-revolution">Join the Revolution.</h1>
     {% assign count = 0 %}
@@ -100,7 +100,7 @@ org_count: 60
 
 <div class="full-screen featured-orgs">
   {% for org in site.data.featured %}
-  <a href="http://www.github.com/{{ org }}"><img src="assets/img/featured-orgs/{{ org }}.png" width="80"></a>
+  <a href="http://www.github.com/{{ org }}"><img class="animate-in" src="assets/img/featured-orgs/{{ org }}.png" width="80"></a>
   {% endfor %}
 </div>
 </div>

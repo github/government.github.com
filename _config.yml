@@ -1,62 +1,95 @@
 # global settings
-title: "Make government better, together."
-description: "Stories of open data, open source, and open collaboration"
+title: "GitHub and Government"
+description: "GitHub helps government build software better, together"
 permalink: "/stories/:title"
 url: http://government.github.com
 relative_permalinks: false
-tagline: 'Stories of <a href="/categories/#open-source" class="open source" title="Code or creation materials made easily accessible and free to the public.">open source</a>, <a href="/categories/#open-data" class="open data" title="Data made easily accessible and free to the public.">open data</a>, and <a href="/categories/#open-government" class="open government" title="An acessible, transparent and forthcoming with data government agency.">open government</a>.'
 analytics_account: "UA-3769691-28"
 
 # build settings
 exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "Rakefile", "readme.md", "package.json"]
-paginate: 6
 markdown: kramdown
 gems:
   - jekyll-sitemap
 
-# prose settings
-prose_server: "http://prose.io"
-prose:
-  siteurl: "http://government.github.com"
-  media: "images"
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "story"
-      - name: "author"
-        field:
-          element: "text"
-          label: "Author"
-          value: ""
-          type: "text"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-          type: "text"
-      - name: "description"
-        field:
-          element: "textarea"
-          label: "Description"
-          value: ""
-      - name: "image"
-        field:
-          element: "text"
-          label: "Image"
-          placeholder: "/images/YOUR_IMAGE.png"
-          value: ""
-          type: "text"
-      - name: "category"
-        field:
-          element: "select"
-          label: "Category"
-          options:
-            - name: "Open Government"
-              value: "open government"
-            - name: "Open Data"
-              value: "open data"
-            - name: "Open Source"
-              value: "open source"
+# orgs on front page
+featured_orgs:
+  - gcba
+  - agnsw
+  - nla
+  - GeoscienceAustralia
+  - qld-gov-au
+  - onroerenderfgoed
+  - geobolivia
+  - dadosgovbr
+  - tisorocaba
+  - ca-canada
+  - mce-scarto
+  - ServiceCanada
+  - wet-boew
+  - e-gob
+  - City-of-Helsinki
+  - itschool
+  - linz
+  - govph
+  - commonwealth-of-puerto-rico
+  - The-Municipality-of-Staffanstorp
+  - malmostad
+  - ogdch
+  - alv-ch
+  - BostonRedevelop
+  - city-of-bloomington
+  - cityofboulder
+  - cityofchattanooga
+  - cityofnewyork
+  - Honolulu
+  - mnhrc
+  - NYCComptroller
+  - ArlingtonCounty
+  - sfcta
+  - olcf
+  - ORNL
+  - azgs
+  - nysenate
+  - State-of-Arizona
+  - alphagov
+  - BarnsleyCouncil
+  - BristolCityCouncil
+  - cabinetoffice
+  - datagovuk
+  - dfid
+  - east-sussex-county-council
+  - hmrc
+  - MetOffice
+  - 18f
+  - CA-CST-SII
+  - cfpb
+  - cooperhewitt
+  - erdc-cm
+  - fda
+  - gsa
+  - hhs
+  - IRSgov
+  - nasa
+  - USDeptVeteransAffairs
+  - virtual-world-framework
+  - whitehouse
+  - bundestag
+  - CodeandoMexico
+  - codeforeurope
+  - dataviz
+  - dobtco
+  - KoelnAPI
+  - mysociety
+  - openva
+  - postcode
+  - sunlightlabs
+  - theodi
+  - codeforamerica
+  - codeforaustralia
+  - okfngr
+  - okfn
+  - nuknightlab
+  - dssg
+  - codeforboston
+  - teampopong

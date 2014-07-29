@@ -1,19 +1,51 @@
 {% include header.html %}
 
-<div class="full-width">
   <div class="splash container">
     <div class="row-fluid">
       <div class="span12">
-        <h1>{{ site.title }}</h1>
-        <h3>{{ site.tagline }}</h3>
+        <h1>Government like you've never imagined.</h1>
+        <h2>Collaborate on code, data, or policy, within your organization or with the public.</h2>
       </div>
     </div>
   </div>
-</div>
+</div><!-- ends .full-width that started in header.html -->
+
 <div>
 
 {{ content }}
 
 </div>
+
+<script>
+  $(function() {
+
+    $animateIn = $(".animate-in");
+    $animateOut = $(".animate-out");
+    var animateInOffset = 100;
+    var animateOutOffset = 200;
+
+
+    $animateIn.addClass("pre-animate");
+    $animateOut.addClass("pre-animate-out");
+
+    $(window).scroll(function(e) {
+      var windowHeight = $(window).height(),
+        windowScrollPosition = $(window).scrollTop(),
+        bottomScrollPosition = windowHeight + windowScrollPosition;
+
+      $animateIn.each(function(i, element) {
+        if ($(element).offset().top + animateInOffset < bottomScrollPosition) {
+          $(element).removeClass('pre-animate');
+        };
+      });
+
+      $animateOut.each(function(i, element) {
+        if ($(element).offset().top + animateOutOffset < bottomScrollPosition) {
+          $(element).removeClass('pre-animate-out');
+        };
+      });
+    });
+  });
+</script>
 
 {% include footer.html %}

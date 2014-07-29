@@ -1,38 +1,15 @@
 {% include header.html %}
+</div>
+  <div id="{{ page.title | replace: ' ','-' }}" class="container support-page">
 
-  <div id="{{ page.title | replace: ' ','-' }}" class="container">
-    <div class="row-fluid">
-      <div class="span12">
+    <div class="mini-section">
         <h1>{{ page.title }}</h1>
-      </div>
-    </div>
-
-    <div class="row-fluid">
-      <div class="span8">
         <h3 class="description">{{ page.description }}</h3>
-      </div>
     </div>
   </div>
 
   <div class="container mini-section">
-    <div class="row-fluid">
-      <div class="span8">
         {{ content }}
-      </div>
-
-      <div class="span4 subnav contribute">
-        <h5>More Resources</h5>
-        <ul class="no-style-list">
-          <li><a href="/about/">About GitHub</a></li>
-          <li><a href="/features/">GitHub Features</a></li>
-          <li><a href="/faq/">Frequently Asked Questions</a></li>
-          <li><a href="https://help.github.com/articles/github-glossary/" target="_blank">Glossary of Terms</a></li>
-          <li><a href="/projects/">Project Ideas</a></li>
-          <li><a href="/accessibility/">Accessibility</a></li>
-        </ul>
-      </div>
-
-    </div>
   </div>
 
 <script>

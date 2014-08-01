@@ -16,7 +16,7 @@ permalink: /community/
           <tr class="govtable table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
           {% for type_hash in site.data.governments %}
           <tr class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}">
-            <td><h3>{{ type_hash[0] }}</h3></td><td></td><td></td>
+            <td><h3>{{ type_hash[0] }} ({{ type_hash[1] | size }})</h3></td><td></td><td></td>
           </tr>
           {% for org in type_hash[1] %}
           <tr>
@@ -50,7 +50,7 @@ permalink: /community/
         {% unless type_hash[0] == "Civic Hackers" %}
         {% endunless %}
         <tr class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}">
-          <td><h3>{{ type_hash[0] }}</h3></td><td></td><td></td>
+          <td><h3>{{ type_hash[0] }} ({{ type_hash[1] | size }})</h3></td><td></td><td></td>
           </tr>
           {% for org in type_hash[1] %}
           <tr>

@@ -15,6 +15,7 @@ Australia:
   - Healthway
   - innovationgovau
   - Landgate
+  - mcma
   - museumvictoria
   - nla
   - nmalabs
@@ -23,7 +24,6 @@ Australia:
   - srep
   - srnsw
   - wamuseum
-  - mcma
 
 Belgium:
   - belgianpolice
@@ -33,6 +33,7 @@ Bolivia:
   - geobolivia
 
 Brazil:
+  - bacendeinf
   - cislgov
   - dadosgovbr
   - gabinetedigital
@@ -47,7 +48,6 @@ Brazil:
   - secom-tocantins
   - tisorocaba
   - wpgovbr
-  - bacendeinf
 
 Canada:
   - AAFC-MBB
@@ -123,8 +123,8 @@ Norway:
   - KRD-KOMM-VL
 
 Paraguay:
-  - SENATICS
   - mecpy
+  - SENATICS
 
 Peru:
   - imarpe
@@ -193,12 +193,12 @@ U.S. City:
   - octolabs
   - OpenGovDC
   - openlexington
+  - pdxgis
   - ProBonoDC
   - SantaClarita
   - sfbart
   - sfgov
   - tucsonaz
-  - pdxgis
 
 U.S. County:
   - ArlingtonCounty
@@ -280,10 +280,12 @@ U.S. States:
   - ccap
   - CTOpenData
   - FGS-FloridaGeologicalSurvey
+  - IDAHO-DOC-NCOMS
   - idahofishgame
   - InDEM
   - LibraryofVA
   - MFWP-GIS
+  - nelegislature
   - NJOGIS
   - nys-its
   - nysenate
@@ -299,12 +301,11 @@ U.S. States:
   - WA-OCIO
   - wsdot
   - WSDOT-GIS
-  - IDAHO-DOC-NCOMS
-  - nelegislature
 
 United Kingdom:
   - alphagov
   - BarnsleyCouncil
+  - BEACmodel
   - brighton-hove-gov-uk
   - BristolCityCouncil
   - cabinetoffice
@@ -329,6 +330,7 @@ United Kingdom:
   - JNCC-UK
   - LambethCouncil
   - LandRegistry
+  - LandRegistry-Attic
   - lgss
   - lichfield-district-council
   - LocalGovDigital
@@ -337,16 +339,14 @@ United Kingdom:
   - metomi
   - ministryofjustice
   - naouk
+  - OfqualGovUK
   - ONSdigital
   - TraffordCouncil
   - UKHomeOffice
   - UKLocation
   - warwickshire
   - west-berkshire-council
-  - BEACmodel
-  - LandRegistry-Attic
-  - OfqualGovUK
-  
+
 United States:
   - 18f
   - adlnet
@@ -377,6 +377,7 @@ United States:
   - GreatSmokyMountainsNationalPark
   - gsa
   - hhs
+  - HHSDigitalMediaAPIPlatform
   - HHSIDEAlab
   - historyatstate
   - hpc
@@ -403,12 +404,14 @@ United States:
   - ncip
   - NCPP
   - NCRN
+  - NDAR
   - NeoGeographyToolkit
   - NERSC
   - ngageoint
   - ngds
   - nhanes
   - nhlbi
+  - NIEM
   - NIST-BWS
   - NIST-ICS-SEC-TB
   - NISTDeepZoom
@@ -425,6 +428,7 @@ United States:
   - project-interoperability
   - project-open-data
   - redhawksdr
+  - SERVIR
   - shareandprotect
   - Smithsonian
   - state-hiu
@@ -441,6 +445,7 @@ United States:
   - USGCRP
   - usgin-models
   - usgs
+  - USGS-Astrogeology
   - USGS-CIDA
   - USGS-OWI
   - USGS-R
@@ -455,8 +460,3 @@ United States:
   - visionworkbench
   - WFMRDA
   - whitehouse
-  - NDAR
-  - HHSDigitalMediaAPIPlatform
-  - SERVIR
-  - NIEM
-  - USGS-Astrogeology

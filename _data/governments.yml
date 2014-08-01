@@ -23,6 +23,7 @@ Australia:
   - srep
   - srnsw
   - wamuseum
+  - mcma
 
 Belgium:
   - belgianpolice
@@ -46,6 +47,7 @@ Brazil:
   - secom-tocantins
   - tisorocaba
   - wpgovbr
+  - bacendeinf
 
 Canada:
   - AAFC-MBB
@@ -122,6 +124,7 @@ Norway:
 
 Paraguay:
   - SENATICS
+  - mecpy
 
 Peru:
   - imarpe
@@ -195,6 +198,7 @@ U.S. City:
   - sfbart
   - sfgov
   - tucsonaz
+  - pdxgis
 
 U.S. County:
   - ArlingtonCounty
@@ -295,6 +299,8 @@ U.S. States:
   - WA-OCIO
   - wsdot
   - WSDOT-GIS
+  - IDAHO-DOC-NCOMS
+  - nelegislature
 
 United Kingdom:
   - alphagov
@@ -337,7 +343,10 @@ United Kingdom:
   - UKLocation
   - warwickshire
   - west-berkshire-council
-
+  - BEACmodel
+  - LandRegistry-Attic
+  - OfqualGovUK
+  
 United States:
   - 18f
   - adlnet
@@ -446,3 +455,8 @@ United States:
   - visionworkbench
   - WFMRDA
   - whitehouse
+  - NDAR
+  - HHSDigitalMediaAPIPlatform
+  - SERVIR
+  - NIEM
+  - USGS-Astrogeology

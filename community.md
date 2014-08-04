@@ -16,7 +16,8 @@ permalink: /community/
           <tr class="govtable table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
           {% for type_hash in site.data.governments %}
           <tr class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}">
-            <td><h3>{{ type_hash[0] }} <span class="count">— {{ type_hash[1] | size }} orgs</span></h3></td><td></td><td></td>
+            {% assign count=type_hash[1] | size %}
+            <td><h3>{{ type_hash[0] }} <span class="count">— {{ count}} org{% unless count == 1 %}s{% endunless %}</span></h3></td><td></td><td></td>
           </tr>
           {% for org in type_hash[1] %}
           <tr>

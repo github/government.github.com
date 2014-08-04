@@ -316,14 +316,11 @@ li {
 
 .search-section { padding-bottom: 20px; }
 
-/*.boxed {
-  background: #F8F8F8;
-  padding: 20px;
+.count {
+  color: #A3A3A3;
+  font-weight: 200;
+  font-size: 14px;
 }
-
-.boxed p {
-  text-align: center;
-}*/
 
 code {
   color: #333;

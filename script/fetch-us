@@ -32,3 +32,11 @@ output = {
 }
 puts "To be pasted into _data/governments.yml"
 puts output.to_yaml
+
+orgs.map! { |org| org.downcase }
+
+puts "\n\nMissing from registry:"
+puts (existing - orgs).to_yaml
+
+puts "\n\nIn the registry, but not valid"
+puts (orgs - existing).to_yaml

@@ -15,7 +15,6 @@ gems:
 # orgs on front page
 featured_orgs:
   - gcba
-  - agnsw
   - nla
   - GeoscienceAustralia
   - qld-gov-au
@@ -25,7 +24,6 @@ featured_orgs:
   - tisorocaba
   - ca-canada
   - mce-scarto
-  - ServiceCanada
   - wet-boew
   - e-gob
   - City-of-Helsinki
@@ -37,9 +35,7 @@ featured_orgs:
   - malmostad
   - ogdch
   - alv-ch
-  - BostonRedevelop
   - city-of-bloomington
-  - cityofboulder
   - cityofchattanooga
   - cityofnewyork
   - Honolulu
@@ -69,7 +65,6 @@ featured_orgs:
   - fda
   - gsa
   - hhs
-  - IRSgov
   - nasa
   - USDeptVeteransAffairs
   - virtual-world-framework

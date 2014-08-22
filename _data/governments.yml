@@ -24,6 +24,7 @@ Australia:
   - srep
   - srnsw
   - wamuseum
+  - NSWRFS
 
 Belgium:
   - belgianpolice
@@ -66,6 +67,10 @@ Canada:
   - RAMP-PCAR
   - ServiceCanada
   - wet-boew
+  - VilledeMontreal
+  - GNWT
+  - RDOQ
+  - thecityofcalgary
 
 Chile:
   - e-gob
@@ -115,6 +120,12 @@ Mexico:
 New Zealand:
   - CanterburyRegionalCouncil
   - linz
+  - DigitalNZ
+  - ElectricityAuthority
+  - GOVTNZ
+  - nz-mbie
+  - localgovernment
+  - NZWellingtonCityCouncil
 
 Norway:
   - difi
@@ -265,6 +276,8 @@ U.S. Research Labs:
   - TinyTitan
   - UV-CDAT
   - zfsonlinux
+  - SNEWS-Collaboration
+  - nsls2ap
 
 U.S. Special District:
   - atlregional
@@ -274,6 +287,8 @@ U.S. Special District:
   - MetropolitanTransportationCommission
   - portofsandiego
   - psrc
+  - AZMAG
+  - baaqmd
 
 U.S. States:
   - agrc
@@ -302,6 +317,7 @@ U.S. States:
   - WA-OCIO
   - wsdot
   - WSDOT-GIS
+  - VDGIF
 
 United Kingdom:
   - alphagov
@@ -347,8 +363,9 @@ United Kingdom:
   - UKLocation
   - warwickshire
   - west-berkshire-council
+  - DundeeCityCouncil
 
-United States:
+U.S. Federal:
   - 18f
   - adlnet
   - arcticlcc
@@ -445,7 +462,7 @@ United States:
   - USDeptVeteransAffairs
   - usepa
   - USGCRP
-  - usgin-models
+  - usgin-modelsw
   - usgs
   - USGS-Astrogeology
   - USGS-CIDA
@@ -462,3 +479,4 @@ United States:
   - visionworkbench
   - WFMRDA
   - whitehouse
+  - JPLOpenSource

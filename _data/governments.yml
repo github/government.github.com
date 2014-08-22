@@ -20,11 +20,11 @@ Australia:
   - nla
   - nmalabs
   - NSWPlanning
+  - NSWRFS
   - qld-gov-au
   - srep
   - srnsw
   - wamuseum
-  - NSWRFS
 
 Belgium:
   - belgianpolice
@@ -58,6 +58,7 @@ Canada:
   - cityofottawa
   - electionsquebec
   - GeoCanViz
+  - GNWT
   - mce-scarto
   - nrc-cnrc
   - NRCan
@@ -65,12 +66,11 @@ Canada:
   - open-data
   - pwgsc
   - RAMP-PCAR
-  - ServiceCanada
-  - wet-boew
-  - VilledeMontreal
-  - GNWT
   - RDOQ
+  - ServiceCanada
   - thecityofcalgary
+  - VilledeMontreal
+  - wet-boew
 
 Chile:
   - e-gob
@@ -119,12 +119,12 @@ Mexico:
 
 New Zealand:
   - CanterburyRegionalCouncil
-  - linz
   - DigitalNZ
   - ElectricityAuthority
   - GOVTNZ
-  - nz-mbie
+  - linz
   - localgovernment
+  - nz-mbie
   - NZWellingtonCityCouncil
 
 Norway:
@@ -222,149 +222,6 @@ U.S. County:
   - SJCGIS
   - slugis
 
-U.S. Research Labs:
-  - ACME-Climate
-  - ARM-DOE
-  - BrookhavenNationalLaboratory
-  - CASL
-  - CBIIT
-  - EarthSystemCoG
-  - EMSL-MSC
-  - epicsdeb
-  - exmatex
-  - globus
-  - HipGISAXS
-  - hpde
-  - idaholab
-  - JGI-Bioinformatics
-  - LANL
-  - LANL-Bioinformatics
-  - lbl-anp
-  - lblpbd
-  - libmesh
-  - losalamos
-  - materialsproject
-  - MCSclimate
-  - mdhim
-  - MG-RAST
-  - NASA-Tensegrity-Robotics-Toolkit
-  - ncgmp09
-  - NIAID-RTB
-  - NIFA
-  - nih-fmrif
-  - nimh-nif
-  - nist-ionstorage
-  - NSLS-II
-  - NSLS-II-CSX
-  - olcf
-  - OpsLabJPL
-  - ORNL
-  - ORNL-BTRIC
-  - ORNL-CEES
-  - ornl-sava
-  - ORNL-TechInt
-  - ornlcda
-  - PCMDI
-  - plfs
-  - PNNL-Comp-Mass-Spec
-  - pyepics
-  - reflectometry
-  - sandialabs
-  - scalability-llnl
-  - scattering
-  - simx
-  - TinyTitan
-  - UV-CDAT
-  - zfsonlinux
-  - SNEWS-Collaboration
-  - nsls2ap
-
-U.S. Special District:
-  - atlregional
-  - cleveland-metroparks
-  - CMAP-REPOS
-  - MetropolitanCouncil
-  - MetropolitanTransportationCommission
-  - portofsandiego
-  - psrc
-  - AZMAG
-  - baaqmd
-
-U.S. States:
-  - agrc
-  - azgs
-  - ccap
-  - CTOpenData
-  - FGS-FloridaGeologicalSurvey
-  - IDAHO-DOC-NCOMS
-  - idahofishgame
-  - InDEM
-  - LibraryofVA
-  - MFWP-GIS
-  - nelegislature
-  - NJOGIS
-  - nys-its
-  - nysenate
-  - ORMetro
-  - SLNC-DIMP
-  - State-of-Arizona
-  - tndcs
-  - TNRIS
-  - twdb
-  - TxDOT
-  - UtahForestryFireStateLands
-  - Virginia-House-of-Delegates
-  - WA-OCIO
-  - wsdot
-  - WSDOT-GIS
-  - VDGIF
-
-United Kingdom:
-  - alphagov
-  - BarnsleyCouncil
-  - BEACmodel
-  - brighton-hove-gov-uk
-  - BristolCityCouncil
-  - cabinetoffice
-  - CarersBeta
-  - companieshouse
-  - datagovuk
-  - decc
-  - Department-for-Work-and-Pensions
-  - DevonCountyCouncil
-  - dfid
-  - digital-preservation
-  - dvla
-  - east-sussex-county-council
-  - edinburghcouncil
-  - EnvHack2
-  - EnvironmentAgency
-  - gds-attic
-  - gds-operations
-  - GuildfordBC
-  - hmrc
-  - intellectual-property-office
-  - JNCC-UK
-  - LambethCouncil
-  - LandRegistry
-  - LandRegistry-Attic
-  - lgss
-  - lichfield-district-council
-  - LocalGovDigital
-  - LutonCouncil
-  - MetOffice
-  - metomi
-  - ministryofjustice
-  - naouk
-  - OfqualGovUK
-  - ONSdigital
-  - TraffordCouncil
-  - UKHomeOffice
-  - UKLocation
-  - warwickshire
-  - west-berkshire-council
-  - DundeeCityCouncil
-
 U.S. Federal:
   - 18f
   - adlnet
@@ -406,6 +263,7 @@ U.S. Federal:
   - ioos
   - IRSgov
   - JBEI
+  - JPLOpenSource
   - kbase
   - libraryofcongress
   - losalamos
@@ -479,4 +337,146 @@ U.S. Federal:
   - visionworkbench
   - WFMRDA
   - whitehouse
-  - JPLOpenSource
+
+U.S. Research Labs:
+  - ACME-Climate
+  - ARM-DOE
+  - BrookhavenNationalLaboratory
+  - CASL
+  - CBIIT
+  - EarthSystemCoG
+  - EMSL-MSC
+  - epicsdeb
+  - exmatex
+  - globus
+  - HipGISAXS
+  - hpde
+  - idaholab
+  - JGI-Bioinformatics
+  - LANL
+  - LANL-Bioinformatics
+  - lbl-anp
+  - lblpbd
+  - libmesh
+  - losalamos
+  - materialsproject
+  - MCSclimate
+  - mdhim
+  - MG-RAST
+  - NASA-Tensegrity-Robotics-Toolkit
+  - ncgmp09
+  - NIAID-RTB
+  - NIFA
+  - nih-fmrif
+  - nimh-nif
+  - nist-ionstorage
+  - NSLS-II
+  - NSLS-II-CSX
+  - nsls2ap
+  - olcf
+  - OpsLabJPL
+  - ORNL
+  - ORNL-BTRIC
+  - ORNL-CEES
+  - ornl-sava
+  - ORNL-TechInt
+  - ornlcda
+  - PCMDI
+  - plfs
+  - PNNL-Comp-Mass-Spec
+  - pyepics
+  - reflectometry
+  - sandialabs
+  - scalability-llnl
+  - scattering
+  - simx
+  - SNEWS-Collaboration
+  - TinyTitan
+  - UV-CDAT
+  - zfsonlinux
+
+U.S. Special District:
+  - atlregional
+  - AZMAG
+  - baaqmd
+  - cleveland-metroparks
+  - CMAP-REPOS
+  - MetropolitanCouncil
+  - MetropolitanTransportationCommission
+  - portofsandiego
+  - psrc
+
+U.S. States:
+  - agrc
+  - azgs
+  - ccap
+  - CTOpenData
+  - FGS-FloridaGeologicalSurvey
+  - IDAHO-DOC-NCOMS
+  - idahofishgame
+  - InDEM
+  - LibraryofVA
+  - MFWP-GIS
+  - nelegislature
+  - NJOGIS
+  - nys-its
+  - nysenate
+  - ORMetro
+  - SLNC-DIMP
+  - State-of-Arizona
+  - tndcs
+  - TNRIS
+  - twdb
+  - TxDOT
+  - UtahForestryFireStateLands
+  - VDGIF
+  - Virginia-House-of-Delegates
+  - WA-OCIO
+  - wsdot
+  - WSDOT-GIS
+
+United Kingdom:
+  - alphagov
+  - BarnsleyCouncil
+  - BEACmodel
+  - brighton-hove-gov-uk
+  - BristolCityCouncil
+  - cabinetoffice
+  - CarersBeta
+  - companieshouse
+  - datagovuk
+  - decc
+  - Department-for-Work-and-Pensions
+  - DevonCountyCouncil
+  - dfid
+  - digital-preservation
+  - DundeeCityCouncil
+  - dvla
+  - east-sussex-county-council
+  - edinburghcouncil
+  - EnvHack2
+  - EnvironmentAgency
+  - gds-attic
+  - gds-operations
+  - GuildfordBC
+  - hmrc
+  - intellectual-property-office
+  - JNCC-UK
+  - LambethCouncil
+  - LandRegistry
+  - LandRegistry-Attic
+  - lgss
+  - lichfield-district-council
+  - LocalGovDigital
+  - LutonCouncil
+  - MetOffice
+  - metomi
+  - ministryofjustice
+  - naouk
+  - OfqualGovUK
+  - ONSdigital
+  - TraffordCouncil
+  - UKHomeOffice
+  - UKLocation
+  - warwickshire
+  - west-berkshire-council

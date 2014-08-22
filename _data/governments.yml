@@ -102,6 +102,9 @@ Germany:
   - gbv
   - lobid
 
+Hong Kong:
+  - datagovhk
+
 India:
   - itschool
 
@@ -463,6 +466,7 @@ United Kingdom:
   - hmrc
   - intellectual-property-office
   - JNCC-UK
+  - kentcc
   - LambethCouncil
   - LandRegistry
   - LandRegistry-Attic
@@ -481,5 +485,3 @@ United Kingdom:
   - UKLocation
   - warwickshire
   - west-berkshire-council
-  - kentcc
-  

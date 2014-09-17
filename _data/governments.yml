@@ -24,6 +24,7 @@ Australia:
   - qld-gov-au
   - srep
   - srnsw
+  - SunshineCoastCouncil
   - wamuseum
 
 Belgium:
@@ -38,9 +39,11 @@ Brazil:
   - cislgov
   - dadosgovbr
   - gabinetedigital
+  - govbr
   - InstitutoBenjaminConstant
   - interlegis
   - lexml
+  - pensandoodireito
   - plonegovbr
   - pr-snas
   - PrefeituraParnaiba
@@ -94,6 +97,7 @@ France:
   - afimb
   - ANSSI-FR
   - communaute-cimi
+  - DGFiP
   - erasme
   - etalab
   - VilleDeMontpellier
@@ -115,6 +119,9 @@ International:
 
 Isle of Man:
   - Isle-Of-Man-Government
+
+Latvia:
+  - CSBLatvia
 
 Mexico:
   - CSB-IG
@@ -218,6 +225,7 @@ U.S. City:
 U.S. County:
   - ArlingtonCounty
   - baltimorecounty
+  - CanyonCounty
   - CarverCounty
   - fpdcc
   - HarrisCountyFOA
@@ -232,6 +240,7 @@ U.S. Federal:
   - arcticlcc
   - BBGInnovate
   - blue-button
+  - CA-CST-Library
   - CA-CST-SII
   - cfpb
   - chaos
@@ -296,10 +305,12 @@ U.S. Federal:
   - NIST-BWS
   - NIST-ICS-SEC-TB
   - NISTDeepZoom
+  - NMB-Dev
   - NMML
   - NOAA-ORR-ERD
   - nrel
   - NREL-cookbooks
+  - Open-Sat
   - opengovplatform
   - ozone-development
   - ozoneplatform
@@ -323,12 +334,14 @@ U.S. Federal:
   - usdepartmentoflabor
   - USDeptVeteransAffairs
   - usepa
+  - USFWS
   - USGCRP
   - usgs
   - USGS-Astrogeology
   - USGS-CIDA
   - USGS-OWI
   - USGS-R
+  - USGS-WiM
   - usindianaffairs
   - usinterior
   - usnationalarchives
@@ -371,6 +384,7 @@ U.S. Research Labs:
   - NIAID-RTB
   - NIFA
   - nih-fmrif
+  - Nikea
   - nimh-nif
   - nist-ionstorage
   - NSLS-II
@@ -414,10 +428,12 @@ U.S. States:
   - azgs
   - ccap
   - CTOpenData
+  - DCGovWeb
   - FGS-FloridaGeologicalSurvey
   - IDAHO-DOC-NCOMS
   - idahofishgame
   - InDEM
+  - LADCO
   - LibraryofVA
   - MFWP-GIS
   - nelegislature
@@ -435,6 +451,7 @@ U.S. States:
   - VDGIF
   - Virginia-House-of-Delegates
   - WA-OCIO
+  - WisconsinDPI
   - wsdot
   - WSDOT-GIS
 
@@ -479,6 +496,9 @@ United Kingdom:
   - naouk
   - OfqualGovUK
   - ONSdigital
+  - osgeouk
+  - RotherDC
+  - scottishgovernment
   - TraffordCouncil
   - UKHomeOffice
   - UKLocation

@@ -5,74 +5,14 @@ description: Government agencies at the national, state, and local level use Git
 permalink: /community/
 ---
 <div id="to-top" class="container">
-<div class="">
-  <div class="">
-  <div class="search-section">
-  <h3><input id="filter" type="text" class="form-control" placeholder="Type to search..."> or jump to <a href="#civichackers">Civic Hackers</a> list.</h3></div>
-    <h2 id="governments">Governments</h2>
-    <h6 class="govtable no-matches" style="display: none;">No matches.</h6>
-      <table class="govtable table">
-        <tbody class="searchable">
-          <tr class="govtable table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
-          {% for type_hash in site.data.governments %}
-          <tr class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}">
-            {% assign count=type_hash[1] | size %}
-            <td><h3>{{ type_hash[0] }} <span class="count">— {{ count}} org{% unless count == 1 %}s{% endunless %}</span></h3></td><td></td><td></td>
-          </tr>
-          {% for org in type_hash[1] %}
-          <tr>
-            <td>
-              <a href="https://github.com/{{ org }}" title="{{ org }}">
-              <img src="https://github.com/{{ org }}.png" width="40" height="40" alt="{{ org }}"></a>
-            </td>
-            <td>
-              <p><a href="https://github.com/{{ org }}" title="{{ org }}">{{ org }}</a></p>
-            </td>
-            <td>
-              <p class="dim-affiliation">{{ type_hash[0] }}</p>
-            </td>
-          </tr>
-        {% endfor %}
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
-</div>
 
-<div class="">
-  <div class="mini-section">
-    <h3 id="civichackers" class="search-section">Return to <a href="#to-top">top</a>.</h3>
-    <h2>Civic Hackers</h2>
-    <h6 class="civictable no-matches" style="display: none;">No matches.</h6>
-    <table class="civictable table">
-      <tbody class="searchable">
-        <tr class="civictable table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
-        {% for type_hash in site.data.civic_hackers %}
-        {% unless type_hash[0] == "Civic Hackers" %}
-        {% endunless %}
-        <tr class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}">
-          <td><h3>{{ type_hash[0] }} ({{ type_hash[1] | size }})</h3></td><td></td><td></td>
-          </tr>
-          {% for org in type_hash[1] %}
-          <tr>
-            <td>
-              <a href="https://github.com/{{ org }}" title="{{ org }}">
-              <img src="https://github.com/{{ org }}.png" width="40" height="40" alt="{{ org }}"></a>
-            </td>
-            <td>
-              <p><a href="https://github.com/{{ org }}" title="{{ org }}">{{ org }}</a></p>
-            </td>
-            <td>
-              <p class="dim-affiliation">{{ type_hash[0] }}</p>
-            </td>
-          </tr>
-          {% endfor %}
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
-</div>
+<h3><input id="filter" type="text" class="form-control" placeholder="Type to search..."> or jump to the <a href="#civic-hackers">civic hackers</a> or <a href="#research">research</a> lists.</h3></div>
 
+{% include org-table.html orgs=site.data.governments id="governments" name="Governments" %}
+
+{% include org-table.html orgs=site.data.civic_hackers id="civic-hackers" name="Civic Hackers" %}
+
+{% include org-table.html orgs=site.data.research id="research" name="Government-funded Research" %}
 
   <div id="add-org" class="row-fluid mini-section">
     <div class="span6" markdown="1">

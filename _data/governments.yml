@@ -33,6 +33,7 @@ Belgium:
 
 Bolivia:
   - geobolivia
+  - GovBrasil
 
 Brazil:
   - bacendeinf
@@ -79,6 +80,7 @@ Chile:
   - e-gob
 
 Colombia:
+  - AltaConsejeriaTIC
   - idu-bogota
 
 Estonia:
@@ -119,12 +121,11 @@ International:
 
 Isle of Man:
   - Isle-Of-Man-Government
-  
+
 Italy:
   - Formez
   - PloneGov-IT
   - RegioneER
-
 
 Latvia:
   - CSBLatvia
@@ -181,6 +182,7 @@ Sweden:
 
 Switzerland:
   - alv-ch
+  - BFS-SHS-MSAS
   - FNSKtZH
   - ogdch
   - sitn
@@ -238,6 +240,7 @@ U.S. County:
   - miamidade
   - sfcta
   - SJCGIS
+  - slo-county-planning-and-building
   - slugis
 
 U.S. Federal:
@@ -264,6 +267,7 @@ U.S. Federal:
   - fccdata
   - fda
   - Federal-Aviation-Administration
+  - fedspendingtransparency
   - foreignassistance
   - globegit
   - gopleader
@@ -353,6 +357,7 @@ U.S. Federal:
   - usnistgov
   - USPS
   - usstatedept
+  - vainnovation
   - VHAINNOVATIONS
   - virtual-world-framework
   - visionworkbench

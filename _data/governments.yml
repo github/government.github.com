@@ -63,6 +63,7 @@ Canada:
   - electionsquebec
   - GeoCanViz
   - GNWT
+  - HIFIS
   - mce-scarto
   - nrc-cnrc
   - NRCan
@@ -198,6 +199,7 @@ U.S. City:
   - City-of-Raleigh-Public-Utilities
   - cityofasheville
   - CityOfAuburnAL
+  - cityofaustin
   - CityOfBoston
   - cityofboulder
   - cityofchattanooga
@@ -408,6 +410,9 @@ U.S. States:
   - wsdot
   - WSDOT-GIS
 
+U.S. Tribal Nations:
+  - coquilletribe
+
 United Kingdom:
   - alphagov
   - BarnsleyCouncil
@@ -431,9 +436,12 @@ United Kingdom:
   - EnvironmentAgency
   - gds-attic
   - gds-operations
+  - guidance-guarantee-programme
   - GuildfordBC
+  - HfdsCouncil
   - hmrc
   - intellectual-property-office
+  - IQuOD
   - JNCC-UK
   - kentcc
   - LambethCouncil

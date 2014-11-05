@@ -162,9 +162,6 @@ Peru:
 Philippines:
   - govph
 
-Puerto Rico:
-  - commonwealth-of-puerto-rico
-
 Saudi Arabia:
   - SAS-NCDC
 
@@ -377,6 +374,7 @@ U.S. Special District:
   - MetropolitanTransportationCommission
   - portofsandiego
   - psrc
+  - commonwealth-of-puerto-rico
 
 U.S. States:
   - agrc

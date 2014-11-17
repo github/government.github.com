@@ -7,7 +7,9 @@ Australia:
   - actesa
   - actgov
   - agnsw
+  - australianantarcticdatacentre
   - datagovau
+  - DeptRegionalAustralia
   - dpaw2
   - ga-m3dv
   - gccgisteam
@@ -24,6 +26,7 @@ Australia:
   - qld-gov-au
   - srep
   - srnsw
+  - SSCwebdev
   - SunshineCoastCouncil
   - wamuseum
 
@@ -32,6 +35,7 @@ Belgium:
   - onroerenderfgoed
 
 Bolivia:
+  - adsib
   - geobolivia
   - GovBrasil
 
@@ -39,6 +43,7 @@ Brazil:
   - bacendeinf
   - cislgov
   - dadosgovbr
+  - dataprev
   - gabinetedigital
   - govbr
   - InstitutoBenjaminConstant
@@ -51,19 +56,24 @@ Brazil:
   - prefeiturasp
   - PROCERGS
   - secom-tocantins
+  - SerraWeb
   - tisorocaba
   - wpgovbr
 
 Canada:
   - AAFC-MBB
+  - britishcolumbia
   - ca-canada
   - CIHR
   - cityofgreatersudbury
   - cityofottawa
+  - cngo
   - electionsquebec
   - GeoCanViz
   - GNWT
+  - goc
   - HIFIS
+  - MC-MBO-WebPublishingTeam
   - mce-scarto
   - nrc-cnrc
   - NRCan
@@ -83,6 +93,10 @@ Chile:
 Colombia:
   - AltaConsejeriaTIC
   - idu-bogota
+  - rtvc
+
+Ecuador:
+  - innovacionsnap
 
 Estonia:
   - vvk-ehk
@@ -135,6 +149,7 @@ Latvia:
 Mexico:
   - CSB-IG
   - DDT-INMEGEN
+  - profeco
 
 New Zealand:
   - CanterburyRegionalCouncil
@@ -200,14 +215,17 @@ U.S. City:
   - cityofaustin
   - CityOfBoston
   - cityofboulder
+  - cityofburlington
   - cityofchattanooga
   - cityoffortworth
   - CityOfGreeleyCo
   - cityofnewyork
   - CityOfPhiladelphia
   - CityofReno
+  - CityofSanFrancisco
   - CityofSantaMonica
   - CityOfVirginiaBeach
+  - cityofwestsacramento
   - CityofYakima
   - cocdata
   - CORaleigh
@@ -215,6 +233,7 @@ U.S. City:
   - DCCouncil
   - DenverDev
   - egovpdx
+  - geospatialDENVER
   - Honolulu
   - lfucg
   - mnhrc
@@ -223,11 +242,15 @@ U.S. City:
   - octolabs
   - OpenGovDC
   - openlexington
+  - p2g
   - pdxgis
+  - PierceCountyWA
   - ProBonoDC
+  - ridertd
   - SantaClarita
   - sfbart
   - sfgov
+  - SiloamSprings
   - tucsonaz
 
 U.S. County:
@@ -237,6 +260,7 @@ U.S. County:
   - CarverCounty
   - fpdcc
   - HarrisCountyFOA
+  - HennepinCountyPublicDefender
   - miamidade
   - sfcta
   - SJCGIS
@@ -245,10 +269,12 @@ U.S. County:
 
 U.S. Federal:
   - 18f
+  - adl-aicc
   - adlnet
   - arcticlcc
   - BBGInnovate
   - blue-button
+  - businessusa
   - CA-CST-Library
   - CA-CST-SII
   - cfpb
@@ -257,6 +283,7 @@ U.S. Federal:
   - cocomans
   - commercegov
   - cooperhewitt
+  - defense-cyber-crime-center
   - department-of-veterans-affairs
   - educationdatainitiative
   - EEOC
@@ -274,6 +301,7 @@ U.S. Federal:
   - government-services
   - GreatSmokyMountainsNationalPark
   - gsa
+  - GSA-Archive
   - hhs
   - HHSDigitalMediaAPIPlatform
   - HHSIDEAlab
@@ -357,6 +385,7 @@ U.S. Federal:
   - usnationalarchives
   - usnistgov
   - USPS
+  - USPTO
   - usstatedept
   - vainnovation
   - VHAINNOVATIONS
@@ -371,11 +400,11 @@ U.S. Special District:
   - baaqmd
   - cleveland-metroparks
   - CMAP-REPOS
+  - commonwealth-of-puerto-rico
   - MetropolitanCouncil
   - MetropolitanTransportationCommission
   - portofsandiego
   - psrc
-  - commonwealth-of-puerto-rico
 
 U.S. States:
   - agrc
@@ -383,17 +412,21 @@ U.S. States:
   - ccap
   - CTOpenData
   - DCGovWeb
+  - eHawaii
   - FGS-FloridaGeologicalSurvey
   - IDAHO-DOC-NCOMS
   - idahofishgame
   - InDEM
+  - investmentboard
   - LADCO
   - LibraryofVA
   - MFWP-GIS
+  - mn-script-team
   - nelegislature
   - NJOGIS
   - nys-its
   - nysenate
+  - oimt
   - ORMetro
   - SLNC-DIMP
   - State-of-Arizona
@@ -404,6 +437,8 @@ U.S. States:
   - UtahForestryFireStateLands
   - VDGIF
   - Virginia-House-of-Delegates
+  - vtrans
+  - vtrans-rail
   - WA-OCIO
   - WisconsinDPI
   - wsdot
@@ -423,10 +458,13 @@ United Kingdom:
   - companieshouse
   - datagovuk
   - decc
+  - defra
   - Department-for-Work-and-Pensions
   - DevonCountyCouncil
   - dfid
   - digital-preservation
+  - directgov-innovate
+  - dstl
   - DundeeCityCouncil
   - dvla
   - east-sussex-county-council
@@ -446,17 +484,21 @@ United Kingdom:
   - LambethCouncil
   - LandRegistry
   - LandRegistry-Attic
+  - landregistry-ops
   - lgss
   - lichfield-district-council
   - LocalGovDigital
   - LutonCouncil
   - MetOffice
+  - MetOfficeSpaceApps
   - metomi
   - ministryofjustice
   - naouk
   - OfqualGovUK
   - ONSdigital
+  - openglasgow
   - osgeouk
+  - pete-tmbc
   - RotherDC
   - scottishgovernment
   - TraffordCouncil
@@ -464,4 +506,3 @@ United Kingdom:
   - UKLocation
   - warwickshire
   - west-berkshire-council
-  - pete-tmbc

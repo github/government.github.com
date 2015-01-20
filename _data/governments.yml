@@ -15,6 +15,7 @@ Australia:
   - gccgisteam
   - GeoscienceAustralia
   - Healthway
+  - hiscom
   - innovationgovau
   - Landgate
   - mcma
@@ -58,6 +59,7 @@ Brazil:
   - secom-tocantins
   - SerraWeb
   - tisorocaba
+  - tre-pa
   - wpgovbr
 
 Canada:
@@ -139,13 +141,16 @@ Isle of Man:
   - Isle-Of-Man-Government
 
 Italy:
+  - ComuneBologna
   - Formez
   - PloneGov-IT
   - RegioneER
-  - ComuneBologna
 
 Latvia:
   - CSBLatvia
+
+Malaysia:
+  - pmo2
 
 Mexico:
   - CSB-IG
@@ -178,6 +183,7 @@ Peru:
 
 Philippines:
   - govph
+  - igovphil
 
 Saudi Arabia:
   - SAS-NCDC
@@ -197,6 +203,7 @@ Sweden:
 
 Switzerland:
   - alv-ch
+  - alv-ch-ansible-roles
   - BFS-SHS-MSAS
   - FNSKtZH
   - ogdch
@@ -214,6 +221,7 @@ U.S. City:
   - cityofasheville
   - CityOfAuburnAL
   - cityofaustin
+  - cityofboise
   - CityOfBoston
   - cityofboulder
   - cityofburlington
@@ -228,11 +236,13 @@ U.S. City:
   - CityOfVirginiaBeach
   - cityofwestsacramento
   - CityofYakima
+  - cno-opa
   - cocdata
   - CORaleigh
   - CUMTD
   - DCCouncil
   - DenverDev
+  - dotnyc
   - egovpdx
   - geospatialDENVER
   - Honolulu
@@ -255,8 +265,10 @@ U.S. City:
   - tucsonaz
 
 U.S. County:
+  - anoka-script-team
   - ArlingtonCounty
   - baltimorecounty
+  - bouldercounty
   - CanyonCounty
   - CarverCounty
   - fpdcc
@@ -292,8 +304,8 @@ U.S. Federal:
   - erdc-cm
   - eregs
   - fcc
-  - FCCdev
   - fccdata
+  - FCCdev
   - fda
   - Federal-Aviation-Administration
   - federaltradecommission
@@ -310,7 +322,9 @@ U.S. Federal:
   - HHSIDEAlab
   - historyatstate
   - hpc
+  - iadgov
   - IMDProjects
+  - immojn
   - info-sharing-environment
   - informaticslab
   - Innovation-Toolkit
@@ -371,10 +385,12 @@ U.S. Federal:
   - usbr
   - usda
   - USDA-ERS
+  - usda-vs
   - usdepartmentoflabor
   - USDeptVeteransAffairs
   - usepa
   - USFWS
+  - usg-scope
   - USGCRP
   - usgs
   - USGS-Astrogeology
@@ -395,6 +411,10 @@ U.S. Federal:
   - visionworkbench
   - WFMRDA
   - whitehouse
+
+U.S. Military and Intelligence:
+  - screamlab
+  - usarmyresearchlab
 
 U.S. Special District:
   - atlregional
@@ -426,6 +446,7 @@ U.S. States:
   - mn-script-team
   - nelegislature
   - NJOGIS
+  - njstatelibrary
   - nys-its
   - nysenate
   - oimt
@@ -448,6 +469,7 @@ U.S. States:
 
 U.S. Tribal Nations:
   - coquille-indian-tribe
+  - osage-nation
 
 United Kingdom:
   - alphagov
@@ -479,12 +501,14 @@ United Kingdom:
   - GuildfordBC
   - HfdsCouncil
   - hmrc
+  - insolvencyservice
   - intellectual-property-office
   - IQuOD
   - JNCC-UK
   - kentcc
   - LambethCouncil
   - LandRegistry
+  - landregistry-archive
   - LandRegistry-Attic
   - landregistry-ops
   - lgss
@@ -496,6 +520,7 @@ United Kingdom:
   - metomi
   - ministryofjustice
   - naouk
+  - nationalarchives
   - OfqualGovUK
   - ONSdigital
   - openglasgow
@@ -504,6 +529,7 @@ United Kingdom:
   - RotherDC
   - scottishgovernment
   - TraffordCouncil
+  - ukforeignoffice
   - UKHomeOffice
   - UKLocation
   - warwickshire

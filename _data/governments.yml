@@ -15,6 +15,7 @@ Australia:
   - gccgisteam
   - GeoscienceAustralia
   - Healthway
+  - hiscom
   - innovationgovau
   - Landgate
   - mcma
@@ -58,6 +59,7 @@ Brazil:
   - secom-tocantins
   - SerraWeb
   - tisorocaba
+  - tre-pa
   - wpgovbr
 
 Canada:
@@ -139,13 +141,16 @@ Isle of Man:
   - Isle-Of-Man-Government
 
 Italy:
+  - ComuneBologna
   - Formez
   - PloneGov-IT
   - RegioneER
-  - ComuneBologna
 
 Latvia:
   - CSBLatvia
+
+Malaysia:
+  - pmo2
 
 Mexico:
   - CSB-IG
@@ -161,6 +166,7 @@ New Zealand:
   - localgovernment
   - nz-mbie
   - NZWellingtonCityCouncil
+  - R9BetterAPIs
 
 Norway:
   - difi
@@ -178,6 +184,7 @@ Peru:
 
 Philippines:
   - govph
+  - igovphil
 
 Saudi Arabia:
   - SAS-NCDC
@@ -197,10 +204,76 @@ Sweden:
 
 Switzerland:
   - alv-ch
+  - alv-ch-ansible-roles
   - BFS-SHS-MSAS
   - FNSKtZH
   - ogdch
   - sitn
+
+U.K. Central:
+  - alphagov
+  - BEACmodel
+  - brighton-hove-gov-uk
+  - cabinetoffice
+  - CarersBeta
+  - companieshouse
+  - datagovuk
+  - decc
+  - defra
+  - Department-for-Work-and-Pensions
+  - dfid
+  - digital-preservation
+  - directgov-innovate
+  - dstl
+  - dvla
+  - EnvHack2
+  - EnvironmentAgency
+  - gds-attic
+  - gds-operations
+  - guidance-guarantee-programme
+  - hmrc
+  - insolvencyservice
+  - intellectual-property-office
+  - IQuOD
+  - JNCC-UK
+  - LandRegistry
+  - landregistry-archive
+  - LandRegistry-Attic
+  - landregistry-ops
+  - lgss
+  - LocalGovDigital
+  - MetOffice
+  - MetOfficeSpaceApps
+  - metomi
+  - ministryofjustice
+  - naouk
+  - nationalarchives
+  - OfqualGovUK
+  - ONSdigital
+  - openglasgow
+  - osgeouk
+  - scottishgovernment
+  - ukforeignoffice
+  - UKHomeOffice
+  - UKLocation
+
+U.K. Councils:
+  - BarnsleyCouncil
+  - BristolCityCouncil
+  - DevonCountyCouncil
+  - DundeeCityCouncil
+  - east-sussex-county-council
+  - edinburghcouncil
+  - GuildfordBC
+  - HfdsCouncil
+  - kentcc
+  - LambethCouncil
+  - lichfield-district-council
+  - LutonCouncil
+  - RotherDC
+  - TraffordCouncil
+  - warwickshire
+  - west-berkshire-council
 
 U.S. City:
   - Baltimore-City-EGIS
@@ -214,6 +287,7 @@ U.S. City:
   - cityofasheville
   - CityOfAuburnAL
   - cityofaustin
+  - cityofboise
   - CityOfBoston
   - cityofboulder
   - cityofburlington
@@ -228,11 +302,13 @@ U.S. City:
   - CityOfVirginiaBeach
   - cityofwestsacramento
   - CityofYakima
+  - cno-opa
   - cocdata
   - CORaleigh
   - CUMTD
   - DCCouncil
   - DenverDev
+  - dotnyc
   - egovpdx
   - geospatialDENVER
   - Honolulu
@@ -255,8 +331,10 @@ U.S. City:
   - tucsonaz
 
 U.S. County:
+  - anoka-script-team
   - ArlingtonCounty
   - baltimorecounty
+  - bouldercounty
   - CanyonCounty
   - CarverCounty
   - fpdcc
@@ -292,8 +370,8 @@ U.S. Federal:
   - erdc-cm
   - eregs
   - fcc
-  - FCCdev
   - fccdata
+  - FCCdev
   - fda
   - Federal-Aviation-Administration
   - federaltradecommission
@@ -310,8 +388,9 @@ U.S. Federal:
   - HHSIDEAlab
   - historyatstate
   - hpc
+  - iadgov
   - IMDProjects
-  - info-sharing-environment
+  - immojn
   - informaticslab
   - Innovation-Toolkit
   - ioos
@@ -338,7 +417,6 @@ U.S. Federal:
   - NDAR
   - NeoGeographyToolkit
   - NERSC
-  - ngageoint
   - ngds
   - nhanes
   - nhlbi
@@ -357,11 +435,10 @@ U.S. Federal:
   - peacecorps
   - PM-Master
   - presidential-innovation-fellows
-  - project-interoperability
   - project-open-data
   - redhawksdr
+  - SEED-platform
   - SERVIR
-  - shareandprotect
   - Smithsonian
   - state-hiu
   - sunpy
@@ -371,10 +448,12 @@ U.S. Federal:
   - usbr
   - usda
   - USDA-ERS
+  - usda-vs
   - usdepartmentoflabor
   - USDeptVeteransAffairs
   - usepa
   - USFWS
+  - usg-scope
   - USGCRP
   - usgs
   - USGS-Astrogeology
@@ -395,6 +474,14 @@ U.S. Federal:
   - visionworkbench
   - WFMRDA
   - whitehouse
+
+U.S. Military and Intelligence:
+  - info-sharing-environment
+  - ngageoint
+  - project-interoperability
+  - screamlab
+  - shareandprotect
+  - usarmyresearchlab
 
 U.S. Special District:
   - atlregional
@@ -426,6 +513,7 @@ U.S. States:
   - mn-script-team
   - nelegislature
   - NJOGIS
+  - njstatelibrary
   - nys-its
   - nysenate
   - oimt
@@ -448,63 +536,4 @@ U.S. States:
 
 U.S. Tribal Nations:
   - coquille-indian-tribe
-
-United Kingdom:
-  - alphagov
-  - BarnsleyCouncil
-  - BEACmodel
-  - brighton-hove-gov-uk
-  - BristolCityCouncil
-  - cabinetoffice
-  - CarersBeta
-  - companieshouse
-  - datagovuk
-  - decc
-  - defra
-  - Department-for-Work-and-Pensions
-  - DevonCountyCouncil
-  - dfid
-  - digital-preservation
-  - directgov-innovate
-  - dstl
-  - DundeeCityCouncil
-  - dvla
-  - east-sussex-county-council
-  - edinburghcouncil
-  - EnvHack2
-  - EnvironmentAgency
-  - gds-attic
-  - gds-operations
-  - guidance-guarantee-programme
-  - GuildfordBC
-  - HfdsCouncil
-  - hmrc
-  - intellectual-property-office
-  - IQuOD
-  - JNCC-UK
-  - kentcc
-  - LambethCouncil
-  - LandRegistry
-  - LandRegistry-Attic
-  - landregistry-ops
-  - lgss
-  - lichfield-district-council
-  - LocalGovDigital
-  - LutonCouncil
-  - MetOffice
-  - MetOfficeSpaceApps
-  - metomi
-  - ministryofjustice
-  - naouk
-  - OfqualGovUK
-  - ONSdigital
-  - openglasgow
-  - osgeouk
-  - pete-tmbc
-  - RotherDC
-  - scottishgovernment
-  - TraffordCouncil
-  - UKHomeOffice
-  - UKLocation
-  - warwickshire
-  - west-berkshire-council
+  - osage-nation

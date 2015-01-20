@@ -166,6 +166,7 @@ New Zealand:
   - localgovernment
   - nz-mbie
   - NZWellingtonCityCouncil
+  - R9BetterAPIs
 
 Norway:
   - difi
@@ -208,6 +209,71 @@ Switzerland:
   - FNSKtZH
   - ogdch
   - sitn
+
+U.K. Central:
+  - alphagov
+  - BEACmodel
+  - brighton-hove-gov-uk
+  - cabinetoffice
+  - CarersBeta
+  - companieshouse
+  - datagovuk
+  - decc
+  - defra
+  - Department-for-Work-and-Pensions
+  - dfid
+  - digital-preservation
+  - directgov-innovate
+  - dstl
+  - dvla
+  - EnvHack2
+  - EnvironmentAgency
+  - gds-attic
+  - gds-operations
+  - guidance-guarantee-programme
+  - hmrc
+  - insolvencyservice
+  - intellectual-property-office
+  - IQuOD
+  - JNCC-UK
+  - LandRegistry
+  - landregistry-archive
+  - LandRegistry-Attic
+  - landregistry-ops
+  - lgss
+  - LocalGovDigital
+  - MetOffice
+  - MetOfficeSpaceApps
+  - metomi
+  - ministryofjustice
+  - naouk
+  - nationalarchives
+  - OfqualGovUK
+  - ONSdigital
+  - openglasgow
+  - osgeouk
+  - scottishgovernment
+  - ukforeignoffice
+  - UKHomeOffice
+  - UKLocation
+
+U.K. Councils:
+  - BarnsleyCouncil
+  - BristolCityCouncil
+  - DevonCountyCouncil
+  - DundeeCityCouncil
+  - east-sussex-county-council
+  - edinburghcouncil
+  - GuildfordBC
+  - HfdsCouncil
+  - kentcc
+  - LambethCouncil
+  - lichfield-district-council
+  - LutonCouncil
+  - RotherDC
+  - TraffordCouncil
+  - warwickshire
+  - west-berkshire-council
 
 U.S. City:
   - Baltimore-City-EGIS
@@ -371,6 +437,7 @@ U.S. Federal:
   - presidential-innovation-fellows
   - project-open-data
   - redhawksdr
+  - SEED-platform
   - SERVIR
   - Smithsonian
   - state-hiu
@@ -470,67 +537,3 @@ U.S. States:
 U.S. Tribal Nations:
   - coquille-indian-tribe
   - osage-nation
-
-United Kingdom:
-  - alphagov
-  - BarnsleyCouncil
-  - BEACmodel
-  - brighton-hove-gov-uk
-  - BristolCityCouncil
-  - cabinetoffice
-  - CarersBeta
-  - companieshouse
-  - datagovuk
-  - decc
-  - defra
-  - Department-for-Work-and-Pensions
-  - DevonCountyCouncil
-  - dfid
-  - digital-preservation
-  - directgov-innovate
-  - dstl
-  - DundeeCityCouncil
-  - dvla
-  - east-sussex-county-council
-  - edinburghcouncil
-  - EnvHack2
-  - EnvironmentAgency
-  - gds-attic
-  - gds-operations
-  - guidance-guarantee-programme
-  - GuildfordBC
-  - HfdsCouncil
-  - hmrc
-  - insolvencyservice
-  - intellectual-property-office
-  - IQuOD
-  - JNCC-UK
-  - kentcc
-  - LambethCouncil
-  - LandRegistry
-  - landregistry-archive
-  - LandRegistry-Attic
-  - landregistry-ops
-  - lgss
-  - lichfield-district-council
-  - LocalGovDigital
-  - LutonCouncil
-  - MetOffice
-  - MetOfficeSpaceApps
-  - metomi
-  - ministryofjustice
-  - naouk
-  - nationalarchives
-  - OfqualGovUK
-  - ONSdigital
-  - openglasgow
-  - osgeouk
-  - pete-tmbc
-  - RotherDC
-  - scottishgovernment
-  - TraffordCouncil
-  - ukforeignoffice
-  - UKHomeOffice
-  - UKLocation
-  - warwickshire
-  - west-berkshire-council

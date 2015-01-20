@@ -325,7 +325,6 @@ U.S. Federal:
   - iadgov
   - IMDProjects
   - immojn
-  - info-sharing-environment
   - informaticslab
   - Innovation-Toolkit
   - ioos
@@ -352,7 +351,6 @@ U.S. Federal:
   - NDAR
   - NeoGeographyToolkit
   - NERSC
-  - ngageoint
   - ngds
   - nhanes
   - nhlbi
@@ -371,11 +369,9 @@ U.S. Federal:
   - peacecorps
   - PM-Master
   - presidential-innovation-fellows
-  - project-interoperability
   - project-open-data
   - redhawksdr
   - SERVIR
-  - shareandprotect
   - Smithsonian
   - state-hiu
   - sunpy
@@ -413,7 +409,11 @@ U.S. Federal:
   - whitehouse
 
 U.S. Military and Intelligence:
+  - info-sharing-environment
+  - ngageoint
+  - project-interoperability
   - screamlab
+  - shareandprotect
   - usarmyresearchlab
 
 U.S. Special District:

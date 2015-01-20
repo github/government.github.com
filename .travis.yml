@@ -6,3 +6,5 @@ branches:
   only:
     - gh-pages
     - /.*/
+sudo: false
+cache: bundler

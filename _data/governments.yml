@@ -46,7 +46,7 @@ Brazil:
   - dataprev
   - gabinetedigital
   - govbr
-  - GovBrasil  
+  - GovBrasil
   - InstitutoBenjaminConstant
   - interlegis
   - lexml
@@ -64,7 +64,6 @@ Brazil:
 
 Canada:
   - AAFC-MBB
-  - britishcolumbia
   - ca-canada
   - CIHR
   - cityofgreatersudbury
@@ -134,7 +133,7 @@ India:
 
 Japan:
   - gsi-cyberjapan
-  
+
 International:
   - IATI
   - ogpl

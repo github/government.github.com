@@ -301,7 +301,7 @@ Where support below is indicated below as "Supports with exceptions", such a qua
 *Applicable product(s): {{ section[1].product }}*
 {% endif %}
 
-  <table id="accessibility" class="table table-striped table-bordered table-condensed">
+  <table class="table table-striped table-bordered table-condensed accessibility">
     <thead>
       <tr>
         <th>Criteria</th>

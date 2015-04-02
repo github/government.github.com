@@ -4,15 +4,15 @@ Argentina:
   - gcba
 
 Australia:
-  - ausgovdigital
-  - dpipwe
   - actesa
   - actgov
   - agnsw
+  - ausgovdigital
   - australianantarcticdatacentre
   - datagovau
   - DeptRegionalAustralia
   - dpaw2
+  - dpipwe
   - ga-m3dv
   - gccgisteam
   - GeoscienceAustralia
@@ -43,18 +43,18 @@ Bolivia:
   - geobolivia
 
 Brazil:
-  - justicagovbr
-  - goias
-  - fateczonaleste
   - bacendeinf
   - cislgov
   - dadosgovbr
   - dataprev
+  - fateczonaleste
   - gabinetedigital
+  - goias
   - govbr
   - GovBrasil
   - InstitutoBenjaminConstant
   - interlegis
+  - justicagovbr
   - lexml
   - pensandoodireito
   - plonegovbr
@@ -69,14 +69,11 @@ Brazil:
   - wpgovbr
 
 Bulgaria:
-  - governmentbg
-
-Egypt:
-  - informationtechnologyinstitute
+  - govbg
 
 Canada:
-  - bcdevexchange
   - AAFC-MBB
+  - bcdevexchange
   - BCGov
   - ca-canada
   - CIHR
@@ -103,8 +100,8 @@ Canada:
   - wet-boew
 
 Chile:
-  - e-gob
   - datal-org
+  - e-gob
 
 Colombia:
   - AltaConsejeriaTIC
@@ -112,8 +109,11 @@ Colombia:
   - swiss-gov
 
 Ecuador:
-  - innovacionsnap
   - inamhi
+  - innovacionsnap
+
+Egypt:
+  - informationtechnologyinstitute
 
 Estonia:
   - vvk-ehk
@@ -135,25 +135,23 @@ France:
   - DGFiP
   - erasme
   - etalab
-  - sgmap
-  - VilleDeMontpellier
-  - sgmap-agd
   - polewebmaedi
+  - sgmap
+  - sgmap-agd
+  - VilleDeMontpellier
 
 Germany:
   - gbv
   - lobid
+
+Guatemala:
+  - minfingt
 
 Hong Kong:
   - datagovhk
 
 India:
   - itschool
-
-Japan:
-  - gsi-cyberjapan
-  - wakayama-pref-org
-  - nims-library
 
 International:
   - IATI
@@ -169,15 +167,17 @@ Italy:
   - PloneGov-IT
   - RegioneER
 
+Japan:
+  - gsi-cyberjapan
+  - nims-library
+  - wakayama-pref-org
+
 Latvia:
   - CSBLatvia
 
 Malaysia:
   - pmo2
 
-Bulgaria:
-  - govbg
-  
 Mexico:
   - CSB-IG
   - DDT-INMEGEN
@@ -222,35 +222,30 @@ Spain:
   - ctt-gob-es
 
 Sweden:
-  - kungbib
   - edelegationen
-  - libris
-  - malmostad
-  - rinfo
-  - The-Municipality-of-Staffanstorp
-  - swedishpensionsagency
   - gbif-sweden
-  - mtmse
-  - statens-maritima-museer
+  - kungbib
+  - libris
   - lldd
-
-Guatemala:
-  - minfingt
+  - malmostad
+  - mtmse
+  - rinfo
+  - statens-maritima-museer
+  - swedishpensionsagency
+  - The-Municipality-of-Staffanstorp
 
 Switzerland:
   - alv-ch
   - alv-ch-ansible-roles
   - BFS-SHS-MSAS
   - FNSKtZH
+  - gisktzh
   - ogdch
   - sitn
-  - vdch
-  - gisktzh
   - swiss-gov
+  - vdch
 
 U.K. Central:
-  - gds-dead
-  - met-office-lab
   - alphagov
   - BEACmodel
   - brighton-hove-gov-uk
@@ -269,6 +264,7 @@ U.K. Central:
   - EnvHack2
   - EnvironmentAgency
   - gds-attic
+  - gds-dead
   - gds-operations
   - guidance-guarantee-programme
   - hmrc
@@ -277,8 +273,10 @@ U.K. Central:
   - IQuOD
   - JNCC-UK
   - LandRegistry
+  - landregistry-ops
   - lgss
   - LocalGovDigital
+  - met-office-lab
   - MetOffice
   - MetOfficeSpaceApps
   - metomi
@@ -293,11 +291,11 @@ U.K. Central:
   - ukforeignoffice
   - UKHomeOffice
   - UKLocation
-  - landregistry-ops
 
 U.K. Councils:
   - BarnsleyCouncil
   - BristolCityCouncil
+  - devoncc
   - DevonCountyCouncil
   - DundeeCityCouncil
   - east-sussex-county-council
@@ -312,13 +310,8 @@ U.K. Councils:
   - TraffordCouncil
   - warwickshire
   - west-berkshire-council
-  - devoncc
 
 U.S. City:
-  - TownOfBrookline
-  - cityofsomerville
-  - southbend
-  - nycdot
   - Baltimore-City-EGIS
   - berkeleypubliclibrary
   - BostonRedevelop
@@ -342,6 +335,7 @@ U.S. City:
   - CityofReno
   - CityofSanFrancisco
   - CityofSantaMonica
+  - cityofsomerville
   - CityOfVirginiaBeach
   - cityofwestsacramento
   - CityofYakima
@@ -359,6 +353,7 @@ U.S. City:
   - mnhrc
   - monum
   - NYCComptroller
+  - nycdot
   - octolabs
   - OpenGovDC
   - openlexington
@@ -371,32 +366,29 @@ U.S. City:
   - sfbart
   - sfgov
   - SiloamSprings
+  - southbend
+  - TownOfBrookline
   - tucsonaz
 
 U.S. County:
-  - pottcountyit
-  - donaanacounty
   - anoka-script-team
   - ArlingtonCounty
   - baltimorecounty
   - bouldercounty
   - CanyonCounty
   - CarverCounty
+  - donaanacounty
   - fpdcc
   - HarrisCountyFOA
   - HennepinCountyPublicDefender
   - miamidade
+  - pottcountyit
   - sfcta
   - SJCGIS
   - slo-county-planning-and-building
   - slugis
 
 U.S. Federal:
-  - usgs-cmg
-  - library-of-congress
-  - noaa-gfdl
-  - ntia
-  - IIP-Design
   - 18f
   - adl-aicc
   - adlnet
@@ -439,6 +431,7 @@ U.S. Federal:
   - historyatstate
   - hpc
   - iadgov
+  - IIP-Design
   - IMDProjects
   - immojn
   - informaticslab
@@ -448,6 +441,7 @@ U.S. Federal:
   - JBEI
   - JPLOpenSource
   - kbase
+  - library-of-congress
   - libraryofcongress
   - losalamos
   - M-O-S-E-S
@@ -475,9 +469,11 @@ U.S. Federal:
   - NIST-BWS
   - NMB-Dev
   - NMML
+  - noaa-gfdl
   - NOAA-ORR-ERD
   - nrel
   - NREL-cookbooks
+  - ntia
   - Open-Sat
   - opengovplatform
   - ozone-development
@@ -509,6 +505,7 @@ U.S. Federal:
   - usgs
   - USGS-Astrogeology
   - USGS-CIDA
+  - usgs-cmg
   - USGS-OWI
   - USGS-R
   - USGS-WiM
@@ -527,13 +524,13 @@ U.S. Federal:
   - whitehouse
 
 U.S. Military and Intelligence:
+  - afseo
   - info-sharing-environment
   - ngageoint
   - project-interoperability
   - screamlab
   - shareandprotect
   - usarmyresearchlab
-  - afseo
 
 U.S. Special District:
   - atlregional
@@ -548,13 +545,10 @@ U.S. Special District:
   - psrc
 
 U.S. States:
-  - oregonopendata
-  - chhsopendata
-  - wadoh
-  - ny
   - agrc
   - azgs
   - ccap
+  - chhsopendata
   - CTOpenData
   - DCGovWeb
   - eHawaii
@@ -570,9 +564,11 @@ U.S. States:
   - nelegislature
   - NJOGIS
   - njstatelibrary
+  - ny
   - nys-its
   - nysenate
   - oimt
+  - oregonopendata
   - ORMetro
   - SLNC-DIMP
   - State-of-Arizona
@@ -586,6 +582,7 @@ U.S. States:
   - vtrans
   - vtrans-rail
   - WA-OCIO
+  - wadoh
   - WisconsinDPI
   - wsdot
   - WSDOT-GIS

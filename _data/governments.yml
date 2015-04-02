@@ -7,10 +7,12 @@ Australia:
   - actesa
   - actgov
   - agnsw
+  - ausgovdigital
   - australianantarcticdatacentre
   - datagovau
   - DeptRegionalAustralia
   - dpaw2
+  - dpipwe
   - ga-m3dv
   - gccgisteam
   - GeoscienceAustralia
@@ -45,11 +47,14 @@ Brazil:
   - cislgov
   - dadosgovbr
   - dataprev
+  - fateczonaleste
   - gabinetedigital
+  - goias
   - govbr
   - GovBrasil
   - InstitutoBenjaminConstant
   - interlegis
+  - justicagovbr
   - lexml
   - pensandoodireito
   - plonegovbr
@@ -64,10 +69,12 @@ Brazil:
   - wpgovbr
 
 Bulgaria:
+  - govbg
   - governmentbg
-
+  
 Canada:
   - AAFC-MBB
+  - bcdevexchange
   - BCGov
   - ca-canada
   - CIHR
@@ -94,14 +101,20 @@ Canada:
   - wet-boew
 
 Chile:
+  - datal-org
   - e-gob
 
 Colombia:
   - AltaConsejeriaTIC
   - idu-bogota
+  - swiss-gov
 
 Ecuador:
+  - inamhi
   - innovacionsnap
+
+Egypt:
+  - informationtechnologyinstitute
 
 Estonia:
   - vvk-ehk
@@ -123,22 +136,23 @@ France:
   - DGFiP
   - erasme
   - etalab
+  - polewebmaedi
   - sgmap
+  - sgmap-agd
   - VilleDeMontpellier
 
 Germany:
   - gbv
   - lobid
 
+Guatemala:
+  - minfingt
+
 Hong Kong:
   - datagovhk
 
 India:
   - itschool
-
-Japan:
-  - gsi-cyberjapan
-  - wakayama-pref-org
 
 International:
   - IATI
@@ -153,6 +167,11 @@ Italy:
   - Formez
   - PloneGov-IT
   - RegioneER
+
+Japan:
+  - gsi-cyberjapan
+  - nims-library
+  - wakayama-pref-org
 
 Latvia:
   - CSBLatvia
@@ -205,9 +224,15 @@ Spain:
 
 Sweden:
   - edelegationen
+  - gbif-sweden
+  - kungbib
   - libris
+  - lldd
   - malmostad
+  - mtmse
   - rinfo
+  - statens-maritima-museer
+  - swedishpensionsagency
   - The-Municipality-of-Staffanstorp
 
 Switzerland:
@@ -215,8 +240,11 @@ Switzerland:
   - alv-ch-ansible-roles
   - BFS-SHS-MSAS
   - FNSKtZH
+  - gisktzh
   - ogdch
   - sitn
+  - swiss-gov
+  - vdch
 
 U.K. Central:
   - alphagov
@@ -237,6 +265,7 @@ U.K. Central:
   - EnvHack2
   - EnvironmentAgency
   - gds-attic
+  - gds-dead
   - gds-operations
   - guidance-guarantee-programme
   - hmrc
@@ -245,8 +274,10 @@ U.K. Central:
   - IQuOD
   - JNCC-UK
   - LandRegistry
+  - landregistry-ops
   - lgss
   - LocalGovDigital
+  - met-office-lab
   - MetOffice
   - MetOfficeSpaceApps
   - metomi
@@ -265,6 +296,7 @@ U.K. Central:
 U.K. Councils:
   - BarnsleyCouncil
   - BristolCityCouncil
+  - devoncc
   - DevonCountyCouncil
   - DundeeCityCouncil
   - east-sussex-county-council
@@ -304,6 +336,7 @@ U.S. City:
   - CityofReno
   - CityofSanFrancisco
   - CityofSantaMonica
+  - cityofsomerville
   - CityOfVirginiaBeach
   - cityofwestsacramento
   - CityofYakima
@@ -321,6 +354,7 @@ U.S. City:
   - mnhrc
   - monum
   - NYCComptroller
+  - nycdot
   - octolabs
   - OpenGovDC
   - openlexington
@@ -333,6 +367,8 @@ U.S. City:
   - sfbart
   - sfgov
   - SiloamSprings
+  - southbend
+  - TownOfBrookline
   - tucsonaz
 
 U.S. County:
@@ -342,10 +378,12 @@ U.S. County:
   - bouldercounty
   - CanyonCounty
   - CarverCounty
+  - donaanacounty
   - fpdcc
   - HarrisCountyFOA
   - HennepinCountyPublicDefender
   - miamidade
+  - pottcountyit
   - sfcta
   - SJCGIS
   - slo-county-planning-and-building
@@ -394,6 +432,7 @@ U.S. Federal:
   - historyatstate
   - hpc
   - iadgov
+  - IIP-Design
   - IMDProjects
   - immojn
   - informaticslab
@@ -403,6 +442,7 @@ U.S. Federal:
   - JBEI
   - JPLOpenSource
   - kbase
+  - library-of-congress
   - libraryofcongress
   - losalamos
   - M-O-S-E-S
@@ -430,9 +470,11 @@ U.S. Federal:
   - NIST-BWS
   - NMB-Dev
   - NMML
+  - noaa-gfdl
   - NOAA-ORR-ERD
   - nrel
   - NREL-cookbooks
+  - ntia
   - Open-Sat
   - opengovplatform
   - ozone-development
@@ -464,6 +506,7 @@ U.S. Federal:
   - usgs
   - USGS-Astrogeology
   - USGS-CIDA
+  - usgs-cmg
   - USGS-OWI
   - USGS-R
   - USGS-WiM
@@ -482,6 +525,7 @@ U.S. Federal:
   - whitehouse
 
 U.S. Military and Intelligence:
+  - afseo
   - info-sharing-environment
   - ngageoint
   - project-interoperability
@@ -505,6 +549,7 @@ U.S. States:
   - agrc
   - azgs
   - ccap
+  - chhsopendata
   - CTOpenData
   - DCGovWeb
   - eHawaii
@@ -520,9 +565,11 @@ U.S. States:
   - nelegislature
   - NJOGIS
   - njstatelibrary
+  - ny
   - nys-its
   - nysenate
   - oimt
+  - oregonopendata
   - ORMetro
   - SLNC-DIMP
   - State-of-Arizona
@@ -536,6 +583,7 @@ U.S. States:
   - vtrans
   - vtrans-rail
   - WA-OCIO
+  - wadoh
   - WisconsinDPI
   - wsdot
   - WSDOT-GIS
@@ -543,3 +591,6 @@ U.S. States:
 U.S. Tribal Nations:
   - coquille-indian-tribe
   - osage-nation
+
+Uruguay:
+  - uygub

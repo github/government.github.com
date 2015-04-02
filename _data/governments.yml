@@ -4,6 +4,8 @@ Argentina:
   - gcba
 
 Australia:
+  - ausgovdigital
+  - dpipwe
   - actesa
   - actgov
   - agnsw
@@ -41,6 +43,9 @@ Bolivia:
   - geobolivia
 
 Brazil:
+  - justicagovbr
+  - goias
+  - fateczonaleste
   - bacendeinf
   - cislgov
   - dadosgovbr
@@ -66,7 +71,11 @@ Brazil:
 Bulgaria:
   - governmentbg
 
+Egypt:
+  - informationtechnologyinstitute
+
 Canada:
+  - bcdevexchange
   - AAFC-MBB
   - BCGov
   - ca-canada
@@ -95,13 +104,16 @@ Canada:
 
 Chile:
   - e-gob
+  - datal-org
 
 Colombia:
   - AltaConsejeriaTIC
   - idu-bogota
+  - swiss-gov
 
 Ecuador:
   - innovacionsnap
+  - inamhi
 
 Estonia:
   - vvk-ehk
@@ -125,6 +137,8 @@ France:
   - etalab
   - sgmap
   - VilleDeMontpellier
+  - sgmap-agd
+  - polewebmaedi
 
 Germany:
   - gbv
@@ -139,6 +153,7 @@ India:
 Japan:
   - gsi-cyberjapan
   - wakayama-pref-org
+  - nims-library
 
 International:
   - IATI
@@ -160,6 +175,9 @@ Latvia:
 Malaysia:
   - pmo2
 
+Bulgaria:
+  - govbg
+  
 Mexico:
   - CSB-IG
   - DDT-INMEGEN
@@ -204,11 +222,20 @@ Spain:
   - ctt-gob-es
 
 Sweden:
+  - kungbib
   - edelegationen
   - libris
   - malmostad
   - rinfo
   - The-Municipality-of-Staffanstorp
+  - swedishpensionsagency
+  - gbif-sweden
+  - mtmse
+  - statens-maritima-museer
+  - lldd
+
+Guatemala:
+  - minfingt
 
 Switzerland:
   - alv-ch
@@ -217,8 +244,13 @@ Switzerland:
   - FNSKtZH
   - ogdch
   - sitn
+  - vdch
+  - gisktzh
+  - swiss-gov
 
 U.K. Central:
+  - gds-dead
+  - met-office-lab
   - alphagov
   - BEACmodel
   - brighton-hove-gov-uk
@@ -261,6 +293,7 @@ U.K. Central:
   - ukforeignoffice
   - UKHomeOffice
   - UKLocation
+  - landregistry-ops
 
 U.K. Councils:
   - BarnsleyCouncil
@@ -279,8 +312,13 @@ U.K. Councils:
   - TraffordCouncil
   - warwickshire
   - west-berkshire-council
+  - devoncc
 
 U.S. City:
+  - TownOfBrookline
+  - cityofsomerville
+  - southbend
+  - nycdot
   - Baltimore-City-EGIS
   - berkeleypubliclibrary
   - BostonRedevelop
@@ -336,6 +374,8 @@ U.S. City:
   - tucsonaz
 
 U.S. County:
+  - pottcountyit
+  - donaanacounty
   - anoka-script-team
   - ArlingtonCounty
   - baltimorecounty
@@ -352,6 +392,11 @@ U.S. County:
   - slugis
 
 U.S. Federal:
+  - usgs-cmg
+  - library-of-congress
+  - noaa-gfdl
+  - ntia
+  - IIP-Design
   - 18f
   - adl-aicc
   - adlnet
@@ -488,6 +533,7 @@ U.S. Military and Intelligence:
   - screamlab
   - shareandprotect
   - usarmyresearchlab
+  - afseo
 
 U.S. Special District:
   - atlregional
@@ -502,6 +548,10 @@ U.S. Special District:
   - psrc
 
 U.S. States:
+  - oregonopendata
+  - chhsopendata
+  - wadoh
+  - ny
   - agrc
   - azgs
   - ccap
@@ -543,3 +593,6 @@ U.S. States:
 U.S. Tribal Nations:
   - coquille-indian-tribe
   - osage-nation
+
+Uruguay:
+  - uygub

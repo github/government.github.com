@@ -431,7 +431,6 @@ U.S. Federal:
   - HHSIDEAlab
   - historyatstate
   - hpc
-  - iadgov
   - IIP-Design
   - IMDProjects
   - immojn
@@ -526,7 +525,9 @@ U.S. Federal:
 
 U.S. Military and Intelligence:
   - afseo
+  - iadgov
   - info-sharing-environment
+  - NationalSecurityAgency
   - ngageoint
   - project-interoperability
   - screamlab

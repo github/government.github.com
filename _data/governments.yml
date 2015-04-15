@@ -249,7 +249,6 @@ Switzerland:
 U.K. Central:
   - alphagov
   - BEACmodel
-  - brighton-hove-gov-uk
   - cabinetoffice
   - CarersBeta
   - companieshouse
@@ -295,6 +294,7 @@ U.K. Central:
 
 U.K. Councils:
   - BarnsleyCouncil
+  - brighton-hove-gov-uk
   - BristolCityCouncil
   - devoncc
   - DevonCountyCouncil

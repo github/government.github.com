@@ -170,8 +170,10 @@ Italy:
   - RegioneER
 
 Japan:
+  - ComuneBologna
   - gsi-cyberjapan
   - nims-library
+  - ouropendata
   - wakayama-pref-org
 
 Latvia:
@@ -230,8 +232,8 @@ Sweden:
   - domstol
   - edelegationen
   - gbif-sweden
-  - kungbib
   - Kungbib
+  - kungbib
   - libris
   - lldd
   - malmostad

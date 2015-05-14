@@ -117,8 +117,8 @@ Egypt:
   - informationtechnologyinstitute
 
 Estonia:
-  - vvk-ehk
   - open-eid
+  - vvk-ehk
 
 European Union:
   - europeana
@@ -185,37 +185,6 @@ Mexico:
   - CSB-IG
   - DDT-INMEGEN
   - profeco
-  
-The Netherlands:
-  - 2EK
-  - GemeenteBoekel
-  - GemeenteDeWoldenHoogeveen
-  - GemeenteEdamVolendam
-  - GemeenteEde
-  - GemeenteHoogezandSappemeer
-  - GemeenteKoggenland
-  - GemeenteLingewaard
-  - GemeenteLochem
-  - GemeenteMontferland
-  - GemeenteNunspeet
-  - GemeenteRheden
-  - GemeenteTynaarlo
-  - GemeenteUrk
-  - GemeenteUtrecht
-  - GemeenteVeere
-  - GemeenteWaalwijk
-  - GemeenteWeststellingwerf
-  - Geonovum
-  - IenS-Velsen
-  - MinELenI
-  - MinIenM
-  - Pleio
-  - rijksoverheid
-  - StichtingHergebruikOverheid
-  - TweedeKamer
-  - gemeentemuseum
-  - provincieNH
-  - zaanstad
 
 New Zealand:
   - CanterburyRegionalCouncil
@@ -259,6 +228,7 @@ Spain:
   - ctt-gob-es
 
 Sweden:
+  - domstol
   - edelegationen
   - gbif-sweden
   - kungbib
@@ -267,7 +237,6 @@ Sweden:
   - malmostad
   - mtmse
   - rinfo
-  - domstol
   - statens-maritima-museer
   - swedishpensionsagency
   - The-Municipality-of-Staffanstorp
@@ -282,6 +251,37 @@ Switzerland:
   - sitn
   - swiss-gov
   - vdch
+
+The Netherlands:
+  - 2EK
+  - GemeenteBoekel
+  - GemeenteDeWoldenHoogeveen
+  - GemeenteEdamVolendam
+  - GemeenteEde
+  - GemeenteHoogezandSappemeer
+  - GemeenteKoggenland
+  - GemeenteLingewaard
+  - GemeenteLochem
+  - GemeenteMontferland
+  - gemeentemuseum
+  - GemeenteNunspeet
+  - GemeenteRheden
+  - GemeenteTynaarlo
+  - GemeenteUrk
+  - GemeenteUtrecht
+  - GemeenteVeere
+  - GemeenteWaalwijk
+  - GemeenteWeststellingwerf
+  - Geonovum
+  - IenS-Velsen
+  - MinELenI
+  - MinIenM
+  - Pleio
+  - provincieNH
+  - rijksoverheid
+  - StichtingHergebruikOverheid
+  - TweedeKamer
+  - zaanstad
 
 U.K. Central:
   - alphagov
@@ -331,6 +331,7 @@ U.K. Central:
 
 U.K. Councils:
   - BarnsleyCouncil
+  - BracknellForestCouncil
   - brighton-hove-gov-uk
   - BristolCityCouncil
   - CamdenCouncil

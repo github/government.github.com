@@ -31,6 +31,7 @@ Australia:
   - srnsw
   - SSCwebdev
   - SunshineCoastCouncil
+  - treasury-aus
   - wamuseum
 
 Belgium:
@@ -45,6 +46,7 @@ Bolivia:
 Brazil:
   - bacendeinf
   - cislgov
+  - culturagovbr
   - dadosgovbr
   - dataprev
   - fateczonaleste
@@ -63,6 +65,7 @@ Brazil:
   - prefeiturasp
   - PROCERGS
   - secom-tocantins
+  - secultce
   - SerraWeb
   - tisorocaba
   - tre-pa
@@ -106,6 +109,7 @@ Chile:
 
 Colombia:
   - AltaConsejeriaTIC
+  - evaluon
   - idu-bogota
 
 Ecuador:
@@ -307,6 +311,7 @@ U.K. Central:
   - insolvencyservice
   - intellectual-property-office
   - IQuOD
+  - jncc
   - JNCC-UK
   - LandRegistry
   - landregistry-ops
@@ -371,6 +376,7 @@ U.S. City:
   - CityOfGreeleyCo
   - cityofnewyork
   - CityOfPhiladelphia
+  - cityofportland
   - CityofReno
   - CityofSanFrancisco
   - CityofSantaMonica
@@ -510,6 +516,7 @@ U.S. Federal:
   - nrel
   - NREL-cookbooks
   - ntia
+  - ombegov
   - Open-Sat
   - opengovplatform
   - ozone-development
@@ -521,6 +528,7 @@ U.S. Federal:
   - project-open-data
   - redhawksdr
   - SEED-platform
+  - SelectUSA
   - SERVIR
   - Smithsonian
   - state-hiu
@@ -586,12 +594,14 @@ U.S. Special District:
 U.S. States:
   - agrc
   - azgs
+  - callitegui
   - ccap
   - chhsopendata
   - CTOpenData
   - DCGovWeb
   - eHawaii
   - FGS-FloridaGeologicalSurvey
+  - gocodecolorado
   - IDAHO-DOC-NCOMS
   - idahofishgame
   - InDEM
@@ -609,6 +619,7 @@ U.S. States:
   - oimt
   - oregonopendata
   - ORMetro
+  - scdhhs
   - SLNC-DIMP
   - State-of-Arizona
   - tndcs

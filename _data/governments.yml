@@ -175,7 +175,6 @@ Japan:
   - ComuneBologna
   - gsi-cyberjapan
   - nims-library
-  - ouropendata
   - wakayama-pref-org
 
 Latvia:
@@ -232,7 +231,6 @@ Spain:
 
 Sweden:
   - domstol
-  - edelegationen
   - gbif-sweden
   - kungbib
   - libris
@@ -256,29 +254,11 @@ Switzerland:
   - vdch
 
 The Netherlands:
-  - 2EK
-  - GemeenteBoekel
-  - GemeenteDeWoldenHoogeveen
-  - GemeenteEdamVolendam
   - GemeenteEde
-  - GemeenteHoogezandSappemeer
-  - GemeenteKoggenland
-  - GemeenteLingewaard
-  - GemeenteLochem
-  - GemeenteMontferland
   - gemeentemuseum
-  - GemeenteNunspeet
-  - GemeenteRheden
-  - GemeenteTynaarlo
-  - GemeenteUrk
-  - GemeenteUtrecht
-  - GemeenteVeere
-  - GemeenteWaalwijk
-  - GemeenteWeststellingwerf
   - Geonovum
   - IenS-Velsen
   - MinELenI
-  - MinIenM
   - Pleio
   - provincieNH
   - rijksoverheid
@@ -290,7 +270,6 @@ U.K. Central:
   - alphagov
   - BEACmodel
   - cabinetoffice
-  - CarersBeta
   - companieshouse
   - datagovuk
   - decc
@@ -408,7 +387,6 @@ U.S. City:
   - ridertd
   - SantaClarita
   - sfbart
-  - sfgov
   - SiloamSprings
   - southbend
   - TownOfBrookline
@@ -450,7 +428,6 @@ U.S. Federal:
   - cooperhewitt
   - defense-cyber-crime-center
   - department-of-veterans-affairs
-  - educationdatainitiative
   - EEOC
   - energyapps
   - erdc-cm
@@ -462,7 +439,6 @@ U.S. Federal:
   - Federal-Aviation-Administration
   - federaltradecommission
   - fedspendingtransparency
-  - foreignassistance
   - globegit
   - gopleader
   - government-services
@@ -496,7 +472,6 @@ U.S. Federal:
   - nationalparkservice
   - ncats
   - ncbi
-  - ncbitools
   - ncip
   - NCPP
   - NCRN
@@ -531,7 +506,6 @@ U.S. Federal:
   - SelectUSA
   - SERVIR
   - Smithsonian
-  - state-hiu
   - sunpy
   - usagov
   - usaid

@@ -1,6 +1,8 @@
 # Official government institutions, listed under their country or level of government
 
 Argentina:
+  - cifasis
+  - educardev
   - gcba
 
 Australia:
@@ -13,6 +15,7 @@ Australia:
   - DeptRegionalAustralia
   - dpaw2
   - dpipwe
+  - envris
   - ga-m3dv
   - gccgisteam
   - GeoscienceAustralia
@@ -45,6 +48,7 @@ Bolivia:
 
 Brazil:
   - bacendeinf
+  - camaradosdeputadosoficial
   - cislgov
   - culturagovbr
   - dadosgovbr
@@ -57,6 +61,7 @@ Brazil:
   - InstitutoBenjaminConstant
   - interlegis
   - justicagovbr
+  - labhackercd
   - lexml
   - pensandoodireito
   - plonegovbr
@@ -64,6 +69,7 @@ Brazil:
   - PrefeituraParnaiba
   - prefeiturasp
   - PROCERGS
+  - prodest
   - secom-tocantins
   - secultce
   - SerraWeb
@@ -128,6 +134,7 @@ European Union:
 
 Finland:
   - City-of-Helsinki
+  - helsinki-city-library
   - HSLdevcom
   - Lounaispaikka
 
@@ -137,6 +144,7 @@ France:
   - ApieFrance
   - communaute-cimi
   - DGFiP
+  - disic
   - erasme
   - etalab
   - polewebmaedi
@@ -146,6 +154,7 @@ France:
 Germany:
   - gbv
   - hbz
+  - isyfact
   - lobid
 
 Guatemala:
@@ -171,8 +180,8 @@ Italy:
   - RegioneER
 
 Japan:
-  - ComuneBologna
   - gsi-cyberjapan
+  - nhohq
   - nims-library
   - wakayama-pref-org
 
@@ -197,6 +206,7 @@ New Zealand:
   - nz-mbie
   - NZWellingtonCityCouncil
   - R9BetterAPIs
+  - te-papa
 
 Norway:
   - difi
@@ -295,6 +305,7 @@ U.K. Central:
   - IQuOD
   - jncc
   - JNCC-UK
+  - jules-lsm
   - LandRegistry
   - landregistry-ops
   - lgss
@@ -317,6 +328,7 @@ U.K. Central:
 
 U.K. Councils:
   - BarnsleyCouncil
+  - BathnesDevelopment
   - BracknellForestCouncil
   - brighton-hove-gov-uk
   - BristolCityCouncil
@@ -333,6 +345,7 @@ U.K. Councils:
   - lichfield-district-council
   - LutonCouncil
   - RotherDC
+  - thehighlandcouncil
   - TraffordCouncil
   - warwickshire
   - west-berkshire-council
@@ -372,6 +385,7 @@ U.S. City:
   - CUMTD
   - DCCouncil
   - DenverDev
+  - digitalinclusion
   - dotnyc
   - egovpdx
   - geospatialDENVER
@@ -419,6 +433,7 @@ U.S. Federal:
   - adlnet
   - arcticlcc
   - BBGInnovate
+  - bfelob
   - blue-button
   - businessusa
   - CA-CST-Library
@@ -469,6 +484,7 @@ U.S. Federal:
   - nasa
   - nasa-gibs
   - NASA-rdt
+  - nasa-tournament-lab
   - nasajpl
   - NationalGuard
   - nationalparkservice
@@ -490,6 +506,7 @@ U.S. Federal:
   - NMML
   - noaa-gfdl
   - NOAA-ORR-ERD
+  - nps-mojn
   - nrel
   - NREL-cookbooks
   - ntia
@@ -514,6 +531,7 @@ U.S. Federal:
   - usasearch
   - usbr
   - usda
+  - usda-ars-agil
   - USDA-ERS
   - usda-vs
   - usdepartmentoflabor
@@ -527,6 +545,7 @@ U.S. Federal:
   - USGS-Astrogeology
   - USGS-CIDA
   - usgs-cmg
+  - usgs-eros
   - USGS-OWI
   - USGS-R
   - USGS-WiM
@@ -570,6 +589,7 @@ U.S. Special District:
 U.S. States:
   - agrc
   - azgs
+  - calsimcallite
   - ccap
   - chhsopendata
   - CTOpenData
@@ -595,6 +615,7 @@ U.S. States:
   - oregonopendata
   - ORMetro
   - scdhhs
+  - scgeology
   - SLNC-DIMP
   - State-of-Arizona
   - tndcs

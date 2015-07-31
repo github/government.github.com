@@ -6,7 +6,10 @@ U.S. Research Labs:
   - BrookhavenNationalLaboratory
   - CASL
   - CBIIT
+  - chaos
+  - cocomans
   - ControlSystemStudio
+  - cooperhewitt
   - doe-nepa
   - EarthSystemCoG
   - EMSL-MSC
@@ -15,9 +18,13 @@ U.S. Research Labs:
   - GENIEMC
   - globus
   - HipGISAXS
+  - hpc
   - hpde
   - idaholab
+  - jbei
   - JGI-Bioinformatics
+  - jplopensource
+  - kbase
   - kbaseIncubator
   - LANL
   - LANL-Bioinformatics
@@ -32,13 +39,25 @@ U.S. Research Labs:
   - mdhim
   - MG-RAST
   - NASA-Tensegrity-Robotics-Toolkit
+  - nasajpl
+  - ncats
+  - ncbi
   - ncgmp09
+  - ncip
+  - ncpp
+  - ndar
+  - nersc
+  - nhlbi
+  - niaid
   - NIAID-RTB
   - NIFA
   - nih-fmrif
   - Nikea
   - nimh-nif
+  - nist-bws
   - nist-ionstorage
+  - nrel
+  - nrel-cookbooks
   - NSLS-II
   - NSLS-II-CSX
   - nsls2ap
@@ -54,6 +73,8 @@ U.S. Research Labs:
   - ORNLSMRModeling
   - PCMDI
   - plfs
+  - pm-master
+  - pnnl
   - PNNL-Comp-Mass-Spec
   - pyepics
   - reflectometry
@@ -61,13 +82,16 @@ U.S. Research Labs:
   - scalability-llnl
   - scattering
   - sdfdemo
+  - seed-platform
   - sim-x
   - simx
+  - smithsonian
   - SNEWS-Collaboration
   - SNL-WaterPower
   - swift-lang
   - TinyTitan
   - TriBITSPub
+  - usnistgov
   - UV-CDAT
   - WISDEM
   - zfsonlinux

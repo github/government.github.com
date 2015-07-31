@@ -2,6 +2,7 @@
 
 Argentina:
   - cifasis
+  - conectados-ar
   - educardev
   - gcba
 
@@ -19,6 +20,7 @@ Australia:
   - ga-m3dv
   - gccgisteam
   - GeoscienceAustralia
+  - govcms
   - Healthway
   - hiscom
   - innovationgovau
@@ -180,6 +182,7 @@ Italy:
   - RegioneER
 
 Japan:
+  - city-of-kobe
   - gsi-cyberjapan
   - nhohq
   - nims-library
@@ -195,6 +198,7 @@ Mexico:
   - CSB-IG
   - DDT-INMEGEN
   - profeco
+  - redoaxacadetodos
 
 New Zealand:
   - CanterburyRegionalCouncil
@@ -237,14 +241,15 @@ Saudi Arabia:
   - SAS-NCDC
 
 Singapore:
+  - idagds
   - moexmen
 
 South Africa:
   - eddZA
 
 Spain:
-  - ctt-gob-es
   - AyuntamientoMadrid
+  - ctt-gob-es
 
 Sweden:
   - domstol
@@ -271,6 +276,7 @@ Switzerland:
   - vdch
 
 The Netherlands:
+  - dataoverheid
   - GemeenteEde
   - gemeentemuseum
   - Geonovum
@@ -353,12 +359,14 @@ U.K. Councils:
   - thehighlandcouncil
   - TraffordCouncil
   - warwickshire
+  - wealden
   - west-berkshire-council
 
 U.S. City:
   - Baltimore-City-EGIS
   - berkeleypubliclibrary
   - BostonRedevelop
+  - cambma-data
   - cambridgegis
   - chicago
   - city-of-bellingham
@@ -387,6 +395,7 @@ U.S. City:
   - cno-opa
   - CORaleigh
   - CUMTD
+  - dataseattlegov
   - DCCouncil
   - DenverDev
   - digitalinclusion
@@ -395,6 +404,7 @@ U.S. City:
   - geospatialDENVER
   - Honolulu
   - lfucg
+  - longbeachinnovationteam
   - mnhrc
   - monum
   - NYCComptroller
@@ -450,6 +460,7 @@ U.S. Federal:
   - cooperhewitt
   - defense-cyber-crime-center
   - department-of-veterans-affairs
+  - didsr
   - EEOC
   - energyapps
   - erdc-cm
@@ -481,6 +492,7 @@ U.S. Federal:
   - JBEI
   - JPLOpenSource
   - kbase
+  - keplergo
   - libraryofcongress
   - losalamos
   - M-O-S-E-S
@@ -509,6 +521,7 @@ U.S. Federal:
   - NMB-Dev
   - NMML
   - noaa-gfdl
+  - noaa-ncei-stp
   - NOAA-ORR-ERD
   - nps-mojn
   - nrel
@@ -524,11 +537,13 @@ U.S. Federal:
   - PNNL
   - presidential-innovation-fellows
   - project-open-data
+  - radiofreeasia
   - redhawksdr
   - SEED-platform
   - SelectUSA
   - SERVIR
   - Smithsonian
+  - state-hiu
   - sunpy
   - usagov
   - usaid
@@ -610,6 +625,7 @@ U.S. States:
   - LibraryofVA
   - MFWP-GIS
   - mn-script-team
+  - nebraskamap
   - nelegislature
   - NJOGIS
   - njstatelibrary

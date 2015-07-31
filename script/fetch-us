@@ -14,7 +14,7 @@ rescue
 end
 
 org_file = YAML.load_file "./_data/governments.yml"
-existing = org_file["United States"].map { |org| org.downcase }
+existing = org_file["U.S. Federal"].map { |org| org.downcase }
 
 orgs = JSON.parse open("http://registry.usa.gov/accounts?service_id=GitHub&format=json").read
 orgs = orgs["accounts"].collect { |data| data["account"] }
@@ -22,11 +22,11 @@ orgs = orgs["accounts"].collect { |data| data["account"] }
 orgs.each do |org|
   next if existing.include?(org.downcase)
   next unless org_exists? org
-  org_file["United States"].push(org.downcase)
+  org_file["U.S. Federal"].push(org.downcase)
 end
 
 output = {
-  "United States" => org_file["United States"].uniq.sort do
+  "U.S. Federal" => org_file["U.S. Federal"].uniq.sort do
       |a,b| a.upcase <=> b.upcase
   end
 }

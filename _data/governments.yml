@@ -9,7 +9,7 @@ Australia:
   - actesa
   - actgov
   - agnsw
-  - ausdto
+  - ausgovdigital
   - australianantarcticdatacentre
   - datagovau
   - dpaw2
@@ -367,7 +367,6 @@ U.S. City:
   - Baltimore-City-EGIS
   - berkeleypubliclibrary
   - BostonRedevelop
-  - cambma-data
   - cambridgegis
   - chicago
   - city-of-bellingham
@@ -465,7 +464,6 @@ U.S. Federal:
   - erdc-cm
   - eregs
   - fcc
-  - fccdata
   - FCCdev
   - fda
   - Federal-Aviation-Administration
@@ -508,7 +506,6 @@ U.S. Federal:
   - noaa-gfdl
   - noaa-ncei-stp
   - NOAA-ORR-ERD
-  - nps-mojn
   - ntia
   - ombegov
   - Open-Sat

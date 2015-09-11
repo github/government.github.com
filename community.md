@@ -21,16 +21,16 @@ permalink: /community/
 
 This website is [open source](https://github.com/github/government.github.com), therefore anyone in the community can submit edits through pull requests. If your agency isn't on this list, but should be, please add it:
 
-1. Log in to [GitHub](https://github.com){:target="_blank"}.
-2. Go to [this repository](https://github.com/github/government.github.com) and fork it (button to the top right of the page).
-3. In your forked version, click the branch dropdown and in the "Find or create a branch..." field, create a new branch (for example, "adding myagencyname").
-4. Still in your forked version, click on the `_data/governments.yml` file or `_data/civic_hackers.yml` depending on where your organization fits.
-5. At the top of the file is a list of the organizations populating this page. Click edit, near the top right, and then add your organization's GitHub account name just like the others: `- GroupGithubOrg`.
-6. Click Commit Changes at the bottom of the page.
-7. Visit the [original repository](https://github.com/github/government.github.com) and select Compare & pull request.
-8. Fill out the form and click Send pull request!
-
-
+1. Navigate to the appropriate organization list:
+    1. [`_data/governments.yml`](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) for government organizations,
+    2. [`_data/civic_hackers.yml`](https://github.com/github/government.github.com/blob/gh-pages/_data/civic_hackers.yml) for non-government, civic hacking organizations, or
+    3. [`_data/research.yml`](https://github.com/github/government.github.com/blob/gh-pages/_data/research.yml) for government-funded research organizations
+2. Click the edit (pencil) icon in the top right corner.
+3. Add your organization to the list in the appropriate section
+4. Click "propose file change" at the bottom of the page
+5. Click "create pull request"
+6. Provide a brief description of what you're proposing
+7. Click "Create pull request"
 
 </div>
 

@@ -12,6 +12,9 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
 
+sass:
+  style: :compressed
+
 # orgs on front page
 featured_orgs:
   - gcba

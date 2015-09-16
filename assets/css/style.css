@@ -15,12 +15,18 @@ li img {
 /* begin overriding */
 
 body {
-  font: 300 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 'Source Sans Pro','Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
 }
 
 .container {
   max-width: 995px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 /* headings */
@@ -30,29 +36,48 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 42px;
+  font-size: 54px;
   font-weight: 300;
-  margin: 20px 0;
-  line-height: 66px;
+  line-height: 1.1;
+  letter-spacing: -.02em;
+  margin-bottom: .5em;
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 h3 {
-  font-size: 20px;
-  font-weight: normal;
-  line-height: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 h4 {
-  font-size: 13px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 0;
 }
 
 h6 {
   font-size: 13px;
   font-weight: normal;
+  line-height: 1.5;
+}
+
+.lead-graf {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.micro {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 /* link styles */
@@ -128,7 +153,6 @@ li {
 
 .navbar ul li a {
   color: #fff;
-  font-weight: bold;
 }
 
 /* Splash */
@@ -141,22 +165,21 @@ li {
 }
 
 .splash h1 {
-  font-size: 45px;
-  text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+  font-size: 54px;
+  /*text-shadow: 0px 1px 1px rgba(0,0,0,0.2);*/
   color: #fff;
   border: none;
   padding: 0;
   margin: 0;
-  font-weight: 300;
+  margin-bottom: .5em;
 }
 
 .splash h2 {
-  font-weight: 300;
-  font-size: 23px;
   color: #fff;
   padding: 0;
   margin: 0;
-  text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+  /*text-shadow: 0px 1px 1px rgba(0,0,0,0.2);*/
+  opacity: .65;
 }
 
 /* section */
@@ -243,17 +266,21 @@ li {
 .features .feature {
   /*color: #fff;*/
   margin-bottom: 50px;
-  text-align: center;
+  text-align: left;
 }
 
 .features .feature h3 {
   /*color: #fff;*/
-  font-weight: 700;
+  /*font-weight: 700;*/
   /*text-align: left;*/
-  font-size: 16px;
+  /*font-size: 16px;*/
+  font-weight: 400;
 }
 
 .features .feature .mega-octicon {
+  float: left;
+  margin-right: 8px;
+  margin-top: 8px;
   color: #2D86FB;
 }
 

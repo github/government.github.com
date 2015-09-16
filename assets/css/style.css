@@ -44,7 +44,7 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -316,6 +316,7 @@ li {
 
 .table-header th {
   border-bottom: 1px solid #ddd;
+  font-weight: 300;
 }
 
 .table td, .table th {
@@ -353,6 +354,10 @@ code {
 }
 
 .org-table tr { height: 57px; }
+
+td h4 {
+  margin: .5em 0;
+}
 
 /* Animations */
 /* -------------------------------------------------------------------------- */

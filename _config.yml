@@ -11,6 +11,7 @@ exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "Rakefile", "readme.md"
 markdown: kramdown
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 sass:
   style: :compressed

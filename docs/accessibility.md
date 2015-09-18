@@ -3,6 +3,7 @@ title: Accessibility
 layout: support-page
 permalink: /accessibility/
 description: "Voluntary Product Accessibility Template (VPAT) outlining §508 accessibility information for GitHub.com, GitHub Enterprise, GitHub for Mac, and GitHub for Windows."
+redirect_from: "/508/"
 data:
   Summary:
     product:

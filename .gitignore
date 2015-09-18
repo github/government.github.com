@@ -8,4 +8,5 @@ assets/vendor/jquery/test
 assets/vendor/octicons/svg
 assets/vendor/**/*.md
 assets/vendor/**/*.txt
+assets/vendor/bootstrap-sass/assets/javascripts/
 .sass-cache

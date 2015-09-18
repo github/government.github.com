@@ -1,0 +1,16 @@
+{% include header.html %}
+
+</div>
+  <div id="{{ page.title | replace: ' ','-' }}" class="container support-page">
+
+    <div class="mini-section">
+        <h1>{{ page.title }}</h1>
+        <h3 class="description lead-graf">{{ page.description }}</h3>
+    </div>
+  </div>
+
+  <div class="container mini-section">
+    {{ content }}
+  </div>
+
+{% include footer.html %}

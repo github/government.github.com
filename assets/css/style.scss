@@ -1,8 +1,9 @@
 ---
 ---
 
-{% include vendor/bootstrap/docs/assets/css/bootstrap.css %}
-{% include vendor/bootstrap/docs/assets/css/bootstrap-responsive.css %}
+$octicons-font-path: "/assets/vendor/octicons/octicons";
+@import "bootstrap/stylesheets/bootstrap";
+@import "octicons";
 
 li img {
   margin: 10px 0;
@@ -21,6 +22,7 @@ body {
 
 .container {
   max-width: 995px;
+  padding: 0;
 }
 
 p {
@@ -140,7 +142,7 @@ li {
 
 .navbar ul {
   margin-bottom: 20px;
-  margin-left: 0;
+  margin-left: -40px;
   margin-top: 20px;
   list-style: none;
 }
@@ -194,6 +196,8 @@ li {
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .more-than, .human {
@@ -206,6 +210,7 @@ li {
 
 .source-data-code img {
   border: 5px solid #fff;
+  max-width: 100%;
 }
 
 #get-started p {
@@ -260,7 +265,7 @@ li {
   margin-left: 10px;
 }
 
-/* Features */
+/* as */
 /* -------------------------------------------------------------------------- */
 
 .features .feature {
@@ -280,7 +285,7 @@ li {
 .features .feature .mega-octicon {
   float: left;
   margin-right: 8px;
-  margin-top: 8px;
+  margin-top: 16px;
   color: #2D86FB;
 }
 
@@ -312,11 +317,13 @@ li {
 .table {
   width: 80%;
   margin: 0 auto;
+  text-align: left;
 }
 
 .table-header th {
   border-bottom: 1px solid #ddd;
   font-weight: 300;
+  vertical-align: middle !important;
 }
 
 .table td, .table th {
@@ -442,7 +449,7 @@ td h4 {
   .splash h2 {font-size: 200%;}
   .mini-section {padding: 20px;}
   .the-orgs { left: 0; }
-  .source-data-code img {border: none;}
+  .source-data-code img {border: none; }
   .human .mini-section {width: 80%;}
   .full-width.olives {background-size: 19  0%;}
   .support-page .full-width.olives {background-size: 140%;}

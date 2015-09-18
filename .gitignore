@@ -1,3 +1,9 @@
 .DS_Store
 /_site
 Gemfile.lock
+assets/vendor/jquery/build
+assets/vendor/jquery/speed
+assets/vendor/jquery/src
+assets/vendor/jquery/test
+assets/vendor/octicons/svg
+.sass-cache

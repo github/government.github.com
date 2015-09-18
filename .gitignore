@@ -6,4 +6,6 @@ assets/vendor/jquery/speed
 assets/vendor/jquery/src
 assets/vendor/jquery/test
 assets/vendor/octicons/svg
+assets/vendor/**/*.md
+assets/vendor/**/*.txt
 .sass-cache

@@ -8,7 +8,7 @@
     <tbody class="searchable">
       <tr class="table-header"><th>Avatar</th><th>Account</th><th>Affiliation</th></tr>
       {% for type_hash in include.orgs %}
-      <tr class="type-block" id="{{ type_hash[0] | downcase | replace: ' ','_' }}">
+      <tr class="type-block">
         {% assign slug = type_hash[0] | downcase | replace: ' ','-' | replace: '.','' %}
         <td><h4 id="{{ slug}}">{{ type_hash[0] }} ({{ type_hash[1] | size }})</h4></td><td></td><td></td>
         </tr>

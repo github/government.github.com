@@ -6,7 +6,7 @@ permalink: /community/
 ---
 <div id="to-top" class="container">
 
-<h4><input id="filter" type="text" class="form-control" placeholder="Type to search..."> or jump to the <a href="#civic-hackers">civic hackers</a> or <a href="#research">research</a> lists.</h4></div>
+<h4><input id="filter" type="text" class="" placeholder="Type to search..."> or jump to the <a href="#civic-hackers">civic hackers</a> or <a href="#research">research</a> lists.</h4></div>
 
 {% include org-table.html orgs=site.data.governments id="governments" name="Governments" %}
 
@@ -15,16 +15,16 @@ permalink: /community/
 {% include org-table.html orgs=site.data.research id="research" name="Government-funded Research" %}
 
   <div id="add-org" class="row-fluid mini-section">
-    <div class="span6" markdown="1">
+    <div class="col-md-6" markdown="1">
 
 ## Add An Organization to the List
 
 This website is [open source](https://github.com/github/government.github.com), therefore anyone in the community can submit edits through pull requests. If your agency isn't on this list, but should be, please add it:
 
 1. Navigate to the appropriate organization list:
-    1. [`_data/governments.yml`](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) for government organizations,
-    2. [`_data/civic_hackers.yml`](https://github.com/github/government.github.com/blob/gh-pages/_data/civic_hackers.yml) for non-government, civic hacking organizations, or
-    3. [`_data/research.yml`](https://github.com/github/government.github.com/blob/gh-pages/_data/research.yml) for government-funded research organizations
+  * [`_data/governments.yml`](https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml) for government organizations,
+  * [`_data/civic_hackers.yml`](https://github.com/github/government.github.com/blob/gh-pages/_data/civic_hackers.yml) for non-government, civic hacking organizations, or
+  * [`_data/research.yml`](https://github.com/github/government.github.com/blob/gh-pages/_data/research.yml) for government-funded research organizations
 2. Click the edit (pencil) icon in the top right corner.
 3. Add your organization to the list in the appropriate section
 4. Click "propose file change" at the bottom of the page
@@ -35,7 +35,7 @@ This website is [open source](https://github.com/github/government.github.com), 
 </div>
 
 
-    <div class="span6" markdown="1">
+    <div class="col-md-6" markdown="1">
 
 ## Guidelines
 

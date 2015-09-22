@@ -6,11 +6,11 @@ permalink: /community/
 ---
 <div id="to-top" class="container">
 
-<h4><input id="filter" type="text" class="" placeholder="Type to search..."> or jump to the <a href="#civic-hackers">civic hackers</a> or <a href="#research">research</a> lists.</h4></div>
+<h4><input id="filter" type="text" class="" placeholder="Type to search..."> or jump to the <a href="#civic_hackers">civic hackers</a> or <a href="#research">research</a> lists.</h4></div>
 
 {% include org-table.html orgs=site.data.governments id="governments" name="Governments" %}
 
-{% include org-table.html orgs=site.data.civic_hackers id="civic-hackers" name="Civic Hackers" %}
+{% include org-table.html orgs=site.data.civic_hackers id="civic_hackers" name="Civic Hackers" %}
 
 {% include org-table.html orgs=site.data.research id="research" name="Government-funded Research" %}
 

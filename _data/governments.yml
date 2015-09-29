@@ -9,6 +9,7 @@ Australia:
   - actesa
   - actgov
   - agnsw
+  - ausdto
   - australianantarcticdatacentre
   - datagovau
   - dpaw2
@@ -87,6 +88,7 @@ Canada:
   - CIHR
   - cityofgreatersudbury
   - cityofottawa
+  - cityofsurrey
   - cngo
   - electionsquebec
   - GeoCanViz
@@ -122,6 +124,7 @@ Colombia:
 Ecuador:
   - inamhi
   - innovacionsnap
+  - senescyt
 
 Egypt:
   - informationtechnologyinstitute
@@ -356,6 +359,7 @@ U.K. Councils:
   - DundeeCityCouncil
   - east-sussex-county-council
   - edinburghcouncil
+  - gmfrs
   - GuildfordBC
   - HfdsCouncil
   - kentcc
@@ -370,9 +374,11 @@ U.K. Councils:
   - west-berkshire-council
 
 U.S. City:
+  - austincodeit
   - Baltimore-City-EGIS
   - berkeleypubliclibrary
   - BostonRedevelop
+  - cambridgedata
   - cambridgegis
   - chicago
   - city-of-bellingham
@@ -395,6 +401,7 @@ U.S. City:
   - CityofSanFrancisco
   - CityofSantaMonica
   - cityofsomerville
+  - cityofvernonia
   - CityOfVirginiaBeach
   - cityofwestsacramento
   - CityofYakima
@@ -442,6 +449,7 @@ U.S. County:
   - HennepinCountyPublicDefender
   - miamidade
   - pottcountyit
+  - saccounty
   - sfcta
   - SJCGIS
   - slo-county-planning-and-building
@@ -461,6 +469,7 @@ U.S. Federal:
   - ccmc
   - cfpb
   - cmsgov
+  - commercedataservice
   - commercegov
   - defense-cyber-crime-center
   - department-of-veterans-affairs
@@ -531,6 +540,7 @@ U.S. Federal:
   - usaid
   - usasearch
   - usbr
+  - uscis
   - usda
   - usda-ars-agil
   - USDA-ERS

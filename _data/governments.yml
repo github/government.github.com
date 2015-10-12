@@ -461,6 +461,7 @@ U.S. Federal:
   - 18f
   - adl-aicc
   - adlnet
+  - afrl
   - arcticlcc
   - BBGInnovate
   - bfelob
@@ -474,8 +475,10 @@ U.S. Federal:
   - commercedataservice
   - commercegov
   - defense-cyber-crime-center
+  - demand-driven-open-data
   - department-of-veterans-affairs
   - didsr
+  - educationdatainitiative
   - EEOC
   - energyapps
   - erdc-cm
@@ -486,6 +489,7 @@ U.S. Federal:
   - Federal-Aviation-Administration
   - federaltradecommission
   - fedspendingtransparency
+  - foreignassistance
   - globegit
   - gopleader
   - government-services
@@ -498,14 +502,18 @@ U.S. Federal:
   - historyatstate
   - IIP-Design
   - IMDProjects
+  - imls
   - informaticslab
   - Innovation-Toolkit
+  - internationaltradeadministration
   - ioos
   - IRSgov
   - keplergo
   - libraryofcongress
   - M-O-S-E-S
   - mcc-gov
+  - measureauthoringtool
+  - missioncommand
   - nasa
   - nasa-develop
   - nasa-gibs
@@ -513,10 +521,12 @@ U.S. Federal:
   - nasa-tournament-lab
   - NationalGuard
   - nationalparkservice
+  - ncbitools
   - NCRN
   - NeoGeographyToolkit
   - ngds
   - nhanes
+  - nidcd
   - NIEM
   - NMB-Dev
   - NMML
@@ -530,10 +540,12 @@ U.S. Federal:
   - ozone-development
   - ozoneplatform
   - peacecorps
+  - petsc
   - presidential-innovation-fellows
   - project-open-data
   - radiofreeasia
   - redhawksdr
+  - regulationsgov
   - SelectUSA
   - SERVIR
   - state-hiu
@@ -542,6 +554,7 @@ U.S. Federal:
   - usaid
   - usasearch
   - usbr
+  - uscensusbureau
   - uscis
   - usda
   - usda-ars-agil
@@ -565,6 +578,7 @@ U.S. Federal:
   - usindianaffairs
   - usinterior
   - usnationalarchives
+  - usopm
   - USPS
   - USPTO
   - usstatedept

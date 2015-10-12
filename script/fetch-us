@@ -6,15 +6,19 @@
 require "open-uri"
 require "json"
 require "yaml"
+require "typhoeus"
 
 def org_exists?(org)
-  !!open("https://github.com/#{org}")
+  Typhoeus.head("https://github.com/#{org}", accept_encoding: "gzip").success?
 rescue
   false
 end
 
-org_file = YAML.load_file "./_data/governments.yml"
-existing = org_file["U.S. Federal"].map { |org| org.downcase }
+org_file = YAML.load_file("./_data/governments.yml")
+gov      = org_file.values.flatten
+us_gov   = org_file["U.S. Federal"].map { |org| org.downcase }
+research = YAML.load_file("./_data/research.yml").values.flatten
+existing = (gov + research).flatten.map { |org| org.downcase }
 
 orgs = JSON.parse open("http://registry.usa.gov/accounts?service_id=GitHub&format=json").read
 orgs = orgs["accounts"].collect { |data| data["account"] }
@@ -36,7 +40,7 @@ puts output.to_yaml
 orgs.map! { |org| org.downcase }
 
 puts "\n\nMissing from registry:"
-puts (existing - orgs).to_yaml
+puts (us_gov - orgs).to_yaml
 
 puts "\n\nIn the registry, but not valid"
 puts (orgs - existing).to_yaml

@@ -8,6 +8,7 @@ require "yaml"
 
 org_file = YAML.load_file "./_data/civic_hackers.yml"
 data = JSON.parse open("http://codeforamerica.org/api/organizations").read
+gov_orgs = YAML.load_file("./_data/governments.yml").values.flatten.map { |o| o.downcase }
 
 orgs = []
 data["objects"].each do |org|
@@ -17,6 +18,7 @@ data["objects"].each do |org|
 end
 
 orgs.uniq!
+orgs.reject! { |org| gov_orgs.include?(org.downcase) }
 
 orgs.each do |org|
   org_file["Code For America"].push(org.downcase) unless org_file["Code For America"].include?(org.downcase)

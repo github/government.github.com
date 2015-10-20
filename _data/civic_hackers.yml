@@ -1,21 +1,31 @@
 # Add non-profits or groups focused on government
 
 Civic Hackers:
+  - akroncivichackathon
   - bundestag
+  - CfABrigadePhiladelphia
   - civio
   - CODE-TJ
+  - Code4HR
   - CodeandoMexico
-  - codeforafrica
   - CodeforABQ
+  - codeforafrica
+  - CodeforBirmingham
+  - CodeForCharlotte
+  - codefordurham
   - codeforeurope
+  - CodeForFtL
+  - codeforhuntsville
   - codeforibaraki
   - codeforjapan
+  - codeforseattle
   - Codeforseoul
   - codefortomorrow
   - databr
   - datauy
   - dataviz
   - dobtco
+  - dssg
   - dxw
   - g0v
   - gitmachines
@@ -34,8 +44,10 @@ Civic Hackers:
   - open-city
   - openaustralia
   - OpenDataTajikistan
+  - opengovernment
   - opengovfoundation
   - OpenGovLD
+  - openjc
   - OpenKratio
   - opennewzealand
   - opennorth
@@ -47,6 +59,7 @@ Civic Hackers:
   - otvorenesudy
   - postcode
   - rOpenGov
+  - smartchicago
   - SpaceAdvocates
   - statedecoded
   - sunlightlabs
@@ -57,76 +70,116 @@ Civic Hackers:
   - votinginfoproject
   - yourmapper
 
-Code For America:
-  - akroncivichackathon
-  - betanyc
-  - CfABrigadePhiladelphia
-  - chip-rosenthal
-  - civicdata
-  - code-for-miami
-  - Code4HR
-  - code4maine
-  - code4puertorico
+Code for All:
+  - code4sa
+  - codeandomexico
   - codeforafrica
   - codeforamerica
+  - codeforaustralia
+  - codeforbrazil
+  - codeforcanada
+  - codeforeurope
+  - codeforgermany
+  - codeforireland
+  - codeforjapan
+  - codeforpakistan
+  - codeforseoul
+  - codeforthecaribbean
+  - codefortomorrow
+  - g0v
+  - hackingmty
+  - kodujdlapolski
+  - labplc
+
+Code For America:
+  - a2civictech
+  - arduina
+  - ballpointpenguin
+  - betanyc
+  - chriswhong
+  - civicdata
+  - clhenrick
+  - code-for-miami
+  - code-for-nashville
+  - code-for-tb
+  - code4hr
+  - code4maine
+  - code4puertorico
+  - code4sac
+  - codeforabq
+  - codeforanchorage
   - codeforasheville
   - codeforatlanta
-  - codeforaustralia
-  - CodeforBirmingham
   - codeforbirmingham
   - codeforboston
+  - codeforboulder
   - codeforbtv
-  - codeforcanada
-  - CodeForCharlotte
+  - codeforcary
   - codeforcharlotte
   - codeforchemnitz
   - codeforcroatia
   - codefordayton
   - codefordc
   - codefordenver
-  - codefordurham
-  - CodeForFtL
+  - codeforftl
+  - codeforgiessen
   - codeforgso
   - codeforhawaii
-  - codeforhuntsville
-  - codeforireland
+  - codeforibaraki
+  - codeforjerseycity
+  - codeforkanazawa-org
+  - codeforkansascity
+  - codeforkobe
   - codeforleipzig
+  - codeformuenster
+  - codeformunich
+  - codefornewark
   - codefornrv
-  - codeforpakistan
+  - codeforokinawa
   - codeforportland
+  - codeforrockford
   - codeforrva
-  - codeforseattle
-  - codeforseoul
-  - codeforthecaribbean
+  - codeforsanjose
+  - codeforsapporo
+  - codeforsummitcounty
   - codefortucson
   - codefortulsa
   - codeforvegas
   - codeisland
-  - dssg
+  - datamade
+  - dirkschumacher
   - friendlycode
   - hackforla
   - hackingmadison
-  - hackingmty
-  - kodujdlapolski
+  - hackmichiana
   - koelnapi
-  - mysociety
+  - localwiki
   - nuknightlab
   - open-austin
-  - open-city
   - openchattanooga
-  - opengovernment
-  - openjc
+  - opencleveland
+  - opendata-heilbronn
+  - opendatapolicingnc
+  - opendatastl
+  - openkawasaki
   - openlexington
   - opennebraska
   - openoakland
   - openpgh
   - opensaltlake
+  - opensandiego
   - opensatx
+  - openseattle
   - opensyracuse
+  - opentwincities
+  - openwichita
   - openzagreb
   - sarl-hackerspace
-  - smartchicago
-  - talos
+  - sfbrigade
+  - smartercleanup
+  - substars
+  - tursics
+  - wevoteeducation
 
 Open Knowledge Foundation:
   - okfde

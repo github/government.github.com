@@ -5,30 +5,73 @@
 require "open-uri"
 require "json"
 require "yaml"
+require 'addressable/uri'
+require "addressable/template"
+require 'logger'
 
-org_file = YAML.load_file "./_data/civic_hackers.yml"
-data = JSON.parse open("http://codeforamerica.org/api/organizations").read
-gov_orgs = YAML.load_file("./_data/governments.yml").values.flatten.map { |o| o.downcase }
+class CFAFetcher
 
-orgs = []
-data["objects"].each do |org|
-  org["current_projects"].each do |project|
-    orgs.push project["github_details"]["owner"]["login"]
+  def logger
+    @logger ||= Logger.new(STDOUT)
+  end
+
+  def endpoint_uri(type=nil)
+    "http://codeforamerica.org/api/organizations?per_page=200&type=#{type}"
+  end
+
+  def get_orgs(type=nil)
+    logger.info "Fetching #{type.gsub("+", " ")} orgs"
+    uri = endpoint_uri(type)
+    data = JSON.parse open(uri).read
+    data["objects"].map do |org|
+      org["current_projects"].map do |project|
+        project["github_details"]["owner"]["login"] unless project["github_details"].nil?
+      end
+    end.flatten.compact.uniq.map { |o| o.downcase }.sort
+  end
+
+  def org_file_path
+    File.expand_path "../_data/civic_hackers.yml", File.dirname(__FILE__)
+  end
+
+  def org_file
+    @org_file ||= YAML.load_file org_file_path
+  end
+
+  def gov_orgs
+    @gov_orgs ||= YAML.load_file("./_data/governments.yml").values.flatten.map { |o| o.downcase }
+  end
+
+  def code_for_all_orgs
+    @code_for_all_orgs ||= get_orgs("Code+for+All") - gov_orgs
+  end
+
+  def brigades
+    @brigades ||= get_orgs("Brigade") - code_for_all_orgs - gov_orgs
+  end
+
+  def fetch
+    logger.info "Updating CFA list..."
+    logger.info "Found #{code_for_all_orgs.count} Code for All orgs"
+    logger.info "Found #{brigades.count} Brigades"
+
+    to_be_removed = org_file["Code For America"] - brigades - code_for_all_orgs
+    msg = "The following orgs aren't listed on http://codeforamerica.org/api/#api-organizations: \n"
+    logger.info msg + to_be_removed.join("\n") unless to_be_removed.empty?
+
+    org_file["Code For America"] = brigades
+    org_file["Code for All"] = code_for_all_orgs
+
+    comment = File.open(org_file_path).read.lines.first
+    output = comment
+    output << "\n"
+    output << org_file.to_yaml.sub(/\A---\n/, "").gsub(/^-/, "  -").gsub(/\n([^ ])/, "\n\n\\1")
+
+    File.write(org_file_path, output)
+
+    logger.info "Done."
+    exit to_be_removed.empty? ? 0 : 1
   end
 end
 
-orgs.uniq!
-orgs.reject! { |org| gov_orgs.include?(org.downcase) }
-
-orgs.each do |org|
-  org_file["Code For America"].push(org.downcase) unless org_file["Code For America"].include?(org.downcase)
-end
-
-output = {
-  "Code For America" => org_file["Code For America"].uniq.sort do
-      |a,b| a.upcase <=> b.upcase
-  end
-}
-
-puts "To be pasted into _data/civic_hackers.yml"
-puts output.to_yaml
+CFAFetcher.new.fetch

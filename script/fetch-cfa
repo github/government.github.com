@@ -56,7 +56,8 @@ class CFAFetcher
     logger.info "Found #{brigades.count} Brigades"
 
     to_be_removed = org_file["Code For America"] - brigades - code_for_all_orgs
-    logger.info "Removing the following orgs: \n#{to_be_removed.join("\n")}" unless to_be_removed.empty?
+    msg = "The following orgs aren't listed on http://codeforamerica.org/api/#api-organizations: \n"
+    logger.info msg + to_be_removed.join("\n") unless to_be_removed.empty?
 
     org_file["Code For America"] = brigades
     org_file["Code for All"] = code_for_all_orgs

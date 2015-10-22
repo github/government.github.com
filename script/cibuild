@@ -10,3 +10,6 @@ bundle exec rake test
 
 # Ensure the Code for America and Code for All list only contain official chapters/partners
 bundle exec script/fetch-cfa
+
+# Ensure only organizations are listed
+bundle exec script/ensure-orgs

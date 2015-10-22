@@ -1,0 +1,58 @@
+#!/usr/bin/env ruby
+#
+# Ensures that all organizations listed in _data are in fact, organizations
+
+require 'typhoeus'
+require 'parallel'
+require 'yaml'
+
+class Cache
+  def initialize
+    @memory = {}
+  end
+
+  def get(request)
+    @memory[request]
+  end
+
+  def set(request, response)
+    @memory[request] = response
+  end
+end
+
+Typhoeus::Config.cache = Cache.new
+
+# Ideally this would be an API call, but given the volume of calls,
+# We'd constantly hit any rate limit as each needs to be its own query
+def org?(user)
+  response = Typhoeus.head "https://github.com/orgs/#{user}/people", accept_encoding: "gzip"
+  response.success?
+end
+
+data_folder_path = File.expand_path "../_data", File.dirname(__FILE__)
+files = Dir["#{data_folder_path}/*.yml"]
+
+valid = true
+files.each do |file|
+  data = YAML.load_file file
+  data.each do |group, orgs|
+    not_orgs = Parallel.map(orgs) { |org| org unless org?(org) }.compact
+    next if not_orgs.empty?
+    puts "\nIn #{File.basename(file)}, in the #{group} group, the following entries are users, not orgs:\n\n"
+    puts not_orgs
+    valid = false
+    data[group] = data[group] - not_orgs
+  end
+
+  comment = File.open(file).read.lines.first
+  output = comment
+  output << "\n"
+  output << data.to_yaml.sub(/\A---\n/, "").gsub(/^-/, "  -").gsub(/\n([^ ])/, "\n\n\\1")
+  File.write(file, output)
+end
+
+if valid
+  exit 0
+else
+  exit 1
+end

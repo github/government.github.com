@@ -8,6 +8,7 @@ require "yaml"
 require 'addressable/uri'
 require "addressable/template"
 require 'logger'
+require 'typhoeus'
 
 class CFAFetcher
 
@@ -19,6 +20,12 @@ class CFAFetcher
     "http://codeforamerica.org/api/organizations?per_page=200&type=#{type}"
   end
 
+  # Ideally this would be an API call, but given the volume of calls,
+  # We'd constantly hit any rate limit as each needs to be its own query
+  def org?(user)
+    Typhoeus.head("https://github.com/orgs/#{user}/people", accept_encoding: "gzip").success?
+  end
+
   def get_orgs(type=nil)
     logger.info "Fetching #{type.gsub("+", " ")} orgs"
     uri = endpoint_uri(type)
@@ -27,7 +34,7 @@ class CFAFetcher
       org["current_projects"].map do |project|
         project["github_details"]["owner"]["login"] unless project["github_details"].nil?
       end
-    end.flatten.compact.uniq.map { |o| o.downcase }.sort
+    end.flatten.compact.uniq.map { |o| o.downcase }.select { |o| org?(o) }.sort
   end
 
   def org_file_path
@@ -75,4 +82,3 @@ class CFAFetcher
 end
 
 CFAFetcher.new.fetch
-`script/ensure-orgs`

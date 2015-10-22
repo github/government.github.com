@@ -1,6 +1,11 @@
 source "https://rubygems.org"
 
 gem "github-pages"
-gem "html-proofer"
 gem "rake"
-gem 'typhoeus'
+
+group :development, :test do
+  gem "html-proofer"
+  gem 'typhoeus'
+  gem 'octokit'
+  gem 'parallel'
+end

@@ -75,3 +75,4 @@ class CFAFetcher
 end
 
 CFAFetcher.new.fetch
+`script/ensure-orgs`

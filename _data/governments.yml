@@ -95,8 +95,8 @@ Canada:
   - GeoCanViz
   - GNWT
   - goc
-  - infra-geo-ouverte
   - HIFIS
+  - infra-geo-ouverte
   - MC-MBO-WebPublishingTeam
   - nrc-cnrc
   - NRCan
@@ -378,9 +378,6 @@ U.K. Councils:
   - warwickshire
   - wealden
   - west-berkshire-council
-
-Ukraine:
-  - openprocurement
 
 U.S. City:
   - austincodeit
@@ -670,6 +667,9 @@ U.S. States:
 U.S. Tribal Nations:
   - coquille-indian-tribe
   - osage-nation
+
+Ukraine:
+  - openprocurement
 
 Uruguay:
   - uygub

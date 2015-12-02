@@ -41,6 +41,10 @@ class CFAFetcher
     File.expand_path "../_data/civic_hackers.yml", File.dirname(__FILE__)
   end
 
+  def civic_hackers
+    @civic_hackerse = org_file["Civic Hackers"].map { |o| o.downcase }
+  end
+
   def org_file
     @org_file ||= YAML.load_file org_file_path
   end
@@ -68,6 +72,7 @@ class CFAFetcher
 
     org_file["Code For America"] = brigades
     org_file["Code for All"] = code_for_all_orgs
+    org_file["Civic Hackers"] = civic_hackers - brigades - code_for_all_orgs
 
     comment = File.open(org_file_path).read.lines.first
     output = comment

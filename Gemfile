@@ -5,7 +5,7 @@ gem "jekyll-seo-tag"
 gem "rake"
 
 group :development, :test do
-  gem "html-proofer"
+  gem "html-proofer", '2.5.2'
   gem 'typhoeus'
   gem 'octokit'
   gem 'parallel'

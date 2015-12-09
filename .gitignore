@@ -11,3 +11,4 @@ assets/vendor/**/*.txt
 assets/vendor/bootstrap-sass/assets/javascripts/
 .sass-cache
 .env
+tmp/

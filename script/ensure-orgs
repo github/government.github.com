@@ -29,6 +29,8 @@ def org?(user)
   response.success?
 end
 
+puts "Checking that all orgs listed are in fact, an org..."
+
 data_folder_path = File.expand_path "../_data", File.dirname(__FILE__)
 files = Dir["#{data_folder_path}/*.yml"]
 
@@ -52,6 +54,7 @@ files.each do |file|
 end
 
 if valid
+  puts "All orgs check out."
   exit 0
 else
   exit 1

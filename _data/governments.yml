@@ -146,9 +146,13 @@ European Union:
 
 Finland:
   - City-of-Helsinki
+  - finnishtransportagency
   - helsinki-city-library
   - HSLdevcom
   - Lounaispaikka
+  - lukefi
+  - NatLibFi
+  - nlsfi
 
 France:
   - afimb
@@ -159,6 +163,7 @@ France:
   - disic
   - erasme
   - etalab
+  - nanterre
   - polewebmaedi
   - sgmap
   - sgmap-agd
@@ -631,7 +636,6 @@ U.S. States:
   - gocodecolorado
   - IDAHO-DOC-NCOMS
   - idahofishgame
-  - InDEM
   - investmentboard
   - LADCO
   - LibraryofVA
@@ -661,7 +665,6 @@ U.S. States:
   - Virginia-House-of-Delegates
   - vtrans
   - vtrans-rail
-  - WA-OCIO
   - wadoh
   - WisconsinDPI
   - wsdot

@@ -9,4 +9,5 @@ group :development, :test do
   gem 'typhoeus'
   gem 'octokit'
   gem 'parallel'
+  gem 'pry'
 end

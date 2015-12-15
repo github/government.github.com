@@ -10,80 +10,106 @@ require "addressable/template"
 require 'logger'
 require 'typhoeus'
 
-class CFAFetcher
+module CFA
+  class Fetcher
 
-  def logger
-    @logger ||= Logger.new(STDOUT)
-  end
+    ENDPOINT = "http://codeforamerica.org/api/organizations"
+    DEFAULT_ARGS = {
+      "per_page" => 200
+    }
 
-  def endpoint_uri(type=nil)
-    "http://codeforamerica.org/api/organizations?per_page=200&type=#{type}"
-  end
+    def fetch
+      logger.info "Updating CFA list..."
+      logger.info "Found #{code_for_all_orgs.count} Code for All orgs"
+      logger.info "Found #{brigades.count} Brigades"
 
-  # Ideally this would be an API call, but given the volume of calls,
-  # We'd constantly hit any rate limit as each needs to be its own query
-  def org?(user)
-    Typhoeus.head("https://github.com/orgs/#{user}/people", accept_encoding: "gzip").success?
-  end
+      to_be_removed = org_file["Code For America"] - brigades - code_for_all_orgs
+      msg = "The following orgs aren't listed on http://codeforamerica.org/api/#api-organizations: \n"
+      logger.info msg + to_be_removed.join("\n") unless to_be_removed.empty?
 
-  def get_orgs(type=nil)
-    logger.info "Fetching #{type.gsub("+", " ")} orgs"
-    uri = endpoint_uri(type)
-    data = JSON.parse open(uri).read
-    data["objects"].map do |org|
-      org["current_projects"].map do |project|
-        project["github_details"]["owner"]["login"] unless project["github_details"].nil?
+      org_file["Code For America"] = brigades
+      org_file["Code for All"] = code_for_all_orgs
+      org_file["Civic Hackers"] = civic_hackers - brigades - code_for_all_orgs
+
+      comment = File.open(org_file_path).read.lines.first
+      output = comment
+      output << "\n"
+      output << org_file.to_yaml.sub(/\A---\n/, "").gsub(/^-/, "  -").gsub(/\n([^ ])/, "\n\n\\1")
+
+      File.write(org_file_path, output)
+
+      logger.info "Done."
+      exit to_be_removed.empty? ? 0 : 1
+    end
+
+    def civic_hackers
+      @civic_hackerse = org_file["Civic Hackers"].map { |o| o.downcase }
+    end
+
+    def gov_orgs
+      @gov_orgs ||= YAML.load_file("./_data/governments.yml").values.flatten.map { |o| o.downcase }
+    end
+
+    def code_for_all_orgs
+      @code_for_all_orgs ||= get_orgs("Code+for+All") - gov_orgs
+    end
+
+    def brigades
+      @brigades ||= get_orgs("Brigade") - code_for_all_orgs - gov_orgs
+    end
+
+    def all
+      @all ||= brigades + code_for_all_orgs
+    end
+
+    def logger
+      @logger ||= Logger.new(STDOUT)
+    end
+
+    private
+
+    def org_file
+      @org_file ||= YAML.load_file org_file_path
+    end
+
+    def org_file_path
+      File.expand_path "../_data/civic_hackers.yml", File.dirname(__FILE__)
+    end
+
+    def get_orgs(type)
+      url = url_for_query({"type" => type})
+      response = Typhoeus.get(url)
+      return unless response.success?
+
+      data = JSON.parse(response.body)
+      parse_response(data)
+    rescue JSON::ParserError
+      nil
+    end
+
+    def parse_response(data)
+      orgs = data["objects"].map do |org|
+        org["current_projects"].map do |project|
+          project["github_details"]["owner"]["login"] unless project["github_details"].nil?
+        end
       end
-    end.flatten.compact.uniq.map { |o| o.downcase }.select { |o| org?(o) }.sort
-  end
+      orgs.flatten.compact.uniq.map { |o| o.downcase }.select { |o| org?(o) }.sort
+    end
 
-  def org_file_path
-    File.expand_path "../_data/civic_hackers.yml", File.dirname(__FILE__)
-  end
+    # The CFA API expects "Code For All" to be passed as the unescaped "Code+For+All"
+    # Manually build the query arguments to avoid the +'s being (properly) escaped
+    def url_for_query(args={})
+      args = DEFAULT_ARGS.merge(args)
+      args = args.map { |k,v| "#{k}=#{v}" }.join('&')
+      "#{ENDPOINT}?#{args}"
+    end
 
-  def civic_hackers
-    @civic_hackerse = org_file["Civic Hackers"].map { |o| o.downcase }
-  end
-
-  def org_file
-    @org_file ||= YAML.load_file org_file_path
-  end
-
-  def gov_orgs
-    @gov_orgs ||= YAML.load_file("./_data/governments.yml").values.flatten.map { |o| o.downcase }
-  end
-
-  def code_for_all_orgs
-    @code_for_all_orgs ||= get_orgs("Code+for+All") - gov_orgs
-  end
-
-  def brigades
-    @brigades ||= get_orgs("Brigade") - code_for_all_orgs - gov_orgs
-  end
-
-  def fetch
-    logger.info "Updating CFA list..."
-    logger.info "Found #{code_for_all_orgs.count} Code for All orgs"
-    logger.info "Found #{brigades.count} Brigades"
-
-    to_be_removed = org_file["Code For America"] - brigades - code_for_all_orgs
-    msg = "The following orgs aren't listed on http://codeforamerica.org/api/#api-organizations: \n"
-    logger.info msg + to_be_removed.join("\n") unless to_be_removed.empty?
-
-    org_file["Code For America"] = brigades
-    org_file["Code for All"] = code_for_all_orgs
-    org_file["Civic Hackers"] = civic_hackers - brigades - code_for_all_orgs
-
-    comment = File.open(org_file_path).read.lines.first
-    output = comment
-    output << "\n"
-    output << org_file.to_yaml.sub(/\A---\n/, "").gsub(/^-/, "  -").gsub(/\n([^ ])/, "\n\n\\1")
-
-    File.write(org_file_path, output)
-
-    logger.info "Done."
-    exit to_be_removed.empty? ? 0 : 1
+    # Ideally this would be an API call, but given the volume of calls,
+    # We'd constantly hit any rate limit as each needs to be its own query
+    def org?(user)
+      Typhoeus.head("https://github.com/orgs/#{user}/people", accept_encoding: "gzip").success?
+    end
   end
 end
 
-CFAFetcher.new.fetch
+CFA::Fetcher.new.fetch

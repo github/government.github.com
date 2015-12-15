@@ -19,7 +19,6 @@ Civic Hackers:
   - infoculture
   - koelnapi
   - localdata
-  - localwiki
   - myanmarapi
   - mysociety
   - npp
@@ -77,7 +76,6 @@ Code for All:
 Code For America:
   - a2civictech
   - betanyc
-  - cfabrigadephiladelphia
   - civicdata
   - code-for-miami
   - code-for-nashville
@@ -116,6 +114,7 @@ Code For America:
   - codeforleipzig
   - codeformuenster
   - codeformunich
+  - codefornh
   - codefornrv
   - codeforokinawa
   - codeforportland
@@ -135,8 +134,10 @@ Code For America:
   - hackforla
   - hackingmadison
   - hackmichiana
+  - heatseeknyc
+  - localwiki
+  - nodeschool
   - nucivic
-  - nuknightlab
   - open-austin
   - openchattanooga
   - opencleveland
@@ -151,15 +152,17 @@ Code For America:
   - opensaltlake
   - opensandiego
   - opensatx
+  - opensmc
   - opensyracuse
   - opentwincities
   - openwichita
   - openzagreb
   - sarl-hackerspace
-  - sfbrigade
+  - smartercleanup
 
 Open Knowledge Foundation:
   - okfde
   - okfegypt
+  - okffi
   - okfn
   - okfn-brasil

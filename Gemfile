@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
 gem "github-pages"
-gem "jekyll-seo-tag"
 gem "rake"
+gem 'jekyll-avatar'
 
 group :development, :test do
   gem "html-proofer"

@@ -13,6 +13,7 @@ gems:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-avatar
   
 sass:
   style: :compressed

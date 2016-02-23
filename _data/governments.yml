@@ -86,7 +86,6 @@ Bulgaria:
   - governmentbg
 
 Canada:
-  - TBS-EACPD
   - AAFC-MBB
   - abgov
   - bcdevexchange
@@ -113,6 +112,7 @@ Canada:
   - RAMP-PCAR
   - RDOQ
   - ServiceCanada
+  - TBS-EACPD
   - thecityofcalgary
   - VilledeMontreal
   - wet-boew
@@ -493,7 +493,6 @@ U.S. County:
   - slugis
 
 U.S. Federal:
-  - noaa-nws-cpc
   - 18f
   - adl-aicc
   - adlnet
@@ -566,6 +565,7 @@ U.S. Federal:
   - NMML
   - noaa-gfdl
   - noaa-ncei-stp
+  - noaa-nws-cpc
   - NOAA-ORR-ERD
   - ntia
   - ombegov

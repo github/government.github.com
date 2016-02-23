@@ -1,9 +1,11 @@
 # Official government institutions, listed under their country or level of government
 
 Argentina:
+  - argob
   - cifasis
   - conectados-ar
   - gcba
+  - inti-cmnb
   - municipioriogrande
 
 Australia:
@@ -12,6 +14,7 @@ Australia:
   - agnsw
   - ausdto
   - australianantarcticdatacentre
+  - bom-radar
   - datagovau
   - dpaw2
   - dpipwe
@@ -30,12 +33,14 @@ Australia:
   - nmalabs
   - NSWPlanning
   - NSWRFS
+  - parksandwildlife
   - qld-gov-au
   - srep
   - srnsw
   - SSCwebdev
   - SunshineCoastCouncil
   - treasury-aus
+  - victoriangovernment
   - wamuseum
 
 Belgium:
@@ -58,6 +63,7 @@ Brazil:
   - gabinetedigital
   - govbr
   - GovBrasil
+  - ibamacsr
   - InstitutoBenjaminConstant
   - interlegis
   - justicagovbr
@@ -82,7 +88,9 @@ Bulgaria:
   - governmentbg
 
 Canada:
+  - TBS-EACPD
   - AAFC-MBB
+  - abgov
   - bcdevexchange
   - BCGov
   - ca-canada
@@ -102,6 +110,7 @@ Canada:
   - NRCan
   - nsgov
   - open-data
+  - phac-nml
   - pwgsc
   - RAMP-PCAR
   - RDOQ
@@ -160,6 +169,7 @@ France:
   - ApieFrance
   - communaute-cimi
   - DGFiP
+  - diplomatiegouvfr
   - disic
   - erasme
   - etalab
@@ -192,7 +202,7 @@ Isle of Man:
 
 Israel:
   - Digital-Israel
-  
+
 Italy:
   - ComuneBologna
   - Formez
@@ -220,6 +230,7 @@ Malaysia:
 Mexico:
   - CSB-IG
   - DDT-INMEGEN
+  - inmegen
   - profeco
   - redoaxacadetodos
 
@@ -287,6 +298,7 @@ Sweden:
   - lldd
   - malmostad
   - mtmse
+  - riksarkivet
   - rinfo
   - statens-maritima-museer
   - swedishpensionsagency
@@ -296,6 +308,7 @@ Switzerland:
   - alv-ch
   - alv-ch-ansible-roles
   - BFS-SHS-MSAS
+  - dsi-vd
   - FNSKtZH
   - gisktzh
   - ogdch
@@ -310,6 +323,7 @@ The Netherlands:
   - IenS-Velsen
   - MinELenI
   - Pleio
+  - provinciegroningen
   - provincieNH
   - rijksoverheid
   - StichtingHergebruikOverheid
@@ -364,6 +378,7 @@ U.K. Central:
   - ukforeignoffice
   - UKHomeOffice
   - UKLocation
+  - uktradeinvestment
 
 U.K. Councils:
   - BarnsleyCouncil
@@ -372,6 +387,7 @@ U.K. Councils:
   - brighton-hove-gov-uk
   - BristolCityCouncil
   - CamdenCouncil
+  - cityofyork
   - devoncc
   - DevonCountyCouncil
   - DundeeCityCouncil
@@ -436,6 +452,7 @@ U.S. City:
   - egovpdx
   - geospatialDENVER
   - Honolulu
+  - kcmo
   - lfucg
   - longbeachinnovationteam
   - LouisvilleMetro
@@ -464,6 +481,7 @@ U.S. County:
   - CanyonCounty
   - CarverCounty
   - donaanacounty
+  - fairfieldcountyit
   - fpdcc
   - HarrisCountyFOA
   - HennepinCountyPublicDefender
@@ -477,6 +495,7 @@ U.S. County:
   - slugis
 
 U.S. Federal:
+  - noaa-nws-cpc
   - 18f
   - adl-aicc
   - adlnet
@@ -535,10 +554,12 @@ U.S. Federal:
   - nasa-gibs
   - NASA-rdt
   - nasa-tournament-lab
+  - nasaworldwind
   - NationalGuard
   - nationalparkservice
   - NCRN
   - NeoGeographyToolkit
+  - nesii
   - ngds
   - nhanes
   - nidcd
@@ -561,6 +582,7 @@ U.S. Federal:
   - radiofreeasia
   - redhawksdr
   - regulationsgov
+  - sbstusa
   - SelectUSA
   - SERVIR
   - state-hiu
@@ -578,6 +600,7 @@ U.S. Federal:
   - usda-vs
   - usdepartmentoflabor
   - USDeptVeteransAffairs
+  - usds
   - usepa
   - USFWS
   - usg-scope
@@ -605,6 +628,7 @@ U.S. Federal:
 
 U.S. Military and Intelligence:
   - afseo
+  - erdc-itl
   - iadgov
   - info-sharing-environment
   - NationalSecurityAgency
@@ -629,10 +653,13 @@ U.S. Special District:
 
 U.S. States:
   - agrc
+  - agrc-widgets
   - azgs
+  - ca-cws
   - calsimcallite
   - ccap
   - chhsopendata
+  - coloradodemography
   - CTOpenData
   - DCGovWeb
   - eHawaii
@@ -654,6 +681,7 @@ U.S. States:
   - nys-its
   - nysenate
   - oimt
+  - okcareertech
   - oregonopendata
   - ORMetro
   - scdhhs
@@ -661,6 +689,7 @@ U.S. States:
   - SLNC-DIMP
   - State-of-Arizona
   - tndcs
+  - tndidd
   - TNRIS
   - twdb
   - TxDOT

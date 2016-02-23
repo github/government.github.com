@@ -11,7 +11,6 @@ Civic Hackers:
   - datauy
   - dataviz
   - dobtco
-  - dssg
   - dxw
   - gitmachines
   - govbrasil
@@ -59,7 +58,6 @@ Code for All:
   - codeforamerica
   - codeforaustralia
   - codeforbrazil
-  - codeforcanada
   - codeforeurope
   - codeforgermany
   - codeforireland
@@ -76,12 +74,17 @@ Code for All:
 Code For America:
   - a2civictech
   - betanyc
+  - caciviclab
+  - cfabrigadephiladelphia
+  - cforlando
   - civicdata
+  - civictechto
   - code-for-miami
   - code-for-nashville
   - code-for-tb
   - code4hr
   - code4maine
+  - code4newark
   - code4puertorico
   - code4sac
   - codeforabq
@@ -92,6 +95,7 @@ Code For America:
   - codeforboston
   - codeforboulder
   - codeforbtv
+  - codeforcanada
   - codeforcary
   - codeforcharlotte
   - codeforchemnitz
@@ -129,15 +133,14 @@ Code For America:
   - codefortuscaloosa
   - codeforvegas
   - codeisland
-  - datamade
+  - dssg
   - friendlycode
   - hackforla
   - hackingmadison
   - hackmichiana
-  - heatseeknyc
-  - localwiki
-  - nodeschool
+  - justopensource
   - nucivic
+  - nuknightlab
   - open-austin
   - openchattanooga
   - opencleveland
@@ -158,7 +161,9 @@ Code For America:
   - openwichita
   - openzagreb
   - sarl-hackerspace
-  - smartercleanup
+  - seattleio
+  - sfbrigade
+  - whathood
 
 Open Knowledge Foundation:
   - okfde

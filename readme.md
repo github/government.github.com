@@ -23,7 +23,7 @@ This site is made with [Jekyll](http://jekyllrb.com), an open source static site
 
 #### Fix/Edit Content
 
-If you see an error or a place where content should be updated or improved, just fork this repository to your account, make the change you'd like and then submit a pull request. If you're not able to make the the change, file an [issue](https://github.com/github/government.github.com/issues/new).
+If you see an error or a place where content should be updated or improved, just fork this repository to your account, make the change you'd like and then submit a pull request. If you're not able to make the change, file an [issue](https://github.com/github/government.github.com/issues/new).
 
 #### Add a Story
 

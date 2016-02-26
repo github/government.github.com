@@ -16,7 +16,7 @@ li img {
 /* begin overriding */
 
 body {
-  font: 400 16px/1.5 'Source Sans Pro','Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
 }
 
@@ -66,7 +66,7 @@ h4 {
 
 h6 {
   font-size: 13px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.5;
 }
 
@@ -96,7 +96,7 @@ a:hover {
 /* other text styles */
 
 p, ul, ol {
-  font-weight: normal;
+  font-weight: 400;
 }
 
 li {
@@ -149,7 +149,7 @@ li {
 
 .navbar ul li {
   display: inline;
-  text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
   margin: 0 8px;
 }
 
@@ -168,7 +168,7 @@ li {
 
 .splash h1 {
   font-size: 54px;
-  /*text-shadow: 0px 1px 1px rgba(0,0,0,0.2);*/
+  /*text-shadow: 0 1px 1px rgba(0,0,0,0.2);*/
   color: #fff;
   border: none;
   padding: 0;
@@ -180,7 +180,7 @@ li {
   color: #fff;
   padding: 0;
   margin: 0;
-  /*text-shadow: 0px 1px 1px rgba(0,0,0,0.2);*/
+  /*text-shadow: 0 1px 1px rgba(0,0,0,0.2);*/
   opacity: .65;
 }
 
@@ -194,10 +194,7 @@ li {
 }
 
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding: 60px 0;
 }
 
 .more-than, .human {
@@ -280,10 +277,10 @@ li {
 }
 
 .features .feature h3 {
-  /*color: #fff;*/
-  /*font-weight: 700;*/
-  /*text-align: left;*/
-  /*font-size: 16px;*/
+  /*color: #fff;
+  font-weight: 700;
+  text-align: left;
+  font-size: 16px;*/
   font-weight: 400;
 }
 
@@ -417,15 +414,6 @@ td h4 {
   transform: scale(.4)
 }
 
-/* Browse Happy Prompt */
-/* -------------------------------------------------------------------------- */
-
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #333;
-  padding: 0.2em 0;
-}
 
 /* Media Queries */
 /* -------------------------------------------------------------------------- */
@@ -441,31 +429,31 @@ td h4 {
 }
 
 @media only screen and (min-width: 650px) and (max-width: 767px) {
-  body {padding: 0;}
+  body { padding: 0; }
   img { width: 100%; }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 649px) {
-  body {padding: 0;}
-  h1, h2, h3 { line-height: 1.2em;}
-  a { word-wrap: break-word;}
-  .splash { padding-top: 20px; font-size: 80%;}
-  .splash h1 {font-size: 237%;}
-  .splash h2 {font-size: 200%;}
-  .mini-section {padding: 20px;}
+  body { padding: 0; }
+  h1, h2, h3 { line-height: 1.2em; }
+  a { word-wrap: break-word; }
+  .splash { padding-top: 20px; font-size: 80%; }
+  .splash h1 { font-size: 237%; }
+  .splash h2 {font-size: 200%; }
+  .mini-section { padding: 20px; }
   .the-orgs { left: 0; }
-  .source-data-code img {border: none; }
-  .human .mini-section {width: 80%;}
-  .full-width.olives {background-size: 19  0%;}
-  .support-page .full-width.olives {background-size: 140%;}
+  .source-data-code img { border: none; }
+  .human .mini-section { width: 80%; }
+  .full-width.olives { background-size: 190%; }
+  .support-page .full-width.olives { background-size: 140%; }
 }
 
 /* VPAT */
 /* -------------------------------------------------------------------------- */
 
 table.accessibility tr th { text-align: center; vertical-align: middle; }
-table.accessibility tr td.criterion {width: 40%; font-size: 13px;}
-table.accessibility tr td.support { font-weight: bold; width: 15%; vertical-align: middle; text-align: center;}
+table.accessibility tr td.criterion { width: 40%; font-size: 13px; }
+table.accessibility tr td.support { font-weight: 700; width: 15%; vertical-align: middle; text-align: center; }
 table.accessibility tr td.supports { color: #6CC644;  }
 table.accessibility tr td.not-applicable { color: #999; }
 table.accessibility tr td.supports-with-exceptions { color: #f93; }

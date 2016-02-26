@@ -3,41 +3,13 @@
   <div id="{{ page.title | replace: ' ','-' }}" class="container support-page">
 
     <div class="mini-section">
-        <h1>{{ page.title }}</h1>
-        <h3 class="description lead-graf">{{ page.description }}</h3>
+      <h1>{{ page.title }}</h1>
+      <h3 class="description lead-graf">{{ page.description }}</h3>
     </div>
   </div>
 
   <div class="container mini-section">
-        {{ content }}
+    {{ content }}
   </div>
-
-<script>
-  $(document).ready(function () {
-    (function ($) {
-      $('#filter').keyup(function () {
-        var rex = new RegExp($(this).val(), 'i');
-        $('.searchable tr').hide();
-        $('.searchable tr').filter(function () {
-            return rex.test($(this).text());
-        }).show();
-
-        if ($('.govtable tr:visible').length === 0) {
-          $('.govtable.no-matches').show();
-        } else {
-          $('.govtable.no-matches').hide();
-          $('.govtable.table-header').show();
-        };
-
-        if ($('.civictable tr:visible').length === 0) {
-          $('.civictable.no-matches').show();
-        } else {
-          $('.civictable.no-matches').hide();
-          $('.civictable.table-header').show();
-        };
-      })
-    }(jQuery));
-  });
-</script>
 
 {% include footer.html %}

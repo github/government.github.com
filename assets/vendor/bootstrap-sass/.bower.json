@@ -40,6 +40,6 @@
     "commit": "7d7cc02b968b50ea53b0f2e59906b4b7f3fbcf0e"
   },
   "_source": "git://github.com/twbs/bootstrap-sass.git",
-  "_target": "~3.3.5",
+  "_target": "~3.3.6",
   "_originalSource": "bootstrap-sass"
 }

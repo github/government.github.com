@@ -23,8 +23,8 @@
           $type.show()
 
       if $("##{$include.attr("id")} .org:visible").length == 0
-        $el.children('.no-matches').show()
+        $include.children('.no-matches').show()
       else
-        $el.children('.no-matches').hide()
+        $include.children('.no-matches').hide()
 
 ) jQuery

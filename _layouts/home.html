@@ -16,36 +16,4 @@
 
 </div>
 
-<script>
-  $(function() {
-
-    $animateIn = $(".animate-in");
-    $animateOut = $(".animate-out");
-    var animateInOffset = 100;
-    var animateOutOffset = 200;
-
-
-    $animateIn.addClass("pre-animate");
-    $animateOut.addClass("pre-animate-out");
-
-    $(window).scroll(function(e) {
-      var windowHeight = $(window).height(),
-        windowScrollPosition = $(window).scrollTop(),
-        bottomScrollPosition = windowHeight + windowScrollPosition;
-
-      $animateIn.each(function(i, element) {
-        if ($(element).offset().top + animateInOffset < bottomScrollPosition) {
-          $(element).removeClass('pre-animate');
-        };
-      });
-
-      $animateOut.each(function(i, element) {
-        if ($(element).offset().top + animateOutOffset < bottomScrollPosition) {
-          $(element).removeClass('pre-animate-out');
-        };
-      });
-    });
-  });
-</script>
-
 {% include footer.html %}

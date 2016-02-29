@@ -1,7 +1,7 @@
 ---
 ---
 
-$ ->
+(($) ->
   $animateIn       = $('.animate-in')
   $animateOut      = $('.animate-out')
   animateInOffset  = 100
@@ -22,3 +22,5 @@ $ ->
     $animateOut.each (i, element) ->
       if $(element).offset().top + animateOutOffset < bottomScrollPosition
         $(element).removeClass 'pre-animate-out'
+        
+) jQuery

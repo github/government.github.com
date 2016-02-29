@@ -25,10 +25,6 @@ This site is made with [Jekyll](http://jekyllrb.com), an open source static site
 
 If you see an error or a place where content should be updated or improved, just fork this repository to your account, make the change you'd like and then submit a pull request. If you're not able to make the change, file an [issue](https://github.com/github/government.github.com/issues/new).
 
-#### Add a Story
-
-Have an open government story to share? Instructions for contributing a story are in [docs/submit.md](docs/submit.md).
-
 #### Add Organization
 
 If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community](http://government.github.com/community) page: fork this repository, open the `_data/organizations.yml` file and add it to the appropriate section of the list in the format being used. Commit your change and submit a pull request to us!

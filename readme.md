@@ -27,7 +27,7 @@ If you see an error or a place where content should be updated or improved, just
 
 #### Add Organization
 
-If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community](http://government.github.com/community) page: fork this repository, open the `_data/organizations.yml` file and add it to the appropriate section of the list in the format being used. Commit your change and submit a pull request to us!
+If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community](https://government.github.com/community/) page: fork this repository, open the `_data/organizations.yml` file and add it to the appropriate section of the list in the format being used. Commit your change and submit a pull request to us!
 
 ---
 
@@ -41,7 +41,7 @@ You can take all the files of this site and run them just on your computer as if
 * [Ruby](https://www.ruby-lang.org/en/)
 * [Git](http://git-scm.com/)
 
-_If you have installed [GitHub for Windows](http://windows.github.com) or [GitHub for Mac](http://mac.github.com), Git was also installed automatically._
+_If you have installed [GitHub Desktop](https://desktop.github.com), Git was also installed automatically._
 
 To copy the repository's files from here onto your computer and to view and serve those files locally, at your computer's command line type:
 

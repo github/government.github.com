@@ -1,52 +1,82 @@
-/*!
- * AnchorJS - v1.2.1 - 2015-07-02
+/**
+ * AnchorJS - v3.1.0 - 2016-02-12
  * https://github.com/bryanbraun/anchorjs
- * Copyright (c) 2015 Bryan Braun; Licensed MIT
+ * Copyright (c) 2016 Bryan Braun; Licensed MIT
  */
 
 function AnchorJS(options) {
   'use strict';
-
   this.options = options || {};
+  this.elements = [];
 
-  this._applyRemainingDefaultOptions = function(opts) {
-    this.options.icon = this.options.hasOwnProperty('icon') ? opts.icon : '\ue9cb'; // Accepts characters (and also URLs?), like  '#', '¶', '❡', or '§'.
-    this.options.visible = this.options.hasOwnProperty('visible') ? opts.visible : 'hover'; // Also accepts 'always'
-    this.options.placement = this.options.hasOwnProperty('placement') ? opts.placement : 'right'; // Also accepts 'left'
-    this.options.class = this.options.hasOwnProperty('class') ? opts.class : ''; // Accepts any class name.
+  /**
+   * Assigns options to the internal options object, and provides defaults.
+   * @param {Object} opts - Options object
+   */
+  function _applyRemainingDefaultOptions(opts) {
+    opts.icon = opts.hasOwnProperty('icon') ? opts.icon : '\ue9cb'; // Accepts characters (and also URLs?), like  '#', '¶', '❡', or '§'.
+    opts.visible = opts.hasOwnProperty('visible') ? opts.visible : 'hover'; // Also accepts 'always' & 'touch'
+    opts.placement = opts.hasOwnProperty('placement') ? opts.placement : 'right'; // Also accepts 'left'
+    opts.class = opts.hasOwnProperty('class') ? opts.class : ''; // Accepts any class name.
+    // Using Math.floor here will ensure the value is Number-cast and an integer.
+    opts.truncate = opts.hasOwnProperty('truncate') ? Math.floor(opts.truncate) : 64; // Accepts any value that can be typecast to a number.
+  }
+
+  _applyRemainingDefaultOptions(this.options);
+
+  /**
+   * Checks to see if this device supports touch. Uses criteria pulled from Modernizr:
+   * https://github.com/Modernizr/Modernizr/blob/da22eb27631fc4957f67607fe6042e85c0a84656/feature-detects/touchevents.js#L40
+   * @return {Boolean} - true if the current device supports touch.
+   */
+  this.isTouchDevice = function() {
+    return !!(('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch);
   };
 
-  this._applyRemainingDefaultOptions(options);
-
+  /**
+   * Add anchor links to page elements.
+   * @param  {String|Array|Nodelist} selector - A CSS selector for targeting the elements you wish to add anchor links
+   *                                            to. Also accepts an array or nodeList containing the relavant elements.
+   * @return {this}                           - The AnchorJS object
+   */
   this.add = function(selector) {
     var elements,
         elsWithIds,
         idList,
         elementID,
         i,
-        roughText,
-        tidyText,
         index,
         count,
+        tidyText,
         newTidyText,
         readableID,
-        anchor;
+        anchor,
+        visibleOptionToUse,
+        indexesToDrop = [];
 
-    this._applyRemainingDefaultOptions(this.options);
+    // We reapply options here because somebody may have overwritten the default options object when setting options.
+    // For example, this overwrites all options but visible:
+    //
+    // anchors.options = { visible: 'always'; }
+    _applyRemainingDefaultOptions(this.options);
+
+    visibleOptionToUse = this.options.visible;
+    if (visibleOptionToUse === 'touch') {
+      visibleOptionToUse = this.isTouchDevice() ? 'always' : 'hover';
+    }
 
     // Provide a sensible default selector, if none is given.
     if (!selector) {
       selector = 'h1, h2, h3, h4, h5, h6';
-    } else if (typeof selector !== 'string') {
-      throw new Error('The selector provided to AnchorJS was invalid.');
     }
 
-    elements = document.querySelectorAll(selector);
+    elements = _getElements(selector);
+
     if (elements.length === 0) {
       return false;
     }
 
-    this._addBaselineStyles();
+    _addBaselineStyles();
 
     // We produce a list of existing IDs so we don't generate a duplicate.
     elsWithIds = document.querySelectorAll('[id]');
@@ -55,22 +85,15 @@ function AnchorJS(options) {
     });
 
     for (i = 0; i < elements.length; i++) {
+      if (this.hasAnchorJSLink(elements[i])) {
+        indexesToDrop.push(i);
+        continue;
+      }
 
       if (elements[i].hasAttribute('id')) {
         elementID = elements[i].getAttribute('id');
       } else {
-        roughText = elements[i].textContent;
-
-        // Refine it so it makes a good ID. Strip out non-safe characters, replace
-        // spaces with hyphens, truncate to 32 characters, and make toLowerCase.
-        //
-        // Example string:                                // '⚡⚡⚡ Unicode icons are cool--but they definitely don't belong in a URL fragment.'
-        tidyText = roughText.replace(/[^\w\s-]/gi, '')    // ' Unicode icons are cool--but they definitely dont belong in a URL fragment'
-                                .replace(/\s+/g, '-')     // '-Unicode-icons-are-cool--but-they-definitely-dont-belong-in-a-URL-fragment'
-                                .replace(/-{2,}/g, '-')   // '-Unicode-icons-are-cool-but-they-definitely-dont-belong-in-a-URL-fragment'
-                                .substring(0, 64)         // '-Unicode-icons-are-cool-but-they-definitely-dont-belong-in-a-URL'
-                                .replace(/^-+|-+$/gm, '') // 'Unicode-icons-are-cool-but-they-definitely-dont-belong-in-a-URL'
-                                .toLowerCase();           // 'unicode-icons-are-cool-but-they-definitely-dont-belong-in-a-url'
+        tidyText = this.urlify(elements[i].textContent);
 
         // Compare our generated ID to existing IDs (and increment it if needed)
         // before we add it to the page.
@@ -80,17 +103,14 @@ function AnchorJS(options) {
           if (index !== undefined) {
             newTidyText = tidyText + '-' + count;
           }
-          // .indexOf is supported in IE9+.
+
           index = idList.indexOf(newTidyText);
           count += 1;
         } while (index !== -1);
         index = undefined;
         idList.push(newTidyText);
 
-        // Assign it to our element.
-        // Currently the setAttribute element is only supported in IE9 and above.
         elements[i].setAttribute('id', newTidyText);
-
         elementID = newTidyText;
       }
 
@@ -104,7 +124,7 @@ function AnchorJS(options) {
       anchor.setAttribute('aria-label', 'Anchor link for: ' + readableID);
       anchor.setAttribute('data-anchorjs-icon', this.options.icon);
 
-      if (this.options.visible === 'always') {
+      if (visibleOptionToUse === 'always') {
         anchor.style.opacity = '1';
       }
 
@@ -114,6 +134,14 @@ function AnchorJS(options) {
         anchor.style.fontVariant = 'normal';
         anchor.style.fontWeight = 'normal';
         anchor.style.lineHeight = 1;
+
+        // We set lineHeight = 1 here because the `anchorjs-icons` font family could otherwise affect the
+        // height of the heading. This isn't the case for icons with `placement: left`, so we restore
+        // line-height: inherit in that case, ensuring they remain positioned correctly. For more info,
+        // see https://github.com/bryanbraun/anchorjs/issues/39.
+        if (this.options.placement === 'left') {
+          anchor.style.lineHeight = 'inherit';
+        }
       }
 
       if (this.options.placement === 'left') {
@@ -127,22 +155,119 @@ function AnchorJS(options) {
       }
     }
 
+    for (i = 0; i < indexesToDrop.length; i++) {
+      elements.splice(indexesToDrop[i] - i, 1);
+    }
+    this.elements = this.elements.concat(elements);
+
     return this;
   };
 
+  /**
+   * Removes all anchorjs-links from elements targed by the selector.
+   * @param  {String|Array|Nodelist} selector - A CSS selector string targeting elements with anchor links,
+   *                                       	  	OR a nodeList / array containing the DOM elements.
+   * @return {this}                           - The AnchorJS object
+   */
   this.remove = function(selector) {
-    var domAnchor,
-        elements = document.querySelectorAll(selector);
+    var index,
+        domAnchor,
+        elements = _getElements(selector);
+
     for (var i = 0; i < elements.length; i++) {
       domAnchor = elements[i].querySelector('.anchorjs-link');
       if (domAnchor) {
+        // Drop the element from our main list, if it's in there.
+        index = this.elements.indexOf(elements[i]);
+        if (index !== -1) {
+          this.elements.splice(index, 1);
+        }
+        // Remove the anchor from the DOM.
         elements[i].removeChild(domAnchor);
       }
     }
     return this;
   };
 
-  this._addBaselineStyles = function() {
+  /**
+   * Removes all anchorjs links. Mostly used for tests.
+   */
+  this.removeAll = function() {
+    this.remove(this.elements);
+  };
+
+  /**
+   * Urlify - Refine text so it makes a good ID.
+   *
+   * To do this, we remove apostrophes, replace nonsafe characters with hyphens,
+   * remove extra hyphens, truncate, trim hyphens, and make lowercase.
+   *
+   * @param  {String} text - Any text. Usually pulled from the webpage element we are linking to.
+   * @return {String}      - hyphen-delimited text for use in IDs and URLs.
+   */
+  this.urlify = function(text) {
+    // Regex for finding the nonsafe URL characters (many need escaping): & +$,:;=?@"#{}|^~[`%!']./()*\
+    var nonsafeChars = /[& +$,:;=?@"#{}|^~[`%!'\]\.\/\(\)\*\\]/g,
+        urlText;
+
+    // The reason we include this _applyRemainingDefaultOptions is so urlify can be called independently,
+    // even after setting options. This can be useful for tests or other applications.
+    if (!this.options.truncate) {
+      _applyRemainingDefaultOptions(this.options);
+    }
+
+    // Note: we trim hyphens after truncating because truncating can cause dangling hyphens.
+    // Example string:                                  // " ⚡⚡ Don't forget: URL fragments should be i18n-friendly, hyphenated, short, and clean."
+    urlText = text.trim()                               // "⚡⚡ Don't forget: URL fragments should be i18n-friendly, hyphenated, short, and clean."
+                  .replace(/\'/gi, '')                  // "⚡⚡ Dont forget: URL fragments should be i18n-friendly, hyphenated, short, and clean."
+                  .replace(nonsafeChars, '-')           // "⚡⚡-Dont-forget--URL-fragments-should-be-i18n-friendly--hyphenated--short--and-clean-"
+                  .replace(/-{2,}/g, '-')               // "⚡⚡-Dont-forget-URL-fragments-should-be-i18n-friendly-hyphenated-short-and-clean-"
+                  .substring(0, this.options.truncate)  // "⚡⚡-Dont-forget-URL-fragments-should-be-i18n-friendly-hyphenated-"
+                  .replace(/^-+|-+$/gm, '')             // "⚡⚡-Dont-forget-URL-fragments-should-be-i18n-friendly-hyphenated"
+                  .toLowerCase();                       // "⚡⚡-dont-forget-url-fragments-should-be-i18n-friendly-hyphenated"
+
+    return urlText;
+  };
+
+  /**
+   * Determines if this element already has an AnchorJS link on it.
+   * Uses this technique: http://stackoverflow.com/a/5898748/1154642
+   * @param    {HTMLElemnt}  el - a DOM node
+   * @return   {Boolean}     true/false
+   */
+  this.hasAnchorJSLink = function(el) {
+    var hasLeftAnchor = (' ' + el.firstChild.className + ' ').indexOf(' anchorjs-link ') > -1,
+        hasRightAnchor = (' ' + el.lastChild.className + ' ').indexOf(' anchorjs-link ') > -1;
+
+    return hasLeftAnchor || hasRightAnchor;
+  };
+
+  /**
+   * Turns a selector, nodeList, or array of elements into an array of elements (so we can use array methods).
+   * It also throws errors on any other inputs. Used to handle inputs to .add and .remove.
+   * @param  {String|Array|Nodelist} input - A CSS selector string targeting elements with anchor links,
+   *                                       	 OR a nodeList / array containing the DOM elements.
+   * @return {Array} - An array containing the elements we want.
+   */
+  function _getElements(input) {
+    var elements;
+    if (typeof input === 'string' || input instanceof String) {
+      // See https://davidwalsh.name/nodelist-array for the technique transforming nodeList -> Array.
+      elements = [].slice.call(document.querySelectorAll(input));
+    // I checked the 'input instanceof NodeList' test in IE9 and modern browsers and it worked for me.
+    } else if (Array.isArray(input) || input instanceof NodeList) {
+      elements = [].slice.call(input);
+    } else {
+      throw new Error('The selector provided to AnchorJS was invalid.');
+    }
+    return elements;
+  }
+
+  /**
+   * _addBaselineStyles
+   * Adds baseline styles to the page, used by all AnchorJS links irregardless of configuration.
+   */
+  function _addBaselineStyles() {
     // We don't want to add global baseline styles if they've been added before.
     if (document.head.querySelector('style.anchorjs') !== null) {
       return;
@@ -191,7 +316,7 @@ function AnchorJS(options) {
     style.sheet.insertRule(hoverRule, style.sheet.cssRules.length);
     style.sheet.insertRule(pseudoElContent, style.sheet.cssRules.length);
     style.sheet.insertRule(anchorjsLinkFontFace, style.sheet.cssRules.length);
-  };
+  }
 }
 
 var anchors = new AnchorJS();

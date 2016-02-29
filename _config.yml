@@ -7,15 +7,15 @@ relative_permalinks: false
 analytics_account: "UA-3769691-28"
 
 # build settings
-exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "Rakefile", "readme.md", "package.json"]
+exclude: ["script", "vendor", "bower.json", "Gemfile", "Gemfile.lock", "Rakefile", "readme.md", "package.json"]
 markdown: kramdown
 gems:
-  - jekyll-sitemap
+  - jekyll-avatar
   - jekyll-redirect-from
   - jekyll-seo-tag
-  - jekyll-avatar
   - jekyll-coffeescript
-  
+    - jekyll-sitemap
+
 sass:
   style: :compressed
 

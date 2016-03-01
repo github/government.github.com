@@ -104,7 +104,7 @@ li {
   text-align: left;
 }
 
-.no-style-list {
+.list-unstyled {
   list-style-type: none;
   padding-left: 0;
   margin-left: 0;
@@ -421,14 +421,19 @@ td h4 {
 /* Media Queries */
 /* -------------------------------------------------------------------------- */
 
-@media only screen and (min-width: 980px)  {
+@media only screen and (min-width: 980px) {
   .navbar .nav > li > a { text-decoration: none; margin-left: 25px; }
   .navbar .nav > li > a:focus { text-decoration: underline; }
   .navbar .nav > li > a:hover { color: #2D86FB; text-decoration: underline; }
 }
 
-@media only screen and (max-width: 979px)  {
+@media only screen and (max-width: 979px) {
   .no-mobile { display: none !important; }
+}
+@media only screen and (max-width: 480px) {
+  .site-footer-links.right {
+    margin-right: 10px;
+  }
 }
 
 @media only screen and (min-width: 650px) and (max-width: 767px) {

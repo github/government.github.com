@@ -282,7 +282,7 @@ data:
         comments: "Documentation available at [government.github.com/accessibility](https://government.github.com/accessibility/)"
       - criterion: "(c) Support services for products shall accommodate the communication needs of end-users with disabilities."
         support: Supports
-        comments: "Support provided via [web](https://help.github.com) and [email](https://github.com/contactus)"
+        comments: "Support provided via [web](https://help.github.com/) and [email](https://github.com/contactus)"
 ---
 
 Please note, when using GitHub.com or GitHub Enterprise, there are four alternate ways to interact with stored content:

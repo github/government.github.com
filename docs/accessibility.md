@@ -315,12 +315,12 @@ Where support below is indicated below as "Supports with exceptions", such a qua
       <tr>
         <td class="criterion">
         {% if section[0] == "Summary" %}
-        <a href="#{{ requirement.criterion | replace:" ","-" | replace:".","" | replace:",","" | downcase }}">{{ requirement.criterion }}</a>
+        <a href="#{{ requirement.criterion | replace: " ", "-" | replace: ".", "" | replace: ",", "" | downcase }}">{{ requirement.criterion }}</a>
         {% else %}
          {{ requirement.criterion }}
         {% endif %}
         </td>
-        <td class="support {{ requirement.support | downcase | replace:" ","-" }}">
+        <td class="support {{ requirement.support | downcase | replace: " ", "-" }}">
          {{ requirement.support }}
         </td>
 <td markdown="1" class="comments">

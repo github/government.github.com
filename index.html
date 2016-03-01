@@ -107,7 +107,7 @@ permalink: /
     {% assign count = 0 %}
     {% for group in site.data.governments %}
       {% for org in group[1] %}
-        {% assign count = count | plus:1 %}
+        {% assign count = count | plus: 1 %}
       {% endfor %}
     {% endfor %}
     <h3 class="lead-graf">Join the thousands of government organizations around the world who collaborate on code, data, policy, and more. See the rest of the <a href="/community">GitHub government community</a>.</h3>

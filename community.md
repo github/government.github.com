@@ -6,7 +6,7 @@ permalink: /community/
 ---
 <div id="to-top" class="container">
 
-<h4><input id="filter" type="text" class="" placeholder="Type to search..."> or jump to the <a href="#civic_hackers">civic hackers</a> or <a href="#research">research</a> lists.</h4></div>
+<h4><input id="filter" type="text" placeholder="Type to search..."> or jump to the <a href="#civic_hackers">civic hackers</a> or <a href="#research">research</a> lists.</h4></div>
 
 {% include org-table.html orgs=site.data.governments id="governments" name="Governments" %}
 

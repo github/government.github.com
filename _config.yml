@@ -13,6 +13,7 @@ gems:
   - jekyll-avatar
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-coffeescript
   - jekyll-sitemap
 
 sass:

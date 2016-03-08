@@ -357,7 +357,10 @@ code {
   color: #333;
 }
 
-.org-table tr { height: 57px; }
+.org-include .no-matches { display: none; }
+.org-type .orgs { margin-top: 25px; margin-bottom: 25px; }
+.org-row .org { padding: 15px; }
+.org-row .org-name { margin-top: 10px; }
 
 td h4 {
   margin: .5em 0;

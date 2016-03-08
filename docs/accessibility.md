@@ -19,7 +19,7 @@ data:
         comments:
       - criterion: "Section 1194.24 Video and Multi-media Products"
         support: Supports
-        comments: "Training materials available via [youtube.com/github](http://youtube.com/github){: data-proofer-ignore='true'} and [youtube.com/githubguides](http://youtube.com/githubguides){: data-proofer-ignore='true'}"
+        comments: "Training materials available via [youtube.com/github](https://www.youtube.com/user/github) and [youtube.com/githubguides](https://www.youtube.com/user/githubguides)"
       - criterion: "Section 1194.25 Self-Contained, Closed Products"
         support: Not applicable
         comments:
@@ -182,7 +182,7 @@ data:
         comments:
       - criterion: "(c) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain speech or other audio information necessary for the comprehension of the content, shall be open or closed captioned."
         support: Supports
-        comments: "Training materials available at [youtube.com/github](http://youtube.com/github){: data-proofer-ignore='true'} and [youtube.com/githubguides](http://youtube.com/githubguides){: data-proofer-ignore='true'}. All GitHub videos are fully closed captioned. <Br /><br />For more information on YouTube's accessibility see [support.google.com/youtube/answer/189278](https://support.google.com/youtube/answer/189278?hl=en)"
+        comments: "Training materials available at [youtube.com/github](https://www.youtube.com/user/github) and [youtube.com/githubguides](https://www.youtube.com/user/githubguides). All GitHub videos are fully closed captioned. <br /><br />For more information on YouTube's accessibility see [support.google.com/youtube/answer/189278](https://support.google.com/youtube/answer/189278?hl=en)"
       - criterion: "(d) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain visual information necessary for the comprehension of the content, shall be audio described."
         support: Supports
         comments:
@@ -279,17 +279,17 @@ data:
         comments: "Please contact <support@github.com> with any such requests."
       - criterion: "(b) End-users shall have access to a description of the accessibility and compatibility features of products in alternate formats or alternate methods upon request, at no additional charge.  "
         support: Supports
-        comments: "Documentation available at [government.github.com/accessibility](http://government.github.com/accessibility)"
+        comments: "Documentation available at [government.github.com/accessibility](https://government.github.com/accessibility/)"
       - criterion: "(c) Support services for products shall accommodate the communication needs of end-users with disabilities."
         support: Supports
-        comments: "Support provided via [web](http://help.github.com) and [email](http://github.com/contactus)"
+        comments: "Support provided via [web](https://help.github.com) and [email](https://github.com/contactus)"
 ---
 
 Please note, when using GitHub.com or GitHub Enterprise, there are four alternate ways to interact with stored content:
 
 1. Via the [GitHub.com](https://github.com) or [GitHub Enterprise](https://enterprise.github.com) web interface through a modern browser
-2. Via the [GitHub for Mac](https://mac.github.com) or [GitHub for Windows](https://windows.github.com) desktop applications
-3. Via the GitHub's open [application programming interface](http://developer.github.com/v3/) (API) which provides information in a machine-readable format for integration with other applications
+2. Via the [GitHub Desktop](https://desktop.github.com) application
+3. Via the GitHub's open [application programming interface](https://developer.github.com/v3/) (API) which provides information in a machine-readable format for integration with other applications
 4. Via the open source [Git](http://git-scm.com/) command line (interactive, entirely text-bassed) interface
 
 Where support below is indicated below as "Supports with exceptions", such a qualification applies to the particular product being evaluated, however, interactions may be accomplished through alternate means such as via the Git command-line interface.

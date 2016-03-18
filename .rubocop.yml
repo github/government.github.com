@@ -1,0 +1,14 @@
+Metrics/LineLength:
+  Enabled: false
+
+Style/FileName:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false

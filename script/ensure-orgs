@@ -25,13 +25,13 @@ Typhoeus::Config.cache = Cache.new
 # Ideally this would be an API call, but given the volume of calls,
 # We'd constantly hit any rate limit as each needs to be its own query
 def org?(user)
-  response = Typhoeus.head "https://github.com/orgs/#{user}/people", accept_encoding: "gzip"
+  response = Typhoeus.head "https://github.com/orgs/#{user}/people", accept_encoding: 'gzip'
   response.success?
 end
 
-puts "Checking that all orgs listed are in fact, an org..."
+puts 'Checking that all orgs listed are in fact, an org...'
 
-data_folder_path = File.expand_path "../_data", File.dirname(__FILE__)
+data_folder_path = File.expand_path '../_data', File.dirname(__FILE__)
 files = Dir["#{data_folder_path}/*.yml"]
 
 valid = true
@@ -49,12 +49,12 @@ files.each do |file|
   comment = File.open(file).read.lines.first
   output = comment
   output << "\n"
-  output << data.to_yaml.sub(/\A---\n/, "").gsub(/^-/, "  -").gsub(/\n([^ ])/, "\n\n\\1")
+  output << data.to_yaml.sub(/\A---\n/, '').gsub(/^-/, '  -').gsub(/\n([^ ])/, "\n\n\\1")
   File.write(file, output)
 end
 
 if valid
-  puts "All orgs check out."
+  puts 'All orgs check out.'
   exit 0
 else
   exit 1

@@ -495,35 +495,49 @@ U.S. County:
 
 U.S. Federal:
   - 18f
+  - ACME-Climate
   - adl-aicc
   - adlnet
   - afrl
   - arcticlcc
+  - ARM-DOE
   - BBGInnovate
   - bfelob
   - blue-button
+  - BrookhavenNationalLaboratory
   - businessusa
   - CA-CST-Library
   - CA-CST-SII
+  - CASL
+  - CBIIT
   - ccmc
   - cfpb
+  - CBIIT
   - cmsgov
+  - cocomans
   - commercedataservice
   - commercegov
+  - ControlSystemStudio
   - defense-cyber-crime-center
   - demand-driven-open-data
   - department-of-veterans-affairs
+  - digital-analytics-program
   - didsr
+  - doe-nepa
+  - EarthSystemCoG
   - EEOC
+  - EMSL-MSC
   - energyapps
   - erdc-cm
   - eregs
+  - exmatex
   - fcc
   - FCCdev
   - fda
   - Federal-Aviation-Administration
   - federaltradecommission
   - fedspendingtransparency
+  - foreignassistance
   - globegit
   - gopleader
   - government-services
@@ -533,7 +547,10 @@ U.S. Federal:
   - hhs
   - HHSDigitalMediaAPIPlatform
   - HHSIDEAlab
+  - HipGISAXS
   - historyatstate
+  - hpc
+  - idaholab
   - IIP-Design
   - IMDProjects
   - imls
@@ -542,50 +559,113 @@ U.S. Federal:
   - internationaltradeadministration
   - ioos
   - IRSgov
+  - jbei
+  - JGI-Bioinformatics
+  - kbase
+  - kbaseIncubator
   - keplergo
+  - LANL
+  - LANL-Bioinformatics
+  - lbl-anp
+  - lbl-cal
+  - lblpbd
   - libraryofcongress
+  - losalamos
   - M-O-S-E-S
+  - magellancloud
+  - materialsproject
   - mcc-gov
+  - MeasureAuthoringTool
+  - MCSclimate
+  - mdhim
+  - MG-RAST
   - missioncommand
   - nasa
+  - nasajpl
   - nasa-develop
   - nasa-gibs
   - NASA-rdt
+  - NASA-Tensegrity-Robotics-Toolkit
   - nasa-tournament-lab
   - nasaworldwind
   - NationalGuard
   - nationalparkservice
+  - ncats
+  - ncbi
+  - NCBITools
+  - ncip
+  - ncpp
   - NCRN
+  - ndar
   - NeoGeographyToolkit
+  - nersc
   - nesii
   - ngds
   - nhanes
+  - nhlbi
+  - niaid
+  - NIAID-RTB
   - nidcd
   - NIEM
+  - NIFA
+  - nih-fmrif
+  - Nikea
+  - nimh-nif
+  - nist-bws
+  - nist-ionstorage
   - NMB-Dev
   - NMML
   - noaa-gfdl
   - noaa-ncei-stp
   - noaa-nws-cpc
   - NOAA-ORR-ERD
+  - nrel
+  - nrel-cookbooks
+  - NSLS-II
+  - NSLS-II-CSX
+  - nsls2ap
   - ntia
+  - olcf
   - ombegov
   - Open-Sat
   - opengovplatform
+  - OpsLabJPL
+  - ORNL
+  - ORNL-BTRIC
+  - ORNL-CEES
+  - ornl-sava
+  - ORNL-TechInt
+  - ornlcda
+  - ORNLSMRModeling
   - ozone-development
   - ozoneplatform
+  - PCMDI
   - peacecorps
   - petsc
+  - pifs
+  - pnnl
+  - PNNL-Comp-Mass-Spec
   - presidential-innovation-fellows
   - project-open-data
+  - pyepics
   - radiofreeasia
   - redhawksdr
+  - reflectometry
   - regulationsgov
+  - sandialabs
   - sbstusa
+  - seed-platform
   - SelectUSA
   - SERVIR
+  - sim-x
+  - smithsonian
+  - SNEWS-Collaboration
+  - SNL-WaterPower
   - state-hiu
   - sunpy
+  - swift-lang
+  - TinyTitan
+  - TriBITSPub
   - usagov
   - usaid
   - usajobs
@@ -617,14 +697,18 @@ U.S. Federal:
   - usindianaffairs
   - usinterior
   - usnationalarchives
+  - usnistgov
+  - usopm
   - USPS
   - USPTO
   - usstatedept
+  - UV-CDAT
   - VHAINNOVATIONS
   - virtual-world-framework
   - visionworkbench
   - WFMRDA
   - whitehouse
+  - WISDEM
 
 U.S. Military and Intelligence:
   - afseo

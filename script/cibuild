@@ -15,3 +15,6 @@ bundle exec rubocop -D -S
 
 # Ensure only organizations are listed
 bundle exec script/ensure-orgs
+
+# Ensure all organizations are listed only once
+bundle exec script/ensure-unique

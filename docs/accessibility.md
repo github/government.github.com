@@ -50,7 +50,7 @@ data:
         comments: Information about user interface elements exposed for all primary functionality of both GitHub for Mac and GitHub for Windows. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
       - criterion: "(e) When bitmap images are used to identify controls, status indicators, or other programmatic elements, the meaning assigned to those images shall be consistent throughout an application's performance."
         support: Supports
-        comments: "All iconography are rendered via the [Octicons](https://github.com/styleguide/) library."
+        comments: "All iconography are rendered via the [Octicons](https://octicons.github.com/) library."
       - criterion: "(f) Textual information shall be provided through operating system functions for displaying text. The minimum information that shall be made available is text content, text input caret location, and text attributes."
         support: Supports
         comments:

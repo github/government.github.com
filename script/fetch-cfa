@@ -12,10 +12,10 @@ require 'typhoeus'
 
 module CFA
   class Fetcher
-    ENDPOINT = 'http://codeforamerica.org/api/organizations'
+    ENDPOINT = 'http://codeforamerica.org/api/organizations'.freeze
     DEFAULT_ARGS = {
       'per_page' => 200
-    }
+    }.freeze
 
     def fetch
       logger.info 'Updating CFA list...'

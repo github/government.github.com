@@ -10,7 +10,7 @@ data:
     criteria:
       - criterion: "Section 1194.21 Software Applications and Operating Systems"
         support: Supports with exceptions
-        comments: GitHub for Windows and GitHub for Mac
+        comments: GitHub Desktop
       - criterion: "Section 1194.22 Web-based Intranet and Internet Information and Applications"
         support: Supports
         comments: GitHub.com and GitHub Enterprise

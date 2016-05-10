@@ -2,7 +2,7 @@
 title: Accessibility
 layout: support-page
 permalink: /accessibility/
-description: "Voluntary Product Accessibility Template (VPAT) outlining §508 accessibility information for GitHub.com, GitHub Enterprise, GitHub for Mac, and GitHub for Windows."
+description: "Voluntary Product Accessibility Template (VPAT) outlining §508 accessibility information for GitHub.com, GitHub Enterprise, and GitHub Desktop."
 redirect_from: "/508/"
 data:
   Summary:
@@ -34,20 +34,20 @@ data:
         comments:
 
   "Section 1194.21 Software Applications and Operating Systems":
-    product: GitHub for Mac and GitHub for Windows
+    product: GitHub Desktop
     criteria:
       - criterion: "(a) When software is designed to run on a system that has a keyboard, product functions shall be executable from a keyboard where the function itself or the result of performing a function can be discerned textually."
         support: Supports with exceptions
-        comments: Primary functionality of both GitHub for Mac and GitHub for Windows is discernable textually and executable via keyboard. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
+        comments: Primary functionality of GitHub Desktop is discernable textually and executable via keyboard. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
       - criterion: "(b) Applications shall not disrupt or disable activated features of other products that are identified as accessibility features, where those features are developed and documented according to industry standards. Applications also shall not disrupt or disable activated features of any operating system that are identified as accessibility features where the application programming interface for those accessibility features has been documented by the manufacturer of the operating system and is available to the product developer."
         support:  Supports
         comments: GitHub desktop applications are built using platform-specific standards and best practices where possible.
       - criterion: "(c) A well-defined on-screen indication of the current focus shall be provided that moves among interactive interface elements as the input focus changes. The focus shall be programmatically exposed so that Assistive Technology can track focus and focus changes."
         support:  Supports with exceptions
-        comments: Focus programmatically exposed for all primary functionality of both GitHub for Mac and GitHub for Windows. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
+        comments: Focus programmatically exposed for all primary functionality of GitHub Desktop. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
       - criterion: "(d) Sufficient information about a user interface element including the identity, operation and state of the element shall be available to Assistive Technology. When an image represents a program element, the information conveyed by the image must also be available in text."
         support: Supports with exceptions
-        comments: Information about user interface elements exposed for all primary functionality of both GitHub for Mac and GitHub for Windows. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
+        comments: Information about user interface elements exposed for all primary functionality of GitHub Desktop. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
       - criterion: "(e) When bitmap images are used to identify controls, status indicators, or other programmatic elements, the meaning assigned to those images shall be consistent throughout an application's performance."
         support: Supports
         comments: "All iconography are rendered via the [Octicons](https://octicons.github.com/) library."

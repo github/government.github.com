@@ -34,7 +34,7 @@ data:
         comments:
 
   "Section 1194.21 Software Applications and Operating Systems":
-    product: GitHub Desktop
+    product: GitHub.com, GitHub Enterprise, GitHub Desktop
     criteria:
       - criterion: "(a) When software is designed to run on a system that has a keyboard, product functions shall be executable from a keyboard where the function itself or the result of performing a function can be discerned textually."
         support: Supports with exceptions

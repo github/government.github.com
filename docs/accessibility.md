@@ -9,10 +9,10 @@ data:
     product:
     criteria:
       - criterion: "Section 1194.21 Software Applications and Operating Systems"
-        support: Supports with exceptions
-        comments: GitHub Desktop
-      - criterion: "Section 1194.22 Web-based Intranet and Internet Information and Applications"
         support: Supports
+        comments: GitHub.com, GitHub Enterprise, GitHub Desktop
+      - criterion: "Section 1194.22 Web-based Intranet and Internet Information and Applications"
+        support: Supports with exceptions	
         comments: GitHub.com and GitHub Enterprise
       - criterion: "Section 1194.23 Telecommunications Products"
         support: Not applicable
@@ -37,17 +37,17 @@ data:
     product: GitHub.com, GitHub Enterprise, GitHub Desktop
     criteria:
       - criterion: "(a) When software is designed to run on a system that has a keyboard, product functions shall be executable from a keyboard where the function itself or the result of performing a function can be discerned textually."
-        support: Supports with exceptions
-        comments: Primary functionality of GitHub Desktop is discernable textually and executable via keyboard. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
+        support: Supports
+        comments:
       - criterion: "(b) Applications shall not disrupt or disable activated features of other products that are identified as accessibility features, where those features are developed and documented according to industry standards. Applications also shall not disrupt or disable activated features of any operating system that are identified as accessibility features where the application programming interface for those accessibility features has been documented by the manufacturer of the operating system and is available to the product developer."
         support:  Supports
         comments: GitHub desktop applications are built using platform-specific standards and best practices where possible.
       - criterion: "(c) A well-defined on-screen indication of the current focus shall be provided that moves among interactive interface elements as the input focus changes. The focus shall be programmatically exposed so that Assistive Technology can track focus and focus changes."
-        support:  Supports with exceptions
-        comments: Focus programmatically exposed for all primary functionality of GitHub Desktop. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
+        support:  Supports
+        comments:
       - criterion: "(d) Sufficient information about a user interface element including the identity, operation and state of the element shall be available to Assistive Technology. When an image represents a program element, the information conveyed by the image must also be available in text."
-        support: Supports with exceptions
-        comments: Information about user interface elements exposed for all primary functionality of GitHub Desktop. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
+        support: Supports
+        comments:
       - criterion: "(e) When bitmap images are used to identify controls, status indicators, or other programmatic elements, the meaning assigned to those images shall be consistent throughout an application's performance."
         support: Supports
         comments: "All iconography are rendered via the [Octicons](https://octicons.github.com/) library."
@@ -70,8 +70,8 @@ data:
         support: Supports
         comments: Applications have no flashing or blinking elements
       - criterion: "(l) When electronic forms are used, the form shall allow people using Assistive Technology to access the information, field elements, and functionality required for completion and submission of the form, including all directions and cues."
-        support: Supports with exceptions
-        comments: User can interact with and fill all form elements using assistive technology, however, directions and queues may not be accessible. All form interactions can be accomplished through the Git command line interface.
+        support: Supports
+        comments:
 
   "Section 1194.22 Web-based Intranet and Internet Information and Applications":
     product: GitHub.com and GitHub Enterprise

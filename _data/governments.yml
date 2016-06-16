@@ -96,6 +96,7 @@ Canada:
   - cityofottawa
   - cityofsurrey
   - cngo
+  - ECCC-MSC
   - electionsquebec
   - GeoCanViz
   - GNWT
@@ -250,12 +251,14 @@ New Zealand:
   - te-papa
 
 Norway:
+  - altinn
   - difi
   - dss-web
   - kartverket
   - KRD-KOMM-VL
   - metno
   - navikt
+  - nlbdev
   - rutebanken
   - ruterno
   - vegvesen

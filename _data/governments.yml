@@ -96,6 +96,7 @@ Canada:
   - cityofottawa
   - cityofsurrey
   - cngo
+  - ECCC-MSC
   - electionsquebec
   - GeoCanViz
   - GNWT
@@ -251,12 +252,14 @@ New Zealand:
   - te-papa
 
 Norway:
+  - altinn
   - difi
   - dss-web
   - kartverket
   - KRD-KOMM-VL
   - metno
   - navikt
+  - nlbdev
   - rutebanken
   - ruterno
   - vegvesen
@@ -340,6 +343,7 @@ U.K. Central:
   - alphagov
   - BEACmodel
   - cabinetoffice
+  - certuk
   - communitiesuk
   - companieshouse
   - datagovuk
@@ -465,6 +469,7 @@ U.S. City:
   - monum
   - NYCComptroller
   - nycdot
+  - NYCPlanning
   - OpenGovDC
   - p2g
   - pdxgis
@@ -592,6 +597,7 @@ U.S. Federal:
   - SERVIR
   - state-hiu
   - sunpy
+  - US-CBP
   - usagov
   - usaid
   - usajobs
@@ -663,7 +669,6 @@ U.S. States:
   - azgs
   - calsimcallite
   - ccap
-  - chhsopendata
   - coloradodemography
   - CTOpenData
   - DCGovWeb

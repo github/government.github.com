@@ -14,9 +14,12 @@ U.S. Research Labs:
   - EarthSystemCoG
   - EMSL-MSC
   - epicsdeb
+  - esgf
   - exmatex
+  - flux-framework
   - GENIEMC
   - globus
+  - glvis
   - HipGISAXS
   - hpc
   - hpde
@@ -38,6 +41,7 @@ U.S. Research Labs:
   - materialsproject
   - MCSclimate
   - mdhim
+  - mfem
   - MG-RAST
   - NASA-Tensegrity-Robotics-Toolkit
   - nasajpl
@@ -79,6 +83,7 @@ U.S. Research Labs:
   - PNNL-Comp-Mass-Spec
   - pyepics
   - reflectometry
+  - rose-compiler
   - sandialabs
   - scalability-llnl
   - scattering

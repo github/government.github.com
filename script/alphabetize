@@ -17,7 +17,7 @@ files.each do |file|
 
   output = {}
   data.each do |key, value|
-    value = value.uniq.sort { |a, b| a.upcase <=> b.upcase }
+    value = value.uniq.sort_by(&:upcase)
     output[key] = value
   end
 

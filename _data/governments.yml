@@ -39,6 +39,10 @@ Australia:
   - victoriangovernment
   - wamuseum
 
+
+Austria:
+  - datagvat
+
 Belgium:
   - belgianpolice
   - Fedict
@@ -128,6 +132,10 @@ Colombia:
   - AltaConsejeriaTIC
   - evaluon
   - idu-bogota
+
+Croatia:
+  - datagovhr
+
 
 Denmark:
   - skat
@@ -224,6 +232,10 @@ Latvia:
 Lithuania:
   - viesujupirkimutarnyba
   - vilnius
+
+Luxemburg:
+  - opendatalu
+  - Geoportail-Luxembourg
 
 Malaysia:
   - pmo2

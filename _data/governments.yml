@@ -3,7 +3,6 @@
 Argentina:
   - argob
   - cifasis
-  - conectados-ar
   - gcba
   - inti-cmnb
   - municipioriogrande
@@ -18,7 +17,6 @@ Australia:
   - datagovau
   - dpipwe
   - envris
-  - ga-m3dv
   - gccgisteam
   - GeoscienceAustralia
   - govcms
@@ -246,7 +244,6 @@ New Zealand:
   - linz
   - localgovernment
   - nz-mbie
-  - NZWellingtonCityCouncil
   - opcnz
   - R9BetterAPIs
   - te-papa
@@ -345,7 +342,6 @@ U.K. Central:
   - alphagov
   - BEACmodel
   - cabinetoffice
-  - certuk
   - communitiesuk
   - companieshouse
   - datagovuk
@@ -390,7 +386,6 @@ U.K. Central:
   - ukforeignoffice
   - UKHomeOffice
   - UKLocation
-  - uktradeinvestment
 
 U.K. Councils:
   - BarnsleyCouncil
@@ -430,7 +425,6 @@ U.S. City:
   - chicago
   - city-of-bellingham
   - city-of-bloomington
-  - City-of-Raleigh-Public-Utilities
   - cityofasheville
   - CityOfAuburnAL
   - cityofaustin
@@ -579,14 +573,11 @@ U.S. Federal:
   - NMB-Dev
   - NMML
   - noaa-gfdl
-  - noaa-ncei-stp
-  - noaa-nws-cpc
   - NOAA-ORR-ERD
   - ntia
   - ombegov
   - Open-Sat
   - opengovplatform
-  - ozone-development
   - ozoneplatform
   - peacecorps
   - petsc

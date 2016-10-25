@@ -30,9 +30,7 @@ orgs.each do |org|
 end
 
 output = {
-  'U.S. Federal' => org_file['U.S. Federal'].uniq.sort do |a, b|
-    a.upcase <=> b.upcase
-  end
+  'U.S. Federal' => org_file['U.S. Federal'].uniq.sort_by(&:upcase)
 }
 puts 'To be pasted into _data/governments.yml'
 puts output.to_yaml

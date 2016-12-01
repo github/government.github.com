@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
 gem 'github-pages', '105'
-gem 'rake'
 gem 'jekyll-avatar'
+gem 'rake'
 
 group :development, :test do
   gem 'html-proofer'
-  gem 'typhoeus'
   gem 'octokit'
   gem 'parallel'
   gem 'pry'
   gem 'rubocop'
+  gem 'typhoeus'
 end

@@ -19,7 +19,7 @@ end
 
 orgs.reject! { |_org, sources| sources.count == 1 }
 
-if orgs.count > 0
+if orgs.count.positive?
   puts "Uh oh. Found #{orgs.count} organization(s) listed more than once...\n\n"
   orgs.each do |org, sources|
     puts "#{org}:"

@@ -505,6 +505,7 @@ U.S. Federal:
   - adl-aicc
   - adlnet
   - afrl
+  - afseo
   - arcticlcc
   - BBGInnovate
   - bfelob
@@ -524,6 +525,7 @@ U.S. Federal:
   - EEOC
   - energyapps
   - erdc-cm
+  - erdc-itl
   - eregs
   - fcc
   - FCCdev
@@ -541,9 +543,11 @@ U.S. Federal:
   - HHSDigitalMediaAPIPlatform
   - HHSIDEAlab
   - historyatstate
+  - iadgov
   - IIP-Design
   - IMDProjects
   - imls
+  - info-sharing-environment
   - informaticslab
   - Innovation-Toolkit
   - internationaltradeadministration
@@ -562,9 +566,11 @@ U.S. Federal:
   - nasaworldwind
   - NationalGuard
   - nationalparkservice
+  - NationalSecurityAgency
   - NCRN
   - NeoGeographyToolkit
   - nesii
+  - ngageoint
   - ngds
   - nhanes
   - nidcd
@@ -581,19 +587,24 @@ U.S. Federal:
   - peacecorps
   - petsc
   - presidential-innovation-fellows
+  - project-interoperability
   - project-open-data
   - radiofreeasia
   - redhawksdr
   - regulationsgov
   - sbstusa
+  - screamlab
   - SelectUSA
   - SERVIR
+  - shareandprotect
+  - SIMP
   - state-hiu
   - sunpy
   - US-CBP
   - usagov
   - usaid
   - usajobs
+  - usarmyresearchlab
   - usasearch
   - usbr
   - uscensusbureau
@@ -630,19 +641,6 @@ U.S. Federal:
   - visionworkbench
   - WFMRDA
   - whitehouse
-
-U.S. Military and Intelligence:
-  - afseo
-  - erdc-itl
-  - iadgov
-  - info-sharing-environment
-  - NationalSecurityAgency
-  - ngageoint
-  - project-interoperability
-  - screamlab
-  - shareandprotect
-  - SIMP
-  - usarmyresearchlab
 
 U.S. Special District:
   - atlregional

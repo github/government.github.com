@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'html-proofer'
 
 task :test do

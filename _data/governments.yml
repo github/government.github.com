@@ -3,7 +3,6 @@
 Argentina:
   - argob
   - cifasis
-  - conectados-ar
   - gcba
   - inti-cmnb
   - municipioriogrande
@@ -15,10 +14,10 @@ Australia:
   - ausdto
   - australianantarcticdatacentre
   - bom-radar
+  - commerce-wa-ols
   - datagovau
   - dpipwe
   - envris
-  - ga-m3dv
   - gccgisteam
   - GeoscienceAustralia
   - govcms
@@ -27,7 +26,6 @@ Australia:
   - innovationgovau
   - Landgate
   - mcma
-  - museumvictoria
   - nla
   - nmalabs
   - NSWPlanning
@@ -62,6 +60,7 @@ Brazil:
   - govbr
   - GovBrasil
   - ibamacsr
+  - imagov
   - InstitutoBenjaminConstant
   - interlegis
   - justicagovbr
@@ -90,7 +89,7 @@ Canada:
   - abgov
   - bcdevexchange
   - BCGov
-  - ca-canada
+  - canada-ca
   - CIHR
   - cityofgreatersudbury
   - cityofottawa
@@ -226,6 +225,10 @@ Lithuania:
   - viesujupirkimutarnyba
   - vilnius
 
+Luxemburg:
+  - opendatalu
+  - Geoportail-Luxembourg
+
 Malaysia:
   - pmo2
 
@@ -245,7 +248,6 @@ New Zealand:
   - linz
   - localgovernment
   - nz-mbie
-  - NZWellingtonCityCouncil
   - opcnz
   - R9BetterAPIs
   - te-papa
@@ -283,12 +285,13 @@ Poland:
 
 Romania:
   - govro
+  - MinistryOfLabor
 
 Saudi Arabia:
   - SAS-NCDC
 
 Singapore:
-  - idagds
+  - govtechsg
   - moexmen
 
 South Africa:
@@ -297,6 +300,8 @@ South Africa:
 Spain:
   - AyuntamientoMadrid
   - ctt-gob-es
+  - icane
+  - JuntaDeAndalucia
 
 Sweden:
   - domstol
@@ -342,7 +347,6 @@ U.K. Central:
   - alphagov
   - BEACmodel
   - cabinetoffice
-  - certuk
   - communitiesuk
   - companieshouse
   - datagovuk
@@ -354,12 +358,13 @@ U.K. Central:
   - directgov-innovate
   - dstl
   - dvla
+  - dvsa
   - EnvHack2
   - EnvironmentAgency
   - gds-attic
   - gds-dead
   - gds-operations
-  - GovernmentCommunicationsHeadquarters
+  - GCHQ
   - guidance-guarantee-programme
   - hmrc
   - insolvencyservice
@@ -379,6 +384,7 @@ U.K. Central:
   - ministryofjustice
   - naouk
   - nationalarchives
+  - ncscuk
   - OfqualGovUK
   - ONSdigital
   - openglasgow
@@ -388,7 +394,6 @@ U.K. Central:
   - ukforeignoffice
   - UKHomeOffice
   - UKLocation
-  - uktradeinvestment
 
 U.K. Councils:
   - BarnsleyCouncil
@@ -411,6 +416,7 @@ U.K. Councils:
   - lichfield-district-council
   - LutonCouncil
   - RotherDC
+  - surreydigitalservices
   - thehighlandcouncil
   - TraffordCouncil
   - warwickshire
@@ -427,7 +433,6 @@ U.S. City:
   - chicago
   - city-of-bellingham
   - city-of-bloomington
-  - City-of-Raleigh-Public-Utilities
   - cityofasheville
   - CityOfAuburnAL
   - cityofaustin
@@ -453,7 +458,6 @@ U.S. City:
   - CORaleigh
   - CUMTD
   - datala
-  - dataseattlegov
   - DCCouncil
   - DCgov
   - DenverDev
@@ -524,6 +528,7 @@ U.S. Federal:
   - defense-cyber-crime-center
   - demand-driven-open-data
   - department-of-veterans-affairs
+  - dhs-ncats
   - didsr
   - EEOC
   - energyapps
@@ -576,14 +581,11 @@ U.S. Federal:
   - NMB-Dev
   - NMML
   - noaa-gfdl
-  - noaa-ncei-stp
-  - noaa-nws-cpc
   - NOAA-ORR-ERD
   - ntia
   - ombegov
   - Open-Sat
   - opengovplatform
-  - ozone-development
   - ozoneplatform
   - peacecorps
   - petsc
@@ -694,7 +696,6 @@ U.S. States:
   - okcareertech
   - oregonopendata
   - ORMetro
-  - scdhhs
   - scgeology
   - SLNC-DIMP
   - State-of-Arizona

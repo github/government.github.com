@@ -26,7 +26,6 @@ Australia:
   - innovationgovau
   - Landgate
   - mcma
-  - museumvictoria
   - nla
   - nmalabs
   - NSWPlanning
@@ -90,7 +89,7 @@ Canada:
   - abgov
   - bcdevexchange
   - BCGov
-  - ca-canada
+  - canada-ca
   - CIHR
   - cityofgreatersudbury
   - cityofottawa
@@ -226,6 +225,10 @@ Lithuania:
   - viesujupirkimutarnyba
   - vilnius
 
+Luxemburg:
+  - opendatalu
+  - Geoportail-Luxembourg
+
 Malaysia:
   - pmo2
 
@@ -297,6 +300,8 @@ South Africa:
 Spain:
   - AyuntamientoMadrid
   - ctt-gob-es
+  - icane
+  - JuntaDeAndalucia
 
 Sweden:
   - domstol
@@ -353,12 +358,13 @@ U.K. Central:
   - directgov-innovate
   - dstl
   - dvla
+  - dvsa
   - EnvHack2
   - EnvironmentAgency
   - gds-attic
   - gds-dead
   - gds-operations
-  - GovernmentCommunicationsHeadquarters
+  - GCHQ
   - guidance-guarantee-programme
   - hmrc
   - insolvencyservice
@@ -521,6 +527,7 @@ U.S. Federal:
   - defense-cyber-crime-center
   - demand-driven-open-data
   - department-of-veterans-affairs
+  - dhs-ncats
   - didsr
   - EEOC
   - energyapps
@@ -688,7 +695,6 @@ U.S. States:
   - okcareertech
   - oregonopendata
   - ORMetro
-  - scdhhs
   - scgeology
   - SLNC-DIMP
   - State-of-Arizona

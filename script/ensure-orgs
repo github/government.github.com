@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
-#
+# frozen_string_literal: true
+
 # Ensures that all organizations listed in _data are in fact, organizations
 
 require 'typhoeus'

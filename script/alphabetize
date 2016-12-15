@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 # Alphabetizes the content of all YAML files in the _data directory
 
@@ -17,7 +18,7 @@ files.each do |file|
 
   output = {}
   data.each do |key, value|
-    value = value.uniq.sort { |a, b| a.upcase <=> b.upcase }
+    value = value.uniq.sort_by(&:upcase)
     output[key] = value
   end
 

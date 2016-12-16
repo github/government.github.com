@@ -1,0 +1,36 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Ensures that all organizations listed in _data are only listed once
+
+require 'yaml'
+
+data_folder_path = File.expand_path '../_data', File.dirname(__FILE__)
+files = Dir["#{data_folder_path}/*.yml"]
+
+orgs = {}
+files.each do |file|
+  data = YAML.load_file file
+  data.each do |group, group_orgs|
+    group_orgs.each do |org|
+      orgs[org.downcase] ||= []
+      orgs[org.downcase].push "#{File.basename(file)}: #{group}"
+    end
+  end
+end
+
+orgs.reject! { |_org, sources| sources.count == 1 }
+
+if orgs.count.positive?
+  puts "Uh oh. Found #{orgs.count} organization(s) listed more than once...\n\n"
+  orgs.each do |org, sources|
+    puts "#{org}:"
+    sources.each do |source|
+      puts "  * #{source}"
+    end
+  end
+  exit 1
+else
+  puts 'Nice work. All organizations are listed exactly once.'
+  exit 0
+end

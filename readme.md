@@ -4,7 +4,7 @@
 
 Gather, curate, and feature stories of people using GitHub as part of their open government innovations.
 
-The site is open source (here's all the code!) and is a tool for and _by_ the community.
+The site is open source (here's all the code!) and is a tool _for_ and _by_ the community.
 
 Submit [issues](https://github.com/github/government.github.com/issues/new) and [pull requests](https://github.com/github/government.github.com/compare/) for stories, site ideas or copy edits.
 
@@ -23,15 +23,11 @@ This site is made with [Jekyll](http://jekyllrb.com), an open source static site
 
 #### Fix/Edit Content
 
-If you see an error or a place where content should be updated or improved, just fork this repository to your account, make the change you'd like and then submit a pull request. If you're not able to make the the change, file an [issue](https://github.com/github/government.github.com/issues/new).
-
-#### Add a Story
-
-Have an open government story to share? Instructions for contributing a story are in [docs/submit.md](docs/submit.md).
+If you see an error or a place where content should be updated or improved, just fork this repository to your account, make the change you'd like and then submit a pull request. If you're not able to make the change, file an [issue](https://github.com/github/government.github.com/issues/new).
 
 #### Add Organization
 
-If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community](http://government.github.com/community) page: fork this repository, open the `_data/organizations.yml` file and add it to the appropriate section of the list in the format being used. Commit your change and submit a pull request to us!
+If you know of an organization that should be added to the organization list that generates the matrix of avatars on the [Community](https://government.github.com/community/) page: fork this repository, open the `_data/organizations.yml` file and add it to the appropriate section of the list in the format being used. Commit your change and submit a pull request to us!
 
 ---
 
@@ -45,7 +41,7 @@ You can take all the files of this site and run them just on your computer as if
 * [Ruby](https://www.ruby-lang.org/en/)
 * [Git](http://git-scm.com/)
 
-_If you have installed [GitHub for Windows](http://windows.github.com) or [GitHub for Mac](http://mac.github.com), Git was also installed automatically._
+_If you have installed [GitHub Desktop](https://desktop.github.com), Git was also installed automatically._
 
 To copy the repository's files from here onto your computer and to view and serve those files locally, at your computer's command line type:
 

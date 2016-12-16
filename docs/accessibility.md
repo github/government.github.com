@@ -2,24 +2,24 @@
 title: Accessibility
 layout: support-page
 permalink: /accessibility/
-description: "Voluntary Product Accessibility Template (VPAT) outlining §508 accessibility information for GitHub.com, GitHub Enterprise, GitHub for Mac, and GitHub for Windows."
+description: "Voluntary Product Accessibility Template (VPAT) outlining §508 accessibility information for GitHub.com, GitHub Enterprise, and GitHub Desktop."
 redirect_from: "/508/"
 data:
   Summary:
     product:
     criteria:
       - criterion: "Section 1194.21 Software Applications and Operating Systems"
-        support: Supports with exceptions
-        comments: GitHub for Windows and GitHub for Mac
-      - criterion: "Section 1194.22 Web-based Intranet and Internet Information and Applications"
         support: Supports
+        comments: GitHub.com, GitHub Enterprise, GitHub Desktop
+      - criterion: "Section 1194.22 Web-based Intranet and Internet Information and Applications"
+        support: Supports with exceptions	
         comments: GitHub.com and GitHub Enterprise
       - criterion: "Section 1194.23 Telecommunications Products"
         support: Not applicable
         comments:
       - criterion: "Section 1194.24 Video and Multi-media Products"
         support: Supports
-        comments: "Training materials available via [youtube.com/github](http://youtube.com/github){: data-proofer-ignore='true'} and [youtube.com/githubguides](http://youtube.com/githubguides){: data-proofer-ignore='true'}"
+        comments: "Training materials available via [youtube.com/github](https://www.youtube.com/user/github) and [youtube.com/githubguides](https://www.youtube.com/user/githubguides)"
       - criterion: "Section 1194.25 Self-Contained, Closed Products"
         support: Not applicable
         comments:
@@ -34,23 +34,23 @@ data:
         comments:
 
   "Section 1194.21 Software Applications and Operating Systems":
-    product: GitHub for Mac and GitHub for Windows
+    product: GitHub.com, GitHub Enterprise, GitHub Desktop
     criteria:
       - criterion: "(a) When software is designed to run on a system that has a keyboard, product functions shall be executable from a keyboard where the function itself or the result of performing a function can be discerned textually."
-        support: Supports with exceptions
-        comments: Primary functionality of both GitHub for Mac and GitHub for Windows is discernable textually and executable via keyboard. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
+        support: Supports
+        comments:
       - criterion: "(b) Applications shall not disrupt or disable activated features of other products that are identified as accessibility features, where those features are developed and documented according to industry standards. Applications also shall not disrupt or disable activated features of any operating system that are identified as accessibility features where the application programming interface for those accessibility features has been documented by the manufacturer of the operating system and is available to the product developer."
         support:  Supports
         comments: GitHub desktop applications are built using platform-specific standards and best practices where possible.
       - criterion: "(c) A well-defined on-screen indication of the current focus shall be provided that moves among interactive interface elements as the input focus changes. The focus shall be programmatically exposed so that Assistive Technology can track focus and focus changes."
-        support:  Supports with exceptions
-        comments: Focus programmatically exposed for all primary functionality of both GitHub for Mac and GitHub for Windows. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
+        support:  Supports
+        comments:
       - criterion: "(d) Sufficient information about a user interface element including the identity, operation and state of the element shall be available to Assistive Technology. When an image represents a program element, the information conveyed by the image must also be available in text."
-        support: Supports with exceptions
-        comments: Information about user interface elements exposed for all primary functionality of both GitHub for Mac and GitHub for Windows. Some advanced features, such as listing or switching branches may require use of the Git command line interface.
+        support: Supports
+        comments:
       - criterion: "(e) When bitmap images are used to identify controls, status indicators, or other programmatic elements, the meaning assigned to those images shall be consistent throughout an application's performance."
         support: Supports
-        comments: "All iconography are rendered via the [Octicons](https://github.com/styleguide/) library."
+        comments: "All iconography are rendered via the [Octicons](https://octicons.github.com/) library."
       - criterion: "(f) Textual information shall be provided through operating system functions for displaying text. The minimum information that shall be made available is text content, text input caret location, and text attributes."
         support: Supports
         comments:
@@ -70,8 +70,8 @@ data:
         support: Supports
         comments: Applications have no flashing or blinking elements
       - criterion: "(l) When electronic forms are used, the form shall allow people using Assistive Technology to access the information, field elements, and functionality required for completion and submission of the form, including all directions and cues."
-        support: Supports with exceptions
-        comments: User can interact with and fill all form elements using assistive technology, however, directions and queues may not be accessible. All form interactions can be accomplished through the Git command line interface.
+        support: Supports
+        comments:
 
   "Section 1194.22 Web-based Intranet and Internet Information and Applications":
     product: GitHub.com and GitHub Enterprise
@@ -182,7 +182,7 @@ data:
         comments:
       - criterion: "(c) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain speech or other audio information necessary for the comprehension of the content, shall be open or closed captioned."
         support: Supports
-        comments: "Training materials available at [youtube.com/github](http://youtube.com/github){: data-proofer-ignore='true'} and [youtube.com/githubguides](http://youtube.com/githubguides){: data-proofer-ignore='true'}. All GitHub videos are fully closed captioned. <Br /><br />For more information on YouTube's accessibility see [support.google.com/youtube/answer/189278](https://support.google.com/youtube/answer/189278?hl=en)"
+        comments: "Training materials available at [youtube.com/github](https://www.youtube.com/user/github) and [youtube.com/githubguides](https://www.youtube.com/user/githubguides). All GitHub videos are fully closed captioned. <br /><br />For more information on YouTube's accessibility see [support.google.com/youtube/answer/189278](https://support.google.com/youtube/answer/189278?hl=en)"
       - criterion: "(d) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain visual information necessary for the comprehension of the content, shall be audio described."
         support: Supports
         comments:
@@ -279,17 +279,17 @@ data:
         comments: "Please contact <support@github.com> with any such requests."
       - criterion: "(b) End-users shall have access to a description of the accessibility and compatibility features of products in alternate formats or alternate methods upon request, at no additional charge.  "
         support: Supports
-        comments: "Documentation available at [government.github.com/accessibility](http://government.github.com/accessibility)"
+        comments: "Documentation available at [government.github.com/accessibility](https://government.github.com/accessibility/)"
       - criterion: "(c) Support services for products shall accommodate the communication needs of end-users with disabilities."
         support: Supports
-        comments: "Support provided via [web](http://help.github.com) and [email](http://github.com/contactus)"
+        comments: "Support provided via [web](https://help.github.com) and [email](https://github.com/contactus)"
 ---
 
 Please note, when using GitHub.com or GitHub Enterprise, there are four alternate ways to interact with stored content:
 
 1. Via the [GitHub.com](https://github.com) or [GitHub Enterprise](https://enterprise.github.com) web interface through a modern browser
-2. Via the [GitHub for Mac](https://mac.github.com) or [GitHub for Windows](https://windows.github.com) desktop applications
-3. Via the GitHub's open [application programming interface](http://developer.github.com/v3/) (API) which provides information in a machine-readable format for integration with other applications
+2. Via the [GitHub Desktop](https://desktop.github.com) application
+3. Via the GitHub's open [application programming interface](https://developer.github.com/v3/) (API) which provides information in a machine-readable format for integration with other applications
 4. Via the open source [Git](http://git-scm.com/) command line (interactive, entirely text-bassed) interface
 
 Where support below is indicated below as "Supports with exceptions", such a qualification applies to the particular product being evaluated, however, interactions may be accomplished through alternate means such as via the Git command-line interface.

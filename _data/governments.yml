@@ -26,7 +26,6 @@ Australia:
   - innovationgovau
   - Landgate
   - mcma
-  - museumvictoria
   - nla
   - nmalabs
   - NSWPlanning
@@ -90,7 +89,7 @@ Canada:
   - abgov
   - bcdevexchange
   - BCGov
-  - ca-canada
+  - canada-ca
   - CIHR
   - cityofgreatersudbury
   - cityofottawa
@@ -206,6 +205,7 @@ Israel:
   - Digital-Israel
 
 Italy:
+  - AgID
   - ComuneBologna
   - Formez
   - PloneGov-IT
@@ -218,6 +218,9 @@ Japan:
   - nhohq
   - nims-library
   - wakayama-pref-org
+  
+Jersey:
+  - statesofjersey
 
 Latvia:
   - CSBLatvia
@@ -225,6 +228,10 @@ Latvia:
 Lithuania:
   - viesujupirkimutarnyba
   - vilnius
+
+Luxemburg:
+  - opendatalu
+  - Geoportail-Luxembourg
 
 Malaysia:
   - pmo2
@@ -279,6 +286,7 @@ Philippines:
 
 Poland:
   - coi-gov-pl
+  - Ministerstwo-Cyfryzacji
 
 Romania:
   - govro
@@ -297,6 +305,8 @@ South Africa:
 Spain:
   - AyuntamientoMadrid
   - ctt-gob-es
+  - icane
+  - JuntaDeAndalucia
 
 Sweden:
   - domstol
@@ -353,12 +363,13 @@ U.K. Central:
   - directgov-innovate
   - dstl
   - dvla
+  - dvsa
   - EnvHack2
   - EnvironmentAgency
   - gds-attic
   - gds-dead
   - gds-operations
-  - GovernmentCommunicationsHeadquarters
+  - GCHQ
   - guidance-guarantee-programme
   - hmrc
   - insolvencyservice
@@ -378,12 +389,14 @@ U.K. Central:
   - ministryofjustice
   - naouk
   - nationalarchives
+  - ncscuk
   - OfqualGovUK
   - ONSdigital
   - openglasgow
   - osgeouk
   - scottishgovernment
   - ukforeignoffice
+  - UKGovernmentBEIS
   - UKHomeOffice
   - UKLocation
 
@@ -522,6 +535,7 @@ U.S. Federal:
   - defense-cyber-crime-center
   - demand-driven-open-data
   - department-of-veterans-affairs
+  - dhs-ncats
   - didsr
   - EEOC
   - energyapps
@@ -674,7 +688,6 @@ U.S. States:
   - idahofishgame
   - investmentboard
   - LADCO
-  - LibraryofVA
   - massgov
   - MFWP-GIS
   - mn-script-team
@@ -689,7 +702,6 @@ U.S. States:
   - okcareertech
   - oregonopendata
   - ORMetro
-  - scdhhs
   - scgeology
   - SLNC-DIMP
   - State-of-Arizona
@@ -698,7 +710,10 @@ U.S. States:
   - twdb
   - TxDOT
   - UtahForestryFireStateLands
+  - LibraryofVA
+  - VDEQ
   - VDGIF
+  - Virginia-Department-of-Health
   - Virginia-House-of-Delegates
   - vtrans
   - vtrans-rail

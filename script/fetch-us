@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 # fetches list of US repos from the social media registry, and outputs merged list to command line
 # @todo, can this be done automagically without loosing formatting and comments?

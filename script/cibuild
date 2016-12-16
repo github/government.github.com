@@ -7,9 +7,14 @@ script/branding
 export PATH=/usr/share/rbenv/shims:$PATH RBENV_VERSION=$(cat .ruby-version)
 
 bundle exec rake test
+bundle exec rubocop -D -S
 
 # Ensure the Code for America and Code for All list only contain official chapters/partners
-bundle exec script/fetch-cfa
+# Disabled for now due to false positives
+# bundle exec script/fetch-cfa
 
 # Ensure only organizations are listed
 bundle exec script/ensure-orgs
+
+# Ensure all organizations are listed only once
+bundle exec script/ensure-unique

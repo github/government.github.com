@@ -3,7 +3,6 @@
 Argentina:
   - argob
   - cifasis
-  - conectados-ar
   - gcba
   - inti-cmnb
   - municipioriogrande
@@ -15,10 +14,10 @@ Australia:
   - ausdto
   - australianantarcticdatacentre
   - bom-radar
+  - commerce-wa-ols
   - datagovau
   - dpipwe
   - envris
-  - ga-m3dv
   - gccgisteam
   - GeoscienceAustralia
   - govcms
@@ -27,7 +26,6 @@ Australia:
   - innovationgovau
   - Landgate
   - mcma
-  - museumvictoria
   - nla
   - nmalabs
   - NSWPlanning
@@ -62,11 +60,13 @@ Brazil:
   - govbr
   - GovBrasil
   - ibamacsr
+  - imagov
   - InstitutoBenjaminConstant
   - interlegis
   - justicagovbr
   - labhackercd
   - lexml
+  - MP-ES
   - pensandoodireito
   - plonegovbr
   - pr-snas
@@ -90,12 +90,13 @@ Canada:
   - abgov
   - bcdevexchange
   - BCGov
-  - ca-canada
+  - canada-ca
   - CIHR
   - cityofgreatersudbury
   - cityofottawa
   - cityofsurrey
   - cngo
+  - ECCC-MSC
   - electionsquebec
   - GeoCanViz
   - GNWT
@@ -152,14 +153,17 @@ European Union:
   - europeana
 
 Finland:
+  - Digipalvelutehdas
   - City-of-Helsinki
   - finnishtransportagency
+  - Helsingin-kaupungin-tietokeskus
   - helsinki-city-library
   - HSLdevcom
   - Lounaispaikka
   - lukefi
   - NatLibFi
   - nlsfi
+  - vrk-kpa
 
 France:
   - afimb
@@ -203,6 +207,7 @@ Israel:
   - Digital-Israel
 
 Italy:
+  - AgID
   - ComuneBologna
   - Formez
   - PloneGov-IT
@@ -215,6 +220,9 @@ Japan:
   - nhohq
   - nims-library
   - wakayama-pref-org
+  
+Jersey:
+  - statesofjersey
 
 Latvia:
   - CSBLatvia
@@ -222,6 +230,10 @@ Latvia:
 Lithuania:
   - viesujupirkimutarnyba
   - vilnius
+
+Luxemburg:
+  - opendatalu
+  - Geoportail-Luxembourg
 
 Malaysia:
   - pmo2
@@ -232,6 +244,7 @@ Mexico:
   - inmegen
   - profeco
   - redoaxacadetodos
+  - mxabierto
 
 New Zealand:
   - CanterburyRegionalCouncil
@@ -241,18 +254,22 @@ New Zealand:
   - linz
   - localgovernment
   - nz-mbie
-  - NZWellingtonCityCouncil
   - opcnz
   - R9BetterAPIs
   - te-papa
 
 Norway:
+  - altinn
   - difi
   - dss-web
   - kartverket
   - KRD-KOMM-VL
   - metno
   - navikt
+  - nlbdev
+  - rutebanken
+  - ruterno
+  - telemark
   - vegvesen
 
 Panama:
@@ -272,15 +289,17 @@ Philippines:
 
 Poland:
   - coi-gov-pl
+  - Ministerstwo-Cyfryzacji
 
 Romania:
   - govro
+  - MinistryOfLabor
 
 Saudi Arabia:
   - SAS-NCDC
 
 Singapore:
-  - idagds
+  - govtechsg
   - moexmen
 
 South Africa:
@@ -288,7 +307,10 @@ South Africa:
 
 Spain:
   - AyuntamientoMadrid
+  - AjuntamentdeBarcelona
   - ctt-gob-es
+  - icane
+  - JuntaDeAndalucia
 
 Sweden:
   - domstol
@@ -345,12 +367,13 @@ U.K. Central:
   - directgov-innovate
   - dstl
   - dvla
+  - dvsa
   - EnvHack2
   - EnvironmentAgency
   - gds-attic
   - gds-dead
   - gds-operations
-  - GovernmentCommunicationsHeadquarters
+  - GCHQ
   - guidance-guarantee-programme
   - hmrc
   - insolvencyservice
@@ -370,15 +393,16 @@ U.K. Central:
   - ministryofjustice
   - naouk
   - nationalarchives
+  - ncscuk
   - OfqualGovUK
   - ONSdigital
   - openglasgow
   - osgeouk
   - scottishgovernment
   - ukforeignoffice
+  - UKGovernmentBEIS
   - UKHomeOffice
   - UKLocation
-  - uktradeinvestment
 
 U.K. Councils:
   - BarnsleyCouncil
@@ -399,8 +423,11 @@ U.K. Councils:
   - kentcc
   - LambethCouncil
   - lichfield-district-council
+  - LondonBoroughSutton
   - LutonCouncil
   - RotherDC
+  - RoyalBoroughKingston
+  - surreydigitalservices
   - thehighlandcouncil
   - TraffordCouncil
   - warwickshire
@@ -417,7 +444,6 @@ U.S. City:
   - chicago
   - city-of-bellingham
   - city-of-bloomington
-  - City-of-Raleigh-Public-Utilities
   - cityofasheville
   - CityOfAuburnAL
   - cityofaustin
@@ -443,12 +469,10 @@ U.S. City:
   - CORaleigh
   - CUMTD
   - datala
-  - dataseattlegov
   - DCCouncil
   - DCgov
   - DenverDev
   - digitalinclusion
-  - dotnyc
   - egovpdx
   - geospatialDENVER
   - Honolulu
@@ -460,6 +484,7 @@ U.S. City:
   - monum
   - NYCComptroller
   - nycdot
+  - NYCPlanning
   - OpenGovDC
   - p2g
   - pdxgis
@@ -514,6 +539,7 @@ U.S. Federal:
   - defense-cyber-crime-center
   - demand-driven-open-data
   - department-of-veterans-affairs
+  - dhs-ncats
   - didsr
   - EEOC
   - energyapps
@@ -566,14 +592,11 @@ U.S. Federal:
   - NMB-Dev
   - NMML
   - noaa-gfdl
-  - noaa-ncei-stp
-  - noaa-nws-cpc
   - NOAA-ORR-ERD
   - ntia
   - ombegov
   - Open-Sat
   - opengovplatform
-  - ozone-development
   - ozoneplatform
   - peacecorps
   - petsc
@@ -587,6 +610,7 @@ U.S. Federal:
   - SERVIR
   - state-hiu
   - sunpy
+  - US-CBP
   - usagov
   - usaid
   - usajobs
@@ -597,6 +621,8 @@ U.S. Federal:
   - usda
   - usda-ars-agil
   - USDA-ERS
+  - USDA-FSA
+  - USDA-NRCS
   - usda-vs
   - usdepartmentoflabor
   - USDeptVeteransAffairs
@@ -657,7 +683,6 @@ U.S. States:
   - azgs
   - calsimcallite
   - ccap
-  - chhsopendata
   - coloradodemography
   - CTOpenData
   - DCGovWeb
@@ -668,7 +693,6 @@ U.S. States:
   - idahofishgame
   - investmentboard
   - LADCO
-  - LibraryofVA
   - massgov
   - MFWP-GIS
   - mn-script-team
@@ -683,7 +707,6 @@ U.S. States:
   - okcareertech
   - oregonopendata
   - ORMetro
-  - scdhhs
   - scgeology
   - SLNC-DIMP
   - State-of-Arizona
@@ -692,7 +715,10 @@ U.S. States:
   - twdb
   - TxDOT
   - UtahForestryFireStateLands
+  - LibraryofVA
+  - VDEQ
   - VDGIF
+  - Virginia-Department-of-Health
   - Virginia-House-of-Delegates
   - vtrans
   - vtrans-rail

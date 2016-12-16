@@ -1,4 +1,12 @@
 # Government funded research - must have a government email/domain to be listed
+New Zealand Crown Research Institutes:
+  - AgResearch
+  - niwa
+  - PlantandFoodResearch
+  - ScionResearch
+
+U.K Research Centers:
+  - SatelliteApplicationsCatapult
 
 U.S. Research Labs:
   - ACME-Climate
@@ -14,9 +22,12 @@ U.S. Research Labs:
   - EarthSystemCoG
   - EMSL-MSC
   - epicsdeb
+  - esgf
   - exmatex
+  - flux-framework
   - GENIEMC
   - globus
+  - glvis
   - HipGISAXS
   - hpc
   - hpde
@@ -32,11 +43,13 @@ U.S. Research Labs:
   - lbl-cal
   - lblpbd
   - libmesh
+  - llnl
   - losalamos
   - magellancloud
   - materialsproject
   - MCSclimate
   - mdhim
+  - mfem
   - MG-RAST
   - NASA-Tensegrity-Robotics-Toolkit
   - nasajpl
@@ -78,6 +91,7 @@ U.S. Research Labs:
   - PNNL-Comp-Mass-Spec
   - pyepics
   - reflectometry
+  - rose-compiler
   - sandialabs
   - scalability-llnl
   - scattering

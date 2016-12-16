@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 # fetches list of US repos from the social media registry, and outputs merged list to command line
 # @todo, can this be done automagically without loosing formatting and comments?
@@ -30,9 +31,7 @@ orgs.each do |org|
 end
 
 output = {
-  'U.S. Federal' => org_file['U.S. Federal'].uniq.sort do |a, b|
-    a.upcase <=> b.upcase
-  end
+  'U.S. Federal' => org_file['U.S. Federal'].uniq.sort_by(&:upcase)
 }
 puts 'To be pasted into _data/governments.yml'
 puts output.to_yaml

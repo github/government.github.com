@@ -66,6 +66,7 @@ Brazil:
   - justicagovbr
   - labhackercd
   - lexml
+  - MP-ES
   - pensandoodireito
   - plonegovbr
   - pr-snas
@@ -76,6 +77,7 @@ Brazil:
   - secom-tocantins
   - secultce
   - SerraWeb
+  - tcers
   - tisorocaba
   - tre-pa
   - wpgovbr
@@ -205,6 +207,7 @@ Israel:
   - Digital-Israel
 
 Italy:
+  - AgID
   - ComuneBologna
   - Formez
   - PloneGov-IT
@@ -266,6 +269,7 @@ Norway:
   - nlbdev
   - rutebanken
   - ruterno
+  - telemark
   - vegvesen
 
 Panama:
@@ -285,10 +289,12 @@ Philippines:
 
 Poland:
   - coi-gov-pl
+  - Ministerstwo-Cyfryzacji
 
 Romania:
   - govro
   - MinistryOfLabor
+  - gov-ithub
 
 Saudi Arabia:
   - SAS-NCDC
@@ -302,6 +308,7 @@ South Africa:
 
 Spain:
   - AyuntamientoMadrid
+  - AjuntamentdeBarcelona
   - ctt-gob-es
   - icane
   - JuntaDeAndalucia
@@ -394,6 +401,7 @@ U.K. Central:
   - osgeouk
   - scottishgovernment
   - ukforeignoffice
+  - UKGovernmentBEIS
   - UKHomeOffice
   - UKLocation
 
@@ -416,8 +424,10 @@ U.K. Councils:
   - kentcc
   - LambethCouncil
   - lichfield-district-council
+  - LondonBoroughSutton
   - LutonCouncil
   - RotherDC
+  - RoyalBoroughKingston
   - surreydigitalservices
   - thehighlandcouncil
   - TraffordCouncil
@@ -684,7 +694,6 @@ U.S. States:
   - idahofishgame
   - investmentboard
   - LADCO
-  - LibraryofVA
   - massgov
   - MFWP-GIS
   - mn-script-team
@@ -707,7 +716,10 @@ U.S. States:
   - twdb
   - TxDOT
   - UtahForestryFireStateLands
+  - LibraryofVA
+  - VDEQ
   - VDGIF
+  - Virginia-Department-of-Health
   - Virginia-House-of-Delegates
   - vtrans
   - vtrans-rail

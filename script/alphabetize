@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 # Alphabetizes the content of all YAML files in the _data directory
 

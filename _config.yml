@@ -15,6 +15,7 @@ gems:
   - jekyll-seo-tag
   - jekyll-coffeescript
   - jekyll-sitemap
+  - jekyll-octicons
 
 sass:
   style: :compressed

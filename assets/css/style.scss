@@ -1,9 +1,8 @@
 ---
 ---
 
-$octicons-font-path: "/assets/vendor/octicons/octicons";
-@import "bootstrap/stylesheets/bootstrap";
-@import "octicons";
+@import "primer-core/index.scss";
+@import "custom";
 
 li img {
   margin: 10px 0;

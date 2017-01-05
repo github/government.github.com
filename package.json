@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/github/government.github.com/issues"
   },
-  "homepage": "http://government.github.com"
+  "homepage": "http://government.github.com",
+  "dependencies": {
+    "primer-core": "^1.1.0",
+    "primer-marketing": "^1.1.0"
+  }
 }

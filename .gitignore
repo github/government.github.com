@@ -12,3 +12,4 @@ assets/vendor/bootstrap-sass/assets/javascripts/
 .sass-cache
 .env
 tmp/
+/node_modules

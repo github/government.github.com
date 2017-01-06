@@ -130,56 +130,47 @@ permalink: /
         {% assign count = count | plus:1 %}
       {% endfor %}
     {% endfor %}
-    <div class="full-screen featured-orgs text-center">
+    <div class="featured-orgs text-center p-2">
       {% for org in site.featured_orgs %}
       <a href="https://github.com/{{ org }}" class="animate-in">{% avatar user=org size=80 %}</a>
       {% endfor %}
     </div>
   </div>
+  <div class="container-lg px-3 py-5 py-md-6">
+    <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">Get started today</h2>
+    <p class="alt-lead text-gray text-center mb-4">Create a free account to get started with GitHub. <a href="mailto:government@github.com">Contact us</a> to learn more about hosting your own GitHub instance.</p>
+    <div class="clearfix gut-lg">
+      <div class="col-md-6 float-left">
+        <h3 class="alt-h3 mb-2">Signup for an account</h3>
+        <p class="text-gray"><a href="https://github.com/signup/free" target="_blank">Sign up</a> for an individual GitHub account for free.</p>
+        <p class="text-gray">If you have a personal GitHub account, simply <a href="https://government-community.githubapp.com/">add and confirm</a> your government email.</p>
+      </div>
+      <div class="col-md-6 float-left">
+        <h3 class="alt-h3 mb-2">Create an organization</h3>
+        <p class="text-gray">An organization is your official presence on GitHub. <a href="https://github.com/organizations/new">Create a free organization</a> after you log in. Open source projects stay free.</p>
+        <p class="text-gray">Prefer to host your own GitHub instance? <a href="mailto:government@github.com">Contact us</a> or <a href="https://enterprise.github.com">request a free trial</a> to get started.
+      </div>
+      <div class="col-md-6 float-left">
+        <h3 class="alt-h3 mb-2">Join the Peer Group</h3>
+        <p class="text-gray">Join the <a href="https://government-community.githubapp.com/">semi-private group</a> of government employees using GitHub to share best practices for software collaboration.</p>
+        <p class="text-gray">You will <a href="https://government-community.githubapp.com/">have access</a> once the government email associated with your account is verified.
+      </div>
+      <div class="col-md-6 float-left">
+        <h3 class="alt-h3 mb-2">Learn More</h3>
+        <p class="text-gray">Browse GitHub training resources at <a href="http://training.github.com">training.github.com</a>.</p>
+        <p class="text-gray">Contact <a href="mailto:training@github.com">training@github.com</a> to bring GitHub training to your team.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 
-
-
-<div id="get-started" class="mini-section">
-  <div class="container">
-    <h1>Get started today</h1>
-    <h3 class="lead-graf">Create a free account to get started with GitHub. <a href="mailto:government@github.com">Contact us</a> to learn more about hosting your own GitHub instance.</h3>
-
-    <div class="row section">
-      <div class="col-md-3">
-        <h3>Signup for an account</h3>
-        <p><a href="https://github.com/signup/free" target="_blank">Sign up</a> for an individual GitHub account for free.</p>
-        <p>If you have a personal GitHub account, simply <a href="https://government-community.githubapp.com/">add and confirm</a> your government email.</p>
-      </div>
-
-      <div class="col-md-3">
-        <h3>Create an organization</h3>
-        <p>An organization is your official presence on GitHub. <a href="https://github.com/organizations/new">Create a free organization</a> after you log in. Open source projects stay free.</p>
-        <p>Prefer to host your own GitHub instance? <a href="mailto:government@github.com">Contact us</a> or <a href="https://enterprise.github.com">request a free trial</a> to get started.
-      </div>
-
-      <div class="col-md-3">
-        <h3>Join the Peer Group</h3>
-        <p>Join the <a href="https://government-community.githubapp.com/">semi-private group</a> of government employees using GitHub to share best practices for software collaboration.</p>
-        <p>You will <a href="https://government-community.githubapp.com/">have access</a> once the government email associated with your account is verified.
-      </div>
-
-      <div class="col-md-3">
-        <h3>Learn More</h3>
-        <p>Browse GitHub training resources at <a href="http://training.github.com">training.github.com</a>.</p>
-        <p>Contact <a href="mailto:training@github.com">training@github.com</a> to bring GitHub training to your team.</p>
-      </div>
-    </div>
-
-</div>
-</div>
-
-
-<div id="contact-a-human" class="full-width human">
-  <div class="container mini-section">
-    <span class="mega-octicon octicon-person"></span>
-    <h3>Talk to a human</h3>
+<section id="contact-a-human" class="bg-gray-light">
+  <div class="container-lg px-3 py-5 py-md-6 text-center">
+    <span class="text-center">
+      {% octicon person height:42 class:"d-block mx-auto mb-4 text-center fill-gray" aria-label:person %}
+    </span>
+    <h3 class="alt-h2 mb-4">Talk to a human</h3>
     <p>Email <a href="mailto:government@github.com">government@github.com</a> to talk to GitHub's government team.</p>
     <p><a href="https://government-community.githubapp.com/">Post a question</a> in the government community to get feedback from other GitHub users in government.</p>
   </div>

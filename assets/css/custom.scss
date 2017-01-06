@@ -1,3 +1,10 @@
+// $blue: #2D86FB;
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
 // HEADER
 
 .page-header {
@@ -16,9 +23,8 @@
   max-width: 280px;
 }
 
-.fill-blue {
-  fill: $blue;
-}
+.fill-blue { fill: $blue; }
+.fill-gray { fill: $gray; }
 
 .example-img {
   border: 5px solid $white;
@@ -29,8 +35,7 @@
 .featured-orgs {
   margin-right: -55px;
   margin-left: -55px;
-  padding-top: 30px;
-  max-height: 345px;
+  max-height: 348px;
   overflow: hidden;
-  text-align-center;
+  text-align: center;
 }

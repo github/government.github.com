@@ -5,80 +5,10 @@
 @import "primer-marketing/index.scss";
 @import "custom";
 
-li img {
-  margin: 10px 0;
-  padding: 1px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  max-width: 660px;
-}
-
-/* begin overriding */
-
-body {
-  font: 400 16px/1.5 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #333;
-}
-
-.container {
-  max-width: 995px;
-  padding: 0;
-}
-
-/* headings */
-
-.lead-graf {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-.micro {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-/* link styles */
-
-a {
-  text-decoration: none;
-  color: #2D86FB;
-}
-
-a:hover {
-  color: #2D86FB;
-}
-
-/* other text styles */
-
-p, ul, ol {
-  font-weight: 400;
-}
-
-li {
-  padding: 4px 0;
-  text-align: left;
-}
-
-.no-style-list {
-  list-style-type: none;
-  padding-left: 0;
-  margin-left: 0;
-}
 
 /* section */
 /* -------------------------------------------------------------------------- */
 
-.mini-section {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  text-align: center;
-}
-
-.section {
-  padding: 60px 0;
-}
 
 .more-than, .human {
   background: #F8F8F8;

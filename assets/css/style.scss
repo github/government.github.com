@@ -2,6 +2,7 @@
 ---
 
 @import "primer-core/index.scss";
+@import "primer-marketing/index.scss";
 @import "custom";
 
 li img {
@@ -24,50 +25,7 @@ body {
   padding: 0;
 }
 
-p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
 /* headings */
-
-h1, h2, h3, h4, h5, h6 {
-  color: #333;
-}
-
-h1 {
-  font-size: 54px;
-  font-weight: 300;
-  line-height: 1.1;
-  letter-spacing: -.02em;
-  margin-bottom: .5em;
-}
-
-h2 {
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-h3 {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-h4 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.5;
-  margin-bottom: 0;
-}
-
-h6 {
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 1.5;
-}
 
 .lead-graf {
   font-size: 24px;
@@ -109,75 +67,6 @@ li {
   margin-left: 0;
 }
 
-/* Header and Navigation */
-/* -------------------------------------------------------------------------- */
-
-.full-width {
-  width: 100%;
-  background-color: #2D86FB;
-  -webkit-transition: background-image 0.6s ease-in-out 0s;
-  -moz-transition: background-image 0.6s ease-in-out 0s;
-  -o-transition: background-image 0.6s ease-in-out 0s;
-  transition: background-image 0.6s ease-in-out 0s;
-}
-
-.full-width.olives {
-  background-image: url('../img/olivebranch.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.navbar {
-  padding-bottom: 10px;
-  padding-top: 40px;
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.navbar ul {
-  margin-bottom: 20px;
-  margin-left: -40px;
-  margin-top: 20px;
-  list-style: none;
-}
-
-.navbar ul li {
-  display: inline;
-  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
-  margin: 0 8px;
-}
-
-.navbar ul li a {
-  color: #fff;
-}
-
-/* Splash */
-/* -------------------------------------------------------------------------- */
-
-.splash {
-  padding-top: 30px;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.splash h1 {
-  font-size: 54px;
-  /*text-shadow: 0 1px 1px rgba(0,0,0,0.2);*/
-  color: #fff;
-  border: none;
-  padding: 0;
-  margin: 0;
-  margin-bottom: .5em;
-}
-
-.splash h2 {
-  color: #fff;
-  padding: 0;
-  margin: 0;
-  /*text-shadow: 0 1px 1px rgba(0,0,0,0.2);*/
-  opacity: .65;
-}
-
 /* section */
 /* -------------------------------------------------------------------------- */
 
@@ -199,19 +88,6 @@ li {
   width: 50%;
 }
 
-.source-data-code img {
-  border: 5px solid #fff;
-  max-width: 100%;
-}
-
-#get-started h3 {
-  font-size: 21px;
-}
-
-#get-started p {
-  font-size: 15px;
-  text-align: justify;
-}
 
 /* footer */
 /* -------------------------------------------------------------------------- */
@@ -285,17 +161,6 @@ li {
   color: #2D86FB;
 }
 
-.featured-orgs {
-  margin-right: -55px;
-  margin-left: -55px;
-  padding-top: 30px;
-  height: 345px;
-  overflow: hidden;
-}
-
-.featured-orgs img {
-  padding: 3px;
-}
 
 /* Supporting page */
 /* -------------------------------------------------------------------------- */
@@ -414,12 +279,6 @@ td h4 {
 
 /* Media Queries */
 /* -------------------------------------------------------------------------- */
-
-@media only screen and (min-width: 980px)  {
-  .navbar .nav > li > a { text-decoration: none; margin-left: 25px; }
-  .navbar .nav > li > a:focus { text-decoration: underline; }
-  .navbar .nav > li > a:hover { color: #2D86FB; text-decoration: underline; }
-}
 
 @media only screen and (max-width: 979px)  {
   .no-mobile { display: none !important; }

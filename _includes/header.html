@@ -13,16 +13,16 @@
 
 <body{% if page.id %} id="{{ page.id }}"{% endif %} class="{{ page.layout }}">
 
-  <div class="full-width olives">
-    <div class="navbar">
-        <div class="container">
-            <a href="/"><img class="logo" src="/assets/img/logomark.png" alt="GitHub and Government" width="269" height="23"></a>
-            <ul>
-              <li><a href="/community/">Who's using GitHub</a></li>
-              <li><a href="https://github.com/government/welcome#readme">Peer Group</a></li>
-              <li><a href="/accessibility">Accessibility</a></li>
-              <li><a href="/#contact-a-human">Contact</a></li>
-            </ul>
-        </div>
+  <div class="page-header pt-4 pb-5">
+    <div class="container-lg">
+      <div class="text-center">
+        <a href="/"><img class="logo py-3" src="/assets/img/logomark.png" alt="GitHub and Government"></a>
+        <ul>
+          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="/community/" class="text-white">Who's using GitHub</a></li>
+          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="https://github.com/government/welcome#readme" class="text-white">Peer Group</a></li>
+          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="/accessibility" class="text-white">Accessibility</a></li>
+          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="/#contact-a-human" class="text-white">Contact</a></li>
+        </ul>
+      </div>
     </div>
     <!-- .full-width here gets closed on support-page.html and home.html layouts -->

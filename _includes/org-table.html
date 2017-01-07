@@ -7,37 +7,21 @@
     {% assign columns = 4 %}
     {% for type_hash in include.orgs %}
       {% assign slug = type_hash[0] | downcase | replace: ' ','-' | replace: '.','' %}
-      <div class="org-type" id="type-{{ slug }}">
-        <h4 class="alt-h3" id="{{ slug }}">{{ type_hash[0] }} ({{ type_hash[1] | size }})</h4>
-
-        <div class="orgs">
-          {% for org in type_hash[1] %}
-
-            <div class="d-inline-block border text-center p-3 mr-4 mb-4 org">
-              <a href="https://github.com/{{ org }}" title="{{ org }}">
-                {% avatar user=org size=60 %}
-                <div class="org-name text-small">
-                  @{{ org }}
-                </div>
-              </a>
-            </div>
-
-          {% endfor %}<!-- loop orgs -->
-
-        </div><!-- orgs -->
+      <div class="org-type clearfix" id="type-{{ slug }}">
+        <h4 class="alt-h3 mb-3" id="{{ slug }}">{{ type_hash[0] }} ({{ type_hash[1] | size }})</h4>
 
         <div class="orgs">
           {% for org in type_hash[1] %}
 
             {% assign column_number = forloop.index0 | modulo:columns %}
             {% if column_number == 0 %}
-              <div class="row org-row">
+              <div class="org-row clearfix gut-md">
             {% endif %}
 
-            <div class="col-sm-{{ 12 | divided_by:columns }} org">
-              <a href="https://github.com/{{ org }}" title="{{ org }}">
+            <div class="col-sm-3 float-left org">
+              <a href="https://github.com/{{ org }}" title="{{ org }}" class="border d-block text-center px-2 py-4 mb-4">
                 {% avatar user=org size=60 %}
-                <div class="org-name">
+                <div class="org-name text-small">
                   @{{ org }}
                 </div>
               </a>

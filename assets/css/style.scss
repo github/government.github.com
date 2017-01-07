@@ -152,9 +152,6 @@ code {
 }
 
 .org-include .no-matches { display: none; }
-.org-type .orgs { margin-top: 25px; margin-bottom: 25px; }
-.org-row .org { padding: 15px; }
-.org-row .org-name { margin-top: 10px; }
 
 td h4 {
   margin: .5em 0;
@@ -204,34 +201,6 @@ td h4 {
   opacity: 0;
   -webkit-transform: scale(.4);
   transform: scale(.4)
-}
-
-
-/* Media Queries */
-/* -------------------------------------------------------------------------- */
-
-@media only screen and (max-width: 979px)  {
-  .no-mobile { display: none !important; }
-}
-
-@media only screen and (min-width: 650px) and (max-width: 767px) {
-  body { padding: 0; }
-  img { width: 100%; }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 649px) {
-  body { padding: 0; }
-  h1, h2, h3 { line-height: 1.2em; }
-  a { word-wrap: break-word; }
-  .splash { padding-top: 20px; font-size: 80%; }
-  .splash h1 { font-size: 237%; }
-  .splash h2 {font-size: 200%; }
-  .mini-section { padding: 20px; }
-  .the-orgs { left: 0; }
-  .source-data-code img { border: none; }
-  .human .mini-section { width: 80%; }
-  .full-width.olives { background-size: 190%; }
-  .support-page .full-width.olives { background-size: 140%; }
 }
 
 /* VPAT */

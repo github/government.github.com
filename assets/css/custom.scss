@@ -96,3 +96,37 @@ body {
   -webkit-transform: scale(.4);
   transform: scale(.4)
 }
+
+
+.a11y-table {
+  min-width: 640px;
+  border: $border;
+
+  th {
+    background: #eeeeee;
+  }
+
+  tr {
+    font-size: 14px;
+    border-bottom: $border;
+  }
+
+  td, th {
+    padding: $spacer-2;
+
+    @include breakpoint(lg){
+      padding: $spacer-3;
+    }
+  }
+
+  td.criterion { width: 50%; }
+  td.support { width: 15%; }
+  td.comments { width: 35%; }
+
+
+}
+
+td.supports { color: #6CC644;  }
+td.not-applicable { color: #999; }
+td.supports-with-exceptions { color: #f93; }
+td.does-not-support { color: #BD2C00; }

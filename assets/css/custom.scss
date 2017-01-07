@@ -25,12 +25,12 @@ body {
 
 .fill-blue { fill: $blue; }
 .fill-gray { fill: $gray; }
+.fill-gray-light { fill: $gray-light; }
 
 .example-img {
   border: 5px solid $white;
   max-width: 100%;
 }
-
 
 .featured-orgs {
   margin-right: -55px;
@@ -38,4 +38,61 @@ body {
   max-height: 348px;
   overflow: hidden;
   text-align: center;
+}
+
+#filter {
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #2D86FB;
+  box-shadow: none;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.org-include .no-matches { display: none; }
+
+/* Animations */
+/* -------------------------------------------------------------------------- */
+
+.animate-in {
+  -webkit-transition: all 0.6s ease-in-out 0s;
+  transition: all 0.6s ease-in-out 0s;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.animate-out {
+  -webkit-transition: all 0.6s ease-in-out 0s;
+  transition: all 0.6s ease-in-out 0s;
+  -webkit-animation: scale-in 0.6s ease-in-out;
+  animation: scale-in 0.6s ease-in-out;
+
+}
+
+@keyframes scale-in {
+  0% {
+    -webkit-transform: scale(.4);
+    transform: scale(.4);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes scale-in {
+  0% {-webkit-transform: scale(.4);}
+  100% {-webkit-transform: scale(1);}
+}
+
+.pre-animate {
+  opacity: 0;
+  -webkit-transform: translateX(25px);
+  transform: translateX(25px);
+}
+
+.pre-animate-out {
+  opacity: 0;
+  -webkit-transform: scale(.4);
+  transform: scale(.4)
 }

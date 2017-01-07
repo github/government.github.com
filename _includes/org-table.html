@@ -13,7 +13,7 @@
         <div class="orgs">
           {% for org in type_hash[1] %}
 
-            <div class="d-inline-block border text-center p-3 mr-4 mb-4">
+            <div class="d-inline-block border text-center p-3 mr-4 mb-4 org">
               <a href="https://github.com/{{ org }}" title="{{ org }}">
                 {% avatar user=org size=60 %}
                 <div class="org-name text-small">
@@ -25,6 +25,35 @@
           {% endfor %}<!-- loop orgs -->
 
         </div><!-- orgs -->
+
+        <div class="orgs">
+          {% for org in type_hash[1] %}
+
+            {% assign column_number = forloop.index0 | modulo:columns %}
+            {% if column_number == 0 %}
+              <div class="row org-row">
+            {% endif %}
+
+            <div class="col-sm-{{ 12 | divided_by:columns }} org">
+              <a href="https://github.com/{{ org }}" title="{{ org }}">
+                {% avatar user=org size=60 %}
+                <div class="org-name">
+                  @{{ org }}
+                </div>
+              </a>
+            </div><!-- col-md-{{ 12 | divided_by:columns }} -->
+
+            {% if column_number == 3 %}
+              </div><!-- row because column_number -->
+            {% endif %}
+          {% endfor %}<!-- loop orgs -->
+
+          {% if column_number != 3 %}
+            </div><!-- row because end of group -->
+          {% endif %}
+
+        </div><!-- orgs -->
+
       </div><!-- org-type -->
     {% endfor %}<!-- loop types -->
   </div><!-- org-include -->

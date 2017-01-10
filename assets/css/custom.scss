@@ -27,7 +27,7 @@ body {
 .fill-gray { fill: $gray; }
 .fill-gray-light { fill: $gray-light; }
 
-.example-img {
+.img-border {
   border: 5px solid $white;
   max-width: 100%;
 }
@@ -96,7 +96,6 @@ body {
   -webkit-transform: scale(.4);
   transform: scale(.4)
 }
-
 
 .a11y-table {
   min-width: 640px;

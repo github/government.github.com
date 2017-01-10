@@ -1,0 +1,129 @@
+// Box [WIP]
+// Intended to replace simple-box, boxed-group, and table-list
+// stylelint-disable selector-class-pattern
+
+.Box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.Box-header {
+  padding: $spacer-3;
+  overflow: hidden;
+  background-color: #f5f5f5; // Check if this is standard
+  border-bottom: 1px solid #ddd;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.Box-title {
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.Box-close {
+  padding: $spacer-3 $spacer-3; // replace with spacers
+  margin: (-$spacer-3) (-$spacer-3);
+  color: #888;
+
+  &:hover { color: #4078c0; }
+
+}
+
+.Box-body {
+  padding: $spacer-3 $spacer-3;
+}
+
+.Box-body-row {
+  padding: $spacer-3 $spacer-3;
+  margin: $spacer-3 (-$spacer-3) (-$spacer-3);
+  list-style-type: none; // To account for apply Box component to a list
+  border-top: 1px solid #eee;
+
+  &:first-of-type {
+    margin-top: (-$spacer-3);
+    border-top: 0;
+  }
+  // To highlight unread issues and pull requests.
+  // Need to review changing this into a more specific name.
+  &.unread {
+    box-shadow: 2px 0 0 $blue inset;
+  }
+
+  &.navigation-focus {
+    // Focus styles for when drag icon
+    .Box-row--drag-button {
+      color: $text-blue;
+      cursor: grab;
+      opacity: 100;
+    }
+
+    // Grabbing while row is dragged
+    &.is-dragging .Box-row--drag-button {
+      cursor: grabbing;
+    }
+
+    // Row dragging styles
+    &.sortable-chosen {
+      background-color: $bg-gray-light;
+    }
+
+    // Makes dragging row background gray
+    &.sortable-ghost {
+      background-color: $bg-gray;
+
+      // Hides contents of row while dragging so row looks solid gray
+      .Box-row--drag-hide {
+        opacity: 0;
+      }
+    }
+
+  }
+}
+
+// Optional responsive link style
+// Makes links on mobile blue since they don't have hover state,
+// and links are dark-gray with blue hover on desktop.
+.Box-body-row--highlight {
+  &.navigation-focus {
+    @include breakpoint(lg) {
+      background-color: #f5f5f5;
+    }
+  }
+
+  .Box-row-link {
+    color: $text-gray-dark;
+    text-decoration: none;
+
+    &:hover {
+      color: $text-blue;
+      text-decoration: none;
+    }
+
+  }
+
+}
+
+// Optional drag icon styles for reordering items
+// Focus styles included in .Box-body-row above
+.Box-row--drag-button {
+  opacity: 0;
+}
+
+// Optional checkbox for rows
+.Box-row--checkbox {
+  position: relative;
+  top: 1px;
+}
+
+.Box-footer {
+  padding: $spacer-3;
+  border-top: 1px solid #eee;
+}
+
+// Option for a box with scrolling content
+.Box--scrollable {
+  max-height: 324px;
+  overflow: scroll;
+}

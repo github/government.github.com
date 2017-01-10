@@ -101,26 +101,34 @@ body {
 .a11y-table {
   min-width: 640px;
   border: $border;
+  margin-top: $spacer-3;
 
   th {
     background: #eeeeee;
+    font-size: 14px;
+    @include breakpoint(lg){
+      font-size: 16px;
+    }
   }
 
   tr {
-    font-size: 14px;
-    border-bottom: $border;
+    font-size: 13px;
+    @include breakpoint(lg){
+      font-size: 14px;
+    }
   }
 
   td, th {
     padding: $spacer-2;
+    border: $border;
 
-    @include breakpoint(lg){
+    @include breakpoint(md){
       padding: $spacer-3;
     }
   }
 
-  td.criterion { width: 50%; }
-  td.support { width: 15%; }
+  td.criterion { width: 45%; }
+  td.support { width: 20%; font-weight: 700;}
   td.comments { width: 35%; }
 
 

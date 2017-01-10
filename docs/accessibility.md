@@ -311,7 +311,7 @@ data:
 
   <table class="a11y-table">
     <thead>
-      <tr class="text-left pb-4 border-bottom">
+      <tr class="text-left pb-4">
         <th>Criteria</th>
         <th>Level of Support</th>
         <th>Remarks and explanations</th>
@@ -338,3 +338,5 @@ data:
     </tbody>
   </table>
 {% endfor %}
+
+<div class="my-5">&nbsp;<div>

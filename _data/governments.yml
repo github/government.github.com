@@ -96,8 +96,8 @@ Canada:
   - cityofgreatersudbury
   - cityofottawa
   - cityofsurrey
-  - communicationssecurityestablishment
   - cngo
+  - communicationssecurityestablishment
   - ECCC-MSC
   - electionsquebec
   - GeoCanViz
@@ -155,8 +155,8 @@ European Union:
   - europeana
 
 Finland:
-  - Digipalvelutehdas
   - City-of-Helsinki
+  - Digipalvelutehdas
   - finnishtransportagency
   - Helsingin-kaupungin-tietokeskus
   - helsinki-city-library
@@ -221,7 +221,7 @@ Japan:
   - nhohq
   - nims-library
   - wakayama-pref-org
-  
+
 Jersey:
   - statesofjersey
 
@@ -233,8 +233,8 @@ Lithuania:
   - vilnius
 
 Luxemburg:
-  - opendatalu
   - Geoportail-Luxembourg
+  - opendatalu
 
 Malaysia:
   - pmo2
@@ -243,9 +243,9 @@ Mexico:
   - CSB-IG
   - DDT-INMEGEN
   - inmegen
+  - mxabierto
   - profeco
   - redoaxacadetodos
-  - mxabierto
 
 New Zealand:
   - CanterburyRegionalCouncil
@@ -293,9 +293,9 @@ Poland:
   - Ministerstwo-Cyfryzacji
 
 Romania:
+  - gov-ithub
   - govro
   - MinistryOfLabor
-  - gov-ithub
 
 Saudi Arabia:
   - SAS-NCDC
@@ -308,8 +308,8 @@ South Africa:
   - eddZA
 
 Spain:
-  - AyuntamientoMadrid
   - AjuntamentdeBarcelona
+  - AyuntamientoMadrid
   - ctt-gob-es
   - icane
   - JuntaDeAndalucia
@@ -372,10 +372,10 @@ U.K. Central:
   - dvsa
   - EnvHack2
   - EnvironmentAgency
+  - GCHQ
   - gds-attic
   - gds-dead
   - gds-operations
-  - GCHQ
   - guidance-guarantee-programme
   - hmrc
   - insolvencyservice
@@ -694,6 +694,7 @@ U.S. States:
   - idahofishgame
   - investmentboard
   - LADCO
+  - LibraryofVA
   - massgov
   - MFWP-GIS
   - mn-script-team
@@ -716,7 +717,6 @@ U.S. States:
   - twdb
   - TxDOT
   - UtahForestryFireStateLands
-  - LibraryofVA
   - VDEQ
   - VDGIF
   - Virginia-Department-of-Health

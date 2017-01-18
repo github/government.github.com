@@ -221,7 +221,7 @@ Japan:
   - nhohq
   - nims-library
   - wakayama-pref-org
-  
+
 Jersey:
   - statesofjersey
 
@@ -542,8 +542,10 @@ U.S. Federal:
   - defense-cyber-crime-center
   - demand-driven-open-data
   - department-of-veterans-affairs
+  - deptofdefense
   - dhs-ncats
   - didsr
+  - digital-analytics-program
   - EEOC
   - energyapps
   - erdc-cm
@@ -612,6 +614,7 @@ U.S. Federal:
   - SERVIR
   - state-hiu
   - sunpy
+  - us-bea
   - US-CBP
   - usagov
   - usaid

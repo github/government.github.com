@@ -6,8 +6,8 @@ gem 'coffee-script'
 gem 'coffee-script-source', '~> 1.11.1'
 gem 'github-pages', '105'
 gem 'jekyll-avatar'
-gem 'rake'
 gem 'jekyll-octicons'
+gem 'rake'
 
 group :development, :test do
   gem 'html-proofer'

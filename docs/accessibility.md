@@ -304,10 +304,13 @@ data:
 </div>
 
 {% for section in page.data %}
-  <h3 class="border-top mt-4 mt-md-6 pt-4 alt-h3 mb-3">{{ section[0] }}</h3>
-{% if section[1].product %}
-*Applicable product(s): {{ section[1].product }}*
-{% endif %}
+<div class="border-top mt-4 mt-md-6 pt-4 alt-h3 mb-3" markdown="1">
+### {{ section[0] }}
+</div>
+
+  {% if section[1].product %}
+  * Applicable product(s): {{ section[1].product }}*
+  {% endif %}
 
   <table class="a11y-table">
     <thead>
@@ -330,9 +333,9 @@ data:
         <td class="support {{ requirement.support | downcase | replace:" ","-" }}">
          {{ requirement.support }}
         </td>
-<td markdown="1" class="comments">
+  <td markdown="1" class="comments">
 {{ requirement.comments }}
-</td>
+  </td>
       </tr>
     {% endfor %}
     </tbody>

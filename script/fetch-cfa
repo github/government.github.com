@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 # fetches list of CFA brigades from the CFA API, and outputs merged list to command line
 
@@ -15,7 +16,7 @@ module CFA
     ENDPOINT = 'http://codeforamerica.org/api/organizations'
     DEFAULT_ARGS = {
       'per_page' => 200
-    }
+    }.freeze
 
     def fetch
       logger.info 'Updating CFA list...'

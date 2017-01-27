@@ -1,51 +1,122 @@
 # Add non-profits or groups focused on government
 
 Civic Hackers:
+  - 16iacc
+  - adhocteam
   - akroncivichackathon
-  - bundestag
+  - avoindata
+  - BD-IATI
+  - ciudadanointeligente
+  - civcoms
+  - civic-commons
+  - civicdataeu
+  - civicninjas
+  - civicquarterly
   - civio
   - code-tj
+  - codeandomonterrey
   - codeforhuntsville
+  - codeforoakland
   - codeforseattle
+  - codesy
+  - correctiv
   - databr
+  - DataKind
+  - DataKind-UK
+  - datamade
   - datauy
   - dataviz
+  - dclegalhackers
+  - DemocracyClub
+  - democracyworks
+  - developmentseed
   - dobtco
+  - drupal4gov
+  - dssg
   - dxw
+  - electionleaflets
+  - everypolitician
+  - everypolitician-scrapers
+  - girlscodingkosova
   - gitmachines
-  - govbrasil
+  - govex
+  - govhackaustralia
+  - govready
+  - govtrack
+  - hackforchange
   - hasadna
   - hubcivico
+  - influencemapping
   - infoculture
   - koelnapi
+  - lisbon-opendata
   - localdata
+  - mapnificent
+  - mapseed
   - myanmarapi
   - mysociety
+  - netzwerkrecherche
   - npp
+  - NRGI
   - nycedc
   - obshtestvo
+  - occrp
   - odhk
   - open-city
+  - open-data-standards
+  - open311
+  - openaddressesuk
   - openaustralia
+  - openbudget
+  - opencivicdata
+  - opencolorado
+  - opendata
+  - opendatahk
+  - opendatakosovo
+  - opendatalab-de
   - opendatatajikistan
+  - opendatateam
+  - opendatatrentino
+  - openfisca
+  - opengovernment
   - opengovfoundation
   - opengovld
   - openjc
   - openkratio
+  - openlawdc
   - opennewzealand
   - opennorth
+  - opennorth-archive
+  - openopps
   - openplans
+  - openregister
   - openstate
+  - openstates
+  - opented
   - openva
   - otvorenesudy
+  - planningalerts-scrapers
+  - plonegov
+  - poplus
+  - popolo-project
   - postcode
+  - procurement-analytics
+  - pwyf
   - ropengov
+  - safecast
+  - security-force-monitor
+  - smcgov
   - spaceadvocates
+  - spendb
+  - stadtlandcode
   - statedecoded
   - sunlightlabs
+  - sunlightpolicy
   - teampopong
+  - tfrce
   - thacker
   - theodi
+  - tulsawebdevs
   - unitedstates
   - votinginfoproject
   - yourmapper
@@ -66,7 +137,6 @@ Code for All:
   - codeforthecaribbean
   - codefortomorrow
   - g0v
-  - hackingmty
   - labplc
 
 Code For America:
@@ -122,6 +192,7 @@ Code For America:
   - codefornrv
   - codeforokinawa
   - codeforpg
+  - codeforphilly
   - codeforportland
   - codeforraleigh
   - codeforrockford
@@ -134,11 +205,14 @@ Code For America:
   - codefortuscaloosa
   - codeforvegas
   - codeisland
+  - e-government-ua
   - friendlycode
   - hackforla
   - hackingmadison
   - hackmichiana
   - localwiki
+  - mainecivichackday
+  - nationaldayofcivichacking
   - nucivic
   - nuknightlab
   - open-austin
@@ -150,23 +224,35 @@ Code For America:
   - openlexington
   - opennebraska
   - openoakland
-  - openpgh
   - opensaltlake
   - opensandiego
   - opensatx
   - opensmc
-  - opensyracuse
   - opentwincities
   - openwichita
   - openzagreb
   - sarl-hackerspace
   - sfbrigade
   - smartchicago
-  - smartercleanup
 
 Open Knowledge Foundation:
+  - bundestag
+  - ckan
+  - CultureLabs
+  - dataprotocols
+  - datasets
+  - frictionlessdata
+  - Jugendhackt
   - okfde
   - okfegypt
   - okffi
+  - okffi-science
   - okfn
   - okfn-brasil
+  - OParl
+  - opendatanetwork
+  - openknowledgebe
+  - openspending
+  - OpenTransport
+  - opentrials
+  - Recline

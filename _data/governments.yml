@@ -3,7 +3,6 @@
 Argentina:
   - argob
   - cifasis
-  - conectados-ar
   - gcba
   - inti-cmnb
   - municipioriogrande
@@ -15,10 +14,10 @@ Australia:
   - ausdto
   - australianantarcticdatacentre
   - bom-radar
+  - commerce-wa-ols
   - datagovau
   - dpipwe
   - envris
-  - ga-m3dv
   - gccgisteam
   - GeoscienceAustralia
   - govcms
@@ -27,7 +26,6 @@ Australia:
   - innovationgovau
   - Landgate
   - mcma
-  - museumvictoria
   - nla
   - nmalabs
   - NSWPlanning
@@ -62,11 +60,13 @@ Brazil:
   - govbr
   - GovBrasil
   - ibamacsr
+  - imagov
   - InstitutoBenjaminConstant
   - interlegis
   - justicagovbr
   - labhackercd
   - lexml
+  - MP-ES
   - pensandoodireito
   - plonegovbr
   - pr-snas
@@ -77,6 +77,7 @@ Brazil:
   - secom-tocantins
   - secultce
   - SerraWeb
+  - tcers
   - tisorocaba
   - tre-pa
   - wpgovbr
@@ -90,16 +91,18 @@ Canada:
   - abgov
   - bcdevexchange
   - BCGov
-  - ca-canada
+  - canada-ca
   - CIHR
   - cityofgreatersudbury
   - cityofottawa
   - cityofsurrey
   - cngo
+  - communicationssecurityestablishment
+  - ECCC-MSC
   - electionsquebec
+  - fgpv-vpgf
   - GeoCanViz
   - GNWT
-  - goc
   - HIFIS
   - infra-geo-ouverte
   - MC-MBO-WebPublishingTeam
@@ -108,11 +111,12 @@ Canada:
   - nsgov
   - open-data
   - phac-nml
-  - pwgsc
+  - pspc-spac
   - RAMP-PCAR
   - RDOQ
   - ServiceCanada
   - TBS-EACPD
+  - tbs-sct
   - thecityofcalgary
   - VilledeMontreal
   - wet-boew
@@ -154,7 +158,9 @@ European Union:
 Finland:
   - City-of-Helsinki
   - CSC-IT-Center-for-Science
+  - Digipalvelutehdas
   - finnishtransportagency
+  - Helsingin-kaupungin-tietokeskus
   - helsinki-city-library
   - HSLdevcom
   - Lounaispaikka
@@ -162,6 +168,7 @@ Finland:
   - NatLibFi
   - nlsfi
   - opetushallitus
+  - vrk-kpa
 
 France:
   - afimb
@@ -204,6 +211,7 @@ Israel:
   - Digital-Israel
 
 Italy:
+  - AgID
   - ComuneBologna
   - Formez
   - PloneGov-IT
@@ -217,12 +225,19 @@ Japan:
   - nims-library
   - wakayama-pref-org
 
+Jersey:
+  - statesofjersey
+
 Latvia:
   - CSBLatvia
 
 Lithuania:
   - viesujupirkimutarnyba
   - vilnius
+
+Luxemburg:
+  - Geoportail-Luxembourg
+  - opendatalu
 
 Malaysia:
   - pmo2
@@ -231,6 +246,7 @@ Mexico:
   - CSB-IG
   - DDT-INMEGEN
   - inmegen
+  - mxabierto
   - profeco
   - redoaxacadetodos
 
@@ -242,20 +258,22 @@ New Zealand:
   - linz
   - localgovernment
   - nz-mbie
-  - NZWellingtonCityCouncil
   - opcnz
   - R9BetterAPIs
   - te-papa
 
 Norway:
+  - altinn
   - difi
   - dss-web
   - kartverket
   - KRD-KOMM-VL
   - metno
   - navikt
+  - nlbdev
   - rutebanken
   - ruterno
+  - telemark
   - vegvesen
 
 Panama:
@@ -275,23 +293,29 @@ Philippines:
 
 Poland:
   - coi-gov-pl
+  - Ministerstwo-Cyfryzacji
 
 Romania:
+  - gov-ithub
   - govro
+  - MinistryOfLabor
 
 Saudi Arabia:
   - SAS-NCDC
 
 Singapore:
-  - idagds
+  - govtechsg
   - moexmen
 
 South Africa:
   - eddZA
 
 Spain:
+  - AjuntamentdeBarcelona
   - AyuntamientoMadrid
   - ctt-gob-es
+  - icane
+  - JuntaDeAndalucia
 
 Sweden:
   - domstol
@@ -348,12 +372,13 @@ U.K. Central:
   - directgov-innovate
   - dstl
   - dvla
+  - dvsa
   - EnvHack2
   - EnvironmentAgency
+  - GCHQ
   - gds-attic
   - gds-dead
   - gds-operations
-  - GovernmentCommunicationsHeadquarters
   - guidance-guarantee-programme
   - hmrc
   - insolvencyservice
@@ -373,15 +398,17 @@ U.K. Central:
   - ministryofjustice
   - naouk
   - nationalarchives
+  - ncscuk
   - OfqualGovUK
   - ONSdigital
   - openglasgow
   - osgeouk
   - scottishgovernment
+  - SkillsFundingAgency
   - ukforeignoffice
+  - UKGovernmentBEIS
   - UKHomeOffice
   - UKLocation
-  - uktradeinvestment
 
 U.K. Councils:
   - BarnsleyCouncil
@@ -402,8 +429,11 @@ U.K. Councils:
   - kentcc
   - LambethCouncil
   - lichfield-district-council
+  - LondonBoroughSutton
   - LutonCouncil
   - RotherDC
+  - RoyalBoroughKingston
+  - surreydigitalservices
   - thehighlandcouncil
   - TraffordCouncil
   - warwickshire
@@ -420,7 +450,6 @@ U.S. City:
   - chicago
   - city-of-bellingham
   - city-of-bloomington
-  - City-of-Raleigh-Public-Utilities
   - cityofasheville
   - CityOfAuburnAL
   - cityofaustin
@@ -446,7 +475,6 @@ U.S. City:
   - CORaleigh
   - CUMTD
   - datala
-  - dataseattlegov
   - DCCouncil
   - DCgov
   - DenverDev
@@ -462,6 +490,7 @@ U.S. City:
   - monum
   - NYCComptroller
   - nycdot
+  - NYCPlanning
   - OpenGovDC
   - p2g
   - pdxgis
@@ -516,17 +545,20 @@ U.S. Federal:
   - defense-cyber-crime-center
   - demand-driven-open-data
   - department-of-veterans-affairs
+  - deptofdefense
+  - dhs-ncats
   - didsr
+  - digital-analytics-program
   - EEOC
   - energyapps
   - erdc-cm
   - eregs
   - fcc
-  - FCCdev
   - fda
   - Federal-Aviation-Administration
   - federaltradecommission
   - fedspendingtransparency
+  - GIST-ORNL
   - globegit
   - gopleader
   - government-services
@@ -568,14 +600,11 @@ U.S. Federal:
   - NMB-Dev
   - NMML
   - noaa-gfdl
-  - noaa-ncei-stp
-  - noaa-nws-cpc
   - NOAA-ORR-ERD
   - ntia
   - ombegov
   - Open-Sat
   - opengovplatform
-  - ozone-development
   - ozoneplatform
   - peacecorps
   - petsc
@@ -589,6 +618,8 @@ U.S. Federal:
   - SERVIR
   - state-hiu
   - sunpy
+  - us-bea
+  - US-CBP
   - usagov
   - usaid
   - usajobs
@@ -660,7 +691,6 @@ U.S. States:
   - azgs
   - calsimcallite
   - ccap
-  - chhsopendata
   - coloradodemography
   - CTOpenData
   - DCGovWeb
@@ -686,7 +716,6 @@ U.S. States:
   - okcareertech
   - oregonopendata
   - ORMetro
-  - scdhhs
   - scgeology
   - SLNC-DIMP
   - State-of-Arizona
@@ -695,7 +724,9 @@ U.S. States:
   - twdb
   - TxDOT
   - UtahForestryFireStateLands
+  - VDEQ
   - VDGIF
+  - Virginia-Department-of-Health
   - Virginia-House-of-Delegates
   - vtrans
   - vtrans-rail

@@ -11,6 +11,7 @@ Australia:
   - actesa
   - actgov
   - agnsw
+  - atogov
   - ausdto
   - australianantarcticdatacentre
   - bom-radar
@@ -96,10 +97,12 @@ Canada:
   - cityofgreatersudbury
   - cityofottawa
   - cityofsurrey
+  - CityofToronto
   - cngo
   - communicationssecurityestablishment
   - ECCC-MSC
   - electionsquebec
+  - fgpv-vpgf
   - GeoCanViz
   - GNWT
   - HIFIS
@@ -156,6 +159,7 @@ European Union:
 
 Finland:
   - City-of-Helsinki
+  - CSC-IT-Center-for-Science
   - Digipalvelutehdas
   - finnishtransportagency
   - Helsingin-kaupungin-tietokeskus
@@ -165,6 +169,7 @@ Finland:
   - lukefi
   - NatLibFi
   - nlsfi
+  - opetushallitus
   - vrk-kpa
 
 France:
@@ -555,6 +560,7 @@ U.S. Federal:
   - Federal-Aviation-Administration
   - federaltradecommission
   - fedspendingtransparency
+  - GIST-ORNL
   - globegit
   - gopleader
   - government-services

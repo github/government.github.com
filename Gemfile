@@ -3,8 +3,8 @@
 source 'https://rubygems.org'
 
 gem 'coffee-script'
-gem 'coffee-script-source', '~> 1.11.1'
-gem 'github-pages', '105'
+gem 'coffee-script-source'
+gem 'github-pages'
 gem 'jekyll-avatar'
 gem 'jekyll-octicons'
 gem 'rake'

@@ -21,8 +21,8 @@ us_gov   = org_file['U.S. Federal'].map(&:downcase)
 research = YAML.load_file('./_data/research.yml').values.flatten
 existing = (gov + research).flatten.map(&:downcase)
 
-orgs = JSON.parse open('http://registry.usa.gov/accounts?service_id=GitHub&format=json').read
-orgs = orgs['accounts'].collect { |data| data['account'] }
+orgs = JSON.parse open('https://usdigitalregistry.digitalgov.gov/api/v1/social_media.json?services=github').read
+orgs = orgs['results'].collect { |data| data['account'] }
 
 orgs.each do |org|
   next if existing.include?(org.downcase)

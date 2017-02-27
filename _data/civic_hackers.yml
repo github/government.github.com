@@ -2,10 +2,12 @@
 
 Civic Hackers:
   - 16iacc
+  - activate
   - adhocteam
   - akroncivichackathon
   - avoindata
-  - BD-IATI
+  - bd-iati
+  - betanyc
   - ciudadanointeligente
   - civcoms
   - civic-commons
@@ -17,23 +19,25 @@ Civic Hackers:
   - codeandomonterrey
   - codeforhuntsville
   - codeforoakland
+  - codeforphilly
   - codeforseattle
   - codesy
   - correctiv
   - databr
-  - DataKind
-  - DataKind-UK
+  - datakind
+  - datakind-uk
   - datamade
   - datauy
   - dataviz
   - dclegalhackers
-  - DemocracyClub
+  - democracyclub
   - democracyworks
   - developmentseed
   - dobtco
   - drupal4gov
   - dssg
   - dxw
+  - e-government-ua
   - electionleaflets
   - everypolitician
   - everypolitician-scrapers
@@ -51,13 +55,16 @@ Civic Hackers:
   - koelnapi
   - lisbon-opendata
   - localdata
+  - localwiki
+  - mainecivichackday
   - mapnificent
-  - mapseed
   - myanmarapi
   - mysociety
+  - nationaldayofcivichacking
   - netzwerkrecherche
   - npp
-  - NRGI
+  - nrgi
+  - nucivic
   - nycedc
   - obshtestvo
   - occrp
@@ -95,7 +102,7 @@ Civic Hackers:
   - opented
   - openva
   - otvorenesudy
-  - PartidoDigital
+  - partidodigital
   - planningalerts-scrapers
   - plonegov
   - poplus
@@ -143,7 +150,9 @@ Code for All:
 Code For America:
   - a2civictech
   - activate
+  - analyticsmj
   - betanyc
+  - blue-sky-skunkworks
   - caciviclab
   - cforlando
   - civicdata
@@ -179,6 +188,7 @@ Code For America:
   - codeforftl
   - codeforgiessen
   - codeforgso
+  - codeforhamburg
   - codeforhawaii
   - codeforibaraki
   - codeforjerseycity
@@ -189,10 +199,10 @@ Code For America:
   - codeformuenster
   - codeformunich
   - codefornh
+  - codefornola
   - codefornrv
   - codeforokinawa
   - codeforpg
-  - codeforphilly
   - codeforportland
   - codeforraleigh
   - codeforrockford
@@ -200,20 +210,19 @@ Code For America:
   - codeforsanjose
   - codeforsapporo
   - codeforsummitcounty
+  - codefortallahassee
   - codefortucson
   - codefortulsa
   - codefortuscaloosa
   - codeforvegas
   - codeisland
-  - e-government-ua
   - friendlycode
   - hackforla
   - hackingmadison
   - hackmichiana
-  - localwiki
-  - mainecivichackday
-  - nationaldayofcivichacking
-  - nucivic
+  - hacktahoe
+  - justopensource
+  - mapseed
   - nuknightlab
   - open-austin
   - openchattanooga
@@ -234,6 +243,8 @@ Code For America:
   - sarl-hackerspace
   - sfbrigade
   - smartchicago
+  - webuildcity
+  - wevote
 
 Open Knowledge Foundation:
   - bundestag

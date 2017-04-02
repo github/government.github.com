@@ -21,6 +21,7 @@ Australia:
   - envris
   - gccgisteam
   - GeoscienceAustralia
+  - govau
   - govcms
   - Healthway
   - hiscom
@@ -43,7 +44,9 @@ Australia:
 Belgium:
   - belgianpolice
   - Fedict
+  - inbo
   - onroerenderfgoed
+  - StadGent
 
 Bolivia:
   - adsib
@@ -103,6 +106,7 @@ Canada:
   - ECCC-MSC
   - electionsquebec
   - fgpv-vpgf
+  - gctools-outilsgc
   - GeoCanViz
   - GNWT
   - HIFIS
@@ -123,7 +127,11 @@ Canada:
   - wet-boew
 
 Catalonia:
+  - AjuntamentdeBarcelona
+  - HospitaletDeLlobregat
   - gencat
+  - projectestac
+  - AjuntamentdeTerrassa
 
 Chile:
   - datal-org
@@ -275,6 +283,7 @@ Norway:
   - rutebanken
   - ruterno
   - telemark
+  - uninett
   - vegvesen
 
 Panama:
@@ -312,7 +321,6 @@ South Africa:
   - eddZA
 
 Spain:
-  - AjuntamentdeBarcelona
   - AyuntamientoMadrid
   - ctt-gob-es
   - icane

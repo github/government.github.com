@@ -6,7 +6,7 @@ permalink: /community/
 ---
 <div id="to-top" class="container">
 
-<h4><input id="filter" type="text" class="" placeholder="Type to search..."> or jump to the <a href="#civic_hackers">civic hackers</a> or <a href="#research">research</a> lists.</h4></div>
+<h4><input id="filter" type="text" placeholder="Type to search..."> or jump to the <a href="#civic_hackers">civic hackers</a> or <a href="#research">research</a> lists.</h4></div>
 
 {% include org-table.html orgs=site.data.governments id="governments" name="Governments" %}
 
@@ -39,7 +39,7 @@ This website is [open source](https://github.com/github/government.github.com), 
 
 ## Guidelines
 
-While there are many many interesting government-related projects, we are limiting the list above to [GitHub organizations](https://help.github.com/articles/user-organization-and-project-pages) with projects on GitHub, who are:
+While there are many many interesting government-related projects, we are limiting the list above to [GitHub organizations](https://help.github.com/articles/user-organization-and-project-pages/) with projects on GitHub, who are:
 
 * Official government institutions, listed under their country or level of government
 * Non-profits or groups focused on government, listed under "Civic Hackers"

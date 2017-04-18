@@ -25,12 +25,6 @@ body {
   padding: 0;
 }
 
-p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
 /* headings */
 
 h1, h2, h3, h4, h5, h6 {
@@ -76,12 +70,6 @@ h6 {
   line-height: 1.5;
 }
 
-.micro {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
 /* link styles */
 
 a {
@@ -95,19 +83,13 @@ a:hover {
 
 /* other text styles */
 
-p, ul, ol {
-  font-weight: 400;
-}
-
 li {
   padding: 4px 0;
   text-align: left;
 }
 
-.no-style-list {
-  list-style-type: none;
+.list-unstyled {
   padding-left: 0;
-  margin-left: 0;
 }
 
 /* Header and Navigation */
@@ -139,7 +121,6 @@ li {
   margin-bottom: 20px;
   margin-left: -40px;
   margin-top: 20px;
-  list-style: none;
 }
 
 .navbar ul li {
@@ -163,7 +144,6 @@ li {
 
 .splash h1 {
   font-size: 54px;
-  /*text-shadow: 0 1px 1px rgba(0,0,0,0.2);*/
   color: #fff;
   border: none;
   padding: 0;
@@ -175,7 +155,6 @@ li {
   color: #fff;
   padding: 0;
   margin: 0;
-  /*text-shadow: 0 1px 1px rgba(0,0,0,0.2);*/
   opacity: .65;
 }
 
@@ -192,12 +171,17 @@ li {
   padding: 60px 0;
 }
 
-.more-than, .human {
-  background: #F8F8F8;
+.more-than,
+.human {
+  background-color: #F8F8F8;
 }
 
 .human .mini-section {
   width: 50%;
+}
+
+.mini-section.join {
+  overflow: hidden;
 }
 
 .source-data-code img {
@@ -248,10 +232,6 @@ li {
   margin: 0;
 }
 
-.site-footer-links.right {
-  float: right;
-}
-
 .site-footer-links li {
   display: inline-block;
   font-size: 12px;
@@ -266,16 +246,11 @@ li {
 /* -------------------------------------------------------------------------- */
 
 .features .feature {
-  /*color: #fff;*/
   margin-bottom: 50px;
   text-align: left;
 }
 
 .features .feature h3 {
-  /*color: #fff;
-  font-weight: 700;
-  text-align: left;
-  font-size: 16px;*/
   font-weight: 400;
 }
 
@@ -323,7 +298,8 @@ li {
   vertical-align: middle !important;
 }
 
-.table td, .table th {
+.table td,
+.table th {
   vertical-align: middle;
 }
 
@@ -416,14 +392,16 @@ td h4 {
 /* Media Queries */
 /* -------------------------------------------------------------------------- */
 
-@media only screen and (min-width: 980px)  {
+@media only screen and (min-width: 980px) {
   .navbar .nav > li > a { text-decoration: none; margin-left: 25px; }
   .navbar .nav > li > a:focus { text-decoration: underline; }
   .navbar .nav > li > a:hover { color: #2D86FB; text-decoration: underline; }
 }
 
-@media only screen and (max-width: 979px)  {
-  .no-mobile { display: none !important; }
+@media only screen and (max-width: 480px) {
+  .site-footer-links.pull-right {
+    margin-right: 10px;
+  }
 }
 
 @media only screen and (min-width: 650px) and (max-width: 767px) {

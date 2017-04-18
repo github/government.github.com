@@ -68,7 +68,7 @@ permalink: /
 <div class="mini-section more-than">
   <div class="container">
     <h1 id="more-than-just-code">More than just code</h1>
-    <h3 class="lead-graf">Agencies use GitHub to engage developers and collaborate with the public on open source, open data and open government efforts. GitHub even renders common formats like <a href="https://github.com/blog/1784-rendered-prose-diffs">text</a>, <a href="https://help.github.com/articles/rendering-csv-and-tsv-data">CSV</a>, PDF, <a href="https://help.github.com/articles/mapping-geojson-files-on-github">geospatial data</a> and Jupyter Notesbooks.</h3>
+    <h3 class="lead-graf">Agencies use GitHub to engage developers and collaborate with the public on open source, open data and open government efforts. GitHub even renders common formats like <a href="https://github.com/blog/1784-rendered-prose-diffs">text</a>, <a href="https://help.github.com/articles/rendering-csv-and-tsv-data/">CSV</a>, PDF, <a href="https://help.github.com/articles/mapping-geojson-files-on-github/">geospatial data</a> and Jupyter Notesbooks.</h3>
 
     <div class="row section source-data-code">
       <div class="col-md-4 animate-out">
@@ -101,13 +101,13 @@ permalink: /
 </div>
 
 
-<div class="mini-section" style="overflow: hidden;">
+<div class="mini-section join">
   <div class="container">
     <h1 id="join-the-revolution">Join the Revolution</h1>
     {% assign count = 0 %}
     {% for group in site.data.governments %}
       {% for org in group[1] %}
-        {% assign count = count | plus:1 %}
+        {% assign count = count | plus: 1 %}
       {% endfor %}
     {% endfor %}
     <h3 class="lead-graf">Join the thousands of government organizations around the world who collaborate on code, data, policy, and more. See the rest of the <a href="/community">GitHub government community</a>.</h3>

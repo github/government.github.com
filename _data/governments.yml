@@ -21,6 +21,7 @@ Australia:
   - envris
   - gccgisteam
   - GeoscienceAustralia
+  - govau
   - govcms
   - Healthway
   - hiscom
@@ -43,7 +44,9 @@ Australia:
 Belgium:
   - belgianpolice
   - Fedict
+  - inbo
   - onroerenderfgoed
+  - StadGent
 
 Bolivia:
   - adsib
@@ -124,7 +127,13 @@ Canada:
   - wet-boew
 
 Catalonia:
+  - AjuntamentdeBarcelona
+  - HospitaletDeLlobregat
   - gencat
+  - projectestac
+  - AjuntamentdeTerrassa
+  - AjuntamentdeSantCugat
+  - AjuntamentdeSabadell
 
 Chile:
   - datal-org
@@ -260,6 +269,7 @@ New Zealand:
   - linz
   - localgovernment
   - nz-mbie
+  - nz-social-investment-unit
   - opcnz
   - R9BetterAPIs
   - te-papa
@@ -314,10 +324,8 @@ South Africa:
   - eddZA
 
 Spain:
-  - AjuntamentdeBarcelona
   - AyuntamientoMadrid
   - ctt-gob-es
-  - HospitaletDeLlobregat
   - icane
   - JuntaDeAndalucia
   - Ajuntament_de_Castellbisbal

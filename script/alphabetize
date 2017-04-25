@@ -13,7 +13,7 @@ files.each do |file|
   contents = File.open(file).read
   comment = contents.lines.first
 
-  data = YAML.load(contents)
+  data = YAML.safe_load(contents)
   data = data.sort_by { |k, _v| k.upcase }
 
   output = {}

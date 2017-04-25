@@ -11,6 +11,7 @@ Australia:
   - actesa
   - actgov
   - agnsw
+  - atogov
   - ausdto
   - australianantarcticdatacentre
   - bom-radar
@@ -20,6 +21,7 @@ Australia:
   - envris
   - gccgisteam
   - GeoscienceAustralia
+  - govau
   - govcms
   - Healthway
   - hiscom
@@ -42,7 +44,9 @@ Australia:
 Belgium:
   - belgianpolice
   - Fedict
+  - inbo
   - onroerenderfgoed
+  - StadGent
 
 Bolivia:
   - adsib
@@ -96,12 +100,15 @@ Canada:
   - cityofgreatersudbury
   - cityofottawa
   - cityofsurrey
+  - CityofToronto
   - cngo
+  - communicationssecurityestablishment
   - ECCC-MSC
   - electionsquebec
+  - fgpv-vpgf
+  - gctools-outilsgc
   - GeoCanViz
   - GNWT
-  - goc
   - HIFIS
   - infra-geo-ouverte
   - MC-MBO-WebPublishingTeam
@@ -110,7 +117,7 @@ Canada:
   - nsgov
   - open-data
   - phac-nml
-  - pwgsc
+  - pspc-spac
   - RAMP-PCAR
   - RDOQ
   - ServiceCanada
@@ -120,7 +127,13 @@ Canada:
   - wet-boew
 
 Catalonia:
+  - AjuntamentdeBarcelona
+  - HospitaletDeLlobregat
   - gencat
+  - projectestac
+  - AjuntamentdeTerrassa
+  - AjuntamentdeSantCugat
+  - AjuntamentdeSabadell
 
 Chile:
   - datal-org
@@ -154,8 +167,9 @@ European Union:
   - europeana
 
 Finland:
-  - Digipalvelutehdas
   - City-of-Helsinki
+  - CSC-IT-Center-for-Science
+  - Digipalvelutehdas
   - finnishtransportagency
   - Helsingin-kaupungin-tietokeskus
   - helsinki-city-library
@@ -164,6 +178,7 @@ Finland:
   - lukefi
   - NatLibFi
   - nlsfi
+  - opetushallitus
   - vrk-kpa
 
 France:
@@ -220,7 +235,7 @@ Japan:
   - nhohq
   - nims-library
   - wakayama-pref-org
-  
+
 Jersey:
   - statesofjersey
 
@@ -232,8 +247,8 @@ Lithuania:
   - vilnius
 
 Luxemburg:
-  - opendatalu
   - Geoportail-Luxembourg
+  - opendatalu
 
 Malaysia:
   - pmo2
@@ -242,9 +257,9 @@ Mexico:
   - CSB-IG
   - DDT-INMEGEN
   - inmegen
+  - mxabierto
   - profeco
   - redoaxacadetodos
-  - mxabierto
 
 New Zealand:
   - CanterburyRegionalCouncil
@@ -254,6 +269,7 @@ New Zealand:
   - linz
   - localgovernment
   - nz-mbie
+  - nz-social-investment-unit
   - opcnz
   - R9BetterAPIs
   - te-papa
@@ -270,6 +286,7 @@ Norway:
   - rutebanken
   - ruterno
   - telemark
+  - uninett
   - vegvesen
 
 Panama:
@@ -292,9 +309,9 @@ Poland:
   - Ministerstwo-Cyfryzacji
 
 Romania:
+  - gov-ithub
   - govro
   - MinistryOfLabor
-  - gov-ithub
 
 Saudi Arabia:
   - SAS-NCDC
@@ -308,7 +325,6 @@ South Africa:
 
 Spain:
   - AyuntamientoMadrid
-  - AjuntamentdeBarcelona
   - ctt-gob-es
   - icane
   - JuntaDeAndalucia
@@ -371,10 +387,10 @@ U.K. Central:
   - dvsa
   - EnvHack2
   - EnvironmentAgency
+  - GCHQ
   - gds-attic
   - gds-dead
   - gds-operations
-  - GCHQ
   - guidance-guarantee-programme
   - hmrc
   - insolvencyservice
@@ -400,6 +416,7 @@ U.K. Central:
   - openglasgow
   - osgeouk
   - scottishgovernment
+  - SkillsFundingAgency
   - ukforeignoffice
   - UKGovernmentBEIS
   - UKHomeOffice
@@ -540,18 +557,20 @@ U.S. Federal:
   - defense-cyber-crime-center
   - demand-driven-open-data
   - department-of-veterans-affairs
+  - deptofdefense
   - dhs-ncats
   - didsr
+  - digital-analytics-program
   - EEOC
   - energyapps
   - erdc-cm
   - eregs
   - fcc
-  - FCCdev
   - fda
   - Federal-Aviation-Administration
   - federaltradecommission
   - fedspendingtransparency
+  - GIST-ORNL
   - globegit
   - gopleader
   - government-services
@@ -611,6 +630,7 @@ U.S. Federal:
   - SERVIR
   - state-hiu
   - sunpy
+  - us-bea
   - US-CBP
   - usagov
   - usaid
@@ -694,6 +714,7 @@ U.S. States:
   - idahofishgame
   - investmentboard
   - LADCO
+  - LibraryofVA
   - massgov
   - MFWP-GIS
   - mn-script-team
@@ -716,7 +737,6 @@ U.S. States:
   - twdb
   - TxDOT
   - UtahForestryFireStateLands
-  - LibraryofVA
   - VDEQ
   - VDGIF
   - Virginia-Department-of-Health

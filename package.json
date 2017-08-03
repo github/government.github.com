@@ -21,7 +21,7 @@
   "homepage": "http://government.github.com",
   "dependencies": {
     "octicons": "^5.0.1",
-    "primer-core": "^1.1.0",
-    "primer-marketing": "^1.1.0"
+    "primer-core": "^6.2.0",
+    "primer-marketing": "^5.2.0"
   }
 }

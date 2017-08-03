@@ -15,9 +15,15 @@ gems:
   - jekyll-seo-tag
   - jekyll-coffeescript
   - jekyll-sitemap
+  - jekyll-octicons
 
 sass:
   style: :compressed
+  # Where you keep your scss files
+  sass_dir: assets/css/
+  # Where sass should look for other scss
+  load_paths:
+    - node_modules/
 
 # orgs on front page
 featured_orgs:

@@ -1,19 +1,13 @@
 // Marketing font utility class
 
-.alt-body-font {
-  font-family: $alt-body-font;
-  font-size: $alt-body-font-size;
-}
-
 .alt-mono-font {
   font-family: $alt-mono-font;
-  font-size: $alt-body-font-size;
 }
 
 //
 // Headings
-// stylelint-disable selector-no-type
 
+.alt-h0,
 .alt-h1,
 .alt-h2,
 .alt-h3,
@@ -25,10 +19,21 @@
   font-family: $alt-body-font;
 }
 
+@mixin alt-h0 {
+  font-size: $h00-size;
+  font-weight: $font-weight-light;
+  @include breakpoint(md) { font-size: 54px; }
+  @include breakpoint(lg) { font-size: 72px; }
+}
+
+.alt-h0 {
+  @include alt-h0;
+}
+
 @mixin alt-h1 {
   font-size: 36px;
   font-weight: $font-weight-light;
-  @include breakpoint(md) { font-size: 48px; }
+  @include breakpoint(md) { font-size: $h00-size; }
   @include breakpoint(lg) { font-size: 54px; }
 }
 
@@ -50,7 +55,7 @@
 @mixin alt-h3 {
   font-size: 18px;
   font-weight: $font-weight-normal;
-  @include breakpoint(md) { font-size: 20px; }
+  @include breakpoint(md) { font-size: $h3-size; }
   @include breakpoint(lg) { font-size: 22px; }
 }
 
@@ -59,7 +64,7 @@
 }
 
 .alt-h4 {
-  font-size: 16px;
+  font-size: $h4-size;
   font-weight: $font-weight-semibold;
 }
 
@@ -78,7 +83,7 @@
   -webkit-font-smoothing: antialiased;
   font-size: 21px;
   font-weight: $font-weight-light;
-  @include breakpoint(md) { font-size: 24px; }
+  @include breakpoint(md) { font-size: $h2-size; }
   @include breakpoint(lg) { font-size: 26px; }
 }
 
@@ -100,7 +105,7 @@
   padding-left: $spacer;
   margin-bottom: $spacer-4;
   font-family: $alt-mono-font;
-  font-size: $alt-body-font-size;
+  font-size: $h4-size;
   line-height: 1.4;
   color: $text-gray;
   border-left: 3px solid $border-color;
@@ -110,7 +115,7 @@
     margin-bottom: $spacer-5;
     margin-left: (-$spacer * 1.5) - 3px;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: $lh-default;
   }
 }
 

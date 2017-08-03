@@ -1,4 +1,4 @@
-// stylelint-disable selector-no-type
+// stylelint-disable selector-max-type
 * {
   box-sizing: border-box;
 }
@@ -24,12 +24,12 @@ a {
   color: $text-blue;
   text-decoration: none;
 
-  &:hover,
-  &:active {
+  &:hover {
     text-decoration: underline;
   }
 }
 
+b,
 strong {
   font-weight: $font-weight-bold;
 }
@@ -44,7 +44,7 @@ hr,
   overflow: hidden;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid lighten($gray-300, 5%);
   @include clearfix();
 }
 

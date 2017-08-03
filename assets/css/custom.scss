@@ -127,13 +127,13 @@ body {
   }
 
   td.criterion { width: 45%; }
-  td.support { width: 20%; font-weight: 700;}
+  td.support { width: 20%; font-size: $h4-size;}
   td.comments { width: 35%; }
 
 
 }
 
-td.supports { color: #6CC644;  }
-td.not-applicable { color: #999; }
-td.supports-with-exceptions { color: #f93; }
-td.does-not-support { color: #BD2C00; }
+td.supports { color: $green-500;  }
+td.not-applicable { color: $gray-500; }
+td.supports-with-exceptions { color: $orange-500; }
+td.does-not-support { color: $red-500; }

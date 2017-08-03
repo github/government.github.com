@@ -17,7 +17,7 @@ permalink: /community/
 {% include org-table.html orgs=site.data.research id="research" name="Government-funded Research" %}
 
 <div id="add-org" class="border-top pt-4 pt-md-6">
-  <div class="clearfix gut-lg">
+  <div class="clearfix gutter-spacious">
     <div class="col-md-6 float-left mb-4">
       <h3 class="alt-h3 mb-2">Add An Organization to the List</h3>
       <p class="text-gray">This website is <a href="https://github.com/github/government.github.com">open source</a>, therefore anyone in the community can submit edits through pull requests. If your agency isn't on this list, but should be, please add it:</p>

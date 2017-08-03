@@ -21,6 +21,7 @@ Australia:
   - envris
   - gccgisteam
   - GeoscienceAustralia
+  - govau
   - govcms
   - Healthway
   - hiscom
@@ -43,7 +44,9 @@ Australia:
 Belgium:
   - belgianpolice
   - Fedict
+  - inbo
   - onroerenderfgoed
+  - StadGent
 
 Bolivia:
   - adsib
@@ -93,6 +96,7 @@ Canada:
   - bcdevexchange
   - BCGov
   - canada-ca
+  - cds-snc
   - CIHR
   - cityofgreatersudbury
   - cityofottawa
@@ -103,6 +107,7 @@ Canada:
   - ECCC-MSC
   - electionsquebec
   - fgpv-vpgf
+  - gctools-outilsgc
   - GeoCanViz
   - GNWT
   - HIFIS
@@ -118,13 +123,18 @@ Canada:
   - RDOQ
   - ServiceCanada
   - TBS-EACPD
-  - tbs-sct
   - thecityofcalgary
   - VilledeMontreal
   - wet-boew
 
 Catalonia:
+  - AjuntamentdeBarcelona
+  - HospitaletDeLlobregat
   - gencat
+  - projectestac
+  - AjuntamentdeTerrassa
+  - AjuntamentdeSantCugat
+  - AjuntamentdeSabadell
 
 Chile:
   - datal-org
@@ -186,6 +196,7 @@ France:
   - polewebmaedi
   - sgmap
   - sgmap-agd
+  - ProgrammeVitam
 
 Germany:
   - gbv
@@ -229,6 +240,9 @@ Japan:
 
 Jersey:
   - statesofjersey
+  
+Kosovo:
+  - map-ashi
 
 Latvia:
   - CSBLatvia
@@ -243,7 +257,9 @@ Luxemburg:
 
 Malaysia:
   - pmo2
-
+Mauritius:
+  - MUnosecc
+  
 Mexico:
   - CSB-IG
   - DDT-INMEGEN
@@ -260,6 +276,7 @@ New Zealand:
   - linz
   - localgovernment
   - nz-mbie
+  - nz-social-investment-agency
   - opcnz
   - R9BetterAPIs
   - te-papa
@@ -276,6 +293,7 @@ Norway:
   - rutebanken
   - ruterno
   - telemark
+  - uninett
   - vegvesen
 
 Panama:
@@ -313,7 +331,6 @@ South Africa:
   - eddZA
 
 Spain:
-  - AjuntamentdeBarcelona
   - AyuntamientoMadrid
   - ctt-gob-es
   - icane
@@ -363,6 +380,7 @@ U.K. Central:
   - alphagov
   - BEACmodel
   - cabinetoffice
+  - CJSCommonPlatform
   - communitiesuk
   - companieshouse
   - datagovuk
@@ -382,6 +400,7 @@ U.K. Central:
   - gds-dead
   - gds-operations
   - guidance-guarantee-programme
+  - hmcts
   - hmrc
   - insolvencyservice
   - intellectual-property-office
@@ -408,6 +427,7 @@ U.K. Central:
   - scottishgovernment
   - SkillsFundingAgency
   - ukforeignoffice
+  - ukgovdatascience 
   - UKGovernmentBEIS
   - UKHomeOffice
   - UKLocation
@@ -566,7 +586,7 @@ U.S. Federal:
   - government-services
   - GreatSmokyMountainsNationalPark
   - gsa
-  - GSA-Archive
+  - gsa-oes
   - hhs
   - HHSDigitalMediaAPIPlatform
   - HHSIDEAlab

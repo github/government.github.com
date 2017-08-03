@@ -13,7 +13,7 @@ require 'typhoeus'
 
 module CFA
   class Fetcher
-    ENDPOINT = 'http://codeforamerica.org/api/organizations'
+    ENDPOINT = 'http://api.codeforamerica.org/api/organizations'
     DEFAULT_ARGS = {
       'per_page' => 200
     }.freeze

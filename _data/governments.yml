@@ -55,6 +55,7 @@ Bolivia:
 Brazil:
   - bacendeinf
   - camaradosdeputadosoficial
+  - cenima-ibama
   - cislgov
   - culturagovbr
   - dadosgovbr
@@ -63,7 +64,6 @@ Brazil:
   - gabinetedigital
   - govbr
   - GovBrasil
-  - ibamacsr
   - imagov
   - InstitutoBenjaminConstant
   - interlegis
@@ -657,6 +657,7 @@ U.S. Federal:
   - usda-vs
   - usdepartmentoflabor
   - USDeptVeteransAffairs
+  - usdoj
   - usds
   - usepa
   - USFWS

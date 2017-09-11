@@ -55,6 +55,7 @@ Bolivia:
 Brazil:
   - bacendeinf
   - camaradosdeputadosoficial
+  - cenima-ibama
   - cislgov
   - culturagovbr
   - dadosgovbr
@@ -63,7 +64,6 @@ Brazil:
   - gabinetedigital
   - govbr
   - GovBrasil
-  - ibamacsr
   - imagov
   - InstitutoBenjaminConstant
   - interlegis
@@ -240,7 +240,7 @@ Japan:
 
 Jersey:
   - statesofjersey
-  
+
 Kosovo:
   - map-ashi
 
@@ -259,7 +259,7 @@ Malaysia:
   - pmo2
 Mauritius:
   - MUnosecc
-  
+
 Mexico:
   - CSB-IG
   - DDT-INMEGEN
@@ -427,7 +427,7 @@ U.K. Central:
   - scottishgovernment
   - SkillsFundingAgency
   - ukforeignoffice
-  - ukgovdatascience 
+  - ukgovdatascience
   - UKGovernmentBEIS
   - UKHomeOffice
   - UKLocation
@@ -656,6 +656,7 @@ U.S. Federal:
   - usda-vs
   - usdepartmentoflabor
   - USDeptVeteransAffairs
+  - usdoj
   - usds
   - usepa
   - USFWS
@@ -703,7 +704,6 @@ U.S. Special District:
   - CMAP-REPOS
   - commonwealth-of-puerto-rico
   - MetropolitanCouncil
-  - MetropolitanTransportationCommission
   - portofsandiego
   - psrc
 

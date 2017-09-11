@@ -55,6 +55,7 @@ Bolivia:
 Brazil:
   - bacendeinf
   - camaradosdeputadosoficial
+  - cenima-ibama
   - cislgov
   - culturagovbr
   - dadosgovbr
@@ -63,7 +64,6 @@ Brazil:
   - gabinetedigital
   - govbr
   - GovBrasil
-  - ibamacsr
   - imagov
   - InstitutoBenjaminConstant
   - interlegis
@@ -296,6 +296,7 @@ Norway:
   - telemark
   - uninett
   - vegvesen
+  - digibib
 
 Panama:
   - IFARHU
@@ -589,6 +590,7 @@ U.S. Federal:
   - gsa
   - gsa-oes
   - hhs
+  - HHS-AHRQ
   - HHSDigitalMediaAPIPlatform
   - HHSIDEAlab
   - historyatstate
@@ -657,6 +659,7 @@ U.S. Federal:
   - usda-vs
   - usdepartmentoflabor
   - USDeptVeteransAffairs
+  - usdoj
   - usds
   - usepa
   - USFWS

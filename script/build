@@ -2,4 +2,6 @@
 
 set -e
 
+npm install
+
 bundle exec jekyll build

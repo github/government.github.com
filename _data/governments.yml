@@ -55,6 +55,7 @@ Bolivia:
 Brazil:
   - bacendeinf
   - camaradosdeputadosoficial
+  - cenima-ibama
   - cislgov
   - culturagovbr
   - dadosgovbr
@@ -63,7 +64,6 @@ Brazil:
   - gabinetedigital
   - govbr
   - GovBrasil
-  - ibamacsr
   - imagov
   - InstitutoBenjaminConstant
   - interlegis
@@ -96,6 +96,7 @@ Canada:
   - bcdevexchange
   - BCGov
   - canada-ca
+  - cds-snc
   - CIHR
   - cityofgreatersudbury
   - cityofottawa
@@ -136,7 +137,6 @@ Catalonia:
   - AjuntamentdeSabadell
 
 Chile:
-  - datal-org
   - e-gob
 
 Colombia:
@@ -195,6 +195,7 @@ France:
   - polewebmaedi
   - sgmap
   - sgmap-agd
+  - ProgrammeVitam
 
 Germany:
   - gbv
@@ -227,6 +228,7 @@ Italy:
   - Formez
   - PloneGov-IT
   - RegioneER
+  - TeamDigitale
 
 Japan:
   - city-of-kobe
@@ -238,7 +240,7 @@ Japan:
 
 Jersey:
   - statesofjersey
-  
+
 Kosovo:
   - map-ashi
 
@@ -257,7 +259,7 @@ Malaysia:
   - pmo2
 Mauritius:
   - MUnosecc
-  
+
 Mexico:
   - CSB-IG
   - DDT-INMEGEN
@@ -293,6 +295,7 @@ Norway:
   - telemark
   - uninett
   - vegvesen
+  - digibib
 
 Panama:
   - IFARHU
@@ -378,12 +381,14 @@ U.K. Central:
   - alphagov
   - BEACmodel
   - cabinetoffice
+  - CJSCommonPlatform
   - communitiesuk
   - companieshouse
   - datagovuk
   - decc
   - defra
   - Department-for-Work-and-Pensions
+  - DFE-Digital  
   - dfid
   - digital-preservation
   - directgov-innovate
@@ -391,12 +396,12 @@ U.K. Central:
   - dvla
   - dvsa
   - EnvHack2
-  - EnvironmentAgency
   - GCHQ
   - gds-attic
   - gds-dead
   - gds-operations
   - guidance-guarantee-programme
+  - hmcts
   - hmrc
   - InnovateUK
   - insolvencyservice
@@ -424,7 +429,7 @@ U.K. Central:
   - scottishgovernment
   - SkillsFundingAgency
   - ukforeignoffice
-  - ukgovdatascience 
+  - ukgovdatascience
   - UKGovernmentBEIS
   - UKHomeOffice
   - UKLocation
@@ -583,9 +588,9 @@ U.S. Federal:
   - government-services
   - GreatSmokyMountainsNationalPark
   - gsa
-  - GSA-Archive
   - gsa-oes
   - hhs
+  - HHS-AHRQ
   - HHSDigitalMediaAPIPlatform
   - HHSIDEAlab
   - historyatstate
@@ -654,6 +659,7 @@ U.S. Federal:
   - usda-vs
   - usdepartmentoflabor
   - USDeptVeteransAffairs
+  - usdoj
   - usds
   - usepa
   - USFWS
@@ -701,7 +707,6 @@ U.S. Special District:
   - CMAP-REPOS
   - commonwealth-of-puerto-rico
   - MetropolitanCouncil
-  - MetropolitanTransportationCommission
   - portofsandiego
   - psrc
 

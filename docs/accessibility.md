@@ -12,7 +12,7 @@ data:
         support: Supports
         comments: GitHub.com, GitHub Enterprise, GitHub Desktop
       - criterion: "Section 1194.22 Web-based Intranet and Internet Information and Applications"
-        support: Supports with exceptions	
+        support: Supports with exceptions
         comments: GitHub.com and GitHub Enterprise
       - criterion: "Section 1194.23 Telecommunications Products"
         support: Not applicable
@@ -285,26 +285,36 @@ data:
         comments: "Support provided via [web](https://help.github.com) and [email](https://github.com/contactus)"
 ---
 
-Please note, when using GitHub.com or GitHub Enterprise, there are four alternate ways to interact with stored content:
-
-1. Via the [GitHub.com](https://github.com) or [GitHub Enterprise](https://enterprise.github.com) web interface through a modern browser
-2. Via the [GitHub Desktop](https://desktop.github.com) application
-3. Via the GitHub's open [application programming interface](https://developer.github.com/v3/) (API) which provides information in a machine-readable format for integration with other applications
-4. Via the open source [Git](http://git-scm.com/) command line (interactive, entirely text-bassed) interface
-
-Where support below is indicated below as "Supports with exceptions", such a qualification applies to the particular product being evaluated, however, interactions may be accomplished through alternate means such as via the Git command-line interface.
-
-*For more information, please contact <government@github.com>.*
+<div class="col-md-8 mx-auto">
+  <p>
+    Please note, when using GitHub.com or GitHub Enterprise, there are four alternate ways to interact with stored content:
+  </p>
+  <ol class="ml-3 ml-lg-0">
+    <li class="mb-2">Via the <a href="https://github.com">GitHub.com</a> or <a href="https://enterprise.github.com">GitHub Enterprise</a> web interface through a modern browser</li>
+    <li class="mb-2">Via the <a href="https://desktop.github.com">GitHub Desktop</a> application</li>
+    <li class="mb-2">Via the GitHub's open <a href="https://developer.github.com/v3/">application programming interface</a> (API) which provides information in a machine-readable format for integration with other applications</li>
+    <li class="mb-2">Via the open source <a href="http://git-scm.com/">Git</a> command line (interactive, entirely text-bassed) interface</li>
+  </ol>
+  <p>
+    Where support below is indicated below as "Supports with exceptions", such a qualification applies to the particular product being evaluated, however, interactions may be accomplished through alternate means such as via the Git command-line interface.
+  </p>
+  <p><em>
+    For more information, please contact <a href="mailto:government@github.com">government@github.com</a>.
+  </em></p>
+</div>
 
 {% for section in page.data %}
+<div class="border-top mt-4 mt-md-6 pt-4 alt-h3 mb-3" markdown="1">
 ### {{ section[0] }}
-{% if section[1].product %}
-*Applicable product(s): {{ section[1].product }}*
-{% endif %}
+</div>
 
-  <table class="table table-striped table-bordered table-condensed accessibility">
+  {% if section[1].product %}
+  * Applicable product(s): {{ section[1].product }}*
+  {% endif %}
+
+  <table class="a11y-table">
     <thead>
-      <tr>
+      <tr class="text-left pb-4">
         <th>Criteria</th>
         <th>Level of Support</th>
         <th>Remarks and explanations</th>
@@ -323,11 +333,13 @@ Where support below is indicated below as "Supports with exceptions", such a qua
         <td class="support {{ requirement.support | downcase | replace:" ","-" }}">
          {{ requirement.support }}
         </td>
-<td markdown="1" class="comments">
+  <td markdown="1" class="comments">
 {{ requirement.comments }}
-</td>
+  </td>
       </tr>
     {% endfor %}
     </tbody>
   </table>
 {% endfor %}
+
+<div class="my-5">&nbsp;<div>

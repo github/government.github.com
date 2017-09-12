@@ -1,0 +1,139 @@
+// $blue: #2D86FB;
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+// HEADER
+
+.page-header {
+  width: 100%;
+  background-color: $blue-500;
+  -webkit-transition: background-image 0.6s ease-in-out 0s;
+  -moz-transition: background-image 0.6s ease-in-out 0s;
+  -o-transition: background-image 0.6s ease-in-out 0s;
+  transition: background-image 0.6s ease-in-out 0s;
+  background-image: url('../img/olivebranch.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.logo {
+  max-width: 280px;
+}
+
+.fill-blue { fill: $blue; }
+.fill-gray { fill: $gray; }
+.fill-gray-light { fill: $gray-light; }
+
+.img-border {
+  border: 5px solid $white;
+  max-width: 100%;
+}
+
+.featured-orgs {
+  margin-right: -55px;
+  margin-left: -55px;
+  max-height: 348px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#filter {
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #2D86FB;
+  box-shadow: none;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.org-include .no-matches { display: none; }
+
+/* Animations */
+/* -------------------------------------------------------------------------- */
+
+.animate-in {
+  -webkit-transition: all 0.6s ease-in-out 0s;
+  transition: all 0.6s ease-in-out 0s;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.animate-out {
+  -webkit-transition: all 0.6s ease-in-out 0s;
+  transition: all 0.6s ease-in-out 0s;
+  -webkit-animation: scale-in 0.6s ease-in-out;
+  animation: scale-in 0.6s ease-in-out;
+
+}
+
+@keyframes scale-in {
+  0% {
+    -webkit-transform: scale(.4);
+    transform: scale(.4);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes scale-in {
+  0% {-webkit-transform: scale(.4);}
+  100% {-webkit-transform: scale(1);}
+}
+
+.pre-animate {
+  opacity: 0;
+  -webkit-transform: translateX(25px);
+  transform: translateX(25px);
+}
+
+.pre-animate-out {
+  opacity: 0;
+  -webkit-transform: scale(.4);
+  transform: scale(.4)
+}
+
+.a11y-table {
+  min-width: 640px;
+  border: $border;
+  margin-top: $spacer-3;
+
+  th {
+    background: #eeeeee;
+    font-size: 14px;
+    @include breakpoint(lg){
+      font-size: 16px;
+    }
+  }
+
+  tr {
+    font-size: 13px;
+    @include breakpoint(lg){
+      font-size: 14px;
+    }
+  }
+
+  td, th {
+    padding: $spacer-2;
+    border: $border;
+
+    @include breakpoint(md){
+      padding: $spacer-3;
+    }
+  }
+
+  td.criterion { width: 45%; }
+  td.support { width: 20%; font-size: $h4-size;}
+  td.comments { width: 35%; }
+
+
+}
+
+td.supports { color: $green-500;  }
+td.not-applicable { color: $gray-500; }
+td.supports-with-exceptions { color: $orange-500; }
+td.does-not-support { color: $red-500; }

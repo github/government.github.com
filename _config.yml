@@ -9,15 +9,21 @@ analytics_account: "UA-3769691-28"
 # build settings
 exclude: ["script", "vendor", "bower.json", "Gemfile", "Gemfile.lock", "Rakefile", "readme.md", "package.json"]
 markdown: kramdown
-gems:
+plugins:
   - jekyll-avatar
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-coffeescript
   - jekyll-sitemap
+  - jekyll-octicons
 
 sass:
   style: :compressed
+  # Where you keep your scss files
+  sass_dir: assets/css/
+  # Where sass should look for other scss
+  load_paths:
+    - node_modules/
 
 # orgs on front page
 featured_orgs:

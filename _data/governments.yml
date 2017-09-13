@@ -198,6 +198,9 @@ France:
   - sgmap
   - sgmap-agd
 
+French Polynesia:
+  - sipf
+
 Germany:
   - gbv
   - hbz
@@ -317,9 +320,6 @@ Philippines:
 Poland:
   - coi-gov-pl
   - Ministerstwo-Cyfryzacji
-
-Polynésie Française:
-  - sipf
 
 Romania:
   - gov-ithub

@@ -130,12 +130,12 @@ Canada:
 
 Catalonia:
   - AjuntamentdeBarcelona
-  - HospitaletDeLlobregat
-  - gencat
-  - projectestac
-  - AjuntamentdeTerrassa
-  - AjuntamentdeSantCugat
   - AjuntamentdeSabadell
+  - AjuntamentdeSantCugat
+  - AjuntamentdeTerrassa
+  - gencat
+  - HospitaletDeLlobregat
+  - projectestac
 
 Chile:
   - e-gob
@@ -194,9 +194,9 @@ France:
   - etalab
   - nanterre
   - polewebmaedi
+  - ProgrammeVitam
   - sgmap
   - sgmap-agd
-  - ProgrammeVitam
 
 Germany:
   - gbv
@@ -258,6 +258,7 @@ Luxemburg:
 
 Malaysia:
   - pmo2
+
 Mauritius:
   - MUnosecc
 
@@ -285,6 +286,7 @@ New Zealand:
 Norway:
   - altinn
   - difi
+  - digibib
   - dss-web
   - kartverket
   - KRD-KOMM-VL
@@ -296,7 +298,6 @@ Norway:
   - telemark
   - uninett
   - vegvesen
-  - digibib
 
 Panama:
   - IFARHU
@@ -389,7 +390,7 @@ U.K. Central:
   - decc
   - defra
   - Department-for-Work-and-Pensions
-  - DFE-Digital  
+  - DFE-Digital
   - dfid
   - digital-preservation
   - directgov-innovate
@@ -573,6 +574,7 @@ U.S. Federal:
   - dhs-ncats
   - didsr
   - digital-analytics-program
+  - doecode
   - EEOC
   - energyapps
   - erdc-cm
@@ -661,6 +663,7 @@ U.S. Federal:
   - USDeptVeteransAffairs
   - usdoj
   - usds
+  - useda
   - usepa
   - USFWS
   - usg-scope

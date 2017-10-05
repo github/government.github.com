@@ -11,7 +11,7 @@ require 'typhoeus'
 
 def org_exists?(org)
   Typhoeus.head("https://github.com/#{org}", accept_encoding: 'gzip').success?
-rescue
+rescue TyphoeusError => e
   false
 end
 

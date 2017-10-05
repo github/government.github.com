@@ -90,7 +90,7 @@ module CFA
     def parse_response(data)
       orgs = data['objects'].map do |org|
         org['current_projects'].map do |project|
-          project.dig('github_details','owner','login')
+          project.dig('github_details', 'owner', 'login')
         end
       end
       orgs.flatten.compact.uniq.map(&:downcase).select { |o| org?(o) }.sort

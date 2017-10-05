@@ -7,8 +7,14 @@ Style/FileName:
 Style/Documentation:
   Enabled: false
 
+Style/SafeNavigation:
+  Enabled: false
+
 Metrics/AbcSize:
   Enabled: false
 
 Metrics/MethodLength:
+  Enabled: false
+
+Lint/RescueWithoutErrorClass:
   Enabled: false

@@ -12,6 +12,3 @@ Metrics/AbcSize:
 
 Metrics/MethodLength:
   Enabled: false
-
-Lint/RescueWithoutErrorClass:
-  Enabled: false

@@ -305,7 +305,7 @@ data:
 
 {% for section in page.data %}
 <div class="border-top mt-4 mt-md-6 pt-4 alt-h3 mb-3" markdown="1">
-### {{ section[0] }}
+## {{ section[0] }}
 </div>
 
   {% if section[1].product %}

@@ -1,145 +1,61 @@
 # Add non-profits or groups focused on government
 
 Civic Hackers:
-  - 16iacc
-  - activate
-  - adhocteam
   - akroncivichackathon
-  - analyticsmj
-  - avoindata
-  - bd-iati
-  - betanyc
-  - cahealthdata
-  - chihacknight
-  - ciudadanointeligente
-  - civcoms
-  - civic-commons
-  - civicninjas
-  - civicquarterly
-  - civictechro
-  - civilserviceusa
+  - arcticlcc
+  - bundestag
   - civio
+  - ckan
   - code-tj
-  - codeandomonterrey
   - codeforhuntsville
-  - codeforoakland
   - codeforseattle
-  - codesy
-  - correctiv
   - databr
-  - datakind
-  - datakind-uk
-  - datashades
   - datauy
   - dataviz
-  - dclegalhackers
-  - democracyclub
-  - democracyworks
-  - developmentseed
-  - digitalstate
   - dobtco
-  - drupal4gov
-  - dssg
   - dxw
-  - e-government-ua
-  - edgi-govdata-archiving
-  - electionleaflets
-  - everypolitician
-  - everypolitician-scrapers
-  - girlscodingkosova
   - gitmachines
-  - goc-spending
-  - govex
-  - govhackaustralia
-  - govready
-  - govtrack
-  - hackforchange
+  - govbrasil
   - hasadna
   - hubcivico
-  - influencemapping
   - infoculture
-  - justopensource
   - koelnapi
-  - lisbon-opendata
   - localdata
-  - localwiki
-  - mainecivichackday
-  - mapnificent
-  - mil-oss
   - myanmarapi
   - mysociety
-  - nationaldayofcivichacking
-  - netzwerkrecherche
   - npp
-  - nrgi
-  - nuknightlab
   - nycedc
   - obshtestvo
-  - occrp
   - odhk
   - open-city
-  - open-data-standards
-  - open311
-  - openaddressesuk
   - openaustralia
-  - openbudget
-  - opencivicdata
-  - opencolorado
-  - opendata
-  - opendatahk
-  - opendatakosovo
-  - opendatalab-de
   - opendatatajikistan
-  - opendatateam
-  - opendatatrentino
-  - openfisca
-  - opengovernment
   - opengovfoundation
   - opengovld
+  - opengovplatform
   - openjc
   - openkratio
-  - openlawdc
   - opennewzealand
   - opennorth
-  - opennorth-archive
-  - openopps
   - openplans
-  - openregister
   - openstate
-  - openstates
-  - opented
   - openva
   - otvorenesudy
-  - partidodigital
-  - planningalerts-scrapers
-  - plonegov
-  - poplus
-  - popolo-project
   - postcode
-  - procurement-analytics
-  - pwyf
+  - radiofreeasia
   - ropengov
-  - safecast
-  - security-force-monitor
-  - smartchicago
-  - smcgov
   - spaceadvocates
-  - spendb
-  - stadtlandcode
   - statedecoded
   - sunlightlabs
-  - sunlightpolicy
+  - sunpy
   - teampopong
-  - tfrce
   - thacker
   - theodi
-  - tulsawebdevs
   - unitedstates
   - votinginfoproject
   - yourmapper
 
 Code for All:
-  - code4romania
   - code4sa
   - codeandomexico
   - codeforafrica
@@ -155,12 +71,14 @@ Code for All:
   - codeforthecaribbean
   - codefortomorrow
   - g0v
+  - hackingmty
   - labplc
 
 Code For America:
   - a2civictech
-  - blue-sky-skunkworks
-  - brigadehub
+  - activate
+  - betanyc
+  - bikesafety
   - caciviclab
   - cforlando
   - civicdata
@@ -196,7 +114,6 @@ Code For America:
   - codeforftl
   - codeforgiessen
   - codeforgso
-  - codeforhamburg
   - codeforhawaii
   - codeforibaraki
   - codeforjerseycity
@@ -207,11 +124,9 @@ Code For America:
   - codeformuenster
   - codeformunich
   - codefornh
-  - codefornola
   - codefornrv
   - codeforokinawa
   - codeforpg
-  - codeforphilly
   - codeforportland
   - codeforraleigh
   - codeforrockford
@@ -219,65 +134,44 @@ Code For America:
   - codeforsanjose
   - codeforsapporo
   - codeforsummitcounty
-  - codefortallahassee
   - codefortucson
   - codefortulsa
   - codefortuscaloosa
   - codeforvegas
   - codeisland
-  - cognoma
-  - datamade
-  - dedupeio
   - friendlycode
   - hackforla
   - hackingmadison
   - hackmichiana
-  - hacktahoe
-  - mapseed
-  - nodeschool
+  - localwiki
   - nucivic
+  - nuknightlab
   - open-austin
   - openchattanooga
   - opencleveland
   - opendata-heilbronn
-  - opendatapolicingnc
   - opendatastl
   - openkawasaki
   - openlexington
   - opennebraska
   - openoakland
+  - openpgh
   - opensaltlake
   - opensandiego
   - opensatx
-  - opensavannah
   - opensmc
+  - opensyracuse
   - opentwincities
   - openwichita
   - openzagreb
   - sarl-hackerspace
   - sfbrigade
-  - webuildcity
-  - wevote
+  - smartchicago
+  - smartercleanup
 
 Open Knowledge Foundation:
-  - bundestag
-  - ckan
-  - CultureLabs
-  - dataprotocols
-  - datasets
-  - frictionlessdata
-  - Jugendhackt
   - okfde
   - okfegypt
   - okffi
-  - okffi-science
   - okfn
   - okfn-brasil
-  - OParl
-  - opendatanetwork
-  - openknowledgebe
-  - openspending
-  - OpenTransport
-  - opentrials
-  - os-data
-  - Recline

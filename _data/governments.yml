@@ -11,12 +11,14 @@ Australia:
   - actesa
   - actgov
   - agnsw
+  - AtlasOfLivingAustralia
   - atogov
   - ausdto
   - australianantarcticdatacentre
   - AustralianAntarcticDivision
   - bom-radar
   - commerce-wa-ols
+  - data61
   - datagovau
   - dpipwe
   - envris
@@ -25,13 +27,16 @@ Australia:
   - GeoscienceAustralia
   - govau
   - govcms
+  - gs-dawr
   - Healthway
   - hiscom
   - innovationgovau
+  - IPAustralia
   - Landgate
   - mcma
   - nla
   - nmalabs
+  - NSW-eTendering
   - NSWPlanning
   - NSWRFS
   - parksandwildlife

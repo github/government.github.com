@@ -81,7 +81,6 @@ Brazil:
   - pensandoodireito
   - plonegovbr
   - pr-snas
-  - PrefeituraParnaiba
   - prefeiturasp
   - PROCERGS
   - prodest
@@ -124,6 +123,7 @@ Canada:
   - nrc-cnrc
   - NRCan
   - nsgov
+  - OntarioDigital
   - open-data
   - phac-nml
   - pspc-spac
@@ -170,6 +170,9 @@ Estonia:
   - open-eid
   - opendata-ee
   - vvk-ehk
+
+Ethiopia:
+  - ethiopian
 
 European Union:
   - europeana
@@ -519,7 +522,6 @@ U.S. City:
   - DenverDev
   - digitalinclusion
   - egovpdx
-  - geospatialDENVER
   - Honolulu
   - kcmo
   - lfucg

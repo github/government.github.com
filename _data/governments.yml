@@ -81,7 +81,6 @@ Brazil:
   - pensandoodireito
   - plonegovbr
   - pr-snas
-  - PrefeituraParnaiba
   - prefeiturasp
   - PROCERGS
   - prodest
@@ -171,6 +170,9 @@ Estonia:
   - open-eid
   - opendata-ee
   - vvk-ehk
+
+Ethiopia:
+  - ethiopian
 
 European Union:
   - europeana
@@ -521,7 +523,6 @@ U.S. City:
   - DenverDev
   - digitalinclusion
   - egovpdx
-  - geospatialDENVER
   - Honolulu
   - kcmo
   - lfucg

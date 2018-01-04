@@ -123,13 +123,6 @@ permalink: /
     <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="join-the-revolution">Join the Revolution</h2>
     <p class="alt-lead text-gray text-center col-md-10 mx-auto">Join the thousands of government organizations around the world who collaborate on code, data, policy, and more. See the rest of the <a href="/community">GitHub government community</a>.</p>
   </div>
-  <!--<div style="overflow: hidden;">
-    {% assign count = 0 %}
-    {% for group in site.data.governments %}
-      {% for org in group[1] %}
-        {% assign count = count | plus:1 %}
-      {% endfor %}
-    {% endfor %} -->
     <div class="featured-orgs text-center p-2">
       {% for org in site.featured_orgs %}
       <a href="https://github.com/{{ org }}" class="animate-in">{% avatar user=org size=80 %}</a>

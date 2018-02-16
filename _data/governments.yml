@@ -227,9 +227,9 @@ India:
   - itschool
 
 International:
+  - EL-BID
   - IATI
   - ogpl
-  - EL-BID
 
 Isle of Man:
   - Isle-Of-Man-Government
@@ -503,6 +503,7 @@ U.S. City:
   - cityofchattanooga
   - cityoffortworth
   - CityOfGreeleyCo
+  - CityOfLosAngeles
   - cityofnewyork
   - CityOfPhiladelphia
   - cityofportland
@@ -517,7 +518,6 @@ U.S. City:
   - cno-opa
   - CORaleigh
   - CUMTD
-  - CityOfLosAngeles
   - DCCouncil
   - DCgov
   - DenverDev

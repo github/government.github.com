@@ -39,7 +39,7 @@ Australia:
   - NSW-eTendering
   - NSWPlanning
   - NSWRFS
-  - parksandwildlife
+  - dbca-wa
   - qld-gov-au
   - srnsw
   - SSCwebdev
@@ -228,9 +228,9 @@ India:
   - itschool
 
 International:
+  - EL-BID
   - IATI
   - ogpl
-  - EL-BID
 
 Isle of Man:
   - Isle-Of-Man-Government
@@ -410,7 +410,6 @@ U.K. Central:
   - datagovuk
   - decc
   - defra
-  - Department-for-Work-and-Pensions
   - DFE-Digital
   - dfid
   - digital-preservation
@@ -418,7 +417,6 @@ U.K. Central:
   - dstl
   - dvla
   - dvsa
-  - EnvHack2
   - GCHQ
   - gds-attic
   - gds-dead
@@ -506,6 +504,7 @@ U.S. City:
   - cityofchattanooga
   - cityoffortworth
   - CityOfGreeleyCo
+  - CityOfLosAngeles
   - cityofnewyork
   - CityOfPhiladelphia
   - cityofportland
@@ -520,7 +519,6 @@ U.S. City:
   - cno-opa
   - CORaleigh
   - CUMTD
-  - CityOfLosAngeles
   - DCCouncil
   - DCgov
   - DenverDev
@@ -790,9 +788,9 @@ U.S. Tribal Nations:
 
 Ukraine:
   - openprocurement
-
+  
 Uruguay:
-  - uygub
+  - gubuy
 
 Venezuela:
   - CanaimaGNULinux

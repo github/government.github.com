@@ -20,6 +20,7 @@ U.S. Research Labs:
   - ControlSystemStudio
   - cooperhewitt
   - doe-nepa
+  - draperlaboratory
   - EarthSystemCoG
   - EMSL-MSC
   - epicsdeb
@@ -35,6 +36,7 @@ U.S. Research Labs:
   - idaholab
   - jbei
   - JGI-Bioinformatics
+  - JHUAPL
   - jplopensource
   - kbase
   - kbaseIncubator
@@ -52,6 +54,7 @@ U.S. Research Labs:
   - mdhim
   - mfem
   - MG-RAST
+  - mit-ll
   - NASA-Tensegrity-Robotics-Toolkit
   - nasajpl
   - ncats
@@ -107,6 +110,6 @@ U.S. Research Labs:
   - TinyTitan
   - TriBITSPub
   - usnistgov
-  - UV-CDAT
+  - CDAT
   - WISDEM
   - zfsonlinux

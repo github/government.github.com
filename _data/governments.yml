@@ -11,28 +11,36 @@ Australia:
   - actesa
   - actgov
   - agnsw
+  - AtlasOfLivingAustralia
   - atogov
   - ausdto
   - australianantarcticdatacentre
+  - AustralianAntarcticDivision
   - bom-radar
   - commerce-wa-ols
+  - city-of-melbourne
+  - data61
   - datagovau
   - dpipwe
   - envris
+  - Fire-and-Rescue-NSW
   - gccgisteam
   - GeoscienceAustralia
   - govau
   - govcms
+  - gs-dawr
   - Healthway
   - hiscom
   - innovationgovau
+  - IPAustralia
   - Landgate
   - mcma
   - nla
   - nmalabs
+  - NSW-eTendering
   - NSWPlanning
   - NSWRFS
-  - parksandwildlife
+  - dbca-wa
   - qld-gov-au
   - srnsw
   - SSCwebdev
@@ -74,7 +82,6 @@ Brazil:
   - pensandoodireito
   - plonegovbr
   - pr-snas
-  - PrefeituraParnaiba
   - prefeiturasp
   - PROCERGS
   - prodest
@@ -102,12 +109,14 @@ Canada:
   - cityofottawa
   - cityofsurrey
   - CityofToronto
+  - cityssm
   - cngo
   - communicationssecurityestablishment
   - csbp-cpse
   - ECCC-MSC
   - electionsquebec
   - fgpv-vpgf
+  - GCTC-NTGC
   - gctools-outilsgc
   - GeoCanViz
   - GNWT
@@ -117,12 +126,14 @@ Canada:
   - nrc-cnrc
   - NRCan
   - nsgov
+  - OntarioDigital
   - open-data
   - phac-nml
   - pspc-spac
   - RAMP-PCAR
   - RDOQ
   - ServiceCanada
+  - StatCan
   - TBS-EACPD
   - thecityofcalgary
   - VilledeMontreal
@@ -163,6 +174,9 @@ Estonia:
   - open-eid
   - opendata-ee
   - vvk-ehk
+
+Ethiopia:
+  - ethiopian
 
 European Union:
   - europeana
@@ -217,6 +231,7 @@ India:
   - itschool
 
 International:
+  - EL-BID
   - IATI
   - ogpl
 
@@ -280,6 +295,7 @@ New Zealand:
   - GOVTNZ
   - linz
   - localgovernment
+  - MfE-NZ
   - nz-mbie
   - nz-social-investment-agency
   - opcnz
@@ -321,6 +337,9 @@ Poland:
   - coi-gov-pl
   - Ministerstwo-Cyfryzacji
 
+Portugal:
+  - amagovpt
+
 Romania:
   - gov-ithub
   - govro
@@ -339,9 +358,10 @@ South Africa:
 Spain:
   - AyuntamientoMadrid
   - ctt-gob-es
+  - GobiernoLaRioja
   - icane
   - JuntaDeAndalucia
-
+ 
 Sweden:
   - domstol
   - gbif-sweden
@@ -368,10 +388,12 @@ Switzerland:
   - swiss-gov
 
 The Netherlands:
+  - Amsterdam
   - dataoverheid
   - GemeenteEde
   - gemeentemuseum
   - Geonovum
+  - Haarlem
   - IenS-Velsen
   - MinELenI
   - Pleio
@@ -392,7 +414,6 @@ U.K. Central:
   - datagovuk
   - decc
   - defra
-  - Department-for-Work-and-Pensions
   - DFE-Digital
   - dfid
   - digital-preservation
@@ -400,7 +421,6 @@ U.K. Central:
   - dstl
   - dvla
   - dvsa
-  - EnvHack2
   - GCHQ
   - gds-attic
   - gds-dead
@@ -428,6 +448,7 @@ U.K. Central:
   - OfqualGovUK
   - ONSdigital
   - openglasgow
+  - openregister
   - osgeouk
   - scottishgovernment
   - SkillsFundingAgency
@@ -488,8 +509,10 @@ U.S. City:
   - cityofchattanooga
   - cityoffortworth
   - CityOfGreeleyCo
+  - CityOfLosAngeles
   - cityofnewyork
   - CityOfPhiladelphia
+  - CityofPittsburgh
   - cityofportland
   - CityofReno
   - CityofSanFrancisco
@@ -502,13 +525,11 @@ U.S. City:
   - cno-opa
   - CORaleigh
   - CUMTD
-  - datala
   - DCCouncil
   - DCgov
   - DenverDev
   - digitalinclusion
   - egovpdx
-  - geospatialDENVER
   - Honolulu
   - kcmo
   - lfucg
@@ -548,6 +569,7 @@ U.S. County:
   - MCLD
   - miamidade
   - pottcountyit
+  - pwcgov
   - saccounty
   - sfcta
   - SJCGIS
@@ -667,6 +689,7 @@ U.S. Federal:
   - USDeptVeteransAffairs
   - usdoj
   - usds
+  - usdot-jpo-ode
   - useda
   - usepa
   - USFWS
@@ -686,6 +709,7 @@ U.S. Federal:
   - usnationalarchives
   - USPS
   - USPTO
+  - USSBA
   - usstatedept
   - VHAINNOVATIONS
   - virtual-world-framework
@@ -705,6 +729,7 @@ U.S. Military and Intelligence:
   - shareandprotect
   - SIMP
   - usarmyresearchlab
+  - USNavalResearchLaboratory
 
 U.S. Special District:
   - atlregional
@@ -720,6 +745,7 @@ U.S. Special District:
 U.S. States:
   - agrc
   - agrc-widgets
+  - AlaskaDHSS
   - azgs
   - calsimcallite
   - ccap
@@ -769,12 +795,15 @@ U.S. States:
 U.S. Tribal Nations:
   - coquille-indian-tribe
   - osage-nation
-
+  
+U.S. Local Law Enforcement:
+  - SanDiegoCountySheriff
+  
 Ukraine:
   - openprocurement
-
+  
 Uruguay:
-  - uygub
+  - gubuy
 
 Venezuela:
   - CanaimaGNULinux

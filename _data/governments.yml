@@ -116,6 +116,7 @@ Canada:
   - ECCC-MSC
   - electionsquebec
   - fgpv-vpgf
+  - GCTC-NTGC
   - gctools-outilsgc
   - GeoCanViz
   - GNWT
@@ -357,9 +358,10 @@ South Africa:
 Spain:
   - AyuntamientoMadrid
   - ctt-gob-es
+  - GobiernoLaRioja
   - icane
   - JuntaDeAndalucia
-
+ 
 Sweden:
   - domstol
   - gbif-sweden
@@ -446,6 +448,7 @@ U.K. Central:
   - OfqualGovUK
   - ONSdigital
   - openglasgow
+  - openregister
   - osgeouk
   - scottishgovernment
   - SkillsFundingAgency
@@ -509,6 +512,7 @@ U.S. City:
   - CityOfLosAngeles
   - cityofnewyork
   - CityOfPhiladelphia
+  - CityofPittsburgh
   - cityofportland
   - CityofReno
   - CityofSanFrancisco
@@ -564,6 +568,7 @@ U.S. County:
   - MCLD
   - miamidade
   - pottcountyit
+  - pwcgov
   - saccounty
   - sfcta
   - SJCGIS
@@ -683,6 +688,7 @@ U.S. Federal:
   - USDeptVeteransAffairs
   - usdoj
   - usds
+  - usdot-jpo-ode
   - useda
   - usepa
   - USFWS
@@ -702,6 +708,7 @@ U.S. Federal:
   - usnationalarchives
   - USPS
   - USPTO
+  - USSBA
   - usstatedept
   - VHAINNOVATIONS
   - virtual-world-framework
@@ -787,7 +794,10 @@ U.S. States:
 U.S. Tribal Nations:
   - coquille-indian-tribe
   - osage-nation
-
+  
+U.S. Local Law Enforcement:
+  - SanDiegoCountySheriff
+  
 Ukraine:
   - openprocurement
   

@@ -18,6 +18,7 @@ Australia:
   - AustralianAntarcticDivision
   - bom-radar
   - commerce-wa-ols
+  - city-of-melbourne
   - data61
   - datagovau
   - dpipwe
@@ -39,7 +40,7 @@ Australia:
   - NSW-eTendering
   - NSWPlanning
   - NSWRFS
-  - parksandwildlife
+  - dbca-wa
   - qld-gov-au
   - srnsw
   - SSCwebdev
@@ -115,6 +116,7 @@ Canada:
   - ECCC-MSC
   - electionsquebec
   - fgpv-vpgf
+  - GCTC-NTGC
   - gctools-outilsgc
   - GeoCanViz
   - GNWT
@@ -131,6 +133,7 @@ Canada:
   - RAMP-PCAR
   - RDOQ
   - ServiceCanada
+  - StatCan
   - TBS-EACPD
   - thecityofcalgary
   - VilledeMontreal
@@ -228,9 +231,9 @@ India:
   - itschool
 
 International:
+  - EL-BID
   - IATI
   - ogpl
-  - EL-BID
 
 Isle of Man:
   - Isle-Of-Man-Government
@@ -410,7 +413,6 @@ U.K. Central:
   - datagovuk
   - decc
   - defra
-  - Department-for-Work-and-Pensions
   - DFE-Digital
   - dfid
   - digital-preservation
@@ -418,7 +420,6 @@ U.K. Central:
   - dstl
   - dvla
   - dvsa
-  - EnvHack2
   - GCHQ
   - gds-attic
   - gds-dead
@@ -506,8 +507,10 @@ U.S. City:
   - cityofchattanooga
   - cityoffortworth
   - CityOfGreeleyCo
+  - CityOfLosAngeles
   - cityofnewyork
   - CityOfPhiladelphia
+  - CityofPittsburgh
   - cityofportland
   - CityofReno
   - CityofSanFrancisco
@@ -520,7 +523,6 @@ U.S. City:
   - cno-opa
   - CORaleigh
   - CUMTD
-  - CityOfLosAngeles
   - DCCouncil
   - DCgov
   - DenverDev
@@ -683,6 +685,7 @@ U.S. Federal:
   - USDeptVeteransAffairs
   - usdoj
   - usds
+  - usdot-jpo-ode
   - useda
   - usepa
   - USFWS
@@ -787,12 +790,15 @@ U.S. States:
 U.S. Tribal Nations:
   - coquille-indian-tribe
   - osage-nation
-
+  
+U.S. Local Law Enforcement:
+  - SanDiegoCountySheriff
+  
 Ukraine:
   - openprocurement
-
+  
 Uruguay:
-  - uygub
+  - gubuy
 
 Venezuela:
   - CanaimaGNULinux

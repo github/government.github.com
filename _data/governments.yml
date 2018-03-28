@@ -51,6 +51,7 @@ Australia:
 
 Belgium:
   - belgianpolice
+  - CIRB
   - Fedict
   - inbo
   - onroerenderfgoed
@@ -198,19 +199,32 @@ Finland:
 
 France:
   - afimb
+  - AlsaceDigitale
   - ANSSI-FR
   - ApieFrance
+  - betagouv
   - communaute-cimi
+  - culturecommunication
   - DGFiP
   - diplomatiegouvfr
   - disic
+  - entrepreneur-interet-general
   - erasme
   - etalab
+  - france-connect
+  - GouvernementFR
+  - lutece-secteur-public
+  - MINAGRI-INITIAL
+  - MTES-MCT
   - nanterre
+  - nantesmetropole
   - polewebmaedi
   - ProgrammeVitam
-  - sgmap
+  - region-bretagne
   - sgmap-agd
+  - SIG-Region-Hauts-de-France
+  - SocialGouv
+  - strasbourg
 
 French Polynesia:
   - sipf
@@ -363,9 +377,14 @@ Spain:
   - JuntaDeAndalucia
  
 Sweden:
+  - arbetsformedlingen
   - domstol
   - gbif-sweden
+  - GoteborgsStad
+  - Helsingborg
+  - helsingborg-stad
   - kungbib
+  - Lantmateriet
   - libris
   - lldd
   - malmostad
@@ -373,6 +392,7 @@ Sweden:
   - riksarkivet
   - rinfo
   - statens-maritima-museer
+  - Sundsvallskommun
   - swedishpensionsagency
   - The-Municipality-of-Staffanstorp
 

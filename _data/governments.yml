@@ -144,9 +144,16 @@ Catalonia:
   - AjuntamentdeSabadell
   - AjuntamentdeSantCugat
   - AjuntamentdeTerrassa
+  - AjuntamentDeMataro
+  - AjuntamentdeReus
+  - AjuntamentDeGava
+  - AjuntamentdeCalafell
+  - AjMalgrat
+  - diputacioBCN
   - gencat
   - HospitaletDeLlobregat
   - projectestac
+  - vilanovailageltru
 
 Chile:
   - e-gob
@@ -361,6 +368,8 @@ Spain:
   - GobiernoLaRioja
   - icane
   - JuntaDeAndalucia
+  - ErabakiPamplona
+  - castilla-lamancha
  
 Sweden:
   - domstol

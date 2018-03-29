@@ -1,10 +1,10 @@
 ---
 layout: support-page
-title: FedRAMP Inquiry
-description: GitHub has an official authorized status with the Federal Risk and Authorization Management Program (FedRAMP)
+title: Thank you!
+description: We will get back to you with more information about our FedRAMP authorization.
 permalink: /fedramp-confirmation/
 ---
 
 <div class="center">
-Thank you, someone will be in touch with you shortly.
+
 </div>

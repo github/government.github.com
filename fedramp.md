@@ -1,7 +1,7 @@
 ---
 layout: form-page
-title: FedRAMP Inquiry
-description: GitHub has an official authorized status with the Federal Risk and Authorization Management Program (FedRAMP)
+title: GitHub is now FedRAMP authorized!
+description: Fast, flexible software development that meets federal security standards. <br>Want to learn more about GitHub’s FedRAMP authorization? Let’s talk.
 form: form
 form-id: 88570519
 campaign: "Fedramp Lead Form"

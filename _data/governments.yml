@@ -361,7 +361,7 @@ Spain:
   - GobiernoLaRioja
   - icane
   - JuntaDeAndalucia
- 
+
 Sweden:
   - domstol
   - gbif-sweden
@@ -428,6 +428,7 @@ U.K. Central:
   - guidance-guarantee-programme
   - hmcts
   - hmrc
+  - informatics-lab
   - insolvencyservice
   - intellectual-property-office
   - IQuOD
@@ -438,7 +439,6 @@ U.K. Central:
   - landregistry-ops
   - lgss
   - LocalGovDigital
-  - met-office-lab
   - MetOffice
   - MetOfficeSpaceApps
   - metomi
@@ -606,6 +606,7 @@ U.S. Federal:
   - eregs
   - fcc
   - fda
+  - fecgov
   - Federal-Aviation-Administration
   - federaltradecommission
   - fedspendingtransparency
@@ -794,13 +795,13 @@ U.S. States:
 U.S. Tribal Nations:
   - coquille-indian-tribe
   - osage-nation
-  
+
 U.S. Local Law Enforcement:
   - SanDiegoCountySheriff
-  
+
 Ukraine:
   - openprocurement
-  
+
 Uruguay:
   - gubuy
 

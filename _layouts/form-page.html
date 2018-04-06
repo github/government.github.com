@@ -4,9 +4,9 @@
 
 </div>
   <div id="{{ page.title | replace: ' ','-' }}" class="container-lg p-responsive">
-    <div class="text-center my-3 my-md-6">
-      <h1 class="alt-h1">{{ page.title }}</h1>
-      <p class="alt-lead text-gray col-md-10 mx-auto">{{ page.description }}</p>
+    <div class="text-center my-4 my-md-6">
+      <h1 class="alt-h2 pt-4 pb-3 pt-sm-5">{{ page.title }}</h1>
+      <p class="lead text-gray col-md-8 mx-auto">{{ page.description }}</p>
     </div>
   </div>
 
@@ -14,18 +14,16 @@
     {{ content }}
 
 {% if page.form %}
-    <div class="bg-gray">
   <div class="container-lg p-responsive">
-    <div class="col-12 col-sm-10 col-md-8 mx-auto py-6">
+    <div class="col-12 col-sm-10 col-md-8 mx-auto pb-6">
 
-      <div class="mt-4 mb-2 p-5 bg-white rounded-2 box-shadow">
+      <div class="mt-4 mb-2 p-5 border rounded-2 box-shadow">
         {% include {{ page.form | append: '.html' }} %}
       </div>
     </div>
   </div>
 {% endif %}
 
-  </div>
 
 <!---for form --->
   <script src="{{ "/assets/js/eloqua-page.js" | relative_url }}"></script>

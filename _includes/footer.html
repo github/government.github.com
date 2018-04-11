@@ -25,13 +25,13 @@
     </footer>
 
 
-    <script src="/assets/vendor/anchor-js/anchor.min.js"></script>
-    <script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="{{ "/assets/vendor/anchor-js/anchor.min.js" | relative_url}}"></script>
+    <script src="{{ "/assets/vendor/jquery/dist/jquery.min.js" | relative_url}}"></script>
     <script>anchors.add('.org-type h4');</script>
     {% if page.url == "/community/" %}
-      <script src="/assets/js/community.js"></script>
+      <script src="{{ "/assets/js/community.js" | relative_url}}"></script>
     {% elsif page.url == "/" %}
-      <script src="/assets/js/home.js"></script>
+      <script src="{{ "/assets/js/home.js" | relative_url}}"></script>
     {% endif %}
   </body>
 </html>

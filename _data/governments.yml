@@ -117,6 +117,7 @@ Canada:
   - ECCC-MSC
   - electionsquebec
   - fgpv-vpgf
+  - gc-proto
   - GCTC-NTGC
   - gctools-outilsgc
   - GeoCanViz
@@ -273,7 +274,7 @@ Japan:
   - codefornamie
   - gsi-cyberjapan
   - nhohq
-  - nims-library
+  - nims-dpfc
   - wakayama-pref-org
 
 Jersey:
@@ -451,7 +452,6 @@ U.K. Central:
   - dvla
   - dvsa
   - GCHQ
-  - gds-attic
   - gds-dead
   - gds-operations
   - guidance-guarantee-programme

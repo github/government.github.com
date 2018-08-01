@@ -1,15 +1,25 @@
 {% include header.html %}
 </div>
-  <div id="{{ page.title | replace: ' ','-' }}" class="container support-page">
-
-    <div class="mini-section">
-      <h1>{{ page.title }}</h1>
-      <h3 class="description lead-graf">{{ page.description }}</h3>
+  <div id="{{ page.title | replace: ' ','-' }}" class="container-lg p-responsive">
+    <div class="text-center my-3 my-md-6">
+      <h1 class="alt-h1">{{ page.title }}</h1>
+      <p class="alt-lead text-gray col-md-10 mx-auto">{{ page.description }}</p>
     </div>
   </div>
 
-  <div class="container mini-section">
+  <div class="container-lg p-responsive">
     {{ content }}
   </div>
 
+<!-- https://www.andreaverlicchi.eu/lazyload/ -->
+<script type="text/javascript">
+  (function (w, d) {
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script"); s.async = true;
+    var v = !("IntersectionObserver" in w) ? "8.8.0" : "10.9.0";
+    s.src = "https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/" + v + "/lazyload.min.js";
+    w.lazyLoadOptions = {};
+    b.appendChild(s);
+  }(window, document));
+</script>
 {% include footer.html %}

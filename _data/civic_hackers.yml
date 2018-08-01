@@ -2,16 +2,22 @@
 
 Civic Hackers:
   - 16iacc
+  - activate
   - adhocteam
   - akroncivichackathon
+  - analyticsmj
   - avoindata
-  - BD-IATI
+  - bd-iati
+  - betanyc
+  - cahealthdata
+  - chihacknight
   - ciudadanointeligente
   - civcoms
   - civic-commons
-  - civicdataeu
   - civicninjas
   - civicquarterly
+  - civictechro
+  - civilserviceusa
   - civio
   - code-tj
   - codeandomonterrey
@@ -21,24 +27,29 @@ Civic Hackers:
   - codesy
   - correctiv
   - databr
-  - DataKind
-  - DataKind-UK
-  - datamade
+  - datakind
+  - datakind-uk
+  - datashades
   - datauy
   - dataviz
   - dclegalhackers
-  - DemocracyClub
+  - democracyclub
   - democracyworks
   - developmentseed
+  - digitalstate
   - dobtco
   - drupal4gov
   - dssg
+  - dutsec
   - dxw
+  - e-government-ua
+  - edgi-govdata-archiving
   - electionleaflets
   - everypolitician
   - everypolitician-scrapers
   - girlscodingkosova
   - gitmachines
+  - goc-spending
   - govex
   - govhackaustralia
   - govready
@@ -48,16 +59,22 @@ Civic Hackers:
   - hubcivico
   - influencemapping
   - infoculture
+  - justopensource
   - koelnapi
   - lisbon-opendata
   - localdata
+  - localwiki
+  - mainecivichackday
   - mapnificent
-  - mapseed
+  - mil-oss
   - myanmarapi
   - mysociety
+  - nationaldayofcivichacking
+  - ncopenpass
   - netzwerkrecherche
   - npp
-  - NRGI
+  - nrgi
+  - nuknightlab
   - nycedc
   - obshtestvo
   - occrp
@@ -89,12 +106,12 @@ Civic Hackers:
   - opennorth-archive
   - openopps
   - openplans
-  - openregister
   - openstate
   - openstates
   - opented
   - openva
   - otvorenesudy
+  - partidodigital
   - planningalerts-scrapers
   - plonegov
   - poplus
@@ -105,9 +122,9 @@ Civic Hackers:
   - ropengov
   - safecast
   - security-force-monitor
+  - smartchicago
   - smcgov
   - spaceadvocates
-  - spendb
   - stadtlandcode
   - statedecoded
   - sunlightlabs
@@ -123,6 +140,7 @@ Civic Hackers:
   - yourmapper
 
 Code for All:
+  - code4romania
   - code4sa
   - codeandomexico
   - codeforafrica
@@ -142,9 +160,8 @@ Code for All:
 
 Code For America:
   - a2civictech
-  - activate
-  - betanyc
-  - bikesafety
+  - blue-sky-skunkworks
+  - brigadehub
   - caciviclab
   - cforlando
   - civicdata
@@ -180,6 +197,7 @@ Code For America:
   - codeforftl
   - codeforgiessen
   - codeforgso
+  - codeforhamburg
   - codeforhawaii
   - codeforibaraki
   - codeforjerseycity
@@ -190,36 +208,39 @@ Code For America:
   - codeformuenster
   - codeformunich
   - codefornh
+  - codefornola
   - codefornrv
   - codeforokinawa
   - codeforpg
   - codeforphilly
   - codeforportland
-  - codeforraleigh
   - codeforrockford
   - codeforrva
   - codeforsanjose
   - codeforsapporo
   - codeforsummitcounty
+  - codefortallahassee
   - codefortucson
   - codefortulsa
   - codefortuscaloosa
   - codeforvegas
   - codeisland
-  - e-government-ua
+  - cognoma
+  - datamade
+  - dedupeio
   - friendlycode
   - hackforla
   - hackingmadison
   - hackmichiana
-  - localwiki
-  - mainecivichackday
-  - nationaldayofcivichacking
+  - hacktahoe
+  - mapseed
+  - nodeschool
   - nucivic
-  - nuknightlab
   - open-austin
   - openchattanooga
   - opencleveland
   - opendata-heilbronn
+  - opendatapolicingnc
   - opendatastl
   - openkawasaki
   - openlexington
@@ -228,13 +249,15 @@ Code For America:
   - opensaltlake
   - opensandiego
   - opensatx
+  - opensavannah
   - opensmc
   - opentwincities
   - openwichita
   - openzagreb
   - sarl-hackerspace
   - sfbrigade
-  - smartchicago
+  - webuildcity
+  - wevote
 
 Open Knowledge Foundation:
   - bundestag
@@ -256,4 +279,4 @@ Open Knowledge Foundation:
   - openspending
   - OpenTransport
   - opentrials
-  - Recline
+  - os-data

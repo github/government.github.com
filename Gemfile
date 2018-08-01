@@ -2,17 +2,15 @@
 
 source 'https://rubygems.org'
 
-gem 'coffee-script'
-gem 'coffee-script-source', '~> 1.11.1'
-gem 'github-pages', '105'
-gem 'jekyll-avatar'
-gem 'rake'
+gem 'github-pages'
+gem 'jekyll-octicons'
+# need lazy-load support
+gem 'jekyll-avatar', '>= 0.6.0'
 
 group :development, :test do
   gem 'html-proofer'
-  gem 'octokit'
   gem 'parallel'
-  gem 'pry'
+  gem 'rake'
   gem 'rubocop'
   gem 'typhoeus'
 end

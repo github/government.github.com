@@ -13,7 +13,7 @@ require 'typhoeus'
 
 module CFA
   class Fetcher
-    ENDPOINT = 'http://codeforamerica.org/api/organizations'
+    ENDPOINT = 'http://api.codeforamerica.org/api/organizations'
     DEFAULT_ARGS = {
       'per_page' => 200
     }.freeze
@@ -29,7 +29,7 @@ module CFA
 
       org_file['Code For America'] = brigades
       org_file['Code for All'] = code_for_all_orgs
-      org_file['Civic Hackers'] = civic_hackers - brigades - code_for_all_orgs
+      org_file['Civic Hackers'] = civic_hackers - brigades - code_for_all_orgs + to_be_removed
 
       comment = File.open(org_file_path).read.lines.first
       output = comment
@@ -90,7 +90,7 @@ module CFA
     def parse_response(data)
       orgs = data['objects'].map do |org|
         org['current_projects'].map do |project|
-          project['github_details']['owner']['login'] unless project['github_details'].nil?
+          project.dig('github_details', 'owner', 'login')
         end
       end
       orgs.flatten.compact.uniq.map(&:downcase).select { |o| org?(o) }.sort

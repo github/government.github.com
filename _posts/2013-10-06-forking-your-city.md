@@ -1,3 +1,3 @@
 ---
-layout: redirect
+layout: case_study_redirect
 ---

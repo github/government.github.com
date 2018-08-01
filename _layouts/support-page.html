@@ -11,4 +11,15 @@
     {{ content }}
   </div>
 
+<!-- https://www.andreaverlicchi.eu/lazyload/ -->
+<script type="text/javascript">
+  (function (w, d) {
+    var b = d.getElementsByTagName('body')[0];
+    var s = d.createElement("script"); s.async = true;
+    var v = !("IntersectionObserver" in w) ? "8.8.0" : "10.9.0";
+    s.src = "https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/" + v + "/lazyload.min.js";
+    w.lazyLoadOptions = {};
+    b.appendChild(s);
+  }(window, document));
+</script>
 {% include footer.html %}

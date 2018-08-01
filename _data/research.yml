@@ -1,5 +1,8 @@
 # Government funded research - must have a government email/domain to be listed
 
+Kenya:
+  - Multimedia-University-of-Kenya
+
 New Zealand Crown Research Institutes:
   - AgResearch
   - niwa
@@ -20,6 +23,7 @@ U.S. Research Labs:
   - ControlSystemStudio
   - cooperhewitt
   - doe-nepa
+  - draperlaboratory
   - EarthSystemCoG
   - EMSL-MSC
   - epicsdeb
@@ -35,6 +39,7 @@ U.S. Research Labs:
   - idaholab
   - jbei
   - JGI-Bioinformatics
+  - JHUAPL
   - jplopensource
   - kbase
   - kbaseIncubator
@@ -52,6 +57,7 @@ U.S. Research Labs:
   - mdhim
   - mfem
   - MG-RAST
+  - mit-ll
   - NASA-Tensegrity-Robotics-Toolkit
   - nasajpl
   - ncats
@@ -69,7 +75,9 @@ U.S. Research Labs:
   - Nikea
   - nimh-nif
   - nist-bws
+  - nist-emntg
   - nist-ionstorage
+  - NIST-ISG
   - nrel
   - nrel-cookbooks
   - NSLS-II
@@ -94,7 +102,6 @@ U.S. Research Labs:
   - reflectometry
   - rose-compiler
   - sandialabs
-  - scalability-llnl
   - scattering
   - seed-platform
   - sim-x
@@ -105,6 +112,6 @@ U.S. Research Labs:
   - TinyTitan
   - TriBITSPub
   - usnistgov
-  - UV-CDAT
+  - CDAT
   - WISDEM
   - zfsonlinux

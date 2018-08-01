@@ -137,3 +137,48 @@ td.supports { color: $green-500;  }
 td.not-applicable { color: $gray-500; }
 td.supports-with-exceptions { color: $orange-500; }
 td.does-not-support { color: $red-500; }
+
+.form-control-lg {
+  padding: 10px 15px;
+  min-height: 42px;
+  font-size: 16px;
+  border-radius: 0.25em;
+}
+
+.btn-large {
+  padding: 10px 15px;
+  border-radius: 0.25em;
+}
+
+//
+// Form validation
+//
+
+.form-control-invalid-text {
+  display: none;
+  margin-top: $spacer-1;
+  font-size: 85%;
+}
+
+.validated {
+  .form-control:invalid {
+    border-color: $red-500;
+
+    &:focus {
+      box-shadow: 0 0 0 3px rgba($red-500, .25);
+    }
+
+    + .form-control-invalid-text {
+      display: block;
+      color: $red-500;
+    }
+  }
+
+  .form-control:valid {
+    border-color: $green-500;
+
+    &:focus {
+      box-shadow: 0 0 0 3px rgba($green-500, .25);
+    }
+  }
+}

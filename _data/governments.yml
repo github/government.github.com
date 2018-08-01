@@ -22,6 +22,7 @@ Australia:
   - data61
   - datagovau
   - dpipwe
+  - dssgovaus
   - envris
   - Fire-and-Rescue-NSW
   - gccgisteam
@@ -128,7 +129,7 @@ Canada:
   - nrc-cnrc
   - NRCan
   - nsgov
-  - OntarioDigital
+  - ongov
   - open-data
   - phac-nml
   - pspc-spac
@@ -219,9 +220,12 @@ France:
   - entrepreneur-interet-general
   - erasme
   - etalab
+  - Inist-CNRS
+  - SocieteNumerique
   - lutece-secteur-public
   - MINAGRI-INITIAL
   - MTES-MCT
+  - MinistereSupRecherche
   - nanterre
   - nantesmetropole
   - polewebmaedi
@@ -359,6 +363,9 @@ Poland:
 Portugal:
   - amagovpt
 
+Republic of Korea:
+  - molit-korea
+
 Romania:
   - gov-ithub
   - govro
@@ -375,6 +382,7 @@ South Africa:
   - eddZA
 
 Spain:
+  - AjuntamentdeCastello
   - AyuntamientoMadrid
   - castilla-lamancha
   - ctt-gob-es
@@ -424,6 +432,7 @@ The Netherlands:
   - Geonovum
   - Haarlem
   - IenS-Velsen
+  - MinBZK
   - MinELenI
   - Pleio
   - provinciegroningen
@@ -617,6 +626,7 @@ U.S. Federal:
   - CA-CST-Library
   - CA-CST-SII
   - ccmc
+  - CDCgov
   - cfpb
   - cmsgov
   - commercedataservice
@@ -698,6 +708,7 @@ U.S. Federal:
   - sbstusa
   - SelectUSA
   - SERVIR
+  - SSAgov
   - state-hiu
   - sunpy
   - us-bea
@@ -740,6 +751,7 @@ U.S. Federal:
   - USPTO
   - USSBA
   - usstatedept
+  - ustaxcourt
   - VHAINNOVATIONS
   - virtual-world-framework
   - visionworkbench
@@ -753,6 +765,7 @@ U.S. Military and Intelligence:
   - info-sharing-environment
   - NationalSecurityAgency
   - ngageoint
+  - nsacyber
   - project-interoperability
   - screamlab
   - shareandprotect

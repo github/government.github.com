@@ -22,6 +22,7 @@ Australia:
   - data61
   - datagovau
   - dpipwe
+  - dssgovaus
   - envris
   - Fire-and-Rescue-NSW
   - gccgisteam
@@ -128,7 +129,7 @@ Canada:
   - nrc-cnrc
   - NRCan
   - nsgov
-  - OntarioDigital
+  - ongov
   - open-data
   - phac-nml
   - pspc-spac
@@ -424,6 +425,7 @@ The Netherlands:
   - Geonovum
   - Haarlem
   - IenS-Velsen
+  - MinBZK
   - MinELenI
   - Pleio
   - provinciegroningen
@@ -698,6 +700,7 @@ U.S. Federal:
   - sbstusa
   - SelectUSA
   - SERVIR
+  - SSAgov
   - state-hiu
   - sunpy
   - us-bea
@@ -753,6 +756,7 @@ U.S. Military and Intelligence:
   - info-sharing-environment
   - NationalSecurityAgency
   - ngageoint
+  - nsacyber
   - project-interoperability
   - screamlab
   - shareandprotect

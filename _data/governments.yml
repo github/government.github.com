@@ -224,6 +224,7 @@ France:
   - lutece-secteur-public
   - MINAGRI-INITIAL
   - MTES-MCT
+  - MinistereSupRecherche
   - nanterre
   - nantesmetropole
   - polewebmaedi
@@ -360,6 +361,9 @@ Poland:
 
 Portugal:
   - amagovpt
+
+Republic of Korea:
+  - molit-korea
 
 Romania:
   - gov-ithub

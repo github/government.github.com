@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 
 gem 'github-pages'
 gem 'jekyll-octicons'
+# need lazy-load support
+gem 'jekyll-avatar', '>= 0.6.0'
 
 group :development, :test do
   gem 'html-proofer'

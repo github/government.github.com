@@ -22,6 +22,7 @@ Australia:
   - data61
   - datagovau
   - dpipwe
+  - dssgovaus
   - envris
   - Fire-and-Rescue-NSW
   - gccgisteam
@@ -51,6 +52,7 @@ Australia:
 
 Belgium:
   - belgianpolice
+  - CIRB
   - Fedict
   - inbo
   - onroerenderfgoed
@@ -87,7 +89,6 @@ Brazil:
   - prodest
   - secom-tocantins
   - secultce
-  - SerraWeb
   - tcers
   - tisorocaba
   - tre-pa
@@ -116,6 +117,7 @@ Canada:
   - ECCC-MSC
   - electionsquebec
   - fgpv-vpgf
+  - gc-proto
   - GCTC-NTGC
   - gctools-outilsgc
   - GeoCanViz
@@ -123,10 +125,11 @@ Canada:
   - HIFIS
   - infra-geo-ouverte
   - MC-MBO-WebPublishingTeam
+  - MetPX
   - nrc-cnrc
   - NRCan
   - nsgov
-  - OntarioDigital
+  - ongov
   - open-data
   - phac-nml
   - pspc-spac
@@ -144,9 +147,16 @@ Catalonia:
   - AjuntamentdeSabadell
   - AjuntamentdeSantCugat
   - AjuntamentdeTerrassa
+  - AjuntamentDeMataro
+  - AjuntamentdeReus
+  - AjuntamentDeGava
+  - AjuntamentdeCalafell
+  - AjMalgrat
+  - diputacioBCN
   - gencat
   - HospitaletDeLlobregat
   - projectestac
+  - vilanovailageltru
 
 Chile:
   - e-gob
@@ -198,19 +208,32 @@ Finland:
 
 France:
   - afimb
+  - AlsaceDigitale
   - ANSSI-FR
   - ApieFrance
+  - betagouv
   - communaute-cimi
+  - culturecommunication
   - DGFiP
   - diplomatiegouvfr
   - disic
+  - entrepreneur-interet-general
   - erasme
   - etalab
+  - Inist-CNRS
+  - SocieteNumerique
+  - lutece-secteur-public
+  - MINAGRI-INITIAL
+  - MTES-MCT
+  - MinistereSupRecherche
   - nanterre
+  - nantesmetropole
   - polewebmaedi
   - ProgrammeVitam
-  - sgmap
+  - region-bretagne
   - sgmap-agd
+  - SocialGouv
+  - strasbourg
 
 French Polynesia:
   - sipf
@@ -254,7 +277,7 @@ Japan:
   - codefornamie
   - gsi-cyberjapan
   - nhohq
-  - nims-library
+  - nims-dpfc
   - wakayama-pref-org
 
 Jersey:
@@ -340,6 +363,9 @@ Poland:
 Portugal:
   - amagovpt
 
+Republic of Korea:
+  - molit-korea
+
 Romania:
   - gov-ithub
   - govro
@@ -356,25 +382,36 @@ South Africa:
   - eddZA
 
 Spain:
+  - AjuntamentdeCastello
   - AyuntamientoMadrid
+  - castilla-lamancha
   - ctt-gob-es
+  - ErabakiPamplona
   - GobiernoLaRioja
   - icane
   - JuntaDeAndalucia
- 
+
 Sweden:
+  - arbetsformedlingen
   - domstol
   - gbif-sweden
+  - Helsingborg
+  - helsingborg-stad
   - kungbib
+  - Lantmateriet
   - libris
   - lldd
   - malmostad
   - mtmse
+  - regionhalland
+  - regionostergotland
   - riksarkivet
   - rinfo
   - statens-maritima-museer
+  - Sundsvallskommun
   - swedishpensionsagency
   - The-Municipality-of-Staffanstorp
+  - Vastra-Gotalandsregionen
 
 Switzerland:
   - alv-ch
@@ -395,6 +432,7 @@ The Netherlands:
   - Geonovum
   - Haarlem
   - IenS-Velsen
+  - MinBZK
   - MinELenI
   - Pleio
   - provinciegroningen
@@ -422,12 +460,12 @@ U.K. Central:
   - dvla
   - dvsa
   - GCHQ
-  - gds-attic
   - gds-dead
   - gds-operations
   - guidance-guarantee-programme
   - hmcts
   - hmrc
+  - informatics-lab
   - insolvencyservice
   - intellectual-property-office
   - IQuOD
@@ -438,13 +476,13 @@ U.K. Central:
   - landregistry-ops
   - lgss
   - LocalGovDigital
-  - met-office-lab
   - MetOffice
   - MetOfficeSpaceApps
   - metomi
   - ministryofjustice
   - naouk
   - nationalarchives
+  - NationalCrimeAgency
   - OfqualGovUK
   - ONSdigital
   - openglasgow
@@ -588,6 +626,7 @@ U.S. Federal:
   - CA-CST-Library
   - CA-CST-SII
   - ccmc
+  - CDCgov
   - cfpb
   - cmsgov
   - commercedataservice
@@ -606,6 +645,7 @@ U.S. Federal:
   - eregs
   - fcc
   - fda
+  - fecgov
   - Federal-Aviation-Administration
   - federaltradecommission
   - fedspendingtransparency
@@ -668,6 +708,7 @@ U.S. Federal:
   - sbstusa
   - SelectUSA
   - SERVIR
+  - SSAgov
   - state-hiu
   - sunpy
   - us-bea
@@ -710,6 +751,7 @@ U.S. Federal:
   - USPTO
   - USSBA
   - usstatedept
+  - ustaxcourt
   - VHAINNOVATIONS
   - virtual-world-framework
   - visionworkbench
@@ -723,6 +765,7 @@ U.S. Military and Intelligence:
   - info-sharing-environment
   - NationalSecurityAgency
   - ngageoint
+  - nsacyber
   - project-interoperability
   - screamlab
   - shareandprotect
@@ -794,13 +837,13 @@ U.S. States:
 U.S. Tribal Nations:
   - coquille-indian-tribe
   - osage-nation
-  
+
 U.S. Local Law Enforcement:
   - SanDiegoCountySheriff
-  
+
 Ukraine:
   - openprocurement
-  
+
 Uruguay:
   - gubuy
 

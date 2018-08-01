@@ -128,7 +128,7 @@ Canada:
   - nrc-cnrc
   - NRCan
   - nsgov
-  - OntarioDigital
+  - ongov
   - open-data
   - phac-nml
   - pspc-spac
@@ -698,6 +698,7 @@ U.S. Federal:
   - sbstusa
   - SelectUSA
   - SERVIR
+  - SSAgov
   - state-hiu
   - sunpy
   - us-bea
@@ -754,6 +755,7 @@ U.S. Military and Intelligence:
   - MarineMakers
   - NationalSecurityAgency
   - ngageoint
+  - nsacyber
   - project-interoperability
   - screamlab
   - shareandprotect

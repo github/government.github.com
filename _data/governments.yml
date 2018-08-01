@@ -22,6 +22,7 @@ Australia:
   - data61
   - datagovau
   - dpipwe
+  - dssgovaus
   - envris
   - Fire-and-Rescue-NSW
   - gccgisteam
@@ -51,6 +52,7 @@ Australia:
 
 Belgium:
   - belgianpolice
+  - CIRB
   - Fedict
   - inbo
   - onroerenderfgoed
@@ -87,7 +89,6 @@ Brazil:
   - prodest
   - secom-tocantins
   - secultce
-  - SerraWeb
   - tcers
   - tisorocaba
   - tre-pa
@@ -128,7 +129,7 @@ Canada:
   - nrc-cnrc
   - NRCan
   - nsgov
-  - OntarioDigital
+  - ongov
   - open-data
   - phac-nml
   - pspc-spac
@@ -207,19 +208,29 @@ Finland:
 
 France:
   - afimb
+  - AlsaceDigitale
   - ANSSI-FR
   - ApieFrance
+  - betagouv
   - communaute-cimi
+  - culturecommunication
   - DGFiP
   - diplomatiegouvfr
   - disic
+  - entrepreneur-interet-general
   - erasme
   - etalab
+  - lutece-secteur-public
+  - MINAGRI-INITIAL
+  - MTES-MCT
   - nanterre
+  - nantesmetropole
   - polewebmaedi
   - ProgrammeVitam
-  - sgmap
+  - region-bretagne
   - sgmap-agd
+  - SocialGouv
+  - strasbourg
 
 French Polynesia:
   - sipf
@@ -377,18 +388,26 @@ Spain:
   - JuntaDeAndalucia
 
 Sweden:
+  - arbetsformedlingen
   - domstol
   - gbif-sweden
+  - Helsingborg
+  - helsingborg-stad
   - kungbib
+  - Lantmateriet
   - libris
   - lldd
   - malmostad
   - mtmse
+  - regionhalland
+  - regionostergotland
   - riksarkivet
   - rinfo
   - statens-maritima-museer
+  - Sundsvallskommun
   - swedishpensionsagency
   - The-Municipality-of-Staffanstorp
+  - Vastra-Gotalandsregionen
 
 Switzerland:
   - alv-ch
@@ -409,6 +428,7 @@ The Netherlands:
   - Geonovum
   - Haarlem
   - IenS-Velsen
+  - MinBZK
   - MinELenI
   - Pleio
   - provinciegroningen
@@ -683,6 +703,7 @@ U.S. Federal:
   - sbstusa
   - SelectUSA
   - SERVIR
+  - SSAgov
   - state-hiu
   - sunpy
   - us-bea
@@ -738,6 +759,7 @@ U.S. Military and Intelligence:
   - info-sharing-environment
   - NationalSecurityAgency
   - ngageoint
+  - nsacyber
   - project-interoperability
   - screamlab
   - shareandprotect

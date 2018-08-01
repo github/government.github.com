@@ -52,6 +52,7 @@ Australia:
 
 Belgium:
   - belgianpolice
+  - CIRB
   - Fedict
   - inbo
   - onroerenderfgoed
@@ -128,7 +129,7 @@ Canada:
   - nrc-cnrc
   - NRCan
   - nsgov
-  - OntarioDigital
+  - ongov
   - open-data
   - phac-nml
   - pspc-spac
@@ -207,19 +208,29 @@ Finland:
 
 France:
   - afimb
+  - AlsaceDigitale
   - ANSSI-FR
   - ApieFrance
+  - betagouv
   - communaute-cimi
+  - culturecommunication
   - DGFiP
   - diplomatiegouvfr
   - disic
+  - entrepreneur-interet-general
   - erasme
   - etalab
+  - lutece-secteur-public
+  - MINAGRI-INITIAL
+  - MTES-MCT
   - nanterre
+  - nantesmetropole
   - polewebmaedi
   - ProgrammeVitam
-  - sgmap
+  - region-bretagne
   - sgmap-agd
+  - SocialGouv
+  - strasbourg
 
 French Polynesia:
   - sipf
@@ -374,18 +385,26 @@ Spain:
   - JuntaDeAndalucia
 
 Sweden:
+  - arbetsformedlingen
   - domstol
   - gbif-sweden
+  - Helsingborg
+  - helsingborg-stad
   - kungbib
+  - Lantmateriet
   - libris
   - lldd
   - malmostad
   - mtmse
+  - regionhalland
+  - regionostergotland
   - riksarkivet
   - rinfo
   - statens-maritima-museer
+  - Sundsvallskommun
   - swedishpensionsagency
   - The-Municipality-of-Staffanstorp
+  - Vastra-Gotalandsregionen
 
 Switzerland:
   - alv-ch
@@ -735,6 +754,7 @@ U.S. Military and Intelligence:
   - info-sharing-environment
   - NationalSecurityAgency
   - ngageoint
+  - nsacyber
   - project-interoperability
   - screamlab
   - shareandprotect

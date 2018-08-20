@@ -167,7 +167,12 @@ Colombia:
   - idu-bogota
 
 Denmark:
+  - cs-au-dk
+  - Kortforsyningen
+  - NationalMuseumofDenmark
   - skat
+  - ssi-dk
+  - StatensMuseumforKunst
 
 Ecuador:
   - inamhi
@@ -327,19 +332,39 @@ New Zealand:
 
 Norway:
   - altinn
+  - AscendNTNU
+  - bergenkommune
+  - brreg
   - difi
   - digibib
+  - dsb-norge
   - dss-web
+  - fylkesmannen
+  - Hedmark-University-College-SPIM
+  - HiOA-IKT
+  - hiof
   - kartverket
+  - knreise
   - KRD-KOMM-VL
   - metno
+  - nasjonalmuseet
   - navikt
   - nlbdev
+  - NTNU-MCS
+  - Rogaland
   - rutebanken
   - ruterno
+  - Skatteetaten
+  - StatensPensjonskasse
   - telemark
+  - telemark-arkiv
+  - uib
+  - uis-no
+  - uit-no
   - uninett
+  - unioslo
   - vegvesen
+  - vest-agder
 
 Panama:
   - IFARHU
@@ -359,6 +384,7 @@ Philippines:
 Poland:
   - coi-gov-pl
   - Ministerstwo-Cyfryzacji
+  - nationalmuseum
 
 Portugal:
   - amagovpt
@@ -394,24 +420,46 @@ Spain:
 Sweden:
   - arbetsformedlingen
   - domstol
+  - dotse
+  - elegnamnden
+  - EnvGen
+  - Forsakringskassan
   - gbif-sweden
   - Helsingborg
   - helsingborg-stad
+  - ISOF-ITD
+  - KTH
+  - KTHse
   - kungbib
   - Lantmateriet
   - libris
   - lldd
+  - lshSWE
+  - lunduniversity
   - malmostad
+  - mdh-se
   - mtmse
+  - NationalmuseumSWE
+  - NordicMuseum
   - regionhalland
   - regionostergotland
   - riksarkivet
   - rinfo
+  - RISE-SICS
+  - SciLifeLab
+  - skolverket
+  - SodertornHB
   - statens-maritima-museer
+  - Statenspersonadressregister
+  - stockholmuniversity
   - Sundsvallskommun
+  - sverigesradio
+  - SVT
   - swedishpensionsagency
   - The-Municipality-of-Staffanstorp
+  - uppsala-university
   - Vastra-Gotalandsregionen
+  - vasttrafik
 
 Switzerland:
   - alv-ch

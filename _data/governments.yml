@@ -214,6 +214,8 @@ France:
   - ANSSI-FR
   - ApieFrance
   - betagouv
+  - clipos
+  - clipos-archive
   - communaute-cimi
   - culturecommunication
   - DGFiP
@@ -236,6 +238,7 @@ France:
   - sgmap-agd
   - SocialGouv
   - strasbourg
+  - wookey-project
 
 French Polynesia:
   - sipf

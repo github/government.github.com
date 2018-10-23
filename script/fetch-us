@@ -27,6 +27,7 @@ orgs = orgs['results'].collect { |data| data['account'] }
 orgs.each do |org|
   next if existing.include?(org.downcase)
   next unless org_exists? org
+
   org_file['U.S. Federal'].push(org.downcase)
 end
 

@@ -422,6 +422,7 @@ Switzerland:
   - dsi-vd
   - FNSKtZH
   - gisktzh
+  - kanton-bern
   - ogdch
   - sitn
   - swiss-gov
@@ -447,6 +448,7 @@ The Netherlands:
 U.K. Central:
   - alphagov
   - BEACmodel
+  - britishlibrary
   - cabinetoffice
   - CJSCommonPlatform
   - communitiesuk
@@ -499,6 +501,7 @@ U.K. Central:
   - UKHomeOffice
   - UKLocation
   - ukncsc
+  - ukwa
 
 U.K. Councils:
   - BarnsleyCouncil

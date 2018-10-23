@@ -41,6 +41,7 @@ files.each do |file|
   data.each do |group, orgs|
     not_orgs = Parallel.map(orgs) { |org| org unless org?(org) }.compact
     next if not_orgs.empty?
+
     puts "\nIn #{File.basename(file)}, in the #{group} group, the following entries are users, not orgs:\n\n"
     puts not_orgs
     valid = false

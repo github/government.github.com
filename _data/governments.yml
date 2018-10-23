@@ -48,6 +48,7 @@ Australia:
   - SunshineCoastCouncil
   - treasury-aus
   - victoriangovernment
+  - dpc-sdp
   - wamuseum
 
 Belgium:
@@ -138,6 +139,7 @@ Canada:
   - ServiceCanada
   - StatCan
   - TBS-EACPD
+  - tc-ca
   - thecityofcalgary
   - VilledeMontreal
   - wet-boew
@@ -192,6 +194,7 @@ European Union:
   - europeana
 
 Finland:
+  - 6Aika
   - City-of-Helsinki
   - CSC-IT-Center-for-Science
   - Digipalvelutehdas
@@ -212,6 +215,8 @@ France:
   - ANSSI-FR
   - ApieFrance
   - betagouv
+  - clipos
+  - clipos-archive
   - communaute-cimi
   - culturecommunication
   - DGFiP
@@ -220,6 +225,7 @@ France:
   - entrepreneur-interet-general
   - erasme
   - etalab
+  - Inist-CNRS
   - SocieteNumerique
   - lutece-secteur-public
   - MINAGRI-INITIAL
@@ -233,6 +239,7 @@ France:
   - sgmap-agd
   - SocialGouv
   - strasbourg
+  - wookey-project
 
 French Polynesia:
   - sipf
@@ -419,6 +426,7 @@ Switzerland:
   - dsi-vd
   - FNSKtZH
   - gisktzh
+  - kanton-bern
   - ogdch
   - sitn
   - swiss-gov
@@ -444,6 +452,7 @@ The Netherlands:
 U.K. Central:
   - alphagov
   - BEACmodel
+  - britishlibrary
   - cabinetoffice
   - CJSCommonPlatform
   - communitiesuk
@@ -458,6 +467,7 @@ U.K. Central:
   - dstl
   - dvla
   - dvsa
+  - dwp
   - GCHQ
   - gds-dead
   - gds-operations
@@ -495,6 +505,7 @@ U.K. Central:
   - UKHomeOffice
   - UKLocation
   - ukncsc
+  - ukwa
 
 U.K. Councils:
   - BarnsleyCouncil
@@ -526,6 +537,9 @@ U.K. Councils:
   - wealden
   - west-berkshire-council
 
+United Nations:
+  - UNGlobalPlatform
+  
 U.S. City:
   - austincodeit
   - Baltimore-City-EGIS
@@ -626,6 +640,7 @@ U.S. Federal:
   - CA-CST-Library
   - CA-CST-SII
   - ccmc
+  - CDCgov
   - cfpb
   - cmsgov
   - commercedataservice
@@ -766,6 +781,7 @@ U.S. Military and Intelligence:
   - ngageoint
   - nsacyber
   - project-interoperability
+  - psns-imf
   - screamlab
   - shareandprotect
   - SIMP
@@ -829,7 +845,6 @@ U.S. States:
   - Virginia-House-of-Delegates
   - vtrans
   - vtrans-rail
-  - wadoh
   - wsdot
   - WSDOT-GIS
 

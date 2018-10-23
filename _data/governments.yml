@@ -139,6 +139,7 @@ Canada:
   - ServiceCanada
   - StatCan
   - TBS-EACPD
+  - tc-ca
   - thecityofcalgary
   - VilledeMontreal
   - wet-boew
@@ -218,6 +219,8 @@ France:
   - ANSSI-FR
   - ApieFrance
   - betagouv
+  - clipos
+  - clipos-archive
   - communaute-cimi
   - culturecommunication
   - DGFiP
@@ -240,6 +243,7 @@ France:
   - sgmap-agd
   - SocialGouv
   - strasbourg
+  - wookey-project
 
 French Polynesia:
   - sipf
@@ -454,6 +458,7 @@ Switzerland:
   - dsi-vd
   - FNSKtZH
   - gisktzh
+  - kanton-bern
   - ogdch
   - sitn
   - swiss-gov
@@ -479,6 +484,7 @@ The Netherlands:
 U.K. Central:
   - alphagov
   - BEACmodel
+  - britishlibrary
   - cabinetoffice
   - CJSCommonPlatform
   - communitiesuk
@@ -493,6 +499,7 @@ U.K. Central:
   - dstl
   - dvla
   - dvsa
+  - dwp
   - GCHQ
   - gds-dead
   - gds-operations
@@ -530,6 +537,7 @@ U.K. Central:
   - UKHomeOffice
   - UKLocation
   - ukncsc
+  - ukwa
 
 U.K. Councils:
   - BarnsleyCouncil

@@ -169,7 +169,11 @@ Colombia:
   - idu-bogota
 
 Denmark:
+  - Kortforsyningen
+  - NationalMuseumofDenmark
   - skat
+  - ssi-dk
+  - StatensMuseumforKunst
 
 Ecuador:
   - inamhi
@@ -333,19 +337,30 @@ New Zealand:
 
 Norway:
   - altinn
+  - bergenkommune
+  - brreg
   - difi
   - digibib
+  - dsb-norge
   - dss-web
+  - fylkesmannen
   - kartverket
+  - knreise
   - KRD-KOMM-VL
   - metno
+  - nasjonalmuseet
   - navikt
   - nlbdev
+  - Rogaland
   - rutebanken
   - ruterno
+  - Skatteetaten
+  - StatensPensjonskasse
   - telemark
+  - telemark-arkiv
   - uninett
   - vegvesen
+  - vest-agder
 
 Panama:
   - IFARHU
@@ -365,6 +380,7 @@ Philippines:
 Poland:
   - coi-gov-pl
   - Ministerstwo-Cyfryzacji
+  - nationalmuseum
 
 Portugal:
   - amagovpt
@@ -400,24 +416,40 @@ Spain:
 Sweden:
   - arbetsformedlingen
   - domstol
+  - dotse
+  - elegnamnden
+  - Forsakringskassan
   - gbif-sweden
   - Helsingborg
   - helsingborg-stad
+  - ISOF-ITD
   - kungbib
   - Lantmateriet
   - libris
   - lldd
+  - lshSWE
   - malmostad
   - mtmse
+  - NationalmuseumSWE
+  - NordicMuseum
   - regionhalland
   - regionostergotland
   - riksarkivet
   - rinfo
+  - RISE-SICS
+  - SciLifeLab
+  - skolverket
+  - smhi
+  - SodertornHB
   - statens-maritima-museer
+  - Statenspersonadressregister
   - Sundsvallskommun
+  - sverigesradio
+  - SVT
   - swedishpensionsagency
   - The-Municipality-of-Staffanstorp
   - Vastra-Gotalandsregionen
+  - vasttrafik
 
 Switzerland:
   - alv-ch

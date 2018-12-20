@@ -37,7 +37,6 @@ Australia:
   - Landgate
   - mcma
   - nla
-  - nmalabs
   - NSW-eTendering
   - NSWPlanning
   - NSWRFS
@@ -126,8 +125,10 @@ Canada:
   - GNWT
   - HIFIS
   - infra-geo-ouverte
+  - LMID-DIMT
   - MC-MBO-WebPublishingTeam
   - MetPX
+  - MTS-STM
   - nrc-cnrc
   - NRCan
   - nsgov
@@ -231,6 +232,7 @@ France:
   - DGFiP
   - diplomatiegouvfr
   - disic
+  - DREAL-NA
   - entrepreneur-interet-general
   - erasme
   - etalab
@@ -242,6 +244,9 @@ France:
   - MinistereSupRecherche
   - nanterre
   - nantesmetropole
+  - PnCevennes
+  - PnEcrins
+  - PnX-SI
   - polewebmaedi
   - ProgrammeVitam
   - region-bretagne
@@ -782,6 +787,7 @@ U.S. Federal:
   - USDeptVeteransAffairs
   - usdoj
   - usds
+  - usdot-fhwa-stol
   - usdot-jpo-ode
   - useda
   - usepa
@@ -810,6 +816,7 @@ U.S. Federal:
   - visionworkbench
   - WFMRDA
   - whitehouse
+  - XDgov
 
 U.S. Military and Intelligence:
   - afseo

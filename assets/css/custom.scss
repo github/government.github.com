@@ -24,6 +24,7 @@ body {
 }
 
 .fill-blue { fill: $blue; }
+.fill-green { fill: $green; }
 .fill-gray { fill: $gray; }
 .fill-gray-light { fill: $gray-light; }
 
@@ -145,9 +146,23 @@ td.does-not-support { color: $red-500; }
   border-radius: 0.25em;
 }
 
-.btn-large {
-  padding: 10px 15px;
-  border-radius: 0.25em;
+@mixin btn-transparent-active {
+  color: $gray-800;
+  background-color: $white;
+  background-image: none;
+  border-color: $white;
+}
+
+.btn-transparent {
+  color: $white;
+  background-color: transparent;
+  background-image: none;
+  border: $border-width $border-style $white-fade-50;
+
+  &:hover,
+  &:active {
+    @include btn-transparent-active;
+  }
 }
 
 //

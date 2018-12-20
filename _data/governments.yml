@@ -37,7 +37,6 @@ Australia:
   - Landgate
   - mcma
   - nla
-  - nmalabs
   - NSW-eTendering
   - NSWPlanning
   - NSWRFS
@@ -128,6 +127,7 @@ Canada:
   - infra-geo-ouverte
   - MC-MBO-WebPublishingTeam
   - MetPX
+  - MTS-STM
   - nrc-cnrc
   - NRCan
   - nsgov
@@ -231,6 +231,7 @@ France:
   - DGFiP
   - diplomatiegouvfr
   - disic
+  - DREAL-NA
   - entrepreneur-interet-general
   - erasme
   - etalab
@@ -813,6 +814,7 @@ U.S. Federal:
   - visionworkbench
   - WFMRDA
   - whitehouse
+  - XDgov
 
 U.S. Military and Intelligence:
   - afseo

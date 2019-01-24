@@ -6,5 +6,8 @@ branches:
   only:
     - gh-pages
     - /.*/
+before_install:
+- openssl version
+- openssl ciphers -v 'ALL:eNULL' | sed -e 's/:/ /: /g'
 sudo: false
 cache: bundler

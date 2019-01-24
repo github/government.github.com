@@ -9,5 +9,6 @@ branches:
 before_install:
 - openssl version
 - openssl ciphers -v
+- openssl s_client -cipher ECDHE-RSA-AES256-GCM-SHA384 -connect github.blog:443 -tls1_2
 sudo: false
 cache: bundler

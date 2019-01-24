@@ -8,6 +8,6 @@ branches:
     - /.*/
 before_install:
 - openssl version
-- openssl ciphers -v 'ALL:eNULL' | sed -e 's/:/ /: /g'
+- openssl ciphers -v
 sudo: false
 cache: bundler

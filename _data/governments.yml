@@ -117,6 +117,7 @@ Canada:
   - csbp-cpse
   - ECCC-MSC
   - electionsquebec
+  - esdc-iitb
   - fgpv-vpgf
   - gc-proto
   - GCTC-NTGC
@@ -136,6 +137,7 @@ Canada:
   - open-data
   - phac-nml
   - pspc-spac
+  - PSPC-SPAC-buyandsell
   - RAMP-PCAR
   - RDOQ
   - ServiceCanada
@@ -143,6 +145,7 @@ Canada:
   - TBS-EACPD
   - tc-ca
   - thecityofcalgary
+  - veteransaffairscanada
   - VilledeMontreal
   - wet-boew
 
@@ -334,6 +337,7 @@ Mexico:
 
 New Zealand:
   - CanterburyRegionalCouncil
+  - data-govt-nz
   - DigitalNZ
   - ElectricityAuthority
   - GOVTNZ
@@ -474,7 +478,6 @@ Switzerland:
   - kanton-bern
   - ogdch
   - sitn
-  - swiss-gov
 
 The Netherlands:
   - Amsterdam
@@ -538,6 +541,7 @@ U.K. Central:
   - naouk
   - nationalarchives
   - NationalCrimeAgency
+  - nhsuk
   - OfqualGovUK
   - ONSdigital
   - openglasgow

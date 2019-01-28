@@ -143,6 +143,7 @@ Canada:
   - TBS-EACPD
   - tc-ca
   - thecityofcalgary
+  - veteransaffairscanada
   - VilledeMontreal
   - wet-boew
 
@@ -475,7 +476,6 @@ Switzerland:
   - kanton-bern
   - ogdch
   - sitn
-  - swiss-gov
 
 The Netherlands:
   - Amsterdam
@@ -538,6 +538,7 @@ U.K. Central:
   - naouk
   - nationalarchives
   - NationalCrimeAgency
+  - nhsuk
   - OfqualGovUK
   - ONSdigital
   - openglasgow
@@ -582,10 +583,11 @@ U.K. Councils:
   - warwickshire
   - wealden
   - west-berkshire-council
+  - wmfs
 
 United Nations:
   - UNGlobalPlatform
-  
+
 U.S. City:
   - austincodeit
   - Baltimore-City-EGIS

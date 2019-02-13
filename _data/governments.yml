@@ -117,14 +117,13 @@ Canada:
   - csbp-cpse
   - ECCC-MSC
   - electionsquebec
-  - esdc-iitb
+  - esdc-edsc
   - fgpv-vpgf
   - gc-proto
   - GCTC-NTGC
   - gctools-outilsgc
   - GeoCanViz
   - GNWT
-  - HIFIS
   - infra-geo-ouverte
   - LMID-DIMT
   - MC-MBO-WebPublishingTeam
@@ -426,7 +425,6 @@ Spain:
   - ErabakiPamplona
   - GobiernoLaRioja
   - icane
-  - JuntaDeAndalucia
 
 Sweden:
   - arbetsformedlingen
@@ -651,7 +649,7 @@ U.S. City:
   - SantaClarita
   - sfbart
   - SiloamSprings
-  - southbend
+  - southbendin
   - TownOfBrookline
   - tucsonaz
 

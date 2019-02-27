@@ -149,22 +149,6 @@ Canada:
   - VilledeMontreal
   - wet-boew
 
-Catalonia:
-  - AjuntamentdeBarcelona
-  - AjuntamentdeSabadell
-  - AjuntamentdeSantCugat
-  - AjuntamentdeTerrassa
-  - AjuntamentDeMataro
-  - AjuntamentdeReus
-  - AjuntamentDeGava
-  - AjuntamentdeCalafell
-  - AjMalgrat
-  - diputacioBCN
-  - gencat
-  - HospitaletDeLlobregat
-  - projectestac
-  - vilanovailageltru
-
 Chile:
   - e-gob
 
@@ -419,13 +403,27 @@ South Africa:
   - eddZA
 
 Spain:
+  - AjMalgrat
+  - AjuntamentdeBarcelona
+  - AjuntamentdeCalafell
   - AjuntamentdeCastello
+  - AjuntamentDeGava
+  - AjuntamentDeMataro
+  - AjuntamentdeReus
+  - AjuntamentdeSabadell
+  - AjuntamentdeSantCugat
+  - AjuntamentdeTerrassa
   - AyuntamientoMadrid
   - castilla-lamancha
   - ctt-gob-es
+  - diputacioBCN
   - ErabakiPamplona
+  - gencat
   - GobiernoLaRioja
+  - HospitaletDeLlobregat
   - icane
+  - projectestac
+  - vilanovailageltru
 
 Sweden:
   - arbetsformedlingen

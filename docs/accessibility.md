@@ -9,7 +9,7 @@ data:
     product:
     criteria:
       - criterion: "Section 1194.21 Software Applications and Operating Systems"
-        support: Supports
+        support: Supports with exceptions
         comments: GitHub.com, GitHub Enterprise, GitHub Desktop
       - criterion: "Section 1194.22 Web-based Intranet and Internet Information and Applications"
         support: Supports with exceptions
@@ -18,7 +18,7 @@ data:
         support: Not applicable
         comments:
       - criterion: "Section 1194.24 Video and Multi-media Products"
-        support: Supports
+        support: Supports with exceptions
         comments: "Training materials available via [youtube.com/github](https://www.youtube.com/user/github) and [youtube.com/githubguides](https://www.youtube.com/user/githubguides)"
       - criterion: "Section 1194.25 Self-Contained, Closed Products"
         support: Not applicable
@@ -27,7 +27,7 @@ data:
         support: Not applicable
         comments:
       - criterion: "Section 1194.31 Functional Performance criterion"
-        support: Supports
+        support: Supports with exceptions
         comments:
       - criterion: "Section 1194.41 Information, Documentation and Support"
         support: Supports
@@ -37,16 +37,16 @@ data:
     product: GitHub.com, GitHub Enterprise, GitHub Desktop
     criteria:
       - criterion: "(a) When software is designed to run on a system that has a keyboard, product functions shall be executable from a keyboard where the function itself or the result of performing a function can be discerned textually."
-        support: Supports
+        support: Supports with exceptions
         comments:
       - criterion: "(b) Applications shall not disrupt or disable activated features of other products that are identified as accessibility features, where those features are developed and documented according to industry standards. Applications also shall not disrupt or disable activated features of any operating system that are identified as accessibility features where the application programming interface for those accessibility features has been documented by the manufacturer of the operating system and is available to the product developer."
         support:  Supports
         comments: GitHub desktop applications are built using platform-specific standards and best practices where possible.
       - criterion: "(c) A well-defined on-screen indication of the current focus shall be provided that moves among interactive interface elements as the input focus changes. The focus shall be programmatically exposed so that Assistive Technology can track focus and focus changes."
-        support:  Supports
+        support:  Supports with exceptions
         comments:
       - criterion: "(d) Sufficient information about a user interface element including the identity, operation and state of the element shall be available to Assistive Technology. When an image represents a program element, the information conveyed by the image must also be available in text."
-        support: Supports
+        support: Supports with exceptions
         comments:
       - criterion: "(e) When bitmap images are used to identify controls, status indicators, or other programmatic elements, the meaning assigned to those images shall be consistent throughout an application's performance."
         support: Supports
@@ -58,19 +58,19 @@ data:
         support:  Supports
         comments: System wide contrast, font-size and other accessibility preferences are respected throughout the application.
       - criterion: "(h) When animation is displayed, the information shall be displayable in at least one non-animated presentation mode at the option of the user."
-        support: Not applicable
+        support: Supports 
         comments:
       - criterion: "(i) Color coding shall not be used as the only means of conveying information, indicating an action, prompting a response, or distinguishing a visual element."
         support: Supports
         comments: Visual line diffs are annotated with standard "+" and "-" notation to indicated additions and removals
       - criterion: "(j) When a product permits a user to adjust color and contrast settings, a variety of color selections capable of producing a range of contrast levels shall be provided."
-        support: Not applicable
+        support: Supports
         comments:
       - criterion: "(k) Software shall not use flashing or blinking text, objects, or other elements having a flash or blink frequency greater than 2 Hz and lower than 55 Hz."
         support: Supports
         comments: Applications have no flashing or blinking elements
       - criterion: "(l) When electronic forms are used, the form shall allow people using Assistive Technology to access the information, field elements, and functionality required for completion and submission of the form, including all directions and cues."
-        support: Supports
+        support: Supports with exceptions
         comments:
 
   "Section 1194.22 Web-based Intranet and Internet Information and Applications":
@@ -95,7 +95,7 @@ data:
         support:  Not applicable
         comments: No client-side image maps are used.
       - criterion: "(g) Row and column headers shall be identified for data tables."
-        support:  Supports
+        support:  Supports with exceptions
         comments:
       - criterion: "(h) Markup shall be used to associate data cells and header cells for data tables that have two or more logical levels of row or column headers."
         support:  Not applicable
@@ -119,7 +119,7 @@ data:
         support:  Supports
         comments:
       - criterion: "(o) A method shall be provided that permits users to skip repetitive navigation links."
-        support:  Supports
+        support:  Supports with exceptions
         comments:
       - criterion: "(p) When a timed response is required, the user shall be alerted and given sufficient time to indicate more time is required."
         support:  Not applicable
@@ -184,7 +184,7 @@ data:
         support: Supports
         comments: "Training materials available at [youtube.com/github](https://www.youtube.com/user/github) and [youtube.com/githubguides](https://www.youtube.com/user/githubguides). All GitHub videos are fully closed captioned. <br /><br />For more information on YouTube's accessibility see [support.google.com/youtube/answer/189278](https://support.google.com/youtube/answer/189278?hl=en)"
       - criterion: "(d) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain visual information necessary for the comprehension of the content, shall be audio described."
-        support: Supports
+        support: Supports with exceptions
         comments:
       - criterion: "(e) Display or presentation of alternate text presentation or audio descriptions shall be user-selectable unless permanent."
         support: Supports
@@ -253,10 +253,10 @@ data:
     product:
     criteria:
       - criterion: "(a) At least one mode of operation and information retrieval that does not require user vision shall be provided, or support for Assistive Technology used by people who are blind or visually impaired shall be provided."
-        support: Supports
+        support: Supports with exceptions
         comments: All Git-based file operations can be performed via the text-only Git command line interface using assistive technology, and all account management and social interactions (e.g., commenting on an issue) can be performed via GitHub.com or GitHub enterprise with assistive technology.
       - criterion: "(b) At least one mode of operation and information retrieval that does not require visual acuity greater than 20/70 shall be provided in audio and enlarged print output working together or independently, or support for Assistive Technology used by people who are visually impaired shall be provided."
-        support: Supports
+        support: Supports with exceptions
         comments: All GitHub product support the use of assistive technology and provide the ability, through the user's web browser or operating system to increase the font size.
       - criterion: "(c) At least one mode of operation and information retrieval that does not require user hearing shall be provided, or support for Assistive Technology used by people who are deaf or hard of hearing shall be provided"
         support: Supports
@@ -268,7 +268,7 @@ data:
         support: Supports
         comments: Products do not support speech input.
       - criterion: "(f) At least one mode of operation and information retrieval that does not require fine motor control or simultaneous actions and that is operable with limited reach and strength shall be provided."
-        support: Supports
+        support: Supports with exceptions
         comments: No interactions require simultaneous user actions or depend solely on fine motor controls.
 
   "Section 1194.41 Information, Documentation and Support":

@@ -9,17 +9,17 @@ data:
     product:
     criteria:
       - criterion: "Section 1194.21 Software Applications and Operating Systems"
-        support: Supports
-        comments: GitHub.com, GitHub Enterprise, GitHub Desktop
+        support: Supports with exceptions
+        comments: 
       - criterion: "Section 1194.22 Web-based Intranet and Internet Information and Applications"
         support: Supports with exceptions
-        comments: GitHub.com and GitHub Enterprise
+        comments: 
       - criterion: "Section 1194.23 Telecommunications Products"
         support: Not applicable
         comments:
       - criterion: "Section 1194.24 Video and Multi-media Products"
-        support: Supports
-        comments: "Training materials available via [youtube.com/github](https://www.youtube.com/user/github) and [youtube.com/githubguides](https://www.youtube.com/user/githubguides)"
+        support: Supports with exceptions
+        comments: 
       - criterion: "Section 1194.25 Self-Contained, Closed Products"
         support: Not applicable
         comments:
@@ -27,7 +27,7 @@ data:
         support: Not applicable
         comments:
       - criterion: "Section 1194.31 Functional Performance criterion"
-        support: Supports
+        support: Supports with exceptions
         comments:
       - criterion: "Section 1194.41 Information, Documentation and Support"
         support: Supports
@@ -37,17 +37,17 @@ data:
     product: GitHub.com, GitHub Enterprise, GitHub Desktop
     criteria:
       - criterion: "(a) When software is designed to run on a system that has a keyboard, product functions shall be executable from a keyboard where the function itself or the result of performing a function can be discerned textually."
-        support: Supports
-        comments:
+        support: Supports with exceptions
+        comments: The items inside of Assignees and Clear Assignees require a user to tab to the submenu items versus use down/up arrows.<br /><br />Labels option does not follow typical keyboard actions.<br /><br />In Desktop for Windows and Mac, “Close” button control does not have close option in the keyboard tab order. User has to hit Esc key to cancel changes.<br /><br />On Desktop for Windows, context menus key off of the mouse versus the parent control.<br /><br />On Desktop for Windows and Mac, the Co-Author button is not keyboard navigable.
       - criterion: "(b) Applications shall not disrupt or disable activated features of other products that are identified as accessibility features, where those features are developed and documented according to industry standards. Applications also shall not disrupt or disable activated features of any operating system that are identified as accessibility features where the application programming interface for those accessibility features has been documented by the manufacturer of the operating system and is available to the product developer."
         support:  Supports
         comments: GitHub desktop applications are built using platform-specific standards and best practices where possible.
       - criterion: "(c) A well-defined on-screen indication of the current focus shall be provided that moves among interactive interface elements as the input focus changes. The focus shall be programmatically exposed so that Assistive Technology can track focus and focus changes."
-        support:  Supports
-        comments:
+        support:  Supports with exceptions
+        comments: The Filter control on the web client does not receive keyboard focus.<br /><br />When changing color value on Labels button, focus unexpectedly moves to top of page.<br /><br />When activating certain controls such as “delete” button for labels and links from buttons, expanded filters or filtered search results, focus does not move to the new dialog.<br /><br />When creating a “new issue,” focus does not move automatically to the title field.<br /><br />Focus order when creating a “new issue” is not logical.<br /><br />Focus does not go to user name/repo name, when activating "Skip to Main" button.<br /><br />In GitHub Notifications page, notifications are read out of logical order.<br /><br />When activating the branch dropdown menu, focus is not visible on “Skip to Content” link.<br /><br />On the Windows Desktop client, focus does not move to the first actionable item after sign in.<br /><br />On Desktop for Mac, add co-authors button is not keyboard focusable and focus is not visible on comments section.
       - criterion: "(d) Sufficient information about a user interface element including the identity, operation and state of the element shall be available to Assistive Technology. When an image represents a program element, the information conveyed by the image must also be available in text."
-        support: Supports
-        comments:
+        support: Supports with exceptions
+        comments: For web and GitHub client experiences, when making an edit to the markdown of the GitHub ReadMe file, the field is not announced as editable and “no new line at end of file” icon is not announced by screen reader.<br /><br />Across a number of areas in the GitHub Marketplace and Desktop for Windows and Mac experiences, selected elements are not announced as selected and decorative elements are not skipped by screen readers.<br /><br />Throughout GitHub sites and Desktop client experiences, links are only described as links without additional context.  For example, in GitHub repositories, new links are described only as new link without additional context.  Social media links (e.g., GitHub Twitter link) are only described as “link.”<br /><br />Assignees button, and type or choose name control do not have the correct accessible control name.<br /><br />No additional announcements are made after making a pull request although there are visual displays of errors and other information.<br /><br />On web experiences and Desktop for Windows, when reviewing search results data, checkboxes for labels and select all issues checkboxes do not have accessible names.<br /><br />On GitHub Help page, search button does not have the control type described.<br /><br />On GitHub Repo Settings Collaborators, the dismiss message button is announced before message is read and “Delete this repository” dialog sets focus to input field and ignores accompanying text.<br /><br />When not signed in, button names are not read (such as Watch or Fork) and instead, you must be signed in is read when landing on the control.<br /><br />On Desktop for Windows, default branch, recent branch and other branch headings are not announced by screen readers.<br /><br />On Desktop for Mac, when using delete branch button, the button  state change to “restore branch” is not announced.<br /><br />On Desktop for Windows, Continue dialog and Finish button do not trigger focus change to new dialogs when activated.<br /><br />On Desktop for Windows, Co-Author edit box does not have an accessible name.<br /><br />On Desktop for Windows and Mac, when when using “Fetch Origin” button and “Publish” button additional information when button state changes (e.g., fetch origin never fetched) is not announced by screen reader.<br /><br />On Desktop for Windows and Mac, new lines of code are announced as buttons.<br /><br />On Desktop for Windows, file viewer control does not have an accessible name.<br /><br />On Desktop for Windows and Mac the blue dot indicating status message on history is not announced.
       - criterion: "(e) When bitmap images are used to identify controls, status indicators, or other programmatic elements, the meaning assigned to those images shall be consistent throughout an application's performance."
         support: Supports
         comments: "All iconography are rendered via the [Octicons](https://octicons.github.com/) library."
@@ -55,23 +55,25 @@ data:
         support: Supports
         comments:
       - criterion: "(g) Applications shall not override user selected contrast and color selections and other individual display attributes."
-        support:  Supports
-        comments: System wide contrast, font-size and other accessibility preferences are respected throughout the application.
+        support:  Supports with exceptions
+        comments: System wide contrast, font-size and other accessibility preferences are respected throughout the application except the Desktop for Mac client does not respond to high contrast settings.
       - criterion: "(h) When animation is displayed, the information shall be displayable in at least one non-animated presentation mode at the option of the user."
-        support: Not applicable
+        support: Supports 
         comments:
       - criterion: "(i) Color coding shall not be used as the only means of conveying information, indicating an action, prompting a response, or distinguishing a visual element."
-        support: Supports
-        comments: Visual line diffs are annotated with standard "+" and "-" notation to indicated additions and removals
+        support: Supports with exceptions
+        comments: Visual line diffs are annotated with standard “+” and “-“ notation to indicated additions and removals, but may not be available to screen readers on Desktop for Windows and Mac clients.
       - criterion: "(j) When a product permits a user to adjust color and contrast settings, a variety of color selections capable of producing a range of contrast levels shall be provided."
-        support: Not applicable
+        support: Supports
         comments:
       - criterion: "(k) Software shall not use flashing or blinking text, objects, or other elements having a flash or blink frequency greater than 2 Hz and lower than 55 Hz."
         support: Supports
-        comments: Applications have no flashing or blinking elements
+        comments: Applications have no flashing or blinking elements.
       - criterion: "(l) When electronic forms are used, the form shall allow people using Assistive Technology to access the information, field elements, and functionality required for completion and submission of the form, including all directions and cues."
-        support: Supports
-        comments:
+        support: Supports with exceptions
+        comments: When making an edit to the markdown of the GitHub ReadMe file, the field is not announced as editable.<br /><br />No additional announcements are made after making a pull request although there are visual displays of errors and other information.<br /><br />Assignees button and “Type or choose a name edit field” have accessible names that do not match the visual control names.<br /><br />Input errors on GitHub.com sign up and sign-in pages on Desktop for Windows and Mac are not announced.
+
+
 
   "Section 1194.22 Web-based Intranet and Internet Information and Applications":
     product: GitHub.com and GitHub Enterprise
@@ -95,8 +97,8 @@ data:
         support:  Not applicable
         comments: No client-side image maps are used.
       - criterion: "(g) Row and column headers shall be identified for data tables."
-        support:  Supports
-        comments:
+        support:  Supports with exceptions
+        comments: GitHub Enterprise dashboard has a table that is not identified as a data table.
       - criterion: "(h) Markup shall be used to associate data cells and header cells for data tables that have two or more logical levels of row or column headers."
         support:  Not applicable
         comments:
@@ -114,16 +116,16 @@ data:
         comments:
       - criterion: "(m) When a web page requires that an applet, plug-in or other application be present on the client system to interpret page content, the page must provide a link to a plug-in or applet that complies with 1194.21(a) through (l)."
         support:  Not applicable
-        comments: The only plugin used is a flash-based tool for simplifying the task of copying text visible on the page (such as a commit's unique id) to the user's clipboard. The task may be accomplished through the operating system's standard copy and paste functionality.
+        comments: The only plugin used is a flash-based tool for simplifying the task of copying text visible on the page (such as a commit’s unique id) to the user’s clipboard. The task may be accomplished through the operating system’s standard copy and paste functionality.
       - criterion: "(n) When electronic forms are designed to be completed on-line, the form shall allow people using Assistive Technology to access the information, field elements, and functionality required for completion and submission of the form, including all directions and cues."
         support:  Supports
         comments:
       - criterion: "(o) A method shall be provided that permits users to skip repetitive navigation links."
-        support:  Supports
-        comments:
+        support:  Supports with exceptions
+        comments: On GitHub Enterprise and the GitHub Desktop client, the user must tab through repetitive links as there is no skip to main content. 
       - criterion: "(p) When a timed response is required, the user shall be alerted and given sufficient time to indicate more time is required."
         support:  Not applicable
-        comments: No timed responses are required.
+        comments: Timed responses are not required.
 
   "Section 1194.23 Telecommunications Products":
     product:
@@ -184,8 +186,8 @@ data:
         support: Supports
         comments: "Training materials available at [youtube.com/github](https://www.youtube.com/user/github) and [youtube.com/githubguides](https://www.youtube.com/user/githubguides). All GitHub videos are fully closed captioned. <br /><br />For more information on YouTube's accessibility see [support.google.com/youtube/answer/189278](https://support.google.com/youtube/answer/189278?hl=en)"
       - criterion: "(d) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain visual information necessary for the comprehension of the content, shall be audio described."
-        support: Supports
-        comments:
+        support: Supports with exceptions
+        comments: Training videos posted via YouTube video player do not include audio description.
       - criterion: "(e) Display or presentation of alternate text presentation or audio descriptions shall be user-selectable unless permanent."
         support: Supports
         comments: Viewers may toggle closed captioning using YouTube's native closed-captioning functionality.
@@ -253,23 +255,23 @@ data:
     product:
     criteria:
       - criterion: "(a) At least one mode of operation and information retrieval that does not require user vision shall be provided, or support for Assistive Technology used by people who are blind or visually impaired shall be provided."
-        support: Supports
-        comments: All Git-based file operations can be performed via the text-only Git command line interface using assistive technology, and all account management and social interactions (e.g., commenting on an issue) can be performed via GitHub.com or GitHub enterprise with assistive technology.
+        support: Supports with exceptions
+        comments: Account management and social interaction scenarios for each of the GitHub offerings covered by this VPAT have focus order, name, role, value, accessible name, and info and relationship issues that may prevent some scenarios from being completed.
       - criterion: "(b) At least one mode of operation and information retrieval that does not require visual acuity greater than 20/70 shall be provided in audio and enlarged print output working together or independently, or support for Assistive Technology used by people who are visually impaired shall be provided."
-        support: Supports
-        comments: All GitHub product support the use of assistive technology and provide the ability, through the user's web browser or operating system to increase the font size.
+        support: Supports with exceptions
+        comments: Zooming to certain levels will cause info on the screen to be pushed off and require horizontal scrolling.  This is particularly impactful when accessing GitHub web offerings or experiences on mobile devices.<br /><br />For each of the GitHub offerings covered by this VPAT, there is insufficient color contrast on a number of links, dialogs and controls.
       - criterion: "(c) At least one mode of operation and information retrieval that does not require user hearing shall be provided, or support for Assistive Technology used by people who are deaf or hard of hearing shall be provided"
         support: Supports
-        comments: Products do not use auditory feedback.
+        comments: Products do not require auditory feedback.
       - criterion: "(d) Where audio information is important for the use of a product, at least one mode of operation and information retrieval shall be provided in an enhanced auditory fashion, or support for assistive hearing devices shall be provided."
         support: Not Applicable
         comments: Products do not use auditory feedback.
       - criterion: "(e) At least one mode of operation and information retrieval that does not require user speech shall be provided, or support for Assistive Technology used by people with disabilities shall be provided."
         support: Supports
-        comments: Products do not support speech input.
+        comments: Products do not require speech input.
       - criterion: "(f) At least one mode of operation and information retrieval that does not require fine motor control or simultaneous actions and that is operable with limited reach and strength shall be provided."
-        support: Supports
-        comments: No interactions require simultaneous user actions or depend solely on fine motor controls.
+        support: Supports with exceptions
+        comments: Submenus and other control areas may require using irregular keyboard actions such as tabbling versus up/down arrows and focus order for creating and managing issues in GitHub is illogical.
 
   "Section 1194.41 Information, Documentation and Support":
     product:

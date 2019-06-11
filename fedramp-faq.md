@@ -1,7 +1,10 @@
 ---
-
+layout: support-page
+title: GitHub Enterprise Cloud is FedRAMP Authorized
+description: About FedRAMP and GitHub Enterprise Cloud
 
 ---
+
 
 # 🎉GitHub Enterprise Cloud -- FedRAMP Tailored Authorized 🎉
 

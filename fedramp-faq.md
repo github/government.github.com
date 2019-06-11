@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: support-page
 title: FedRAMP and GitHub
 description: GitHub Enterprise Cloud is now FedRAMP Authorized, which brings software collaboration to governments everywhere
 permalink: /fedramp-faq

@@ -1,13 +1,11 @@
 ---
 layout: support-page
-title: GitHub Enterprise Cloud is FedRAMP Authorized
-description: What FedRAMP means for the future of software collaboration and governments everywhere
+title: FedRAMP and GitHub
+description: GitHub Enterprise Cloud is now FedRAMP Authorized, which brings software collaboration to governments everywhere
 permalink: /fedramp-faq
 
 ---
 
-
-# 🎉GitHub Enterprise Cloud -- FedRAMP Tailored Authorized 🎉
 
 Governments around the world use GitHub to build software, shape policy, and share information with constituents. To ensure that governments can have access to best-in-class tools, we’ve worked with the US Federal Government to secure FedRAMP Tailored Authorization for GitHub Enterprise Cloud. 
 Government users can now rely on GitHub knowing that our platform meets the FedRAMP Tailored baseline of security standards set by our US federal government partners.

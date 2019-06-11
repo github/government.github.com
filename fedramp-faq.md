@@ -17,7 +17,8 @@ With GitHub Enterprise Cloud’s FedRAMP Tailored ATO, agencies can more easily:
 - Securely collaborate on software development and management in the cloud
 - Modernize the way they build software
 - Take advantages of the latest features and capabilities that GitHub has to offer
-- Jump start agency authorization by reviewing our current FedRAMP Tailored ATO and authorization package
+- Jump start agency authorization by reviewing our current FedRAMP Tailored ATO and authorization package  
+
 <br/>
 ## Why did the GSA determine that FedRAMP Tailored is the right baseline for GitHub?
 

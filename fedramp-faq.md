@@ -19,7 +19,7 @@ With GitHub Enterprise Cloud’s FedRAMP Tailored ATO, agencies can more easily:
 - Take advantages of the latest features and capabilities that GitHub has to offer
 - Jump start agency authorization by reviewing our current FedRAMP Tailored ATO and authorization package  
 
-<br/>
+&nbsp;<br/>
 ## Why did the GSA determine that FedRAMP Tailored is the right baseline for GitHub?
 
 As the Federal government takes advantage of the capabilities of modern software development and collaboration that GitHub provides, it is important they also do so in a way that is compliant with their security requirements, including OMB A-130 and the Risk Management Framework (NIST SP 800-37). FedRAMP Tailored provides agencies with a flexible and reusable template for ensuring a strong, FISMA-compliant security baseline for low risk Software as a Service (SaaS) systems.

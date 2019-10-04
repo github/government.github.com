@@ -104,6 +104,7 @@ Canada:
   - AAFC-MBB
   - abgov
   - bcdevexchange
+  - bac-lac
   - BCGov
   - canada-ca
   - cds-snc
@@ -111,6 +112,7 @@ Canada:
   - cityofgreatersudbury
   - cityofottawa
   - cityofsurrey
+  - CityOfSarnia
   - CityofToronto
   - CityofEdmonton
   - cityssm
@@ -368,6 +370,7 @@ Norway:
   - nasjonalmuseet
   - navikt
   - nlbdev
+  - Riksrevisjonen
   - Rogaland
   - rutebanken
   - ruterno
@@ -718,7 +721,6 @@ U.S. Federal:
   - globegit
   - gopleader
   - government-services
-  - GreatSmokyMountainsNationalPark
   - gsa
   - gsa-oes
   - hhs

@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 gem 'github-pages'
 gem 'jekyll-octicons'
+gem 'jekyll-seo-tag'
 # need lazy-load support
 gem 'jekyll-avatar', '>= 0.6.0'
 

@@ -82,6 +82,7 @@ Brazil:
   - labhackercd
   - lexml
   - MP-ES
+  - MP-RJ
   - pensandoodireito
   - plonegovbr
   - pr-snas
@@ -103,6 +104,7 @@ Canada:
   - AAFC-MBB
   - abgov
   - bcdevexchange
+  - bac-lac
   - BCGov
   - canada-ca
   - cds-snc
@@ -110,12 +112,14 @@ Canada:
   - cityofgreatersudbury
   - cityofottawa
   - cityofsurrey
+  - CityOfSarnia
   - CityofToronto
   - CityofEdmonton
   - cityssm
   - cngo
   - communicationssecurityestablishment
   - csbp-cpse
+  - CSPS-EFPC-DAAN
   - ECCC-MSC
   - electionsquebec
   - esdc-devx
@@ -149,22 +153,6 @@ Canada:
   - veteransaffairscanada
   - VilledeMontreal
   - wet-boew
-
-Catalonia:
-  - AjuntamentdeBarcelona
-  - AjuntamentdeSabadell
-  - AjuntamentdeSantCugat
-  - AjuntamentdeTerrassa
-  - AjuntamentDeMataro
-  - AjuntamentdeReus
-  - AjuntamentDeGava
-  - AjuntamentdeCalafell
-  - AjMalgrat
-  - diputacioBCN
-  - gencat
-  - HospitaletDeLlobregat
-  - projectestac
-  - vilanovailageltru
 
 Chile:
   - e-gob
@@ -206,6 +194,7 @@ European Union:
 Finland:
   - 6Aika
   - City-of-Helsinki
+  - City-of-Turku
   - CSC-IT-Center-for-Science
   - Digipalvelutehdas
   - finnishtransportagency
@@ -222,6 +211,7 @@ Finland:
 France:
   - afimb
   - AlsaceDigitale
+  - AmbaNum
   - ANSSI-FR
   - ApieFrance
   - betagouv
@@ -231,6 +221,7 @@ France:
   - cea-sec
   - clipos
   - clipos-archive
+  - cw-leia
   - communaute-cimi
   - culturecommunication
   - DGFiP
@@ -241,6 +232,7 @@ France:
   - erasme
   - etalab
   - Inist-CNRS
+  - InseeFr
   - SocieteNumerique
   - lutece-secteur-public
   - MINAGRI-INITIAL
@@ -248,6 +240,7 @@ France:
   - MinistereSupRecherche
   - nanterre
   - nantesmetropole
+  - opencti-platform
   - PnCevennes
   - PnEcrins
   - PnX-SI
@@ -367,6 +360,7 @@ Norway:
   - nasjonalmuseet
   - navikt
   - nlbdev
+  - Riksrevisjonen
   - Rogaland
   - rutebanken
   - ruterno
@@ -420,13 +414,27 @@ South Africa:
   - eddZA
 
 Spain:
+  - AjMalgrat
+  - AjuntamentdeBarcelona
+  - AjuntamentdeCalafell
   - AjuntamentdeCastello
+  - AjuntamentDeGava
+  - AjuntamentDeMataro
+  - AjuntamentdeReus
+  - AjuntamentdeSabadell
+  - AjuntamentdeSantCugat
+  - AjuntamentdeTerrassa
   - AyuntamientoMadrid
   - castilla-lamancha
   - ctt-gob-es
+  - diputacioBCN
   - ErabakiPamplona
+  - gencat
   - GobiernoLaRioja
+  - HospitaletDeLlobregat
   - icane
+  - projectestac
+  - vilanovailageltru
 
 Sweden:
   - arbetsformedlingen
@@ -438,6 +446,7 @@ Sweden:
   - Helsingborg
   - helsingborg-stad
   - ISOF-ITD
+  - jobtechswe
   - kungbib
   - Lantmateriet
   - libris
@@ -463,8 +472,10 @@ Sweden:
   - Sundsvallskommun
   - sverigesradio
   - SVT
+  - swedish-council-for-higher-education
   - swedishpensionsagency
   - The-Municipality-of-Staffanstorp
+  - umea-kommun
   - Vastra-Gotalandsregionen
   - vasttrafik
 
@@ -638,6 +649,7 @@ U.S. City:
   - longbeachinnovationteam
   - LouisvilleMetro
   - mnhrc
+  - moda-nyc  
   - monum
   - NYCComptroller
   - nycdot
@@ -692,6 +704,7 @@ U.S. Federal:
   - ccmc
   - CDCgov
   - cfpb
+  - cisagov
   - cmsgov
   - commercedataservice
   - commercegov
@@ -699,7 +712,6 @@ U.S. Federal:
   - demand-driven-open-data
   - department-of-veterans-affairs
   - deptofdefense
-  - dhs-ncats
   - didsr
   - digital-analytics-program
   - doecode
@@ -717,7 +729,6 @@ U.S. Federal:
   - globegit
   - gopleader
   - government-services
-  - GreatSmokyMountainsNationalPark
   - gsa
   - gsa-oes
   - hhs

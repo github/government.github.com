@@ -162,7 +162,7 @@ Colombia:
   - AltaConsejeriaTIC
   - evaluon
   - idu-bogota
-  
+
 Czech Republic:
   - opendata-mvcr
 
@@ -656,7 +656,7 @@ U.S. City:
   - longbeachinnovationteam
   - LouisvilleMetro
   - mnhrc
-  - moda-nyc  
+  - moda-nyc
   - monum
   - NYCComptroller
   - nycdot
@@ -731,10 +731,12 @@ U.S. Federal:
   - Federal-Aviation-Administration
   - federaltradecommission
   - fedspendingtransparency
+  - firelab
   - GIST-ORNL
   - globegit
   - gopleader
   - government-services
+  - GrainGenes
   - gsa
   - gsa-oes
   - hhs
@@ -755,6 +757,7 @@ U.S. Federal:
   - M-O-S-E-S
   - mcc-gov
   - missioncommand
+  - navadmc
   - nasa
   - nasa-develop
   - nasa-gibs
@@ -802,12 +805,18 @@ U.S. Federal:
   - uscensusbureau
   - uscis
   - usda
+  - usdaForestService
   - usda-ars-agil
+  - usda-ars-gbru
+  - usda-ars-ltar
+  - usda-ars-nwrc
+  - usda-ars-wmsru
   - USDA-ERS
   - USDA-FSA
   - USDA-NIFA
   - usda-vs
   - usdepartmentoflabor
+  - US-Department-of-the-Treasury
   - USDeptVeteransAffairs
   - usdoj
   - usds

@@ -715,10 +715,8 @@ U.S. Federal:
   - cmsgov
   - commercedataservice
   - commercegov
-  - defense-cyber-crime-center
   - demand-driven-open-data
   - department-of-veterans-affairs
-  - deptofdefense
   - didsr
   - digital-analytics-program
   - doecode
@@ -795,7 +793,6 @@ U.S. Federal:
   - SSAgov
   - state-hiu
   - sunpy
-  - transcom
   - us-bea
   - US-CBP
   - usagov
@@ -855,6 +852,8 @@ U.S. Federal:
 
 U.S. Military and Intelligence:
   - afseo
+  - defense-cyber-crime-center
+  - deptofdefense
   - CRREL
   - erdc-itl
   - iadgov
@@ -867,6 +866,7 @@ U.S. Military and Intelligence:
   - screamlab
   - shareandprotect
   - SIMP
+  - transcom
   - usarmyresearchlab
   - USNavalResearchLaboratory
 

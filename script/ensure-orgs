@@ -27,7 +27,7 @@ Typhoeus::Config.cache = Cache.new
 # We'd constantly hit any rate limit as each needs to be its own query
 def org?(user)
   response = Typhoeus.head "https://github.com/orgs/#{user}/people", accept_encoding: 'gzip'
-  response.success?
+  response.success? || response.response_code == 429
 end
 
 puts 'Checking that all orgs listed are in fact, an org...'

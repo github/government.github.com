@@ -1,7 +1,10 @@
-Metrics/LineLength:
+AllCops:
+  NewCops: enable
+
+Layout/LineLength:
   Enabled: false
 
-Style/FileName:
+Naming/FileName:
   Enabled: false
 
 Style/Documentation:

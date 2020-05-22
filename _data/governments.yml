@@ -297,6 +297,7 @@ Italy:
   - PloneGov-IT
   - RegioneER
   - TeamDigitale
+  - pcm-dpc
 
 Japan:
   - city-of-kobe
@@ -419,6 +420,9 @@ Saudi Arabia:
 Singapore:
   - govtechsg
   - moexmen
+  - opengovsg
+  - dsaidgovsg
+  - govtechsiot
 
 South Africa:
   - eddZA
@@ -720,6 +724,7 @@ U.S. Federal:
   - CDCgov
   - cfpb
   - cisagov
+  - cloud-gov
   - cmsgov
   - commercedataservice
   - commercegov

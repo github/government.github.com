@@ -17,10 +17,12 @@ Australia:
   - australianantarcticdatacentre
   - AustralianAntarcticDivision
   - bom-radar
-  - commerce-wa-ols
   - city-of-melbourne
+  - commerce-wa-ols
   - data61
   - datagovau
+  - dbca-wa
+  - dpc-sdp
   - dpipwe
   - dssgovaus
   - envris
@@ -40,14 +42,12 @@ Australia:
   - NSW-eTendering
   - NSWPlanning
   - NSWRFS
-  - dbca-wa
   - qld-gov-au
   - srnsw
   - SSCwebdev
   - SunshineCoastCouncil
   - treasury-aus
   - victoriangovernment
-  - dpc-sdp
   - wamuseum
 
 Belgium:
@@ -103,18 +103,18 @@ Bulgaria:
 Canada:
   - AAFC-MBB
   - abgov
-  - bcdevexchange
   - bac-lac
+  - bcdevexchange
   - BCGov
   - canada-ca
   - cds-snc
   - CIHR
+  - CityofEdmonton
   - cityofgreatersudbury
   - cityofottawa
-  - cityofsurrey
   - CityOfSarnia
+  - cityofsurrey
   - CityofToronto
-  - CityofEdmonton
   - cityssm
   - cngo
   - CommunicationSecurityEstablishment
@@ -132,8 +132,8 @@ Canada:
   - GeoCanViz
   - GNWT
   - infra-geo-ouverte
-  - LMID-DIMT
   - justicecanada
+  - LMID-DIMT
   - MC-MBO-WebPublishingTeam
   - MetPX
   - MTS-STM
@@ -222,15 +222,16 @@ France:
   - ANSSI-FR
   - ApieFrance
   - betagouv
+  - BRGM
   - cea-hpc
   - cea-leti
   - cea-list
   - cea-sec
   - clipos
   - clipos-archive
-  - cw-leia
   - communaute-cimi
   - culturecommunication
+  - cw-leia
   - DGFiP
   - diplomatiegouvfr
   - disic
@@ -240,11 +241,10 @@ France:
   - etalab
   - Inist-CNRS
   - InseeFr
-  - SocieteNumerique
   - lutece-secteur-public
   - MINAGRI-INITIAL
-  - MTES-MCT
   - MinistereSupRecherche
+  - MTES-MCT
   - nanterre
   - nantesmetropole
   - opencti-platform
@@ -256,9 +256,9 @@ France:
   - region-bretagne
   - sgmap-agd
   - SocialGouv
+  - SocieteNumerique
   - strasbourg
   - wookey-project
-  - BRGM
 
 French Polynesia:
   - sipf
@@ -292,19 +292,19 @@ Isle of Man:
   - Isle-Of-Man-Government
 
 Israel:
-  - Digital-Israel
   - CIOIL
-  - MostIL
+  - Digital-Israel
   - MohGovIL
+  - MostIL
 
 Italy:
   - AgID
   - ComuneBologna
   - Formez
+  - pcm-dpc
   - PloneGov-IT
   - RegioneER
   - TeamDigitale
-  - pcm-dpc
 
 Japan:
   - city-of-kobe
@@ -341,10 +341,10 @@ Mexico:
   - CSB-IG
   - DDT-INMEGEN
   - inmegen
+  - LabLeon
   - mxabierto
   - profeco
   - redoaxacadetodos
-  - LabLeon
 
 New Zealand:
   - CanterburyRegionalCouncil
@@ -425,11 +425,11 @@ Saudi Arabia:
   - SAS-NCDC
 
 Singapore:
+  - dsaidgovsg
   - govtechsg
+  - govtechsiot
   - moexmen
   - opengovsg
-  - dsaidgovsg
-  - govtechsiot
 
 Slovakia:
   - slovak-egov
@@ -461,8 +461,8 @@ Spain:
   - vilanovailageltru
 
 Sweden:
-  - arbetsformedlingen
   - Alingsas-Kommun
+  - arbetsformedlingen
   - domstol
   - dotse
   - elegnamnden
@@ -631,9 +631,6 @@ U.K. Councils:
   - west-berkshire-council
   - wmfs
 
-United Nations:
-  - UNGlobalPlatform
-
 U.S. City:
   - austincodeit
   - Baltimore-City-EGIS
@@ -780,7 +777,6 @@ U.S. Federal:
   - M-O-S-E-S
   - mcc-gov
   - missioncommand
-  - navadmc
   - nasa
   - nasa-develop
   - nasa-gibs
@@ -789,6 +785,7 @@ U.S. Federal:
   - nasaworldwind
   - NationalGuard
   - nationalparkservice
+  - navadmc
   - NCRN
   - NeoGeographyToolkit
   - nesii
@@ -820,6 +817,7 @@ U.S. Federal:
   - sunpy
   - us-bea
   - US-CBP
+  - US-Department-of-the-Treasury
   - usagov
   - usaid
   - usajobs
@@ -828,7 +826,6 @@ U.S. Federal:
   - uscensusbureau
   - uscis
   - usda
-  - usdaForestService
   - usda-ars-agil
   - usda-ars-gbru
   - usda-ars-ltar
@@ -838,13 +835,13 @@ U.S. Federal:
   - USDA-FSA
   - USDA-NIFA
   - usda-vs
+  - usdaForestService
   - usdepartmentoflabor
-  - US-Department-of-the-Treasury
   - USDeptVeteransAffairs
   - usdoj
-  - usds
   - usdot-fhwa-stol
   - usdot-jpo-ode
+  - usds
   - useda
   - usepa
   - USFWS
@@ -875,11 +872,14 @@ U.S. Federal:
   - whitehouse
   - XDgov
 
+U.S. Local Law Enforcement:
+  - SanDiegoCountySheriff
+
 U.S. Military and Intelligence:
   - afseo
+  - CRREL
   - defense-cyber-crime-center
   - deptofdefense
-  - CRREL
   - erdc-itl
   - iadgov
   - info-sharing-environment
@@ -959,11 +959,11 @@ U.S. Tribal Nations:
   - coquille-indian-tribe
   - osage-nation
 
-U.S. Local Law Enforcement:
-  - SanDiegoCountySheriff
-
 Ukraine:
   - openprocurement
+
+United Nations:
+  - UNGlobalPlatform
 
 Uruguay:
   - gubuy

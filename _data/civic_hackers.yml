@@ -8,27 +8,36 @@ Civic Hackers:
   - analyticsmj
   - avoindata
   - bd-iati
-  - betanyc
+  - brigadehub
   - cahealthdata
   - chihacknight
   - ciudadanointeligente
   - civcoms
   - civic-commons
+  - civicdata
   - civicninjas
   - civicquarterly
   - civictech-romania
   - civilserviceusa
   - civio
   - code-tj
+  - code4maine
   - codeandomonterrey
+  - codeforcharlotte
   - codeforhuntsville
+  - codeforjerseycity
   - codeforoakland
+  - codeforportland
   - codeforseattle
+  - codefortallahassee
+  - codeforvegas
   - codesy
+  - cognoma
   - correctiv
   - databr
   - datakind
   - datakind-uk
+  - datamade
   - datashades
   - datauy
   - dataviz
@@ -43,11 +52,12 @@ Civic Hackers:
   - dutsec
   - dxw
   - e-government-ua
-  - eAbsentee
+  - eabsentee
   - edgi-govdata-archiving
   - electionleaflets
   - everypolitician
   - everypolitician-scrapers
+  - friendlycode
   - girlscodingkosova
   - gitmachines
   - goc-spending
@@ -76,6 +86,7 @@ Civic Hackers:
   - netzwerkrecherche
   - npp
   - nrgi
+  - nucivic
   - nuknightlab
   - nycedc
   - obshtestvo
@@ -93,6 +104,7 @@ Civic Hackers:
   - opendatahk
   - opendatakosovo
   - opendatalab-de
+  - opendatapolicingnc
   - opendatasicilia
   - opendatatajikistan
   - opendatateam
@@ -109,6 +121,7 @@ Civic Hackers:
   - opennorth-archive
   - openopps
   - openplans
+  - opensaltlake
   - openstate
   - openstates
   - opented
@@ -134,47 +147,48 @@ Civic Hackers:
   - sunlightlabs
   - sunlightpolicy
   - teampopong
-  - Teplitsa
+  - teplitsa
   - tfrce
   - thacker
   - theodi
   - tulsawebdevs
   - unitedstates
   - votinginfoproject
+  - wevote
   - yourmapper
 
 Code for All:
   - code4romania
-  - code4sa
   - codeandomexico
   - codeforafrica
   - codeforamerica
   - codeforaustralia
   - codeforbrazil
   - codeforeurope
-  - codeforfr
   - codeforgermany
   - codeforireland
   - codeforjapan
   - codeforpakistan
   - codeforseoul
-  - codeforthecaribbean
   - codefortomorrow
   - g0v
   - labplc
 
 Code For America:
   - a2civictech
+  - betanyc
   - blue-sky-skunkworks
-  - brigadehub
+  - bmghack
+  - c4gnv
   - caciviclab
+  - censusreporter
   - cforlando
-  - civicdata
   - civictechto
+  - clsphila
+  - code-for-chapel-hill
   - code-for-nashville
   - code-for-tb
   - code4hr
-  - code4maine
   - code4newark
   - code4puertorico
   - code4sac
@@ -182,13 +196,14 @@ Code For America:
   - codeforanchorage
   - codeforasheville
   - codeforatlanta
+  - codeforbaltimore
   - codeforbirmingham
   - codeforboston
   - codeforboulder
   - codeforbtv
+  - codeforbuffalo
   - codeforcanada
   - codeforcary
-  - codeforcharlotte
   - codeforchemnitz
   - codeforcologne
   - codeforcroatia
@@ -198,16 +213,18 @@ Code For America:
   - codefordenver
   - codefordurham
   - codeforeauclaire
+  - codeforfoco
   - codeforftl
   - codeforgiessen
+  - codeforgreenville
   - codeforgso
   - codeforhamburg
   - codeforhawaii
   - codeforibaraki
-  - codeforjerseycity
   - codeforkanazawa-org
   - codeforkansascity
   - codeforkobe
+  - codeforkyana
   - codeforleipzig
   - codeformuenster
   - codeformunich
@@ -215,41 +232,43 @@ Code For America:
   - codefornola
   - codefornrv
   - codeforokinawa
+  - codeforpdx
   - codeforpg
   - codeforphilly
-  - codeforportland
+  - codeforpittsburgh
   - codeforrockford
   - codeforrva
   - codeforsanjose
   - codeforsapporo
   - codeforsummitcounty
-  - codefortallahassee
   - codefortucson
   - codefortulsa
   - codefortuscaloosa
-  - codeforvegas
+  - codeforuv
   - codeisland
-  - cognoma
-  - datamade
   - dedupeio
-  - friendlycode
+  - hackerspace-silesia
   - hackforla
   - hackingmadison
   - hackmichiana
   - hacktahoe
   - mapseed
+  - milwaukeedata
   - nodeschool
-  - nucivic
   - open-austin
+  - open-nc
   - openchattanooga
   - opencleveland
+  - opencltbrigade
   - opendata-heilbronn
-  - opendatapolicingnc
+  - opendatade
+  - opendenton
+  - openeugene
   - openkawasaki
   - openlexington
+  - openmaine
   - opennebraska
   - openoakland
-  - opensaltlake
   - opensandiego
   - opensatx
   - opensavannah
@@ -258,9 +277,12 @@ Code For America:
   - openwichita
   - openzagreb
   - sarl-hackerspace
+  - scodemeetup
+  - sewardparkstories
   - sfbrigade
+  - sketch-city
   - webuildcity
-  - wevote
+  - wyrzucto
 
 Open Knowledge Foundation:
   - bundestag

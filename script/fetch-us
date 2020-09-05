@@ -34,18 +34,17 @@ orgs.delete('')
 
 orgs.each do |org|
   next if existing.any? { |s| s.casecmp(org).zero? }
-  next unless org_exists? org
-
-  org_file['U.S. Federal'].push(org)
+  if org_exists? org
+    org_file['U.S. Federal'].push(org)
+  else
+    puts "\n\nIn the registry, but not valid '#{org}'"
+  end
 end
 
 org_file['U.S. Federal'] = org_file['U.S. Federal'].uniq.sort_by(&:upcase)
 
 puts "\n\nMissing from registry:"
 puts((us_gov - orgs.map(&:downcase)).to_yaml)
-
-puts "\n\nIn the registry, but not valid"
-puts((orgs.map(&:downcase) - existing).to_yaml)
 
 comment = File.open(org_file_path).read.lines.first
 output = comment

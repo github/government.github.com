@@ -30,6 +30,7 @@ existing = (gov + research).flatten.map(&:downcase)
 
 orgs = JSON.parse URI.open('https://usdigitalregistry.digitalgov.gov/api/v1/social_media.json?services=github').read
 orgs = orgs['results'].collect { |data| data['account'] }
+orgs.delete('')
 
 orgs.each do |org|
   next if existing.any? { |s| s.casecmp(org).zero? }

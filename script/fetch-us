@@ -10,37 +10,45 @@ require 'yaml'
 require 'typhoeus'
 
 def org_exists?(org)
-  Typhoeus.head("https://github.com/#{org}", accept_encoding: 'gzip').success?
+  Typhoeus.head("https://github.com/orgs/#{org}/people", accept_encoding: 'gzip').success?
 rescue TyphoeusError
   false
 end
 
-org_file = YAML.load_file('./_data/governments.yml')
+def org_file_path
+  File.expand_path '../_data/governments.yml', File.dirname(__FILE__)
+end
+
+def org_file
+  @org_file ||= YAML.load_file org_file_path
+end
+
 gov      = org_file.values.flatten
 us_gov   = org_file['U.S. Federal'].map(&:downcase)
 research = YAML.load_file('./_data/research.yml').values.flatten
 existing = (gov + research).flatten.map(&:downcase)
 
-orgs = JSON.parse open('https://usdigitalregistry.digitalgov.gov/api/v1/social_media.json?services=github').read
+orgs = JSON.parse URI.open('https://usdigitalregistry.digitalgov.gov/api/v1/social_media.json?services=github').read
 orgs = orgs['results'].collect { |data| data['account'] }
 
 orgs.each do |org|
-  next if existing.include?(org.downcase)
+  next if existing.any? { |s| s.casecmp(org).zero? }
   next unless org_exists? org
 
-  org_file['U.S. Federal'].push(org.downcase)
+  org_file['U.S. Federal'].push(org)
 end
 
-output = {
-  'U.S. Federal' => org_file['U.S. Federal'].uniq.sort_by(&:upcase)
-}
-puts 'To be pasted into _data/governments.yml'
-puts output.to_yaml
-
-orgs.map!(&:downcase)
+org_file['U.S. Federal'] = org_file['U.S. Federal'].uniq.sort_by(&:upcase)
 
 puts "\n\nMissing from registry:"
-puts((us_gov - orgs).to_yaml)
+puts((us_gov - orgs.map(&:downcase)).to_yaml)
 
 puts "\n\nIn the registry, but not valid"
-puts((orgs - existing).to_yaml)
+puts((orgs.map(&:downcase) - existing).to_yaml)
+
+comment = File.open(org_file_path).read.lines.first
+output = comment
+output << "\n"
+output << org_file.to_yaml.sub(/\A---\n/, '').gsub(/^-/, '  -').gsub(/\n([^ ])/, "\n\n\\1")
+
+File.write(org_file_path, output)

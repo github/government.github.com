@@ -1,13 +1,13 @@
 # Government funded research - must have a government email/domain to be listed
 
-International:
-  - CICE-Consortium
-
 Australia:
   - CSIRO-GeoscienceAnalytics
   - CSIRO-enviro-informatics
   - csiro-workspace
   - csiro-wsn
+
+International:
+  - CICE-Consortium
 
 Kenya:
   - Multimedia-University-of-Kenya

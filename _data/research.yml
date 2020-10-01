@@ -6,6 +6,13 @@ Australia:
   - csiro-workspace
   - csiro-wsn
 
+Germany:
+  - maxplanck-ie
+  - MPI-IS
+  - MPDL
+  - mppmu
+  - MPIB
+
 International:
   - CICE-Consortium
 

@@ -6,6 +6,12 @@ Australia:
   - csiro-workspace
   - csiro-wsn
 
+France:
+  - CNRS
+  - ifsttar
+  - INRIA
+  - luli
+
 Germany:
   - maxplanck-ie
   - MPDL
@@ -14,6 +20,7 @@ Germany:
   - mppmu
 
 International:
+  - CERN
   - CICE-Consortium
 
 Kenya:

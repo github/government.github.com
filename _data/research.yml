@@ -6,6 +6,13 @@ Australia:
   - csiro-workspace
   - csiro-wsn
 
+Germany:
+  - maxplanck-ie
+  - MPDL
+  - MPI-IS
+  - MPIB
+  - mppmu
+
 International:
   - CICE-Consortium
 
@@ -18,6 +25,9 @@ New Zealand Crown Research Institutes:
   - niwa
   - PlantandFoodResearch
   - ScionResearch
+
+Sweden:
+  - smarc-project
 
 U.K Research Centers:
   - SatelliteApplicationsCatapult

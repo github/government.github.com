@@ -34,6 +34,7 @@ orgs.delete('')
 
 orgs.each do |org|
   next if existing.any? { |s| s.casecmp(org).zero? }
+
   if org_exists? org
     org_file['U.S. Federal'].push(org)
   else

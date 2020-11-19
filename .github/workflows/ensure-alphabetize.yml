@@ -21,10 +21,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Ruby 2.6
+    - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6
         bundler-cache: true
     - name: Ensure Orgs are sorted
       run: |

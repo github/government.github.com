@@ -1,6 +1,7 @@
 .DS_Store
 /_site
 Gemfile.lock
+vendor/
 assets/vendor/jquery/build
 assets/vendor/jquery/speed
 assets/vendor/jquery/src

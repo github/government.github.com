@@ -27,4 +27,4 @@ jobs:
         ruby-version: 2.6
         bundler-cache: true
     - name: Rubocop
-      run: bundle exec rubocop -D -S
+      run: bundle exec rubocop -D -S -a

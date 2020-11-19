@@ -22,11 +22,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6.x
+        ruby-version: 2.6
+        bundler-cache: true
     - name: Ensure Orgs are unique
-      run: |
-        gem install bundler
-        bundle install --jobs 4 --retry 3
-        bundle exec script/ensure-unique
+      run: bundle exec script/ensure-unique

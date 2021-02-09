@@ -512,15 +512,18 @@ Sweden:
   - vasttrafik
 
 Switzerland:
+  - admin-ch
   - alv-ch
   - alv-ch-ansible-roles
   - BFS-SHS-MSAS
   - dsi-vd
   - FNSKtZH
+  - geoadmin
   - gisktzh
   - kanton-bern
   - ogdch
   - openZH
+  - SFOE
   - sitn
   - statistikZH
 

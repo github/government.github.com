@@ -31,30 +31,3 @@
     }, false);
   }, false);
 }());
-
-// reCaptcha callback function, generate reCaptcha token client side
-function onSubmit(token) {
-  submitForm();
-}
-
-// Pass reCaptcha token to heroku server and submit form if successful
-function submitForm(){
-  //console.log('Initialize Server-Side Validation');
-  var captcha = document.querySelector('#g-recaptcha-response').value;
-
-  fetch('https://invisible-recaptcha-validator.herokuapp.com/', {
-    method:'POST',
-    headers: {
-      'Accept': 'application/json, text/plain, */*',
-      'Content-type':'application/json'
-    },
-    body:JSON.stringify({captcha: captcha})
-  })
-  .then((res) => res.json())
-  .then((data) => {
-    console.log(data.success);
-    if( data.success === true ){
-      document.getElementById("eloquaForm").submit();
-    }
-  });
-}

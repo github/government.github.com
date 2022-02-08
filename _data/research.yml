@@ -7,7 +7,6 @@ Australia:
   - csiro-wsn
 
 France:
-  - CNRS
   - ifsttar
   - INRIA
   - luli
@@ -120,7 +119,6 @@ U.S. Research Labs:
   - ornl-sava
   - ORNL-TechInt
   - ornlcda
-  - ORNLSMRModeling
   - PCMDI
   - plfs
   - pm-master

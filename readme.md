@@ -55,7 +55,7 @@ Open `http://localhost:4000` in your browser
 
 ## Deploying
 
-github.government.com now utilizes a two-repo approach to managing staging and production deployments:
+government.github.com now utilizes a two-repo approach to managing staging and production deployments:
 
 - **Production:** [github/government.github.com](https://github.com/github/government.github.com/) (this repository)
 - **Staging:** [government/staging](https://ghe.io/government/staging)

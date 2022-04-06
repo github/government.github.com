@@ -1,4 +1,4 @@
-# GitHub and Government [![Build Status](https://travis-ci.org/github/government.github.com.svg?branch=gh-pages)](https://travis-ci.org/github/government.github.com)
+# GitHub and Government [![Test site build](https://github.com/github/government.github.com/actions/workflows/build.yml/badge.svg)](https://github.com/github/government.github.com/actions/workflows/build.yml)
 
 ![screenshot](assets/img/screenshot.png)
 

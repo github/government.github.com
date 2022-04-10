@@ -17,6 +17,7 @@ Australia:
   - ausdto
   - australianantarcticdatacentre
   - AustralianAntarcticDivision
+  - berowrarfb
   - bom-radar
   - city-of-melbourne
   - commerce-wa-ols
@@ -43,7 +44,6 @@ Australia:
   - nla
   - NSW-eTendering
   - NSWPlanning
-  - NSWRFS
   - pmcau
   - qld-gov-au
   - srnsw
@@ -162,7 +162,6 @@ Canada:
   - StatCan
   - TBS-EACPD
   - tc-ca
-  - thecityofcalgary
   - veteransaffairscanada
   - VilledeMontreal
   - wet-boew
@@ -274,6 +273,7 @@ French Polynesia:
   - sipf
 
 Germany:
+  - Basisvisualisierung
   - buehl
   - CERT-Bund
   - corona-warn-app

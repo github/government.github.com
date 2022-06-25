@@ -7,5 +7,6 @@ task :test do
   HTMLProofer.check_directory('./_site/',
                               check_html: true,
                               hydra: { max_concurrency: 10 },
+                              url_ignore: [%r{https://developer.github.com}, %r{https://docs.github.com}, %r{https://help.github.com}],
                               http_status_ignore: [429]).run
 end

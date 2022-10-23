@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/github/government.github.com/issues"
   },
-  "homepage": "http://government.github.com",
+  "homepage": "https://government.github.com",
   "dependencies": {
     "octicons": "^5.0.1",
     "primer-core": "^6.2.0",

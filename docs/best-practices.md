@@ -1,4 +1,4 @@
 ---
-redirect_to: http://government.github.io/best-practices/
+redirect_to: https://government.github.io/best-practices/
 permalink: /best-practices/index.html
 ---

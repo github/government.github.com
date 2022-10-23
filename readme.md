@@ -17,7 +17,7 @@ Submit [issues](https://github.com/github/government.github.com/issues/new) and 
 
 ### Under the Hood
 
-This site is made with [Jekyll](http://jekyllrb.com), an open source static site generator. This means the Jekyll program takes the content we want to be on the site and turns them into HTML files ready to be hosted somewhere. Awesomely, GitHub provides free web hosting for repositories, called [GitHub Pages](http://pages.github.com/), and that's how this site is hosted. The content for the site is on a branch named [gh-pages](https://github.com/github/government.github.com/tree/gh-pages).
+This site is made with [Jekyll](https://jekyllrb.com), an open source static site generator. This means the Jekyll program takes the content we want to be on the site and turns them into HTML files ready to be hosted somewhere. Awesomely, GitHub provides free web hosting for repositories, called [GitHub Pages](https://pages.github.com/), and that's how this site is hosted. The content for the site is on a branch named [gh-pages](https://github.com/github/government.github.com/tree/gh-pages).
 
 ## Contributing
 
@@ -37,9 +37,9 @@ You can take all the files of this site and run them just on your computer as if
 
 #### Requirements
 
-* [Jekyll](http://jekyllrb.com/)
+* [Jekyll](https://jekyllrb.com/)
 * [Ruby](https://www.ruby-lang.org/en/)
-* [Git](http://git-scm.com/)
+* [Git](https://git-scm.com/)
 
 _If you have installed [GitHub Desktop](https://desktop.github.com), Git was also installed automatically._
 

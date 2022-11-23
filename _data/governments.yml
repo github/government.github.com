@@ -227,6 +227,7 @@ France:
   - afimb
   - AlsaceDigitale
   - AmbaNum
+  - ansforge
   - ANSSI-FR
   - ApieFrance
   - betagouv
@@ -288,6 +289,7 @@ Germany:
   - lobid
   - OpenNRW
   - regional-digital
+  - rostock
   - stadt-bielefeld
   - stadt-karlsruhe
   - StadtBruchsal
@@ -303,10 +305,12 @@ Hungary:
   - fphgov
 
 India:
+  - DataPortalIndia
   - ISRO
   - itschool
 
 Indonesia:
+  - bolsel
   - ditjenbinaadwil
   - jabardigitalservice
 
@@ -440,6 +444,7 @@ Peru:
 Philippines:
   - govph
   - igovphil
+  - Laoag-City
 
 Poland:
   - coi-gov-pl
@@ -459,6 +464,7 @@ Romania:
 
 Russia:
   - cikrf
+  - ghalghai
   - kznru
   - moscow-technologies
 
@@ -566,6 +572,9 @@ Switzerland:
   - statistikstadtzuerich
   - statistikZH
   - VerkehrsbetriebeZuerich
+
+Taiwan:
+  - moda-gov-tw
 
 The Netherlands:
   - Amsterdam
@@ -788,6 +797,7 @@ U.S. Federal:
   - ccmc
   - CDCgov
   - cfpb
+  - cigiegov
   - cisagov
   - cloud-gov
   - cmsgov
@@ -968,7 +978,7 @@ U.S. Special District:
 
 U.S. States:
   - agrc
-  - AlaskaDHSS
+  - akhealth
   - azgs
   - calsimcallite
   - CAWaterBoardDataCenter

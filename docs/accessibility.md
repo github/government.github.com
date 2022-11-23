@@ -295,7 +295,7 @@ data:
     <li class="mb-2">Via the <a href="https://github.com">GitHub.com</a> or <a href="https://enterprise.github.com">GitHub Enterprise</a> web interface through a modern browser</li>
     <li class="mb-2">Via the <a href="https://desktop.github.com">GitHub Desktop</a> application</li>
     <li class="mb-2">Via the GitHub's open <a href="https://developer.github.com/v3/">application programming interface</a> (API) which provides information in a machine-readable format for integration with other applications</li>
-    <li class="mb-2">Via the open source <a href="http://git-scm.com/">Git</a> command line (interactive, entirely text-based) interface</li>
+    <li class="mb-2">Via the open source <a href="https://git-scm.com/">Git</a> command line (interactive, entirely text-based) interface</li>
   </ol>
   <p>
     Where support below is indicated below as "Supports with exceptions", such a qualification applies to the particular product being evaluated, however, interactions may be accomplished through alternate means such as via the Git command-line interface.

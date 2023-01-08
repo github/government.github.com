@@ -322,7 +322,6 @@ International:
   - EL-BID
   - IATI
   - ogpl
-  - WorldHealthOrganization
 
 Ireland:
   - HSEIreland
@@ -1043,6 +1042,7 @@ United Nations:
   - unicef
   - unido
   - UNStats
+  - WorldHealthOrganization
   - worldbank
   - WorldBank-Transport
 

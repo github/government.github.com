@@ -11,7 +11,7 @@ group :jekyll_plugins do
 end
 
 group :development, :test do
-  gem 'html-proofer'
+  gem 'html-proofer', '~> 4.0'
   gem 'parallel'
   gem 'rake'
   gem 'rubocop'

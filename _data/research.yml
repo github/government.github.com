@@ -12,6 +12,7 @@ France:
   - luli
 
 Germany:
+  - BAMresearch
   - bauhaus
   - fraunhofer-iais
   - Fraunhofer-IIS
@@ -22,6 +23,7 @@ Germany:
   - MPI-IS
   - MPIB
   - mppmu
+  - TU-Berlin
 
 International:
   - CERN
@@ -38,6 +40,7 @@ New Zealand Crown Research Institutes:
   - ScionResearch
 
 Sweden:
+  - NBISweden
   - smarc-project
 
 U.K Research Centers:

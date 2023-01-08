@@ -47,7 +47,7 @@ org_file['U.S. Federal'] = org_file['U.S. Federal'].uniq.sort_by(&:upcase)
 puts "\n\nMissing from registry:"
 puts((us_gov - orgs.map(&:downcase)).to_yaml)
 
-comment = File.open(org_file_path).read.lines.first
+comment = File.read(org_file_path).lines.first
 output = comment
 output << "\n"
 output << org_file.to_yaml.sub(/\A---\n/, '').gsub(/^-/, '  -').gsub(/\n([^ ])/, "\n\n\\1")

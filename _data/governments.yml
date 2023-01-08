@@ -290,6 +290,7 @@ Germany:
   - kdn-nrw
   - kreis-viersen
   - lobid
+  - OpenBfS
   - OpenNRW
   - regional-digital
   - robert-koch-institut
@@ -321,9 +322,9 @@ International:
   - EL-BID
   - IATI
   - ogpl
+  - WorldHealthOrganization
 
 Ireland:
-  - FSAIreland
   - HSEIreland
 
 Isle of Man:
@@ -401,7 +402,6 @@ New Zealand:
   - nz-mbie
   - nz-social-investment-agency
   - opcnz
-  - R9BetterAPIs
   - te-papa
 
 Norway:
@@ -413,7 +413,6 @@ Norway:
   - DirektoratetForByggkvalitet
   - dsb-norge
   - dss-web
-  - fylkesmannen
   - kartverket
   - knreise
   - KRD-KOMM-VL
@@ -461,7 +460,6 @@ Republic of Korea:
   - molit-korea
 
 Romania:
-  - gov-ithub
   - govro
   - MinistryOfLabor
 
@@ -719,7 +717,6 @@ U.S. City:
   - cityofboulder
   - cityofburlington
   - cityofchattanooga
-  - cityoffortworth
   - CityOfLosAngeles
   - cityofnewyork
   - CityOfPhiladelphia
@@ -924,13 +921,11 @@ U.S. Federal:
   - usgpo
   - usgs
   - USGS-Astrogeology
-  - USGS-CIDA
   - usgs-cmg
   - usgs-eros
   - USGS-OWI
   - USGS-R
   - USGS-WiM
-  - usindianaffairs
   - usnationalarchives
   - usopm
   - USPS
@@ -1023,7 +1018,6 @@ U.S. States:
   - twdb
   - TxDOT
   - UtahForestryFireStateLands
-  - VDEQ
   - VDGIF
   - Virginia-Department-of-Health
   - Virginia-House-of-Delegates
@@ -1051,9 +1045,6 @@ United Nations:
   - UNStats
   - worldbank
   - WorldBank-Transport
-
-Uruguay:
-  - gubuy
 
 Venezuela:
   - CanaimaGNULinux

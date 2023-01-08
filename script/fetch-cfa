@@ -31,7 +31,7 @@ module CFA
       org_file['Code for All'] = code_for_all_orgs
       org_file['Civic Hackers'] = civic_hackers - brigades - code_for_all_orgs + to_be_removed
 
-      comment = File.open(org_file_path).read.lines.first
+      comment = File.read(org_file_path).lines.first
       output = comment
       output << "\n"
       output << org_file.to_yaml.sub(/\A---\n/, '').gsub(/^-/, '  -').gsub(/\n([^ ])/, "\n\n\\1")

@@ -10,7 +10,7 @@ require 'yaml'
 files = Dir["#{File.expand_path('../_data/', File.dirname(__FILE__))}/*.yml"]
 
 files.each do |file|
-  contents = File.open(file).read
+  contents = File.read(file)
   comment = contents.lines.first
 
   data = YAML.safe_load(contents)
@@ -25,5 +25,5 @@ files.each do |file|
   # Add extra line break between groups, indent arrays, and strip header
   formatted_output = comment + output.to_yaml.gsub(/^(.+?):$/, "\n\\1:").gsub(/^- /, '  - ').gsub(/\A---\n/m, '')
 
-  File.open(file, 'w') { |f| f.write(formatted_output) }
+  File.write(file, formatted_output)
 end

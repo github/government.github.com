@@ -48,7 +48,7 @@ files.each do |file|
     data[group] = data[group] - not_orgs
   end
 
-  comment = File.open(file).read.lines.first
+  comment = File.read(file).lines.first
   output = comment
   output << "\n"
   output << data.to_yaml.sub(/\A---\n/, '').gsub(/^-/, '  -').gsub(/\n([^ ])/, "\n\n\\1")

@@ -14,4 +14,6 @@ jobs:
       with:
         bundler-cache: true
     - name: Build and test site
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: bundle exec rake test

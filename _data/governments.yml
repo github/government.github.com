@@ -322,7 +322,6 @@ International:
   - EL-BID
   - IATI
   - ogpl
-  - WorldHealthOrganization
 
 Ireland:
   - HSEIreland
@@ -1045,6 +1044,7 @@ United Nations:
   - UNStats
   - worldbank
   - WorldBank-Transport
+  - WorldHealthOrganization
 
 Venezuela:
   - CanaimaGNULinux

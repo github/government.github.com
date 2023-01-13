@@ -19,6 +19,9 @@ China:
   - snnucs
   - sysuits
 
+European Union:
+  - ecmwf
+
 Finland:
   - Helsinki-NLP
 
@@ -31,16 +34,20 @@ Germany:
   - BAMresearch
   - bauhaus
   - baw-de
+  - cgre-aachen
   - fraunhofer-iais
   - Fraunhofer-IIS
   - Fraunhofer-IMS
+  - fraunhoferfokus
   - fraunhoferhhi
   - maxplanck-ie
   - MPDL
   - MPI-IS
   - MPIB
   - mppmu
+  - RWTH-EBC
   - TU-Berlin
+  - uds-psl
 
 International:
   - CERN

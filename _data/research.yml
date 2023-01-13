@@ -28,6 +28,7 @@ Germany:
   - BAMresearch
   - bauhaus
   - baw-de
+  - cgre-aachen
   - fraunhoferfokus
   - fraunhofer-iais
   - Fraunhofer-IIS
@@ -38,7 +39,9 @@ Germany:
   - MPI-IS
   - MPIB
   - mppmu
+  - RWTH-EBC
   - TU-Berlin
+  - uds-psl
 
 International:
   - CERN

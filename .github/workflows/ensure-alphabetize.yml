@@ -35,7 +35,7 @@ jobs:
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
       with:
-        author_name: "Mike Linksvayer"
-        author_email: "mlinksva@github.com"
+        author_name: 'github-actions[bot]'
+        author_email: 'github-actions[bot]@users.noreply.github.com'
         message: 'Autosort'
         add: '_data'

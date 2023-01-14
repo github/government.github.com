@@ -29,3 +29,8 @@ jobs:
       run: |
         bundle exec script/alphabetize
         git diff --color --exit-code
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v9
+      with:
+        message: 'Autosort'
+        add: '_data'

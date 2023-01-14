@@ -28,7 +28,7 @@ jobs:
     - name: Ensure Orgs are sorted
       run: |
         bundle exec script/alphabetize
-        git diff --color --exit-code
+        git diff --color
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
       with:

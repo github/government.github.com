@@ -8,19 +8,30 @@ Australia:
 
 China:
   - Anhui-Medical-University
+  - BIMK
   - bistu
+  - BIT-DA
   - BIT-ENGD
   - dbiir
   - HITSZ-HLT
   - HPSCIL
   - MAI-Lab-West-China-Hospital
+  - NLP2CT
   - PKU-DAIR
   - PKUHPC
   - snnucs
+  - SUSTech-AMASLAB
   - sysuits
+  - thuml
+
+Denmark:
+  - DeiC-HPC
 
 European Union:
+  - ec-jrc
   - ecmwf
+  - ESA
+  - EU-ECDC
 
 Finland:
   - Helsinki-NLP
@@ -40,6 +51,7 @@ Germany:
   - Fraunhofer-IMS
   - fraunhoferfokus
   - fraunhoferhhi
+  - FZJ-JSC
   - iame-uni-bonn
   - maxplanck-ie
   - MPDL
@@ -65,10 +77,15 @@ New Zealand Crown Research Institutes:
   - ScionResearch
 
 Sweden:
+  - ENCCS
   - NBISweden
   - smarc-project
 
+Turkey:
+  - EuroCC-Turkey
+
 U.K Research Centers:
+  - alan-turing-institute
   - SatelliteApplicationsCatapult
 
 U.S. Research Labs:
@@ -84,6 +101,7 @@ U.S. Research Labs:
   - cooperhewitt
   - doe-nepa
   - draperlaboratory
+  - DSSA-Stockton-University
   - EarthSystemCoG
   - EMSL-MSC
   - epicsdeb

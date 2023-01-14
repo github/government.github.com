@@ -20,8 +20,10 @@ China:
   - sysuits
 
 European Union:
+  - ec-jrc
   - ecmwf
   - ESA
+  - EU-ECDC
 
 Finland:
   - Helsinki-NLP

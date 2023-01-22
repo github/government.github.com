@@ -34,4 +34,5 @@ jobs:
         git diff --color
     - uses: getsentry/action-git-diff-suggestions@main
       with:
+        github-token: secrets.GITHUB_TOKEN
         message: ensure-alphabetize

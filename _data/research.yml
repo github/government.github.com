@@ -8,6 +8,7 @@ Australia:
 
 China:
   - Anhui-Medical-University
+  - arclab-hku
   - BIMK
   - bistu
   - BIT-DA
@@ -19,10 +20,12 @@ China:
   - NLP2CT
   - PKU-DAIR
   - PKUHPC
+  - ritju
   - snnucs
   - SUSTech-AMASLAB
   - sysuits
   - thuml
+  - XSLiuLab
   - ZJUSCT
 
 Denmark:
@@ -43,10 +46,12 @@ France:
   - luli
 
 Germany:
+  - AWI-ESM
   - BAMresearch
   - bauhaus
   - baw-de
   - cgre-aachen
+  - cispa
   - fraunhofer-iais
   - Fraunhofer-IIS
   - Fraunhofer-IMS
@@ -55,11 +60,13 @@ Germany:
   - FZJ-JSC
   - iame-uni-bonn
   - maxplanck-ie
+  - MIC-DKFZ
   - MPDL
   - MPI-IS
   - MPIB
   - mppmu
   - RWTH-EBC
+  - tml-tuebingen
   - TU-Berlin
   - uds-psl
 
@@ -91,6 +98,7 @@ U.K Research Centers:
 
 U.S. Research Labs:
   - ACME-Climate
+  - ai2es
   - ARM-DOE
   - BrookhavenNationalLaboratory
   - CASL
@@ -157,6 +165,7 @@ U.S. Research Labs:
   - nist-emntg
   - nist-ionstorage
   - NIST-ISG
+  - NOAAGov
   - nrel
   - nrel-cookbooks
   - NSLS-II

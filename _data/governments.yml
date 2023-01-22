@@ -140,6 +140,7 @@ Canada:
   - gctools-outilsgc
   - GeoCanViz
   - GNWT
+  - GovAlta
   - infra-geo-ouverte
   - justicecanada
   - LMID-DIMT
@@ -204,7 +205,7 @@ Ethiopia:
   - ethiopian
 
 European Union:
-  - ESA
+  - eea
   - eu-digital-green-certificates
   - europeana
 
@@ -421,6 +422,7 @@ Norway:
   - nasjonalmuseet
   - navikt
   - nlbdev
+  - Nordland-fylkeskommune
   - Riksrevisjonen
   - Rogaland
   - rutebanken
@@ -979,6 +981,7 @@ U.S. States:
   - agrc
   - akhealth
   - azgs
+  - cagov
   - calsimcallite
   - CAWaterBoardDataCenter
   - ccap
@@ -991,10 +994,12 @@ U.S. States:
   - gocodecolorado
   - IDAHO-DOC-NCOMS
   - idahofishgame
+  - judicialcouncilcalifornia
   - la-ots
   - LADCO
   - LibraryofVA
   - massgov
+  - MESMD
   - MFWP-GIS
   - mn-script-team
   - nebraskamap

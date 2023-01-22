@@ -8,19 +8,34 @@ Australia:
 
 China:
   - Anhui-Medical-University
+  - arclab-hku
+  - BIMK
   - bistu
+  - BIT-DA
   - BIT-ENGD
   - dbiir
   - HITSZ-HLT
   - HPSCIL
   - MAI-Lab-West-China-Hospital
+  - NLP2CT
   - PKU-DAIR
   - PKUHPC
+  - ritju
   - snnucs
+  - SUSTech-AMASLAB
   - sysuits
+  - thuml
+  - XSLiuLab
+  - ZJUSCT
+
+Denmark:
+  - DeiC-HPC
 
 European Union:
+  - ec-jrc
   - ecmwf
+  - ESA
+  - EU-ECDC
 
 Finland:
   - Helsinki-NLP
@@ -31,21 +46,27 @@ France:
   - luli
 
 Germany:
+  - AWI-ESM
   - BAMresearch
   - bauhaus
   - baw-de
   - cgre-aachen
+  - cispa
   - fraunhofer-iais
   - Fraunhofer-IIS
   - Fraunhofer-IMS
   - fraunhoferfokus
   - fraunhoferhhi
+  - FZJ-JSC
+  - iame-uni-bonn
   - maxplanck-ie
+  - MIC-DKFZ
   - MPDL
   - MPI-IS
   - MPIB
   - mppmu
   - RWTH-EBC
+  - tml-tuebingen
   - TU-Berlin
   - uds-psl
 
@@ -64,17 +85,21 @@ New Zealand Crown Research Institutes:
   - ScionResearch
 
 Sweden:
+  - ENCCS
   - NBISweden
   - smarc-project
 
 Turkey:
-  - Iskenderun-Technical-University 
+  - EuroCC-Turkey
+  - Iskenderun-Technical-University
 
 U.K Research Centers:
+  - alan-turing-institute
   - SatelliteApplicationsCatapult
 
 U.S. Research Labs:
   - ACME-Climate
+  - ai2es
   - ARM-DOE
   - BrookhavenNationalLaboratory
   - CASL
@@ -86,6 +111,7 @@ U.S. Research Labs:
   - cooperhewitt
   - doe-nepa
   - draperlaboratory
+  - DSSA-Stockton-University
   - EarthSystemCoG
   - EMSL-MSC
   - epicsdeb
@@ -140,6 +166,7 @@ U.S. Research Labs:
   - nist-emntg
   - nist-ionstorage
   - NIST-ISG
+  - NOAAGov
   - nrel
   - nrel-cookbooks
   - NSLS-II

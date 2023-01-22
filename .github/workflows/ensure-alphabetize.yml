@@ -32,10 +32,6 @@ jobs:
       run: |
         bundle exec script/alphabetize
         git diff --color
-    - name: Commit changes
-      uses: EndBug/add-and-commit@v9
+    - uses: getsentry/action-git-diff-suggestions@main
       with:
-        author_name: 'github-actions[bot]'
-        author_email: 'github-actions[bot]@users.noreply.github.com'
-        message: 'Autosort'
-        add: '_data'
+        message: ensure-alphabetize

@@ -14,8 +14,11 @@ China:
   - BIT-DA
   - BIT-ENGD
   - dbiir
+  - FudanNLP
   - HITSZ-HLT
+  - hku-mars
   - HPSCIL
+  - i2Nav-WHU
   - MAI-Lab-West-China-Hospital
   - NLP2CT
   - PKU-DAIR
@@ -25,8 +28,10 @@ China:
   - SUSTech-AMASLAB
   - sysuits
   - thuml
+  - tuna
   - XSLiuLab
   - zju-vipa
+  - zjunlp
   - ZJUSCT
 
 Denmark:
@@ -53,18 +58,23 @@ Germany:
   - baw-de
   - cgre-aachen
   - cispa
+  - DLR-SC
   - fraunhofer-iais
   - Fraunhofer-IIS
   - Fraunhofer-IMS
   - fraunhoferfokus
   - fraunhoferhhi
+  - FZJ-IEK3-VSA
   - FZJ-JSC
+  - GFZ
   - iame-uni-bonn
+  - leibniz-future-lab
   - maxplanck-ie
   - MIC-DKFZ
   - MPDL
   - MPI-IS
   - MPIB
+  - mpilhlt
   - mppmu
   - RWTH-EBC
   - tml-tuebingen
@@ -84,6 +94,9 @@ New Zealand Crown Research Institutes:
   - niwa
   - PlantandFoodResearch
   - ScionResearch
+
+Nigeria:
+  - ISTH-BNITM-PHE
 
 Sweden:
   - ENCCS

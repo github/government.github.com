@@ -140,6 +140,7 @@ Canada:
   - gctools-outilsgc
   - GeoCanViz
   - GNWT
+  - GovAlta
   - infra-geo-ouverte
   - justicecanada
   - LMID-DIMT
@@ -204,7 +205,7 @@ Ethiopia:
   - ethiopian
 
 European Union:
-  - ESA
+  - eea
   - eu-digital-green-certificates
   - europeana
 
@@ -283,7 +284,6 @@ Germany:
   - dbmdz
   - Digitaler-Impfnachweis
   - digitalservicebund
-  - DLR-SC
   - gbv
   - GovDataOfficial
   - hbz
@@ -418,9 +418,11 @@ Norway:
   - knreise
   - KRD-KOMM-VL
   - metno
+  - miljodir
   - nasjonalmuseet
   - navikt
   - nlbdev
+  - Nordland-fylkeskommune
   - Riksrevisjonen
   - Rogaland
   - rutebanken
@@ -431,7 +433,6 @@ Norway:
   - telemark-arkiv
   - uninett
   - vegvesen
-  - vest-agder
 
 Panama:
   - IFARHU
@@ -749,6 +750,7 @@ U.S. City:
   - NYCComptroller
   - nycdot
   - NYCPlanning
+  - onc-healthit
   - OpenGovDC
   - p2g
   - pdxgis
@@ -865,6 +867,7 @@ U.S. Federal:
   - NIEM
   - NMB-Dev
   - NMML
+  - NOAA-EPIC
   - noaa-gfdl
   - NOAA-ORR-ERD
   - noaa-pmel
@@ -979,6 +982,7 @@ U.S. States:
   - agrc
   - akhealth
   - azgs
+  - cagov
   - calsimcallite
   - CAWaterBoardDataCenter
   - ccap
@@ -991,12 +995,13 @@ U.S. States:
   - gocodecolorado
   - IDAHO-DOC-NCOMS
   - idahofishgame
+  - judicialcouncilcalifornia
   - la-ots
   - LADCO
   - LibraryofVA
   - massgov
+  - MESMD
   - MFWP-GIS
-  - mn-script-team
   - nebraskamap
   - nelegislature
   - NJOGIS

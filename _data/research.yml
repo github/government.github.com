@@ -6,21 +6,46 @@ Australia:
   - csiro-workspace
   - csiro-wsn
 
+Canada:
+  - Western-OC2-Lab
+
 China:
   - Anhui-Medical-University
+  - arclab-hku
+  - BIMK
   - bistu
+  - BIT-DA
   - BIT-ENGD
   - dbiir
+  - FudanNLP
   - HITSZ-HLT
+  - hku-mars
   - HPSCIL
+  - i2Nav-WHU
   - MAI-Lab-West-China-Hospital
+  - NLP2CT
   - PKU-DAIR
   - PKUHPC
+  - ritju
   - snnucs
+  - SUSTech-AMASLAB
   - sysuits
+  - thuml
+  - tuna
+  - XSLiuLab
+  - ZJU-DAILY
+  - ZJU-FAST-Lab
+  - zjunlp
+  - ZJUSCT
+
+Denmark:
+  - DeiC-HPC
 
 European Union:
+  - ec-jrc
   - ecmwf
+  - ESA
+  - EU-ECDC
 
 Finland:
   - Helsinki-NLP
@@ -31,26 +56,49 @@ France:
   - luli
 
 Germany:
+  - AWI-ESM
   - BAMresearch
   - bauhaus
   - baw-de
   - cgre-aachen
+  - cispa
+  - DLR-SC
+  - ekut-es
+  - fkie
+  - Fraunhofer-AISEC
   - fraunhofer-iais
   - Fraunhofer-IIS
   - Fraunhofer-IMS
+  - Fraunhofer-SCAI
   - fraunhoferfokus
   - fraunhoferhhi
+  - FraunhoferIOSB
+  - FraunhoferISST
+  - FZJ-IEK3-VSA
+  - FZJ-JSC
+  - GFZ
+  - ghga-de
+  - iame-uni-bonn
+  - ipa320
+  - leibniz-future-lab
   - maxplanck-ie
+  - MIC-DKFZ
   - MPDL
   - MPI-IS
   - MPIB
+  - mpilhlt
   - mppmu
   - RWTH-EBC
+  - tml-tuebingen
   - TU-Berlin
   - uds-psl
  
 Greece:
   - EuroCC-Greece
+  - x3dom
+
+India:
+  - marsiitr
 
 International:
   - CERN
@@ -65,16 +113,37 @@ New Zealand Crown Research Institutes:
   - niwa
   - PlantandFoodResearch
   - ScionResearch
+  - waikato-datamining
+
+Nigeria:
+  - ISTH-BNITM-PHE
+
+Poland:
+  - gmum
+
+Portugal:
+  - fraunhoferportugal
+
+Saudi Arabia:
+  - uqu-cis-cs
 
 Sweden:
+  - ENCCS
   - NBISweden
   - smarc-project
 
+Turkey:
+  - CankayaUniversity
+  - EuroCC-Turkey
+
 U.K Research Centers:
+  - alan-turing-institute
   - SatelliteApplicationsCatapult
 
 U.S. Research Labs:
   - ACME-Climate
+  - ai2es
+  - Argonne-National-Laboratory
   - ARM-DOE
   - BrookhavenNationalLaboratory
   - CASL
@@ -86,10 +155,12 @@ U.S. Research Labs:
   - cooperhewitt
   - doe-nepa
   - draperlaboratory
+  - DSSA-Stockton-University
   - EarthSystemCoG
   - EMSL-MSC
   - epicsdeb
   - esgf
+  - EVS-ATMOS
   - exmatex
   - flux-framework
   - globus
@@ -140,6 +211,7 @@ U.S. Research Labs:
   - nist-emntg
   - nist-ionstorage
   - NIST-ISG
+  - NOAAGov
   - nrel
   - nrel-cookbooks
   - NSLS-II

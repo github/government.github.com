@@ -56,6 +56,7 @@ France:
   - luli
 
 Germany:
+  - 3dgeo-heidelberg
   - AWI-ESM
   - BAMresearch
   - bauhaus
@@ -78,6 +79,8 @@ Germany:
   - FZJ-JSC
   - GFZ
   - ghga-de
+  - hegl-lab
+  - Heidelberg-NLP
   - iame-uni-bonn
   - ipa320
   - leibniz-future-lab
@@ -91,8 +94,10 @@ Germany:
   - RWTH-EBC
   - tml-tuebingen
   - TU-Berlin
+  - UB-Heidelberg
   - uds-psl
   - Uni-Heidelberg
+  - vislearn
   - x3dom
 
 India:

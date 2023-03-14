@@ -19,6 +19,7 @@ China:
   - dbiir
   - FudanNLP
   - HITSZ-HLT
+  - HKBU-HPML
   - hku-mars
   - HPSCIL
   - i2Nav-WHU
@@ -63,8 +64,11 @@ Germany:
   - baw-de
   - cgre-aachen
   - cispa
+  - ComNets-Bremen
   - DLR-SC
+  - eisenforschung
   - ekut-es
+  - ExplainableML
   - fkie
   - Fraunhofer-AISEC
   - fraunhofer-iais
@@ -94,10 +98,12 @@ Germany:
   - RWTH-EBC
   - tml-tuebingen
   - TU-Berlin
+  - tu-darmstadt-ros-pkg
   - UB-Heidelberg
   - uds-psl
   - Uni-Heidelberg
   - vislearn
+  - VLSI-EDA
   - x3dom
 
 India:
@@ -106,6 +112,7 @@ India:
 International:
   - CERN
   - CICE-Consortium
+  - root-project
 
 Kenya:
   - Multimedia-University-of-Kenya

@@ -65,6 +65,7 @@ Germany:
   - cgre-aachen
   - cispa
   - ComNets-Bremen
+  - CompVis
   - DLR-SC
   - eisenforschung
   - ekut-es
@@ -96,6 +97,7 @@ Germany:
   - mpilhlt
   - mppmu
   - RWTH-EBC
+  - subugoe
   - tml-tuebingen
   - TU-Berlin
   - tu-darmstadt-ros-pkg
@@ -111,6 +113,7 @@ India:
 
 International:
   - CERN
+  - cerndb
   - CICE-Consortium
   - root-project
 
@@ -134,6 +137,9 @@ Poland:
 Portugal:
   - fraunhoferportugal
 
+Russia:
+  - mirea-ninja
+
 Saudi Arabia:
   - uqu-cis-cs
 
@@ -146,8 +152,10 @@ Turkey:
   - CankayaUniversity
   - EuroCC-Turkey
 
-U.K Research Centers:
+U.K:
   - alan-turing-institute
+  - BritishMuseum
+  - BritishMuseumDH
   - SatelliteApplicationsCatapult
 
 U.S. Research Labs:
@@ -155,6 +163,10 @@ U.S. Research Labs:
   - ai2es
   - Argonne-National-Laboratory
   - ARM-DOE
+  - Berkeley-Data
+  - berkeley-physics
+  - berkeley-scf
+  - berkeleybop
   - BrookhavenNationalLaboratory
   - CASL
   - CBIIT
@@ -163,6 +175,7 @@ U.S. Research Labs:
   - cocomans
   - ControlSystemStudio
   - cooperhewitt
+  - dlab-berkeley
   - doe-nepa
   - draperlaboratory
   - DSSA-Stockton-University
@@ -173,6 +186,8 @@ U.S. Research Labs:
   - EVS-ATMOS
   - exmatex
   - flux-framework
+  - gatech
+  - georgia-tech-db
   - globus
   - glvis
   - HipGISAXS
@@ -185,6 +200,7 @@ U.S. Research Labs:
   - jplopensource
   - kbase
   - kbaseIncubator
+  - lab11
   - LANL
   - LANL-Bioinformatics
   - lbl-anp
@@ -254,6 +270,10 @@ U.S. Research Labs:
   - swift-lang
   - TinyTitan
   - TriBITSPub
+  - ucla-mobility
+  - UCLA-Plasma-Simulation-Group
+  - UCLA-VAST
+  - UCLA-VMG
   - usnistgov
   - WISDEM
   - zfsonlinux

@@ -207,6 +207,7 @@ Ethiopia:
 European Union:
   - eea
   - eu-digital-green-certificates
+  - european-central-bank
   - europeana
 
 Finland:
@@ -233,6 +234,7 @@ France:
   - ansforge
   - ANSSI-FR
   - ApieFrance
+  - atih
   - betagouv
   - BRGM
   - cea-hpc
@@ -368,6 +370,7 @@ Lithuania:
   - vilnius
 
 Luxemburg:
+  - circl
   - Geoportail-Luxembourg
   - opendatalu
 
@@ -507,6 +510,7 @@ Spain:
   - GobiernoLaRioja
   - HospitaletDeLlobregat
   - icane
+  - lliurex
   - projectestac
   - vilanovailageltru
 

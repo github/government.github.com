@@ -207,6 +207,7 @@ Ethiopia:
 European Union:
   - eea
   - eu-digital-green-certificates
+  - european-central-bank
   - europeana
 
 Finland:
@@ -233,6 +234,7 @@ France:
   - ansforge
   - ANSSI-FR
   - ApieFrance
+  - atih
   - betagouv
   - BRGM
   - cea-hpc
@@ -284,7 +286,6 @@ Germany:
   - dbmdz
   - Digitaler-Impfnachweis
   - digitalservicebund
-  - DLR-SC
   - gbv
   - GovDataOfficial
   - hbz
@@ -369,6 +370,7 @@ Lithuania:
   - vilnius
 
 Luxemburg:
+  - circl
   - Geoportail-Luxembourg
   - opendatalu
 
@@ -419,6 +421,7 @@ Norway:
   - knreise
   - KRD-KOMM-VL
   - metno
+  - miljodir
   - nasjonalmuseet
   - navikt
   - nlbdev
@@ -433,7 +436,6 @@ Norway:
   - telemark-arkiv
   - uninett
   - vegvesen
-  - vest-agder
 
 Panama:
   - IFARHU
@@ -508,6 +510,7 @@ Spain:
   - GobiernoLaRioja
   - HospitaletDeLlobregat
   - icane
+  - lliurex
   - projectestac
   - vilanovailageltru
 
@@ -751,6 +754,7 @@ U.S. City:
   - NYCComptroller
   - nycdot
   - NYCPlanning
+  - onc-healthit
   - OpenGovDC
   - p2g
   - pdxgis
@@ -867,6 +871,7 @@ U.S. Federal:
   - NIEM
   - NMB-Dev
   - NMML
+  - NOAA-EPIC
   - noaa-gfdl
   - NOAA-ORR-ERD
   - noaa-pmel
@@ -1001,7 +1006,6 @@ U.S. States:
   - massgov
   - MESMD
   - MFWP-GIS
-  - mn-script-team
   - nebraskamap
   - nelegislature
   - NJOGIS

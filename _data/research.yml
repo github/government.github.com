@@ -6,6 +6,9 @@ Australia:
   - csiro-workspace
   - csiro-wsn
 
+Canada:
+  - Western-OC2-Lab
+
 China:
   - Anhui-Medical-University
   - arclab-hku
@@ -14,8 +17,12 @@ China:
   - BIT-DA
   - BIT-ENGD
   - dbiir
+  - FudanNLP
   - HITSZ-HLT
+  - HKBU-HPML
+  - hku-mars
   - HPSCIL
+  - i2Nav-WHU
   - MAI-Lab-West-China-Hospital
   - NLP2CT
   - PKU-DAIR
@@ -25,7 +32,11 @@ China:
   - SUSTech-AMASLAB
   - sysuits
   - thuml
+  - tuna
   - XSLiuLab
+  - ZJU-DAILY
+  - ZJU-FAST-Lab
+  - zjunlp
   - ZJUSCT
 
 Denmark:
@@ -46,34 +57,65 @@ France:
   - luli
 
 Germany:
+  - 3dgeo-heidelberg
   - AWI-ESM
   - BAMresearch
   - bauhaus
   - baw-de
   - cgre-aachen
   - cispa
+  - ComNets-Bremen
+  - CompVis
+  - DLR-SC
+  - eisenforschung
+  - ekut-es
+  - ExplainableML
+  - fkie
+  - Fraunhofer-AISEC
   - fraunhofer-iais
   - Fraunhofer-IIS
   - Fraunhofer-IMS
+  - Fraunhofer-SCAI
   - fraunhoferfokus
   - fraunhoferhhi
+  - FraunhoferIOSB
+  - FraunhoferISST
+  - FZJ-IEK3-VSA
   - FZJ-JSC
+  - GFZ
+  - ghga-de
+  - hegl-lab
+  - Heidelberg-NLP
   - hzdr
   - iame-uni-bonn
+  - ipa320
+  - leibniz-future-lab
   - maxplanck-ie
   - MIC-DKFZ
   - MPDL
   - MPI-IS
   - MPIB
+  - mpilhlt
   - mppmu
   - RWTH-EBC
+  - subugoe
   - tml-tuebingen
   - TU-Berlin
+  - tu-darmstadt-ros-pkg
+  - UB-Heidelberg
   - uds-psl
+  - vislearn
+  - VLSI-EDA
+  - x3dom
+
+India:
+  - marsiitr
 
 International:
   - CERN
+  - cerndb
   - CICE-Consortium
+  - root-project
 
 Kenya:
   - Multimedia-University-of-Kenya
@@ -84,6 +126,22 @@ New Zealand Crown Research Institutes:
   - niwa
   - PlantandFoodResearch
   - ScionResearch
+  - waikato-datamining
+
+Nigeria:
+  - ISTH-BNITM-PHE
+
+Poland:
+  - gmum
+
+Portugal:
+  - fraunhoferportugal
+
+Russia:
+  - mirea-ninja
+
+Saudi Arabia:
+  - uqu-cis-cs
 
 Sweden:
   - ENCCS
@@ -91,16 +149,24 @@ Sweden:
   - smarc-project
 
 Turkey:
+  - CankayaUniversity
   - EuroCC-Turkey
 
-U.K Research Centers:
+U.K:
   - alan-turing-institute
+  - BritishMuseum
+  - BritishMuseumDH
   - SatelliteApplicationsCatapult
 
 U.S. Research Labs:
   - ACME-Climate
   - ai2es
+  - Argonne-National-Laboratory
   - ARM-DOE
+  - Berkeley-Data
+  - berkeley-physics
+  - berkeley-scf
+  - berkeleybop
   - BrookhavenNationalLaboratory
   - CASL
   - CBIIT
@@ -109,6 +175,7 @@ U.S. Research Labs:
   - cocomans
   - ControlSystemStudio
   - cooperhewitt
+  - dlab-berkeley
   - doe-nepa
   - draperlaboratory
   - DSSA-Stockton-University
@@ -116,8 +183,11 @@ U.S. Research Labs:
   - EMSL-MSC
   - epicsdeb
   - esgf
+  - EVS-ATMOS
   - exmatex
   - flux-framework
+  - gatech
+  - georgia-tech-db
   - globus
   - glvis
   - HipGISAXS
@@ -130,6 +200,7 @@ U.S. Research Labs:
   - jplopensource
   - kbase
   - kbaseIncubator
+  - lab11
   - LANL
   - LANL-Bioinformatics
   - lbl-anp
@@ -199,6 +270,10 @@ U.S. Research Labs:
   - swift-lang
   - TinyTitan
   - TriBITSPub
+  - ucla-mobility
+  - UCLA-Plasma-Simulation-Group
+  - UCLA-VAST
+  - UCLA-VMG
   - usnistgov
   - WISDEM
   - zfsonlinux

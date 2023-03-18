@@ -19,6 +19,7 @@ China:
   - dbiir
   - FudanNLP
   - HITSZ-HLT
+  - HKBU-HPML
   - hku-mars
   - HPSCIL
   - i2Nav-WHU
@@ -56,22 +57,35 @@ France:
   - luli
 
 Germany:
+  - 3dgeo-heidelberg
   - AWI-ESM
   - BAMresearch
   - bauhaus
   - baw-de
   - cgre-aachen
   - cispa
+  - ComNets-Bremen
+  - CompVis
   - DLR-SC
+  - eisenforschung
+  - ekut-es
+  - ExplainableML
+  - fkie
+  - Fraunhofer-AISEC
   - fraunhofer-iais
   - Fraunhofer-IIS
   - Fraunhofer-IMS
+  - Fraunhofer-SCAI
   - fraunhoferfokus
   - fraunhoferhhi
   - FraunhoferIOSB
+  - FraunhoferISST
   - FZJ-IEK3-VSA
   - FZJ-JSC
   - GFZ
+  - ghga-de
+  - hegl-lab
+  - Heidelberg-NLP
   - iame-uni-bonn
   - ipa320
   - leibniz-future-lab
@@ -83,16 +97,24 @@ Germany:
   - mpilhlt
   - mppmu
   - RWTH-EBC
+  - subugoe
   - tml-tuebingen
   - TU-Berlin
+  - tu-darmstadt-ros-pkg
+  - UB-Heidelberg
   - uds-psl
+  - vislearn
+  - VLSI-EDA
+  - x3dom
 
 India:
   - marsiitr
 
 International:
   - CERN
+  - cerndb
   - CICE-Consortium
+  - root-project
 
 Kenya:
   - Multimedia-University-of-Kenya
@@ -111,6 +133,12 @@ Nigeria:
 Poland:
   - gmum
 
+Portugal:
+  - fraunhoferportugal
+
+Russia:
+  - mirea-ninja
+
 Saudi Arabia:
   - uqu-cis-cs
 
@@ -123,8 +151,10 @@ Turkey:
   - CankayaUniversity
   - EuroCC-Turkey
 
-U.K Research Centers:
+U.K:
   - alan-turing-institute
+  - BritishMuseum
+  - BritishMuseumDH
   - GSTT-CSC
   - SatelliteApplicationsCatapult
 
@@ -133,6 +163,10 @@ U.S. Research Labs:
   - ai2es
   - Argonne-National-Laboratory
   - ARM-DOE
+  - Berkeley-Data
+  - berkeley-physics
+  - berkeley-scf
+  - berkeleybop
   - BrookhavenNationalLaboratory
   - CASL
   - CBIIT
@@ -141,6 +175,7 @@ U.S. Research Labs:
   - cocomans
   - ControlSystemStudio
   - cooperhewitt
+  - dlab-berkeley
   - doe-nepa
   - draperlaboratory
   - DSSA-Stockton-University
@@ -148,8 +183,11 @@ U.S. Research Labs:
   - EMSL-MSC
   - epicsdeb
   - esgf
+  - EVS-ATMOS
   - exmatex
   - flux-framework
+  - gatech
+  - georgia-tech-db
   - globus
   - glvis
   - HipGISAXS
@@ -162,6 +200,7 @@ U.S. Research Labs:
   - jplopensource
   - kbase
   - kbaseIncubator
+  - lab11
   - LANL
   - LANL-Bioinformatics
   - lbl-anp
@@ -231,6 +270,10 @@ U.S. Research Labs:
   - swift-lang
   - TinyTitan
   - TriBITSPub
+  - ucla-mobility
+  - UCLA-Plasma-Simulation-Group
+  - UCLA-VAST
+  - UCLA-VMG
   - usnistgov
   - WISDEM
   - zfsonlinux

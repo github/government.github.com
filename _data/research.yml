@@ -31,11 +31,14 @@ China:
   - snnucs
   - SUSTech-AMASLAB
   - sysuits
+  - THUDM
   - thuml
+  - TJ-CSCCG
   - tuna
   - XSLiuLab
   - ZJU-DAILY
   - ZJU-FAST-Lab
+  - zju-vipa
   - zjunlp
   - ZJUSCT
 
@@ -58,6 +61,7 @@ France:
 
 Germany:
   - 3dgeo-heidelberg
+  - automl
   - AWI-ESM
   - BAMresearch
   - bauhaus
@@ -81,15 +85,18 @@ Germany:
   - FraunhoferIOSB
   - FraunhoferISST
   - FZJ-IEK3-VSA
+  - FZJ-INM1-BDA
   - FZJ-JSC
   - GFZ
   - ghga-de
   - hegl-lab
   - Heidelberg-NLP
+  - hmgu-itg
   - hzi-braunschweig
   - iame-uni-bonn
   - ipa320
   - leibniz-future-lab
+  - Leibniz-IWT
   - maxplanck-ie
   - MIC-DKFZ
   - MPDL
@@ -97,13 +104,16 @@ Germany:
   - MPIB
   - mpilhlt
   - mppmu
+  - neurodial
   - RWTH-EBC
   - subugoe
+  - tibhannover
   - tml-tuebingen
   - TU-Berlin
   - tu-darmstadt-ros-pkg
   - UB-Heidelberg
   - uds-psl
+  - Uni-Heidelberg
   - vislearn
   - VLSI-EDA
   - x3dom
@@ -116,6 +126,7 @@ International:
   - cerndb
   - CICE-Consortium
   - root-project
+  - swan-cern
 
 Kenya:
   - Multimedia-University-of-Kenya

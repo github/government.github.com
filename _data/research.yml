@@ -9,6 +9,9 @@ Australia:
 Austria:
   - TUW-GEO
 
+Canada:
+  - Western-OC2-Lab
+
 China:
   - Anhui-Medical-University
   - arclab-hku
@@ -19,6 +22,7 @@ China:
   - dbiir
   - FudanNLP
   - HITSZ-HLT
+  - HKBU-HPML
   - hku-mars
   - HPSCIL
   - i2Nav-WHU
@@ -30,14 +34,23 @@ China:
   - snnucs
   - SUSTech-AMASLAB
   - sysuits
+  - THUDM
   - thuml
+  - TJ-CSCCG
   - tuna
   - XSLiuLab
+  - ZJU-DAILY
+  - ZJU-FAST-Lab
+  - zju-vipa
   - zjunlp
   - ZJUSCT
 
+Czech Republic:
+  - CTU-IIG
+
 Denmark:
   - DeiC-HPC
+  - DTUSoftware
 
 European Union:
   - ec-jrc
@@ -54,23 +67,42 @@ France:
   - luli
 
 Germany:
+  - 3dgeo-heidelberg
+  - automl
   - AWI-ESM
   - BAMresearch
   - bauhaus
   - baw-de
   - cgre-aachen
   - cispa
+  - ComNets-Bremen
+  - CompVis
   - DLR-SC
+  - eisenforschung
+  - ekut-es
+  - ExplainableML
+  - fkie
+  - Fraunhofer-AISEC
   - fraunhofer-iais
   - Fraunhofer-IIS
   - Fraunhofer-IMS
+  - Fraunhofer-SCAI
   - fraunhoferfokus
   - fraunhoferhhi
+  - FraunhoferIOSB
+  - FraunhoferISST
   - FZJ-IEK3-VSA
+  - FZJ-INM1-BDA
   - FZJ-JSC
   - GFZ
+  - ghga-de
+  - hegl-lab
+  - Heidelberg-NLP
+  - hmgu-itg
   - iame-uni-bonn
+  - ipa320
   - leibniz-future-lab
+  - Leibniz-IWT
   - maxplanck-ie
   - MIC-DKFZ
   - MPDL
@@ -78,14 +110,38 @@ Germany:
   - MPIB
   - mpilhlt
   - mppmu
+  - neurodial
+  - Rostlab
   - RWTH-EBC
+  - subugoe
+  - tibhannover
   - tml-tuebingen
   - TU-Berlin
+  - tu-darmstadt-ros-pkg
+  - tum-gis
+  - UB-Heidelberg
   - uds-psl
+  - Uni-Heidelberg
+  - vislearn
+  - VLSI-EDA
+  - WZBSocialScienceCenter
+  - x3dom
+
+Greece:
+  - ntua
+
+India:
+  - marsiitr
 
 International:
   - CERN
+  - cerndb
   - CICE-Consortium
+  - root-project
+  - swan-cern
+
+Italy:
+  - polimi-ispl
 
 Kenya:
   - Multimedia-University-of-Kenya
@@ -96,26 +152,55 @@ New Zealand Crown Research Institutes:
   - niwa
   - PlantandFoodResearch
   - ScionResearch
+  - waikato-datamining
 
 Nigeria:
   - ISTH-BNITM-PHE
+
+Poland:
+  - gmum
+
+Portugal:
+  - fraunhoferportugal
+
+Russia:
+  - mirea-ninja
+
+Saudi Arabia:
+  - uqu-cis-cs
+
+Spain:
+  - compsciencelab
 
 Sweden:
   - ENCCS
   - NBISweden
   - smarc-project
 
+Taiwan:
+  - TW-NCHC
+
 Turkey:
+  - CankayaUniversity
   - EuroCC-Turkey
 
-U.K Research Centers:
+U.K:
   - alan-turing-institute
+  - ARCHER2-HPC
+  - BritishMuseum
+  - BritishMuseumDH
+  - GSTT-CSC
   - SatelliteApplicationsCatapult
 
 U.S. Research Labs:
   - ACME-Climate
   - ai2es
+  - Argonne-National-Laboratory
   - ARM-DOE
+  - Berkeley-Data
+  - berkeley-physics
+  - berkeley-scf
+  - berkeleybop
   - BrookhavenNationalLaboratory
   - CASL
   - CBIIT
@@ -124,6 +209,7 @@ U.S. Research Labs:
   - cocomans
   - ControlSystemStudio
   - cooperhewitt
+  - dlab-berkeley
   - doe-nepa
   - draperlaboratory
   - DSSA-Stockton-University
@@ -131,8 +217,11 @@ U.S. Research Labs:
   - EMSL-MSC
   - epicsdeb
   - esgf
+  - EVS-ATMOS
   - exmatex
   - flux-framework
+  - gatech
+  - georgia-tech-db
   - globus
   - glvis
   - HipGISAXS
@@ -145,6 +234,7 @@ U.S. Research Labs:
   - jplopensource
   - kbase
   - kbaseIncubator
+  - lab11
   - LANL
   - LANL-Bioinformatics
   - lbl-anp
@@ -168,6 +258,8 @@ U.S. Research Labs:
   - ncgmp09
   - ncip
   - ncpp
+  - ncsa
+  - NCSAGravity
   - ndar
   - nersc
   - nhlbi
@@ -212,8 +304,13 @@ U.S. Research Labs:
   - SNEWS-Collaboration
   - SNL-WaterPower
   - swift-lang
+  - thepanlab
   - TinyTitan
   - TriBITSPub
+  - ucla-mobility
+  - UCLA-Plasma-Simulation-Group
+  - UCLA-VAST
+  - UCLA-VMG
   - usnistgov
   - WISDEM
   - zfsonlinux

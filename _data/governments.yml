@@ -207,6 +207,7 @@ Ethiopia:
 European Union:
   - eea
   - eu-digital-green-certificates
+  - european-central-bank
   - europeana
 
 Finland:
@@ -233,6 +234,7 @@ France:
   - ansforge
   - ANSSI-FR
   - ApieFrance
+  - atih
   - betagouv
   - BRGM
   - cea-hpc
@@ -368,6 +370,7 @@ Lithuania:
   - vilnius
 
 Luxemburg:
+  - circl
   - Geoportail-Luxembourg
   - opendatalu
 
@@ -418,6 +421,7 @@ Norway:
   - knreise
   - KRD-KOMM-VL
   - metno
+  - miljodir
   - nasjonalmuseet
   - navikt
   - nlbdev
@@ -432,7 +436,6 @@ Norway:
   - telemark-arkiv
   - uninett
   - vegvesen
-  - vest-agder
 
 Panama:
   - IFARHU
@@ -507,6 +510,7 @@ Spain:
   - GobiernoLaRioja
   - HospitaletDeLlobregat
   - icane
+  - lliurex
   - projectestac
   - vilanovailageltru
 
@@ -587,6 +591,7 @@ The Netherlands:
   - Geonovum
   - Haarlem
   - IenS-Velsen
+  - Logius-standaarden
   - MinBZK
   - MinELenI
   - minvws
@@ -677,6 +682,7 @@ U.K. Councils:
   - cityofyork
   - devoncc
   - DevonCountyCouncil
+  - Dorset-Council-UK
   - DundeeCityCouncil
   - east-sussex-county-council
   - edinburghcouncil
@@ -747,9 +753,11 @@ U.S. City:
   - mnhrc
   - moda-nyc
   - monum
+  - NewYorkCityCouncil
   - NYCComptroller
   - nycdot
   - NYCPlanning
+  - onc-healthit
   - OpenGovDC
   - p2g
   - pdxgis
@@ -781,7 +789,6 @@ U.S. County:
   - pottcountyit
   - saccounty
   - sfcta
-  - SJCGIS
   - slugis
 
 U.S. Federal:
@@ -866,6 +873,7 @@ U.S. Federal:
   - NIEM
   - NMB-Dev
   - NMML
+  - NOAA-EPIC
   - noaa-gfdl
   - NOAA-ORR-ERD
   - noaa-pmel
@@ -958,7 +966,6 @@ U.S. Military and Intelligence:
   - nsacyber
   - project-interoperability
   - psns-imf
-  - screamlab
   - shareandprotect
   - SIMP
   - transcom
@@ -972,6 +979,7 @@ U.S. Special District:
   - cleveland-metroparks
   - CMAP-REPOS
   - commonwealth-of-puerto-rico
+  - MAPC
   - Metropolitan-Council
   - portofsandiego
   - psrc
@@ -1000,7 +1008,6 @@ U.S. States:
   - massgov
   - MESMD
   - MFWP-GIS
-  - mn-script-team
   - nebraskamap
   - nelegislature
   - NJOGIS

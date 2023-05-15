@@ -9,7 +9,7 @@ task :test do
     check_html: true,
     check_external_hash: false,
     hydra: { max_concurrency: 10 },
-    url_ignore: [%r{https://developer.github.com}, %r{https://docs.github.com}, %r{https://help.github.com}],
+    url_ignore: [%r{https://developer.github.com}, %r{https://docs.github.com}, %r{https://help.github.com}, %r{https://government-community.githubapp.com}],
     ignore_files: [%r{/community/}],
     ignore_status_codes: [429]
   )

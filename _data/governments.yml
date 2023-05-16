@@ -591,6 +591,7 @@ The Netherlands:
   - Geonovum
   - Haarlem
   - IenS-Velsen
+  - Logius-standaarden
   - MinBZK
   - MinELenI
   - minvws
@@ -681,6 +682,7 @@ U.K. Councils:
   - cityofyork
   - devoncc
   - DevonCountyCouncil
+  - Dorset-Council-UK
   - DundeeCityCouncil
   - east-sussex-county-council
   - edinburghcouncil
@@ -751,6 +753,7 @@ U.S. City:
   - mnhrc
   - moda-nyc
   - monum
+  - NewYorkCityCouncil
   - NYCComptroller
   - nycdot
   - NYCPlanning
@@ -786,7 +789,6 @@ U.S. County:
   - pottcountyit
   - saccounty
   - sfcta
-  - SJCGIS
   - slugis
 
 U.S. Federal:
@@ -964,7 +966,6 @@ U.S. Military and Intelligence:
   - nsacyber
   - project-interoperability
   - psns-imf
-  - screamlab
   - shareandprotect
   - SIMP
   - transcom
@@ -978,6 +979,7 @@ U.S. Special District:
   - cleveland-metroparks
   - CMAP-REPOS
   - commonwealth-of-puerto-rico
+  - MAPC
   - Metropolitan-Council
   - portofsandiego
   - psrc

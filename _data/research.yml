@@ -6,6 +6,9 @@ Australia:
   - csiro-workspace
   - csiro-wsn
 
+Austria:
+  - TUW-GEO
+
 Canada:
   - Western-OC2-Lab
 
@@ -39,12 +42,17 @@ China:
   - ZJU-DAILY
   - ZJU-FAST-Lab
   - zju-vipa
+  - zju3dv
   - ZJULearning
   - zjunlp
   - ZJUSCT
 
+Czech Republic:
+  - CTU-IIG
+
 Denmark:
   - DeiC-HPC
+  - DTUSoftware
 
 European Union:
   - ec-jrc
@@ -93,6 +101,7 @@ Germany:
   - hegl-lab
   - Heidelberg-NLP
   - hmgu-itg
+  - hzdr
   - iame-uni-bonn
   - ipa320
   - leibniz-future-lab
@@ -105,18 +114,24 @@ Germany:
   - mpilhlt
   - mppmu
   - neurodial
+  - Rostlab
   - RWTH-EBC
   - subugoe
   - tibhannover
   - tml-tuebingen
   - TU-Berlin
   - tu-darmstadt-ros-pkg
+  - tum-gis
   - UB-Heidelberg
   - uds-psl
   - Uni-Heidelberg
   - vislearn
   - VLSI-EDA
+  - WZBSocialScienceCenter
   - x3dom
+
+Greece:
+  - ntua
 
 India:
   - marsiitr
@@ -127,6 +142,9 @@ International:
   - CICE-Consortium
   - root-project
   - swan-cern
+
+Italy:
+  - polimi-ispl
 
 Kenya:
   - Multimedia-University-of-Kenya
@@ -154,10 +172,16 @@ Russia:
 Saudi Arabia:
   - uqu-cis-cs
 
+Spain:
+  - compsciencelab
+
 Sweden:
   - ENCCS
   - NBISweden
   - smarc-project
+
+Taiwan:
+  - TW-NCHC
 
 Turkey:
   - CankayaUniversity
@@ -165,8 +189,10 @@ Turkey:
 
 U.K:
   - alan-turing-institute
+  - ARCHER2-HPC
   - BritishMuseum
   - BritishMuseumDH
+  - GSTT-CSC
   - SatelliteApplicationsCatapult
 
 U.S. Research Labs:
@@ -235,6 +261,8 @@ U.S. Research Labs:
   - ncgmp09
   - ncip
   - ncpp
+  - ncsa
+  - NCSAGravity
   - ndar
   - nersc
   - nhlbi
@@ -279,6 +307,7 @@ U.S. Research Labs:
   - SNEWS-Collaboration
   - SNL-WaterPower
   - swift-lang
+  - thepanlab
   - TinyTitan
   - TriBITSPub
   - ucla-mobility

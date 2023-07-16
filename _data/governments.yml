@@ -47,7 +47,6 @@ Australia:
   - pmcau
   - qld-gov-au
   - srnsw
-  - SSCwebdev
   - SunshineCoastCouncil
   - treasury-aus
   - victoriangovernment
@@ -428,7 +427,6 @@ New Zealand:
   - linz
   - localgovernment
   - MfE-NZ
-  - nz-mbie
   - nz-social-investment-agency
   - opcnz
   - te-papa
@@ -451,6 +449,7 @@ Norway:
   - navikt
   - nlbdev
   - Nordland-fylkeskommune
+  - politiet
   - Riksrevisjonen
   - Rogaland
   - rutebanken

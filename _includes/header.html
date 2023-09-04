@@ -8,6 +8,11 @@
   <link rel="stylesheet" type="text/css" href="{{ "/assets/css/style.css" | relative_url }}">
   <link rel="preload" as="font" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" crossorigin>
   {% seo %}
+  {% if page.url == "/community/" %}
+  <script defer src="{{ "/assets/js/community.js" | relative_url}}"></script>
+  {% elsif page.url == "/" %}
+  <script defer src="{{ "/assets/js/home.js" | relative_url}}"></script>
+  {% endif %}
 </head>
 
 <body{% if page.id %} id="{{ page.id }}"{% endif %} class="{{ page.layout }}">
@@ -15,7 +20,7 @@
   <div class="page-header pt-4 pb-5">
     <div class="container-lg">
       <div class="text-center">
-        <a href="{{ "/" | relative_url}}"><img class="logo py-3" src="{{ "/assets/img/logomark.svg" | relative_url}}" alt="GitHub and Government"></a>
+        <a href="{{ "/" | relative_url}}"><img class="logo py-3" src="{{ "/assets/img/logomark.svg" | relative_url}}" alt="GitHub and Government" decoding="async"></a>
         <ul>
           <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="{{ "/community/" | relative_url}}" class="text-white">Who's using GitHub</a></li>
           <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="https://github.com/government/welcome#readme" class="text-white">Peer Group</a></li>

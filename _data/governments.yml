@@ -13,7 +13,6 @@ Australia:
   - actgov
   - agnsw
   - AtlasOfLivingAustralia
-  - atogov
   - ausdto
   - australianantarcticdatacentre
   - AustralianAntarcticDivision
@@ -41,7 +40,6 @@ Australia:
   - innovationgovau
   - IPAustralia
   - Landgate
-  - mcma
   - nla
   - NSW-eTendering
   - NSWPlanning
@@ -212,6 +210,7 @@ Ethiopia:
   - ethiopian
 
 European Union:
+  - digital-services-act
   - ec-europa
   - eea
   - eu-digital-green-certificates

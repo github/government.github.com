@@ -1,11 +1,11 @@
-// $blue: #2D86FB;
-
 body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
 
+//
 // HEADER
+//
 
 .page-header {
   width: 100%;
@@ -50,10 +50,18 @@ body {
   padding-bottom: 0;
 }
 
-.org-include .no-matches { display: none; }
+.org-include .no-matches { 
+  display: none; 
+}
 
-/* Animations */
-/* -------------------------------------------------------------------------- */
+.org-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+//
+// Animations
+//
 
 .animate-in {
   -webkit-transition: all 0.6s ease-in-out 0s;

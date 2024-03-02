@@ -135,7 +135,6 @@ Canada:
   - CSPS-EFPC-DAAN
   - CybercentreCanada
   - ECCC-MSC
-  - electionsquebec
   - eodms-sgdot
   - esdc-devx
   - esdc-edsc
@@ -209,7 +208,6 @@ Estonia:
   - MKM-ITAO
   - open-eid
   - opendata-ee
-  - vvk-ehk
 
 Ethiopia:
   - ethiopian
@@ -240,6 +238,7 @@ Finland:
   - NatLibFi
   - nlsfi
   - opetushallitus
+  - sykefi
   - vrk-kpa
 
 France:
@@ -395,9 +394,6 @@ Luxemburg:
   - natliblux
   - opendatalu
 
-Madagascar:
-  - e-Gouvernance-Madagascar
-
 Malaysia:
   - pmo2
 
@@ -546,9 +542,7 @@ Spain:
   - AjuntamentdeSantCugat
   - AjuntamentdeTerrassa
   - AyuntamientoMadrid
-  - castilla-lamancha
   - ctt-gob-es
-  - diputacioBCN
   - ErabakiPamplona
   - gencat
   - GobiernoLaRioja
@@ -716,7 +710,6 @@ U.K. Central:
   - ukwa
 
 U.K. Councils:
-  - BarnsleyCouncil
   - BathnesDevelopment
   - BracknellForestCouncil
   - brighton-hove-gov-uk

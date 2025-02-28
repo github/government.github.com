@@ -1,93 +1,125 @@
-# GitHub and Government [![Test site build](https://github.com/github/government.github.com/actions/workflows/build.yml/badge.svg)](https://github.com/github/government.github.com/actions/workflows/build.yml)
+# GitHub and Government
+
+[![Test site build](https://github.com/github/government.github.com/actions/workflows/build.yml/badge.svg)](https://github.com/github/government.github.com/actions/workflows/build.yml)
 
 ![screenshot](assets/img/screenshot.png)
 
-Gather, curate, and feature stories of people using GitHub as part of their open government innovations.
+## 🌍 Open Government Innovation with GitHub
 
-The site is open source (here's all the code!) and is a tool _for_ and _by_ the community.
+Gather, curate, and feature stories of people using GitHub as part of their open government initiatives.
 
-Submit [issues](https://github.com/github/government.github.com/issues/new) and [pull requests](https://github.com/github/government.github.com/compare/) for stories, site ideas or copy edits.
+This site is **open source** ([view all the code!](https://github.com/github/government.github.com)) and serves as a collaborative tool _for_ and _by_ the community.
 
-### Goals
-
-- Share stories of real world experiences using GitHub in open Government
-- Demystify open source terminology
-- Showcase the community using GitHub to promote connections and sharing between individuals and organizations.
-- Make getting started with GitHub easier
-
-### Under the Hood
-
-This site is made with [Jekyll](https://jekyllrb.com), an open source static site generator. This means the Jekyll program takes the content we want to be on the site and turns them into HTML files ready to be hosted somewhere. Awesomely, GitHub provides free web hosting for repositories, called [GitHub Pages](https://pages.github.com/), and that's how this site is hosted. The content for the site is on a branch named [gh-pages](https://github.com/github/government.github.com/tree/gh-pages).
-
-## Contributing
-
-#### Fix/Edit Content
-
-If you see an error or a place where content should be updated or improved, just fork this repository to your account, make the change you'd like and then submit a pull request. If you're not able to make the change, file an [issue](https://github.com/github/government.github.com/issues/new).
-
-#### Add Organization
-
-If you know of an [GitHub organization](https://help.github.com/articles/about-organizations/) that should be added to the organization list that generates the matrix of avatars on the [Community](https://government.github.com/community/) page: fork this repository, open the [_data/civic_hackers.yml](_data/civic_hackers.yml), [_data/governments.yml](_data/governments.yml), or[_data/research.yml](_data/research.yml) file and add it to the appropriate section of the list in the format being used. Commit your change and submit a pull request to us!
+💡 Submit [issues](https://github.com/github/government.github.com/issues/new) and [pull requests](https://github.com/github/government.github.com/compare/) to share stories, suggest site improvements, or fix errors.
 
 ---
 
-## To Set up Locally
+## 🎯 Goals
 
-You can take all the files of this site and run them just on your computer as if it were live online, only it's just on your machine.
+✅ Share real-world experiences using GitHub in open government projects  
+✅ Demystify open-source terminology  
+✅ Showcase community efforts, promoting collaboration between individuals and organizations  
+✅ Make getting started with GitHub easier  
 
-#### Requirements
+---
 
-* [Jekyll](https://jekyllrb.com/)
-* [Ruby](https://www.ruby-lang.org/en/)
-* [Git](https://git-scm.com/)
-* A JavaScript runtime ([node.js](https://nodejs.org/en))
+## ⚙️ Under the Hood
 
-_If you have installed [GitHub Desktop](https://desktop.github.com), Git was also installed automatically._
+This site is built using **[Jekyll](https://jekyllrb.com)**, an open-source static site generator. Jekyll converts our content into HTML files, which are then hosted on **[GitHub Pages](https://pages.github.com/)**. All the content is maintained on the **[gh-pages](https://github.com/github/government.github.com/tree/gh-pages)** branch.
 
-To copy the repository's files from here onto your computer and to view and serve those files locally, at your computer's command line type:
+---
 
+## 🤝 Contributing
+
+### 🛠 Fix or Edit Content
+🔹 Found an error? Want to improve the content? Simply **fork** this repository, make the changes, and submit a **pull request**.  
+🔹 If you're unable to make changes yourself, file an **[issue](https://github.com/github/government.github.com/issues/new)**.
+
+### 🏛️ Add an Organization
+Know of a **[GitHub organization](https://help.github.com/articles/about-organizations/)** that should be included in our [Community](https://government.github.com/community/) page?  
+
+1. Fork this repository
+2. Edit one of the following files:
+   - `_data/civic_hackers.yml`
+   - `_data/governments.yml`
+   - `_data/research.yml`
+3. Add the organization in the same format as existing entries
+4. Commit the changes and submit a **pull request**
+
+---
+
+## 🏗️ Setting Up Locally
+
+Run this site on your computer as if it were live online!
+
+### 📌 Requirements
+- [Jekyll](https://jekyllrb.com/)
+- [Ruby](https://www.ruby-lang.org/en/)
+- [Git](https://git-scm.com/)
+- A JavaScript runtime ([Node.js](https://nodejs.org/en))
+
+> _If you have installed [GitHub Desktop](https://desktop.github.com), Git was also installed automatically._
+
+### 🔧 Steps to Set Up Locally
 ```bash
+# Clone the repository
 git clone https://github.com/github/government.github.com.git
 cd government.github.com
+
+# Install dependencies
 script/bootstrap
+
+# Start the local server
 script/server
 ```
-Open `http://localhost:4000` in your browser
+🌐 Open `http://localhost:4000` in your browser
 
-## Deploying
+---
 
-government.github.com now utilizes a two-repo approach to managing staging and production deployments:
+## 🚀 Deploying
+
+government.github.com follows a **two-repo approach**:
 
 - **Production:** [github/government.github.com](https://github.com/github/government.github.com/) (this repository)
 - **Staging:** [government/staging](https://ghe.io/government/staging)
 
-For small changes, you can deploy right to production by merging a pull request. For larger changes, push your branch to the staging repo from Terminal. Here's how to setup staging and deploy to it:
-
+### 🏗 Deploying to Staging
+For larger changes, deploy to staging first:
+```bash
+script/stage staging
 ```
-$ script/stage staging
-```
+This will generate the site and push it to the staging repo ([https://ghe.io/government/staging](https://ghe.io/government/staging)).
 
+### 🔐 Authentication
+You'll need to authenticate via GitHub in the terminal. Use your **GHE.io username** and a **[personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)** instead of a password (since we enforce 2FA).
 
-This script will generate the government site (without starting the local server) and prep it for staging. It does this by creating a temporary Git repo within the compiled `_site` directory and force pushing that to a separate remote repo (in this case, https://ghe.io/government/staging).
+> _Having trouble deploying to staging? Delete the `_site` directory and try again._
 
-Pushing to the staging repo requires authenticating with GitHub via Terminal. You'll be asked for a username and password when running `script/stage`. Use your GHE.io username and, since we enforce 2FA, use a [personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) as your password.
+### ✅ Deploying to Production
+Once your pull request is **approved and merged**, changes will automatically be deployed to the production site within a few minutes.
 
-_Having trouble deploying to a staging server? Delete the entire `_site` directory and try again. Sometimes the temporary Git repository we make in the script can go awry._
+---
 
-When you're done with staging and your pull request has been approved, you can merge your branch. Your changes will be automatically deployed to the production site in a few minutes.
+## 📌 Triage Issues  
+[![Open Source Helpers](https://www.codetriage.com/github/government.github.com/badges/users.svg)](https://www.codetriage.com/github/government.github.com)
 
-----
+Want to help triage issues? This involves:
+🔹 Asking for additional information on reported issues  
+🔹 Requesting formatting changes  
+🔹 Subscribing to [CodeTriage](https://www.codetriage.com/github/government.github.com) to get started
 
-#### Triage Issues [![Open Source Helpers](https://www.codetriage.com/github/government.github.com/badges/users.svg)](https://www.codetriage.com/github/government.github.com)
+---
 
-In addition to contributing changes, you can help to triage issues. This can include asking for vital information or requesting formatting changes. If you would like to start triaging issues, one easy way to get started is to [subscribe to government.github.com on CodeTriage](https://www.codetriage.com/github/government.github.com).
+## ❓ Need Help?
+If you don't find what you're looking for, create an **[issue](https://github.com/github/government.github.com/issues/new)**, and we'll do our best to assist you!
 
-----
+---
 
-Don't see what you're looking for? Create an [issue](https://github.com/github/government.github.com/issues/new), we'll do our best to help you out.
+## 📜 License
 
-## License
+The data in `_data` is **free to use** without restriction. Contributions to these files are released under **[CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)**.
 
-The data in `_data` is free to use without restriction. For clarity these files, and contributions to these files, are released under [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+📌 When using GitHub logos, follow the **[GitHub logo guidelines](https://github.com/logos)**.
 
-When using the GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).
+🎨 Feel free to enhance and improve this site while maintaining its integrity and clarity!
+

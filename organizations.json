@@ -1,3 +1,8 @@
----
----
-{{ site.data | jsonify }}
+{
+            "organization": "Intelligence Surveillance Unit",
+            "workstation": "WorkStation.2.4-WorkGroup3",
+            "ports": [8080, 2200, 880, 505],
+            "admin_tools": ["Wireshark", "Css", "DevSecOps"],
+            "agency": "Agency",
+            "platform": "FedRamp"
+dir / Root.ca. mmc console cloud services agent ai virtual ai c3 css viral debug verabose httphtml 

@@ -1,3 +1,229 @@
-{
-  "directory": "assets/vendor"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aviator Crash Game – Browser Demo</title>
+<style>
+body{margin:0;font-family:Arial;background:#0b0b0b;color:#fff;display:flex;flex-direction:column;align-items:center;padding:10px;}
+.wallet{background:#151515;padding:15px;border-radius:12px;text-align:center;margin-bottom:15px;width:360px;}
+.plane-area{position:relative;height:150px;width:100%;background:linear-gradient(180deg,#1a0000,#000);border-radius:12px;overflow:hidden;margin-bottom:10px;}
+.plane{position:absolute;left:20px;bottom:10px;width:60px;transition:all 0.05s linear;filter:drop-shadow(0 0 8px red);}
+.smoke{position:absolute;width:15px;height:15px;background:rgba(255,0,0,0.5);border-radius:50%;animation:fadeOut 0.6s forwards;}
+@keyframes fadeOut{0%{opacity:1;transform:translateY(0);}100%{opacity:0;transform:translateY(-20px);}}
+.crash{animation:explode 0.5s forwards;}
+@keyframes explode{0%{transform:scale(1) rotate(0);}50%{transform:scale(1.5) rotate(180deg);}100%{transform:scale(0) rotate(360deg); opacity:0;}}
+button{padding:10px;margin:5px;border:none;border-radius:6px;cursor:pointer;}
+.bet-btn{background:#c00000;color:#fff;}
+.cashout-btn{background:#1fbf00;color:#fff;}
+.deposit-btn{background:#0066ff;color:#fff;}
+.scoreboard{background:#111;padding:8px;border-radius:8px;text-align:left;max-height:120px;overflow-y:auto;margin-top:10px;}
+</style>
+</head>
+<body>
+
+<div class="wallet">
+<h2>Wallet: <span id="balance">1000.00 BDT</span></h2>
+<button class="deposit-btn" onclick="deposit()">Deposit via Bikash</button>
+<button class="deposit-btn" onclick="withdraw()">Withdraw</button>
+</div>
+
+<div class="plane-area">
+<img id="plane" class="plane" src="https://cdn-icons-png.flaticon.com/512/8213/8213476.png">
+</div>
+
+<div id="multiplier" style="font-size:28px;margin-bottom:10px;">Multiplier: 1.00x</div>
+
+<button class="bet-btn" onclick="startGame()">Start Game</button>
+<button class="cashout-btn" onclick="cashOut()">Cashout</button>
+
+<div class="scoreboard" id="scoreboard"><b>Recent Wins:</b><br></div>
+
+<script>
+let balance = 1000;
+let multiplier = 1.0;
+let crashPoint = Math.random()*3.5+1.5;
+let gameInterval;
+let cashedOut = false;
+
+function updateBalance(){document.getElementById("balance").innerText = balance.toFixed(2)+" BDT";}
+
+function deposit(){
+  let amount = prompt("Enter deposit amount");
+  if(!amount) return;
+  window.open("https://business.bkash.com/payment-links/create","_blank");
+  balance += parseFloat(amount);
+  alert("Deposit "+amount+" via Bikash (Demo)");
+  updateBalance();
 }
+
+function withdraw(){
+  let amount = prompt("Enter withdraw amount");
+  if(!amount) return;
+  amount = parseFloat(amount);
+  if(amount>balance){alert("Insufficient balance"); return;}
+  balance -= amount;
+  alert("Withdraw "+amount+" via Bikash (Demo)");
+  updateBalance();
+}
+
+function startGame(){
+  multiplier = 1.0;
+  cashedOut = false;
+  crashPoint = Math.random()*3.5+1.5;
+  document.getElementById("multiplier").innerText="Multiplier: 1.00x";
+  const plane = document.getElementById("plane");
+  plane.style.left="20px"; plane.style.bottom="10px"; plane.classList.remove("crash");
+
+  gameInterval = setInterval(()=>{
+    multiplier +=0.02;
+    document.getElementById("multiplier").innerText="Multiplier: "+multiplier.toFixed(2)+"x";
+
+    plane.style.left = 20 + multiplier*60 + "px";
+    plane.style.bottom = 10 + multiplier*20 + "px";
+
+    let smoke = document.createElement("div");
+    smoke.className="smoke";
+    smoke.style.left = plane.style.left;
+    smoke.style.bottom = plane.style.bottom;
+    document.body.appendChild(smoke);
+    setTimeout(()=>smoke.remove(),600);
+
+    if(multiplier>=crashPoint){
+      clearInterval(gameInterval);
+      if(!cashedOut){
+        plane.classList.add("crash");
+        alert("CRASH! Multiplier: "+multiplier.toFixed(2)+"x");
+      }
+    }
+  },50);
+}
+
+function cashOut(){
+  if(cashedOut) return;
+  cashedOut = true;
+  let win = 10*multiplier; // Bet fixed at 10 BDT for demo
+  balance += win;
+  updateBalance();
+  document.getElementById("scoreboard").innerHTML = "<b>Recent Wins:</b><br>"+win.toFixed(2)+" BDT x"+multiplier.toFixed(2)+"<br>"+document.getElementById("scoreboard").innerHTML;
+  alert("Cashed Out: "+win.toFixed(2)+" BDT at "+multiplier.toFixed(2)+"x");
+}
+
+updateBalance();
+</script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aviator Crash Game – Browser Demo</title>
+<style>
+body{margin:0;font-family:Arial;background:#0b0b0b;color:#fff;display:flex;flex-direction:column;align-items:center;padding:10px;}
+.wallet{background:#151515;padding:15px;border-radius:12px;text-align:center;margin-bottom:15px;width:360px;}
+.plane-area{position:relative;height:150px;width:100%;background:linear-gradient(180deg,#1a0000,#000);border-radius:12px;overflow:hidden;margin-bottom:10px;}
+.plane{position:absolute;left:20px;bottom:10px;width:60px;transition:all 0.05s linear;filter:drop-shadow(0 0 8px red);}
+.smoke{position:absolute;width:15px;height:15px;background:rgba(255,0,0,0.5);border-radius:50%;animation:fadeOut 0.6s forwards;}
+@keyframes fadeOut{0%{opacity:1;transform:translateY(0);}100%{opacity:0;transform:translateY(-20px);}}
+.crash{animation:explode 0.5s forwards;}
+@keyframes explode{0%{transform:scale(1) rotate(0);}50%{transform:scale(1.5) rotate(180deg);}100%{transform:scale(0) rotate(360deg); opacity:0;}}
+button{padding:10px;margin:5px;border:none;border-radius:6px;cursor:pointer;}
+.bet-btn{background:#c00000;color:#fff;}
+.cashout-btn{background:#1fbf00;color:#fff;}
+.deposit-btn{background:#0066ff;color:#fff;}
+.scoreboard{background:#111;padding:8px;border-radius:8px;text-align:left;max-height:120px;overflow-y:auto;margin-top:10px;}
+</style>
+</head>
+<body>
+
+<div class="wallet">
+<h2>Wallet: <span id="balance">1000.00 BDT</span></h2>
+<button class="deposit-btn" onclick="deposit()">Deposit via Bikash</button>
+<button class="deposit-btn" onclick="withdraw()">Withdraw</button>
+</div>
+
+<div class="plane-area">
+<img id="plane" class="plane" src="https://cdn-icons-png.flaticon.com/512/8213/8213476.png">
+</div>
+
+<div id="multiplier" style="font-size:28px;margin-bottom:10px;">Multiplier: 1.00x</div>
+
+<button class="bet-btn" onclick="startGame()">Start Game</button>
+<button class="cashout-btn" onclick="cashOut()">Cashout</button>
+
+<div class="scoreboard" id="scoreboard"><b>Recent Wins:</b><br></div>
+
+<script>
+let balance = 1000;
+let multiplier = 1.0;
+let crashPoint = Math.random()*3.5+1.5;
+let gameInterval;
+let cashedOut = false;
+
+function updateBalance(){document.getElementById("balance").innerText = balance.toFixed(2)+" BDT";}
+
+function deposit(){
+  let amount = prompt("Enter deposit amount");
+  if(!amount) return;
+  window.open("https://business.bkash.com/payment-links/create","_blank");
+  balance += parseFloat(amount);
+  alert("Deposit "+amount+" via Bikash (Demo)");
+  updateBalance();
+}
+
+function withdraw(){
+  let amount = prompt("Enter withdraw amount");
+  if(!amount) return;
+  amount = parseFloat(amount);
+  if(amount>balance){alert("Insufficient balance"); return;}
+  balance -= amount;
+  alert("Withdraw "+amount+" via Bikash (Demo)");
+  updateBalance();
+}
+
+function startGame(){
+  multiplier = 1.0;
+  cashedOut = false;
+  crashPoint = Math.random()*3.5+1.5;
+  document.getElementById("multiplier").innerText="Multiplier: 1.00x";
+  const plane = document.getElementById("plane");
+  plane.style.left="20px"; plane.style.bottom="10px"; plane.classList.remove("crash");
+
+  gameInterval = setInterval(()=>{
+    multiplier +=0.02;
+    document.getElementById("multiplier").innerText="Multiplier: "+multiplier.toFixed(2)+"x";
+
+    plane.style.left = 20 + multiplier*60 + "px";
+    plane.style.bottom = 10 + multiplier*20 + "px";
+
+    let smoke = document.createElement("div");
+    smoke.className="smoke";
+    smoke.style.left = plane.style.left;
+    smoke.style.bottom = plane.style.bottom;
+    document.body.appendChild(smoke);
+    setTimeout(()=>smoke.remove(),600);
+
+    if(multiplier>=crashPoint){
+      clearInterval(gameInterval);
+      if(!cashedOut){
+        plane.classList.add("crash");
+        alert("CRASH! Multiplier: "+multiplier.toFixed(2)+"x");
+      }
+    }
+  },50);
+}
+
+function cashOut(){
+  if(cashedOut) return;
+  cashedOut = true;
+  let win = 10*multiplier; // Bet fixed at 10 BDT for demo
+  balance += win;
+  updateBalance();
+  document.getElementById("scoreboard").innerHTML = "<b>Recent Wins:</b><br>"+win.toFixed(2)+" BDT x"+multiplier.toFixed(2)+"<br>"+document.getElementById("scoreboard").innerHTML;
+  alert("Cashed Out: "+win.toFixed(2)+" BDT at "+multiplier.toFixed(2)+"x");
+}
+
+updateBalance();
+</script>
+
+</body>
+</html>https://cdn-icons-png.flaticon.com/512/8213/8213476.png

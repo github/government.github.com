@@ -1,9 +1,14 @@
 // $blue: #2D86FB;
 
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
-  scroll-behavior: smooth;
 }
 
 // HEADER

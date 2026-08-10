@@ -9,7 +9,11 @@ Australia:
 Austria:
   - TUW-GEO
 
+Brazil:
+  - ufrgs
+
 Canada:
+  - federal-geospatial-platform
   - Western-OC2-Lab
 
 China:
@@ -31,7 +35,7 @@ China:
   - PKU-DAIR
   - PKUHPC
   - ritju
-  - snnucs
+  - SNNU-CS
   - SUSTech-AMASLAB
   - sysuits
   - THUDM
@@ -49,6 +53,7 @@ China:
 
 Czech Republic:
   - CTU-IIG
+  - techlib
 
 Denmark:
   - DeiC-HPC
@@ -59,6 +64,7 @@ European Union:
   - ecmwf
   - ESA
   - EU-ECDC
+  - Lumi-supercomputer
 
 Finland:
   - Helsinki-NLP
@@ -83,6 +89,7 @@ Germany:
   - dainst
   - deutsche-nationalbibliothek
   - DeutscherWetterdienst
+  - DFKI-NI
   - DLR-SC
   - eisenforschung
   - ekut-es
@@ -102,14 +109,15 @@ Germany:
   - FZJ-JSC
   - GFZ
   - ghga-de
+  - hbz
   - hegl-lab
   - Heidelberg-NLP
   - hmgu-itg
   - hzdr
   - hzi-braunschweig
   - iame-uni-bonn
+  - ika-rwth-aachen
   - ipa320
-  - itcr-uni-luebeck
   - leibniz-future-lab
   - Leibniz-IWT
   - maxplanck-ie
@@ -130,11 +138,13 @@ Germany:
   - tum-gis
   - UB-Heidelberg
   - uds-psl
+  - ulb-sachsen-anhalt
   - Uni-Heidelberg
   - vislearn
   - VLSI-EDA
   - WZBSocialScienceCenter
   - x3dom
+  - zedif
 
 Greece:
   - ntua
@@ -147,6 +157,8 @@ International:
   - CERN
   - cerndb
   - CICE-Consortium
+  - IPCC-WG1
+  - iterorganization
   - root-project
   - swan-cern
 
@@ -171,6 +183,9 @@ New Zealand Crown Research Institutes:
 Nigeria:
   - ISTH-BNITM-PHE
 
+Pakistan:
+  - university-of-turbat
+
 Philippines:
   - InternationalRiceResearchInstitute
 
@@ -186,6 +201,9 @@ Russia:
 Saudi Arabia:
   - uqu-cis-cs
 
+Singapore:
+  - buds-lab
+
 South Korea:
   - eGovFramework
 
@@ -200,6 +218,7 @@ Sweden:
 Switzerland:
   - eth-cscs
   - MeteoSwiss
+  - sogis
   - swiss-seismological-service
   - SwissDataScienceCenter
   - SwissTPH
@@ -214,11 +233,14 @@ Turkey:
 U.K:
   - alan-turing-institute
   - antarctica
+  - stfc
+  - UKSpaceAgency
   - ARCHER2-HPC
   - best-practice-and-impact
   - BritishMuseum
   - BritishMuseumDH
   - GSTT-CSC
+  - ONSBigData
   - SatelliteApplicationsCatapult
 
 U.S. Research Labs:
@@ -258,6 +280,7 @@ U.S. Research Labs:
   - hpde
   - idaholab
   - jbei
+  - JeffersonLab
   - JGI-Bioinformatics
   - JHUAPL
   - jplopensource
@@ -294,6 +317,7 @@ U.S. Research Labs:
   - nhlbi
   - niaid
   - NIAID-RTB
+  - NIEHS
   - nih-fmrif
   - NIHGOV
   - Nikea

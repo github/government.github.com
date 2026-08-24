@@ -657,9 +657,9 @@ U.K. Central:
   - britishlibrary
   - cabinetoffice
   - CareQualityCommission
-  - CDU-data-science-team
   - CDEIUK
   - CDPS-Wales
+  - CDU-data-science-team
   - Civil-Service-Human-Resources
   - CJSCommonPlatform
   - cmagovuk
@@ -673,8 +673,8 @@ U.K. Central:
   - decc
   - defencedigital
   - defra
-  - defra-design
   - Defra-CAPD
+  - defra-design
   - department-for-transport
   - department-for-transport-BODS
   - DFE-Digital
@@ -700,8 +700,9 @@ U.K. Central:
   - govuk-forms
   - govuk-once
   - govuk-one-login
-  - govuk-pay
   - govuk-paas
+  - govuk-pay
+  - GSS-Cogs
   - guidance-guarantee-programme
   - hmcts
   - HMPO
@@ -720,8 +721,8 @@ U.K. Central:
   - JNCC-UK
   - jules-lsm
   - LandRegistry
-  - landregistry-ops
   - LandRegistry-Attic
+  - landregistry-ops
   - lgss
   - LlGC-NLW
   - LocalGovDigital
@@ -737,43 +738,42 @@ U.K. Central:
   - NationalCrimeAgency
   - NationalLibraryOfScotland
   - Network-Rail-Business-Systems
-  - nhs-england-tools
   - NHS-Blood-and-Transplant
   - nhs-bnssg-analytics
+  - nhs-digital-gp-it-futures
+  - nhs-digital-website
+  - nhs-england-tools
+  - nhs-ney-analytics
+  - NHS-South-Central-and-West
+  - nhs-test-digital-design
+  - NHS-Transformation-Unit
+  - nhsalpha
   - nhsbsa
   - nhsbsa-data-analytics
   - nhsconnect
   - nhscymru
-  - nwisbeta
-  - nhsdigital
-  - nhs-digital-gp-it-futures
-  - nhs-digital-website
   - nhsd-a2si
   - nhsd-exeter
+  - nhsdigital
+  - nhse-dementia
+  - NHSE-NDRS
+  - nhse-talking-therapies
   - nhsengland
   - nhsleadership
-  - NHSE-NDRS
-  - nhse-dementia
-  - nhse-talking-therapies
   - nhsuk
   - nhsuk-archive
-  - nhsalpha
   - NHSX
-  - NHS-South-Central-and-West
-  - NHS-Transformation-Unit
-  - nhs-ney-analytics
-  - nhs-test-digital-design
-  - nottmhospitals
-  - Nottingham-and-Nottinghamshire-ICS
-  - nw-gmsa
   - nice-digital
   - nihp-public
   - no10ds
+  - Nottingham-and-Nottinghamshire-ICS
+  - nottmhospitals
+  - nw-gmsa
+  - nwisbeta
   - OfqualGovUK
-  - ONSBigData
   - ONS-Innovation
   - ONS-OpenData
-  - GSS-Cogs
+  - ONSBigData
   - ONSdigital
   - openregister
   - OrdnanceSurvey
@@ -794,22 +794,22 @@ U.K. Central:
   - thepensionsregulator
   - TransportForLondon
   - TransportScotland
-  - ukaea
   - UK-Export-Finance
+  - ukaea
   - ukforeignoffice
-  - ukhsa-collaboration
-  - UKHSA-Internal
-  - UKHO
   - ukgov-equality-hub
   - ukgovdatascience
   - UKGovernmentBEIS
+  - UKHO
   - UKHomeOffice
   - UKHomeOffice-attic
   - UKHomeOfficeForms
+  - ukhsa-collaboration
+  - UKHSA-Internal
   - UKLocation
   - ukncsc
-  - UKParliData
   - ukparliament
+  - UKParliData
   - uktrade
   - ukwa
   - VMDDTE

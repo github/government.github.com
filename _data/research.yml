@@ -232,13 +232,13 @@ Turkey:
 U.K:
   - alan-turing-institute
   - antarctica
-  - stfc
-  - UKSpaceAgency
   - ARCHER2-HPC
   - BritishMuseum
   - BritishMuseumDH
   - GSTT-CSC
   - SatelliteApplicationsCatapult
+  - stfc
+  - UKSpaceAgency
 
 U.S. Research Labs:
   - ACME-Climate

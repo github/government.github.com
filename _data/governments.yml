@@ -250,13 +250,18 @@ Finland:
   - vrk-kpa
 
 France:
+  - 139bercy
   - afimb
+  - agora-gouv
   - AlsaceDigitale
   - AmbaNum
   - ansforge
   - ANSSI-FR
   - ApieFrance
+  - ArchivesNationalesFR
   - atih
+  - Barometre-de-la-Science-Ouverte
+  - BaseAdresseNationale
   - betagouv
   - BRGM
   - cea-hpc
@@ -265,35 +270,81 @@ France:
   - cea-sec
   - clipos
   - clipos-archive
+  - cloud-pi-native
+  - codedgafp
+  - codegouvfr
+  - Codes-sources-de-la-Justice
   - communaute-cimi
+  - consultation-gouv
   - culturegouv
   - cw-leia
+  - dataesr
+  - datagouv
+  - datalab-mi
+  - Delegation-numerique-en-sante
+  - demarches-simplifiees
+  - DFIR-ORC
+  - DGA-MI-SSI
+  - DGAC
   - DGFiP
+  - dinsic-gouv
+  - dinum-HubEE
   - diplomatiegouvfr
   - disic
+  - DITP-pilotage
+  - dnum-mi
+  - dnum-sante-ars-data
+  - DNUM-SocialGouv
   - DREAL-NA
+  - ecolabdata
   - entrepreneur-interet-general
+  - Envinorma
+  - eole
   - erasme
   - etalab
+  - etalab-ia
+  - fabnumdef
+  - france-connect
+  - GendarmerieNationale
+  - geodatagouv
+  - GouvernementFR
+  - gristgouv
+  - histovec
+  - ia-flash
   - Inist-CNRS
   - InseeFr
+  - InseeFrLab
+  - InterieurGouvFr
+  - LAB-MI
   - lutece-secteur-public
+  - matchID-project
+  - messagerie-melanie2
   - MINAGRI-INITIAL
   - MinistereSupRecherche
+  - mission-apprentissage
+  - MLanguage
   - MTES-MCT
   - nanterre
   - nantesmetropole
+  - numerique-gouv
   - opencti-platform
+  - opendatateam
   - PnCevennes
   - PnEcrins
   - PnX-SI
   - polewebmaedi
+  - proconnect-gouv
   - ProgrammeVitam
   - region-bretagne
   - sgmap-agd
+  - snosan-tools
   - SocialGouv
   - SocieteNumerique
+  - ssmsi-diffusion
   - strasbourg
+  - suitenumerique
+  - tchapgouv
+  - VIGINUM-FR
   - wookey-project
 
 French Polynesia:

@@ -616,26 +616,68 @@ Sweden:
 
 Switzerland:
   - admin-ch
+  - agridata-ch
+  - agroscope-ch
   - alv-ch
+  - armasuissewt
+  - astra-emsg
   - BFS-Web
+  - bfspoku
+  - BLV-OSAV-USAV
+  - blw-ofag-ufag
+  - cdc-si
+  - DCC-BS
+  - dscc-admin-ch
   - dsi-vd
+  - eda-admin-ch
+  - ehealthsuisse
+  - eiam-ch
+  - estv-admin
   - FNSKtZH
+  - foen-admin-ch
+  - FSO-PRICES
   - geoadmin
   - Geoinformation-Winterthur
   - gisktzh
+  - govcert-ch
+  - jeap-admin-ch
+  - jme-admin-ch
+  - kadas-albireo
   - kanton-aargau
   - kanton-bern
+  - KOST-CECO
+  - machinelearningZH
   - metas-ch
+  - MeteoSwiss
+  - MeteoSwiss-APN
+  - oblique-bit
+  - officialgazette
   - ogdch
   - ogdtg
+  - opendata-swiss
   - opendatabs
   - opendatazurich
   - openZH
+  - sfa-siard
   - SFOE
   - sitn
+  - StataBS
   - statistikstadtzuerich
   - statistikZH
+  - swiss
+  - Swiss-Armed-Forces
+  - swiss-territorial-data-lab
+  - SwissCovid
+  - SwissFederalArchives
+  - swissgeo
+  - SwissNationalLibrary
+  - swisstopo
+  - swisstopo-kpti
+  - swiyu-admin-ch
+  - trustbroker-swiss
   - VerkehrsbetriebeZuerich
+  - visualize-admin
+  - ZEM-Mediamatiker
 
 Taiwan:
   - moda-gov-tw

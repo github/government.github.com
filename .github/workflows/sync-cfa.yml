@@ -1,0 +1,35 @@
+name: Run CFA fetch
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Run nightly at midnight
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    if: github.repository_owner == "github"
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - name: Setup Dependencies
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+    - name: Fetch latest CFA changes
+      run: bundle exec script/fetch-cfa
+    - name: Ensure that all are still orgs
+      run: bundle exec script/ensure-orgs
+    - name: Alphabetize changes
+      run: bundle exec script/alphabetize
+    - name: Push back changes
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add .
+        git commit -m "generated" || true
+        git push

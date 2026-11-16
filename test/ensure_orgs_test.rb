@@ -41,8 +41,11 @@ class EnsureOrgsTest < Minitest::Test
     assert status.success?, output
     assert_equal codes.keys, entries
     assert_includes output, 'Skipped 6 organization checks'
-    assert_includes output, "::group::Inconclusive organization checks\n"
-    assert_includes output, "::endgroup::\n"
+    assert_includes output, 'Responses (7 total):'
+    assert_includes output, 'HTTP 403: 1'
+    assert_includes output, 'HTTP 429: 1'
+    assert_includes output, 'No HTTP response: 1'
+    codes.keys.drop(1).each { |org| refute_includes output, "#{org}:" }
     refute_includes output, 'All orgs check out.'
   end
 
@@ -52,6 +55,8 @@ class EnsureOrgsTest < Minitest::Test
     assert_equal 1, status.exitstatus, output
     assert_equal %w[org limited], entries
     assert_includes output, 'not organizations or no longer exist'
+    assert_includes output, "(HTTP 404):\n\nuser\n"
+    assert_includes output, 'HTTP 404: 1'
     assert_includes output, 'Skipped 1 organization checks'
   end
 

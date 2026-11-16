@@ -23,26 +23,29 @@ end
 
 Typhoeus::Config.cache = Cache.new
 
-# Ideally this would be an API call, but given the volume of calls,
-# We'd constantly hit any rate limit as each needs to be its own query
-def org?(user)
-  response = Typhoeus.head "https://github.com/orgs/#{user}/people", accept_encoding: 'gzip'
-  response.success? || response.response_code == 429
-end
-
 puts 'Checking that all orgs listed are in fact, an org...'
 
 data_folder_path = File.expand_path '../_data', File.dirname(__FILE__)
 files = Dir["#{data_folder_path}/*.yml"]
 
 valid = true
+response_counts = Hash.new(0)
 files.each do |file|
   data = YAML.load_file file
   data.each do |group, orgs|
-    not_orgs = Parallel.map(orgs) { |org| org unless org?(org) }.compact
+    responses = Parallel.map(orgs) do |org|
+      [org, Typhoeus.head("https://github.com/orgs/#{org}/people", accept_encoding: 'gzip')]
+    end
+    not_orgs = []
+    responses.each do |org, response|
+      response_counts[response.response_code] += 1
+      next if response.success?
+
+      not_orgs << org if response.response_code == 404
+    end
     next if not_orgs.empty?
 
-    puts "\nIn #{File.basename(file)}, in the #{group} group, the following entries are users, not orgs:\n\n"
+    puts "\nIn #{File.basename(file)}, in the #{group} group, the following entries are not organizations or no longer exist (HTTP 404):\n\n"
     puts not_orgs
     valid = false
     data[group] = data[group] - not_orgs
@@ -55,8 +58,15 @@ files.each do |file|
   File.write(file, output)
 end
 
+puts "Responses (#{response_counts.values.sum} total):"
+response_counts.sort.each do |code, count|
+  puts "#{code.zero? ? 'No HTTP response' : "HTTP #{code}"}: #{count}"
+end
+skipped = response_counts.sum { |code, count| code.between?(200, 299) || code == 404 ? 0 : count }
+puts "Skipped #{skipped} organization checks due to unavailable responses; entries retained." if skipped.positive?
+
 if valid
-  puts 'All orgs check out.'
+  puts(skipped.zero? ? 'All orgs check out.' : 'No non-organizations found among completed checks.')
   exit 0
 else
   exit 1

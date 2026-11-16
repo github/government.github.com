@@ -4,6 +4,7 @@ permissions:
 
 on:
   push:
+    branches: [gh-pages]
     paths:
       - "Gemfile"
       - "script/ensure-unique"

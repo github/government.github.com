@@ -109,7 +109,6 @@ Germany:
   - FZJ-JSC
   - GFZ
   - ghga-de
-  - hbz
   - hegl-lab
   - Heidelberg-NLP
   - hmgu-itg
@@ -233,14 +232,11 @@ Turkey:
 U.K:
   - alan-turing-institute
   - antarctica
-  - stfc
-  - UKSpaceAgency
   - ARCHER2-HPC
-  - best-practice-and-impact
   - BiomathematicsAndStatisticsScotland
+  - British-Oceanographic-Data-Centre
   - BritishGeologicalSurvey
   - britishgeologicalsurvey-ngdc
-  - British-Oceanographic-Data-Centre
   - BritishMuseum
   - BritishMuseumDH
   - ConnectedPlacesCatapult
@@ -259,8 +255,8 @@ U.K:
   - NERC-FSF
   - NIHRIO
   - NOC-MSM
-  - ONSBigData
   - SatelliteApplicationsCatapult
+  - stfc
   - stfc-aeg
   - stfc-ai4s
   - stfc-detectors
@@ -276,6 +272,7 @@ U.K:
   - UKRI-DSbD
   - ukri-excalibur
   - UKRI-TAS-Hub
+  - UKSpaceAgency
   - vanda
 
 U.S. Research Labs:

@@ -2,7 +2,10 @@ name: Test site build
 permissions:
   contents: read
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [gh-pages]
+  pull_request:
 
 jobs:
   build:

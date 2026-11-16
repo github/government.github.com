@@ -23,26 +23,32 @@ end
 
 Typhoeus::Config.cache = Cache.new
 
-# Ideally this would be an API call, but given the volume of calls,
-# We'd constantly hit any rate limit as each needs to be its own query
-def org?(user)
-  response = Typhoeus.head "https://github.com/orgs/#{user}/people", accept_encoding: 'gzip'
-  response.success? || response.response_code == 429
-end
-
 puts 'Checking that all orgs listed are in fact, an org...'
 
 data_folder_path = File.expand_path '../_data', File.dirname(__FILE__)
 files = Dir["#{data_folder_path}/*.yml"]
 
 valid = true
+skipped = []
 files.each do |file|
   data = YAML.load_file file
   data.each do |group, orgs|
-    not_orgs = Parallel.map(orgs) { |org| org unless org?(org) }.compact
+    responses = Parallel.map(orgs) do |org|
+      [org, Typhoeus.head("https://github.com/orgs/#{org}/people", accept_encoding: 'gzip')]
+    end
+    not_orgs = []
+    responses.each do |org, response|
+      next if response.success?
+
+      if response.response_code == 404
+        not_orgs << org
+      else
+        skipped << "#{org}: HTTP #{response.response_code} (#{response.return_code})"
+      end
+    end
     next if not_orgs.empty?
 
-    puts "\nIn #{File.basename(file)}, in the #{group} group, the following entries are users, not orgs:\n\n"
+    puts "\nIn #{File.basename(file)}, in the #{group} group, the following entries are not organizations or no longer exist:\n\n"
     puts not_orgs
     valid = false
     data[group] = data[group] - not_orgs
@@ -55,8 +61,15 @@ files.each do |file|
   File.write(file, output)
 end
 
+unless skipped.empty?
+  puts '::group::Inconclusive organization checks' if ENV['GITHUB_ACTIONS'] == 'true'
+  puts skipped
+  puts '::endgroup::' if ENV['GITHUB_ACTIONS'] == 'true'
+  puts "Skipped #{skipped.length} organization checks due to unavailable responses; entries retained."
+end
+
 if valid
-  puts 'All orgs check out.'
+  puts(skipped.empty? ? 'All orgs check out.' : 'No non-organizations found among completed checks.')
   exit 0
 else
   exit 1

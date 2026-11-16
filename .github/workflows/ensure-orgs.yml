@@ -4,15 +4,18 @@ permissions:
 
 on:
   push:
+    branches: [gh-pages]
     paths:
       - "Gemfile"
       - "script/ensure-orgs"
+      - "test/ensure_orgs_test.rb"
       - ".github/workflows/ensure-orgs.yml"
       - "_data/**"
   pull_request:
     paths:
       - "Gemfile"
       - "script/ensure-orgs"
+      - "test/ensure_orgs_test.rb"
       - ".github/workflows/ensure-orgs.yml"
       - "_data/**"
 
@@ -27,5 +30,7 @@ jobs:
       uses: ruby/setup-ruby@de492cf36cbab201753d720ce4f4e336cd688c94 # v1.336.0
       with:
         bundler-cache: true
+    - name: Test organization checks
+      run: bundle exec ruby test/ensure_orgs_test.rb
     - name: Ensure data entries are GitHub Orgs
       run: bundle exec script/ensure-orgs

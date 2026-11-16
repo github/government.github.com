@@ -10,7 +10,7 @@ task :test do
     check_external_hash: false,
     hydra: { max_concurrency: 10 },
     root_dir: File.expand_path('_site'),
-    ignore_urls: [%r{https://developer.github.com}, %r{https://docs.github.com}, %r{https://help.github.com}],
+    ignore_urls: [%r{\Ahttps://github\.com/[^/?#]+/?\z}],
     ignore_status_codes: [429]
   )
   token = ENV.fetch('GITHUB_TOKEN', nil)

@@ -39,5 +39,6 @@ jobs:
       run: bundle exec ruby test/ensure_orgs_test.rb
     - name: Ensure data entries are GitHub Orgs
       env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         ORG_BASE_REF: ${{ github.event.pull_request.base.sha || github.event.before }}
       run: bundle exec script/ensure-orgs

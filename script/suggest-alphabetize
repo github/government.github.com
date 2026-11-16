@@ -1,0 +1,68 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'base64'
+require 'json'
+require 'open3'
+require_relative '../lib/alphabetize_suggestions'
+
+def api(path, body = nil, paginate: false)
+  args = ['gh', 'api', path]
+  args += ['--paginate', '--slurp'] if paginate
+  args += ['--method', 'POST', '--input', '-'] if body
+  output, error, status = Open3.capture3(*args, stdin_data: body ? JSON.generate(body) : '')
+  abort "GitHub API request failed: #{error}" unless status.success?
+
+  JSON.parse(output)
+end
+
+repo = ENV.fetch('GITHUB_REPOSITORY')
+number = Integer(ENV.fetch('PR_NUMBER'))
+pr = api("repos/#{repo}/pulls/#{number}")
+abort 'Pull request is not open' unless pr.fetch('state') == 'open'
+head = pr.fetch('head').fetch('sha')
+files = api("repos/#{repo}/pulls/#{number}/files?per_page=100", paginate: true).flatten
+existing = api("repos/#{repo}/pulls/#{number}/comments?per_page=100", paginate: true).flatten
+comments = []
+incomplete = []
+files.each do |file|
+  path = file.fetch('filename')
+  next unless path.match?(%r{\A_data/[^/]+\.yml\z}) && file.fetch('status') != 'removed'
+
+  blob = api("repos/#{pr.fetch('head').fetch('repo').fetch('full_name')}/git/blobs/#{file.fetch('sha')}")
+  abort "Organization data is too large: #{path}" if blob.fetch('size') > 1_000_000
+  original = Base64.strict_decode64(blob.fetch('content').delete("\n"))
+  suggestions, partial, patch = AlphabetizeSuggestions.for_file(path, original, file['patch'])
+  incomplete << patch if partial
+  comments.concat(suggestions)
+end
+comments.reject! do |comment|
+  marker = comment.fetch(:body).lines.last.strip
+  existing.any? do |old|
+    old.fetch('user').fetch('login') == 'github-actions[bot]' && old['commit_id'] == head && old.fetch('body').include?(marker)
+  end
+end
+abort 'Too many formatting suggestions; run script/alphabetize locally.' if comments.length > 50
+body = 'Suggested organization-data formatting fixes.'
+unless incomplete.empty?
+  patch = incomplete.join("\n")
+  fence = '`' * [3, patch.scan(/`+/).map(&:length).max.to_i + 1].max
+  body += "\n\nSome corrections are outside the PR diff and cannot be inline suggestions. " \
+          "Run `bundle exec script/alphabetize` and commit the result, or apply this complete formatting patch:\n\n" \
+          "#{fence}diff\n#{patch}#{fence}"
+end
+abort 'Formatting patch is too large; run script/alphabetize locally.' if body.bytesize > 60_000
+marker = "<!-- alphabetize-review:#{Digest::SHA256.hexdigest("#{head}\n#{body}")} -->"
+reviews = api("repos/#{repo}/pulls/#{number}/reviews?per_page=100", paginate: true).flatten
+already_posted = reviews.any? do |review|
+  review.fetch('user').fetch('login') == 'github-actions[bot]' && review.fetch('body').include?(marker)
+end
+if comments.empty? && (incomplete.empty? || already_posted)
+  puts 'No new inline formatting suggestions to post.'
+else
+  current = api("repos/#{repo}/pulls/#{number}")
+  abort 'Pull request changed during formatting; wait for its next run.' unless current.fetch('head').fetch('sha') == head
+  api("repos/#{repo}/pulls/#{number}/reviews",
+      { commit_id: head, event: 'COMMENT', body: "#{body}\n#{marker}", comments: comments })
+  puts "Posted #{comments.length} formatting suggestions."
+end

@@ -8,12 +8,18 @@ on:
     paths:
       - "Gemfile"
       - "script/alphabetize"
+      - "script/suggest-alphabetize"
+      - "lib/alphabetize*.rb"
+      - "test/alphabetize_suggestions_test.rb"
       - ".github/workflows/ensure-alphabetize.yml"
       - "_data/**"
   pull_request:
     paths:
       - "Gemfile"
       - "script/alphabetize"
+      - "script/suggest-alphabetize"
+      - "lib/alphabetize*.rb"
+      - "test/alphabetize_suggestions_test.rb"
       - ".github/workflows/ensure-alphabetize.yml"
       - "_data/**"
 
@@ -28,6 +34,8 @@ jobs:
       uses: ruby/setup-ruby@de492cf36cbab201753d720ce4f4e336cd688c94 # v1.336.0
       with:
         bundler-cache: true
+    - name: Test formatting suggestions
+      run: bundle exec ruby test/alphabetize_suggestions_test.rb
     - name: Ensure Orgs are sorted
       run: |
         bundle exec script/alphabetize

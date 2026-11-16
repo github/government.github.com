@@ -1,0 +1,31 @@
+name: Suggest organization formatting
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+    paths:
+      - "_data/*.yml"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: suggest-alphabetize-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  suggest:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+    # Never check out PR code: this job has permission to post reviews.
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      with:
+        persist-credentials: false
+    - uses: ruby/setup-ruby@de492cf36cbab201753d720ce4f4e336cd688c94 # v1.336.0
+    - name: Suggest canonical organization formatting
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PR_NUMBER: ${{ github.event.pull_request.number }}
+      run: ruby script/suggest-alphabetize

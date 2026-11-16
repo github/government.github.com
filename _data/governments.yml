@@ -744,6 +744,8 @@ U.K. Central:
   - nhs-digital-website
   - nhs-england-tools
   - nhs-ney-analytics
+  - nhs-oa-community
+  - nhs-r-community
   - NHS-South-Central-and-West
   - nhs-test-digital-design
   - NHS-Transformation-Unit
@@ -758,6 +760,7 @@ U.K. Central:
   - nhse-dementia
   - NHSE-NDRS
   - nhse-talking-therapies
+  - nhselect
   - nhsengland
   - nhsleadership
   - nhsuk
@@ -1177,6 +1180,7 @@ U.S. States:
   - NC-DIT-Open-Source
   - nebraskamap
   - nelegislature
+  - newjersey
   - NJOGIS
   - njstatelibrary
   - ny

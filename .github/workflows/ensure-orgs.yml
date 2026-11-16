@@ -3,6 +3,9 @@ permissions:
   contents: read
 
 on:
+  schedule:
+    - cron: "23 6 1 * *"
+  workflow_dispatch:
   push:
     branches: [gh-pages]
     paths:
@@ -26,6 +29,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      with:
+        fetch-depth: 0
     - name: Set up Ruby
       uses: ruby/setup-ruby@de492cf36cbab201753d720ce4f4e336cd688c94 # v1.336.0
       with:
@@ -33,4 +38,6 @@ jobs:
     - name: Test organization checks
       run: bundle exec ruby test/ensure_orgs_test.rb
     - name: Ensure data entries are GitHub Orgs
+      env:
+        ORG_BASE_REF: ${{ github.event.pull_request.base.sha || github.event.before }}
       run: bundle exec script/ensure-orgs

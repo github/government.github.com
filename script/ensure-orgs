@@ -2,10 +2,12 @@
 # frozen_string_literal: true
 
 # Ensures that all organizations listed in _data are in fact, organizations
+# Set ORG_BASE_REF to check only names absent from that Git revision; omit it for a full scan.
 
 require 'typhoeus'
 require 'parallel'
 require 'yaml'
+require 'open3'
 
 class Cache
   def initialize
@@ -28,12 +30,35 @@ puts 'Checking that all orgs listed are in fact, an org...'
 data_folder_path = File.expand_path '../_data', File.dirname(__FILE__)
 files = Dir["#{data_folder_path}/*.yml"]
 
+def git_output(*)
+  output, error, status = Open3.capture3('git', '-C', File.expand_path('..', __dir__), *)
+  abort "Cannot read organization baseline: #{error}" unless status.success?
+
+  output
+end
+
+def baseline_orgs(ref)
+  # GitHub uses an all-zero before SHA for the first push of a branch.
+  return Set.new if ref.match?(/\A0{40}\z/)
+
+  paths = git_output('ls-tree', '-r', '--name-only', ref, '--', '_data')
+  paths.lines.map(&:chomp).grep(%r{\A_data/[^/]+\.yml\z}).each_with_object(Set.new) do |path, orgs|
+    data = YAML.safe_load(git_output('show', "#{ref}:#{path}"))
+    orgs.merge(data.values.flatten.map(&:downcase))
+  end
+end
+
+base_ref = ENV.fetch('ORG_BASE_REF', nil)
+existing_orgs = baseline_orgs(base_ref) unless base_ref.nil? || base_ref.empty?
+puts(existing_orgs ? 'Checking only added or renamed organizations.' : 'Checking all organizations.')
+
 valid = true
 response_counts = Hash.new(0)
 files.each do |file|
   data = YAML.load_file file
   data.each do |group, orgs|
-    responses = Parallel.map(orgs) do |org|
+    candidates = existing_orgs ? orgs.reject { |org| existing_orgs.include?(org.downcase) } : orgs
+    responses = Parallel.map(candidates) do |org|
       [org, Typhoeus.head("https://github.com/orgs/#{org}/people", accept_encoding: 'gzip')]
     end
     not_orgs = []

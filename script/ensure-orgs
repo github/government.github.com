@@ -3,27 +3,12 @@
 
 # Ensures that all organizations listed in _data are in fact, organizations
 # Set ORG_BASE_REF to check only names absent from that Git revision; omit it for a full scan.
+# GITHUB_TOKEN must contain a GitHub API token when there are organizations to check.
 
 require 'typhoeus'
-require 'parallel'
 require 'yaml'
 require 'open3'
-
-class Cache
-  def initialize
-    @memory = {}
-  end
-
-  def get(request)
-    @memory[request]
-  end
-
-  def set(request, response)
-    @memory[request] = response
-  end
-end
-
-Typhoeus::Config.cache = Cache.new
+require 'json'
 
 puts 'Checking that all orgs listed are in fact, an org...'
 
@@ -48,29 +33,89 @@ def baseline_orgs(ref)
   end
 end
 
+def graphql_response(batch, token)
+  variables = batch.each_with_index.to_h { |org, index| ["login#{index}", org] }
+  declarations = variables.keys.map { |name| "$#{name}: String!" }.join(', ')
+  fields = batch.each_index.map { |index| "org#{index}: organization(login: $login#{index}) { login }" }
+  Typhoeus.post(
+    'https://api.github.com/graphql',
+    headers: { 'Authorization' => "Bearer #{token}", 'Content-Type' => 'application/json' },
+    body: JSON.generate(query: "query(#{declarations}) { #{fields.join(' ')} }", variables: variables),
+    connecttimeout: 10, timeout: 60
+  )
+end
+
+def parse_graphql_response(response)
+  return unless response.success?
+
+  payload = JSON.parse(response.body)
+  return unless payload.is_a?(Hash)
+
+  errors = payload.fetch('errors', [])
+  payload if errors.is_a?(Array) && errors.all? { |error| error.is_a?(Hash) }
+rescue JSON::ParserError
+  nil
+end
+
+def graphql_error(payload, index)
+  errors = payload.fetch('errors', [])
+  relevant = errors.select { |error| !error['path'].is_a?(Array) || error['path'].first == "org#{index}" }
+  return if relevant.empty?
+
+  relevant.all? { |error| error['type'] == 'NOT_FOUND' && error['path'] == ["org#{index}"] } ? 'NOT_FOUND' : 'GraphQL error'
+end
+
+def organization_result(payload, index)
+  return 'Invalid response' unless payload
+
+  error = graphql_error(payload, index)
+  return error if error
+
+  org = payload.dig('data', "org#{index}") if payload['data'].is_a?(Hash)
+  org.is_a?(Hash) && org['login'].is_a?(String) ? 'Organization' : 'Invalid response'
+end
+
+def graphql_token
+  token = ENV.fetch('GITHUB_TOKEN', '')
+  abort 'Set GITHUB_TOKEN to check organizations with the GitHub GraphQL API.' if token.empty?
+
+  token
+end
+
+def check_organizations(candidates)
+  token = graphql_token unless candidates.empty?
+  responses = Hash.new(0)
+  results = {}
+  candidates.each_slice(50) do |batch|
+    response = graphql_response(batch, token)
+    responses[response.response_code] += 1
+    payload = parse_graphql_response(response)
+    batch.each_with_index do |org, index|
+      results[org] = organization_result(payload, index)
+    end
+  end
+  puts "Responses (#{responses.values.sum} total):"
+  responses.sort.each { |code, count| puts "#{code.zero? ? 'No HTTP response' : "HTTP #{code}"}: #{count}" }
+  results.values.tally.sort.each { |result, count| puts "#{result}: #{count}" }
+  results
+end
+
 base_ref = ENV.fetch('ORG_BASE_REF', nil)
 existing_orgs = baseline_orgs(base_ref) unless base_ref.nil? || base_ref.empty?
 puts(existing_orgs ? 'Checking only added or renamed organizations.' : 'Checking all organizations.')
 
+datasets = files.to_h { |file| [file, YAML.load_file(file)] }
+candidates = datasets.values.flat_map { |data| data.values.flatten }.uniq
+candidates.reject! { |org| existing_orgs.include?(org.downcase) } if existing_orgs
+results = check_organizations(candidates)
 valid = true
-response_counts = Hash.new(0)
 files.each do |file|
-  data = YAML.load_file file
+  data = datasets.fetch(file)
   data.each do |group, orgs|
-    candidates = existing_orgs ? orgs.reject { |org| existing_orgs.include?(org.downcase) } : orgs
-    responses = Parallel.map(candidates) do |org|
-      [org, Typhoeus.head("https://github.com/orgs/#{org}/people", accept_encoding: 'gzip')]
-    end
-    not_orgs = []
-    responses.each do |org, response|
-      response_counts[response.response_code] += 1
-      next if response.success?
-
-      not_orgs << org if response.response_code == 404
-    end
+    not_orgs = orgs.select { |org| results[org] == 'NOT_FOUND' }
     next if not_orgs.empty?
 
-    puts "\nIn #{File.basename(file)}, in the #{group} group, the following entries are not organizations or no longer exist (HTTP 404):\n\n"
+    puts "\nIn #{File.basename(file)}, in the #{group} group, the following entries are not organizations or no longer exist (GraphQL NOT_FOUND):\n\n"
     puts not_orgs
     valid = false
     data[group] = data[group] - not_orgs
@@ -83,11 +128,7 @@ files.each do |file|
   File.write(file, output)
 end
 
-puts "Responses (#{response_counts.values.sum} total):"
-response_counts.sort.each do |code, count|
-  puts "#{code.zero? ? 'No HTTP response' : "HTTP #{code}"}: #{count}"
-end
-skipped = response_counts.sum { |code, count| code.between?(200, 299) || code == 404 ? 0 : count }
+skipped = results.values.count { |result| !%w[Organization NOT_FOUND].include?(result) }
 puts "Skipped #{skipped} organization checks due to unavailable responses; entries retained." if skipped.positive?
 
 if valid

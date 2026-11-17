@@ -23,9 +23,34 @@ on:
       - "_data/**"
 
 jobs:
-  build:
+  changed_files:
+    runs-on: ubuntu-latest
+    outputs:
+      run_ensure: ${{ steps.changed-files.outputs.ensure_any_changed == 'true' }}
+      run_test: ${{ steps.changed-files.outputs.test_any_changed == 'true' }}
+    name: Test changed-files
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Get files that have changed
+        id: changed-files
+        uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96 # v47.0.6
+        with:
+          files_yaml: |
+            ensure:
+              - "_data/**"
+              - ".github/workflows/ensure-orgs.yml"
+              - "Gemfile"
+              - "script/ensure-orgs"
 
+            test:
+              - ".github/workflows/ensure-orgs.yml"
+              - "Gemfile"
+              - "script/ensure-orgs"
+              - "test/ensure_orgs_test.rb"
+  ensure:
     runs-on: ubuntu-24.04
+    needs: changed_files
+    if: needs.changed_files.outputs.run_ensure == 'true' || github.event.schedule == '23 6 1 * *'
 
     steps:
     - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -35,10 +60,24 @@ jobs:
       uses: ruby/setup-ruby@de492cf36cbab201753d720ce4f4e336cd688c94 # v1.336.0
       with:
         bundler-cache: true
-    - name: Test organization checks
-      run: bundle exec ruby test/ensure_orgs_test.rb
     - name: Ensure data entries are GitHub Orgs
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         ORG_BASE_REF: ${{ github.event.pull_request.base.sha || github.event.before }}
       run: bundle exec script/ensure-orgs
+
+  test:
+    runs-on: ubuntu-24.04
+    needs: changed_files
+    if: needs.changed_files.outputs.run_test == 'true'
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@de492cf36cbab201753d720ce4f4e336cd688c94 # v1.336.0
+        with:
+          bundler-cache: true
+      - name: Test organization checks
+        run: bundle exec ruby test/ensure_orgs_test.rb

@@ -32,14 +32,15 @@ module AlphabetizeSuggestions
     end
   end
 
-  def self.hunks(patch)
-    patch.split(/(?=^@@ )/).filter_map do |section|
-      match = section.match(/\A@@ -(\d+)(?:,(\d+))? \+\d+(?:,\d+)? @@[^\n]*\n/)
-      next unless match
-
-      replacement = section.lines.drop(1).grep(/^\+/).map { |line| line.delete_prefix('+') }
-      [match[1].to_i, match[2] ? match[2].to_i : 1, replacement]
-    end
+  def self.replacement(original, formatted)
+    before = original.lines
+    after = formatted.lines
+    prefix = 0
+    prefix += 1 while prefix < [before.length, after.length].min && before[prefix] == after[prefix]
+    suffix = 0
+    suffix += 1 while suffix < [before.length, after.length].min - prefix && before[-suffix - 1] == after[-suffix - 1]
+    count = before.length - prefix - suffix
+    [count.zero? ? prefix : prefix + 1, count, after.slice(prefix, after.length - prefix - suffix)]
   end
 
   def self.comment(path, start, count, replacement, original)
@@ -60,23 +61,19 @@ module AlphabetizeSuggestions
   end
 
   def self.for_file(path, original, patch)
+    raise ArgumentError, 'Unsafe organization data path' unless path.match?(%r{\A_data/[A-Za-z0-9_-]+\.yml\z})
+
     formatted = Alphabetize.format(original)
     return [[], false, ''] if formatted == original
 
     visible = visible_lines(patch)
-    comments = []
-    incomplete = false
-    formatting_diff = diff(original, formatted)
-    hunks(formatting_diff).each do |start, count, replacement|
-      suggestion = comment(path, start, count, replacement, original.lines)
-      first = suggestion.fetch(:start_line, suggestion.fetch(:line))
-      if (first..suggestion.fetch(:line)).all? { |line| visible.include?(line) } && suggestion.fetch(:body).bytesize < 60_000
-        comments << suggestion
-      else
-        incomplete = true
-      end
-    end
-    fallback = incomplete ? diff(original, formatted, context: 3) : formatting_diff
+    # One replacement keeps moves atomic, even when only their source is in the PR diff.
+    suggestion = comment(path, *replacement(original, formatted), original.lines)
+    first = suggestion.fetch(:start_line, suggestion.fetch(:line))
+    reviewable = (first..suggestion.fetch(:line)).all? { |line| visible.include?(line) }
+    incomplete = !reviewable || suggestion.fetch(:body).bytesize >= 60_000
+    comments = incomplete ? [] : [suggestion]
+    fallback = diff(original, formatted, context: 3)
     [comments, incomplete, "--- a/#{path}\n+++ b/#{path}\n#{fallback.lines.drop(2).join}"]
   end
 end

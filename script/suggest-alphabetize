@@ -24,7 +24,8 @@ head = pr.fetch('head').fetch('sha')
 files = api("repos/#{repo}/pulls/#{number}/files?per_page=100", paginate: true).flatten
 existing = api("repos/#{repo}/pulls/#{number}/comments?per_page=100", paginate: true).flatten
 comments = []
-incomplete = []
+patches = []
+incomplete = false
 files.each do |file|
   path = file.fetch('filename')
   next unless path.match?(%r{\A_data/[^/]+\.yml\z}) && file.fetch('status') != 'removed'
@@ -33,7 +34,8 @@ files.each do |file|
   abort "Organization data is too large: #{path}" if blob.fetch('size') > 1_000_000
   original = Base64.strict_decode64(blob.fetch('content').delete("\n"))
   suggestions, partial, patch = AlphabetizeSuggestions.for_file(path, original, file['patch'])
-  incomplete << patch if partial
+  patches << patch unless patch.empty?
+  incomplete ||= partial
   comments.concat(suggestions)
 end
 comments.reject! do |comment|
@@ -44,8 +46,8 @@ comments.reject! do |comment|
 end
 abort 'Too many formatting suggestions; run script/alphabetize locally.' if comments.length > 50
 body = 'Suggested organization-data formatting fixes.'
-unless incomplete.empty?
-  patch = incomplete.join("\n")
+if incomplete
+  patch = patches.join("\n")
   fence = '`' * [3, patch.scan(/`+/).map(&:length).max.to_i + 1].max
   body += "\n\nSome corrections are outside the PR diff and cannot be inline suggestions. " \
           "Run `bundle exec script/alphabetize` and commit the result, or apply this complete formatting patch:\n\n" \
@@ -57,7 +59,7 @@ reviews = api("repos/#{repo}/pulls/#{number}/reviews?per_page=100", paginate: tr
 already_posted = reviews.any? do |review|
   review.fetch('user').fetch('login') == 'github-actions[bot]' && review.fetch('body').include?(marker)
 end
-if comments.empty? && (incomplete.empty? || already_posted)
+if comments.empty? && (!incomplete || already_posted)
   puts 'No new inline formatting suggestions to post.'
 else
   current = api("repos/#{repo}/pulls/#{number}")

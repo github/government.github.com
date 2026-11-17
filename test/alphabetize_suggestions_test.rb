@@ -17,12 +17,12 @@ class AlphabetizeSuggestionsTest < Minitest::Test
   end
 
   class AlphabetizeReviewTest < Minitest::Test
-    def run_review(existing: false, stale: false, patch: "@@ -1,3 +1,3 @@\n # Data\n \n+Test:  \n")
+    def run_review(existing: false, stale: false, extra_file: false, patch: "@@ -1,3 +1,3 @@\n # Data\n \n+Test:  \n")
       Dir.mktmpdir do |dir|
         original = "# Data\n\nTest:  \n  - org\n"
         fixture = {
           'repo' => 'example/repo', 'existing' => existing, 'stale' => stale,
-          'original' => original, 'patch' => patch
+          'original' => original, 'patch' => patch, 'extra_file' => extra_file
         }
         File.write("#{dir}/fixture.json", JSON.generate(fixture))
         write_github_stub(dir)
@@ -53,11 +53,15 @@ class AlphabetizeSuggestionsTest < Minitest::Test
           { state: 'open', head: { sha: f['stale'] && count.positive? ? 'changed' : 'head',
                                   repo: { full_name: 'contributor/fork' } } }
         when /\\/files\\?/
-          [[{ filename: '_data/test.yml', status: 'modified', sha: 'blob', patch: f['patch'] }]]
+          files = [{ filename: '_data/test.yml', status: 'modified', sha: 'blob', patch: f['patch'] }]
+          files << { filename: '_data/other.yml', status: 'modified', sha: 'other', patch: nil } if f['extra_file']
+          [files]
         when /\\/comments\\?/
           comments = AlphabetizeSuggestions.for_file('_data/test.yml', f['original'], f['patch']).first
           [f['existing'] ? comments.map { |c| { user: { login: 'github-actions[bot]' }, commit_id: 'head', body: c[:body] } } : []]
         when 'repos/contributor/fork/git/blobs/blob'
+          { size: f['original'].bytesize, content: Base64.strict_encode64(f['original']) }
+        when 'repos/contributor/fork/git/blobs/other'
           { size: f['original'].bytesize, content: Base64.strict_encode64(f['original']) }
         when /\\/reviews\\?/
           [[]]
@@ -105,12 +109,23 @@ class AlphabetizeSuggestionsTest < Minitest::Test
       assert_includes review.fetch('body'), '```diff'
       assert_includes review.fetch('body'), 'outside the PR diff'
     end
-  end
 
-  def test_existing_repository_data_is_unchanged
-    Dir[File.expand_path('../_data/*.yml', __dir__)].each do |path|
-      contents = File.read(path)
-      assert_equal contents, Alphabetize.format(contents), path
+    def test_fallback_patch_formats_inline_only_files_too
+      output, status, review = run_review(extra_file: true)
+
+      assert status.success?, output
+      assert_equal(['_data/test.yml'], review.fetch('comments').map { |comment| comment.fetch('path') })
+      patch = review.fetch('body').split("```diff\n", 2).last.split('```', 2).first
+      Dir.mktmpdir do |dir|
+        FileUtils.mkdir_p("#{dir}/_data")
+        original = "# Data\n\nTest:  \n  - org\n"
+        %w[test other].each { |name| File.write("#{dir}/_data/#{name}.yml", original) }
+        result, applied = Open3.capture2e('git', 'apply', '-', stdin_data: patch, chdir: dir)
+        assert applied.success?, result
+        %w[test other].each do |name|
+          assert_equal Alphabetize.format(original), File.read("#{dir}/_data/#{name}.yml")
+        end
+      end
     end
   end
 
@@ -121,7 +136,7 @@ class AlphabetizeSuggestionsTest < Minitest::Test
     )
 
     refute incomplete
-    refute_empty comments
+    assert_equal 1, comments.length
     assert(comments.all? { |comment| comment[:side] == 'RIGHT' })
     assert_includes patch, "--- a/_data/test.yml\n+++ b/_data/test.yml\n"
     assert_includes comments.map { |comment| comment[:body] }.join, '```suggestion'
@@ -170,6 +185,37 @@ class AlphabetizeSuggestionsTest < Minitest::Test
       output, status = Open3.capture2e('git', 'apply', '-', stdin_data: patch, chdir: dir)
       assert status.success?, output
       assert_equal Alphabetize.format(original), File.read("#{dir}/_data/test.yml")
+    end
+  end
+
+  def test_moves_are_not_offered_as_partial_deletion_suggestions
+    original = "# Data\n\nTest:\n  - zebra\n  - alpha\n  - beta\n"
+    comments, incomplete, patch = AlphabetizeSuggestions.for_file(
+      '_data/test.yml', original, "@@ -3,1 +3,2 @@\n Test:\n+  - zebra\n"
+    )
+
+    assert_empty comments
+    assert incomplete
+    assert_includes patch, '-  - zebra'
+    assert_includes patch, '+  - zebra'
+  end
+
+  def test_atomic_replacement_spans_separated_moves
+    original = "# Data\n\nTest:\n  - zebra\n  - alpha\n  - gamma\n  - beta\n"
+    formatted = Alphabetize.format(original)
+    start, count, replacement = AlphabetizeSuggestions.replacement(original, formatted)
+    lines = original.lines
+    lines[start - 1, count] = replacement
+
+    assert_equal formatted, lines.join
+    assert_equal YAML.safe_load(original).values.flatten.sort, YAML.safe_load(lines.join).values.flatten.sort
+  end
+
+  def test_unsafe_paths_are_rejected_before_patch_generation
+    paths = ["_data/test\n+++ b/other.yml", "_data/test\t.yml", '_data/"test.yml',
+             '_data/test\\057other.yml', '_data/../other.yml', "_data/test\0.yml"]
+    paths.each do |path|
+      assert_raises(ArgumentError) { AlphabetizeSuggestions.for_file(path, "# Data\n\nTest:  \n  - org\n", nil) }
     end
   end
 

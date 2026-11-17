@@ -3,27 +3,10 @@
 
 # Alphabetizes the content of all YAML files in the _data directory
 
-require 'open-uri'
-require 'json'
-require 'yaml'
+require_relative '../lib/alphabetize'
 
 files = Dir["#{File.expand_path('../_data/', File.dirname(__FILE__))}/*.yml"]
 
 files.each do |file|
-  contents = File.read(file)
-  comment = contents.lines.first
-
-  data = YAML.safe_load(contents)
-  data = data.sort_by { |k, _v| k.upcase }
-
-  output = {}
-  data.each do |key, value|
-    value = value.uniq.sort_by(&:upcase)
-    output[key] = value
-  end
-
-  # Add extra line break between groups, indent arrays, and strip header
-  formatted_output = comment + output.to_yaml.gsub(/^(.+?):$/, "\n\\1:").gsub(/^- /, '  - ').gsub(/\A---\n/m, '')
-
-  File.write(file, formatted_output)
+  File.write(file, Alphabetize.format(File.read(file)))
 end

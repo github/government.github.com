@@ -30,9 +30,14 @@ files.each do |file|
   path = file.fetch('filename')
   next unless path.match?(%r{\A_data/[^/]+\.yml\z}) && file.fetch('status') != 'removed'
 
-  blob = api("repos/#{pr.fetch('head').fetch('repo').fetch('full_name')}/git/blobs/#{file.fetch('sha')}")
+  abort 'Unsafe organization data path' unless path.match?(%r{\A_data/[A-Za-z0-9_-]+\.yml\z})
+  head_repo = pr.fetch('head').fetch('repo').fetch('full_name')
+  pinned = api("repos/#{head_repo}/contents/#{path}?ref=#{head}")
+  abort "Pull request file changed during formatting: #{path}; wait for its next run." unless pinned.fetch('sha') == file.fetch('sha')
+  blob = api("repos/#{head_repo}/git/blobs/#{file.fetch('sha')}")
   abort "Organization data is too large: #{path}" if blob.fetch('size') > 1_000_000
-  original = Base64.strict_decode64(blob.fetch('content').delete("\n"))
+  original = Base64.strict_decode64(blob.fetch('content').delete("\n")).force_encoding(Encoding::UTF_8)
+  abort "Organization data is not valid UTF-8: #{path}" unless original.valid_encoding?
   suggestions, partial, patch = AlphabetizeSuggestions.for_file(path, original, file['patch'])
   patches << patch unless patch.empty?
   incomplete ||= partial

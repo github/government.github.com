@@ -16,13 +16,14 @@ class AlphabetizeSuggestionsTest < Minitest::Test
     assert_equal expected, Alphabetize.format(expected)
   end
 
-  class AlphabetizeReviewTest < Minitest::Test
-    def run_review(existing: false, stale: false, extra_file: false, patch: "@@ -1,3 +1,3 @@\n # Data\n \n+Test:  \n")
+  module ReviewFixtures
+    def run_review(existing: false, stale: false, extra_file: false, patch: "@@ -1,3 +1,3 @@\n # Data\n \n+Test:  \n", **options)
       Dir.mktmpdir do |dir|
-        original = "# Data\n\nTest:  \n  - org\n"
+        original = options.fetch(:original, "# Data\n\nTest:  \n  - org\n")
         fixture = {
           'repo' => 'example/repo', 'existing' => existing, 'stale' => stale,
-          'original' => original, 'patch' => patch, 'extra_file' => extra_file
+          'original' => original, 'patch' => patch, 'extra_file' => extra_file,
+          'mismatched_blob' => options.fetch(:mismatched_blob, false)
         }
         File.write("#{dir}/fixture.json", JSON.generate(fixture))
         write_github_stub(dir)
@@ -59,6 +60,10 @@ class AlphabetizeSuggestionsTest < Minitest::Test
         when /\\/comments\\?/
           comments = AlphabetizeSuggestions.for_file('_data/test.yml', f['original'], f['patch']).first
           [f['existing'] ? comments.map { |c| { user: { login: 'github-actions[bot]' }, commit_id: 'head', body: c[:body] } } : []]
+        when 'repos/contributor/fork/contents/_data/test.yml?ref=head'
+          { sha: f['mismatched_blob'] ? 'different-blob' : 'blob' }
+        when 'repos/contributor/fork/contents/_data/other.yml?ref=head'
+          { sha: 'other' }
         when 'repos/contributor/fork/git/blobs/blob'
           { size: f['original'].bytesize, content: Base64.strict_encode64(f['original']) }
         when 'repos/contributor/fork/git/blobs/other'
@@ -75,6 +80,10 @@ class AlphabetizeSuggestionsTest < Minitest::Test
       RUBY
       FileUtils.chmod(0o755, "#{dir}/gh")
     end
+  end
+
+  class AlphabetizeReviewTest < Minitest::Test
+    include ReviewFixtures
 
     def test_posts_review_on_exact_head_commit
       output, status, review = run_review
@@ -99,6 +108,30 @@ class AlphabetizeSuggestionsTest < Minitest::Test
       refute status.success?, output
       assert_nil review
       assert_includes output, 'Pull request changed'
+    end
+
+    def test_rejects_file_from_a_transient_head_even_if_head_returns_to_original
+      output, status, review = run_review(mismatched_blob: true)
+
+      refute status.success?, output
+      assert_nil review
+      assert_includes output, 'Pull request file changed during formatting'
+    end
+
+    def test_canonical_non_ascii_yaml_does_not_produce_suggestions_or_fallback
+      original = "# Data\n\nC\u00f4te:\n  - org\n"
+      output, status, review = run_review(original: original, patch: nil)
+
+      assert status.success?, output
+      assert_nil review
+      assert_includes output, 'No new inline formatting suggestions'
+    end
+
+    def test_non_ascii_names_are_preserved_in_real_corrections
+      output, status, review = run_review(original: "# Data\n\nC\u00f4te:  \n  - org\n")
+
+      assert status.success?, output
+      assert_includes review.fetch('comments').first.fetch('body'), "C\u00f4te:\n"
     end
 
     def test_posts_patch_when_inline_comments_are_impossible
